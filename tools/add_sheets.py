@@ -8,14 +8,16 @@ Drop files in incoming/ using either layout, then run:  python3 tools/add_sheets
 
 Kinds: turnaround, face, costume, props, palette, pose, portrait, other (default: sheet).
 Per file it writes media/characters/<id>/<name>.webp (long edge 2000px) and a thumbnail, moves the untouched
-original to archive/sheet-originals/<id>/, and adds a row to data/sheets.json. Use --dry-run to preview.
-Files whose id is unknown are left in incoming/.
+original to archive/sheet-originals/<id>/, and adds an `image` row under that person in data/assam_history.csv.
+Use --dry-run to preview. Files whose id is unknown are left in incoming/.
 """
 import argparse, datetime, hashlib, re, shutil, subprocess, sys
 from PIL import Image, ImageOps
-from common import ROOT, ARCHIVE, CHAR_MEDIA, FULL_KINDS, PORTRAIT_KINDS, load_characters, load_sheets, save_sheets, thumb_of
+from build import ROOT, FULL_KINDS, read_rows, write_rows
 
-KINDS = FULL_KINDS | PORTRAIT_KINDS | {"other"}
+KINDS = FULL_KINDS | {"portrait", "pose", "other"}
+ARCHIVE = ROOT / "archive"
+thumb_of = lambda f: "{0}/thumb/{1}".format(*f.rsplit("/", 1))
 EXT = {".png", ".jpg", ".jpeg", ".webp"}
 MAX_EDGE, THUMB_W = 2000, 640
 
@@ -46,17 +48,16 @@ def make_webp(im_path, out_file):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--dry-run", action="store_true"); a = ap.parse_args()
-    ids = {c["id"] for c in load_characters()["characters"]}
-    rows = load_sheets(); added = skipped = 0
+    rows = read_rows(); added = skipped = 0
+    ids = {r["id"] for r in rows if r["type"] == "person"}
     for cid, kind, src in discover():
         if cid not in ids:
-            print(f"SKIP  {src.name}: no character with id '{cid}' (check data/characters.json)"); skipped += 1; continue
+            print(f"SKIP  {src.name}: no character with id '{cid}' (check the person rows in data/assam_history.csv)"); skipped += 1; continue
         if kind not in KINDS: kind = "other"
         digest = hashlib.sha256(src.read_bytes()).hexdigest()
-        if any(r["char"] == cid and r["sha256"] == digest for r in rows):
-            print(f"SKIP  {src.name}: already added to {cid}"); skipped += 1; continue
-        n = sum(1 for r in rows if r["char"] == cid and r["kind"] == kind) + 1
-        out = f"{CHAR_MEDIA}/{cid}/{kind}-{n}.webp"
+        n = 1
+        while (ROOT / f"media/characters/{cid}/{kind}-{n}.webp").exists() or any(r["file"] == f"media/characters/{cid}/{kind}-{n}.webp" for r in rows): n += 1
+        out = f"media/characters/{cid}/{kind}-{n}.webp"
         print(f"ADD   {cid}: {src.name} -> {out}")
         if a.dry_run: added += 1; continue
         w, h = make_webp(src, out)
@@ -64,10 +65,12 @@ def main():
         dest = keep / src.name
         if dest.exists(): dest = keep / f"{digest[:8]}-{src.name}"
         shutil.move(str(src), dest)
-        rows.append(dict(char=cid, kind=kind, file=out, w=w, h=h, sha256=digest, added=datetime.date.today().isoformat()))
+        at = max(i for i, r in enumerate(rows) if r["id"] == cid or (r["type"] == "image" and r["person"] == cid)) + 1
+        rows.insert(at, dict(type="image", id=f"{cid}-{kind}-{n}", person=cid, kind=kind, file=out, thumbnail=thumb_of(out),
+                             width=w, height=h, added=datetime.date.today().isoformat()))
         added += 1
     if added and not a.dry_run:
-        save_sheets(rows)
+        write_rows(rows)
         for d in sorted((ROOT / "incoming").glob("*/")):
             if d.is_dir() and not any(d.iterdir()): d.rmdir()
         subprocess.run([sys.executable, str(ROOT / "tools/build.py")], check=True)
