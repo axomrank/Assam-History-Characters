@@ -3958,6 +3958,14 @@
          "thumbnail": "media/characters/sukaphaa/thumb/pose-4.webp",
          "width": 1024,
          "height": 1536
+        },
+        {
+         "kind": "portrait",
+         "caption": "Chaolung Sukaphaa Seated with Sword and Gold Lion",
+         "image": "media/characters/sukaphaa/portrait-2.webp",
+         "thumbnail": "media/characters/sukaphaa/thumb/portrait-2.webp",
+         "width": 732,
+         "height": 1080
         }
        ],
        "events": [
