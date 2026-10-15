@@ -16,6 +16,28 @@ const withSheets = c => lvl(c) >= 2;
 const hasSheet = c => lvl(c) === 3;
 const srcOf = idx => (idx || []).map(i => S.src[i]);
 const coverRank = k => ({ turnaround: 0, sheet: 1, face: 2, portrait: 3 }[k] ?? 4);
+/* One colour per dynasty or house, used everywhere a person appears. Colours live in app.css (.h-<key>). */
+const HOUSES = [
+  ['varman', 'Varman dynasty', ['Barman dynasty']],
+  ['salastambha', 'Mlechchha (Salastambha) dynasty', ['Salastambha dynasty']],
+  ['pala', 'Pala dynasty of Kamarupa and its successors', ['Pala dynasty', 'Kamarupa after the Palas']],
+  ['kamata', 'Kamata and Khen', ['Kamata and Khen kingdoms']],
+  ['bhuyan', 'Baro-Bhuyans', ['Baro-Bhuyans']],
+  ['koch', 'Koch, all branches', ['Koch kingdom (undivided)', 'Koch Hajo kings', 'Koch Bihar kings', 'Darrang kings', 'Beltola kings', 'Bijni kings', 'Khaspur kings']],
+  ['ahom', 'Ahom', ['Ahom kings', 'Ahom queens and royal family', 'Ahom officers and generals', 'Moamoria rebels']],
+  ['chutia', 'Chutia', ['Chutia kingdom']],
+  ['dimasa', 'Dimasa (Kachari)', ['Dimasa (Kachari) kingdom']],
+  ['hill', 'Jaintia and Manipur', ['Jaintia and Manipur']],
+  ['foreign', 'Outside powers: Bengal, Delhi, Mughal, Burmese, British', ['Pala Empire of Bengal', 'Bengal and Delhi rulers', 'Mughal and Bengal commanders', 'Burmese and British figures', 'Contemporaries and visitors']],
+  ['culture', 'Saints, poets and legends', ['Poets and writers', 'Saints of the bhakti movement', 'Legends']],
+  ['colonial', 'Colonial Assam', []],
+  ['modern', 'Assam since independence', []],
+];
+const houseOfGroup = Object.fromEntries(HOUSES.flatMap(([k, , gs]) => gs.map(g => [g, k])));
+const house = c => houseOfGroup[c.group || c.dynasty] || (c.era === 'colonial' || c.era === 'modern' ? c.era : '');
+const houseLabel = Object.fromEntries(HOUSES.map(([k, l]) => [k, l]));
+const hc = k => k ? `hh h-${k}` : '';
+const houseKey = () => `<ul class="hkey" aria-label="Dynasty colours">${HOUSES.map(([k, l]) => `<li class="${hc(k)}"><i class="sw"></i>${esc(l)}</li>`).join('')}</ul>`;
 
 /* ---------- language ---------- */
 const STR = {
@@ -108,14 +130,15 @@ function charCard(c) {
   const s = [...c.sheets].sort((a, b) => coverRank(a.kind) - coverRank(b.kind))[0];
   const sc = !s && c.mainScenes.length ? sceneById[c.mainScenes[0]] : null;
   const [tag, tone] = availTag(c);
-  return `<li><a class="card" href="#/c/${esc(c.id)}">
+  return `<li><a class="card ${hc(house(c))}" href="#/c/${esc(c.id)}">
     <div class="media ${sc ? 'photo' : ''}">${s ? `<img src="${url(s.thumb)}" alt="Character sheet of ${esc(c.name)}" loading="lazy" decoding="async">` : sc ? `<img src="${url(sc.thumbnail)}" alt="Scene: ${esc(sc.event)}" loading="lazy" decoding="async">` : `<span class="ph" aria-hidden="true">${esc([...nm(c)][0])}</span>`}</div>
     <div class="body"><h3>${esc(nm(c))}</h3>${nm2(c) ? `<span class="as">${esc(nm2(c))}</span>` : ''}
     <span class="meta">${esc(c.label)}</span>${c.ahom_no ? `<span class="meta">Ahom king no. ${c.ahom_no.join(' and ')}${c.tai_name && c.tai_name !== c.name ? `, Tai name ${esc(c.tai_name)}` : ''}</span>` : c.koch_no ? `<span class="meta">${esc(c.koch_branch)} no. ${c.koch_no}</span>` : ''}
     <span class="tag ${tone}">${esc(tag)}</span></div></a></li>`;
 }
 function sceneBtn(s) {
-  return `<li><button type="button" class="scene" data-scene="${esc(s.id)}"><img src="${url(s.thumbnail)}" alt="${esc(s.event)}" loading="lazy" decoding="async"><span><b>${esc(s.event)}</b><small>${esc(s.date_label)}</small></span></button></li>`;
+  const sc = s.main[0] || s.chars[0], hk = sc && charById[sc] ? house(charById[sc]) : '';
+  return `<li><button type="button" class="scene ${hc(hk)}" data-scene="${esc(s.id)}"><img src="${url(s.thumbnail)}" alt="${esc(s.event)}" loading="lazy" decoding="async"><span><b>${esc(s.event)}</b><small>${esc(s.date_label)}</small></span></button></li>`;
 }
 
 /* ---------- views ---------- */
@@ -124,7 +147,7 @@ function viewHome() {
   const ribbon = S.eras.map(e => {
     const cs = chars.filter(c => c.era === e.id), h = cs.filter(withSheets).length;
     return `<li class="seg"><h3><a href="#/characters?era=${e.id}">${esc(eraName(e))}</a></h3><span class="yrs">${esc(e.label)}</span>
-      <ul class="dots" aria-label="${esc(eraName(e))}: ${h} of ${cs.length} with a sheet">${cs.map(c => `<li><a class="dot ${dotCls(c)}" href="#/c/${esc(c.id)}" data-tip="${esc(dotTip(c))}" aria-label="${esc(dotTip(c))}"></a></li>`).join('')}</ul></li>`;
+      <ul class="dots" aria-label="${esc(eraName(e))}: ${h} of ${cs.length} with a sheet">${cs.map(c => `<li><a class="dot ${dotCls(c)} ${hc(house(c))}" href="#/c/${esc(c.id)}" data-tip="${esc(dotTip(c))}" aria-label="${esc(dotTip(c))}"></a></li>`).join('')}</ul></li>`;
   }).join('');
   const recent = chars.filter(withSheets).sort((a, b) => b.sheets.at(-1).added.localeCompare(a.sheets.at(-1).added)).slice(0, 8);
   const step = Math.max(1, Math.floor(S.scenes.length / 8)), teaser = S.scenes.filter((_, i) => i % step === 0).slice(0, 8);
@@ -134,6 +157,7 @@ function viewHome() {
     <div class="progress"><strong>${have} ${esc(t('ofTotal'))} ${total}</strong><span>${esc(t('haveSheets'))}, ${esc(t('scenesOnlyMore', sceneOnly))}</span><div class="bar" role="img" aria-label="${have} of ${total}"><i style="width:${total ? 100 * have / total : 0}%"></i></div></div>
     <ol class="ribbon" style="--n:${S.eras.length}">${ribbon}</ol>
     <div class="legend"><span><span class="dot has"></span>${esc(t('hasLegend'))} (${nFull})</span><span><span class="dot part"></span>${esc(t('partLegend'))} (${have - nFull})</span><span><span class="dot scene"></span>${esc(t('scenesLegend'))} (${sceneOnly})</span><span><span class="dot"></span>${esc(t('needLegend'))} (${total - have - sceneOnly})</span></div>
+    ${houseKey()}
     <section class="section"><div class="row"><h2>${esc(t('recent'))}</h2></div>
       ${recent.length ? `<ul class="grid">${recent.map(charCard).join('')}</ul>` : `<div class="empty"><strong>${esc(t('recentEmpty'))}</strong>${esc(t('recentEmptyBody'))}</div>`}</section>
     <section class="section"><div class="row"><h2>${esc(t('sceneTeaser'))}</h2><a href="#/scenes">${esc(t('allScenes'))}</a></div><ul class="grid">${teaser.map(sceneBtn).join('')}</ul></section>`;
@@ -142,7 +166,7 @@ function viewHome() {
 function viewCharacters(q) {
   const st = { q: q.get('q') || '', era: q.get('era') || '', grp: q.get('grp') || '', av: q.get('av') || '' };
   const groups = [...new Set(chars.map(c => c.group || c.dynasty).filter(Boolean))].sort((a, b) => a.localeCompare(b));
-  const html = `<div class="page-head"><h1>${esc(t('characters'))}</h1></div>
+  const html = `<div class="page-head"><h1>${esc(t('characters'))}</h1></div>${houseKey()}
     <div class="filters" role="search">
       <input type="search" id="fq" placeholder="${esc(t('search'))}" aria-label="${esc(t('search'))}" value="${esc(st.q)}">
       <select id="fe" aria-label="${esc(t('era') || 'Era')}"><option value="">${esc(t('allEras'))}</option>${S.eras.map(e => `<option value="${e.id}" ${st.era === e.id ? 'selected' : ''}>${esc(eraName(e))}</option>`).join('')}</select>
@@ -186,7 +210,7 @@ function dynGroups(cs, e) {
   if (names.length < 2) return `<ul class="grid">${cs.map(charCard).join('')}</ul>`;
   return names.map(n => {
     const g = cs.filter(c => (c.group || c.dynasty) === n), ys = g.flatMap(c => [c.reign_start, c.reign_end]).filter(Number.isFinite);
-    return `<div class="dyn"><h3>${esc(n)}${ys.length ? ` <span class="yrs">${Math.min(...ys)}\u2013${Math.max(...ys)} CE</span>` : ''}</h3><ul class="grid">${g.map(charCard).join('')}</ul></div>`;
+    return `<div class="dyn"><h3 class="${hc(houseOfGroup[n])}"><i class="sw"></i>${esc(n)}${ys.length ? ` <span class="yrs">${Math.min(...ys)}\u2013${Math.max(...ys)} CE</span>` : ''}</h3><ul class="grid">${g.map(charCard).join('')}</ul></div>`;
   }).join('') + (() => { const o = cs.filter(c => !(c.group || c.dynasty)); return o.length ? `<div class="dyn"><ul class="grid">${o.map(charCard).join('')}</ul></div>` : ''; })();
 }
 
@@ -209,12 +233,12 @@ function viewCharacter(id, q) {
   const mainSc = c.mainScenes.map(x => sceneById[x]), otherSc = c.scenes.filter(x => !c.mainScenes.includes(x)).map(x => sceneById[x]);
   return `<nav class="crumb" aria-label="Breadcrumb"><a href="#/characters">${esc(t('back'))}</a>
       <span>${prev ? `<a href="#/c/${prev.id}">‹ ${esc(nm(prev))}</a>` : ''}${prev && next ? '&nbsp;&nbsp;&nbsp;' : ''}${next ? `<a href="#/c/${next.id}">${esc(nm(next))} ›</a>` : ''}</span></nav>
-    <header class="chead"><h1>${esc(nm(c))}</h1>${nm2(c) ? `<div class="as">${esc(nm2(c))}</div>` : ''}
-      <div class="facts"><span><b>${esc(c.label)}</b></span><span>${esc(c.role)}</span><span><a href="#/characters?era=${c.era}">${esc(eraName(e))}</a></span>
+    <header class="chead ${hc(house(c))}"><h1>${esc(nm(c))}</h1>${nm2(c) ? `<div class="as">${esc(nm2(c))}</div>` : ''}
+      <div class="facts"><span><b>${esc(c.label)}</b></span><span>${esc(c.role)}</span><span><a href="#/characters?era=${c.era}">${esc(eraName(e))}</a></span>${house(c) ? `<span class="hchip"><i class="sw"></i>${esc(c.group || c.dynasty || houseLabel[house(c)])}</span>` : ''}
       ${c.consort || c.marital ? `<span>${esc(t(c.consort ? 'consort' : 'marital'))}: ${esc(c.consort || c.marital)}</span>` : ''}
       ${c.status === 'researched' ? `<span class="badge ${c.confidence === 'high' ? '' : 'warn'}" title="${esc(t('conf' + cap(c.confidence) + 'Note'))}">${esc(t('conf'))}: ${esc(t('conf' + cap(c.confidence)))}</span>` : c.status === 'seed' || c.approx ? `<span class="badge warn" title="${esc(t(c.status === 'csv' ? 'approxCsv' : 'approxNote'))}">${esc(t('approx'))}</span>` : ''}</div>${(c.tai_name || c.hindu_name || c.nicknames || c.relation) ? `<dl class="names">${c.ahom_no ? `<div><dt>Ahom king</dt><dd>No. ${c.ahom_no.join(' and ')} of 41 reigns</dd></div>` : ''}${c.koch_no ? `<div><dt>${esc(c.koch_branch)}</dt><dd>No. ${c.koch_no}</dd></div>` : ''}${c.tai_name ? `<div><dt>Tai name</dt><dd>${esc(c.tai_name)}</dd></div>` : ''}${c.hindu_name ? `<div><dt>Hindu name</dt><dd>${esc(c.hindu_name)}</dd></div>` : ''}${c.nicknames ? `<div><dt>Also called</dt><dd>${esc(c.nicknames)}</dd></div>` : ''}${c.relation ? `<div><dt>Relation</dt><dd>${esc(c.relation)}</dd></div>` : ''}${c.fate ? `<div><dt>How it ended</dt><dd>${esc(c.fate)}</dd></div>` : ''}</dl>` : ''}${c.alt_names ? `<p class="alt">${esc(t('alsoKnown'))}: ${esc(c.alt_names)}</p>` : ''}</header>
     <div class="stage"><div>
-      <div class="sheetview" id="sheetview">${sheetViewHTML(c)}</div>
+      <div class="sheetview ${hc(house(c))}" id="sheetview">${sheetViewHTML(c)}</div>
     </div>
     <aside class="side"><section><p>${esc(c.summary)}</p>${c.status === 'csv' || c.status === 'researched' ? `<h2>${esc(t('events'))}</h2><p>${c.notes ? esc(c.notes) : `<span class="none">${esc(t('noEvents'))}</span>`}</p>${srcList(c)}` : ''}<h2>${esc(t('refNotes'))}</h2>
       ${notes.length ? `<dl class="notes">${notes.map(([k, l]) => `<dt>${esc(l)}</dt><dd>${esc(b[k])}</dd>`).join('')}</dl>` : `<p class="notes"><span class="none">${esc(t('notesEmpty'))}</span></p>`}
@@ -258,7 +282,7 @@ function viewScenes(q) {
 function viewCoverage() {
   const missing = chars.filter(c => !withSheets(c));
   const rows = S.eras.map(e => `<tr><th colspan="5" scope="colgroup">${esc(eraName(e))} <span class="badge">${esc(e.label)}</span></th></tr>` +
-    chars.filter(c => c.era === e.id).map(c => `<tr><td><a href="#/c/${c.id}">${esc(c.name)}</a></td><td><code>${esc(c.id)}</code></td><td>${lvl(c) >= 2 ? esc(availText(c)) : `<span style="color:${lvl(c) ? 'var(--river)' : 'var(--warn)'}">${esc(availText(c))}</span>`}</td><td>${esc(c.label)}</td><td>${esc(c.confidence || '')}</td></tr>`).join('')).join('');
+    chars.filter(c => c.era === e.id).map(c => `<tr><td class="${hc(house(c))}"><i class="sw"></i><a href="#/c/${c.id}">${esc(c.name)}</a></td><td><code>${esc(c.id)}</code></td><td>${lvl(c) >= 2 ? esc(availText(c)) : `<span style="color:${lvl(c) ? 'var(--river)' : 'var(--warn)'}">${esc(availText(c))}</span>`}</td><td>${esc(c.label)}</td><td>${esc(c.confidence || '')}</td></tr>`).join('')).join('');
   return `<div class="page-head"><h1>${esc(t('covTitle'))}</h1><p>${esc(t('covLede'))} ${chars.length - missing.length} of ${chars.length} characters have a portrait or sheet, and ${chars.filter(c => lvl(c) === 1).length} more appear only in scenes. The Images column reads: sheets, portraits, then scenes where the person is the main figure and scenes where they only appear.</p></div>
     <p><button type="button" id="copyMissing">${esc(t('copyMissing'))}</button></p>
     <div style="overflow-x:auto"><table class="cov"><thead><tr><th>${esc(t('characters'))}</th><th>${esc(t('folder'))}</th><th>${esc(t('imagesCol'))}</th><th>Dates</th><th>${esc(t('conf'))}</th></tr></thead><tbody>${rows}</tbody></table></div>`;
@@ -319,7 +343,7 @@ function viewKings(which) {
     rows.sort((a, b) => a[0] - b[0]);
     const body = rows.map(([n, c]) => `<tr><td>${n}</td><td>${c.tai_name ? esc(c.tai_name) : '<span class="none">not recorded</span>'}</td><td>${kcell(c)}</td><td>${esc(c.nicknames || '')}</td><td>${esc(AHOM_REIGN[n] || c.label.replace(/ CE$/, ''))}</td><td>${esc(c.relation || '')}</td><td>${esc(c.fate || '')}</td></tr>${GAPS[n] ? `<tr class="gap"><td></td><td colspan="6">${esc(GAPS[n][0])}, ${esc(GAPS[n][1])}</td></tr>` : ''}`).join('');
     return `<div class="page-head"><h1>${esc(t('kings'))}</h1><p>The Ahom period is kept on its own. All 41 Ahom reigns from 1228 to 1838, by 39 kings: Chandrakanta Singha and Purandar Singha each reigned twice. Tai names come first; most kings after 1603 also took a Hindu name ending in Singha.</p></div>${tabs}
-      <div class="tablewrap"><table class="cov kings"><thead><tr><th>No.</th><th>Tai name</th><th>Name used here</th><th>Also called</th><th>Reign</th><th>Relation</th><th>How the reign ended</th></tr></thead><tbody>${body}</tbody></table></div>
+      <div class="tablewrap"><table class="cov kings hh h-ahom"><thead><tr><th>No.</th><th>Tai name</th><th>Name used here</th><th>Also called</th><th>Reign</th><th>Relation</th><th>How the reign ended</th></tr></thead><tbody>${body}</tbody></table></div>
       <p class="srcline">Source: Wikipedia, Ahom dynasty (king list), cross-checked against Ahom kingdom and the individual king articles. Spellings of Tai names vary between sources.</p>`;
   }
   const note = { 'Kamarupa after the Palas': 'The successors of the Pala kings, c. 1100–1228, in several regions: the west under Bengal’s Palas, a lunar dynasty on the north bank, and Prithu.', 'Kamata and Khen kingdoms': 'The Kamata kingdom founded by Sandhya after 1228 and the Khen dynasty (1440–1498). Dates are later reconstructions and sources differ.', 'Baro-Bhuyans': 'The Bhuyan chiefs who held power between the Khen and the Koch, and ended Sultanate rule around 1510.',
@@ -330,7 +354,7 @@ function viewKings(which) {
   const sect = groups.map(b => {
     const list = chars.filter(c => (c.group || c.dynasty) === b).sort((a, c) => (a.koch_no || 0) - (c.koch_no || 0) || a.sort_year - c.sort_year);
     if (!list.length) return '';
-    return `<section class="section"><div class="row"><h2>${esc(b)}</h2></div><p class="muted">${esc(note[b] || '')}</p><div class="tablewrap"><table class="cov"><thead><tr><th>No.</th><th>Name</th><th>Reign</th><th>Role or relation</th><th>${esc(t('conf'))}</th></tr></thead><tbody>${list.map(c => `<tr><td>${c.koch_no || ''}</td><td>${kcell(c)}</td><td>${esc(c.label.replace(/ CE$/, ''))}</td><td>${esc(c.relation || c.role || '')}</td><td>${esc(c.confidence || '')}</td></tr>`).join('')}</tbody></table></div></section>`;
+    return `<section class="section"><div class="row"><h2 class="${hc(houseOfGroup[b])}"><i class="sw"></i>${esc(b)}</h2></div><p class="muted">${esc(note[b] || '')}</p><div class="tablewrap"><table class="cov ${hc(houseOfGroup[b])}"><thead><tr><th>No.</th><th>Name</th><th>Reign</th><th>Role or relation</th><th>${esc(t('conf'))}</th></tr></thead><tbody>${list.map(c => `<tr><td>${c.koch_no || ''}</td><td>${kcell(c)}</td><td>${esc(c.label.replace(/ CE$/, ''))}</td><td>${esc(c.relation || c.role || '')}</td><td>${esc(c.confidence || '')}</td></tr>`).join('')}</tbody></table></div></section>`;
   }).join('');
   return `<div class="page-head"><h1>${esc(t('kings'))}</h1><p>${esc(lead)}</p></div>${tabs}${sect}`;
 }
@@ -338,14 +362,14 @@ function viewKings(which) {
 /* ---------- timeline: who ruled where, 1100 to 1545 ---------- */
 const TL = { from: 1100, to: 1545 };
 const LANES = [
-  ['West: Kamarupa after the Palas', ['Pala dynasty', 'Kamarupa after the Palas'], 'lane-k'],
-  ['West: Kamata and Khen', ['Kamata and Khen kingdoms'], 'lane-m'],
-  ['West: Baro-Bhuyans', ['Baro-Bhuyans'], 'lane-y'],
-  ['West: Koch', ['Koch kingdom (undivided)'], 'lane-o'],
-  ['Bengal and Delhi', ['Pala Empire of Bengal', 'Bengal and Delhi rulers'], 'lane-b'],
-  ['Chutia', ['Chutia kingdom'], 'lane-c'],
-  ['Dimasa and Barahi', ['Dimasa (Kachari) kingdom'], 'lane-d'],
-  ['Ahom', ['Ahom kings'], 'lane-a'],
+  ['West: Kamarupa after the Palas', ['Pala dynasty', 'Kamarupa after the Palas'], 'pala'],
+  ['West: Kamata and Khen', ['Kamata and Khen kingdoms'], 'kamata'],
+  ['West: Baro-Bhuyans', ['Baro-Bhuyans'], 'bhuyan'],
+  ['West: Koch', ['Koch kingdom (undivided)'], 'koch'],
+  ['Bengal and Delhi', ['Pala Empire of Bengal', 'Bengal and Delhi rulers'], 'foreign'],
+  ['Chutia', ['Chutia kingdom'], 'chutia'],
+  ['Dimasa and Barahi', ['Dimasa (Kachari) kingdom'], 'dimasa'],
+  ['Ahom', ['Ahom kings'], 'ahom'],
 ];
 function viewTimeline() {
   const span = TL.to - TL.from, pct = y => 100 * (Math.min(Math.max(y, TL.from), TL.to) - TL.from) / span;
@@ -359,7 +383,7 @@ function viewTimeline() {
       if (r < 0) { r = rows.length; rows.push(0); } rows[r] = end; return [c, r, end];
     });
     const bars = placed.map(([c, r, end]) => `<a class="tbar ${c.confidence === 'low' ? 'low' : ''}" href="#/c/${esc(c.id)}" style="left:${pct(c.reign_start)}%;width:${Math.max(0.5, pct(end) - pct(c.reign_start))}%;top:${r * 28 + 4}px" title="${esc(c.name)}, ${esc(c.label)}"><span>${esc(c.name.replace(/ \(.*\)$/, ''))}</span></a>`).join('');
-    return `<div class="lane ${cls}"><div class="lname">${esc(name)}</div><div class="lbars" style="height:${Math.max(1, rows.length) * 28 + 8}px">${bars}</div></div>`;
+    return `<div class="lane ${hc(cls)}"><div class="lname">${esc(name)}</div><div class="lbars" style="height:${Math.max(1, rows.length) * 28 + 8}px">${bars}</div></div>`;
   }).join('');
   const grid = ticks.map(y => `<i style="left:${pct(y)}%"><b>${y % 100 === 0 ? y : ''}</b></i>`).join('');
   const yr = e => e.end && e.end !== e.year ? `${e.year}–${String(e.end).length === 4 && String(e.end).slice(0, 2) === String(e.year).slice(0, 2) ? String(e.end).slice(2) : e.end}` : String(e.year);

@@ -6,6 +6,7 @@
   --paper:#e9e1cc;--leaf:#f2ecdc;--leaf2:#e1d7bd;--line:#cdbf9f;
   --ink:#241c13;--muted:#6a5c48;--hengul:#a3301c;--haital:#b8891f;--river:#2f5d62;
   --on-ink:#f2ecdc;--focus:#a3301c;
+  --mixw:0%;--on-dyn:#fff;--dc:var(--muted);
   --serif:"Tiro Bangla","Noto Serif Bengali","Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Nirmala UI",serif;
   --ui:"Tiro Bangla","Noto Serif Bengali",Georgia,serif;
   --r:3px;--gut:clamp(16px,4.5vw,48px);--max:1200px;
@@ -14,11 +15,11 @@
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){
   --paper:#16120d;--leaf:#1f1a13;--leaf2:#2a231a;--line:#3e3426;
   --ink:#ebe1cb;--muted:#a8997e;--hengul:#e2694f;--haital:#d7ad4c;--river:#8fbcbf;
-  --on-ink:#16120d;--focus:#e2694f;color-scheme:dark}}
+  --on-ink:#16120d;--focus:#e2694f;--mixw:30%;--on-dyn:#16120d;color-scheme:dark}}
 :root[data-theme=dark]{
   --paper:#16120d;--leaf:#1f1a13;--leaf2:#2a231a;--line:#3e3426;
   --ink:#ebe1cb;--muted:#a8997e;--hengul:#e2694f;--haital:#d7ad4c;--river:#8fbcbf;
-  --on-ink:#16120d;--focus:#e2694f;color-scheme:dark}
+  --on-ink:#16120d;--focus:#e2694f;--mixw:30%;--on-dyn:#16120d;color-scheme:dark}
 
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -90,9 +91,10 @@ main{max-width:var(--max);margin:0 auto;padding:0 var(--gut) 96px;outline:none}
 .seg .yrs{color:var(--muted);font-size:.85rem;font-style:italic}
 .dots{display:flex;flex-wrap:wrap;gap:5px;margin-top:14px;padding:0;list-style:none}
 .dot{display:block;width:11px;height:11px;border-radius:50%;border:1px solid color-mix(in srgb,var(--muted) 55%,transparent);background:transparent;position:relative}
-.dot.part{border-color:var(--haital);background:linear-gradient(90deg,var(--haital) 50%,transparent 50%)}
-.dot.has{background:var(--haital);border-color:var(--haital)}
-.dot.scene{border-color:var(--muted);background:radial-gradient(circle,var(--muted) 0 2px,transparent 2.5px)}
+.dot.hh{border-color:color-mix(in srgb,var(--dc) 60%,transparent)}
+.dot.part{border-color:var(--dc);background:linear-gradient(90deg,var(--dc) 50%,transparent 50%)}
+.dot.has{background:var(--dc);border-color:var(--dc)}
+.dot.scene{border-color:var(--dc);background:radial-gradient(circle,var(--dc) 0 2px,transparent 2.5px)}
 .dot:hover,.dot:focus-visible{transform:scale(1.5)}
 .dot[data-tip]:hover::after,.dot[data-tip]:focus-visible::after{content:attr(data-tip);position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%) scale(.667);transform-origin:bottom center;background:var(--ink);color:var(--on-ink);padding:5px 10px;border-radius:2px;font-size:1.2rem;white-space:nowrap;z-index:5;pointer-events:none}
 .legend{display:flex;flex-wrap:wrap;gap:8px 22px;color:var(--muted);font-size:.88rem;margin-top:10px}
@@ -249,12 +251,10 @@ dialog#viewer button:hover,dialog#viewer .btn:hover{border-color:#ebe1cb}
 .axisbars{height:30px}
 .axisbars i{position:absolute;top:0;bottom:0;border-left:1px solid var(--line)}
 .axisbars i b{font-weight:400;font-size:.8rem;color:var(--muted);position:absolute;top:6px;left:5px}
-.tbar{position:absolute;height:22px;border-radius:2px;background:var(--lane,var(--haital));color:#1d160e;font-size:.76rem;line-height:22px;padding:0 6px;overflow:hidden;white-space:nowrap;text-decoration:none;border:1px solid transparent;z-index:1}
+.tbar{position:absolute;height:22px;border-radius:2px;background:var(--dc);color:var(--on-dyn);font-size:.76rem;line-height:22px;padding:0 6px;overflow:hidden;white-space:nowrap;text-decoration:none;border:1px solid transparent;z-index:1}
 .tbar span{display:block;overflow:hidden;text-overflow:ellipsis}
 .tbar:hover,.tbar:focus-visible{z-index:5;overflow:visible;box-shadow:0 0 0 1px var(--ink)}
-.tbar.low{background:transparent;border:1px dashed var(--lane,var(--haital));color:var(--ink);line-height:20px}
-/* lanes in manuscript pigments: haital, hengul, indigo, lac, leaf, ochre, ash */
-.lane-k{--lane:#c9a35a}.lane-b{--lane:#a99e8c}.lane-m{--lane:#cf7a62}.lane-y{--lane:#a98bb0}.lane-c{--lane:#8fae86}.lane-d{--lane:#8aa3bf}.lane-a{--lane:#d9ae4c}.lane-o{--lane:#c48d5e}
+.tbar.low{background:transparent;border:1px dashed var(--dc);color:var(--ink);line-height:20px}
 .events{list-style:none;margin:0;padding:0;max-width:78ch}
 .events li{display:grid;grid-template-columns:110px 1fr;gap:20px;padding:22px 0;border-top:1px solid var(--line)}
 .events .ey{font-size:1.15rem;color:var(--hengul);font-variant-numeric:oldstyle-nums}
@@ -264,3 +264,25 @@ dialog#viewer button:hover,dialog#viewer .btn:hover{border-color:#ebe1cb}
 @media (max-width:640px){.events li{grid-template-columns:1fr;gap:4px}.lname{flex-basis:110px}}
 
 .blurb{color:var(--muted);max-width:70ch;margin:0 0 18px}
+
+/* ---------- dynasty colours: one per house, kept across every page ----------
+   Light values are dark enough to sit on the paper; dark mode lightens each one (--mixw). */
+.hh{--dc:color-mix(in oklab,var(--dyn),#fff var(--mixw))}
+.h-varman{--dyn:#9a2f3b}.h-salastambha{--dyn:#84552a}.h-pala{--dyn:#5f6e22}.h-kamata{--dyn:#763c72}
+.h-bhuyan{--dyn:#55636f}.h-koch{--dyn:#c0601a}.h-ahom{--dyn:#2b5ea7}.h-chutia{--dyn:#3a7a43}
+.h-dimasa{--dyn:#1f7d86}.h-hill{--dyn:#b0506b}.h-foreign{--dyn:#8a8275}.h-culture{--dyn:#6650a6}
+.h-colonial{--dyn:#6b4c36}.h-modern{--dyn:#3b4352}
+.sw{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--dc);margin-right:8px;vertical-align:.05em;flex:none}
+.hkey{display:flex;flex-wrap:wrap;gap:6px 20px;list-style:none;margin:18px 0 0;padding:0;color:var(--muted);font-size:.86rem}
+.hkey li{display:flex;align-items:center}
+.page-head+.hkey{margin:-8px 0 22px}
+.card.hh .media{box-shadow:inset 0 -3px 0 var(--dc)}
+.card.hh .ph{color:color-mix(in srgb,var(--dc) 45%,transparent)}
+.scene.hh img{box-shadow:0 3px 0 var(--dc)}
+.chead.hh h1{border-left:4px solid var(--dc);padding-left:18px;margin-left:-22px}
+.hchip{color:var(--ink)}
+.sheetview.hh{border-top:3px solid var(--dc)}
+table.cov.hh tbody td:first-child{box-shadow:inset 3px 0 var(--dc);padding-left:12px}
+.cov td.hh .sw{width:8px;height:8px}
+.lane.hh .lname{box-shadow:inset 3px 0 var(--dc);padding-left:12px}
+@media (max-width:780px){.chead.hh h1{margin-left:0;padding-left:14px}}

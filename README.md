@@ -67,3 +67,8 @@ Historical minimalism taken from Assamese manuscript painting: sanchi-pat bark p
 hengul (vermilion) as the one accent and haital (orpiment yellow) to mark which characters have images.
 Type is Tiro Bangla for both Latin and Assamese script, loaded from Google Fonts with local serif fallbacks.
 The site follows the system light or dark setting.
+
+Each dynasty or house has one colour, used on cards, headings, the home ribbon, kings tables, the timeline and
+scenes: Ahom blue, Koch saffron, Varman lac red, Salastambha umber, Pala olive, Kamata plum, Bhuyan slate,
+Chutia green, Dimasa teal, Jaintia and Manipur rose, outside powers ash, saints and poets violet, colonial brown,
+modern slate-ink. Groups map to houses in `HOUSES` in `app.js`; the colours are the `.h-<house>` rules in `app.css`.
