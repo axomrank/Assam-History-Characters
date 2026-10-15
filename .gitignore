@@ -1,0 +1,6 @@
+incoming/*
+!incoming/.gitkeep
+sheets_src/
+__pycache__/
+*.pyc
+.DS_Store
