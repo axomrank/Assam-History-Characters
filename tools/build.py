@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Build data/site.js (what the website loads) from the one master file, data/assam_history.csv.
+"""Build data/site.js (what the website loads) and data/assam_history.json (the same data nested as
+periods > dynasties > characters > events and scenes) from the one master file, data/assam_history.csv.
 
 Each CSV row is one record, told apart by the `type` column:
   period  a period of Assam's history (id, name, dates, summary, group_order = the order of groups on the page)
@@ -121,11 +122,60 @@ def main():
     site = {"eras": eras, "characters": chars, "scenes": scenes, "events": events, "src": list(src_index)}
     (ROOT / "data/site.js").write_text("window.SITE=" + json.dumps(site, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
 
+    write_tree(by_type, sheets, avail={c["id"]: c["av"][0] for c in chars})
+
     names = ["none", "scenes", "portrait", "sheet"]
     print(f"site.js: {len(eras)} periods, {len(chars)} people, {sum(map(len, sheets.values()))} images, {len(events)} events, {len(scenes)} scenes")
     print("availability:", ", ".join(f"{names[k]} {levels[k]}" for k in (3, 2, 1, 0)))
     for p in problems: print("ERROR", p)
     sys.exit(1 if problems else 0)
+
+
+def write_tree(by_type, sheets, avail):
+    """data/assam_history.json: the same data nested as periods > dynasties > characters > images, events, scenes.
+    A scene appears under every person in it (main = true for the people it is about); scenes linking nobody are
+    listed once at the end. Generated from the CSV; edit the CSV, not this file."""
+    level = ["none", "scenes", "portrait", "sheet"]
+    clean = lambda d: {k: v for k, v in d.items() if not (v is None or v == "" or v == [])}
+    events_of, scenes_of = defaultdict(list), defaultdict(list)
+    for r in by_type["event"]:
+        e = clean({"id": r["id"], "title": r["name"], "date_label": r["date_label"], "start_year": num(r["start_year"]), "end_year": num(r["end_year"]),
+                   "summary": r["summary"], "people": lst(r["people"]), "sources": lst(r["sources"])})
+        for i in lst(r["people"]): events_of[i].append(e)
+    unlinked = []
+    for r in by_type["scene"]:
+        base = {"id": r["id"], "title": r["name"], "date_label": r["date_label"], "sort_year": num(r["sort_year"]), "era": r["group"],
+                "collection": r["collection"], "summary": r["summary"], "people": lst(r["people"]), "file": r["file"], "thumbnail": r["thumbnail"]}
+        if not lst(r["people"]): unlinked.append(clean(base))
+        for i in lst(r["people"]): scenes_of[i].append(clean({**base, "main": i in lst(r["main_people"])}))
+    by_year = lambda x: (x.get("sort_year", x.get("start_year")) is None, x.get("sort_year", x.get("start_year")) or 0)
+    periods = []
+    for p in by_type["period"]:
+        people = sorted((r for r in by_type["person"] if r["period"] == p["id"]), key=lambda r: num(r["sort_year"]) or 0)
+        order = lst(p["group_order"]); groups = order + [g for g in dict.fromkeys(r["group"] for r in people) if g not in order]
+        dynasties = []
+        for g in groups:
+            members = [r for r in people if r["group"] == g]
+            if not members: continue
+            years = [y for r in members for y in (num(r["start_year"]), num(r["end_year"])) if y is not None]
+            dynasties.append(clean({"name": g or p["name"], "start_year": min(years) if years else None, "end_year": max(years) if years else None,
+                "characters": [clean({
+                    "id": r["id"], "name": r["name"], "name_assamese": r["name_assamese"], "date_label": r["date_label"],
+                    "start_year": num(r["start_year"]), "end_year": num(r["end_year"]), "sort_year": num(r["sort_year"]), "role": r["role"],
+                    "summary": r["summary"], "notes": r["notes"], "tai_name": r["tai_name"], "hindu_name": r["hindu_name"], "also_called": r["also_called"],
+                    "relation": r["relation"], "fate": r["fate"], "consort": r["consort"], "marital_status": r["marital_status"],
+                    "ahom_king_no": [int(x) for x in lst(r["ahom_king_no"])], "koch_no": num(r["koch_no"]), "koch_branch": r["koch_branch"],
+                    "confidence": r["confidence"], "status": r["status"], "approx_dates": r["approx_dates"] == "yes" or None,
+                    "image_level": level[avail[r["id"]]], "sources": lst(r["sources"]),
+                    "images": [clean({"kind": x["kind"], "caption": x["caption"], "file": x["file"], "thumbnail": x["thumb"], "width": x["width"],
+                                      "height": x["height"], "added": x["added"]}) for x in sheets[r["id"]]],
+                    "events": sorted(events_of[r["id"]], key=by_year), "scenes": sorted(scenes_of[r["id"]], key=by_year)}) for r in members]}))
+        periods.append(clean({"id": p["id"], "name": p["name"], "name_assamese": p["name_assamese"], "date_label": p["date_label"],
+                              "start_year": num(p["start_year"]), "end_year": num(p["end_year"]), "summary": p["summary"], "dynasties": dynasties}))
+    tree = {"title": "Assam history: periods, dynasties, characters, events and scenes",
+            "note": "Generated by tools/build.py from data/assam_history.csv. Edit the CSV, then rebuild.",
+            "periods": periods, "scenes_without_characters": sorted(unlinked, key=by_year)}
+    (ROOT / "data/assam_history.json").write_text(json.dumps(tree, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

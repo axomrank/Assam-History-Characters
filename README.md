@@ -26,8 +26,23 @@ After editing, rebuild what the website loads:
 python3 tools/build.py
 ```
 
-It writes `data/site.js`, works out which people have images from the files on disk, and stops with a list
-of errors if an id is unknown or an image file is missing. Do not edit `data/site.js` by hand.
+It writes `data/site.js` (what the website loads) and `data/assam_history.json`, works out which people have
+images from the files on disk, and stops with a list of errors if an id is unknown or an image file is missing.
+Do not edit either generated file by hand.
+
+`data/assam_history.json` holds the same data nested for reading or for other tools:
+
+```
+periods[]                      id, name, Assamese name, dates, summary
+  dynasties[]                  name, first and last year
+    characters[]               every person field, plus image_level
+      images[]                 their sheets and portraits
+      events[]                 timeline events they took part in
+      scenes[]                 scenes they appear in; main = true when the scene is about them
+scenes_without_characters[]    the 29 scenes that link nobody
+```
+A scene with several people appears under each of them. People of the colonial and modern periods have no
+dynasty, so they sit in a group named after the period.
 
 ## Image availability
 
@@ -52,6 +67,7 @@ index.html, favicon.svg      the site's entry page (must stay at the root for Gi
 assets/                      app.css and app.js
 data/assam_history.csv       all the data
 data/site.js                 generated from the CSV; the website loads this
+data/assam_history.json      generated from the CSV: periods > dynasties > characters > events, scenes
 media/characters/<id>/       character sheets and portraits, with thumb/
 media/scenes/ahom/<era>/     Ahom chronology scenes, one folder per era, with thumb/
 media/scenes/gallery/<topic>/ the Assamese AI gallery by topic, with thumb/
