@@ -4,11 +4,12 @@ periods > dynasties > characters > events and scenes) from the one master file, 
 
 Each CSV row is one record, told apart by the `type` column:
   period  a period of Assam's history (id, name, dates, summary, group_order = the order of groups on the page)
-  person  a person (period and group place them; ahom_king_no / koch_no place them in the king lists)
-  image   a character sheet or portrait (person = whose it is, kind, file, thumbnail, width, height, added)
-  event   a dated event on the timeline page (people = ids of the people involved)
-  scene   an illustrated scene (people = everyone in it, main_people = who it is about)
-Lists inside a cell are separated by "; ".
+  person  a person (period and group place them; ahom_king_no / koch_no place them in the king lists).
+          character_sheets lists their images as "path | caption"; the kind (portrait, pose, turnaround...)
+          is the start of the file name, and the size is read from the file.
+  event   a dated event on the timeline page (people = ids of the people involved; scene_image optional)
+  scene   an illustrated scene (scene_image; people = everyone in it, main_people = who it is about)
+Lists inside a cell are separated by "; ". Every image's thumbnail is the same file name in a thumb/ folder beside it.
 
 Image availability per person is worked out from files that exist on disk:
   3 sheet     a real character sheet (turnaround, face, costume, props, palette)
@@ -18,16 +19,17 @@ Image availability per person is worked out from files that exist on disk:
 Identical scene files count once. Problems (unknown ids, missing files) are printed and the build fails.
 Run: python3 tools/build.py
 """
-import csv, hashlib, json, sys
+import csv, datetime, hashlib, json, sys
 from collections import Counter, defaultdict
 from pathlib import Path
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 CSV = ROOT / "data/assam_history.csv"
 COLS = ["type", "id", "name", "name_assamese", "period", "group", "date_label", "start_year", "end_year", "sort_year",
         "role", "summary", "notes", "tai_name", "hindu_name", "also_called", "relation", "fate", "consort", "marital_status",
-        "ahom_king_no", "koch_no", "koch_branch", "confidence", "status", "approx_dates", "people", "main_people", "person",
-        "collection", "kind", "file", "thumbnail", "width", "height", "added", "group_order", "sources"]
+        "ahom_king_no", "koch_no", "koch_branch", "confidence", "status", "approx_dates", "people", "main_people",
+        "collection", "character_sheets", "scene_image", "group_order", "sources"]
 FULL_KINDS = {"sheet", "turnaround", "face", "costume", "props", "palette"}
 
 
@@ -45,6 +47,20 @@ def lst(v):
     return [x.strip() for x in (v or "").split(";") if x.strip()]
 
 
+def thumb_of(file):
+    d, n = file.rsplit("/", 1)
+    return f"{d}/thumb/{n}"
+
+
+def sheet_list(cell):
+    """'path | caption; path | caption' -> [(path, caption)]"""
+    return [(x.split("|", 1)[0].strip(), x.split("|", 1)[1].strip() if "|" in x else "") for x in lst(cell)]
+
+
+def kind_of(file):
+    return file.rsplit("/", 1)[-1].rsplit(".", 1)[0].rstrip("0123456789").rstrip("-_") or "other"
+
+
 def num(v):
     v = (v or "").strip()
     try: f = float(v)
@@ -57,7 +73,7 @@ def main():
     problems = []
     by_type = defaultdict(list)
     for r in rows:
-        if r["type"] not in ("period", "person", "image", "event", "scene"): problems.append(f"unknown type {r['type']!r} on {r['id']}")
+        if r["type"] not in ("period", "person", "event", "scene"): problems.append(f"unknown type {r['type']!r} on {r['id']}")
         by_type[r["type"]].append(r)
     for t, rs in by_type.items():
         dup = [i for i, n in Counter(r["id"] for r in rs).items() if n > 1]
@@ -77,23 +93,25 @@ def main():
         chars, main = lst(r["people"]), lst(r["main_people"])
         for i in chars + main:
             if i not in ids: problems.append(f"scene {r['id']}: unknown person {i}")
-        if not (exists(r["file"]) and exists(r["thumbnail"])):
-            problems.append(f"missing file: {r['file']}"); ok = False
+        img = r["scene_image"]
+        if not (exists(img) and exists(thumb_of(img))):
+            problems.append(f"missing file: {img}"); ok = False
         else:
-            h = hashlib.sha256((ROOT / r["file"]).read_bytes()).hexdigest(); ok = h not in seen; seen.add(h)
-        scenes.append({"id": r["id"], "event": r["name"], "date_label": r["date_label"], "file": r["file"], "thumbnail": r["thumbnail"],
-                       "filename": r["file"].rsplit("/", 1)[-1], "collection": r["collection"], "description": r["summary"], "chars": chars, "main": main})
+            h = hashlib.sha256((ROOT / img).read_bytes()).hexdigest(); ok = h not in seen; seen.add(h)
+        scenes.append({"id": r["id"], "event": r["name"], "date_label": r["date_label"], "file": img, "thumbnail": thumb_of(img),
+                       "filename": img.rsplit("/", 1)[-1], "collection": r["collection"], "description": r["summary"], "chars": chars, "main": main})
         if ok:
             for cid in chars: (main_of if cid in main else appear_of)[cid].append(r["id"])
 
-    # ---- images made for a person
+    # ---- character sheets, listed on each person's row
     sheets, have = defaultdict(list), defaultdict(Counter)
-    for r in by_type["image"]:
-        if r["person"] not in ids: problems.append(f"image {r['id']}: unknown person {r['person']}"); continue
-        if not (exists(r["file"]) and exists(r["thumbnail"])): problems.append(f"missing file: {r['file']}"); continue
-        have[r["person"]]["full" if r["kind"] in FULL_KINDS else "port"] += 1
-        sheets[r["person"]].append({"file": r["file"], "thumb": r["thumbnail"], "kind": r["kind"], "caption": r["name"],
-                                    "width": num(r["width"]), "height": num(r["height"]), "added": r["added"]})
+    for r in by_type["person"]:
+        for f, cap in sheet_list(r["character_sheets"]):
+            if not (exists(f) and exists(thumb_of(f))): problems.append(f"{r['id']}: missing file {f}"); continue
+            kind = kind_of(f); have[r["id"]]["full" if kind in FULL_KINDS else "port"] += 1
+            w, h = Image.open(ROOT / f).size
+            sheets[r["id"]].append({"file": f, "thumb": thumb_of(f), "kind": kind, "caption": cap, "width": w, "height": h,
+                                    "added": datetime.date.fromtimestamp((ROOT / f).stat().st_mtime).isoformat()})
 
     # ---- people
     chars, levels = [], Counter()
@@ -113,7 +131,9 @@ def main():
     for r in by_type["event"]:
         for i in lst(r["people"]):
             if i not in ids: problems.append(f"event {r['id']}: unknown person {i}")
-        events.append({"year": num(r["start_year"]), "end": num(r["end_year"]), "title": r["name"], "body": r["summary"], "ids": lst(r["people"]), "src": src(r["sources"])})
+        if r["scene_image"] and not (exists(r["scene_image"]) and exists(thumb_of(r["scene_image"]))): problems.append(f"event {r['id']}: missing file {r['scene_image']}")
+        events.append({"year": num(r["start_year"]), "end": num(r["end_year"]), "title": r["name"], "body": r["summary"], "ids": lst(r["people"]), "src": src(r["sources"]),
+                       **({"image": r["scene_image"], "thumb": thumb_of(r["scene_image"])} if r["scene_image"] else {})})
 
     eras = [{"id": r["id"], "name": r["name"], "name_as": r["name_assamese"], "start": num(r["start_year"]), "end": num(r["end_year"]),
              "label": r["date_label"], **({"blurb": r["summary"]} if r["summary"] else {}), **({"groups": lst(r["group_order"])} if r["group_order"] else {})}
@@ -125,14 +145,15 @@ def main():
     write_tree(by_type, sheets, avail={c["id"]: c["av"][0] for c in chars})
 
     names = ["none", "scenes", "portrait", "sheet"]
-    print(f"site.js: {len(eras)} periods, {len(chars)} people, {sum(map(len, sheets.values()))} images, {len(events)} events, {len(scenes)} scenes")
+    print(f"site.js: {len(eras)} periods, {len(chars)} people, {sum(map(len, sheets.values()))} character sheets, {len(events)} events, {len(scenes)} scenes")
     print("availability:", ", ".join(f"{names[k]} {levels[k]}" for k in (3, 2, 1, 0)))
     for p in problems: print("ERROR", p)
     sys.exit(1 if problems else 0)
 
 
 def write_tree(by_type, sheets, avail):
-    """data/assam_history.json: the same data nested as periods > dynasties > characters > images, events, scenes.
+    """data/assam_history.json: the same data nested as periods > dynasties > characters > events, scenes.
+    A character holds its own images (character_sheets); a scene or event holds its scene_image.
     A scene appears under every person in it (main = true for the people it is about); scenes linking nobody are
     listed once at the end. Generated from the CSV; edit the CSV, not this file."""
     level = ["none", "scenes", "portrait", "sheet"]
@@ -140,12 +161,14 @@ def write_tree(by_type, sheets, avail):
     events_of, scenes_of = defaultdict(list), defaultdict(list)
     for r in by_type["event"]:
         e = clean({"id": r["id"], "title": r["name"], "date_label": r["date_label"], "start_year": num(r["start_year"]), "end_year": num(r["end_year"]),
-                   "summary": r["summary"], "people": lst(r["people"]), "sources": lst(r["sources"])})
+                   "summary": r["summary"], "people": lst(r["people"]), "sources": lst(r["sources"]),
+                   "scene_image": r["scene_image"], "scene_thumbnail": thumb_of(r["scene_image"]) if r["scene_image"] else ""})
         for i in lst(r["people"]): events_of[i].append(e)
     unlinked = []
     for r in by_type["scene"]:
         base = {"id": r["id"], "title": r["name"], "date_label": r["date_label"], "sort_year": num(r["sort_year"]), "era": r["group"],
-                "collection": r["collection"], "summary": r["summary"], "people": lst(r["people"]), "file": r["file"], "thumbnail": r["thumbnail"]}
+                "collection": r["collection"], "summary": r["summary"], "people": lst(r["people"]),
+                "scene_image": r["scene_image"], "scene_thumbnail": thumb_of(r["scene_image"])}
         if not lst(r["people"]): unlinked.append(clean(base))
         for i in lst(r["people"]): scenes_of[i].append(clean({**base, "main": i in lst(r["main_people"])}))
     by_year = lambda x: (x.get("sort_year", x.get("start_year")) is None, x.get("sort_year", x.get("start_year")) or 0)
@@ -166,9 +189,9 @@ def write_tree(by_type, sheets, avail):
                     "relation": r["relation"], "fate": r["fate"], "consort": r["consort"], "marital_status": r["marital_status"],
                     "ahom_king_no": [int(x) for x in lst(r["ahom_king_no"])], "koch_no": num(r["koch_no"]), "koch_branch": r["koch_branch"],
                     "confidence": r["confidence"], "status": r["status"], "approx_dates": r["approx_dates"] == "yes" or None,
-                    "image_level": level[avail[r["id"]]], "sources": lst(r["sources"]),
-                    "images": [clean({"kind": x["kind"], "caption": x["caption"], "file": x["file"], "thumbnail": x["thumb"], "width": x["width"],
-                                      "height": x["height"], "added": x["added"]}) for x in sheets[r["id"]]],
+                    "sheet_status": level[avail[r["id"]]], "sources": lst(r["sources"]),
+                    "character_sheets": [clean({"kind": x["kind"], "caption": x["caption"], "image": x["file"], "thumbnail": x["thumb"],
+                                                "width": x["width"], "height": x["height"]}) for x in sheets[r["id"]]],
                     "events": sorted(events_of[r["id"]], key=by_year), "scenes": sorted(scenes_of[r["id"]], key=by_year)}) for r in members]}))
         periods.append(clean({"id": p["id"], "name": p["name"], "name_assamese": p["name_assamese"], "date_label": p["date_label"],
                               "start_year": num(p["start_year"]), "end_year": num(p["end_year"]), "summary": p["summary"], "dynasties": dynasties}))

@@ -258,6 +258,7 @@ dialog#viewer button:hover,dialog#viewer .btn:hover{border-color:#ebe1cb}
 .events{list-style:none;margin:0;padding:0;max-width:78ch}
 .events li{display:grid;grid-template-columns:110px 1fr;gap:20px;padding:22px 0;border-top:1px solid var(--line)}
 .events .ey{font-size:1.15rem;color:var(--hengul);font-variant-numeric:oldstyle-nums}
+.evimg{float:right;padding:0;border:0;margin:0 0 8px 16px;width:160px;min-height:0;background:none}.evimg img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:var(--r)}
 .events h3{font-size:1.2rem;margin-bottom:6px}.events p{margin:6px 0;color:var(--muted)}
 .chips{display:flex;flex-wrap:wrap;gap:6px 14px}.chips a{font-size:.9rem;color:var(--ink);text-decoration:underline;text-decoration-color:var(--line)}
 .chips a:hover{color:var(--hengul);text-decoration-color:currentColor}

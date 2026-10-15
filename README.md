@@ -11,10 +11,15 @@ Open `index.html`, or serve the folder with `python3 -m http.server`.
 | type | rows | what it is | key columns |
 |---|---|---|---|
 | `period` | 7 | a period of Assam's history | `date_label`, `start_year`, `end_year`, `summary`, `group_order` (order of groups on the page) |
-| `person` | 328 | a person | `period`, `group`, dates, `role`, `summary`, `notes`, Tai and Hindu names, `ahom_king_no`, `koch_no`, `confidence`, `sources` |
-| `image` | 31 | a character sheet or portrait | `person`, `kind`, `file`, `thumbnail`, `width`, `height`, `added` |
-| `event` | 24 | a dated event on the Timeline page | `start_year`, `end_year`, `summary`, `people` |
-| `scene` | 265 | an illustrated scene | `date_label`, `sort_year`, `group` (era), `summary`, `people`, `main_people`, `file`, `thumbnail` |
+| `person` | 328 | a person | `period`, `group`, dates, `role`, `summary`, `notes`, Tai and Hindu names, `ahom_king_no`, `koch_no`, `confidence`, `sources`, `character_sheets` |
+| `event` | 24 | a dated event on the Timeline page | `start_year`, `end_year`, `summary`, `people`, `scene_image` (optional) |
+| `scene` | 265 | an illustrated scene | `date_label`, `sort_year`, `group` (era), `summary`, `people`, `main_people`, `scene_image` |
+
+Images live inside the record they belong to. A person's `character_sheets` cell lists their sheets and
+portraits as `path | caption`, for example
+`media/characters/sukaphaa/pose-1.webp | Chaolung Sukapha on Royal Throne (Profile)`. The kind (portrait, pose,
+turnaround, face...) is the start of the file name, and the size is read from the file. A scene or event has
+one `scene_image`. Every thumbnail is the same file name in the `thumb/` folder beside the image.
 
 Lists inside a cell (people, sources, king numbers, group order) are separated by `; `.
 `people` and `main_people` hold person ids, so a scene links to everyone in it and is "about" its main people.
@@ -35,10 +40,10 @@ Do not edit either generated file by hand.
 ```
 periods[]                      id, name, Assamese name, dates, summary
   dynasties[]                  name, first and last year
-    characters[]               every person field, plus image_level
-      images[]                 their sheets and portraits
-      events[]                 timeline events they took part in
-      scenes[]                 scenes they appear in; main = true when the scene is about them
+    characters[]               every person field, plus sheet_status (sheet, portrait, scenes or none)
+      character_sheets[]       their sheets and portraits: kind, caption, image, thumbnail, size
+      events[]                 timeline events they took part in, each with its scene_image if it has one
+      scenes[]                 scenes they appear in, each with its scene_image; main = true when the scene is about them
 scenes_without_characters[]    the 29 scenes that link nobody
 ```
 A scene with several people appears under each of them. People of the colonial and modern periods have no
@@ -58,8 +63,8 @@ dynasty, so they sit in a group named after the period.
    Kinds: `turnaround`, `face`, `costume`, `props`, `palette`, `pose`, `portrait`, `other`.
    The Coverage page lists every person id.
 2. Run `python3 tools/add_sheets.py` (add `--dry-run` to preview). It writes a WebP and a thumbnail to
-   `media/characters/<id>/`, keeps your original in `archive/sheet-originals/<id>/`, adds an `image` row
-   under that person in the CSV and rebuilds.
+   `media/characters/<id>/`, keeps your original in `archive/sheet-originals/<id>/`, adds it to that person's
+   `character_sheets` cell in the CSV and rebuilds. Add a caption after the path in the spreadsheet if you like.
 
 ## Folders
 ```

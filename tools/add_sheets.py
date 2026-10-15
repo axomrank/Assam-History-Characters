@@ -8,16 +8,16 @@ Drop files in incoming/ using either layout, then run:  python3 tools/add_sheets
 
 Kinds: turnaround, face, costume, props, palette, pose, portrait, other (default: sheet).
 Per file it writes media/characters/<id>/<name>.webp (long edge 2000px) and a thumbnail, moves the untouched
-original to archive/sheet-originals/<id>/, and adds an `image` row under that person in data/assam_history.csv.
+original to archive/sheet-originals/<id>/, and adds the image to that person's character_sheets cell in
+data/assam_history.csv (as "path | caption"; write the caption in the spreadsheet afterwards if you like).
 Use --dry-run to preview. Files whose id is unknown are left in incoming/.
 """
 import argparse, datetime, hashlib, re, shutil, subprocess, sys
 from PIL import Image, ImageOps
-from build import ROOT, FULL_KINDS, read_rows, write_rows
+from build import ROOT, FULL_KINDS, read_rows, write_rows, thumb_of, lst
 
 KINDS = FULL_KINDS | {"portrait", "pose", "other"}
 ARCHIVE = ROOT / "archive"
-thumb_of = lambda f: "{0}/thumb/{1}".format(*f.rsplit("/", 1))
 EXT = {".png", ".jpg", ".jpeg", ".webp"}
 MAX_EDGE, THUMB_W = 2000, 640
 
@@ -56,7 +56,8 @@ def main():
         if kind not in KINDS: kind = "other"
         digest = hashlib.sha256(src.read_bytes()).hexdigest()
         n = 1
-        while (ROOT / f"media/characters/{cid}/{kind}-{n}.webp").exists() or any(r["file"] == f"media/characters/{cid}/{kind}-{n}.webp" for r in rows): n += 1
+        person = next(r for r in rows if r["type"] == "person" and r["id"] == cid)
+        while (ROOT / f"media/characters/{cid}/{kind}-{n}.webp").exists() or f"media/characters/{cid}/{kind}-{n}.webp" in person["character_sheets"]: n += 1
         out = f"media/characters/{cid}/{kind}-{n}.webp"
         print(f"ADD   {cid}: {src.name} -> {out}")
         if a.dry_run: added += 1; continue
@@ -65,9 +66,7 @@ def main():
         dest = keep / src.name
         if dest.exists(): dest = keep / f"{digest[:8]}-{src.name}"
         shutil.move(str(src), dest)
-        at = max(i for i, r in enumerate(rows) if r["id"] == cid or (r["type"] == "image" and r["person"] == cid)) + 1
-        rows.insert(at, dict(type="image", id=f"{cid}-{kind}-{n}", person=cid, kind=kind, file=out, thumbnail=thumb_of(out),
-                             width=w, height=h, added=datetime.date.today().isoformat()))
+        person["character_sheets"] = "; ".join(lst(person["character_sheets"]) + [out])
         added += 1
     if added and not a.dry_run:
         write_rows(rows)
