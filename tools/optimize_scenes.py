@@ -1,6 +1,6 @@
-"""Convert catalogued scene images to web-sized WebP and point catalog.json at them.
+"""Convert catalogued scene images to web-sized WebP and point data/scenes.json at them.
 
-Originals are moved (never deleted) to ../AHOM_archive/<same path>, so they stay out of the published site.
+Originals are moved (never deleted) to archive/original-scenes/<same folders>, so they stay out of the published site.
 Run: python3 tools/optimize_scenes.py [--dry-run]   then   python3 tools/build.py
 """
 import json, shutil, sys
@@ -8,12 +8,12 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
-ARCHIVE = ROOT.parent / "AHOM_archive"
+ARCHIVE = ROOT / "archive"
 MAX_SIDE, QUALITY = 1600, 82
 
 
 def main(dry=False):
-    cat = json.loads((ROOT / "catalog.json").read_text(encoding="utf-8"))
+    cat = json.loads((ROOT / "data/scenes.json").read_text(encoding="utf-8"))
     done = 0
     for r in cat["images"]:
         src = ROOT / r["file"]
@@ -26,7 +26,7 @@ def main(dry=False):
                 im = im.convert("RGBA" if im.mode in ("RGBA", "LA", "P") else "RGB")
                 im.thumbnail((MAX_SIDE, MAX_SIDE), Image.LANCZOS)
                 im.save(dst, "WEBP", quality=QUALITY, method=6)
-                keep = ARCHIVE / r["file"]
+                keep = ARCHIVE / "original-scenes" / Path(*Path(r["file"]).parts[2:])
                 keep.parent.mkdir(parents=True, exist_ok=True)
                 shutil.move(str(src), keep)
             elif not dst.exists():
@@ -36,7 +36,7 @@ def main(dry=False):
         done += 1
     print(f"{done} scene image(s) {'would be ' if dry else ''}converted")
     if not dry:
-        (ROOT / "catalog.json").write_text(json.dumps(cat, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        (ROOT / "data/scenes.json").write_text(json.dumps(cat, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

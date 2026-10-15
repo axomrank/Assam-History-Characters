@@ -3,6 +3,9 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+SCENES = "data/scenes.json"            # catalogued scenes
+CHAR_MEDIA = "media/characters"        # character sheets and portraits, one folder per id
+ARCHIVE = ROOT / "archive"             # originals and retired files, not published
 FULL_KINDS = {"sheet", "turnaround", "face", "costume", "props", "palette"}   # a real character sheet
 PORTRAIT_KINDS = {"portrait", "pose"}                                       # a likeness, not a sheet
 ALWAYS = ("id", "name", "era", "sort_year", "label", "role", "summary")

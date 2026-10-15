@@ -16,7 +16,7 @@ rows.sort(key=lambda c: (c["sort_year"], c["name"]))
 cols = ["id", "name", "name_assamese", "also_known_as", "era", "group", "start_year", "end_year", "birth", "death", "dates_label",
         "ahom_reign_no", "tai_name", "hindu_name", "also_called", "relation", "how_reign_ended", "koch_branch", "koch_no",
         "role", "summary", "events_and_notes", "consort_or_marital", "confidence", "status", "image_level", "full_sheets", "portraits", "scenes_main", "scenes_appear", "sources"]
-out = ROOT / "data/Assam_Characters_350-1826.csv"
+out = ROOT / "data/exports/Assam_Characters_350-1826.csv"
 with open(out, "w", newline="", encoding="utf-8-sig") as f:
     w = csv.writer(f); w.writerow(cols)
     for c in rows:
@@ -30,13 +30,13 @@ print(f"{len(rows)} rows -> {out.relative_to(ROOT)}")
 GAPS = {5: "Interregnum 1364-1369", 6: "Interregnum 1376-1380", 7: "Interregnum 1389-1397", 40: "No Ahom king 1822-1833 (Burmese, then East India Company)"}
 REIGN = {37: "1811-1818", 38: "1818-1819", 39: "1819-1821", 41: "1833-1838"}
 ahom = sorted(((n, c) for c in d["characters"] for n in c.get("ahom_no", [])), key=lambda x: x[0])
-with open(ROOT / "data/Ahom_kings_41_reigns.csv", "w", newline="", encoding="utf-8-sig") as f:
+with open(ROOT / "data/exports/Ahom_kings_41_reigns.csv", "w", newline="", encoding="utf-8-sig") as f:
     w = csv.writer(f); w.writerow(["reign_no", "tai_name", "hindu_name", "name_used_here", "also_called", "reign", "relation_to_predecessor", "how_reign_ended", "note", "id"])
     for n, c in ahom:
         w.writerow([n, c.get("tai_name", ""), c.get("hindu_name", ""), c["name"], c.get("nicknames", ""), REIGN.get(n, c["label"].replace(" CE", "")), c.get("relation", ""), c.get("fate", ""), GAPS.get(n, ""), c["id"]])
 BRANCHES = ["Koch kingdom (undivided)", "Koch Bihar kings", "Koch Hajo kings", "Darrang kings", "Bijni kings", "Beltola kings", "Khaspur kings"]
 koch = sorted((c for c in d["characters"] if c.get("koch_branch") in BRANCHES), key=lambda c: (BRANCHES.index(c["koch_branch"]), c.get("koch_no", 0), c["sort_year"]))
-with open(ROOT / "data/Koch_kings.csv", "w", newline="", encoding="utf-8-sig") as f:
+with open(ROOT / "data/exports/Koch_kings.csv", "w", newline="", encoding="utf-8-sig") as f:
     w = csv.writer(f); w.writerow(["branch", "no_in_branch", "name", "reign", "relation", "role", "summary", "notes", "confidence", "sources", "id"])
     for c in koch:
         w.writerow([c["koch_branch"], c.get("koch_no", ""), c["name"], c["label"], c.get("relation", ""), c["role"], c["summary"], c.get("notes", ""), c.get("confidence", ""), " | ".join(c.get("sources", [])), c["id"]])

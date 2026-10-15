@@ -5,7 +5,7 @@
   {
    "char": "anandaram-dhekial-phukan",
    "kind": "portrait",
-   "file": "sheets/anandaram-dhekial-phukan/portrait-1.webp",
+   "file": "media/characters/anandaram-dhekial-phukan/portrait-1.webp",
    "caption": "Anandaram Dhekial Phukan",
    "w": 1024,
    "h": 1536,
@@ -16,7 +16,7 @@
   {
    "char": "anandaram-dhekial-phukan",
    "kind": "portrait",
-   "file": "sheets/anandaram-dhekial-phukan/portrait-2.webp",
+   "file": "media/characters/anandaram-dhekial-phukan/portrait-2.webp",
    "caption": "Anandaram Dhekial Phukan (Formal Portrait)",
    "w": 1024,
    "h": 1536,
@@ -27,7 +27,7 @@
   {
    "char": "bishnu-rabha",
    "kind": "portrait",
-   "file": "sheets/bishnu-rabha/portrait-1.webp",
+   "file": "media/characters/bishnu-rabha/portrait-1.webp",
    "caption": "Kalaguru Bishnu Prasad Rabha (Portrait)",
    "w": 1024,
    "h": 1024,
@@ -38,7 +38,7 @@
   {
    "char": "bishnu-rabha",
    "kind": "pose",
-   "file": "sheets/bishnu-rabha/pose-1.webp",
+   "file": "media/characters/bishnu-rabha/pose-1.webp",
    "caption": "Kalaguru Bishnu Prasad Rabha (Rabha Sangeet)",
    "w": 1024,
    "h": 1536,
@@ -49,7 +49,7 @@
   {
    "char": "bishnu-rabha",
    "kind": "pose",
-   "file": "sheets/bishnu-rabha/pose-2.webp",
+   "file": "media/characters/bishnu-rabha/pose-2.webp",
    "caption": "Bishnu Prasad Rabha (Youth & Fire)",
    "w": 1024,
    "h": 1536,
@@ -60,7 +60,7 @@
   {
    "char": "bishnu-rabha",
    "kind": "pose",
-   "file": "sheets/bishnu-rabha/pose-3.webp",
+   "file": "media/characters/bishnu-rabha/pose-3.webp",
    "caption": "Kalaguru Bishnu Prasad Rabha (Visionary Leader)",
    "w": 1024,
    "h": 1536,
@@ -71,7 +71,7 @@
   {
    "char": "gunabhiram-baruah",
    "kind": "portrait",
-   "file": "sheets/gunabhiram-baruah/portrait-1.webp",
+   "file": "media/characters/gunabhiram-baruah/portrait-1.webp",
    "caption": "Gunabhiram Baruah",
    "w": 1024,
    "h": 1536,
@@ -82,7 +82,7 @@
   {
    "char": "gunabhiram-baruah",
    "kind": "pose",
-   "file": "sheets/gunabhiram-baruah/pose-1.webp",
+   "file": "media/characters/gunabhiram-baruah/pose-1.webp",
    "caption": "Gunabhiram Baruah (Scholar Pose)",
    "w": 1024,
    "h": 1536,
@@ -93,7 +93,7 @@
   {
    "char": "hemchandra-baruah",
    "kind": "portrait",
-   "file": "sheets/hemchandra-baruah/portrait-1.webp",
+   "file": "media/characters/hemchandra-baruah/portrait-1.webp",
    "caption": "Bhashar Oja Hemchandra Baruah",
    "w": 1024,
    "h": 1536,
@@ -104,7 +104,7 @@
   {
    "char": "hemchandra-baruah",
    "kind": "portrait",
-   "file": "sheets/hemchandra-baruah/portrait-2.webp",
+   "file": "media/characters/hemchandra-baruah/portrait-2.webp",
    "caption": "Hemchandra Baruah (Portrait Study)",
    "w": 1024,
    "h": 1536,
@@ -115,7 +115,7 @@
   {
    "char": "hemchandra-baruah",
    "kind": "pose",
-   "file": "sheets/hemchandra-baruah/pose-1.webp",
+   "file": "media/characters/hemchandra-baruah/pose-1.webp",
    "caption": "Hemchandra Baruah in Deep Thought",
    "w": 1024,
    "h": 1536,
@@ -126,7 +126,7 @@
   {
    "char": "hemchandra-goswami",
    "kind": "portrait",
-   "file": "sheets/hemchandra-goswami/portrait-1.webp",
+   "file": "media/characters/hemchandra-goswami/portrait-1.webp",
    "caption": "Hemchandra Goswami (Jonaki Era Pioneer)",
    "w": 1024,
    "h": 1536,
@@ -137,7 +137,7 @@
   {
    "char": "hemchandra-goswami",
    "kind": "portrait",
-   "file": "sheets/hemchandra-goswami/portrait-2.webp",
+   "file": "media/characters/hemchandra-goswami/portrait-2.webp",
    "caption": "Hemchandra Goswami (Manuscript Scholar)",
    "w": 1024,
    "h": 1536,
@@ -148,7 +148,7 @@
   {
    "char": "jyotiprasad-agarwala",
    "kind": "portrait",
-   "file": "sheets/jyotiprasad-agarwala/portrait-1.webp",
+   "file": "media/characters/jyotiprasad-agarwala/portrait-1.webp",
    "caption": "Rupkonwar Jyoti Prasad Agarwala (Portrait)",
    "w": 1024,
    "h": 1536,
@@ -159,7 +159,7 @@
   {
    "char": "jyotiprasad-agarwala",
    "kind": "pose",
-   "file": "sheets/jyotiprasad-agarwala/pose-1.webp",
+   "file": "media/characters/jyotiprasad-agarwala/pose-1.webp",
    "caption": "Jyoti Prasad Agarwala with Cinema Camera",
    "w": 1024,
    "h": 1024,
@@ -170,7 +170,7 @@
   {
    "char": "jyotiprasad-agarwala",
    "kind": "pose",
-   "file": "sheets/jyotiprasad-agarwala/pose-2.webp",
+   "file": "media/characters/jyotiprasad-agarwala/pose-2.webp",
    "caption": "Jyoti Prasad Agarwala on Film Production Set",
    "w": 1024,
    "h": 1536,
@@ -181,7 +181,7 @@
   {
    "char": "miles-bronson",
    "kind": "pose",
-   "file": "sheets/miles-bronson/pose-1.webp",
+   "file": "media/characters/miles-bronson/pose-1.webp",
    "caption": "Rev. Miles Bronson (Dictionary Compiler)",
    "w": 1024,
    "h": 1536,
@@ -192,7 +192,7 @@
   {
    "char": "nathan-brown",
    "kind": "pose",
-   "file": "sheets/nathan-brown/pose-1.webp",
+   "file": "media/characters/nathan-brown/pose-1.webp",
    "caption": "Rev. Nathan Brown (Editor of Orunodoi)",
    "w": 1024,
    "h": 1536,
@@ -203,7 +203,7 @@
   {
    "char": "padmanath-gohain-baruah",
    "kind": "portrait",
-   "file": "sheets/padmanath-gohain-baruah/portrait-1.webp",
+   "file": "media/characters/padmanath-gohain-baruah/portrait-1.webp",
    "caption": "Sahityarathi Padmanath Gohain Baruah",
    "w": 1024,
    "h": 1536,
@@ -214,7 +214,7 @@
   {
    "char": "padmanath-gohain-baruah",
    "kind": "pose",
-   "file": "sheets/padmanath-gohain-baruah/pose-1.webp",
+   "file": "media/characters/padmanath-gohain-baruah/pose-1.webp",
    "caption": "Padmanath Gohain Baruah (Presidential Address)",
    "w": 1024,
    "h": 1536,
@@ -225,7 +225,7 @@
   {
    "char": "sankardev",
    "kind": "portrait",
-   "file": "sheets/sankardev/portrait-1.webp",
+   "file": "media/characters/sankardev/portrait-1.webp",
    "caption": "Mahapurusha Srimanta Sankardev",
    "w": 1024,
    "h": 1536,
@@ -236,7 +236,7 @@
   {
    "char": "sankardev",
    "kind": "pose",
-   "file": "sheets/sankardev/pose-1.webp",
+   "file": "media/characters/sankardev/pose-1.webp",
    "caption": "Srimanta Sankardev Writing on Sanchi-Pat",
    "w": 1024,
    "h": 1536,
@@ -247,7 +247,7 @@
   {
    "char": "sankardev",
    "kind": "pose",
-   "file": "sheets/sankardev/pose-2.webp",
+   "file": "media/characters/sankardev/pose-2.webp",
    "caption": "Srimanta Sankardev in Contemplation",
    "w": 1024,
    "h": 1536,
@@ -258,7 +258,7 @@
   {
    "char": "sankardev",
    "kind": "pose",
-   "file": "sheets/sankardev/pose-3.webp",
+   "file": "media/characters/sankardev/pose-3.webp",
    "caption": "Mahapurusha Sankardev Preaching Bhakti",
    "w": 1024,
    "h": 1536,
@@ -269,7 +269,7 @@
   {
    "char": "sati-sadhani",
    "kind": "pose",
-   "file": "sheets/sati-sadhani/pose-1.webp",
+   "file": "media/characters/sati-sadhani/pose-1.webp",
    "caption": "Birangana Sati Sadhani (Heroic Queen)",
    "w": 1024,
    "h": 1536,
@@ -280,7 +280,7 @@
   {
    "char": "sati-sadhani",
    "kind": "pose",
-   "file": "sheets/sati-sadhani/pose-2.webp",
+   "file": "media/characters/sati-sadhani/pose-2.webp",
    "caption": "Birangana Sati Sadhani (Warrior Stance)",
    "w": 1024,
    "h": 1536,
@@ -291,7 +291,7 @@
   {
    "char": "sukaphaa",
    "kind": "portrait",
-   "file": "sheets/sukaphaa/portrait-1.webp",
+   "file": "media/characters/sukaphaa/portrait-1.webp",
    "caption": "Chaolung Sukapha — Close-up Portrait",
    "w": 1024,
    "h": 1536,
@@ -302,7 +302,7 @@
   {
    "char": "sukaphaa",
    "kind": "pose",
-   "file": "sheets/sukaphaa/pose-1.webp",
+   "file": "media/characters/sukaphaa/pose-1.webp",
    "caption": "Chaolung Sukapha on Royal Throne (Profile)",
    "w": 1024,
    "h": 1536,
@@ -313,7 +313,7 @@
   {
    "char": "sukaphaa",
    "kind": "pose",
-   "file": "sheets/sukaphaa/pose-2.webp",
+   "file": "media/characters/sukaphaa/pose-2.webp",
    "caption": "Chaolung Sukapha with Royal Throne",
    "w": 1024,
    "h": 1536,
@@ -324,7 +324,7 @@
   {
    "char": "sukaphaa",
    "kind": "pose",
-   "file": "sheets/sukaphaa/pose-3.webp",
+   "file": "media/characters/sukaphaa/pose-3.webp",
    "caption": "Chaolung Sukapha Patkai Expedition",
    "w": 1024,
    "h": 1536,
@@ -335,7 +335,7 @@
   {
    "char": "sukaphaa",
    "kind": "pose",
-   "file": "sheets/sukaphaa/pose-4.webp",
+   "file": "media/characters/sukaphaa/pose-4.webp",
    "caption": "Chaolung Sukapha by the Brahmaputra",
    "w": 1024,
    "h": 1536,

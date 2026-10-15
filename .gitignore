@@ -1,6 +1,7 @@
+# originals and retired files stay local, out of the published site
+archive/
 incoming/*
 !incoming/.gitkeep
-sheets_src/
 __pycache__/
 *.pyc
 .DS_Store

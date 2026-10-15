@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """Attach existing Assamese AI gallery images to the character they depict.
 
-Matches catalog.json gallery entries to characters by name, then creates web-sized images in
-sheets/<id>/ and rows in data/sheets.json. Originals in images/ stay untouched. Safe to re-run.
+Matches data/scenes.json gallery entries to characters by name, then creates web-sized images in
+media/characters/<id>/ and rows in data/sheets.json. The scene images stay untouched. Safe to re-run.
 Usage: python3 tools/import_gallery_portraits.py [--dry-run]
 """
 import argparse, datetime, re, subprocess, sys
-from common import ROOT, load_characters, load_sheets, save_sheets, read
+from common import ROOT, SCENES, CHAR_MEDIA, load_characters, load_sheets, save_sheets, read
 from add_sheets import make_webp
 
 PORTRAIT = re.compile(r"portrait|study|close-up|formal", re.I)
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--dry-run", action="store_true"); a = ap.parse_args()
-    cat = read("catalog.json"); alias = cat["metadata"].get("aliases", {})
+    cat = read(SCENES); alias = cat["metadata"].get("aliases", {})
     by_name = {}
     for c in load_characters()["characters"]:
         for n in {c["name"], *c.get("match", [])}: by_name.setdefault(n, set()).add(c["id"])
@@ -26,7 +26,7 @@ def main():
         if any(x["char"] == cid and x["sha256"] == r["sha256"] for x in rows): continue
         kind = "portrait" if PORTRAIT.search(r["event"] + " " + r["filename"]) else "pose"
         n = sum(1 for x in rows if x["char"] == cid and x["kind"] == kind) + 1
-        out = f"sheets/{cid}/{kind}-{n}.webp"
+        out = f"{CHAR_MEDIA}/{cid}/{kind}-{n}.webp"
         print(f"ADD {cid}: {r['filename']} -> {kind}")
         if a.dry_run: added += 1; continue
         w, h = make_webp(ROOT / r["file"], out)

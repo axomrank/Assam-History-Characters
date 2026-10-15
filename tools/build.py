@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Build everything the site and the spreadsheets need from the three sources of truth.
 
-Sources:   data/characters.json (people), data/sheets.json (images made for a character), catalog.json (scenes)
-Generated: data/site.js (slim, loaded by the site), data/availability.json + data/image_availability.csv
+Sources:   data/characters.json (people), data/sheets.json (images made for a character), data/scenes.json (scenes)
+Generated: data/site.js (slim, loaded by the site), data/availability.json + data/exports/image_availability.csv
 
 Image availability per character is one of four levels, worked out only from files that exist on disk:
   3 sheet     a real character sheet (turnaround, face, costume, props, palette)
@@ -16,7 +16,7 @@ Run after any change:  python3 tools/build.py
 """
 import csv, re, sys
 from collections import Counter, defaultdict
-from common import ROOT, FULL_KINDS, PORTRAIT_KINDS, compact_char, load_characters, load_sheets, read, thumb_of, write
+from common import ROOT, SCENES, CHAR_MEDIA, FULL_KINDS, PORTRAIT_KINDS, compact_char, load_characters, load_sheets, read, thumb_of, write
 
 LEVELS = ["none", "scenes", "portrait", "sheet"]
 NEXT = {3: "complete", 2: "make a full sheet from the portraits", 1: "build a sheet from the scene references", 0: "commission a portrait or sheet"}
@@ -33,7 +33,7 @@ def main():
     data = load_characters()
     chars = data["characters"]
     sheets = load_sheets()
-    cat = read("catalog.json")
+    cat = read(SCENES)
     alias = cat["metadata"].get("aliases", {})
     problems = []
     ids = {c["id"] for c in chars}
@@ -82,7 +82,7 @@ def main():
             missing.append(s["file"]); continue
         have[s["char"]]["full" if s["kind"] in FULL_KINDS else "port"] += 1
         sheet_rows[s["char"]].append({"file": s["file"], "thumb": thumb_of(s["file"]), "kind": s["kind"], "caption": s.get("caption", ""), "width": s.get("w"), "height": s.get("h"), "added": s["added"]})
-    orphans = sorted(str(p.relative_to(ROOT)) for p in (ROOT / "sheets").rglob("*.webp") if str(p.relative_to(ROOT)) not in known_files) if (ROOT / "sheets").exists() else []
+    orphans = sorted(str(p.relative_to(ROOT)) for p in (ROOT / CHAR_MEDIA).rglob("*.webp") if str(p.relative_to(ROOT)) not in known_files) if (ROOT / CHAR_MEDIA).exists() else []
 
     # ---- availability
     av = {}
@@ -121,7 +121,7 @@ def main():
         "counts": {LEVELS[k]: counts.get(k, 0) for k in range(4)}, "chars": av}, separators=(",", ":")) + "\n", encoding="utf-8")
     eras = {e["id"]: e["name"] for e in data["eras"]}
     order = {e["id"]: n for n, e in enumerate(data["eras"])}
-    with open(ROOT / "data/image_availability.csv", "w", newline="", encoding="utf-8-sig") as f:
+    with open(ROOT / "data/exports/image_availability.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
         w.writerow(["id", "name", "period", "group", "dates", "level", "level_name", "full_sheets", "portraits", "scenes_main", "scenes_appear", "reference_scene_ids", "next_step"])
         for c in sorted(chars, key=lambda c: (order[c["era"]], c.get("group") or c.get("dynasty") or "", c["sort_year"])):
@@ -135,7 +135,7 @@ def main():
     unlinked = [s["id"] for s in scenes if not s["chars"]]
     print(f"scenes: {len(scenes)} total, {len(unlinked)} not tied to any character, {sum(1 for s in scenes if s['main'])} with a named main figure, {len(scenes) - len(seen_sha)} duplicate file(s)")
     if missing: problems += [f"missing file: {m}" for m in missing]
-    if orphans: print(f"note: {len(orphans)} file(s) in sheets/ are not listed in data/sheets.json, e.g. {orphans[0]}")
+    if orphans: print(f"note: {len(orphans)} file(s) in media/characters/ are not listed in data/sheets.json, e.g. {orphans[0]}")
     for p in problems: print("ERROR", p)
     sys.exit(1 if problems else 0)
 

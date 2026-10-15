@@ -7,13 +7,13 @@ Drop files in incoming/ using either layout, then run:  python3 tools/add_sheets
     incoming/lachit-borphukan__turnaround.png       (id__kind.ext)
 
 Kinds: turnaround, face, costume, props, palette, pose, portrait, other (default: sheet).
-Per file it writes sheets/<id>/<name>.webp (long edge 2000px) and a thumbnail, moves the untouched
-original to sheets_src/<id>/, and adds a row to data/sheets.json. Use --dry-run to preview.
+Per file it writes media/characters/<id>/<name>.webp (long edge 2000px) and a thumbnail, moves the untouched
+original to archive/sheet-originals/<id>/, and adds a row to data/sheets.json. Use --dry-run to preview.
 Files whose id is unknown are left in incoming/.
 """
 import argparse, datetime, hashlib, re, shutil, subprocess, sys
 from PIL import Image, ImageOps
-from common import ROOT, FULL_KINDS, PORTRAIT_KINDS, load_characters, load_sheets, save_sheets, thumb_of
+from common import ROOT, ARCHIVE, CHAR_MEDIA, FULL_KINDS, PORTRAIT_KINDS, load_characters, load_sheets, save_sheets, thumb_of
 
 KINDS = FULL_KINDS | PORTRAIT_KINDS | {"other"}
 EXT = {".png", ".jpg", ".jpeg", ".webp"}
@@ -56,11 +56,11 @@ def main():
         if any(r["char"] == cid and r["sha256"] == digest for r in rows):
             print(f"SKIP  {src.name}: already added to {cid}"); skipped += 1; continue
         n = sum(1 for r in rows if r["char"] == cid and r["kind"] == kind) + 1
-        out = f"sheets/{cid}/{kind}-{n}.webp"
+        out = f"{CHAR_MEDIA}/{cid}/{kind}-{n}.webp"
         print(f"ADD   {cid}: {src.name} -> {out}")
         if a.dry_run: added += 1; continue
         w, h = make_webp(src, out)
-        keep = ROOT / "sheets_src" / cid; keep.mkdir(parents=True, exist_ok=True)
+        keep = ARCHIVE / "sheet-originals" / cid; keep.mkdir(parents=True, exist_ok=True)
         dest = keep / src.name
         if dest.exists(): dest = keep / f"{digest[:8]}-{src.name}"
         shutil.move(str(src), dest)

@@ -30,7 +30,7 @@ SRC = {
  "niladhwaj": W + "Niladhwaj_of_Kamata", "chakrakh": W + "Chakradhwaj_of_Kamata", "mahamanikya": W + "Mahamanikya",
  "keralakam": "https://heritageuniversityofkerala.com/JournalPDF/Volume11.2/70.pdf", "dimasalist": "https://www.dimasathairili.com/2022/08/list-of-kamata-kings-and-rulers.html.html",
  "coochbehar": W + "Cooch_Behar_State", "kochhajo": W + "Koch_Hajo", "balinarayan": W + "Balinarayan", "beltola": W + "History_of_Beltola", "royalark": "https://www.royalark.net/India/cooch2.htm", "coochgov": "https://coochbehar.gov.in/about-district/history/",
- "catalog": "project catalogue (catalog.json / Assam_History_Characters.csv)",
+ "catalog": "project catalogue (data/scenes.json / data/sources/Assam_History_Characters.csv)",
 }
 AH, QU, OF, RB = "Ahom kings", "Ahom queens and royal family", "Ahom officers and generals", "Moamoria rebels"
 KO, KA, CH, DI = "Koch kingdom", "Kamata and Khen kingdoms", "Chutia kingdom", "Dimasa (Kachari) kingdom"
