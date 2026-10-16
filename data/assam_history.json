@@ -3913,7 +3913,7 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "portrait",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sukaphaa",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
@@ -3966,6 +3966,14 @@
          "thumbnail": "media/characters/sukaphaa/thumb/portrait-2.webp",
          "width": 732,
          "height": 1080
+        },
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/sukaphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/sukaphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
         }
        ],
        "events": [
@@ -4372,10 +4380,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/suteuphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/suteuphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -4563,10 +4581,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/subinphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/subinphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -4635,10 +4663,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sukhaangphaa",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/sukhaangphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/sukhaangphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -4788,10 +4826,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/sukhrangphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/sukhrangphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -4880,10 +4928,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/sutuphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/sutuphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -4955,11 +5013,21 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "https://en.wikipedia.org/wiki/Chutia_kingdom",
         "https://en.wikipedia.org/wiki/Sudangphaa"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/tyao-khamti/turnaround-1.webp",
+         "thumbnail": "media/characters/tyao-khamti/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -5064,10 +5132,28 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sudangphaa",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/sudangphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/sudangphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        },
+        {
+         "kind": "turnaround",
+         "caption": "Teenage Sudangphaa in Brahmin household dress: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/sudangphaa/turnaround-2.webp",
+         "thumbnail": "media/characters/sudangphaa/thumb/turnaround-2.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -5319,10 +5405,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/sujangphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/sujangphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -5360,10 +5456,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/suphakphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/suphakphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -5402,10 +5508,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/susenphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/susenphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -5508,10 +5624,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/suhenphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/suhenphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -5644,10 +5770,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/supimphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/supimphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -5737,10 +5873,20 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Suhungmung",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/suhungmung/turnaround-1.webp",
+         "thumbnail": "media/characters/suhungmung/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -5987,10 +6133,20 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Suklenmung",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/suklenmung/turnaround-1.webp",
+         "thumbnail": "media/characters/suklenmung/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -6076,10 +6232,20 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sukhaamphaa",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Khora Roja with limp and walking stick, affected right leg is an artistic choice, historically unverified. Eight views: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/sukhaamphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/sukhaamphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -6183,10 +6349,20 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Pratap_Singha",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Aged Pratap Singha (Susenghphaa, Burha Roja), grey-background character sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/pratap-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/pratap-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -6399,10 +6575,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Suramphaa portrayed unwell (artistic treatment), grey-background sheet: front, left profile, back, three-quarter, face close-up, right profile, low angle and high angle",
+         "image": "media/characters/suramphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/suramphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -6447,6 +6633,7 @@
        "sort_year": 1644,
        "role": "Nineteenth Ahom king",
        "summary": "Brother of Suramphaa; deposed by the Burhagohain in 1648 and later murdered.",
+       "notes": "Character sheet follows the local Sickly King scene for face and royal Ahom dress. Sickly appearance, stooped posture, physical asymmetry and neck swelling are user-directed artistic interpretations, not authenticated medical details.",
        "tai_name": "Sutingphaa",
        "also_called": "Noriya Roja",
        "relation": "Brother of Suramphaa",
@@ -6456,10 +6643,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "https://en.wikipedia.org/wiki/Jayadhwaj_Singha"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Sutingphaa (Noriya Roja), realistic eight-view sheet based on local Sickly King scene, frail appearance and mild stooped asymmetry are artistic treatment",
+         "image": "media/characters/sutingphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/sutingphaa/thumb/turnaround-1.webp",
+         "width": 1567,
+         "height": 1004
+        }
        ],
        "scenes": [
         {
@@ -6516,11 +6713,21 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Jayadhwaj_Singha",
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Jayadhwaj Singha (Sutamla), youthful artistic reconstruction based on project scenes, grey-background eight-view character sheet",
+         "image": "media/characters/jayadhwaj-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/jayadhwaj-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -6782,11 +6989,21 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
         "https://en.wikipedia.org/wiki/Atan_Buragohain",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Chakradhwaj Singha (Supangmung), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/chakradhwaj-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/chakradhwaj-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -6959,10 +7176,20 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Udayaditya Singha (Sunyatphaa), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/udayaditya-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/udayaditya-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7149,10 +7376,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Ramdhwaj Singha (Suklamphaa), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/ramdhwaj-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/ramdhwaj-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7208,10 +7445,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Suhung (Samaguria Roja), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/suhung/turnaround-1.webp",
+         "thumbnail": "media/characters/suhung/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7251,10 +7498,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "https://en.wikipedia.org/wiki/Gadadhar_Singha"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Gobar Roja, scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/gobar-roja/turnaround-1.webp",
+         "thumbnail": "media/characters/gobar-roja/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7312,10 +7569,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "https://en.wikipedia.org/wiki/Atan_Buragohain"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Sujinphaa (Arjun Konwar), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/sujinphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/sujinphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7402,10 +7669,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Sudoiphaa (Parvatia Roja), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/sudoiphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/sudoiphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7463,10 +7740,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "https://en.wikipedia.org/wiki/Gadadhar_Singha"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Sulikphaa (Ratnadhwaj Singha, Lora Roja), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/sulikphaa/turnaround-1.webp",
+         "thumbnail": "media/characters/sulikphaa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7557,10 +7844,20 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Gadadhar_Singha",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Gadadhar Singha (Supaatphaa), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/gadadhar-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/gadadhar-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7664,10 +7961,20 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Rudra_Singha",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Rudra Singha (Sukhrungphaa), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/rudra-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/rudra-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7845,10 +8152,20 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Siba_Singha",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Siva Singha (Sutanphaa), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/siva-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/siva-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7951,10 +8268,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Pramatta Singha (Sunenphaa), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/pramatta-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/pramatta-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -8024,11 +8351,21 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Rajeswar_Singha",
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "https://en.wikipedia.org/wiki/Kuranganayani"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Rajeswar Singha (Suremphaa), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/rajeswar-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/rajeswar-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -8102,11 +8439,21 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Lakshmi_Singha",
         "https://en.wikipedia.org/wiki/Moamoria_rebellion",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Lakshmi Singha (Sunyeophaa), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/lakshmi-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/lakshmi-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -8197,11 +8544,21 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Gaurinath_Singha",
         "https://en.wikipedia.org/wiki/Moamoria_rebellion",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Gaurinath Singha (Suhitpangphaa), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/gaurinath-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/gaurinath-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -8306,10 +8663,20 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Gaurinath_Singha",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Kamaleswar Singha (Suklingphaa), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/kamaleswar-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/kamaleswar-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -8351,11 +8718,21 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chandrakanta_Singha",
         "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Chandrakanta Singha (Sudingphaa), scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/chandrakanta-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/chandrakanta-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -8497,11 +8874,21 @@
        ],
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Purandar_Singha",
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Purandar Singha, scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/purandar-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/purandar-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -8621,10 +9008,20 @@
        ],
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_dynasty",
         "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Jogeswar Singha, scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/jogeswar-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/jogeswar-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -8710,13 +9107,23 @@
        "sort_year": 1235,
        "role": "Moran chief",
        "summary": "A Moran chief whose daughter Sukaphaa married as part of the Ahom settlement of the Brahmaputra valley.",
-       "notes": "The project catalogue spells the name Bodousa.",
+       "notes": "The project catalogue spells the name Bodousa. Modern local-reference artistic reconstruction. Reference selection and provisional design details: research/badaucha/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sukaphaa",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Badaucha (Moran chief), realistic eight-view character sheet using local project references",
+         "image": "media/characters/badaucha/turnaround-1.webp",
+         "thumbnail": "media/characters/badaucha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -8747,13 +9154,23 @@
        "sort_year": 1236,
        "role": "Barahi chief",
        "summary": "A Barahi chief whose daughter Sukaphaa married as part of the Ahom settlement of the Brahmaputra valley.",
-       "notes": "The project catalogue spells the name Thakumtha.",
+       "notes": "The project catalogue spells the name Thakumtha. Modern local-reference artistic reconstruction. Reference selection and provisional design details: research/thakumatha/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sukaphaa",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Thakumatha (Barahi chief), realistic eight-view character sheet using local project references",
+         "image": "media/characters/thakumatha/turnaround-1.webp",
+         "thumbnail": "media/characters/thakumatha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -8787,10 +9204,20 @@
        "summary": "Daughter of the Kamata king (Kamateswar), given with her sister Bhajani to Sukhaangphaa to seal a truce. Mother of Sukhrangphaa, Sutuphaa, Tyao Khamti and Tyao Chulai.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sukhaangphaa",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Rajani, Kamata princess and queen of Sukhaangphaa, scene-based illustrated reconstruction, grey-background eight-view character sheet",
+         "image": "media/characters/rajani/turnaround-1.webp",
+         "thumbnail": "media/characters/rajani/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -8855,11 +9282,22 @@
        "sort_year": 1325,
        "role": "Kamata princess, queen of Sukhaangphaa",
        "summary": "Rajani's sister, also given to Sukhaangphaa under the treaty; mother of Chao Pulai.",
+       "notes": " Modern local-reference artistic reconstruction. Reference selection and provisional design details: research/bhajani/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sukhaangphaa"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bhajani, realistic eight-view character sheet using local project references",
+         "image": "media/characters/bhajani/turnaround-1.webp",
+         "thumbnail": "media/characters/bhajani/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -8888,13 +9326,23 @@
        "sort_year": 1330,
        "role": "Ahom prince",
        "summary": "Son of Sukhaangphaa and Bhajani. The project catalogue shows him meeting Kamata envoys and being made governor of Sadiya.",
-       "notes": "Governor role comes from the catalogue only.",
+       "notes": "Governor role comes from the catalogue only. Modern local-reference artistic reconstruction. Reference selection and provisional design details: research/chao-pulai/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sukhaangphaa",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Chao Pulai, realistic eight-view character sheet using local project references",
+         "image": "media/characters/chao-pulai/turnaround-1.webp",
+         "thumbnail": "media/characters/chao-pulai/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -8973,11 +9421,52 @@
        "sort_year": 1400,
        "role": "Rival claimant",
        "summary": "A rival claimant to the Ahom throne who fled to Mungkang and gained an invasion force; Sudangphaa defeated it and the 1401 treaty fixed the Patkai boundary.",
+       "notes": " No individually identified local portrait found. Sheet is a provisional artistic design using local costume references. See research/tai-sulai/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sudangphaa"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Tai Sulai, realistic eight-view provisional design using local costume references",
+         "image": "media/characters/tai-sulai/turnaround-1.webp",
+         "thumbnail": "media/characters/tai-sulai/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ]
+      },
+      {
+       "id": "mula-gabharu",
+       "name": "Mula Gabharu (Nang Mula)",
+       "name_assamese": "মূলা গাভৰু",
+       "date_label": "early 16th century",
+       "start_year": 1532,
+       "end_year": 1532,
+       "sort_year": 1532,
+       "role": "Ahom warrior woman",
+       "summary": "Wife of Ahom commander Phrasengmung Borgohain, remembered for joining the resistance against Turbak in 1532.",
+       "notes": "Character sheet is a modern artistic reconstruction inspired by a user-provided archer costume reference. Facial appearance, apparent age, costume and weapons are interpretive rather than a verified historical portrait.",
+       "also_called": "Nang Mula",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://www.xobdo.org/dic/Mula%20Gabharu",
+        "https://en.wikipedia.org/wiki/Mula_Gabharu"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Mula Gabharu (Nang Mula), eight-view artistic reconstruction inspired by user archer reference: gold clothing, cloth headband, red sash, bow and quiver",
+         "image": "media/characters/mula-gabharu/turnaround-1.webp",
+         "thumbnail": "media/characters/mula-gabharu/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -8989,14 +9478,25 @@
        "sort_year": 1603,
        "role": "Koch princess, wife of Pratap Singha",
        "summary": "Daughter of Raghudev (or Parikshit Narayan in another source); married Pratap Singha to secure the alliance with Koch Hajo.",
+       "notes": " No individually identified local portrait found. Sheet is a provisional artistic design using local costume references. See research/mangaldoi/local-scene-references.md.",
        "relation": "Daughter of Raghudev",
        "koch_no": 0,
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Koch_Hajo",
         "https://en.wikipedia.org/wiki/Pratap_Singha"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Mangaldoi (Mangaldahi), realistic eight-view provisional design using local costume references",
+         "image": "media/characters/mangaldoi/turnaround-1.webp",
+         "thumbnail": "media/characters/mangaldoi/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -9011,10 +9511,20 @@
        "summary": "Sent to the Mughal court under the 1663 Treaty of Ghilajharighat. Sources differ on whether she was Jayadhwaj Singha's daughter or Lachit's niece.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Jayadhwaj_Singha",
         "https://en.wikipedia.org/wiki/Lachit_Borphukan"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Ramani Gabharu, young-adult artistic depiction matching project farewell scene, grey-background eight-view character sheet",
+         "image": "media/characters/ramani-gabharu/turnaround-1.webp",
+         "thumbnail": "media/characters/ramani-gabharu/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -9060,12 +9570,23 @@
        "sort_year": 1665,
        "role": "Queen, sister of Lachit Borphukan",
        "summary": "Daughter of Momai Tamuli Borbarua and sister of Lachit; queen to Ahom kings.",
+       "notes": " No individually identified local portrait found. Sheet is a provisional artistic design using local costume references. See research/pakhori-gabharu/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Lachit_Borphukan",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Pakhori Gabharu, realistic eight-view provisional design using local costume references",
+         "image": "media/characters/pakhori-gabharu/turnaround-1.webp",
+         "thumbnail": "media/characters/pakhori-gabharu/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -9078,12 +9599,23 @@
        "sort_year": 1679,
        "role": "Ahom princess and wife of Gadadhar Singha",
        "summary": "Wife of the prince who became king Gadadhar Singha. Tortured and killed by agents of Sulikphaa and Laluk Sola Borphukan while her husband hid in exile.",
+       "notes": "Character sheet is a modern artistic reconstruction inspired by the project scene. Facial appearance, apparent age and clothing are interpretive rather than a verified historical portrait.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Gadadhar_Singha",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Joymoti Kuori (Joymoti Konwari), eight-view artistic reconstruction inspired by the project scene, muga-beige wrapped silk with maroon woven borders and low bun",
+         "image": "media/characters/joymoti/turnaround-1.webp",
+         "thumbnail": "media/characters/joymoti/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -9135,10 +9667,20 @@
        "notes": "Her insult to the Moamoria Gosains is cited as a cause of the later rebellion.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Siba_Singha",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Phuleswari (Pramatheswari), eight-view artistic reconstruction remade from user clothing references: elongated face, high braided bun, gold jacket and crimson borders. Costume and appearance are interpretive.",
+         "image": "media/characters/phuleswari/turnaround-1.webp",
+         "thumbnail": "media/characters/phuleswari/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -9204,10 +9746,20 @@
        "notes": "Sources give her death as 1738 or the end of her reign as 1739.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Siba_Singha",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Ambika, eight-view artistic reconstruction remade from user clothing references: rounded face, low bun, ivory jacket and purple woven motifs. Costume and appearance are interpretive.",
+         "image": "media/characters/ambika/turnaround-1.webp",
+         "thumbnail": "media/characters/ambika/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -9240,10 +9792,20 @@
        "summary": "Held the same authority as her predecessors but was less active in patronising Shaktism.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Siba_Singha",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Sarbeswari (Endari), eight-view artistic reconstruction remade from user clothing references: angular face, double-rosette headdress, gold jacket and red patterned wrap. Costume and appearance are interpretive.",
+         "image": "media/characters/sarbeswari/turnaround-1.webp",
+         "thumbnail": "media/characters/sarbeswari/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -9256,12 +9818,23 @@
        "sort_year": 1768,
        "role": "Manipuri princess, queen of the Ahom kingdom",
        "summary": "Married Rajeswar Singha in 1768 as thanks for Ahom help to her father. After his death she was taken by the rebel Ragha Moran and helped bring about his killing in April 1770; she later married Lakshmi Singha.",
+       "notes": " Modern local-reference artistic reconstruction. Reference selection and provisional design details: research/kuranganayani/local-scene-references.md.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Kuranganayani",
         "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Kuranganayani, realistic eight-view character sheet using local project references",
+         "image": "media/characters/kuranganayani/turnaround-1.webp",
+         "thumbnail": "media/characters/kuranganayani/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -9310,12 +9883,23 @@
        "sort_year": 1817,
        "role": "Queen-mother of Chandrakanta Singha",
        "summary": "Reportedly behind the plot that led to the murder of Badan Chandra Borphukan.",
+       "notes": " Modern local-reference artistic reconstruction. Reference selection and provisional design details: research/numali-rajmao/local-scene-references.md. No individually identified local portrait found, face is a provisional design adapted from local costume references.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
         "https://en.wikipedia.org/wiki/Chandrakanta_Singha"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Numali Rajmao, realistic eight-view character sheet using local project references",
+         "image": "media/characters/numali-rajmao/turnaround-1.webp",
+         "thumbnail": "media/characters/numali-rajmao/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -9354,13 +9938,23 @@
        "sort_year": 1229,
        "role": "First Burhagohain",
        "summary": "The Burhagohain and Borgohain offices were created by Sukaphaa. The personal names given in the project catalogue are unverified.",
-       "notes": "Name “Thaomung” comes from the project catalogue only.",
+       "notes": "Name “Thaomung” comes from the project catalogue only. Current sheet follows user direction to simplify official dress using Momai Tamuli sheet as local clothing reference. Modern artistic reconstruction, facial and unseen costume details are interpretive.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_kingdom",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "First Burhagohain (Thaomung), realistic eight-view sheet revised from Momai Tamuli clothing reference, simple cream wrap robe, brown sash and ochre headwrap",
+         "image": "media/characters/thaomung-burhagohain/turnaround-1.webp",
+         "thumbnail": "media/characters/thaomung-burhagohain/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -9442,12 +10036,23 @@
        "sort_year": 1230,
        "role": "First Borgohain",
        "summary": "See the first Burhagohain: the personal name is unverified.",
+       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See research/thaomung-borgohain/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_kingdom",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "First Borgohain (Thaomung), realistic eight-view simple cream official clothing reference, distinct provisional face",
+         "image": "media/characters/thaomung-borgohain/turnaround-1.webp",
+         "thumbnail": "media/characters/thaomung-borgohain/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -9529,11 +10134,22 @@
        "sort_year": 1396,
        "role": "Ahom trader",
        "summary": "The trader who found the young prince Sudangphaa in Habung.",
+       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See research/thao-cheoken/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sudangphaa"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Thao Cheoken, realistic eight-view simple cream official clothing reference, distinct provisional face",
+         "image": "media/characters/thao-cheoken/turnaround-1.webp",
+         "thumbnail": "media/characters/thao-cheoken/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -9563,11 +10179,22 @@
        "sort_year": 1397,
        "role": "Burhagohain",
        "summary": "Brought the young Sudangphaa to Charaideo and enthroned him in 1397.",
+       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See research/chaothai-khum-burhagohain/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sudangphaa"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Chaothai Khum Burhagohain, realistic eight-view simple cream official clothing reference, distinct provisional face",
+         "image": "media/characters/chaothai-khum-burhagohain/turnaround-1.webp",
+         "thumbnail": "media/characters/chaothai-khum-burhagohain/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -9597,11 +10224,22 @@
        "sort_year": 1400,
        "role": "Minister who defected",
        "summary": "Minister who led the Mungkang invasion force for the claimant Tai Sulai.",
+       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See research/tasim-pou-borgohain/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sudangphaa"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Tasim Pou Borgohain, realistic eight-view simple cream official clothing reference, distinct provisional face",
+         "image": "media/characters/tasim-pou-borgohain/turnaround-1.webp",
+         "thumbnail": "media/characters/tasim-pou-borgohain/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -9613,11 +10251,22 @@
        "sort_year": 1401,
        "role": "Borgohain and commander",
        "summary": "Sudangphaa's commander who pursued the Mungkang invaders.",
+       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See research/nangchukham-borgohain/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sudangphaa"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Nangchukham Borgohain, realistic eight-view simple cream official clothing reference, distinct provisional face",
+         "image": "media/characters/nangchukham-borgohain/turnaround-1.webp",
+         "thumbnail": "media/characters/nangchukham-borgohain/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -9629,11 +10278,22 @@
        "sort_year": 1490,
        "role": "Borgohain",
        "summary": "An Ahom Borgohain in the project catalogue, ambushed by the Tangshu Nagas.",
+       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See research/borgohain-khenphung/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Khenphung Borgohain, realistic eight-view simple cream official clothing reference, distinct provisional face",
+         "image": "media/characters/borgohain-khenphung/turnaround-1.webp",
+         "thumbnail": "media/characters/borgohain-khenphung/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -9679,12 +10339,23 @@
        "sort_year": 1524,
        "role": "First Sadiya Khowa Gohain",
        "summary": "Appointed by Suhungmung to govern Sadiya after the Chutia kingdom was annexed.",
+       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See research/phrasengmung-borgohain/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom",
         "https://en.wikipedia.org/wiki/Suhungmung"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Phrasengmung Borgohain, realistic eight-view simple cream official clothing reference, distinct provisional face",
+         "image": "media/characters/phrasengmung-borgohain/turnaround-1.webp",
+         "thumbnail": "media/characters/phrasengmung-borgohain/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -9716,12 +10387,31 @@
        "sort_year": 1527,
        "role": "First Borpatragohain",
        "summary": "Appointed the first Borpatragohain in 1527 by Suhungmung, the year the Ahoms defeated the first Muslim invasion.",
+       "notes": " Two modern local-reference character sheets preserve the same face in Naga scene attire and simple Borpatragohain dress. Partial scene face completed artistically. Costume does not represent all Naga communities. See research/konseng/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Suhungmung",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Konseng, realistic eight-view Naga attire sheet based on local court-return scenes",
+         "image": "media/characters/konseng/turnaround-1.webp",
+         "thumbnail": "media/characters/konseng/thumb/turnaround-1.webp",
+         "width": 1312,
+         "height": 1199
+        },
+        {
+         "kind": "turnaround",
+         "caption": "Konseng, matching eight-view Borpatragohain attire sheet in simple cream official dress",
+         "image": "media/characters/konseng/turnaround-2.webp",
+         "thumbnail": "media/characters/konseng/thumb/turnaround-2.webp",
+         "width": 1312,
+         "height": 1199
+        }
        ],
        "scenes": [
         {
@@ -9852,10 +10542,19 @@
        "summary": "Defeated Turbak's invasion and pursued the invaders to the Karatoya river.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom_kingdom",
         "https://en.wikipedia.org/wiki/Biswa_Singha"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/ton-kham-borgohain/turnaround-1.webp",
+         "thumbnail": "media/characters/ton-kham-borgohain/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -9869,9 +10568,18 @@
        "summary": "Offered little resistance to Chilarai's 1563 invasion and was removed as Burhagohain after the Treaty of Majuli.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Sukhaamphaa"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/aikhek-burhagohain/turnaround-1.webp",
+         "thumbnail": "media/characters/aikhek-burhagohain/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -9884,13 +10592,23 @@
        "sort_year": 1608,
        "role": "First Borbarua",
        "summary": "Rose from humble origins to become the first Borbarua. Systematised the paik system in 1609, commanded at Duimunsila (1638) and signed the Treaty of Asurar Ali (1639). Father of Lachit Borphukan.",
-       "notes": "The infobox gives 1664 and a category gives 1650 for his death.",
+       "notes": "The infobox gives 1664 and a category gives 1650 for his death. Character sheet is a modern scene-based reconstruction using local Paik Reforms, creation of offices and western frontier images for face and Ahom clothing.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Momai_Tamuli_Borbarua",
         "https://en.wikipedia.org/wiki/Pratap_Singha"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Momai Tamuli Borbarua, realistic eight-view character reference based on local Paik Reforms and court scenes, cream bordered robe and ochre headwrap",
+         "image": "media/characters/momai-tamuli/turnaround-1.webp",
+         "thumbnail": "media/characters/momai-tamuli/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -9956,10 +10674,19 @@
        "summary": "First holder of the Borphukan office, based at Kajali, created under Pratap Singha.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Pratap_Singha",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/langi-panisiya/turnaround-1.webp",
+         "thumbnail": "media/characters/langi-panisiya/thumb/turnaround-1.webp",
+         "width": 1312,
+         "height": 1199
+        }
        ],
        "scenes": [
         {
@@ -9992,9 +10719,18 @@
        "summary": "A Kayastha viceroy of western Assam whose appointment caused resentment among Ahom nobles.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/parbatia-phukan/turnaround-1.webp",
+         "thumbnail": "media/characters/parbatia-phukan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -10008,10 +10744,19 @@
        "summary": "Initiated Jayadhwaj Singha and was made head of Auniati Satra.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Jayadhwaj_Singha",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/niranjan-deva/turnaround-1.webp",
+         "thumbnail": "media/characters/niranjan-deva/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -10061,10 +10806,19 @@
        "notes": "Served under eight kings.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Atan_Buragohain",
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/atan-burhagohain/turnaround-1.webp",
+         "thumbnail": "media/characters/atan-burhagohain/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -10210,13 +10964,19 @@
        "sort_year": 1667,
        "role": "Commander-in-chief and Borphukan",
        "summary": "Retook Guwahati in 1667 and led the Ahom victory over a larger Mughal fleet at Saraighat in 1671. Died the next year, and his remains lie in a maidam at Jorhat.",
-       "notes": "Born 24 November 1622; died 25 April 1672 at Kaliabor. Fought at Alaboi in 1669.",
+       "notes": "Born 24 November 1622; died 25 April 1672 at Kaliabor. Fought at Alaboi in 1669. Character sheet uses existing local Lachit scenes as visual references for face, Ahom clothing and accessories.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Lachit_Borphukan",
-        "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Lachit Borphukan, realistic eight-view character reference based on existing project scenes, with red headwrap and battle helmet",
+         "image": "media/characters/lachit-borphukan/turnaround-1.webp",
+         "thumbnail": "media/characters/lachit-borphukan/thumb/turnaround-1.webp",
+         "width": 1312,
+         "height": 1199
+        }
        ],
        "scenes": [
         {
@@ -10498,10 +11258,19 @@
        "notes": "Wikipedia dates his tenure 1672–1677 and his death 1680.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Laluksola_Borphukan",
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/laluk-sola/turnaround-1.webp",
+         "thumbnail": "media/characters/laluk-sola/thumb/turnaround-1.webp",
+         "width": 1516,
+         "height": 1037
+        }
        ],
        "scenes": [
         {
@@ -10551,10 +11320,19 @@
        "notes": "From the project catalogue only; check against the Buranjis.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "project catalogue (catalog.json / Assam_History_Characters.csv)",
         "https://en.wikipedia.org/wiki/Ahom_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/debera-borbarua/turnaround-1.webp",
+         "thumbnail": "media/characters/debera-borbarua/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -10649,12 +11427,53 @@
        "sort_year": 1696,
        "role": "Shakta adviser at court",
        "summary": "A scholar from Nabadwip invited as religious guide under Rudra Singha; later adviser (Parbatiya Gosain) under Siva Singha.",
+       "also_called": "Parbatiya Gosain; Parvatiya Gosain",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Rudra_Singha",
         "https://en.wikipedia.org/wiki/Ahom_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Krishnaram Bhattacharya Nyayavagish (Parbatiya Gosain), eight-view sheet remade from two existing local pictures",
+         "image": "media/characters/krishnaram-bhattacharya/turnaround-1.webp",
+         "thumbnail": "media/characters/krishnaram-bhattacharya/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
+       "scenes": [
+        {
+         "id": "parbatia-gohain-1",
+         "title": "Parbatiya Gosain (Krishnaram Bhattacharya)",
+         "date_label": "AI illustration",
+         "era": "AI gallery · History & Royalty",
+         "collection": "Assamese AI gallery",
+         "summary": "Modern artistic depiction of Krishnaram Bhattacharya Nyayavagish, also known as Parbatiya Gosain, a Shakta religious preceptor associated with the Ahom court and Kamakhya.",
+         "people": [
+          "krishnaram-bhattacharya"
+         ],
+         "scene_image": "media/scenes/gallery/history-and-royalty/parbatia-gohain-1.webp",
+         "scene_thumbnail": "media/scenes/gallery/history-and-royalty/thumb/parbatia-gohain-1.webp",
+         "main": true
+        },
+        {
+         "id": "parbatia-gohain-2",
+         "title": "Parbatiya Gosain (Krishnaram Bhattacharya) — alternative study",
+         "date_label": "AI illustration",
+         "era": "AI gallery · History & Royalty",
+         "collection": "Assamese AI gallery",
+         "summary": "Modern artistic depiction of Krishnaram Bhattacharya Nyayavagish, also known as Parbatiya Gosain, a Shakta religious preceptor associated with the Ahom court and Kamakhya.",
+         "people": [
+          "krishnaram-bhattacharya"
+         ],
+         "scene_image": "media/scenes/gallery/history-and-royalty/parbatia-gohain-2.webp",
+         "scene_thumbnail": "media/scenes/gallery/history-and-royalty/thumb/parbatia-gohain-2.webp",
+         "main": true
+        }
        ]
       },
       {
@@ -10669,9 +11488,18 @@
        "notes": "Not found in the Rudra Singha article; treat as unverified.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/ghanashyam-khanikar/turnaround-1.webp",
+         "thumbnail": "media/characters/ghanashyam-khanikar/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -10719,11 +11547,20 @@
        "summary": "Held real power under Rajeswar Singha and made Lakshmi Singha king in 1769. Had the Buranjis collected and many destroyed over references to his low origins.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Rajeswar_Singha",
         "https://en.wikipedia.org/wiki/Lakshmi_Singha",
         "https://en.wikipedia.org/wiki/Ahom_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/kirti-chandra-borbarua/turnaround-1.webp",
+         "thumbnail": "media/characters/kirti-chandra-borbarua/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -10737,10 +11574,19 @@
        "summary": "Led the 1765 army sent to help Manipur against the Burmese; the jungle route defeated it and it became known as the War of the Creepers.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Rajeswar_Singha",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/haranath-phukan/turnaround-1.webp",
+         "thumbnail": "media/characters/haranath-phukan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -10775,11 +11621,20 @@
        "notes": "His eldest son Ruchinath succeeded him as Burhagohain.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chandrakanta_Singha",
         "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
         "https://en.wikipedia.org/wiki/Gaurinath_Singha"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/purnananda-burhagohain/turnaround-1.webp",
+         "thumbnail": "media/characters/purnananda-burhagohain/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -10896,11 +11751,20 @@
        "notes": "Sources give 1817 or 1818 for the assassination; the Wikipedia article gives 1818.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Badan_Chandra_Borphukan",
         "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
         "https://en.wikipedia.org/wiki/Chandrakanta_Singha"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/badan-chandra-borphukan/turnaround-1.webp",
+         "thumbnail": "media/characters/badan-chandra-borphukan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -10985,11 +11849,20 @@
        "summary": "Eldest son of Purnananda; became Burhagohain in 1817, deposed Chandrakanta in February 1818 and installed Purandar Singha, and later sought British help.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chandrakanta_Singha",
         "https://en.wikipedia.org/wiki/Purandar_Singha",
         "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/ruchinath-burhagohain/turnaround-1.webp",
+         "thumbnail": "media/characters/ruchinath-burhagohain/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11039,10 +11912,19 @@
        "summary": "Killed Badan Chandra Borphukan, in a plot backed by the queen-mother.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Badan_Chandra_Borphukan",
         "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/subedar-rup-singh/turnaround-1.webp",
+         "thumbnail": "media/characters/subedar-rup-singh/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11074,19 +11956,33 @@
      "characters": [
       {
        "id": "mayamara-mahanta",
-       "name": "Mayamara Mahanta",
-       "date_label": "1769",
+       "name": "Astabhuj Deva (Mayamara Mahanta)",
+       "date_label": "active 1769; d. 1770",
        "start_year": 1769,
-       "end_year": 1769,
+       "end_year": 1770,
        "sort_year": 1769,
-       "role": "Moamara abbot",
+       "role": "Mayamara Satra spiritual head",
        "summary": "Intervened to spare Lakshmi Singha's life when the rebels captured him in 1769.",
+       "notes": "The 1769 catalogue office-holder is identified as Astabhuj Deva; distinct from founder Aniruddhadeva and son Gagini Deka Mahanta. See research/moamoria-seven-research.md. Modern interpretive sheet uses local earlier religious-scene clothing only; face, age and unrecorded clothing details are artistic reconstruction.",
+       "also_called": "Astabhujdeva; Ashtabhujdev; Mayamara Mahanta",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Lakshmi_Singha",
-        "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+        "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+        "https://www.scribd.com/document/653981594/Anglo-Assamese-Relations-1771-1826-SK-Bhuyan",
+        "https://www.atributetosankaradeva.org/mayamara.pdf"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Astabhuj Deva (Mayamara Mahanta), eight-view white devotional dress sheet with red-woven shoulder cloth, interpretive identity",
+         "image": "media/characters/mayamara-mahanta/turnaround-1.webp",
+         "thumbnail": "media/characters/mayamara-mahanta/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -11100,10 +11996,26 @@
        "summary": "Flogged over elephant levies in September 1769, which sparked the revolt. Became Borbarua and was killed in April 1770 by nobles aided by Kuranganayani.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Moamoria_rebellion",
         "https://en.wikipedia.org/wiki/Kuranganayani"
+       ],
+       "character_sheets": [
+        {
+         "kind": "sheet",
+         "image": "media/characters/ragha-moran/sheet-1.webp",
+         "thumbnail": "media/characters/ragha-moran/thumb/sheet-1.webp",
+         "width": 1536,
+         "height": 1024
+        },
+        {
+         "kind": "sheet",
+         "image": "media/characters/ragha-moran/sheet-2.webp",
+         "thumbnail": "media/characters/ragha-moran/thumb/sheet-2.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11170,9 +12082,18 @@
        "summary": "Co-leader with Ragha; helped install his son Ramakanta as rebel king and was executed in the 1770 purge.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/naharkhora/turnaround-1.webp",
+         "thumbnail": "media/characters/naharkhora/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11205,9 +12126,18 @@
        "summary": "Naharkhora's son, placed on the throne by the rebels in November 1769 and executed in 1770.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/ramakanta/turnaround-1.webp",
+         "thumbnail": "media/characters/ramakanta/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11240,9 +12170,18 @@
        "summary": "Reorganised the Dafla-Bhatia rebels in 1786 and administered the north bank of the Brahmaputra.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/harihar-tanti/turnaround-1.webp",
+         "thumbnail": "media/characters/harihar-tanti/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -11256,10 +12195,19 @@
        "summary": "Moamoria chief placed on the throne after the 1785–86 rebel victory; coins were struck in his name. Killed in 1799 (another page gives 1800).",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Moamoria_rebellion",
         "https://en.wikipedia.org/wiki/Ahom_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/bharat-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/bharat-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -11273,9 +12221,18 @@
        "summary": "Ruled the Moran tracts from Bengmara. After fighting royalists in 1805 he accepted peace, became Barsenapati and governed the autonomous Matak kingdom.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "image": "media/characters/sarbananda-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/sarbananda-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       }
      ]
@@ -11294,12 +12251,23 @@
        "sort_year": 1527,
        "role": "Bengal commander",
        "summary": "Named in the project catalogue as leading the first Muslim invasion that Suhungmung defeated in 1527.",
+       "notes": " Modern artistic reconstruction; likeness and costume limitations: research/bit-malik/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Suhungmung",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bit Malik, eight-view artistic reconstruction",
+         "image": "media/characters/bit-malik/turnaround-1.webp",
+         "thumbnail": "media/characters/bit-malik/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11330,13 +12298,23 @@
        "sort_year": 1532,
        "role": "Commander from Bengal",
        "summary": "Led the 1532–33 invasion, defeating Suklen at Singri before the Ahoms counterattacked; killed near the Bharali river.",
-       "notes": "Sources disagree on his origin (Turko-Afghan or Bengali).",
+       "notes": "Sources disagree on his origin (Turko-Afghan or Bengali). Modern artistic reconstruction; likeness and costume limitations: research/turbak/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Turbak%27s_invasion_of_Assam",
         "https://en.wikipedia.org/wiki/Suhungmung"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Turbak, eight-view artistic reconstruction",
+         "image": "media/characters/turbak/turnaround-1.webp",
+         "thumbnail": "media/characters/turbak/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11384,11 +12362,22 @@
        "sort_year": 1615,
        "role": "Mughal ally",
        "summary": "Co-led the 1615 imperial army with Abu Bakr and stirred up Balinarayan's invasion of Kamrup.",
+       "notes": " Modern artistic reconstruction; likeness and costume limitations: research/satrajit/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Raja Satrajit of Bhusna, eight-view artistic reconstruction",
+         "image": "media/characters/satrajit/turnaround-1.webp",
+         "thumbnail": "media/characters/satrajit/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -11400,11 +12389,22 @@
        "sort_year": 1615,
        "role": "Mughal commander",
        "summary": "Co-led the 1615 imperial army that began the first Mughal attack on Assam.",
+       "notes": " Modern artistic reconstruction; likeness and costume limitations: research/abu-bakr/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Abu Bakr, eight-view artistic reconstruction",
+         "image": "media/characters/abu-bakr/turnaround-1.webp",
+         "thumbnail": "media/characters/abu-bakr/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -11416,11 +12416,22 @@
        "sort_year": 1616,
        "role": "Bengal Subahdar",
        "summary": "His mistreatment of hill chiefs of Dhanikal led to the Ahom asylum dispute.",
+       "notes": " Modern artistic reconstruction; likeness and costume limitations: research/qasim-khan-chishti/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Qasim Khan Chishti, eight-view artistic reconstruction",
+         "image": "media/characters/qasim-khan-chishti/turnaround-1.webp",
+         "thumbnail": "media/characters/qasim-khan-chishti/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -11432,12 +12443,23 @@
        "sort_year": 1639,
        "role": "Mughal commander",
        "summary": "Signed the Treaty of Asurar Ali with Momai Tamuli in 1639, fixing the border on the Brahmaputra.",
+       "notes": " Modern artistic reconstruction; likeness and costume limitations: research/allah-yar-khan/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
         "https://en.wikipedia.org/wiki/Momai_Tamuli_Borbarua"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Allah Yar Khan, eight-view artistic reconstruction",
+         "image": "media/characters/allah-yar-khan/turnaround-1.webp",
+         "thumbnail": "media/characters/allah-yar-khan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11469,13 +12491,23 @@
        "sort_year": 1662,
        "role": "Mughal governor of Bengal",
        "summary": "Invaded Assam in January 1662, took Garhgaon in March and agreed the Treaty of Ghilajharighat in January 1663. Died on the return at Mankachar on 30 March 1663.",
-       "notes": "Born in Isfahan in 1591.",
+       "notes": "Born in Isfahan in 1591. Modern artistic reconstruction; likeness and costume limitations: research/mir-jumla/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Mir_Jumla_II",
         "https://en.wikipedia.org/wiki/Jayadhwaj_Singha"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Mir Jumla, eight-view artistic reconstruction",
+         "image": "media/characters/mir-jumla/turnaround-1.webp",
+         "thumbnail": "media/characters/mir-jumla/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11556,12 +12588,22 @@
        "sort_year": 1662,
        "role": "Mughal commander",
        "summary": "Named in the project catalogue among the Mughal commanders of Mir Jumla's 1662 invasion.",
-       "notes": "Not found in the Wikipedia articles consulted.",
+       "notes": "Not found in the Wikipedia articles consulted. Modern artistic reconstruction; likeness and costume limitations: research/dilir-khan/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Dilir Khan, eight-view artistic reconstruction",
+         "image": "media/characters/dilir-khan/turnaround-1.webp",
+         "thumbnail": "media/characters/dilir-khan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11609,12 +12651,22 @@
        "sort_year": 1662,
        "role": "Mughal chronicler",
        "summary": "Chronicler of Mir Jumla's invasion of Assam.",
-       "notes": "Role from the project catalogue.",
+       "notes": "Role from the project catalogue. Modern artistic reconstruction; likeness and costume limitations: research/shihabuddin-talish/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Shihabuddin Talish, eight-view artistic reconstruction",
+         "image": "media/characters/shihabuddin-talish/turnaround-1.webp",
+         "thumbnail": "media/characters/shihabuddin-talish/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11645,12 +12697,23 @@
        "sort_year": 1663,
        "role": "Mughal faujdar of Guwahati",
        "summary": "Captured by the Ahoms and later released; carried Ram Singh's demands to the Ahom court.",
+       "notes": " Modern artistic reconstruction; likeness and costume limitations: research/syed-firoz-khan/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Syed Firoz Khan, eight-view artistic reconstruction",
+         "image": "media/characters/syed-firoz-khan/turnaround-1.webp",
+         "thumbnail": "media/characters/syed-firoz-khan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11698,11 +12761,22 @@
        "sort_year": 1667,
        "role": "Mughal emperor",
        "summary": "Ordered Ram Singh's 1667 counter-expedition against the Ahoms.",
+       "notes": " Modern artistic reconstruction; likeness and costume limitations: research/aurangzeb/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Aurangzeb, eight-view artistic reconstruction",
+         "image": "media/characters/aurangzeb/turnaround-1.webp",
+         "thumbnail": "media/characters/aurangzeb/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -11714,12 +12788,23 @@
        "sort_year": 1667,
        "role": "Mughal general",
        "summary": "Led the 1667–1671 Mughal invasion of Assam; defeated at Saraighat in 1671 and demoted on his return.",
+       "notes": " Modern artistic reconstruction; likeness and costume limitations: research/ram-singh-i/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ram_Singh_I",
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Ram Singh I of Amber, eight-view artistic reconstruction",
+         "image": "media/characters/ram-singh-i/turnaround-1.webp",
+         "thumbnail": "media/characters/ram-singh-i/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11786,12 +12871,23 @@
        "sort_year": 1671,
        "role": "Mughal commander",
        "summary": "Named among the Mughal commanders at Saraighat.",
+       "notes": " Modern artistic reconstruction; likeness and costume limitations: research/munawar-khan/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Munawar Khan, eight-view artistic reconstruction",
+         "image": "media/characters/munawar-khan/turnaround-1.webp",
+         "thumbnail": "media/characters/munawar-khan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -11841,11 +12937,22 @@
        "sort_year": 1679,
        "role": "Nawab of Bengal",
        "summary": "Invited in 1679 to take the Saraighat fort after Laluk Sola's surrender.",
+       "notes": " Modern artistic reconstruction; likeness and costume limitations: research/muhammad-azam-shah/reference-design.md; sources: research/mughal-bengal-14-research.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Muhammad Azam Shah, eight-view artistic reconstruction",
+         "image": "media/characters/muhammad-azam-shah/turnaround-1.webp",
+         "thumbnail": "media/characters/muhammad-azam-shah/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -14189,26 +15296,6 @@
    "summary": "Illustration representing the legendary dual executive councils and grand ministers who governed alongside the Ahom Swargadeos.",
    "scene_image": "media/scenes/gallery/history-and-royalty/borgohain-burhagohain-patra-mantri.webp",
    "scene_thumbnail": "media/scenes/gallery/history-and-royalty/thumb/borgohain-burhagohain-patra-mantri.webp"
-  },
-  {
-   "id": "parbatia-gohain-1",
-   "title": "Parbatia Gohain (Ahom Noble)",
-   "date_label": "AI illustration",
-   "era": "AI gallery · History & Royalty",
-   "collection": "Assamese AI gallery",
-   "summary": "Artistic depiction of Parbatia Gohain, prominent Ahom noble commander from the mountain frontier administration.",
-   "scene_image": "media/scenes/gallery/history-and-royalty/parbatia-gohain-1.webp",
-   "scene_thumbnail": "media/scenes/gallery/history-and-royalty/thumb/parbatia-gohain-1.webp"
-  },
-  {
-   "id": "parbatia-gohain-2",
-   "title": "Parbatia Gohain (Alternative Study)",
-   "date_label": "AI illustration",
-   "era": "AI gallery · History & Royalty",
-   "collection": "Assamese AI gallery",
-   "summary": "Alternative artistic visualization of Parbatia Gohain in classical Ahom aristocratic attire.",
-   "scene_image": "media/scenes/gallery/history-and-royalty/parbatia-gohain-2.webp",
-   "scene_thumbnail": "media/scenes/gallery/history-and-royalty/thumb/parbatia-gohain-2.webp"
   },
   {
    "id": "japi-pindha-bhoot-1",
