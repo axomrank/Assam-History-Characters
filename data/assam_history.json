@@ -688,7 +688,9 @@
          "collection": "Kamarupa chronology",
          "summary": "After Shashanka of Gauda kills Harsha’s brother Rajyavardhana, Bhaskaravarman sends his envoy Hamsavega to Harsha with gifts and an offer of alliance. Allied, Kamarupa and Thanesar squeeze Gauda between them.",
          "people": [
-          "bhaskar-varman"
+          "bhaskar-varman",
+          "hamsavega",
+          "harsha"
          ],
          "status": "planned",
          "confidence": "medium",
@@ -708,7 +710,8 @@
          "summary": "At Bhaskaravarman’s invitation, the Chinese pilgrim Xuanzang comes from Nalanda to Kamarupa. He finds a low, moist, fertile land with about a hundred Deva temples and few Buddhists, and a king who, though not a Buddhist, honours learned men.",
          "people": [
           "bhaskar-varman",
-          "xuanzang"
+          "xuanzang",
+          "shilabhadra"
          ],
          "status": "planned",
          "confidence": "medium",
@@ -728,7 +731,8 @@
          "summary": "Bhaskaravarman marches up the Ganges with Harsha, on the opposite bank, to Harsha’s great assembly at Kanauj. In the daily procession of a golden Buddha image on an elephant, Harsha walks dressed as Shakra holding a canopy, and Kumara, dressed as Brahma, holds a white chamara (fly-whisk).",
          "people": [
           "bhaskar-varman",
-          "xuanzang"
+          "xuanzang",
+          "harsha"
          ],
          "status": "planned",
          "confidence": "medium",
@@ -1237,16 +1241,66 @@
     },
     {
      "name": "Contemporaries and visitors",
+     "start_year": 529,
+     "end_year": 647,
      "characters": [
       {
-       "id": "xuanzang",
-       "name": "Xuanzang",
-       "date_label": "602–664 CE (visited 643)",
-       "sort_year": 643,
-       "role": "Chinese pilgrim and visitor",
-       "summary": "Buddhist monk whose account of his 643 visit is a key outside description of Kamarupa.",
-       "status": "seed",
-       "sheet_status": "none",
+       "id": "shashanka",
+       "name": "Shashanka",
+       "name_assamese": "শশাংক",
+       "date_label": "c. 593–636 CE (reign)",
+       "start_year": 593,
+       "end_year": 636,
+       "sort_year": 593,
+       "role": "King of Gauda, rival of Harsha and Kamarupa",
+       "summary": "King of Gauda with his capital at Karnasuvarna in Bengal. His forces defeated the Varman princes of Kamarupa and killed Harsha’s brother Rajyavardhana (c. 606); after his death Karnasuvarna passed to Bhaskaravarman.",
+       "notes": "Reign end given as 636, though some sources place his death about 625. No conclusive evidence shows he personally murdered Rajyavardhana; the hostile accounts come from his enemies’ side.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Shashanka",
+        "https://en.banglapedia.org/index.php?title=Shashanka"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Shashanka, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/shashanka/turnaround-1.webp",
+         "thumbnail": "media/characters/shashanka/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ]
+      },
+      {
+       "id": "shilabhadra",
+       "name": "Shilabhadra",
+       "name_assamese": "শীলভদ্ৰ",
+       "date_label": "c. 529–645 CE",
+       "start_year": 529,
+       "end_year": 645,
+       "sort_year": 600,
+       "role": "Abbot of Nalanda, Xuanzang’s teacher",
+       "summary": "Abbot of the Nalanda monastery and a master of Yogacara Buddhism, who taught Xuanzang there for several years. Bhaskaravarman’s invitation to Xuanzang was probably sent to him.",
+       "notes": "Said to be from Magadha, or from a Brahmin royal family of Samatata in eastern Bengal; the very long lifespan is traditional.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/%C5%9A%C4%ABlabhadra",
+        "https://en.banglapedia.org/index.php?title=Shilabhadra"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Shilabhadra, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/shilabhadra/turnaround-1.webp",
+         "thumbnail": "media/characters/shilabhadra/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "VARMAN-14",
@@ -1258,7 +1312,202 @@
          "summary": "At Bhaskaravarman’s invitation, the Chinese pilgrim Xuanzang comes from Nalanda to Kamarupa. He finds a low, moist, fertile land with about a hundred Deva temples and few Buddhists, and a king who, though not a Buddhist, honours learned men.",
          "people": [
           "bhaskar-varman",
-          "xuanzang"
+          "xuanzang",
+          "shilabhadra"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhaskaravarman",
+          "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
+         ],
+         "main": false
+        }
+       ]
+      },
+      {
+       "id": "harsha",
+       "name": "Harshavardhana (Harsha)",
+       "name_assamese": "হৰ্ষবৰ্ধন",
+       "date_label": "606–647 CE (reign)",
+       "start_year": 606,
+       "end_year": 647,
+       "sort_year": 606,
+       "role": "Emperor of Kannauj, ally of Bhaskaravarman",
+       "summary": "Pushyabhuti emperor who ruled much of northern India from Kanyakubja (Kannauj), 606–647. Bhaskaravarman of Kamarupa was his ally against Shashanka of Gauda, and walked beside him at the Kanauj assembly of 643–644.",
+       "notes": "Born 590, possibly at Thanesar; died 647. His court poet Bana wrote his life, the Harshacharita.",
+       "confidence": "high",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Harsha",
+        "https://en.wikipedia.org/wiki/Bhaskaravarman"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Harshavardhana (Harsha), eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/harsha/turnaround-1.webp",
+         "thumbnail": "media/characters/harsha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-13",
+         "title": "Hamsavega’s Embassy to Harsha",
+         "date_label": "c. 606 CE",
+         "sort_year": 606,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "After Shashanka of Gauda kills Harsha’s brother Rajyavardhana, Bhaskaravarman sends his envoy Hamsavega to Harsha with gifts and an offer of alliance. Allied, Kamarupa and Thanesar squeeze Gauda between them.",
+         "people": [
+          "bhaskar-varman",
+          "hamsavega",
+          "harsha"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhaskaravarman",
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": false
+        },
+        {
+         "id": "VARMAN-15",
+         "title": "Kumara and Harsha at the Kanauj Assembly",
+         "date_label": "643–644 CE",
+         "sort_year": 643,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Bhaskaravarman marches up the Ganges with Harsha, on the opposite bank, to Harsha’s great assembly at Kanauj. In the daily procession of a golden Buddha image on an elephant, Harsha walks dressed as Shakra holding a canopy, and Kumara, dressed as Brahma, holds a white chamara (fly-whisk).",
+         "people": [
+          "bhaskar-varman",
+          "xuanzang",
+          "harsha"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://www.wisdomlib.org/south-asia/book/buddhist-records-of-the-western-world-xuanzang/d/doc220228.html",
+          "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
+         ],
+         "main": false
+        }
+       ]
+      },
+      {
+       "id": "hamsavega",
+       "name": "Hamsavega",
+       "name_assamese": "হংসবেগ",
+       "date_label": "c. 606 CE",
+       "sort_year": 606,
+       "role": "Bhaskaravarman’s envoy to Harsha",
+       "summary": "Envoy (also Hangsavega) whom Bhaskaravarman sent to Harsha with gifts and an offer of alliance after the death of Rajyavardhana, recorded by Bana and Xuanzang.",
+       "notes": "Known only from this embassy; his appearance and dress on the sheet are invented.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Bhaskaravarman"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Hamsavega, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/hamsavega/turnaround-1.webp",
+         "thumbnail": "media/characters/hamsavega/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-13",
+         "title": "Hamsavega’s Embassy to Harsha",
+         "date_label": "c. 606 CE",
+         "sort_year": 606,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "After Shashanka of Gauda kills Harsha’s brother Rajyavardhana, Bhaskaravarman sends his envoy Hamsavega to Harsha with gifts and an offer of alliance. Allied, Kamarupa and Thanesar squeeze Gauda between them.",
+         "people": [
+          "bhaskar-varman",
+          "hamsavega",
+          "harsha"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhaskaravarman",
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": false
+        }
+       ]
+      },
+      {
+       "id": "banabhatta",
+       "name": "Banabhatta (Bana)",
+       "name_assamese": "বাণভট্ট",
+       "date_label": "7th century CE",
+       "sort_year": 620,
+       "role": "Court poet of Harsha",
+       "summary": "Sanskrit court poet of Harsha at Kanyakubja, author of the Harshacharita and Kadambari. His Harshacharita is a main source for Kamarupa’s alliance with Harsha.",
+       "notes": "Born in Pritikuta village to a Brahmin family. Kadambari was finished by his son Bhushanabhatta.",
+       "confidence": "high",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Banabhatta"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Banabhatta (Bana), eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/banabhatta/turnaround-1.webp",
+         "thumbnail": "media/characters/banabhatta/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ]
+      },
+      {
+       "id": "xuanzang",
+       "name": "Xuanzang",
+       "date_label": "602–664 CE (visited 643)",
+       "sort_year": 643,
+       "role": "Chinese pilgrim and visitor",
+       "summary": "Buddhist monk whose account of his 643 visit is a key outside description of Kamarupa.",
+       "status": "seed",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Xuanzang"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Xuanzang, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/xuanzang/turnaround-1.webp",
+         "thumbnail": "media/characters/xuanzang/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-14",
+         "title": "Xuanzang at the Court of Kumara",
+         "date_label": "c. 642–643 CE",
+         "sort_year": 642,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "At Bhaskaravarman’s invitation, the Chinese pilgrim Xuanzang comes from Nalanda to Kamarupa. He finds a low, moist, fertile land with about a hundred Deva temples and few Buddhists, and a king who, though not a Buddhist, honours learned men.",
+         "people": [
+          "bhaskar-varman",
+          "xuanzang",
+          "shilabhadra"
          ],
          "status": "planned",
          "confidence": "medium",
@@ -1278,7 +1527,8 @@
          "summary": "Bhaskaravarman marches up the Ganges with Harsha, on the opposite bank, to Harsha’s great assembly at Kanauj. In the daily procession of a golden Buddha image on an elephant, Harsha walks dressed as Shakra holding a canopy, and Kumara, dressed as Brahma, holds a white chamara (fly-whisk).",
          "people": [
           "bhaskar-varman",
-          "xuanzang"
+          "xuanzang",
+          "harsha"
          ],
          "status": "planned",
          "confidence": "medium",
