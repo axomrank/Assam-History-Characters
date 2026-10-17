@@ -5720,7 +5720,6 @@
          "collection": "AHOM chronology",
          "summary": "One of the longest reigns in Ahom annals; nearly five decades of uninterrupted agricultural and population growth.",
          "people": [
-          "pratap-singha",
           "susenphaa"
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/13_Long_Peace_of_Susenphaa.webp",
@@ -5736,7 +5735,6 @@
          "collection": "AHOM chronology",
          "summary": "Tangshu Naga warriors raid eastern border villages, looting grain stores and capturing lowland subjects.",
          "people": [
-          "pratap-singha",
           "susenphaa"
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/14_Tangshu_Naga_Raids.webp",
@@ -5752,7 +5750,6 @@
          "collection": "AHOM chronology",
          "summary": "Susenphaa personally leads an army into the rugged Tangshu hills, encircling rebel villages and cutting off mountain passes.",
          "people": [
-          "pratap-singha",
           "susenphaa"
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/15_Susenphaa_Leads_the_Tangshu_Expedition.webp",
@@ -5768,7 +5765,6 @@
          "collection": "AHOM chronology",
          "summary": "Defeated Tangshu leaders present offerings of swords, amber, and mountain goods, swearing eternal peace with the Ahom throne.",
          "people": [
-          "pratap-singha",
           "susenphaa"
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/16_Tribute_of_the_Tangshu_Chiefs.webp",
@@ -5784,7 +5780,6 @@
          "collection": "AHOM chronology",
          "summary": "Inscribed stone monoliths erected around the holy hills of Charaideo to permanently safeguard the royal necropolis.",
          "people": [
-          "pratap-singha",
           "susenphaa"
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/17_Boundary_Stones_of_Charaideo.webp",
@@ -6664,86 +6659,6 @@
         }
        ],
        "scenes": [
-        {
-         "id": "AHOM-077",
-         "title": "The Golden Forty-Nine-Year Peace of Susenphaa",
-         "date_label": "1439–1488",
-         "sort_year": 1439,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "One of the longest reigns in Ahom annals; nearly five decades of uninterrupted agricultural and population growth.",
-         "people": [
-          "pratap-singha",
-          "susenphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/13_Long_Peace_of_Susenphaa.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/13_Long_Peace_of_Susenphaa.webp",
-         "main": true
-        },
-        {
-         "id": "AHOM-078",
-         "title": "Tangshu Naga Raids on Lowland Settlements",
-         "date_label": "c. 1460",
-         "sort_year": 1460,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Tangshu Naga warriors raid eastern border villages, looting grain stores and capturing lowland subjects.",
-         "people": [
-          "pratap-singha",
-          "susenphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/14_Tangshu_Naga_Raids.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/14_Tangshu_Naga_Raids.webp",
-         "main": false
-        },
-        {
-         "id": "AHOM-079",
-         "title": "Susenphaa's Punitive Tangshu Campaign",
-         "date_label": "c. 1461",
-         "sort_year": 1461,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Susenphaa personally leads an army into the rugged Tangshu hills, encircling rebel villages and cutting off mountain passes.",
-         "people": [
-          "pratap-singha",
-          "susenphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/15_Susenphaa_Leads_the_Tangshu_Expedition.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/15_Susenphaa_Leads_the_Tangshu_Expedition.webp",
-         "main": true
-        },
-        {
-         "id": "AHOM-080",
-         "title": "Submission and Tribute of the Tangshu Chiefs",
-         "date_label": "c. 1462",
-         "sort_year": 1462,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Defeated Tangshu leaders present offerings of swords, amber, and mountain goods, swearing eternal peace with the Ahom throne.",
-         "people": [
-          "pratap-singha",
-          "susenphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/16_Tribute_of_the_Tangshu_Chiefs.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/16_Tribute_of_the_Tangshu_Chiefs.webp",
-         "main": false
-        },
-        {
-         "id": "AHOM-081",
-         "title": "Erection of Charaideo Boundary Stones",
-         "date_label": "c. 1470",
-         "sort_year": 1470,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Inscribed stone monoliths erected around the holy hills of Charaideo to permanently safeguard the royal necropolis.",
-         "people": [
-          "pratap-singha",
-          "susenphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/17_Boundary_Stones_of_Charaideo.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/17_Boundary_Stones_of_Charaideo.webp",
-         "main": false
-        },
         {
          "id": "AHOM-116",
          "title": "Accession of Susenghphaa (Pratap Singha)",

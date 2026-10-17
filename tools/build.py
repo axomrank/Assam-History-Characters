@@ -16,10 +16,11 @@ Image availability per person is worked out from files that exist on disk:
   2 portrait  a portrait or pose, but no sheet
   1 scenes    appears in scenes only
   0 none      nothing yet
+Scenes are written in date order (see scene_order). index.html gets ?v= stamps so browsers reload new data.
 Identical scene files count once. Problems (unknown ids, missing files) are printed and the build fails.
 Run: python3 tools/build.py
 """
-import csv, datetime, hashlib, json, sys
+import csv, datetime, hashlib, json, re, sys
 from collections import Counter, defaultdict
 from pathlib import Path
 from PIL import Image
@@ -68,6 +69,40 @@ def num(v):
     return int(f) if f.is_integer() else f
 
 
+def scene_year(r):
+    """sort_year, else the first year written in the date label ('c. 1532', '1815–1816'), else None"""
+    y = num(r["sort_year"])
+    if y is None:
+        m = re.search(r"\b(\d{3,4})\b", r["date_label"] or "")
+        y = int(m.group(1)) if m else None
+    return y
+
+
+def scene_order(scenes):
+    """Scenes in date order: the dated collections (eras, by the years in their group name) first, then the
+    undated gallery. An undated scene takes the year of the scene before it, so it stays where it was put."""
+    def era_start(g):
+        m = re.search(r"\((\d{3,4})", g or "")
+        return int(m.group(1)) if m else None
+    keyed, last = [], {}
+    for n, r in enumerate(scenes):
+        start, y = era_start(r["group"]), scene_year(r)
+        if y is None: y = last.get(r["group"])
+        last[r["group"]] = y
+        keyed.append(((start is None, start or 0, y is None, y or 0, n), r))
+    return [r for _, r in sorted(keyed, key=lambda k: k[0])]
+
+
+def stamp_index():
+    """Add ?v=<content hash> to the data, script and style links in index.html so browsers fetch new versions."""
+    page = ROOT / "index.html"
+    html = page.read_text(encoding="utf-8")
+    for f in ("data/site.js", "assets/app.js", "assets/app.css"):
+        v = hashlib.sha256((ROOT / f).read_bytes()).hexdigest()[:10]
+        html = re.sub(rf'(["\']){re.escape(f)}(\?v=[0-9a-f]*)?(["\'])', rf"\g<1>{f}?v={v}\g<3>", html)
+    page.write_text(html, encoding="utf-8")
+
+
 def main():
     rows = read_rows()
     problems = []
@@ -78,6 +113,7 @@ def main():
     for t, rs in by_type.items():
         dup = [i for i, n in Counter(r["id"] for r in rs).items() if n > 1]
         if dup: problems.append(f"duplicate {t} ids: {', '.join(dup)}")
+    by_type["scene"] = scene_order(by_type["scene"])
     era_ids = [r["id"] for r in by_type["period"]]
     ids = {r["id"] for r in by_type["person"]}
     exists = lambda p: (ROOT / p).is_file()
@@ -143,6 +179,7 @@ def main():
     (ROOT / "data/site.js").write_text("window.SITE=" + json.dumps(site, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
 
     write_tree(by_type, sheets, avail={c["id"]: c["av"][0] for c in chars})
+    stamp_index()
 
     names = ["none", "scenes", "portrait", "sheet"]
     print(f"site.js: {len(eras)} periods, {len(chars)} people, {sum(map(len, sheets.values()))} character sheets, {len(events)} events, {len(scenes)} scenes")
