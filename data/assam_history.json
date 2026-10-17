@@ -30,9 +30,19 @@
        "marital_status": "Unknown",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Pushya Varman, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/pushya-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/pushya-varman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -46,7 +56,9 @@
          "people": [
           "pushya-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-01_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-01_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa",
@@ -65,7 +77,9 @@
          "people": [
           "pushya-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-02_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-02_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa",
@@ -90,9 +104,19 @@
        "marital_status": "Dattadevi",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Samudra Varman, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/samudra-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/samudra-varman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -106,7 +130,9 @@
          "people": [
           "samudra-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-03_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-03_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa"
@@ -130,9 +156,19 @@
        "marital_status": "Ratnavati",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bala Varman, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/bala-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/bala-varman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -150,9 +186,19 @@
        "marital_status": "Gandharavati",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Kalyan Varman, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/kalyan-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/kalyan-varman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -166,7 +212,9 @@
          "people": [
           "kalyan-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-04_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-04_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa"
@@ -189,9 +237,19 @@
        "marital_status": "Yajnavati",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Ganapati Varman, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/ganapati-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/ganapati-varman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -209,9 +267,19 @@
        "marital_status": "Suvrata",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Mahendra Varman, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/mahendra-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/mahendra-varman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -225,7 +293,9 @@
          "people": [
           "mahendra-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-05_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-05_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Umachal_rock_inscription"
@@ -243,7 +313,9 @@
          "people": [
           "mahendra-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-06_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-06_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Varman_dynasty",
@@ -267,9 +339,19 @@
        "marital_status": "Devavati",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Narayana Varman, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/narayana-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/narayana-varman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -287,9 +369,19 @@
        "marital_status": "Vijayavati",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bhuti Varman, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/bhuti-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/bhuti-varman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -299,11 +391,13 @@
          "sort_year": 525,
          "era": "Varman dynasty (350–655)",
          "collection": "Kamarupa chronology",
-         "summary": "Yasodharman of Malwa leads an attack on Kamarupa, the first major assault on the kingdom from the west. Its effect on Kamarupa is unclear.",
+         "summary": "A western-frontier alarm illustrates a reported threat associated with interpretations of Yasodharman’s expansion. A specific attack, commander or battle in Kamarupa is not securely established here.",
          "people": [
           "bhuti-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-07_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-07_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa"
@@ -321,7 +415,9 @@
          "people": [
           "bhuti-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-08_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-08_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Nidhanpur_copperplate_inscription",
@@ -340,7 +436,9 @@
          "people": [
           "bhuti-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-09_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-09_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://whatisindia.com/inscriptions/epigraphica_indica/vol27_1947-1948/bhattasali.html"
@@ -363,9 +461,19 @@
        "marital_status": "Bhogavati",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Chandramukha, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/chandramukha/turnaround-1.webp",
+         "thumbnail": "media/characters/chandramukha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -382,9 +490,19 @@
        "marital_status": "Nayanadevi",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Sthita Varman, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/sthita-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/sthita-varman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -398,7 +516,9 @@
          "people": [
           "sthita-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-10_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-10_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa",
@@ -423,9 +543,19 @@
        "marital_status": "Syamadevi",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Susthita Varman, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/susthita-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/susthita-varman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -435,11 +565,13 @@
          "sort_year": 590,
          "era": "Varman dynasty (350–655)",
          "collection": "Kamarupa chronology",
-         "summary": "The Later Gupta king Mahasenagupta of East Malwa defeats the Kamarupa king Susthitavarman on the banks of the Lauhitya (Brahmaputra). Susthitavarman dies while the Gauda invasion is still under way.",
+         "summary": "The Aphsad inscription credits Mahasenagupta with defeating Susthitavarman, generally identified with Kamarupa’s ruler, near the Lauhitya. The reconstruction depicts withdrawal and does not assert that Susthitavarman died in battle.",
          "people": [
           "susthita-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-11_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-11_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Varman_dynasty",
@@ -463,9 +595,19 @@
        "marital_status": "Bachelor",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Supratisthita Varman, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/supratisthita-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/supratisthita-varman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -503,9 +645,19 @@
        "marital_status": "Bachelor",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bhaskar Varman, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/bhaskar-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/bhaskar-varman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
