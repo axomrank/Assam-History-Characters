@@ -33,6 +33,47 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-01",
+         "title": "Kamarupa on Samudragupta’s Allahabad Pillar",
+         "date_label": "c. 350–375 CE",
+         "sort_year": 350,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Samudragupta’s Allahabad Pillar inscription names Kamarupa, with Davaka, among the frontier kingdoms (pratyanta) on the edge of the Gupta empire. It is the first written mention of Kamarupa.",
+         "people": [
+          "pushya-varman"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa",
+          "https://en.wikipedia.org/wiki/Varman_dynasty"
+         ],
+         "main": false
+        },
+        {
+         "id": "VARMAN-02",
+         "title": "Pushyavarman Founds the Varman Line",
+         "date_label": "c. 350–374 CE",
+         "sort_year": 351,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Pushyavarman establishes the Varman dynasty of Kamarupa, fighting enemies within and outside his kingdom. Later Varman grants place him as the first king of the line.",
+         "people": [
+          "pushya-varman"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa",
+          "https://en.wikipedia.org/wiki/Varman_dynasty",
+          "https://en.wikipedia.org/wiki/Nidhanpur_copperplate_inscription"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -52,6 +93,26 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-03",
+         "title": "Local Rulers Accept Samudravarman as Overlord",
+         "date_label": "c. 374–398 CE",
+         "sort_year": 374,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Many local rulers of the valley accept Samudravarman, Pushyavarman’s son, as their overlord.",
+         "people": [
+          "samudra-varman"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -92,6 +153,26 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-04",
+         "title": "Kalyanavarman Takes Davaka",
+         "date_label": "c. 422–446 CE",
+         "sort_year": 422,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Kalyanavarman brings Davaka, the neighbouring kingdom in the Kopili valley named beside Kamarupa on the Allahabad Pillar, under Kamarupa.",
+         "people": [
+          "kalyan-varman"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -131,6 +212,45 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-05",
+         "title": "Surendravarman’s Cave Temple for Balabhadra on Umachal",
+         "date_label": "5th century CE",
+         "sort_year": 470,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "A Sanskrit rock inscription in Gupta script on the Umachal slope of Nilachal hill, Guwahati, records that Maharajadhiraja Surendravarman made a cave temple for Balabhadra, a Vaishnava deity.",
+         "people": [
+          "mahendra-varman"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Umachal_rock_inscription"
+         ],
+         "main": true
+        },
+        {
+         "id": "VARMAN-06",
+         "title": "A Varman Horse Sacrifice (Ashvamedha)",
+         "date_label": "c. 470–494 CE",
+         "sort_year": 471,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "A Kamarupa king performs the ashvamedha, the Vedic horse sacrifice by which a king claims sovereignty: a consecrated horse roams for a year, then is sacrificed. Sen (1999) credits Mahendravarman with two such sacrifices.",
+         "people": [
+          "mahendra-varman"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Varman_dynasty",
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -170,6 +290,63 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-07",
+         "title": "Yasodharman of Malwa Strikes at Kamarupa",
+         "date_label": "c. 525–535 CE",
+         "sort_year": 525,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Yasodharman of Malwa leads an attack on Kamarupa, the first major assault on the kingdom from the west. Its effect on Kamarupa is unclear.",
+         "people": [
+          "bhuti-varman"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": false
+        },
+        {
+         "id": "VARMAN-08",
+         "title": "Bhutivarman Settles Brahmins at Chandrapuri",
+         "date_label": "6th century CE",
+         "sort_year": 540,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Bhutivarman (Mahabhutavarman) grants land at Mayurasalmala in Chandrapuri district, in today’s Sylhet, to a large community of Vedic Brahmins of many gotras. A century later Bhaskaravarman renews this grant (the Nidhanpur plates).",
+         "people": [
+          "bhuti-varman"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Nidhanpur_copperplate_inscription",
+          "https://whatisindia.com/inscriptions/epigraphica_indica/vol27_1947-1948/bhattasali.html"
+         ],
+         "main": true
+        },
+        {
+         "id": "VARMAN-09",
+         "title": "Aryaguna Founds an Ashram on the Badaganga",
+         "date_label": "Gupta year 234 (553–554 CE)",
+         "sort_year": 553,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Under Maharajadhiraja Bhutivarman, his minister Aryaguna founds a hermitage (ashrama) on the Badaganga stream below Mahamaya hill, in today’s Nagaon district. The rock inscription that records it is the earliest dated inscription in Assam.",
+         "people": [
+          "bhuti-varman"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://whatisindia.com/inscriptions/epigraphica_indica/vol27_1947-1948/bhattasali.html"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -208,6 +385,27 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-10",
+         "title": "Sthitavarman’s Victory over Gauda",
+         "date_label": "c. 566–590 CE",
+         "sort_year": 566,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Sthitavarman wins victories over the Gauda kingdom of Karnasuvarna in Bengal and performs two horse sacrifices. The capital was probably moved during his reign.",
+         "people": [
+          "sthita-varman"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa",
+          "https://en.wikipedia.org/wiki/Varman_dynasty"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -228,6 +426,27 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-11",
+         "title": "Mahasenagupta Defeats Susthitavarman on the Lauhitya",
+         "date_label": "c. 590–595 CE",
+         "sort_year": 590,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "The Later Gupta king Mahasenagupta of East Malwa defeats the Kamarupa king Susthitavarman on the banks of the Lauhitya (Brahmaputra). Susthitavarman dies while the Gauda invasion is still under way.",
+         "people": [
+          "susthita-varman"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Varman_dynasty",
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -247,6 +466,27 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-12",
+         "title": "The Princes Taken Captive to Gauda",
+         "date_label": "c. 595–600 CE",
+         "sort_year": 595,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Supratisthitavarman and his younger brother Bhaskaravarman are captured and taken to Gauda. They regain the kingdom, probably by promising allegiance.",
+         "people": [
+          "supratisthita-varman",
+          "bhaskar-varman"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -266,6 +506,124 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-12",
+         "title": "The Princes Taken Captive to Gauda",
+         "date_label": "c. 595–600 CE",
+         "sort_year": 595,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Supratisthitavarman and his younger brother Bhaskaravarman are captured and taken to Gauda. They regain the kingdom, probably by promising allegiance.",
+         "people": [
+          "supratisthita-varman",
+          "bhaskar-varman"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": true
+        },
+        {
+         "id": "VARMAN-13",
+         "title": "Hamsavega’s Embassy to Harsha",
+         "date_label": "c. 606 CE",
+         "sort_year": 606,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "After Shashanka of Gauda kills Harsha’s brother Rajyavardhana, Bhaskaravarman sends his envoy Hamsavega to Harsha with gifts and an offer of alliance. Allied, Kamarupa and Thanesar squeeze Gauda between them.",
+         "people": [
+          "bhaskar-varman"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhaskaravarman",
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": true
+        },
+        {
+         "id": "VARMAN-14",
+         "title": "Xuanzang at the Court of Kumara",
+         "date_label": "c. 642–643 CE",
+         "sort_year": 642,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "At Bhaskaravarman’s invitation, the Chinese pilgrim Xuanzang comes from Nalanda to Kamarupa. He finds a low, moist, fertile land with about a hundred Deva temples and few Buddhists, and a king who, though not a Buddhist, honours learned men.",
+         "people": [
+          "bhaskar-varman",
+          "xuanzang"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhaskaravarman",
+          "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
+         ],
+         "main": true
+        },
+        {
+         "id": "VARMAN-15",
+         "title": "Kumara and Harsha at the Kanauj Assembly",
+         "date_label": "643–644 CE",
+         "sort_year": 643,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Bhaskaravarman marches up the Ganges with Harsha, on the opposite bank, to Harsha’s great assembly at Kanauj. In the daily procession of a golden Buddha image on an elephant, Harsha walks dressed as Shakra holding a canopy, and Kumara, dressed as Brahma, holds a white chamara (fly-whisk).",
+         "people": [
+          "bhaskar-varman",
+          "xuanzang"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://www.wisdomlib.org/south-asia/book/buddhist-records-of-the-western-world-xuanzang/d/doc220228.html",
+          "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
+         ],
+         "main": true
+        },
+        {
+         "id": "VARMAN-16",
+         "title": "The Nidhanpur Grant Issued from the Camp at Karnasuvarna",
+         "date_label": "7th century (undated)",
+         "sort_year": 644,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "From his victory camp at Karnasuvarna, the old Gauda capital near Murshidabad, Bhaskaravarman reissues on copper plates the land grant his ancestor Bhutivarman had made to the Brahmins of Chandrapuri, whose plates had been burnt.",
+         "people": [
+          "bhaskar-varman"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Nidhanpur_copperplate_inscription",
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": true
+        },
+        {
+         "id": "VARMAN-17",
+         "title": "Kumara Sends Supplies to Wang Xuance",
+         "date_label": "c. 648 CE",
+         "sort_year": 648,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "After Harsha’s death, the Tang envoy Wang Xuance is attacked by the usurper of Harsha’s throne and strikes back with troops from Tibet and Nepal. Bhaskaravarman sends him cattle, horses and supplies, and asks for an image of Laozi.",
+         "people": [
+          "bhaskar-varman"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhaskaravarman",
+          "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -284,6 +642,28 @@
        "sheet_status": "none",
        "sources": [
         "https://en.wikipedia.org/wiki/Varman_dynasty"
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-18",
+         "title": "The End of the Varman Line",
+         "date_label": "c. 650–655 CE",
+         "sort_year": 650,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Bhaskaravarman dies about 650, apparently without an heir. Avantivarman follows him briefly, then Salastambha seizes the throne and founds the Mlechchha (Salastambha) dynasty.",
+         "people": [
+          "avantivarman",
+          "salastamba"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Varman_dynasty",
+          "https://en.wikipedia.org/wiki/Bhaskaravarman"
+         ],
+         "main": true
+        }
        ]
       }
      ]
@@ -309,6 +689,28 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "VARMAN-18",
+         "title": "The End of the Varman Line",
+         "date_label": "c. 650–655 CE",
+         "sort_year": 650,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Bhaskaravarman dies about 650, apparently without an heir. Avantivarman follows him briefly, then Salastambha seizes the throne and founds the Mlechchha (Salastambha) dynasty.",
+         "people": [
+          "avantivarman",
+          "salastamba"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Varman_dynasty",
+          "https://en.wikipedia.org/wiki/Bhaskaravarman"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -692,7 +1094,49 @@
        "role": "Chinese pilgrim and visitor",
        "summary": "Buddhist monk whose account of his 643 visit is a key outside description of Kamarupa.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "VARMAN-14",
+         "title": "Xuanzang at the Court of Kumara",
+         "date_label": "c. 642–643 CE",
+         "sort_year": 642,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "At Bhaskaravarman’s invitation, the Chinese pilgrim Xuanzang comes from Nalanda to Kamarupa. He finds a low, moist, fertile land with about a hundred Deva temples and few Buddhists, and a king who, though not a Buddhist, honours learned men.",
+         "people": [
+          "bhaskar-varman",
+          "xuanzang"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhaskaravarman",
+          "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
+         ],
+         "main": true
+        },
+        {
+         "id": "VARMAN-15",
+         "title": "Kumara and Harsha at the Kanauj Assembly",
+         "date_label": "643–644 CE",
+         "sort_year": 643,
+         "era": "Varman dynasty (350–655)",
+         "collection": "Kamarupa chronology",
+         "summary": "Bhaskaravarman marches up the Ganges with Harsha, on the opposite bank, to Harsha’s great assembly at Kanauj. In the daily procession of a golden Buddha image on an elephant, Harsha walks dressed as Shakra holding a canopy, and Kumara, dressed as Brahma, holds a white chamara (fly-whisk).",
+         "people": [
+          "bhaskar-varman",
+          "xuanzang"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://www.wisdomlib.org/south-asia/book/buddhist-records-of-the-western-world-xuanzang/d/doc220228.html",
+          "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
+         ],
+         "main": false
+        }
+       ]
       }
      ]
     }
@@ -1442,6 +1886,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/16_Sukhangphaa_and_Princess_Rajani_Royal_Marriage.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/16_Sukhangphaa_and_Princess_Rajani_Royal_Marriage.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sukhaangphaa"
+         ],
          "main": true
         }
        ]
@@ -2223,6 +2670,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-280_Kamata_Forces_Drive_Back_Bengal.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-280_Kamata_Forces_Drive_Back_Bengal.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
+         ],
          "main": true
         }
        ]
@@ -4219,6 +4670,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/05_Sukaphaa_Enters_Assam.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/05_Sukaphaa_Enters_Assam.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sukaphaa",
+          "https://en.wikipedia.org/wiki/Sandhya_(ruler_of_Kamarupa)"
+         ],
          "main": true
         },
         {
@@ -4829,6 +5284,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/16_Sukhangphaa_and_Princess_Rajani_Royal_Marriage.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/16_Sukhangphaa_and_Princess_Rajani_Royal_Marriage.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sukhaangphaa"
+         ],
          "main": false
         },
         {
@@ -4991,6 +5449,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-278_Interregnum_After_Sukhrangphaa.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-278_Interregnum_After_Sukhrangphaa.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Ahom_dynasty"
+         ],
          "main": false
         }
        ]
@@ -5164,6 +5626,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
          "main": true
         },
         {
@@ -5336,6 +5802,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-280_Kamata_Forces_Drive_Back_Bengal.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-280_Kamata_Forces_Drive_Back_Bengal.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
+         ],
          "main": false
         },
         {
@@ -5368,6 +5838,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Search_for_the_Lost_Prince_Sudang.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Search_for_the_Lost_Prince_Sudang.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
          "main": true
         },
         {
@@ -5443,6 +5916,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-236_Feast_Trap_for_the_Tipam_Conspirators.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-236_Feast_Trap_for_the_Tipam_Conspirators.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
          "main": true
         },
         {
@@ -5506,6 +5983,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
          "main": true
         },
         {
@@ -5523,6 +6004,11 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa",
+          "https://en.wikipedia.org/wiki/Ahom_kingdom"
+         ],
          "main": false
         },
         {
@@ -5540,6 +6026,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
          "main": false
         },
         {
@@ -5915,6 +6405,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/22_Palace_Conspiracy_and_Murder_of_Suhenphaa_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/22_Palace_Conspiracy_and_Murder_of_Suhenphaa_v01.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Ahom_dynasty"
+         ],
          "main": true
         },
         {
@@ -5930,6 +6423,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/22_Palace_Conspiracy_and_Murder_of_Suhenphaa_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/22_Palace_Conspiracy_and_Murder_of_Suhenphaa_v02.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Ahom_dynasty"
+         ],
          "main": true
         }
        ]
@@ -6166,6 +6662,11 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-238_Suhungmung_Counts_the_Fighting_Men.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-238_Suhungmung_Counts_the_Fighting_Men.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suhungmung",
+          "https://en.wikipedia.org/wiki/Ahom_kingdom"
+         ],
          "main": true
         },
         {
@@ -6198,6 +6699,10 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/06_Fall_of_the_Chutia_Kingdom.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/06_Fall_of_the_Chutia_Kingdom.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suhungmung",
+          "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
          "main": false
         },
         {
@@ -6246,6 +6751,10 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-239_Ahom_Pursuit_Toward_Dimapur.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-239_Ahom_Pursuit_Toward_Dimapur.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suhungmung"
+         ],
          "main": true
         },
         {
@@ -6298,6 +6807,11 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-240_Mula_Gabharu_Last_Battle.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-240_Mula_Gabharu_Last_Battle.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Mula_Gabharu",
+          "https://en.wikipedia.org/wiki/Turbak%27s_invasion_of_Assam"
+         ],
          "main": false
         },
         {
@@ -6313,6 +6827,11 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-241_Dimapur_Abandoned_After_the_Campaign.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-241_Dimapur_Abandoned_After_the_Campaign.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suhungmung",
+          "https://en.wikipedia.org/wiki/Ahom_kingdom"
+         ],
          "main": true
         },
         {
@@ -6329,6 +6848,11 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-242_Suhungmung_Assassination_in_the_Night.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-242_Suhungmung_Assassination_in_the_Night.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suhungmung",
+          "https://en.wikipedia.org/wiki/Suklenmung"
+         ],
          "main": true
         },
         {
@@ -6440,6 +6964,11 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-242_Suhungmung_Assassination_in_the_Night.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-242_Suhungmung_Assassination_in_the_Night.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suhungmung",
+          "https://en.wikipedia.org/wiki/Suklenmung"
+         ],
          "main": false
         },
         {
@@ -6471,6 +7000,10 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-243_Sankardeva_Departs_After_Hari_Execution_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-243_Sankardeva_Departs_After_Hari_Execution_v02.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suklenmung"
+         ],
          "main": false
         },
         {
@@ -6719,6 +7252,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-244_Pratap_Singha_Marries_Mangaldoi.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-244_Pratap_Singha_Marries_Mangaldoi.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Susenghphaa"
+         ],
          "main": false
         },
         {
@@ -6734,6 +7271,11 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-245_Jaintia_Passage_Dispute_at_Pratap_Court.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-245_Jaintia_Passage_Dispute_at_Pratap_Court.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Susenghphaa",
+          "https://en.wikipedia.org/wiki/Balinarayan"
+         ],
          "main": true
         },
         {
@@ -6750,6 +7292,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-246_Balinarayan_Seeks_Refuge.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-246_Balinarayan_Seeks_Refuge.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Balinarayan"
+         ],
          "main": true
         },
         {
@@ -6785,6 +7331,12 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Battle_of_Samdhara",
+          "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
+          "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+         ],
          "main": false
         },
         {
@@ -6802,6 +7354,11 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
+          "https://en.wikipedia.org/wiki/Battle_of_Duimunisila"
+         ],
          "main": false
         },
         {
@@ -7117,6 +7674,11 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-249_First_Ahom_Coins_Jayadhwaj_Singha.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-249_First_Ahom_Coins_Jayadhwaj_Singha.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suklenmung",
+          "https://en.wikipedia.org/wiki/Ahom_kingdom"
+         ],
          "main": true
         },
         {
@@ -7132,6 +7694,11 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-250_Jayadhwaj_Singha_Takes_Guwahati.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-250_Jayadhwaj_Singha_Takes_Guwahati.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Treaty_of_Ghilajharighat",
+          "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+         ],
          "main": true
         },
         {
@@ -7696,6 +8263,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Lachit_Borphukan"
+         ],
          "main": false
         },
         {
@@ -7713,6 +8284,11 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sunyatphaa",
+          "https://en.wikipedia.org/wiki/Suklamphaa"
+         ],
          "main": true
         }
        ]
@@ -7799,6 +8375,11 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sunyatphaa",
+          "https://en.wikipedia.org/wiki/Suklamphaa"
+         ],
          "main": false
         }
        ]
@@ -8212,6 +8793,10 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Laluksola_Borphukan"
+         ],
          "main": false
         },
         {
@@ -8229,6 +8814,7 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
+         "status": "illustrated",
          "main": false
         }
        ]
@@ -8319,6 +8905,7 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
+         "status": "illustrated",
          "main": false
         },
         {
@@ -8349,6 +8936,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-255_Battle_of_Itakhuli.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-255_Battle_of_Itakhuli.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Battle_of_Itakhuli",
+          "https://en.wikipedia.org/wiki/Supatphaa"
+         ],
          "main": true
         },
         {
@@ -8394,6 +8986,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-256_Gadadhar_Persecution_of_the_Satras.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-256_Gadadhar_Persecution_of_the_Satras.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Supatphaa",
+          "https://en.wikipedia.org/wiki/Auniati_Satra"
+         ],
          "main": true
         }
        ]
@@ -8509,6 +9106,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-257_Namdang_Stone_Bridge_Construction.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-257_Namdang_Stone_Bridge_Construction.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Rudra_Singha",
+          "https://sivasagar.assam.gov.in/tourist-place-detail/334"
+         ],
          "main": true
         },
         {
@@ -8616,6 +9218,10 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-258_Rudra_Plans_Bengal_Campaign.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-258_Rudra_Plans_Bengal_Campaign.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Rudra_Singha"
+         ],
          "main": true
         },
         {
@@ -8632,6 +9238,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-259_Death_of_Rudra_at_Guwahati.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-259_Death_of_Rudra_at_Guwahati.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Rudra_Singha",
+          "https://en.wikipedia.org/wiki/Sutanpha"
+         ],
          "main": true
         }
        ]
@@ -8685,6 +9296,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-259_Death_of_Rudra_at_Guwahati.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-259_Death_of_Rudra_at_Guwahati.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Rudra_Singha",
+          "https://en.wikipedia.org/wiki/Sutanpha"
+         ],
          "main": false
         },
         {
@@ -8701,6 +9317,10 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-260_Krishnaram_Parbatiya_Gosain.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-260_Krishnaram_Parbatiya_Gosain.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sutanpha"
+         ],
          "main": false
         },
         {
@@ -8781,6 +9401,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-261_Painting_the_Hastividyarnava.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-261_Painting_the_Hastividyarnava.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Hastividyarnava",
+          "https://en.wikipedia.org/wiki/Assamese_manuscript_painting"
+         ],
          "main": false
         },
         {
@@ -8812,6 +9437,10 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-262_Sarbeswari_Third_Bar_Raja.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-262_Sarbeswari_Third_Bar_Raja.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sutanpha"
+         ],
          "main": false
         }
        ]
@@ -8911,6 +9540,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-263_Rajeswar_Accession.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-263_Rajeswar_Accession.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Ahom_kingdom",
+          "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua"
+         ],
          "main": false
         }
        ]
@@ -8982,6 +9616,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-263_Rajeswar_Accession.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-263_Rajeswar_Accession.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Ahom_kingdom",
+          "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua"
+         ],
          "main": false
         },
         {
@@ -8997,6 +9636,12 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-264_Rebuilding_Kareng_Ghar.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-264_Rebuilding_Kareng_Ghar.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kareng_Ghar",
+          "https://en.wikipedia.org/wiki/Garhgaon",
+          "https://sivasagar.assam.gov.in/tourist-place-detail/328"
+         ],
          "main": true
         },
         {
@@ -9013,6 +9658,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-265_Burning_of_the_Buranjis.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-265_Burning_of_the_Buranjis.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua",
+          "https://en.wikipedia.org/wiki/Buranji"
+         ],
          "main": false
         },
         {
@@ -9153,6 +9803,7 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/15_Royal_Repression_After_the_Moamoria_Rebellion_Ragha_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/15_Royal_Repression_After_the_Moamoria_Rebellion_Ragha_v02.webp",
+         "status": "illustrated",
          "main": true
         }
        ]
@@ -9207,6 +9858,11 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-266_Bihu_Ambush_on_Gaurinath_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-266_Bihu_Ambush_on_Gaurinath_v02.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+          "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+         ],
          "main": true
         },
         {
@@ -9270,6 +9926,11 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-268_Bharat_Singha_at_Rangpur.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-268_Bharat_Singha_at_Rangpur.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+          "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
+         ],
          "main": false
         },
         {
@@ -9319,6 +9980,13 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-270_Court_Relocates_to_Jorhat.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-270_Court_Relocates_to_Jorhat.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Ahom_kingdom",
+          "https://en.wikipedia.org/wiki/Timeline_of_Jorhat",
+          "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+          "https://jorhat.assam.gov.in/about-us/history-jorhat"
+         ],
          "main": false
         }
        ]
@@ -9544,6 +10212,11 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-273_Chandrakanta_Recovers_Guwahati.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-273_Chandrakanta_Recovers_Guwahati.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+         ],
          "main": true
         },
         {
@@ -9561,6 +10234,12 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-274_Defeat_at_Mahgarh.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-274_Defeat_at_Mahgarh.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+          "https://jorhat.assam.gov.in/about-us/history-jorhat"
+         ],
          "main": true
         },
         {
@@ -9578,6 +10257,11 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+         ],
          "main": false
         }
        ]
@@ -9982,6 +10666,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/16_Sukhangphaa_and_Princess_Rajani_Royal_Marriage.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/16_Sukhangphaa_and_Princess_Rajani_Royal_Marriage.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sukhaangphaa"
+         ],
          "main": false
         },
         {
@@ -10063,6 +10750,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/16_Sukhangphaa_and_Princess_Rajani_Royal_Marriage.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/16_Sukhangphaa_and_Princess_Rajani_Royal_Marriage.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sukhaangphaa"
+         ],
          "main": false
         }
        ]
@@ -10205,6 +10895,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
          "main": false
         },
         {
@@ -10222,6 +10916,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
          "main": false
         }
        ]
@@ -10272,6 +10970,11 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-240_Mula_Gabharu_Last_Battle.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-240_Mula_Gabharu_Last_Battle.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Mula_Gabharu",
+          "https://en.wikipedia.org/wiki/Turbak%27s_invasion_of_Assam"
+         ],
          "main": true
         }
        ]
@@ -10320,6 +11023,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-244_Pratap_Singha_Marries_Mangaldoi.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-244_Pratap_Singha_Marries_Mangaldoi.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Susenghphaa"
+         ],
          "main": true
         }
        ]
@@ -10492,6 +11199,7 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
+         "status": "illustrated",
          "main": true
         }
        ]
@@ -10634,6 +11342,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-261_Painting_the_Hastividyarnava.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-261_Painting_the_Hastividyarnava.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Hastividyarnava",
+          "https://en.wikipedia.org/wiki/Assamese_manuscript_painting"
+         ],
          "main": true
         }
        ]
@@ -10680,6 +11393,10 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-262_Sarbeswari_Third_Bar_Raja.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-262_Sarbeswari_Third_Bar_Raja.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sutanpha"
+         ],
          "main": true
         }
        ]
@@ -11061,6 +11778,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Search_for_the_Lost_Prince_Sudang.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Search_for_the_Lost_Prince_Sudang.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
          "main": false
         }
        ]
@@ -11125,6 +11845,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Search_for_the_Lost_Prince_Sudang.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Search_for_the_Lost_Prince_Sudang.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
          "main": false
         }
        ]
@@ -11172,6 +11895,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
          "main": false
         },
         {
@@ -11189,6 +11916,11 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa",
+          "https://en.wikipedia.org/wiki/Ahom_kingdom"
+         ],
          "main": true
         }
        ]
@@ -11236,6 +11968,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
          "main": false
         },
         {
@@ -11253,6 +11989,11 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa",
+          "https://en.wikipedia.org/wiki/Ahom_kingdom"
+         ],
          "main": true
         },
         {
@@ -11270,6 +12011,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
          "main": true
         }
        ]
@@ -11397,6 +12142,10 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/06_Fall_of_the_Chutia_Kingdom.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/06_Fall_of_the_Chutia_Kingdom.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suhungmung",
+          "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
          "main": false
         },
         {
@@ -11415,6 +12164,11 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-240_Mula_Gabharu_Last_Battle.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-240_Mula_Gabharu_Last_Battle.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Mula_Gabharu",
+          "https://en.wikipedia.org/wiki/Turbak%27s_invasion_of_Assam"
+         ],
          "main": false
         }
        ]
@@ -11701,6 +12455,11 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
+          "https://en.wikipedia.org/wiki/Battle_of_Duimunisila"
+         ],
          "main": true
         },
         {
@@ -12318,6 +13077,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Lachit_Borphukan"
+         ],
          "main": true
         }
        ]
@@ -12364,6 +13127,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Lachit_Borphukan"
+         ],
          "main": false
         },
         {
@@ -12413,6 +13180,10 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Laluksola_Borphukan"
+         ],
          "main": true
         }
        ]
@@ -12491,6 +13262,11 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sunyatphaa",
+          "https://en.wikipedia.org/wiki/Suklamphaa"
+         ],
          "main": false
         },
         {
@@ -12586,6 +13362,10 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-260_Krishnaram_Parbatiya_Gosain.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-260_Krishnaram_Parbatiya_Gosain.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sutanpha"
+         ],
          "main": true
         },
         {
@@ -12720,6 +13500,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-263_Rajeswar_Accession.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-263_Rajeswar_Accession.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Ahom_kingdom",
+          "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua"
+         ],
          "main": true
         },
         {
@@ -12736,6 +13521,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-265_Burning_of_the_Buranjis.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-265_Burning_of_the_Buranjis.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua",
+          "https://en.wikipedia.org/wiki/Buranji"
+         ],
          "main": true
         }
        ]
@@ -12860,6 +13650,13 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-270_Court_Relocates_to_Jorhat.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-270_Court_Relocates_to_Jorhat.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Ahom_kingdom",
+          "https://en.wikipedia.org/wiki/Timeline_of_Jorhat",
+          "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+          "https://jorhat.assam.gov.in/about-us/history-jorhat"
+         ],
          "main": true
         },
         {
@@ -12892,6 +13689,11 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-271_Matak_Autonomy_Settlement.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-271_Matak_Autonomy_Settlement.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+          "https://en.wikipedia.org/wiki/Matak_rajya"
+         ],
          "main": false
         },
         {
@@ -12926,6 +13728,11 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+         ],
          "main": false
         },
         {
@@ -13025,6 +13832,11 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+         ],
          "main": true
         },
         {
@@ -13092,6 +13904,12 @@
          ],
          "scene_image": "media/scenes/ahom/1826-1833-early-british-resistance/AHOM-277_Piyali_Phukan_and_Jiuram_Last_Moments.webp",
          "scene_thumbnail": "media/scenes/ahom/1826-1833-early-british-resistance/thumb/AHOM-277_Piyali_Phukan_and_Jiuram_Last_Moments.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/British_rule_in_Assam",
+          "https://www.etvbharat.com/english/state/assam/martyrs-of-freedom-struggle-from-assam-awaits-recognition/na20200925181218073",
+          "https://cbcindia.gov.in/wp-content/themes/boc/mann_ki_baat/e_july24/files/basic-html/page31.html"
+         ],
          "main": false
         }
        ]
@@ -13341,6 +14159,7 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/15_Royal_Repression_After_the_Moamoria_Rebellion_Ragha_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/15_Royal_Repression_After_the_Moamoria_Rebellion_Ragha_v02.webp",
+         "status": "illustrated",
          "main": true
         }
        ]
@@ -13471,6 +14290,12 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-267_Harihar_Tanti_Rising.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-267_Harihar_Tanti_Rising.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+          "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+          "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
+         ],
          "main": true
         }
        ]
@@ -13515,6 +14340,11 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-268_Bharat_Singha_at_Rangpur.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-268_Bharat_Singha_at_Rangpur.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+          "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
+         ],
          "main": true
         }
        ]
@@ -13557,6 +14387,12 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-269_Sarbananda_Founds_Bengmara.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-269_Sarbananda_Founds_Bengmara.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sarbananda_Singha",
+          "https://en.wikipedia.org/wiki/Matak_rajya",
+          "https://tinsukia.assam.gov.in/about-us/history"
+         ],
          "main": true
         },
         {
@@ -13573,6 +14409,11 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-271_Matak_Autonomy_Settlement.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-271_Matak_Autonomy_Settlement.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+          "https://en.wikipedia.org/wiki/Matak_rajya"
+         ],
          "main": true
         }
        ]
@@ -13709,6 +14550,11 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-240_Mula_Gabharu_Last_Battle.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-240_Mula_Gabharu_Last_Battle.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Mula_Gabharu",
+          "https://en.wikipedia.org/wiki/Turbak%27s_invasion_of_Assam"
+         ],
          "main": false
         }
        ]
@@ -13756,6 +14602,12 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Battle_of_Samdhara",
+          "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
+          "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+         ],
          "main": true
         }
        ]
@@ -13803,6 +14655,12 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Battle_of_Samdhara",
+          "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
+          "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+         ],
          "main": true
         }
        ]
@@ -13848,6 +14706,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-246_Balinarayan_Seeks_Refuge.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-246_Balinarayan_Seeks_Refuge.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Balinarayan"
+         ],
          "main": false
         },
         {
@@ -13866,6 +14728,12 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Battle_of_Samdhara",
+          "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
+          "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+         ],
          "main": false
         }
        ]
@@ -13913,6 +14781,11 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
+          "https://en.wikipedia.org/wiki/Battle_of_Duimunisila"
+         ],
          "main": false
         },
         {
@@ -14044,6 +14917,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-251_Death_of_Mir_Jumla.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-251_Death_of_Mir_Jumla.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Mir_Jumla_II"
+         ],
          "main": true
         }
        ]
@@ -14123,6 +15000,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-251_Death_of_Mir_Jumla.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-251_Death_of_Mir_Jumla.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Mir_Jumla_II"
+         ],
          "main": false
         }
        ]
@@ -14619,6 +15500,11 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+         ],
          "main": true
         }
        ]
@@ -14712,6 +15598,12 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-274_Defeat_at_Mahgarh.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-274_Defeat_at_Mahgarh.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+          "https://jorhat.assam.gov.in/about-us/history-jorhat"
+         ],
          "main": false
         },
         {
@@ -14729,6 +15621,11 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+         ],
          "main": true
         }
        ]
@@ -14775,6 +15672,11 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+         ],
          "main": false
         }
        ]
@@ -14838,6 +15740,12 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-274_Defeat_at_Mahgarh.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-274_Defeat_at_Mahgarh.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+          "https://jorhat.assam.gov.in/about-us/history-jorhat"
+         ],
          "main": true
         }
        ]
@@ -15076,6 +15984,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
          "main": false
         }
        ]
@@ -15140,6 +16052,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
          "main": false
         }
        ]
@@ -15303,6 +16219,10 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/06_Fall_of_the_Chutia_Kingdom.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/06_Fall_of_the_Chutia_Kingdom.webp",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suhungmung",
+          "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
          "main": false
         }
        ]
@@ -15977,6 +16897,10 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-243_Sankardeva_Departs_After_Hari_Execution_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-243_Sankardeva_Departs_After_Hari_Execution_v02.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suklenmung"
+         ],
          "main": true
         },
         {
@@ -17095,7 +18019,12 @@
    "collection": "AHOM chronology",
    "summary": "Former Ahom nobles led by Dhananjoy Borgohain crown the prince Gomdhar Konwar near Jorhat and march on Rangpur. Lieutenant Rutherford's troops defeat them; Gomdhar is captured and banished. The first armed rising against British rule in Assam.",
    "scene_image": "media/scenes/ahom/1826-1833-early-british-resistance/AHOM-276_Gomdhar_Konwar_Revolt.webp",
-   "scene_thumbnail": "media/scenes/ahom/1826-1833-early-british-resistance/thumb/AHOM-276_Gomdhar_Konwar_Revolt.webp"
+   "scene_thumbnail": "media/scenes/ahom/1826-1833-early-british-resistance/thumb/AHOM-276_Gomdhar_Konwar_Revolt.webp",
+   "status": "illustrated",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gomdhar_Konwar",
+    "https://cbcindia.gov.in/wp-content/themes/boc/mann_ki_baat/e_july24/files/basic-html/page31.html"
+   ]
   },
   {
    "id": "ahom-noble-warrior",

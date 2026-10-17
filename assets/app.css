@@ -287,3 +287,18 @@ table.cov.hh tbody td:first-child{box-shadow:inset 3px 0 var(--dc);padding-left:
 .cov td.hh .sw{width:8px;height:8px}
 .lane.hh .lname{box-shadow:inset 3px 0 var(--dc);padding-left:12px}
 @media (max-width:780px){.chead.hh h1{margin-left:0;padding-left:14px}}
+
+/* researched scenes not painted yet: an empty folio frame instead of the picture */
+.scene .ph-scene{padding:0;width:100%;aspect-ratio:3/2;display:grid;place-items:center;border-radius:var(--r);border:1px dashed var(--line);
+  background:repeating-linear-gradient(135deg,transparent 0 11px,color-mix(in srgb,var(--line) 35%,transparent) 11px 12px),var(--leaf)}
+.scene .ph-scene em{font-size:.86rem;color:var(--muted);background:var(--leaf);padding:2px 10px;border-radius:var(--r)}
+.scene.planned:hover .ph-scene{border-color:var(--hengul)}
+.scene.hh .ph-scene{box-shadow:0 3px 0 var(--dc)}
+.vph{width:min(70vw,480px);aspect-ratio:3/2;display:grid;place-items:center;border:1px dashed #3e3426;border-radius:var(--r);
+  background:repeating-linear-gradient(135deg,transparent 0 11px,#2a231a 11px 12px);color:#a8997e;font-style:italic}
+dialog#viewer.noimg .vstage{cursor:default}
+dialog#viewer.noimg #vZoomIn,dialog#viewer.noimg #vZoomOut,dialog#viewer.noimg #vFit,dialog#viewer.noimg #vDownload{display:none}
+dialog#viewer.noimg .vfoot{max-height:45vh}
+.vfoot .vnote{color:#a8997e;font-style:italic}
+.vfoot .vmeta{color:#a8997e;font-size:.86rem}
+.vfoot .vmeta a{margin-right:10px}

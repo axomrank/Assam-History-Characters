@@ -64,8 +64,8 @@ const STR = {
     copyBrief:'Copy reference brief', copied:'Reference brief copied', copyFail:'Could not copy. Select the text and copy it yourself.',
     scenesWith:'Scenes with this character', scenesWithNone:'No catalogued scene features this character yet.',
     about1:'Interpretation, not evidence',
-    scenesTitle:'Historical scenes', scenesLede:'Illustrated scenes from the Ahom chronology and the Assamese AI gallery, linked to the characters in them.',
-    allCollections:'All collections', allChars:'All characters', sceneCount:n=>`${n} scenes`,
+    scenesTitle:'Historical scenes', scenesLede:'Illustrated scenes from the Ahom chronology and the Assamese AI gallery, linked to the characters in them. Researched scenes that are not painted yet are shown as placeholders.',
+    allCollections:'All collections', allChars:'All characters', sceneCount:n=>`${n} scenes`, allStates:'Painted and not yet painted', painted:'Painted', planned:'Not painted yet', plannedTag:'Not painted yet', plannedBody:'This scene is researched but not painted yet. Use the description and sources as the brief.', plannedCount:n=>`, ${n} not painted yet`, confWord:'Confidence', sourcesWord:'Sources',
     close:'Close', fit:'Fit', openChar:'Character page',
     foot:'Illustrations are interpretations, not photographs or evidence of how anyone looked. Dates and names come from the project catalogue and starting roster and are not independently verified.',
     covTitle:'Coverage', covLede:'Which characters still need a sheet. Use the folder name when you add images.',
@@ -81,7 +81,7 @@ const STR = {
     withSheet:'পত্ৰ আছে', noSheet:'পত্ৰ লাগে', hasLegend:'পত্ৰ আছে', needLegend:'পত্ৰ যোগ কৰা হোৱা নাই',
     search:'নাম, ভূমিকা বা যুগ অনুসৰি বিচাৰক', allEras:'সকলো যুগ', all:'সকলো',
     results:n=>`${n} জন চৰিত্ৰ`, back:'সকলো চৰিত্ৰ', download:'ডাউনলোড', close:'বন্ধ কৰক', fit:'খাপ খুৱাওক',
-    sceneTeaser:'ঐতিহাসিক দৃশ্য', allScenes:'সকলো দৃশ্য', sceneCount:n=>`${n}টা দৃশ্য`,
+    sceneTeaser:'ঐতিহাসিক দৃশ্য', allScenes:'সকলো দৃশ্য', sceneCount:n=>`${n}টা দৃশ্য`, painted:'অঁকা', planned:'এতিয়াও অঁকা হোৱা নাই', plannedTag:'এতিয়াও অঁকা হোৱা নাই', plannedCount:n=>`, ${n}টা এতিয়াও অঁকা হোৱা নাই`,
     scenesTitle:'ঐতিহাসিক দৃশ্য', refNotes:'ৰেফাৰেন্স টোকা', copyBrief:'ৰেফাৰেন্স ব্ৰিফ কপি কৰক',
   },
 };
@@ -128,7 +128,7 @@ const dotTip = c => `${nm(c)}, ${availTag(c)[0]}`;
 /* ---------- components ---------- */
 function charCard(c) {
   const s = [...c.sheets].sort((a, b) => coverRank(a.kind) - coverRank(b.kind))[0];
-  const sc = !s && c.mainScenes.length ? sceneById[c.mainScenes[0]] : null;
+  const sc = !s ? c.mainScenes.map(x => sceneById[x]).find(x => !x.planned) || null : null;
   const [tag, tone] = availTag(c);
   return `<li><a class="card ${hc(house(c))}" href="#/c/${esc(c.id)}">
     <div class="media ${sc ? 'photo' : ''}">${s ? `<img src="${url(s.thumb)}" alt="Character sheet of ${esc(c.name)}" loading="lazy" decoding="async">` : sc ? `<img src="${url(sc.thumbnail)}" alt="Scene: ${esc(sc.event)}" loading="lazy" decoding="async">` : `<span class="ph" aria-hidden="true">${esc([...nm(c)][0])}</span>`}</div>
@@ -138,7 +138,8 @@ function charCard(c) {
 }
 function sceneBtn(s) {
   const sc = s.main[0] || s.chars[0], hk = sc && charById[sc] ? house(charById[sc]) : '';
-  return `<li><button type="button" class="scene ${hc(hk)}" data-scene="${esc(s.id)}"><img src="${url(s.thumbnail)}" alt="${esc(s.event)}" loading="lazy" decoding="async"><span><b>${esc(s.event)}</b><small>${esc(s.date_label)}</small></span></button></li>`;
+  const pic = s.planned ? `<span class="ph-scene" aria-hidden="true"><em>${esc(t('plannedTag'))}</em></span>` : `<img src="${url(s.thumbnail)}" alt="${esc(s.event)}" loading="lazy" decoding="async">`;
+  return `<li><button type="button" class="scene ${hc(hk)} ${s.planned ? 'planned' : ''}" data-scene="${esc(s.id)}">${pic}<span><b>${esc(s.event)}</b><small>${esc(s.date_label)}</small></span></button></li>`;
 }
 
 /* ---------- views ---------- */
@@ -150,7 +151,7 @@ function viewHome() {
       <ul class="dots" aria-label="${esc(eraName(e))}: ${h} of ${cs.length} with a sheet">${cs.map(c => `<li><a class="dot ${dotCls(c)} ${hc(house(c))}" href="#/c/${esc(c.id)}" data-tip="${esc(dotTip(c))}" aria-label="${esc(dotTip(c))}"></a></li>`).join('')}</ul></li>`;
   }).join('');
   const recent = chars.filter(withSheets).sort((a, b) => b.sheets.at(-1).added.localeCompare(a.sheets.at(-1).added)).slice(0, 8);
-  const step = Math.max(1, Math.floor(S.scenes.length / 8)), teaser = S.scenes.filter((_, i) => i % step === 0).slice(0, 8);
+  const painted = S.scenes.filter(s => !s.planned), step = Math.max(1, Math.floor(painted.length / 8)), teaser = painted.filter((_, i) => i % step === 0).slice(0, 8);
   return `<section class="folio hero"><h1>${esc(t('h1'))}<span>${esc(t('h1sub'))}</span></h1><p class="lede">${esc(t('lede'))}</p>
     <div class="cta"><a class="btn primary" href="#/characters">${esc(t('browse'))}</a><a class="btn" href="#/scenes">${esc(t('seeScenes'))}</a></div>
     <p class="span-yrs" aria-label="c. 350 to 2020"><b>c. 350</b><i></i><span>${esc(t('span', S.eras.length, total))}</span><i></i><b>2020</b></p></section>
@@ -256,24 +257,26 @@ function sheetViewHTML(c) {
 }
 
 function viewScenes(q) {
-  const st = { q: q.get('q') || '', col: q.get('col') || '', c: q.get('c') || '' };
+  const st = { q: q.get('q') || '', col: q.get('col') || '', c: q.get('c') || '', st: q.get('st') || '' };
   const html = `<div class="page-head"><h1>${esc(t('scenesTitle'))}</h1><p>${esc(t('scenesLede'))}</p></div>
     <div class="filters" role="search"><input type="search" id="sq" placeholder="${esc(t('search'))}" aria-label="${esc(t('search'))}" value="${esc(st.q)}">
     <select id="sc" aria-label="Collection"><option value="">${esc(t('allCollections'))}</option>${[...new Set(S.scenes.map(s => s.collection))].map(v => `<option ${st.col === v ? 'selected' : ''}>${esc(v)}</option>`).join('')}</select>
-    <select id="sp" aria-label="Character"><option value="">${esc(t('allChars'))}</option>${chars.filter(c => c.scenes.length).map(c => `<option value="${c.id}" ${st.c === c.id ? 'selected' : ''}>${esc(nm(c))} (${c.scenes.length})</option>`).join('')}</select></div>
+    <select id="sp" aria-label="Character"><option value="">${esc(t('allChars'))}</option>${chars.filter(c => c.scenes.length).map(c => `<option value="${c.id}" ${st.c === c.id ? 'selected' : ''}>${esc(nm(c))} (${c.scenes.length})</option>`).join('')}</select>
+    <select id="sst" aria-label="Painted"><option value="">${esc(t('allStates'))}</option>${[['painted', t('painted')], ['planned', t('planned')]].map(([v, l]) => `<option value="${v}" ${st.st === v ? 'selected' : ''}>${esc(l)}</option>`).join('')}</select></div>
     <p class="count" id="scount" aria-live="polite"></p><ul class="grid" id="sgrid"></ul>`;
   setTimeout(() => {
     if (!$('sq')) return;
     const draw = () => {
       const n = st.q.trim().toLowerCase();
-      const list = S.scenes.filter(s => (!st.col || s.collection === st.col) && (!st.c || s.chars.includes(st.c)) && (!n || (s.event + ' ' + s.description + ' ' + s.date_label).toLowerCase().includes(n)));
-      $('scount').textContent = t('sceneCount', list.length);
+      const list = S.scenes.filter(s => (!st.col || s.collection === st.col) && (!st.c || s.chars.includes(st.c)) && (!st.st || (st.st === 'planned') === !!s.planned) && (!n || (s.event + ' ' + s.description + ' ' + s.date_label).toLowerCase().includes(n)));
+      const np = list.filter(s => s.planned).length; $('scount').textContent = t('sceneCount', list.length) + (np && np < list.length ? t('plannedCount', np) : '');
       $('sgrid').innerHTML = list.map(sceneBtn).join('');
       window.__sceneList = list; setQuery('/scenes', st);
     };
     $('sq').oninput = e => { st.q = e.target.value; draw(); };
     $('sc').onchange = e => { st.col = e.target.value; draw(); };
     $('sp').onchange = e => { st.c = e.target.value; draw(); };
+    $('sst').onchange = e => { st.st = e.target.value; draw(); };
     draw();
   });
   return html;
@@ -303,7 +306,8 @@ const dlg = $('viewer'), vimg = $('vImg');
 function vApply() { vimg.style.transform = `translate(${V.x}px,${V.y}px) scale(${V.z})`; }
 function vFit() { V.z = 1; V.x = V.y = 0; vApply(); }
 function vShow() {
-  const it = V.items[V.i]; vimg.src = it.src; vimg.alt = it.title; $('vTitle').textContent = it.title; $('vSub').textContent = it.sub || '';
+  const it = V.items[V.i], none = !it.src; dlg.classList.toggle('noimg', none);
+  if (none) vimg.removeAttribute('src'); else vimg.src = it.src; vimg.hidden = none; $('vPh').hidden = !none; vimg.alt = it.title; $('vTitle').textContent = it.title; $('vSub').textContent = it.sub || '';
   const d = $('vDownload'); d.href = it.src; d.setAttribute('download', it.name || ''); $('vFoot').innerHTML = it.foot || '';
   $('vPrev').hidden = $('vNext').hidden = V.items.length < 2; vFit();
 }
@@ -322,7 +326,10 @@ dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
 
 function sceneItem(s) {
   const links = s.chars.map(id => `<a href="#/c/${id}" data-closeviewer>${esc(nm(charById[id]))}</a>`).join('');
-  return { src: url(s.file), title: s.event, sub: s.date_label, name: s.filename, foot: `<p>${esc(s.description)}</p>${links}` };
+  const srcs = srcOf(s.src).map(u => /^https?:/.test(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(decodeURIComponent(u.replace(/^https?:\/\/(www\.)?/, '').replace(/^en\.wikipedia\.org\/wiki\//, 'Wikipedia: ')).replace(/_/g, ' ').slice(0, 60))}</a>` : esc(u)).join('');
+  const meta = s.conf || srcs ? `<p class="vmeta">${s.conf ? `${esc(t('confWord'))}: ${esc(s.conf)}. ` : ''}${srcs ? `${esc(t('sourcesWord'))}: ${srcs}` : ''}</p>` : '';
+  return { src: s.planned ? '' : url(s.file), title: s.event, sub: s.date_label, name: s.filename,
+    foot: `${s.planned ? `<p><em>${esc(t('plannedBody'))}</em></p>` : ''}<p>${esc(s.description)}</p>${s.notes ? `<p class="vnote">${esc(s.notes)}</p>` : ''}${meta}${links}` };
 }
 function sheetItems(c) {
   return c.sheets.map(s => ({ src: url(s.file), title: nm(c), sub: kindName(s.kind), name: `${c.id}-${s.kind}.webp`, foot: s.caption ? esc(s.caption) : '' }));

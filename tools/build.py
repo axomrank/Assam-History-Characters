@@ -8,7 +8,8 @@ Each CSV row is one record, told apart by the `type` column:
           character_sheets lists their images as "path | caption"; the kind (portrait, pose, turnaround...)
           is the start of the file name, and the size is read from the file.
   event   a dated event on the timeline page (people = ids of the people involved; scene_image optional)
-  scene   an illustrated scene (scene_image; people = everyone in it, main_people = who it is about)
+  scene   an illustrated scene (scene_image; people = everyone in it, main_people = who it is about).
+          A researched scene not painted yet has status "planned" and no scene_image; the site shows a placeholder.
 Lists inside a cell are separated by "; ". Every image's thumbnail is the same file name in a thumb/ folder beside it.
 
 Image availability per person is worked out from files that exist on disk:
@@ -130,12 +131,18 @@ def main():
         for i in chars + main:
             if i not in ids: problems.append(f"scene {r['id']}: unknown person {i}")
         img = r["scene_image"]
-        if not (exists(img) and exists(thumb_of(img))):
+        if not img:   # a researched scene that is not painted yet: the site shows a placeholder
+            if r["status"] != "planned": problems.append(f"scene {r['id']}: no scene_image (set status to planned if it is not painted yet)")
+            ok = False
+        elif not (exists(img) and exists(thumb_of(img))):
             problems.append(f"missing file: {img}"); ok = False
         else:
             h = hashlib.sha256((ROOT / img).read_bytes()).hexdigest(); ok = h not in seen; seen.add(h)
-        scenes.append({"id": r["id"], "event": r["name"], "date_label": r["date_label"], "file": img, "thumbnail": thumb_of(img),
-                       "filename": img.rsplit("/", 1)[-1], "collection": r["collection"], "description": r["summary"], "chars": chars, "main": main})
+        scenes.append({"id": r["id"], "event": r["name"], "date_label": r["date_label"],
+                       **({"file": img, "thumbnail": thumb_of(img), "filename": img.rsplit("/", 1)[-1]} if img else {"planned": 1}),
+                       "collection": r["collection"], "description": r["summary"], "chars": chars, "main": main,
+                       **({"conf": r["confidence"]} if r["confidence"] else {}), **({"notes": r["notes"]} if r["notes"] and not img else {}),
+                       **({"src": src(r["sources"])} if r["sources"] else {})})
         if ok:
             for cid in chars: (main_of if cid in main else appear_of)[cid].append(r["id"])
 
@@ -205,7 +212,8 @@ def write_tree(by_type, sheets, avail):
     for r in by_type["scene"]:
         base = {"id": r["id"], "title": r["name"], "date_label": r["date_label"], "sort_year": num(r["sort_year"]), "era": r["group"],
                 "collection": r["collection"], "summary": r["summary"], "people": lst(r["people"]),
-                "scene_image": r["scene_image"], "scene_thumbnail": thumb_of(r["scene_image"])}
+                "scene_image": r["scene_image"], "scene_thumbnail": thumb_of(r["scene_image"]) if r["scene_image"] else "",
+                "status": r["status"], "confidence": r["confidence"], "sources": lst(r["sources"])}
         if not lst(r["people"]): unlinked.append(clean(base))
         for i in lst(r["people"]): scenes_of[i].append(clean({**base, "main": i in lst(r["main_people"])}))
     by_year = lambda x: (x.get("sort_year", x.get("start_year")) is None, x.get("sort_year", x.get("start_year")) or 0)

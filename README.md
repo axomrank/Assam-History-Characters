@@ -13,13 +13,19 @@ Open `index.html`, or serve the folder with `python3 -m http.server`.
 | `period` | 7 | a period of Assam's history | `date_label`, `start_year`, `end_year`, `summary`, `group_order` (order of groups on the page) |
 | `person` | 328 | a person | `period`, `group`, dates, `role`, `summary`, `notes`, Tai and Hindu names, `ahom_king_no`, `koch_no`, `confidence`, `sources`, `character_sheets` |
 | `event` | 24 | a dated event on the Timeline page | `start_year`, `end_year`, `summary`, `people`, `scene_image` (optional) |
-| `scene` | 265 | an illustrated scene | `date_label`, `sort_year`, `group` (era), `summary`, `people`, `main_people`, `scene_image` |
+| `scene` | 331 | an illustrated scene, or a researched one not painted yet (`status` = `planned`) | `date_label`, `sort_year`, `group` (era), `summary`, `people`, `main_people`, `scene_image` |
 
 Images live inside the record they belong to. A person's `character_sheets` cell lists their sheets and
 portraits as `path | caption`, for example
 `media/characters/sukaphaa/pose-1.webp | Chaolung Sukapha on Royal Throne (Profile)`. The kind (portrait, pose,
 turnaround, face...) is the start of the file name, and the size is read from the file. A scene or event has
 one `scene_image`. Every thumbnail is the same file name in the `thumb/` folder beside the image.
+
+A scene that is researched but not painted yet has `status` set to `planned` and no `scene_image`. The site shows it
+as a placeholder card, and its viewer shows the description, notes, confidence and sources as a brief for the
+painter. To add the painting later, put the WebP (and its thumbnail) in the scene's era folder, fill in
+`scene_image`, set `status` to `illustrated` and rebuild. Scenes are shown in date order: by the era in `group`, then
+`sort_year` (or the first year in `date_label`).
 
 Lists inside a cell (people, sources, king numbers, group order) are separated by `; `.
 `people` and `main_people` hold person ids, so a scene links to everyone in it and is "about" its main people.
