@@ -8,3 +8,6 @@ __pycache__/
 
 # Varman research pack: drafts, zips and reference files with unchecked rights stay local
 varman_character_research/
+# review drafts and working research notes stay local until they are added to the catalogue
+research/
+review/

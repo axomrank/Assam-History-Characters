@@ -56,8 +56,8 @@
          "people": [
           "pushya-varman"
          ],
-         "scene_image": "media/scenes/varman/VARMAN-01_v1.webp",
-         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-01_v1.webp",
+         "scene_image": "media/scenes/varman/VARMAN-01_v2.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-01_v2.webp",
          "status": "illustrated",
          "confidence": "medium",
          "sources": [
@@ -878,9 +878,19 @@
        "notes": "Pragjyotishpur to Tezpur or Haruppeswara / Hatakeswara",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Salastambha, character reference with full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/salastamba/turnaround-1.webp",
+         "thumbnail": "media/characters/salastamba/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
