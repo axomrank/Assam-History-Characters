@@ -617,12 +617,14 @@
          "sort_year": 595,
          "era": "Varman dynasty (350–655)",
          "collection": "Kamarupa chronology",
-         "summary": "Supratisthitavarman and his younger brother Bhaskaravarman are captured and taken to Gauda. They regain the kingdom, probably by promising allegiance.",
+         "summary": "A tentative reconstruction of the reported captivity of Supratishthitavarman and his younger brother Bhaskaravarman. The captor, exact chronology, route and terms of release require further verification.",
          "people": [
           "supratisthita-varman",
           "bhaskar-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-12_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-12_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa"
@@ -667,12 +669,14 @@
          "sort_year": 595,
          "era": "Varman dynasty (350–655)",
          "collection": "Kamarupa chronology",
-         "summary": "Supratisthitavarman and his younger brother Bhaskaravarman are captured and taken to Gauda. They regain the kingdom, probably by promising allegiance.",
+         "summary": "A tentative reconstruction of the reported captivity of Supratishthitavarman and his younger brother Bhaskaravarman. The captor, exact chronology, route and terms of release require further verification.",
          "people": [
           "supratisthita-varman",
           "bhaskar-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-12_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-12_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa"
@@ -692,7 +696,9 @@
           "hamsavega",
           "harsha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-13_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-13_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
@@ -713,7 +719,9 @@
           "xuanzang",
           "shilabhadra"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-14_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-14_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
@@ -734,7 +742,9 @@
           "xuanzang",
           "harsha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-15_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-15_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://www.wisdomlib.org/south-asia/book/buddhist-records-of-the-western-world-xuanzang/d/doc220228.html",
@@ -753,7 +763,9 @@
          "people": [
           "bhaskar-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-16_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-16_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Nidhanpur_copperplate_inscription",
@@ -772,7 +784,9 @@
          "people": [
           "bhaskar-varman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-17_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-17_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
@@ -795,7 +809,7 @@
        "notes": "Sources disagree on the end of the dynasty (650 or 655 CE).",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "scenes",
        "sources": [
         "https://en.wikipedia.org/wiki/Varman_dynasty"
        ],
@@ -807,12 +821,14 @@
          "sort_year": 650,
          "era": "Varman dynasty (350–655)",
          "collection": "Kamarupa chronology",
-         "summary": "Bhaskaravarman dies about 650, apparently without an heir. Avantivarman follows him briefly, then Salastambha seizes the throne and founds the Mlechchha (Salastambha) dynasty.",
+         "summary": "Bhaskaravarman’s death marks the close of the established Varman sequence around the mid-seventh century. The immediate succession and transition to Salastambha remain uncertain; the empty throne is a symbolic illustration.",
          "people": [
           "avantivarman",
           "salastamba"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-18_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-18_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Varman_dynasty",
@@ -862,7 +878,7 @@
        "notes": "Pragjyotishpur to Tezpur or Haruppeswara / Hatakeswara",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "scenes",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
        ],
@@ -874,12 +890,14 @@
          "sort_year": 650,
          "era": "Varman dynasty (350–655)",
          "collection": "Kamarupa chronology",
-         "summary": "Bhaskaravarman dies about 650, apparently without an heir. Avantivarman follows him briefly, then Salastambha seizes the throne and founds the Mlechchha (Salastambha) dynasty.",
+         "summary": "Bhaskaravarman’s death marks the close of the established Varman sequence around the mid-seventh century. The immediate succession and transition to Salastambha remain uncertain; the empty throne is a symbolic illustration.",
          "people": [
           "avantivarman",
           "salastamba"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-18_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-18_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Varman_dynasty",
@@ -1639,7 +1657,9 @@
           "xuanzang",
           "shilabhadra"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-14_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-14_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
@@ -1691,7 +1711,9 @@
           "hamsavega",
           "harsha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-13_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-13_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
@@ -1712,7 +1734,9 @@
           "xuanzang",
           "harsha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-15_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-15_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://www.wisdomlib.org/south-asia/book/buddhist-records-of-the-western-world-xuanzang/d/doc220228.html",
@@ -1761,7 +1785,9 @@
           "hamsavega",
           "harsha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-13_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-13_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
@@ -1833,7 +1859,9 @@
           "xuanzang",
           "shilabhadra"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-14_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-14_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
@@ -1854,7 +1882,9 @@
           "xuanzang",
           "harsha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/varman/VARMAN-15_v1.webp",
+         "scene_thumbnail": "media/scenes/varman/thumb/VARMAN-15_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://www.wisdomlib.org/south-asia/book/buddhist-records-of-the-western-world-xuanzang/d/doc220228.html",
