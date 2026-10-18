@@ -819,6 +819,26 @@
           "https://en.wikipedia.org/wiki/Bhaskaravarman"
          ],
          "main": true
+        },
+        {
+         "id": "SALA-01",
+         "title": "Salastambha Seizes the Throne of Kamarupa",
+         "date_label": "c. 650–655 CE",
+         "sort_year": 650,
+         "era": "Salastambha dynasty (650–900)",
+         "collection": "Kamarupa chronology",
+         "summary": "After Bhaskaravarman dies without an heir, Salastambha, perhaps a former local governor of the Mlechchha people, takes the throne from the last Varman, Avantivarman, and founds a new dynasty.",
+         "people": [
+          "salastamba",
+          "avantivarman"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Mlechchha_dynasty",
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": false
         }
        ]
       }
@@ -866,6 +886,45 @@
           "https://en.wikipedia.org/wiki/Bhaskaravarman"
          ],
          "main": true
+        },
+        {
+         "id": "SALA-01",
+         "title": "Salastambha Seizes the Throne of Kamarupa",
+         "date_label": "c. 650–655 CE",
+         "sort_year": 650,
+         "era": "Salastambha dynasty (650–900)",
+         "collection": "Kamarupa chronology",
+         "summary": "After Bhaskaravarman dies without an heir, Salastambha, perhaps a former local governor of the Mlechchha people, takes the throne from the last Varman, Avantivarman, and founds a new dynasty.",
+         "people": [
+          "salastamba",
+          "avantivarman"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Mlechchha_dynasty",
+          "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "main": true
+        },
+        {
+         "id": "SALA-02",
+         "title": "Samantas at the Court of Haruppeshvara",
+         "date_label": "7th–9th century CE",
+         "sort_year": 660,
+         "era": "Salastambha dynasty (650–900)",
+         "collection": "Kamarupa chronology",
+         "summary": "At the new capital Haruppeshvara, at Dah Parbatiya near today’s Tezpur, the king shares power with vassal lords, mahasamantas and samantas, who rule their own lands with considerable freedom.",
+         "people": [
+          "salastamba"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa",
+          "https://en.wikipedia.org/wiki/Mlechchha_dynasty"
+         ],
+         "main": false
         }
        ]
       },
@@ -1000,6 +1059,45 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "SALA-03",
+         "title": "Harshadeva’s Daughter Married to the King of Nepal",
+         "date_label": "c. 713–733 CE",
+         "sort_year": 725,
+         "era": "Salastambha dynasty (650–900)",
+         "collection": "Kamarupa chronology",
+         "summary": "Rajyavati, daughter of Harshadeva of Kamarupa, is married to Jayadeva II, the Licchavi king of Nepal. The marriage is recorded on Jayadeva’s stone stele at the Pashupati temple in Kathmandu.",
+         "people": [
+          "harshadeva-alias-harshavarman"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Jayadeva_II",
+          "https://siddham.network/tag/in02087/"
+         ],
+         "main": true
+        },
+        {
+         "id": "SALA-04",
+         "title": "Harshavarman Falls in Battle",
+         "date_label": "c. 745 CE",
+         "sort_year": 745,
+         "era": "Salastambha dynasty (650–900)",
+         "collection": "Kamarupa chronology",
+         "summary": "Harshavarman, who had expanded the kingdom, is defeated and killed by Yasovarman of Kanauj. His death begins the break-up of Kamarupa’s wider power.",
+         "people": [
+          "harshadeva-alias-harshavarman"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Mlechchha_dynasty"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -1018,6 +1116,27 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "SALA-05",
+         "title": "Harjaravarman’s Decree on the Brahmaputra Rock",
+         "date_label": "Gupta year 510 (829–830 CE)",
+         "sort_year": 829,
+         "era": "Salastambha dynasty (650–900)",
+         "collection": "Kamarupa chronology",
+         "summary": "Harjaravarman has a royal decree cut into a rock on the Brahmaputra bank near Tezpur. It is read as a warning to fishermen not to cross into a marked fishing area.",
+         "people": [
+          "harjaravarman"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://asiguwahaticircle.gov.in/rock%20inscription.html",
+          "https://en.wikipedia.org/wiki/Kamarupa_inscriptions"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -1035,6 +1154,27 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "SALA-06",
+         "title": "Vanamalavarman’s Grant on the Lauhitya",
+         "date_label": "9th century CE",
+         "sort_year": 840,
+         "era": "Salastambha dynasty (650–900)",
+         "collection": "Kamarupa chronology",
+         "summary": "Vanamalavarman grants land by copper plate. His Tezpur and Parbatiya plates chronicle his reign and invoke the Lauhitya (Brahmaputra), whose river-god the kings seem to have specially venerated.",
+         "people": [
+          "vanamalavarmadeva"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
+          "https://en.wikipedia.org/wiki/Mlechchha_dynasty"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -1068,6 +1208,26 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "SALA-07",
+         "title": "Balavarman III’s Nagaon Copper Plates",
+         "date_label": "9th century CE",
+         "sort_year": 865,
+         "era": "Salastambha dynasty (650–900)",
+         "collection": "Kamarupa chronology",
+         "summary": "Balavarman III issues a copper-plate land grant, found centuries later at Sutargaon village, Nagaon.",
+         "people": [
+          "balavarman-iii"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa_inscriptions"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -1086,6 +1246,27 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "SALA-08",
+         "title": "Tyagasimha Dies without an Heir",
+         "date_label": "c. 900 CE",
+         "sort_year": 900,
+         "era": "Salastambha dynasty (650–900)",
+         "collection": "Kamarupa chronology",
+         "summary": "Tyagasimha, the last known king of the Salastambha line, dies without an heir, leaving the throne empty.",
+         "people": [
+          "tyagasimha"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa",
+          "https://en.wikipedia.org/wiki/Mlechchha_dynasty"
+         ],
+         "main": true
+        }
        ]
       }
      ]
@@ -1111,6 +1292,27 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "PALA-01",
+         "title": "The Chieftains Elect Brahmapala",
+         "date_label": "c. 900 CE",
+         "sort_year": 900,
+         "era": "Pala dynasty (900–1100)",
+         "collection": "Kamarupa chronology",
+         "summary": "With the Salastambha line extinct, the ruling chieftains elect Brahmapala, of the Bhauma family, as king. The capital stays at Haruppeshvara (Hadapeshvara).",
+         "people": [
+          "brahma-pala"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa",
+          "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -1129,6 +1331,46 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "PALA-02",
+         "title": "Ratnapala Fortifies Durjaya",
+         "date_label": "10th–11th century CE",
+         "sort_year": 920,
+         "era": "Pala dynasty (900–1100)",
+         "collection": "Kamarupa chronology",
+         "summary": "Ratnapala builds a new capital on the Brahmaputra near Guwahati and surrounds it with a rampart and a strong palisade, naming it Durjaya, “the impregnable”.",
+         "people": [
+          "ratna-pala"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa",
+          "https://en.wikipedia.org/wiki/Durjaya_(Kamarupa_capital)"
+         ],
+         "main": true
+        },
+        {
+         "id": "PALA-03",
+         "title": "Ratnapala’s Grants Issued at Durjaya",
+         "date_label": "10th–11th century CE",
+         "sort_year": 945,
+         "era": "Pala dynasty (900–1100)",
+         "collection": "Kamarupa chronology",
+         "summary": "Residing at Durjaya, Ratnapala issues copper-plate land grants in the 25th and 36th years of his reign; they are found at Bargaon (Darrang) and Sualkuchi (Kamrup).",
+         "people": [
+          "ratna-pala"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
+          "https://ir.nbu.ac.in/bitstreams/15fe8ad7-cbf9-4fa3-b50a-0e05c40ae1a8/download"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -1147,6 +1389,26 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "PALA-04",
+         "title": "Indrapala’s Gauhati Grant",
+         "date_label": "10th–11th century CE",
+         "sort_year": 965,
+         "era": "Pala dynasty (900–1100)",
+         "collection": "Kamarupa chronology",
+         "summary": "Indrapala issues a copper-plate land grant, later found at Barpanara village in Kamrup.",
+         "people": [
+          "indra-pala"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa_inscriptions"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -1201,6 +1463,46 @@
        "sheet_status": "none",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "scenes": [
+        {
+         "id": "PALA-06",
+         "title": "The Poet Prasthanakalasa Composes Dharmapala’s Charters",
+         "date_label": "11th–12th century CE",
+         "sort_year": 1040,
+         "era": "Pala dynasty (900–1100)",
+         "collection": "Kamarupa chronology",
+         "summary": "Dharmapala, the most prominent king of the line, issues the Khonamukh and Subhankarapataka copper plates, whose Sanskrit verses were composed by the court poet Prasthanakalasa.",
+         "people": [
+          "dharma-pala"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
+          "https://en.wikipedia.org/wiki/Dharma_Pala"
+         ],
+         "main": true
+        },
+        {
+         "id": "PALA-07",
+         "title": "Dharmapala Moves His Capital to Kamarupanagara",
+         "date_label": "11th–12th century CE",
+         "sort_year": 1055,
+         "era": "Pala dynasty (900–1100)",
+         "collection": "Kamarupa chronology",
+         "summary": "Late in his reign Dharmapala moves his capital to Kamarupanagara, where his Pushpabhadra grant, made in old age, is issued.",
+         "people": [
+          "dharma-pala"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa",
+          "https://en.wikipedia.org/wiki/Dharma_Pala"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -1234,6 +1536,28 @@
           "https://en.wikipedia.org/wiki/Kamarupa",
           "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
          ]
+        }
+       ],
+       "scenes": [
+        {
+         "id": "PALA-08",
+         "title": "Ramapala of Bengal Conquers Kamarupa",
+         "date_label": "c. 1100 CE",
+         "sort_year": 1100,
+         "era": "Pala dynasty (900–1100)",
+         "collection": "Kamarupa chronology",
+         "summary": "In the reign of Jayapala, the last known Kamarupa Pala, the Pala emperor Ramapala of Bengal conquers Kamarupa, ending the dynasty.",
+         "people": [
+          "jaya-pala"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
+          "https://en.wikipedia.org/wiki/Jaya_Pala",
+          "https://en.wikipedia.org/wiki/Ramapala"
+         ],
+         "main": true
         }
        ]
       }
@@ -18390,6 +18714,65 @@
   }
  ],
  "scenes_without_characters": [
+  {
+   "id": "PALA-05",
+   "title": "Carving the Temples of Madan Kamdev",
+   "date_label": "10th–12th century CE",
+   "sort_year": 1000,
+   "era": "Pala dynasty (900–1100)",
+   "collection": "Kamarupa chronology",
+   "summary": "Masons and sculptors raise stone temples at Madan Kamdev, near Baihata Chariali, carving Uma-Maheshvara embracing, the Sun, Ganesha, Vidyadharas, apsaras and animals.",
+   "status": "planned",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Madan_Kamdev"
+   ]
+  },
+  {
+   "id": "PALA-09",
+   "title": "Timgyadeva Governs Kamarupa",
+   "date_label": "1110–1126 CE",
+   "sort_year": 1110,
+   "era": "Pala dynasty (900–1100)",
+   "collection": "Kamarupa chronology",
+   "summary": "Timgyadeva, a chief allied to Ramapala, governs Kamarupa for the Bengal Palas and later throws off their authority.",
+   "status": "planned",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
+    "https://en.wikipedia.org/wiki/Kumarapala_(Pala_king)"
+   ]
+  },
+  {
+   "id": "PALA-10",
+   "title": "Vaidyadeva Replaces Timgyadeva",
+   "date_label": "c. 1126 CE",
+   "sort_year": 1126,
+   "era": "Pala dynasty (900–1100)",
+   "collection": "Kamarupa chronology",
+   "summary": "Kumarapala of Bengal puts down Timgyadeva’s uprising and installs his minister Vaidyadeva as ruler of Kamarupa.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
+    "https://en.wikipedia.org/wiki/Kumarapala_(Pala_king)"
+   ]
+  },
+  {
+   "id": "PALA-11",
+   "title": "Vaidyadeva’s Kamauli Grant",
+   "date_label": "1142 CE",
+   "sort_year": 1142,
+   "era": "Pala dynasty (900–1100)",
+   "collection": "Kamarupa chronology",
+   "summary": "Vaidyadeva, now independent in all but name, issues a land grant in the style of the Kamarupa kings; his copper plates were found at Kamauli in Uttar Pradesh.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
+    "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
+   ]
+  },
   {
    "id": "AHOM-055",
    "title": "First Ministerial Interregnum",
