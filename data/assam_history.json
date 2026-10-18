@@ -835,26 +835,6 @@
           "https://en.wikipedia.org/wiki/Bhaskaravarman"
          ],
          "main": true
-        },
-        {
-         "id": "SALA-01",
-         "title": "Salastambha Seizes the Throne of Kamarupa",
-         "date_label": "c. 650–655 CE",
-         "sort_year": 650,
-         "era": "Salastambha dynasty (650–900)",
-         "collection": "Kamarupa chronology",
-         "summary": "After Bhaskaravarman dies without an heir, Salastambha, perhaps a former local governor of the Mlechchha people, takes the throne from the last Varman, Avantivarman, and founds a new dynasty.",
-         "people": [
-          "salastamba",
-          "avantivarman"
-         ],
-         "status": "planned",
-         "confidence": "low",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Mlechchha_dynasty",
-          "https://en.wikipedia.org/wiki/Kamarupa"
-         ],
-         "main": false
         }
        ]
       }
@@ -917,42 +897,24 @@
         },
         {
          "id": "SALA-01",
-         "title": "Salastambha Seizes the Throne of Kamarupa",
+         "title": "Salastambha Takes the Throne of Kamarupa",
          "date_label": "c. 650–655 CE",
          "sort_year": 650,
          "era": "Salastambha dynasty (650–900)",
          "collection": "Kamarupa chronology",
-         "summary": "After Bhaskaravarman dies without an heir, Salastambha, perhaps a former local governor of the Mlechchha people, takes the throne from the last Varman, Avantivarman, and founds a new dynasty.",
+         "summary": "Salastambha establishes a new ruling line after the Varman period. This accession scene is symbolic; the circumstances of the transfer of power and any role of Avantivarman remain uncertain.",
          "people": [
-          "salastamba",
-          "avantivarman"
+          "salastamba"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/salastambha/SALA-01_v1.webp",
+         "scene_thumbnail": "media/scenes/salastambha/thumb/SALA-01_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Mlechchha_dynasty",
           "https://en.wikipedia.org/wiki/Kamarupa"
          ],
          "main": true
-        },
-        {
-         "id": "SALA-02",
-         "title": "Samantas at the Court of Haruppeshvara",
-         "date_label": "7th–9th century CE",
-         "sort_year": 660,
-         "era": "Salastambha dynasty (650–900)",
-         "collection": "Kamarupa chronology",
-         "summary": "At the new capital Haruppeshvara, at Dah Parbatiya near today’s Tezpur, the king shares power with vassal lords, mahasamantas and samantas, who rule their own lands with considerable freedom.",
-         "people": [
-          "salastamba"
-         ],
-         "status": "planned",
-         "confidence": "low",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Kamarupa",
-          "https://en.wikipedia.org/wiki/Mlechchha_dynasty"
-         ],
-         "main": false
         }
        ]
       },
@@ -965,9 +927,19 @@
        "summary": "Ruler of the Salastambha dynasty, reign dates not given in the source.",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "VIJAYA / VIGRAHASTAMBHA, full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/vijaya-vigrahastambha/turnaround-1.webp",
+         "thumbnail": "media/characters/vijaya-vigrahastambha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -980,9 +952,19 @@
        "summary": "Ruler of the Salastambha dynasty, reign dates not given in the source.",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "PALAKA, full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/palaka/turnaround-1.webp",
+         "thumbnail": "media/characters/palaka/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -995,9 +977,19 @@
        "summary": "Ruler of the Salastambha dynasty, reign dates not given in the source.",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "KUMARA, full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/kumara/turnaround-1.webp",
+         "thumbnail": "media/characters/kumara/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -1010,9 +1002,19 @@
        "summary": "Ruler of the Salastambha dynasty, reign dates not given in the source.",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "VAJRADEVA, full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/vajradeva/turnaround-1.webp",
+         "thumbnail": "media/characters/vajradeva/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -1024,9 +1026,19 @@
        "summary": "Ruler of the Salastambha dynasty, reign dates not given in the source.",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "BALAVARMAN II, full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/balavarman-ii/turnaround-1.webp",
+         "thumbnail": "media/characters/balavarman-ii/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -1039,9 +1051,19 @@
        "summary": "Ruler of the Salastambha dynasty, reign dates not given in the source.",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "JIVARAJA, full-body views and face studies, modern artistic reconstruction — provisional historical identity",
+         "image": "media/characters/jivaraja/turnaround-1.webp",
+         "thumbnail": "media/characters/jivaraja/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -1053,9 +1075,19 @@
        "summary": "Ruler of the Salastambha dynasty, reign dates not given in the source.",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "DIGLESWARAVARMAN, full-body views and face studies, modern artistic reconstruction — provisional historical identity",
+         "image": "media/characters/digleswaravarman/turnaround-1.webp",
+         "thumbnail": "media/characters/digleswaravarman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -1067,9 +1099,19 @@
        "summary": "Ruler of the Salastambha dynasty, reign dates not given in the source.",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "SALAMBHA, full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/salambha/turnaround-1.webp",
+         "thumbnail": "media/characters/salambha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -1084,42 +1126,56 @@
        "notes": "Gaudradi-Kalinga-Kosala-pati (Pasupati epigraph); Nepal Lichvi king Jayadeva-II; Rashtrakuta king Dantidurga (Samangad epigraph)",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "HARSHADEVA / HARSHAVARMAN, full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/harshadeva-alias-harshavarman/turnaround-1.webp",
+         "thumbnail": "media/characters/harshadeva-alias-harshavarman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
          "id": "SALA-03",
-         "title": "Harshadeva’s Daughter Married to the King of Nepal",
+         "title": "Rajyamati and the Nepal Marriage Alliance",
          "date_label": "c. 713–733 CE",
          "sort_year": 725,
          "era": "Salastambha dynasty (650–900)",
          "collection": "Kamarupa chronology",
-         "summary": "Rajyavati, daughter of Harshadeva of Kamarupa, is married to Jayadeva II, the Licchavi king of Nepal. The marriage is recorded on Jayadeva’s stone stele at the Pashupati temple in Kathmandu.",
+         "summary": "The Pashupati inscription names Rajyamati, daughter of Harshadeva, as Jayadeva’s wife. This imagined reception shows her Kamarupa party alongside Nepalese participants. At the user’s direction, the Nepalese clothing follows a modern reference; it is not an authenticated eighth-century court costume. Harshadeva’s attendance and the ceremony are reconstructed.",
          "people": [
           "harshadeva-alias-harshavarman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/salastambha/SALA-03_v1.webp",
+         "scene_thumbnail": "media/scenes/salastambha/thumb/SALA-03_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
-          "https://en.wikipedia.org/wiki/Jayadeva_II",
-          "https://siddham.network/tag/in02087/"
+          "https://dharmalekha.info/texts/INSSiddham02087",
+          "https://siddham.network/inscription/in02087/"
          ],
          "main": true
         },
         {
          "id": "SALA-04",
-         "title": "Harshavarman Falls in Battle",
+         "title": "Harshavarman: A Disputed Last Battle",
          "date_label": "c. 745 CE",
          "sort_year": 745,
          "era": "Salastambha dynasty (650–900)",
          "collection": "Kamarupa chronology",
-         "summary": "Harshavarman, who had expanded the kingdom, is defeated and killed by Yasovarman of Kanauj. His death begins the break-up of Kamarupa’s wider power.",
+         "summary": "An interpretive battlefield image imagines Harshavarman’s final struggle. Identifying him with the eastern king defeated by Yasovarman is disputed; the exact battle, circumstances and manner of his death are not established.",
          "people": [
           "harshadeva-alias-harshavarman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/salastambha/SALA-04_v1.webp",
+         "scene_thumbnail": "media/scenes/salastambha/thumb/SALA-04_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Mlechchha_dynasty"
@@ -1141,11 +1197,42 @@
        "notes": "Hayunthal grant; Tezpur Rock epigraph",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
        ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "HARJARAVARMAN, full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/harjaravarman/turnaround-1.webp",
+         "thumbnail": "media/characters/harjaravarman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
+        {
+         "id": "SALA-02",
+         "title": "Samantas at the Court of Haruppeshvara",
+         "date_label": "7th–9th century CE",
+         "sort_year": 829,
+         "era": "Salastambha dynasty (650–900)",
+         "collection": "Kamarupa chronology",
+         "summary": "An imagined later Salastambha-period audience at Haruppeshvara shows Harjaravarman consulting regional chiefs. The specific assembly, palace setting and participants are reconstructed.",
+         "people": [
+          "harjaravarman"
+         ],
+         "scene_image": "media/scenes/salastambha/SALA-02_v1.webp",
+         "scene_thumbnail": "media/scenes/salastambha/thumb/SALA-02_v1.webp",
+         "status": "illustrated",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa",
+          "https://en.wikipedia.org/wiki/Mlechchha_dynasty"
+         ],
+         "main": true
+        },
         {
          "id": "SALA-05",
          "title": "Harjaravarman’s Decree on the Brahmaputra Rock",
@@ -1153,11 +1240,13 @@
          "sort_year": 829,
          "era": "Salastambha dynasty (650–900)",
          "collection": "Kamarupa chronology",
-         "summary": "Harjaravarman has a royal decree cut into a rock on the Brahmaputra bank near Tezpur. It is read as a warning to fishermen not to cross into a marked fishing area.",
+         "summary": "Harjaravarman’s Tezpur rock inscription, dated Gupta era 510 (829–830 CE), is interpreted by ASI as a fishing-area decree. The carving process and the king’s presence here are artistic reconstruction; generated lettering is not an exact transcription.",
          "people": [
           "harjaravarman"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/salastambha/SALA-05_v1.webp",
+         "scene_thumbnail": "media/scenes/salastambha/thumb/SALA-05_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://asiguwahaticircle.gov.in/rock%20inscription.html",
@@ -1179,9 +1268,19 @@
        "notes": "Fasted unto death, evidently under the influence of religion",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "VANAMALAVARMADEVA, full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/vanamalavarmadeva/turnaround-1.webp",
+         "thumbnail": "media/characters/vanamalavarmadeva/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -1191,11 +1290,13 @@
          "sort_year": 840,
          "era": "Salastambha dynasty (650–900)",
          "collection": "Kamarupa chronology",
-         "summary": "Vanamalavarman grants land by copper plate. His Tezpur and Parbatiya plates chronicle his reign and invoke the Lauhitya (Brahmaputra), whose river-god the kings seem to have specially venerated.",
+         "summary": "Vanamalavarman’s surviving copper-plate grants inspire this imagined presentation beside the Lauhitya. The ceremony, recipient and attendants are reconstructed; generated lettering is not an exact inscription.",
          "people": [
           "vanamalavarmadeva"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/salastambha/SALA-06_v1.webp",
+         "scene_thumbnail": "media/scenes/salastambha/thumb/SALA-06_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
@@ -1217,9 +1318,19 @@
        "notes": "Virabahu; he considered the world vain and man’s life a water-drop",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "JAYAMALA / VIRABAHU, full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/jayamala-virabahu/turnaround-1.webp",
+         "thumbnail": "media/characters/jayamala-virabahu/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -1233,9 +1344,19 @@
        "summary": "Ruler of the Salastambha dynasty, 860–880 CE.",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "BALAVARMAN III, full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/balavarman-iii/turnaround-1.webp",
+         "thumbnail": "media/characters/balavarman-iii/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -1245,11 +1366,13 @@
          "sort_year": 865,
          "era": "Salastambha dynasty (650–900)",
          "collection": "Kamarupa chronology",
-         "summary": "Balavarman III issues a copper-plate land grant, found centuries later at Sutargaon village, Nagaon.",
+         "summary": "Balavarman III’s copper-plate record inspires an imagined scene of charter preparation and royal administration. The findspot does not establish the place of issuance; people, workshop and lettering are reconstructed.",
          "people": [
           "balavarman-iii"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/salastambha/SALA-07_v1.webp",
+         "scene_thumbnail": "media/scenes/salastambha/thumb/SALA-07_v1.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa_inscriptions"
@@ -1271,9 +1394,19 @@
        "notes": "Brahmapala was his administrator",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "TYAGASIMHA, full-body views and face studies, modern artistic reconstruction",
+         "image": "media/characters/tyagasimha/turnaround-1.webp",
+         "thumbnail": "media/characters/tyagasimha/thumb/turnaround-1.webp",
+         "width": 1374,
+         "height": 1145
+        }
        ],
        "scenes": [
         {
@@ -1283,11 +1416,13 @@
          "sort_year": 900,
          "era": "Salastambha dynasty (650–900)",
          "collection": "Kamarupa chronology",
-         "summary": "Tyagasimha, the last known king of the Salastambha line, dies without an heir, leaving the throne empty.",
+         "summary": "Later records describe Tyagasimha dying without an heir. An empty throne symbolizes the succession uncertainty; the household members and officials shown are anonymous artistic figures.",
          "people": [
           "tyagasimha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/salastambha/SALA-08_v1.webp",
+         "scene_thumbnail": "media/scenes/salastambha/thumb/SALA-08_v1.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa",
@@ -1314,12 +1449,22 @@
        "sort_year": 900,
        "role": "Pala dynasty ruler",
        "summary": "Ruler of the Pala dynasty, 900–920 CE.",
-       "notes": "Administrator in Salastambha and became founder of Varman dynasty",
+       "notes": "Administrator in Salastambha and became founder of the Pala dynasty",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Brahma Pala — approved eight-view artistic reconstruction",
+         "image": "media/characters/brahma-pala/turnaround-1.webp",
+         "thumbnail": "media/characters/brahma-pala/thumb/turnaround-1.webp",
+         "width": 1374,
+         "height": 1145
+        }
        ],
        "scenes": [
         {
@@ -1333,7 +1478,9 @@
          "people": [
           "brahma-pala"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/pala/PALA-01-election-of-brahmapala-v01.webp",
+         "scene_thumbnail": "media/scenes/pala/thumb/PALA-01-election-of-brahmapala-v01.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa",
@@ -1356,9 +1503,19 @@
        "notes": "Choratbari grant; Bargaon grant; Sualkuchi grant; fortified Hadapyaka (Tezpur) and renamed it Durjaya; defeated Gauda king Rajyapala",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Ratna Pala — approved eight-view artistic reconstruction",
+         "image": "media/characters/ratna-pala/turnaround-1.webp",
+         "thumbnail": "media/characters/ratna-pala/thumb/turnaround-1.webp",
+         "width": 1374,
+         "height": 1145
+        }
        ],
        "scenes": [
         {
@@ -1372,7 +1529,9 @@
          "people": [
           "ratna-pala"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/pala/PALA-02-ratnapala-fortifies-durjaya-v01.webp",
+         "scene_thumbnail": "media/scenes/pala/thumb/PALA-02-ratnapala-fortifies-durjaya-v01.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa",
@@ -1391,7 +1550,9 @@
          "people": [
           "ratna-pala"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/pala/PALA-03-ratnapala-grants-at-durjaya-v01.webp",
+         "scene_thumbnail": "media/scenes/pala/thumb/PALA-03-ratnapala-grants-at-durjaya-v01.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
@@ -1414,9 +1575,19 @@
        "notes": "Guwahati grant; Guwa kuchi grant; marital relation to Rashtrakuta; held sway over Pundravardhana",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Indra Pala — approved eight-view artistic reconstruction",
+         "image": "media/characters/indra-pala/turnaround-1.webp",
+         "thumbnail": "media/characters/indra-pala/thumb/turnaround-1.webp",
+         "width": 1374,
+         "height": 1145
+        }
        ],
        "scenes": [
         {
@@ -1430,7 +1601,9 @@
          "people": [
           "indra-pala"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/pala/PALA-04-indrapala-gauhati-grant-v01.webp",
+         "scene_thumbnail": "media/scenes/pala/thumb/PALA-04-indrapala-gauhati-grant-v01.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa_inscriptions"
@@ -1452,9 +1625,19 @@
        "notes": "His mother was a Rashtrakuta princess named Rajyadevi",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Gopala Varman — approved eight-view artistic reconstruction",
+         "image": "media/characters/gopala-varman/turnaround-1.webp",
+         "thumbnail": "media/characters/gopala-varman/thumb/turnaround-1.webp",
+         "width": 1374,
+         "height": 1145
+        }
        ]
       },
       {
@@ -1470,9 +1653,19 @@
        "notes": "Jatavarman, king of East Bengal, snatched away a part of Pundravardhana",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Harsha Pala — approved eight-view artistic reconstruction",
+         "image": "media/characters/harsha-pala/turnaround-1.webp",
+         "thumbnail": "media/characters/harsha-pala/thumb/turnaround-1.webp",
+         "width": 1374,
+         "height": 1145
+        }
        ]
       },
       {
@@ -1488,9 +1681,19 @@
        "notes": "Khonamukhi grant; Subhankarapataka grant; Pushpabhadra grant",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Dharma Pala — approved eight-view artistic reconstruction",
+         "image": "media/characters/dharma-pala/turnaround-1.webp",
+         "thumbnail": "media/characters/dharma-pala/thumb/turnaround-1.webp",
+         "width": 1374,
+         "height": 1145
+        }
        ],
        "scenes": [
         {
@@ -1504,7 +1707,9 @@
          "people": [
           "dharma-pala"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/pala/PALA-06-prasthanakalasa-composes-charters-v01.webp",
+         "scene_thumbnail": "media/scenes/pala/thumb/PALA-06-prasthanakalasa-composes-charters-v01.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
@@ -1523,7 +1728,9 @@
          "people": [
           "dharma-pala"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/pala/PALA-07-dharmapala-moves-kamarupanagara-v01.webp",
+         "scene_thumbnail": "media/scenes/pala/thumb/PALA-07-dharmapala-moves-kamarupanagara-v01.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa",
@@ -1546,9 +1753,19 @@
        "notes": "Defeated by king Ramapala of Bengal; mentioned in Ramacharita by Sandhyakara Nandi; Ramapala apparently took only possessions in North Bengal and appointed Tingyadeva as ruler",
        "status": "csv",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "Assam_Dynasties_Chronological_Timeline.csv"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Jaya Pala — approved eight-view artistic reconstruction",
+         "image": "media/characters/jaya-pala/turnaround-1.webp",
+         "thumbnail": "media/characters/jaya-pala/thumb/turnaround-1.webp",
+         "width": 1374,
+         "height": 1145
+        }
        ],
        "events": [
         {
@@ -1578,7 +1795,9 @@
          "people": [
           "jaya-pala"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/pala/PALA-08-ramapala-campaign-kamarupa-v01.webp",
+         "scene_thumbnail": "media/scenes/pala/thumb/PALA-08-ramapala-campaign-kamarupa-v01.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
@@ -1967,7 +2186,7 @@
        "notes": "The claim that he threw off Pala rule is marked as needing a citation.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "scenes",
        "sources": [
         "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
         "https://en.wikipedia.org/wiki/Kamarupa"
@@ -1990,6 +2209,29 @@
           "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
           "https://en.wikipedia.org/wiki/Kamarupa"
          ]
+        }
+       ],
+       "scenes": [
+        {
+         "id": "PALA-09",
+         "title": "Timgyadeva Governs Kamarupa",
+         "date_label": "1110–1126 CE",
+         "sort_year": 1110,
+         "era": "Pala dynasty (900–1100)",
+         "collection": "Kamarupa chronology",
+         "summary": "Timgyadeva, a chief allied to Ramapala, governs Kamarupa for the Bengal Palas and later throws off their authority.",
+         "people": [
+          "timgyadeva"
+         ],
+         "scene_image": "media/scenes/pala/PALA-09-timgyadeva-governs-kamarupa-v01.webp",
+         "scene_thumbnail": "media/scenes/pala/thumb/PALA-09-timgyadeva-governs-kamarupa-v01.webp",
+         "status": "illustrated",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
+          "https://en.wikipedia.org/wiki/Kumarapala_(Pala_king)"
+         ],
+         "main": true
         }
        ]
       },
@@ -2058,7 +2300,7 @@
        "notes": "The Kamauli plates date his fourth year while governing under Kumarapala.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "scenes",
        "sources": [
         "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
         "https://en.wikipedia.org/wiki/Kamarupa"
@@ -2081,6 +2323,50 @@
           "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
           "https://en.wikipedia.org/wiki/Kamarupa"
          ]
+        }
+       ],
+       "scenes": [
+        {
+         "id": "PALA-10",
+         "title": "Vaidyadeva Replaces Timgyadeva",
+         "date_label": "c. 1126 CE",
+         "sort_year": 1126,
+         "era": "Pala dynasty (900–1100)",
+         "collection": "Kamarupa chronology",
+         "summary": "Kumarapala of Bengal puts down Timgyadeva’s uprising and installs his minister Vaidyadeva as ruler of Kamarupa.",
+         "people": [
+          "vaidyadeva"
+         ],
+         "scene_image": "media/scenes/pala/PALA-10-vaidyadeva-replaces-timgyadeva-v01.webp",
+         "scene_thumbnail": "media/scenes/pala/thumb/PALA-10-vaidyadeva-replaces-timgyadeva-v01.webp",
+         "status": "illustrated",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
+          "https://en.wikipedia.org/wiki/Kumarapala_(Pala_king)"
+         ],
+         "main": true
+        },
+        {
+         "id": "PALA-11",
+         "title": "Vaidyadeva’s Kamauli Grant",
+         "date_label": "1142 CE",
+         "sort_year": 1142,
+         "era": "Pala dynasty (900–1100)",
+         "collection": "Kamarupa chronology",
+         "summary": "Vaidyadeva, now independent in all but name, issues a land grant in the style of the Kamarupa kings; his copper plates were found at Kamauli in Uttar Pradesh.",
+         "people": [
+          "vaidyadeva"
+         ],
+         "scene_image": "media/scenes/pala/PALA-11-vaidyadeva-kamauli-grant-v01.webp",
+         "scene_thumbnail": "media/scenes/pala/thumb/PALA-11-vaidyadeva-kamauli-grant-v01.webp",
+         "status": "illustrated",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
+          "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
+         ],
+         "main": true
         }
        ]
       },
@@ -11465,7 +11751,7 @@
        "sort_year": 1325,
        "role": "Kamata princess, queen of Sukhaangphaa",
        "summary": "Rajani's sister, also given to Sukhaangphaa under the treaty; mother of Chao Pulai.",
-       "notes": " Modern local-reference artistic reconstruction. Reference selection and provisional design details: AHOM repo, research/bhajani/local-scene-references.md.",
+       "notes": "Modern local-reference artistic reconstruction. Reference selection and provisional design details: AHOM repo, research/bhajani/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -11627,7 +11913,7 @@
        "sort_year": 1400,
        "role": "Rival claimant",
        "summary": "A rival claimant to the Ahom throne who fled to Mungkang and gained an invasion force; Sudangphaa defeated it and the 1401 treaty fixed the Patkai boundary.",
-       "notes": " No individually identified local portrait found. Sheet is a provisional artistic design using local costume references. See the AHOM repo, research/tai-sulai/local-scene-references.md.",
+       "notes": "No individually identified local portrait found. Sheet is a provisional artistic design using local costume references. See the AHOM repo, research/tai-sulai/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
        "sheet_status": "sheet",
@@ -11754,7 +12040,7 @@
        "sort_year": 1603,
        "role": "Koch princess, wife of Pratap Singha",
        "summary": "Daughter of Raghudev (or Parikshit Narayan in another source); married Pratap Singha to secure the alliance with Koch Hajo.",
-       "notes": " No individually identified local portrait found. Sheet is a provisional artistic design using local costume references. See the AHOM repo, research/mangaldoi/local-scene-references.md.",
+       "notes": "No individually identified local portrait found. Sheet is a provisional artistic design using local costume references. See the AHOM repo, research/mangaldoi/local-scene-references.md.",
        "relation": "Daughter of Raghudev",
        "koch_no": 0,
        "confidence": "medium",
@@ -11868,7 +12154,7 @@
        "sort_year": 1665,
        "role": "Queen, sister of Lachit Borphukan",
        "summary": "Daughter of Momai Tamuli Borbarua and sister of Lachit; queen to Ahom kings.",
-       "notes": " No individually identified local portrait found. Sheet is a provisional artistic design using local costume references. See the AHOM repo, research/pakhori-gabharu/local-scene-references.md.",
+       "notes": "No individually identified local portrait found. Sheet is a provisional artistic design using local costume references. See the AHOM repo, research/pakhori-gabharu/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
        "sheet_status": "sheet",
@@ -12177,7 +12463,7 @@
        "sort_year": 1768,
        "role": "Manipuri princess, queen of the Ahom kingdom",
        "summary": "Married Rajeswar Singha in 1768 as thanks for Ahom help to her father. After his death she was taken by the rebel Ragha Moran and helped bring about his killing in April 1770; she later married Lakshmi Singha.",
-       "notes": " Modern local-reference artistic reconstruction. Reference selection and provisional design details: AHOM repo, research/kuranganayani/local-scene-references.md.",
+       "notes": "Modern local-reference artistic reconstruction. Reference selection and provisional design details: AHOM repo, research/kuranganayani/local-scene-references.md.",
        "confidence": "high",
        "status": "researched",
        "sheet_status": "sheet",
@@ -12242,7 +12528,7 @@
        "sort_year": 1817,
        "role": "Queen-mother of Chandrakanta Singha",
        "summary": "Reportedly behind the plot that led to the murder of Badan Chandra Borphukan.",
-       "notes": " Modern local-reference artistic reconstruction. Reference selection and provisional design details: AHOM repo, research/numali-rajmao/local-scene-references.md. No individually identified local portrait found, face is a provisional design adapted from local costume references.",
+       "notes": "Modern local-reference artistic reconstruction. Reference selection and provisional design details: AHOM repo, research/numali-rajmao/local-scene-references.md. No individually identified local portrait found, face is a provisional design adapted from local costume references.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -12395,7 +12681,7 @@
        "sort_year": 1230,
        "role": "First Borgohain",
        "summary": "See the first Burhagohain: the personal name is unverified.",
-       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/thaomung-borgohain/local-scene-references.md.",
+       "notes": "Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/thaomung-borgohain/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
        "sheet_status": "sheet",
@@ -12493,7 +12779,7 @@
        "sort_year": 1396,
        "role": "Ahom trader",
        "summary": "The trader who found the young prince Sudangphaa in Habung.",
-       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/thao-cheoken/local-scene-references.md.",
+       "notes": "Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/thao-cheoken/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -12560,7 +12846,7 @@
        "sort_year": 1397,
        "role": "Burhagohain",
        "summary": "Brought the young Sudangphaa to Charaideo and enthroned him in 1397.",
-       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/chaothai-khum-burhagohain/local-scene-references.md.",
+       "notes": "Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/chaothai-khum-burhagohain/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -12627,7 +12913,7 @@
        "sort_year": 1400,
        "role": "Minister who defected",
        "summary": "Minister who led the Mungkang invasion force for the claimant Tai Sulai.",
-       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/tasim-pou-borgohain/local-scene-references.md.",
+       "notes": "Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/tasim-pou-borgohain/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
        "sheet_status": "sheet",
@@ -12700,7 +12986,7 @@
        "sort_year": 1401,
        "role": "Borgohain and commander",
        "summary": "Sudangphaa's commander who pursued the Mungkang invaders.",
-       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/nangchukham-borgohain/local-scene-references.md.",
+       "notes": "Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/nangchukham-borgohain/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
        "sheet_status": "sheet",
@@ -12794,7 +13080,7 @@
        "sort_year": 1490,
        "role": "Borgohain",
        "summary": "An Ahom Borgohain in the project catalogue, ambushed by the Tangshu Nagas.",
-       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/borgohain-khenphung/local-scene-references.md.",
+       "notes": "Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/borgohain-khenphung/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
        "sheet_status": "sheet",
@@ -12855,7 +13141,7 @@
        "sort_year": 1524,
        "role": "First Sadiya Khowa Gohain",
        "summary": "Appointed by Suhungmung to govern Sadiya after the Chutia kingdom was annexed.",
-       "notes": " Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/phrasengmung-borgohain/local-scene-references.md.",
+       "notes": "Modern artistic design with distinct face and simple clothing adapted from local First Burhagohain and Momai Tamuli sheets. See the AHOM repo, research/phrasengmung-borgohain/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -12949,7 +13235,7 @@
        "sort_year": 1527,
        "role": "First Borpatragohain",
        "summary": "Appointed the first Borpatragohain in 1527 by Suhungmung, the year the Ahoms defeated the first Muslim invasion.",
-       "notes": " Two modern local-reference character sheets preserve the same face in Naga scene attire and simple Borpatragohain dress. Partial scene face completed artistically. Costume does not represent all Naga communities. See the AHOM repo, research/konseng/local-scene-references.md.",
+       "notes": "Two modern local-reference character sheets preserve the same face in Naga scene attire and simple Borpatragohain dress. Partial scene face completed artistically. Costume does not represent all Naga communities. See the AHOM repo, research/konseng/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -15200,7 +15486,7 @@
        "sort_year": 1527,
        "role": "Bengal commander",
        "summary": "Named in the project catalogue as leading the first Muslim invasion that Suhungmung defeated in 1527.",
-       "notes": " Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/bit-malik/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
+       "notes": "Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/bit-malik/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
        "confidence": "low",
        "status": "researched",
        "sheet_status": "sheet",
@@ -15334,7 +15620,7 @@
        "sort_year": 1615,
        "role": "Mughal ally",
        "summary": "Co-led the 1615 imperial army with Abu Bakr and stirred up Balinarayan's invasion of Kamrup.",
-       "notes": " Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/satrajit/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
+       "notes": "Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/satrajit/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -15387,7 +15673,7 @@
        "sort_year": 1615,
        "role": "Mughal commander",
        "summary": "Co-led the 1615 imperial army that began the first Mughal attack on Assam.",
-       "notes": " Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/abu-bakr/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
+       "notes": "Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/abu-bakr/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -15440,7 +15726,7 @@
        "sort_year": 1616,
        "role": "Bengal Subahdar",
        "summary": "His mistreatment of hill chiefs of Dhanikal led to the Ahom asylum dispute.",
-       "notes": " Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/qasim-khan-chishti/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
+       "notes": "Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/qasim-khan-chishti/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
        "confidence": "low",
        "status": "researched",
        "sheet_status": "sheet",
@@ -15513,7 +15799,7 @@
        "sort_year": 1639,
        "role": "Mughal commander",
        "summary": "Signed the Treaty of Asurar Ali with Momai Tamuli in 1639, fixing the border on the Brahmaputra.",
-       "notes": " Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/allah-yar-khan/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
+       "notes": "Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/allah-yar-khan/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
        "confidence": "high",
        "status": "researched",
        "sheet_status": "sheet",
@@ -15829,7 +16115,7 @@
        "sort_year": 1663,
        "role": "Mughal faujdar of Guwahati",
        "summary": "Captured by the Ahoms and later released; carried Ram Singh's demands to the Ahom court.",
-       "notes": " Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/syed-firoz-khan/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
+       "notes": "Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/syed-firoz-khan/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -15893,7 +16179,7 @@
        "sort_year": 1667,
        "role": "Mughal emperor",
        "summary": "Ordered Ram Singh's 1667 counter-expedition against the Ahoms.",
-       "notes": " Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/aurangzeb/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
+       "notes": "Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/aurangzeb/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -15920,7 +16206,7 @@
        "sort_year": 1667,
        "role": "Mughal general",
        "summary": "Led the 1667–1671 Mughal invasion of Assam; defeated at Saraighat in 1671 and demoted on his return.",
-       "notes": " Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/ram-singh-i/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
+       "notes": "Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/ram-singh-i/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
        "confidence": "high",
        "status": "researched",
        "sheet_status": "sheet",
@@ -16003,7 +16289,7 @@
        "sort_year": 1671,
        "role": "Mughal commander",
        "summary": "Named among the Mughal commanders at Saraighat.",
-       "notes": " Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/munawar-khan/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
+       "notes": "Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/munawar-khan/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
        "confidence": "low",
        "status": "researched",
        "sheet_status": "sheet",
@@ -16069,7 +16355,7 @@
        "sort_year": 1679,
        "role": "Nawab of Bengal",
        "summary": "Invited in 1679 to take the Saraighat fort after Laluk Sola's surrender.",
-       "notes": " Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/muhammad-azam-shah/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
+       "notes": "Modern artistic reconstruction; likeness and costume limitations: AHOM repo, research/muhammad-azam-shah/reference-design.md; sources: AHOM repo, research/mughal-bengal-14-research.md.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -18762,55 +19048,12 @@
    "era": "Pala dynasty (900–1100)",
    "collection": "Kamarupa chronology",
    "summary": "Masons and sculptors raise stone temples at Madan Kamdev, near Baihata Chariali, carving Uma-Maheshvara embracing, the Sun, Ganesha, Vidyadharas, apsaras and animals.",
-   "status": "planned",
+   "scene_image": "media/scenes/pala/PALA-05-carving-madan-kamdev-v01.webp",
+   "scene_thumbnail": "media/scenes/pala/thumb/PALA-05-carving-madan-kamdev-v01.webp",
+   "status": "illustrated",
    "confidence": "low",
    "sources": [
     "https://en.wikipedia.org/wiki/Madan_Kamdev"
-   ]
-  },
-  {
-   "id": "PALA-09",
-   "title": "Timgyadeva Governs Kamarupa",
-   "date_label": "1110–1126 CE",
-   "sort_year": 1110,
-   "era": "Pala dynasty (900–1100)",
-   "collection": "Kamarupa chronology",
-   "summary": "Timgyadeva, a chief allied to Ramapala, governs Kamarupa for the Bengal Palas and later throws off their authority.",
-   "status": "planned",
-   "confidence": "low",
-   "sources": [
-    "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
-    "https://en.wikipedia.org/wiki/Kumarapala_(Pala_king)"
-   ]
-  },
-  {
-   "id": "PALA-10",
-   "title": "Vaidyadeva Replaces Timgyadeva",
-   "date_label": "c. 1126 CE",
-   "sort_year": 1126,
-   "era": "Pala dynasty (900–1100)",
-   "collection": "Kamarupa chronology",
-   "summary": "Kumarapala of Bengal puts down Timgyadeva’s uprising and installs his minister Vaidyadeva as ruler of Kamarupa.",
-   "status": "planned",
-   "confidence": "medium",
-   "sources": [
-    "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
-    "https://en.wikipedia.org/wiki/Kumarapala_(Pala_king)"
-   ]
-  },
-  {
-   "id": "PALA-11",
-   "title": "Vaidyadeva’s Kamauli Grant",
-   "date_label": "1142 CE",
-   "sort_year": 1142,
-   "era": "Pala dynasty (900–1100)",
-   "collection": "Kamarupa chronology",
-   "summary": "Vaidyadeva, now independent in all but name, issues a land grant in the style of the Kamarupa kings; his copper plates were found at Kamauli in Uttar Pradesh.",
-   "status": "planned",
-   "confidence": "medium",
-   "sources": [
-    "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
-    "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
    ]
   },
   {
