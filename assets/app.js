@@ -426,8 +426,26 @@ function nameScore(c, n, toks) {
   }
   return best;
 }
+/* The catalogue records who a scene is about, not who is visible in the painted image, and a scene's people list also holds
+   the reigning king and other context figures. For the tiny sheets use only the scene's main figures; when a scene has
+   none, use the people its own text names, or its single linked person. */
+const GENERIC = new Set(['singha', 'singh', 'borphukan', 'burhagohain', 'borgohain', 'borbarua', 'phukan', 'gohain', 'khan', 'shah', 'narayan', 'varman', 'deva', 'raja', 'rani', 'bhuyan', 'kumar', 'chandra', 'baruah', 'ahom', 'king', 'queen', 'prince', 'princess']);
+const nameWords = c => c._nw || (c._nw = [...new Set(nameKeys(c).flatMap(k => k.split(' ')).filter(w => w.length >= 4 && !GENERIC.has(w)))]);
+function namedIn(s, c) {
+  const tx = s._mt || (s._mt = ' ' + norm([s.event, s.description, s.notes].join(' ')) + ' ');
+  const ws = nameWords(c);
+  if (ws.length) return ws.some(w => tx.includes(w));
+  return nameKeys(c).some(k => k.length >= 6 && tx.includes(k));
+}
+function sceneCast(s) {
+  const all = s.chars.map(id => charById[id]).filter(Boolean);
+  const main = all.filter(c => s.main.includes(c.id));
+  if (main.length) return main;
+  const named = all.filter(c => namedIn(s, c));
+  return named.length ? named : all.length === 1 ? all : [];
+}
 const tinyChars = s => {
-  const withSheet = s.chars.map(id => charById[id]).filter(c => c && c.sheets.length);
+  const withSheet = sceneCast(s).filter(c => c.sheets.length);
   const shown = withSheet.slice(0, 10), more = withSheet.length - shown.length;
   if (!withSheet.length) return '';
   return `<ul class="tiny" aria-label="${esc(t('srCharacters') || 'Characters')}">${shown.map(c => {
