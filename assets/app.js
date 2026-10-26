@@ -71,6 +71,11 @@ const STR = {
     covTitle:'Coverage', covLede:'Which characters still need a sheet. Use the folder name when you add images.',
     folder:'Folder name', status:'Sheets', copyMissing:'Copy missing ids', missingCopied:'Missing ids copied',
     kinds:{portrait:'Portrait',sheet:'Sheet',turnaround:'Turnaround',face:'Face',costume:'Costume',props:'Props',palette:'Palette',pose:'Pose',other:'Other'},
+    searchLabel:'Search', searchPh:'Search a character, scene or place',
+    srHint:'Type a name to see that character’s sheet and the scenes they are in. Type an event, a place or a date to see matching scenes, each with the sheets of the people in it.',
+    srNone:'Nothing matches. Try a shorter name or another spelling.', srPick:'Several characters match. Choose one to see their sheet and scenes.',
+    srCharacter:'Character', srScenesWith:n=>`Scenes with ${n}`, srScenes:'Scenes', srPeople:'People mentioned', srOpen:'Open full page', srSheetCount:n=>`${n} ${n === 1 ? 'sheet' : 'sheets'}`,
+    srSceneCount:n=>`${n} ${n === 1 ? 'scene' : 'scenes'}`, srCharCount:n=>`${n} ${n === 1 ? 'character' : 'characters'}`, srNoSheet:'No sheet yet', srMore:n=>`+${n}`,
   },
   as: {
     brand:'অসম ইতিহাস চৰিত্ৰ-পত্ৰ', home:'ঘৰ', characters:'চৰিত্ৰ', kings:'ৰজাসকল', timeline:'সময়ৰেখা', scenes:'দৃশ্য', coverage:'অগ্ৰগতি', about:'আমাৰ বিষয়ে',
@@ -83,6 +88,9 @@ const STR = {
     results:n=>`${n} জন চৰিত্ৰ`, back:'সকলো চৰিত্ৰ', download:'ডাউনলোড', close:'বন্ধ কৰক', fit:'খাপ খুৱাওক',
     sceneTeaser:'ঐতিহাসিক দৃশ্য', allScenes:'সকলো দৃশ্য', sceneCount:n=>`${n}টা দৃশ্য`, painted:'অঁকা', planned:'এতিয়াও অঁকা হোৱা নাই', plannedTag:'এতিয়াও অঁকা হোৱা নাই', plannedCount:n=>`, ${n}টা এতিয়াও অঁকা হোৱা নাই`,
     scenesTitle:'ঐতিহাসিক দৃশ্য', refNotes:'ৰেফাৰেন্স টোকা', copyBrief:'ৰেফাৰেন্স ব্ৰিফ কপি কৰক',
+    searchLabel:'বিচাৰক', searchPh:'চৰিত্ৰ, দৃশ্য বা ঠাই বিচাৰক', srHint:'নাম লিখিলে সেই চৰিত্ৰৰ পত্ৰ আৰু তেওঁ থকা দৃশ্য দেখুৱাব। ঘটনা বা ঠাইৰ নাম লিখিলে মিল থকা দৃশ্য দেখুৱাব।',
+    srNone:'একো পোৱা নগ’ল। চুটি নাম বা আন বানান চেষ্টা কৰক।', srPick:'কেইবাজনো চৰিত্ৰ মিলিছে। এজনক বাছক।', srCharacter:'চৰিত্ৰ', srScenesWith:n=>`${n} থকা দৃশ্য`, srScenes:'দৃশ্য', srPeople:'উল্লেখ থকা মানুহ', srOpen:'সম্পূৰ্ণ পৃষ্ঠা খোলক',
+    srSheetCount:n=>`${n}খন পত্ৰ`, srSceneCount:n=>`${n}টা দৃশ্য`, srCharCount:n=>`${n} জন চৰিত্ৰ`, srNoSheet:'এতিয়াও পত্ৰ নাই', srMore:n=>`+${n}`,
   },
 };
 let lang = 'en';
@@ -401,14 +409,95 @@ function viewTimeline() {
     <section class="section"><div class="row"><h2>What happened</h2></div><ol class="events">${evs}</ol></section>`;
 }
 
+
+/* ---------- search ---------- */
+const norm = x => String(x ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^\p{L}\p{M}\p{N}\s]/gu, ' ').replace(/\s+/g, ' ').trim();
+const nameKeys = c => c._nk || (c._nk = [c.name, c.name_as, c.tai_name, c.hindu_name, c.nicknames, c.alt_names, c.id.replace(/-/g, ' ')].map(norm).filter(Boolean));
+const charText = c => c._tx || (c._tx = norm([c.role, c.label, c.summary, c.notes, c.group, c.dynasty, c.consort, c.relation, c.fate].join(' ')));
+const sceneText = s => s._tx || (s._tx = norm([s.event, s.description, s.notes, s.date_label, s.collection, ...s.chars.map(id => (charById[id] || {}).name)].join(' ')));
+function nameScore(c, n, toks) {
+  let best = 0;
+  for (const k of nameKeys(c)) {
+    if (k === n) best = Math.max(best, 100);
+    else if (k.startsWith(n)) best = Math.max(best, 70);
+    else if (k.includes(' ' + n)) best = Math.max(best, 55);
+    else if (k.includes(n)) best = Math.max(best, 40);
+    else if (toks.length > 1 && toks.every(w => k.includes(w))) best = Math.max(best, 30);
+  }
+  return best;
+}
+const tinyChars = s => {
+  const withSheet = s.chars.map(id => charById[id]).filter(c => c && c.sheets.length);
+  const shown = withSheet.slice(0, 10), more = withSheet.length - shown.length;
+  if (!withSheet.length) return '';
+  return `<ul class="tiny" aria-label="${esc(t('srCharacters') || 'Characters')}">${shown.map(c => {
+    const sh = [...c.sheets].sort((a, b) => coverRank(a.kind) - coverRank(b.kind))[0];
+    return `<li><a class="hh ${hc(house(c)).replace('hh ', '')}" href="#/c/${esc(c.id)}" title="${esc(nm(c))}" aria-label="${esc(nm(c))}"><img src="${url(sh.thumb)}" alt="" loading="lazy" decoding="async"></a></li>`;
+  }).join('')}${more > 0 ? `<li class="more">${esc(t('srMore', more))}</li>` : ''}</ul>`;
+};
+const sceneResult = s => sceneBtn(s).replace(/^<li>/, '<li class="sres">').replace(/<\/li>$/, tinyChars(s) + '</li>');
+function charHit(c) {
+  const sh = [...c.sheets].sort((a, b) => coverRank(a.kind) - coverRank(b.kind))[0];
+  return { c, sh };
+}
+function viewSearch(raw) {
+  const n = norm(raw), toks = n.split(' ').filter(Boolean);
+  const head = `<div class="page-head sr-head"><h1>${esc(t('searchLabel'))}</h1>${raw.trim() ? `<p class="qshow">“${esc(raw.trim())}”</p>` : ''}</div>`;
+  if (!n) return head + `<p class="sr-hint">${esc(t('srHint'))}</p>`;
+  const byName = chars.map(c => [c, nameScore(c, n, toks)]).filter(x => x[1] > 0).sort((a, b) => b[1] - a[1] || withSheets(b[0]) - withSheets(a[0]) || a[0].sort_year - b[0].sort_year);
+  const single = byName.length === 1 || (byName.length > 1 && byName[0][1] >= 100 && byName[1][1] < 100);
+  if (single) {
+    const c = byName[0][0], sheets = c.sheets, scs = [...c.mainScenes, ...c.scenes.filter(x => !c.mainScenes.includes(x))].map(x => sceneById[x]);
+    window.__sceneList = scs;
+    const main = sheets[0], e = eraById[c.era];
+    const sheetBlock = main ? `<button type="button" class="sheetmain" data-ssheet="${esc(c.id)}|0" aria-label="${esc(t('zoom'))}"><img src="${url(main.file)}" alt="${esc(kindName(main.kind))} character sheet of ${esc(c.name)}" width="${main.width}" height="${main.height}"></button>
+        ${sheets.length > 1 ? `<div class="thumbs">${sheets.map((x, i) => `<button type="button" data-ssheet="${esc(c.id)}|${i}" aria-label="${esc(kindName(x.kind))} ${i + 1}"><img src="${url(x.thumb)}" alt=""></button>`).join('')}</div>` : ''}`
+      : `<div class="sheetmain none"><div><strong style="font-family:var(--serif);font-size:1.3rem;color:var(--text)">${esc(t('noSheetTitle'))}</strong><br>${esc(t(scs.length ? 'noPortraitBody' : 'noSheetBody'))}</div></div>`;
+    return head + `<section class="sr-char ${hc(house(c))}" aria-label="${esc(t('srCharacter'))}"><div class="sr-sheet">${sheetBlock}</div>
+      <div class="sr-info"><h2>${esc(nm(c))}</h2>${nm2(c) ? `<div class="as">${esc(nm2(c))}</div>` : ''}
+        <p class="facts"><span><b>${esc(c.label)}</b></span> <span>${esc(c.role)}</span> <span>${esc(eraName(e))}</span>${house(c) ? `<span class="hchip"><i class="sw"></i>${esc(c.group || c.dynasty || houseLabel[house(c)])}</span>` : ''}</p>
+        <p>${esc(c.summary)}</p><p><a class="btn primary" href="#/c/${esc(c.id)}">${esc(t('srOpen'))}</a></p></div></section>
+      <section class="section"><div class="row"><h2>${esc(t('srScenesWith', nm(c)))}</h2><span class="count">${esc(t('srSceneCount', scs.length))}</span></div>
+        ${scs.length ? `<ul class="grid">${scs.map(sceneResult).join('')}</ul>` : `<div class="empty">${esc(t('scenesWithNone'))}</div>`}</section>`;
+  }
+  if (byName.length > 1) {
+    return head + `<p class="count" aria-live="polite">${esc(t('srPick'))} ${esc(t('srCharCount', byName.length))}</p><ul class="grid sr-pick">${byName.slice(0, 48).map(([c]) => charCard(c)).join('')}</ul>`;
+  }
+  const scs = S.scenes.map((s, i) => {
+    const hay = sceneText(s), ev = norm(s.event);
+    if (!toks.every(w => hay.includes(w))) return null;
+    return [s, (ev.includes(n) ? 6 : 0) + toks.filter(w => ev.includes(w)).length * 2 + (norm(s.description).includes(n) ? 2 : 0), i];
+  }).filter(Boolean).sort((a, b) => b[1] - a[1] || a[2] - b[2]).map(x => x[0]);
+  const ppl = chars.filter(c => toks.every(w => charText(c).includes(w))).slice(0, 12);
+  window.__sceneList = scs;
+  if (!scs.length && !ppl.length) return head + `<div class="empty"><strong>${esc(t('srNone'))}</strong></div>`;
+  return head + (scs.length ? `<section class="section sr-first"><div class="row"><h2>${esc(t('srScenes'))}</h2><span class="count" aria-live="polite">${esc(t('srSceneCount', scs.length))}</span></div><ul class="grid">${scs.map(sceneResult).join('')}</ul></section>` : '')
+    + (ppl.length ? `<section class="section"><div class="row"><h2>${esc(t('srPeople'))}</h2></div><ul class="grid">${ppl.map(charCard).join('')}</ul></section>` : '');
+}
+const sBtn = $('searchBtn'), sForm = $('searchForm'), sIn = $('hq');
+function openSearch(focus) { sForm.hidden = false; sBtn.setAttribute('aria-expanded', 'true'); if (focus) { sIn.focus(); sIn.select(); } }
+function closeSearch() { sForm.hidden = true; sBtn.setAttribute('aria-expanded', 'false'); }
+function goSearch(v) {
+  const q = v.trim(), h = '/search' + (q ? '?q=' + encodeURIComponent(q) : '');
+  if (parseHash().parts[0] === 'search') { history.replaceState(null, '', '#' + h); route(true); } else location.hash = h;
+}
+sBtn.onclick = () => { if (sForm.hidden) openSearch(true); else { closeSearch(); } };
+sForm.addEventListener('submit', e => { e.preventDefault(); goSearch(sIn.value); });
+sIn.addEventListener('input', () => { clearTimeout(sIn._t); sIn._t = setTimeout(() => goSearch(sIn.value), 140); });
+sIn.addEventListener('keydown', e => { if (e.key === 'Escape') { closeSearch(); sBtn.focus(); } });
+document.addEventListener('keydown', e => {
+  if (e.key === '/' && !e.ctrlKey && !e.metaKey && !e.altKey && !/^(input|textarea|select)$/i.test(document.activeElement.tagName) && !dlg.open) { e.preventDefault(); openSearch(true); }
+});
+
 /* ---------- router ---------- */
 function setNav(active) {
   $('nav').innerHTML = [['', 'home'], ['characters', 'characters'], ['kings', 'kings'], ['timeline', 'timeline'], ['scenes', 'scenes'], ['coverage', 'coverage'], ['about', 'about']]
     .map(([p, k]) => `<a href="#/${p}" ${active === p ? 'aria-current="page"' : ''}>${esc(t(k))}</a>`).join('');
   $('brandName').textContent = t('brand'); $('langBtn').textContent = lang === 'as' ? 'English' : 'অসমীয়া';
+  sIn.placeholder = t('searchPh'); sBtn.setAttribute('aria-label', t('searchLabel')); sIn.setAttribute('aria-label', t('searchLabel'));
   $('footNote').textContent = t('foot'); document.documentElement.lang = lang === 'as' ? 'as' : 'en';
 }
-function route() {
+function route(keepScroll) {
   const { parts, q } = parseHash(), main = $('main'), top = parts[0] || '';
   let html, active = top, title = t('brand');
   if (top === 'characters') { html = viewCharacters(q); title = t('characters'); }
@@ -418,9 +507,11 @@ function route() {
   else if (top === 'scenes') { html = viewScenes(q); title = t('scenesTitle'); }
   else if (top === 'coverage') { html = viewCoverage(); title = t('covTitle'); }
   else if (top === 'about') { html = viewAbout(); title = t('about'); }
+  else if (top === 'search') { html = viewSearch(q.get('q') || ''); title = t('searchLabel'); active = 'search'; }
   else { html = viewHome(); active = ''; }
   setNav(active); main.innerHTML = html; document.title = title === t('brand') ? title : `${title}, ${t('brand')}`;
-  if (!route.first) window.scrollTo(0, 0); route.first = false;
+  if (top === 'search') { if (document.activeElement !== sIn) sIn.value = q.get('q') || ''; openSearch(false); } else closeSearch();
+  if (!route.first && keepScroll !== true) window.scrollTo(0, 0); route.first = false;
 }
 route.first = true;
 window.addEventListener('hashchange', route);
@@ -429,10 +520,12 @@ document.addEventListener('click', e => {
   const sc = e.target.closest('[data-scene]');
   if (sc) {
     const { parts } = parseHash(); const c = parts[0] === 'c' ? charById[parts[1]] : null;
-    const list = parts[0] === 'scenes' ? (window.__sceneList || S.scenes) : c ? c.scenes.map(x => sceneById[x]) : [sceneById[sc.dataset.scene]];
+    const list = (parts[0] === 'scenes' || parts[0] === 'search') ? (window.__sceneList || S.scenes) : c ? c.scenes.map(x => sceneById[x]) : [sceneById[sc.dataset.scene]];
     const i = Math.max(0, list.findIndex(s => s.id === sc.dataset.scene));
     return openViewer(list.length > 1 || parts[0] ? list.map(sceneItem) : [sceneItem(sceneById[sc.dataset.scene])], parts[0] ? i : 0);
   }
+  const ss = e.target.closest('[data-ssheet]');
+  if (ss) { const [id, i] = ss.dataset.ssheet.split('|'); return openViewer(sheetItems(charById[id]), Number(i)); }
   const th = e.target.closest('[data-sheet]');
   if (th) { sheetIdx = Number(th.dataset.sheet); const c = charById[parseHash().parts[1]]; $('sheetview').innerHTML = sheetViewHTML(c); return; }
   if (e.target.closest('#sheetOpen,#sheetOpen2')) { const c = charById[parseHash().parts[1]]; return openViewer(sheetItems(c), sheetIdx); }
