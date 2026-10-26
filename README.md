@@ -89,7 +89,7 @@ masters/     lossless PNG originals of the published sheets and scenes (sheets/<
 drafts/      anything held back from publishing
 research/    all research, sources, prompts and notes, by dynasty (varman, salastambha, pala, ahom, image-library)
 images/      generated scene/object library, 825 real photographs with licences, face crops
-reels/       Ahom reels: web copies, originals and the editing projects
+reels/       the 49 Ahom reels (web/) and their editing projects (studio/)
 incoming/    drop folder for new images
 INDEX.csv    one row per image or document in the project
 ```

@@ -16,7 +16,7 @@ Rebuild it after adding files: `python3 tools/index_library.py`.
 | Generated scene/object library (c15, c18, 1950s, 1990s, now; textiles, jewellery, plants …) | `images/scenes/`, `images/elements/` |
 | Real reference photos with licences | `images/photos/<site>/`, `images/photos/manifest.csv` |
 | Face crops of Ahom people (127) | `images/faces/<id>.webp` |
-| Ahom reels (video) | `reels/web/` compressed mp4 + poster + captions, `reels/originals/` full-size sources, `reels/studio/reel-NNN-*/` HyperFrames projects (each has its own AGENTS.md) |
+| Ahom reels (video) | `reels/web/NN-name.mp4` + `.webp` poster (49 reels), `reels/web/context/` captions (`.as.vtt`, `.en.vtt`), `reels/studio/reel-NNN-*/` HyperFrames projects (each has its own AGENTS.md) |
 | Drop new character images here | `incoming/` then `python3 tools/add_sheets.py` |
 
 ## Rules
