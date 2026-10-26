@@ -69,23 +69,29 @@ dynasty, so they sit in a group named after the period.
    Kinds: `turnaround`, `face`, `costume`, `props`, `palette`, `pose`, `portrait`, `other`.
    The Coverage page lists every person id.
 2. Run `python3 tools/add_sheets.py` (add `--dry-run` to preview). It writes a WebP and a thumbnail to
-   `media/characters/<id>/`, keeps your original in `archive/sheet-originals/<id>/`, adds it to that person's
+   `media/characters/<id>/`, keeps your original in `masters/sheets/<id>/`, adds it to that person's
    `character_sheets` cell in the CSV and rebuilds. Add a caption after the path in the spreadsheet if you like.
 
 ## Folders
+Published (these go to GitHub Pages):
 ```
-index.html, favicon.svg      the site's entry page (must stay at the root for GitHub Pages)
+index.html, favicon.svg      the site's entry page (must stay at the root)
 assets/                      app.css and app.js
 data/assam_history.csv       all the data
-data/site.js                 generated from the CSV; the website loads this
-data/assam_history.json      generated from the CSV: periods > dynasties > characters > events, scenes
-media/characters/<id>/       character sheets and portraits, with thumb/
-media/scenes/ahom/<era>/     Ahom chronology scenes, one folder per era, with thumb/
-media/scenes/gallery/<topic>/ the Assamese AI gallery by topic, with thumb/
-tools/build.py               CSV -> site.js
-tools/add_sheets.py          add new character images
-incoming/                    drop folder for new images
-archive/                     local only, git-ignored: PNG originals and retired files
+data/site.js, .json          generated from the CSV by tools/build.py
+media/characters/<id>/       published sheets and portraits (WebP), with thumb/
+media/scenes/<group>/<era>/  published scenes (WebP), with thumb/
+tools/                       build.py (CSV -> site.js), add_sheets.py (add images), index_library.py (rebuild INDEX.csv)
+```
+Local only (git-ignored; see `AGENTS.md` for the full map):
+```
+masters/     lossless PNG originals of the published sheets and scenes (sheets/<id>/, scenes/<era>/)
+drafts/      anything held back from publishing
+research/    all research, sources, prompts and notes, by dynasty (varman, salastambha, pala, ahom, image-library)
+images/      generated scene/object library, 825 real photographs with licences, face crops
+reels/       Ahom reels: web copies, originals and the editing projects
+incoming/    drop folder for new images
+INDEX.csv    one row per image or document in the project
 ```
 Site routes: `#/`, `#/characters`, `#/c/<id>`, `#/kings`, `#/timeline`, `#/scenes`, `#/coverage`, `#/about`.
 

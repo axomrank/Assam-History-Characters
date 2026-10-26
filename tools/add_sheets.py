@@ -8,7 +8,7 @@ Drop files in incoming/ using either layout, then run:  python3 tools/add_sheets
 
 Kinds: turnaround, face, costume, props, palette, pose, portrait, other (default: sheet).
 Per file it writes media/characters/<id>/<name>.webp (long edge 2000px) and a thumbnail, moves the untouched
-original to archive/sheet-originals/<id>/, and adds the image to that person's character_sheets cell in
+original to masters/sheets/<id>/, and adds the image to that person's character_sheets cell in
 data/assam_history.csv (as "path | caption"; write the caption in the spreadsheet afterwards if you like).
 Use --dry-run to preview. Files whose id is unknown are left in incoming/.
 """
@@ -17,7 +17,7 @@ from PIL import Image, ImageOps
 from build import ROOT, FULL_KINDS, read_rows, write_rows, thumb_of, lst
 
 KINDS = FULL_KINDS | {"portrait", "pose", "other"}
-ARCHIVE = ROOT / "archive"
+MASTERS = ROOT / "masters"
 EXT = {".png", ".jpg", ".jpeg", ".webp"}
 MAX_EDGE, THUMB_W = 2000, 640
 
@@ -62,7 +62,7 @@ def main():
         print(f"ADD   {cid}: {src.name} -> {out}")
         if a.dry_run: added += 1; continue
         w, h = make_webp(src, out)
-        keep = ARCHIVE / "sheet-originals" / cid; keep.mkdir(parents=True, exist_ok=True)
+        keep = MASTERS / "sheets" / cid; keep.mkdir(parents=True, exist_ok=True)
         dest = keep / src.name
         if dest.exists(): dest = keep / f"{digest[:8]}-{src.name}"
         shutil.move(str(src), dest)

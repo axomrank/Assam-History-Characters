@@ -1,13 +1,12 @@
-# originals and retired files stay local, out of the published site
-archive/
+# local-only material: originals, drafts, research and the image library stay out of the published site
+masters/
+drafts/
+research/
+images/
 incoming/*
 !incoming/.gitkeep
+INDEX.csv
 __pycache__/
 *.pyc
 .DS_Store
-
-# Varman research pack: drafts, zips and reference files with unchecked rights stay local
-varman_character_research/
-# review drafts and working research notes stay local until they are added to the catalogue
-research/
-review/
+reels/
