@@ -76,7 +76,7 @@ const STR = {
     srHint:'Type a name to see that character’s sheet and the scenes they are in. Type an event, a place or a date to see matching scenes, each with the sheets of the people in it.',
     srNone:'Nothing matches. Try a shorter name or another spelling.', srPick:'Several characters match. Choose one to see their sheet and scenes.',
     srCharacter:'Character', srScenesWith:n=>`Scenes with ${n}`, srScenes:'Scenes', srPeople:'People mentioned', srOpen:'Open full page', srSheetCount:n=>`${n} ${n === 1 ? 'sheet' : 'sheets'}`,
-    srPlace:'Place', srPlaceScenes:n=>`Scenes at ${n}`, srAlso:'Also called', srToday:'Today', srIdent:'Identification', srPlacePick:'Several places match. Choose one.', srPlaceCount:n=>`${n} ${n === 1 ? 'place' : 'places'}`, srTimeline:'On the timeline', srNoSceneHere:'No catalogued scene is set here yet.', placesWord:'Places', todayWord:'today',
+    srPlace:'Place', srPlaceScenes:n=>`Scenes at ${n}`, srAlso:'Also called', srToday:'Today', srIdent:'Identification', srPlacePick:'Several places match. Choose one.', srPlaceCount:n=>`${n} ${n === 1 ? 'place' : 'places'}`, srTimeline:'On the timeline', srMapPoint:'Map point', srApprox:'approximate', srOpenMap:'Open map', srNoSceneHere:'No catalogued scene is set here yet.', placesWord:'Places', todayWord:'today',
     srSceneCount:n=>`${n} ${n === 1 ? 'scene' : 'scenes'}`, srCharCount:n=>`${n} ${n === 1 ? 'character' : 'characters'}`, srNoSheet:'No sheet yet', srMore:n=>`+${n}`,
   },
   as: {
@@ -92,7 +92,7 @@ const STR = {
     scenesTitle:'ঐতিহাসিক দৃশ্য', refNotes:'ৰেফাৰেন্স টোকা', copyBrief:'ৰেফাৰেন্স ব্ৰিফ কপি কৰক',
     searchLabel:'বিচাৰক', searchPh:'চৰিত্ৰ, দৃশ্য বা ঠাই বিচাৰক', srHint:'নাম লিখিলে সেই চৰিত্ৰৰ পত্ৰ আৰু তেওঁ থকা দৃশ্য দেখুৱাব। ঘটনা বা ঠাইৰ নাম লিখিলে মিল থকা দৃশ্য দেখুৱাব।',
     srNone:'একো পোৱা নগ’ল। চুটি নাম বা আন বানান চেষ্টা কৰক।', srPick:'কেইবাজনো চৰিত্ৰ মিলিছে। এজনক বাছক।', srCharacter:'চৰিত্ৰ', srScenesWith:n=>`${n} থকা দৃশ্য`, srScenes:'দৃশ্য', srPeople:'উল্লেখ থকা মানুহ', srOpen:'সম্পূৰ্ণ পৃষ্ঠা খোলক',
-    srPlace:'ঠাই', srPlaceScenes:n=>`${n}ৰ দৃশ্য`, srAlso:'আন নাম', srToday:'এতিয়া', srIdent:'চিনাক্তকৰণ', srPlacePick:'কেইবাটাও ঠাই মিলিছে। এটা বাছক।', srPlaceCount:n=>`${n}টা ঠাই`, srTimeline:'সময়ৰেখাত', srNoSceneHere:'ইয়াত এতিয়াও কোনো দৃশ্য নাই।', placesWord:'ঠাই', todayWord:'এতিয়া',
+    srPlace:'ঠাই', srPlaceScenes:n=>`${n}ৰ দৃশ্য`, srAlso:'আন নাম', srToday:'এতিয়া', srIdent:'চিনাক্তকৰণ', srPlacePick:'কেইবাটাও ঠাই মিলিছে। এটা বাছক।', srPlaceCount:n=>`${n}টা ঠাই`, srTimeline:'সময়ৰেখাত', srMapPoint:'মানচিত্ৰৰ বিন্দু', srApprox:'আনুমানিক', srOpenMap:'মানচিত্ৰ চাওক', srNoSceneHere:'ইয়াত এতিয়াও কোনো দৃশ্য নাই।', placesWord:'ঠাই', todayWord:'এতিয়া',
     srSheetCount:n=>`${n}খন পত্ৰ`, srSceneCount:n=>`${n}টা দৃশ্য`, srCharCount:n=>`${n} জন চৰিত্ৰ`, srNoSheet:'এতিয়াও পত্ৰ নাই', srMore:n=>`+${n}`,
   },
 };
@@ -480,7 +480,7 @@ function placeView(p) {
   const alt = (p.alt || '').split(';').map(x => x.trim()).filter(x => x && x !== p.name);
   const now = [p.present, p.loc].filter(Boolean).join(', ');
   return `<section class="sr-place" aria-label="${esc(t('srPlace'))}"><p class="kind">${esc(p.cat || t('srPlace'))}</p><h2>${esc(p.name)}</h2>${p.name_as ? `<div class="as">${esc(p.name_as)}</div>` : ''}
-    <dl class="pfacts">${alt.length ? `<div><dt>${esc(t('srAlso'))}</dt><dd>${esc(alt.join(', '))}</dd></div>` : ''}${now ? `<div><dt>${esc(t('srToday'))}</dt><dd>${esc(now)}</dd></div>` : ''}${p.conf ? `<div><dt>${esc(t('srIdent'))}</dt><dd>${esc(cap(p.conf))}</dd></div>` : ''}</dl>
+    <dl class="pfacts">${alt.length ? `<div><dt>${esc(t('srAlso'))}</dt><dd>${esc(alt.join(', '))}</dd></div>` : ''}${now ? `<div><dt>${esc(t('srToday'))}</dt><dd>${esc(now)}</dd></div>` : ''}${p.conf ? `<div><dt>${esc(t('srIdent'))}</dt><dd>${esc(cap(p.conf))}</dd></div>` : ''}${p.geo ? `<div><dt>${esc(t('srMapPoint'))}</dt><dd>${p.geo[0].toFixed(3)}°N, ${p.geo[1].toFixed(3)}°E <small>(${esc(t('srApprox'))})</small> <a href="https://www.openstreetmap.org/?mlat=${p.geo[0]}&mlon=${p.geo[1]}#map=9/${p.geo[0]}/${p.geo[1]}" target="_blank" rel="noopener">${esc(t('srOpenMap'))}</a></dd></div>` : ''}</dl>
     <p>${esc(p.desc || '')}</p>${p.note ? `<p class="pnote">${esc(p.note)}</p>` : ''}${srcs ? `<p class="srcline">${esc(t('sources'))}: ${srcs}</p>` : ''}</section>
     <section class="section"><div class="row"><h2>${esc(t('srPlaceScenes', p.name))}</h2><span class="count">${esc(t('srSceneCount', scs.length))}</span></div>
       ${scs.length ? `<ul class="grid">${scs.map(sceneResult).join('')}</ul>` : `<div class="empty">${esc(t('srNoSceneHere'))}</div>`}</section>

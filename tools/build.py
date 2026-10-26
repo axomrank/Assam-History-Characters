@@ -9,6 +9,7 @@ Each CSV row is one record, told apart by the `type` column:
           is the start of the file name, and the size is read from the file.
   event   a dated event on the timeline page (people = ids of the people involved; scene_image optional)
   place   a place (name, also_called = historic and alternative names, present_name and location = what it is today and where,
+          lat / lon = a map reference point (approximate, from the AHOM map catalogue; empty when none),
           group = kind of place, summary, notes, confidence = how sure the present-day identification is, sources)
   scene   an illustrated scene (scene_image; people = everyone in it, main_people = who it is about, places = place ids).
           A researched scene not painted yet has status "planned" and no scene_image; the site shows a placeholder.
@@ -33,7 +34,7 @@ CSV = ROOT / "data/assam_history.csv"
 COLS = ["type", "id", "name", "name_assamese", "period", "group", "date_label", "start_year", "end_year", "sort_year",
         "role", "summary", "notes", "tai_name", "hindu_name", "also_called", "relation", "fate", "consort", "marital_status",
         "ahom_king_no", "koch_no", "koch_branch", "confidence", "status", "approx_dates", "people", "main_people",
-        "collection", "character_sheets", "scene_image", "group_order", "sources", "places", "present_name", "location"]
+        "collection", "character_sheets", "scene_image", "group_order", "sources", "places", "present_name", "location", "lat", "lon"]
 FULL_KINDS = {"sheet", "turnaround", "face", "costume", "props", "palette"}
 
 
@@ -192,7 +193,8 @@ def main():
             for r in by_type["period"]]
 
     places = [{"id": r["id"], "name": r["name"], "name_as": r["name_assamese"], "cat": r["group"], "alt": r["also_called"], "present": r["present_name"],
-               "loc": r["location"], "desc": r["summary"], "note": r["notes"], "conf": r["confidence"], "src": src(r["sources"])} for r in by_type["place"]]
+               "loc": r["location"], "desc": r["summary"], "note": r["notes"], "conf": r["confidence"], "src": src(r["sources"]),
+               "geo": [num(r["lat"]), num(r["lon"])] if num(r["lat"]) is not None and num(r["lon"]) is not None else None} for r in by_type["place"]]
     places = [{k: v for k, v in p.items() if v not in ("", [], None)} for p in places]
     site = {"eras": eras, "characters": chars, "scenes": scenes, "events": events, "places": places, "src": list(src_index)}
     (ROOT / "data/site.js").write_text("window.SITE=" + json.dumps(site, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
@@ -257,7 +259,7 @@ def write_tree(by_type, sheets, avail):
             "periods": periods, "scenes_without_characters": sorted(unlinked, key=by_year),
             "places": [clean({"id": r["id"], "name": r["name"], "name_assamese": r["name_assamese"], "kind": r["group"], "also_called": lst(r["also_called"]),
                               "present_name": r["present_name"], "location": r["location"], "summary": r["summary"], "notes": r["notes"],
-                              "confidence": r["confidence"], "sources": lst(r["sources"])}) for r in by_type["place"]]}
+                              "confidence": r["confidence"], "latitude": num(r["lat"]), "longitude": num(r["lon"]), "sources": lst(r["sources"])}) for r in by_type["place"]]}
     (ROOT / "data/assam_history.json").write_text(json.dumps(tree, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 

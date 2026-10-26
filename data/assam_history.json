@@ -1677,7 +1677,8 @@
          ],
          "places": [
           "durjaya",
-          "sualkuchi"
+          "sualkuchi",
+          "kamarupa"
          ],
          "main": true
         }
@@ -1731,7 +1732,8 @@
          ],
          "places": [
           "guwahati",
-          "barpanara"
+          "barpanara",
+          "kamarupa"
          ],
          "main": true
         }
@@ -3942,7 +3944,8 @@
          ],
          "places": [
           "kamata",
-          "karatoya"
+          "karatoya",
+          "kamarupa"
          ],
          "main": true
         }
@@ -7224,7 +7227,8 @@
          ],
          "places": [
           "kamata",
-          "karatoya"
+          "karatoya",
+          "kamarupa"
          ],
          "main": false
         },
@@ -7368,6 +7372,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/06_Brahmanical_and_Tai_Rituals_in_Sudangphaa_Court_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/06_Brahmanical_and_Tai_Rituals_in_Sudangphaa_Court_v01.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": false
         },
         {
@@ -7383,6 +7390,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/06_Brahmanical_and_Tai_Rituals_in_Sudangphaa_Court_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/06_Brahmanical_and_Tai_Rituals_in_Sudangphaa_Court_v02.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": false
         },
         {
@@ -8883,7 +8893,8 @@
           "sualkuchi",
           "samdhara",
           "duimunisila",
-          "hajo"
+          "hajo",
+          "kamarupa"
          ],
          "main": false
         },
@@ -9172,6 +9183,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/34_Sutamla_Embraces_the_Sankari_Path_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/34_Sutamla_Embraces_the_Sankari_Path_v01.webp",
+         "places": [
+          "auniati"
+         ],
          "main": false
         },
         {
@@ -9188,6 +9202,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/34_Sutamla_Embraces_the_Sankari_Path_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/34_Sutamla_Embraces_the_Sankari_Path_v02.webp",
+         "places": [
+          "auniati"
+         ],
          "main": false
         },
         {
@@ -9230,7 +9247,8 @@
          ],
          "places": [
           "guwahati",
-          "dhubri"
+          "dhubri",
+          "kamarupa"
          ],
          "main": true
         },
@@ -10403,6 +10421,9 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/25_Joymoti_Refuses_to_Reveal_Gadapani_Hiding_Place.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/25_Joymoti_Refuses_to_Reveal_Gadapani_Hiding_Place.webp",
+         "places": [
+          "jerenga"
+         ],
          "main": false
         },
         {
@@ -10444,6 +10465,9 @@
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
          "status": "illustrated",
+         "places": [
+          "jerenga"
+         ],
          "main": false
         }
        ]
@@ -10517,6 +10541,9 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/25_Joymoti_Refuses_to_Reveal_Gadapani_Hiding_Place.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/25_Joymoti_Refuses_to_Reveal_Gadapani_Hiding_Place.webp",
+         "places": [
+          "jerenga"
+         ],
          "main": false
         },
         {
@@ -10535,6 +10562,9 @@
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
          "status": "illustrated",
+         "places": [
+          "jerenga"
+         ],
          "main": false
         },
         {
@@ -11062,7 +11092,8 @@
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/03_Construction_of_Sivasagar_Tank_and_Siva_Dol.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/03_Construction_of_Sivasagar_Tank_and_Siva_Dol.webp",
          "places": [
-          "sivasagar"
+          "sivasagar",
+          "siva-dol"
          ],
          "main": false
         },
@@ -11285,7 +11316,8 @@
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/09_Expansion_of_Talatal_Ghar.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/09_Expansion_of_Talatal_Ghar.webp",
          "places": [
-          "dikhou"
+          "dikhou",
+          "talatal-ghar"
          ],
          "main": false
         },
@@ -11372,6 +11404,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/10_Lata_Katai_Ran_Expedition_to_Manipur.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/10_Lata_Katai_Ran_Expedition_to_Manipur.webp",
+         "places": [
+          "manipur"
+         ],
          "main": false
         },
         {
@@ -12087,6 +12122,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/25_Second_Burmese_Invasion_and_Purandar_Flight_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/25_Second_Burmese_Invasion_and_Purandar_Flight_v02.webp",
+         "places": [
+          "nazira"
+         ],
          "main": true
         },
         {
@@ -12984,6 +13022,9 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/25_Joymoti_Refuses_to_Reveal_Gadapani_Hiding_Place.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/25_Joymoti_Refuses_to_Reveal_Gadapani_Hiding_Place.webp",
+         "places": [
+          "jerenga"
+         ],
          "main": true
         },
         {
@@ -13002,6 +13043,9 @@
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
          "status": "illustrated",
+         "places": [
+          "jerenga"
+         ],
          "main": true
         }
        ]
@@ -13129,7 +13173,8 @@
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/03_Construction_of_Sivasagar_Tank_and_Siva_Dol.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/03_Construction_of_Sivasagar_Tank_and_Siva_Dol.webp",
          "places": [
-          "sivasagar"
+          "sivasagar",
+          "siva-dol"
          ],
          "main": false
         },
@@ -14338,7 +14383,8 @@
           "sualkuchi",
           "samdhara",
           "duimunisila",
-          "hajo"
+          "hajo",
+          "kamarupa"
          ],
          "main": true
         },
@@ -14477,6 +14523,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/34_Sutamla_Embraces_the_Sankari_Path_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/34_Sutamla_Embraces_the_Sankari_Path_v01.webp",
+         "places": [
+          "auniati"
+         ],
          "main": false
         },
         {
@@ -14493,6 +14542,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/34_Sutamla_Embraces_the_Sankari_Path_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/34_Sutamla_Embraces_the_Sankari_Path_v02.webp",
+         "places": [
+          "auniati"
+         ],
          "main": false
         }
        ]
@@ -15562,6 +15614,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/10_Lata_Katai_Ran_Expedition_to_Manipur.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/10_Lata_Katai_Ran_Expedition_to_Manipur.webp",
+         "places": [
+          "manipur"
+         ],
          "main": false
         }
        ]
@@ -16008,6 +16063,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/25_Second_Burmese_Invasion_and_Purandar_Flight_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/25_Second_Burmese_Invasion_and_Purandar_Flight_v02.webp",
+         "places": [
+          "nazira"
+         ],
          "main": false
         }
        ]
@@ -16452,7 +16510,8 @@
           "https://tinsukia.assam.gov.in/about-us/history"
          ],
          "places": [
-          "bengmara"
+          "bengmara",
+          "tinsukia"
          ],
          "main": true
         },
@@ -16878,7 +16937,8 @@
           "sualkuchi",
           "samdhara",
           "duimunisila",
-          "hajo"
+          "hajo",
+          "kamarupa"
          ],
          "main": false
         },
@@ -17717,6 +17777,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/25_Second_Burmese_Invasion_and_Purandar_Flight_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/25_Second_Burmese_Invasion_and_Purandar_Flight_v02.webp",
+         "places": [
+          "nazira"
+         ],
          "main": false
         }
        ]
@@ -18826,6 +18889,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/10_Lata_Katai_Ran_Expedition_to_Manipur.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/10_Lata_Katai_Ran_Expedition_to_Manipur.webp",
+         "places": [
+          "manipur"
+         ],
          "main": false
         },
         {
@@ -20264,7 +20330,10 @@
    "collection": "Assamese AI gallery",
    "summary": "Artistic visualization of an Ahom military commander and nobleman in ceremonial headdress and traditional attire.",
    "scene_image": "media/scenes/gallery/history-and-royalty/ahom-noble-warrior.webp",
-   "scene_thumbnail": "media/scenes/gallery/history-and-royalty/thumb/ahom-noble-warrior.webp"
+   "scene_thumbnail": "media/scenes/gallery/history-and-royalty/thumb/ahom-noble-warrior.webp",
+   "places": [
+    "guwahati"
+   ]
   },
   {
    "id": "patra-mantri-council",
@@ -20337,7 +20406,10 @@
    "collection": "Assamese AI gallery",
    "summary": "Intricately carved seven-tiered throne of the Namghar displaying detailed wooden craftsmanship and traditional spiritual iconography.",
    "scene_image": "media/scenes/gallery/sacred-and-culture/namghar-guru-asana-singhasan-2.webp",
-   "scene_thumbnail": "media/scenes/gallery/sacred-and-culture/thumb/namghar-guru-asana-singhasan-2.webp"
+   "scene_thumbnail": "media/scenes/gallery/sacred-and-culture/thumb/namghar-guru-asana-singhasan-2.webp",
+   "places": [
+    "guwahati"
+   ]
   },
   {
    "id": "namghar-sacred-sculptures",
@@ -20377,7 +20449,10 @@
    "collection": "Assamese AI gallery",
    "summary": "Traditional wooden cottage with intricately designed timber jali railings and warm sheltered entrance porch.",
    "scene_image": "media/scenes/gallery/traditional-architecture/assam-type-house-03.webp",
-   "scene_thumbnail": "media/scenes/gallery/traditional-architecture/thumb/assam-type-house-03.webp"
+   "scene_thumbnail": "media/scenes/gallery/traditional-architecture/thumb/assam-type-house-03.webp",
+   "places": [
+    "guwahati"
+   ]
   },
   {
    "id": "assam-house-4",
@@ -20437,7 +20512,10 @@
    "collection": "Assamese AI gallery",
    "summary": "Serene village homestead painted in traditional pastel shades with a spacious welcoming courtyard.",
    "scene_image": "media/scenes/gallery/traditional-architecture/assam-type-house-09.webp",
-   "scene_thumbnail": "media/scenes/gallery/traditional-architecture/thumb/assam-type-house-09.webp"
+   "scene_thumbnail": "media/scenes/gallery/traditional-architecture/thumb/assam-type-house-09.webp",
+   "places": [
+    "guwahati"
+   ]
   },
   {
    "id": "assam-house-10",
@@ -20467,7 +20545,10 @@
    "collection": "Assamese AI gallery",
    "summary": "Rustic vintage Assamese house with thatched bamboo accents, mud-plastered walls, and traditional rural character.",
    "scene_image": "media/scenes/gallery/traditional-architecture/old-vintage-assamese-homestead.webp",
-   "scene_thumbnail": "media/scenes/gallery/traditional-architecture/thumb/old-vintage-assamese-homestead.webp"
+   "scene_thumbnail": "media/scenes/gallery/traditional-architecture/thumb/old-vintage-assamese-homestead.webp",
+   "places": [
+    "guwahati"
+   ]
   },
   {
    "id": "satyanath-bora",
@@ -20545,8 +20626,11 @@
    "summary": "The successor kingdom of western Kamarupa, c. 1250 to 1498 (Sandhya to the Khen dynasty), between the Karatoya and the Barnadi.",
    "notes": "Early history is reconstructed from epigraphy and later tradition.",
    "confidence": "medium",
+   "latitude": 26.16,
+   "longitude": 89.36,
    "sources": [
-    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -20682,6 +20766,7 @@
   {
    "id": "karatoya",
    "name": "Karatoya",
+   "name_assamese": "কৰতোৱা",
    "kind": "River",
    "also_called": [
     "Karatoya River",
@@ -20691,8 +20776,11 @@
    "location": "North Bengal (West Bengal) and Bangladesh",
    "summary": "The western boundary of Kamata and the traditional western boundary of Kamarupa; long the line fought over with Bengal's rulers.",
    "confidence": "high",
+   "latitude": 25.85,
+   "longitude": 89.35,
    "sources": [
-    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -20770,7 +20858,12 @@
    "location": "Sivasagar district, Assam",
    "summary": "A river near Garhgaon, with a stone bridge of the Ahom period.",
    "notes": "Exact setting not re-checked.",
-   "confidence": "medium"
+   "confidence": "medium",
+   "latitude": 26.9504,
+   "longitude": 94.5452,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "pushpabhadra",
@@ -20797,7 +20890,12 @@
    "present_name": "Guwahati",
    "location": "Kamrup Metropolitan district, Assam",
    "summary": "The chief city of Lower Assam; the seat of the Borphukan after 1682 and the site of the Battle of Saraighat.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 26.18,
+   "longitude": 91.75,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "pragjyotishpura",
@@ -20885,8 +20983,11 @@
    "location": "Sonitpur district, Assam",
    "summary": "The capital of the Salastambha dynasty, c. 650 to 900.",
    "confidence": "high",
+   "latitude": 26.6528,
+   "longitude": 92.7926,
    "sources": [
-    "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
+    "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -20980,7 +21081,12 @@
    "present_name": "Kamakhya Temple",
    "location": "Nilachal Hill, Guwahati, Assam",
    "summary": "The great Shakta temple of Kamarupa and Assam.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 26.1664,
+   "longitude": 91.7055,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "sualkuchi",
@@ -20993,7 +21099,12 @@
    "present_name": "Sualkuchi",
    "location": "Kamrup district, Assam (north bank of the Brahmaputra)",
    "summary": "A Pala-period grant is named for it; today the centre of Assam's silk weaving.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 26.17,
+   "longitude": 91.57,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "barganga",
@@ -21028,6 +21139,7 @@
   {
    "id": "mong-mao",
    "name": "Mong Mao",
+   "name_assamese": "মং মাও",
    "kind": "Kingdom",
    "also_called": [
     "Muang Mao",
@@ -21040,8 +21152,11 @@
    "summary": "The Tai state from which Sukaphaa left in 1215.",
    "notes": "Some accounts place it instead in the Hukawng valley, Myanmar.",
    "confidence": "medium",
+   "latitude": 24.018,
+   "longitude": 97.856,
    "sources": [
-    "https://en.wikipedia.org/wiki/Sukaphaa"
+    "https://en.wikipedia.org/wiki/Sukaphaa",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -21061,6 +21176,7 @@
   {
    "id": "mungkang",
    "name": "Mungkang",
+   "name_assamese": "মুংকাং",
    "kind": "Kingdom",
    "also_called": [
     "Mong Kawng",
@@ -21071,7 +21187,12 @@
    "location": "Kachin State, Myanmar",
    "summary": "The Tai state beyond the Patkai that sent an invasion force in the early 15th century.",
    "notes": "Standard identification; not re-checked here.",
-   "confidence": "medium"
+   "confidence": "medium",
+   "latitude": 25.3014,
+   "longitude": 96.9417,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "patkai",
@@ -21094,6 +21215,7 @@
   {
    "id": "pangsau-pass",
    "name": "Pangsau Pass",
+   "name_assamese": "পাংচাউ গিৰিপথ",
    "kind": "Pass",
    "also_called": [
     "Pangsau",
@@ -21103,8 +21225,11 @@
    "location": "Changlang district, Arunachal Pradesh, on the India-Myanmar border",
    "summary": "The pass through which Sukaphaa crossed the Patkai in 1228.",
    "confidence": "high",
+   "latitude": 27.2476,
+   "longitude": 96.156,
    "sources": [
-    "https://en.wikipedia.org/wiki/Sukaphaa"
+    "https://en.wikipedia.org/wiki/Sukaphaa",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -21125,6 +21250,7 @@
   {
    "id": "nongnyang",
    "name": "Nongnyang",
+   "name_assamese": "নংনিয়াং হ্ৰদ",
    "kind": "Lake",
    "also_called": [
     "Nangyang",
@@ -21135,8 +21261,11 @@
    "summary": "Lake where Sukaphaa left a guard in 1227 and where the 1401 treaty fixed the Patkai boundary.",
    "notes": "Present-day place not established in the sources read.",
    "confidence": "low",
+   "latitude": 27.22,
+   "longitude": 96.17,
    "sources": [
-    "https://en.wikipedia.org/wiki/Sukaphaa"
+    "https://en.wikipedia.org/wiki/Sukaphaa",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -21151,8 +21280,11 @@
    "location": "Dibrugarh district, Assam",
    "summary": "Where Sukaphaa arrived in December 1228; later a refuge for Jayadhwaj Singha in 1662.",
    "confidence": "medium",
+   "latitude": 27.1836,
+   "longitude": 95.3469,
    "sources": [
-    "https://en.wikipedia.org/wiki/Sukaphaa"
+    "https://en.wikipedia.org/wiki/Sukaphaa",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -21168,7 +21300,12 @@
    "location": "North bank of the Brahmaputra, Lakhimpur or Dhemaji district, Assam",
    "summary": "An early Ahom base and a Chutia-ruled area; where Prince Sudang was raised in hiding.",
    "notes": "The sources read give Dhakuakhana in one place and Dhemaji in another.",
-   "confidence": "low"
+   "confidence": "low",
+   "latitude": 27.3415,
+   "longitude": 94.5009,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "tipam",
@@ -21184,11 +21321,17 @@
    "location": "Tinsukia and Dibrugarh districts, Assam (approximate)",
    "summary": "An early Tai settlement area; site of the battle at Kuhiarbari in 1401 or so.",
    "notes": "Exact setting approximate.",
-   "confidence": "low"
+   "confidence": "low",
+   "latitude": 27.2723,
+   "longitude": 95.4018,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "simaluguri",
    "name": "Simaluguri",
+   "name_assamese": "চিমলুগুৰি",
    "kind": "Town",
    "also_called": [
     "Shimolguri",
@@ -21198,7 +21341,12 @@
    "location": "Sivasagar district, Assam",
    "summary": "An early Ahom settlement.",
    "notes": "Sukaphaa's site is placed 'downstream of' present Simaluguri; not re-checked.",
-   "confidence": "low"
+   "confidence": "low",
+   "latitude": 26.9199,
+   "longitude": 94.7614,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "ligirigaon",
@@ -21219,6 +21367,7 @@
   {
    "id": "mungklang",
    "name": "Mungklang",
+   "name_assamese": "অভয়পুৰ",
    "kind": "Settlement",
    "also_called": [
     "Mungklang",
@@ -21229,8 +21378,11 @@
    "summary": "Sukaphaa's base in 1236.",
    "notes": "Sources equate it with Abhoipur; not re-checked.",
    "confidence": "low",
+   "latitude": 27.001,
+   "longitude": 94.9593,
    "sources": [
-    "https://en.wikipedia.org/wiki/Sukaphaa"
+    "https://en.wikipedia.org/wiki/Sukaphaa",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -21248,8 +21400,11 @@
    "summary": "The sacred first capital of the Ahoms, founded in 1253, and the site of the royal moidams.",
    "notes": "Charaideo district was cut from Sivasagar in 2015.",
    "confidence": "high",
+   "latitude": 26.9419,
+   "longitude": 94.8761,
    "sources": [
-    "https://en.wikipedia.org/wiki/Charaideo_district"
+    "https://en.wikipedia.org/wiki/Charaideo_district",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -21279,7 +21434,12 @@
    "location": "Near Nazira, Sivasagar district, Assam",
    "summary": "An Ahom capital from the 17th century, with the Kareng Ghar palace.",
    "notes": "District placement not re-checked.",
-   "confidence": "medium"
+   "confidence": "medium",
+   "latitude": 26.93,
+   "longitude": 94.73,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "kareng-ghar",
@@ -21293,7 +21453,12 @@
    "present_name": "Kareng Ghar",
    "location": "Garhgaon, Sivasagar district, Assam",
    "summary": "The seven-storey palace of the Ahom kings at Garhgaon, rebuilt in brick in the 18th century.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 26.9355,
+   "longitude": 94.7443,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "sivasagar",
@@ -21312,8 +21477,11 @@
    "summary": "The Ahom capital Rangpur (1699 to 1788), renamed for the Sivasagar tank dug in 1733.",
    "notes": "In Ahom scenes 'Rangpur' means this town. Kamata texts also mention Rangpur in present Bangladesh; see rangpur-bangladesh.",
    "confidence": "high",
+   "latitude": 26.9889,
+   "longitude": 94.639,
    "sources": [
-    "https://en.wikipedia.org/wiki/Sivasagar"
+    "https://en.wikipedia.org/wiki/Sivasagar",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -21329,7 +21497,12 @@
    "present_name": "Rang Ghar",
    "location": "Sivasagar, Assam",
    "summary": "The royal sports pavilion of the Ahom kings, an early 18th-century amphitheatre.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 26.967,
+   "longitude": 94.619,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "joysagar",
@@ -21344,7 +21517,12 @@
    "present_name": "Joysagar",
    "location": "Near Sivasagar, Assam",
    "summary": "The great tank dug by Rudra Singha in memory of his mother Joymoti, with temples on its bank.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 26.9706,
+   "longitude": 94.6869,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "jorhat",
@@ -21358,7 +21536,12 @@
    "present_name": "Jorhat",
    "location": "Jorhat district, Assam",
    "summary": "The last Ahom capital (from 1794), and the site of Lachit's maidam at Hoolungapara.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 26.75,
+   "longitude": 94.22,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "hoolungapara",
@@ -21401,7 +21584,12 @@
    "present_name": "Majuli",
    "location": "Majuli district, Assam (river island)",
    "summary": "The great river island of the Brahmaputra, a centre of Vaishnava satras.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 27,
+   "longitude": 94.2167,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "sadiya",
@@ -21418,13 +21606,17 @@
    "location": "Tinsukia district, Assam",
    "summary": "The seat of the Chutia kingdom, taken by the Ahoms in 1523-24.",
    "confidence": "high",
+   "latitude": 27.83,
+   "longitude": 95.67,
    "sources": [
-    "https://en.wikipedia.org/wiki/Chutia_kingdom"
+    "https://en.wikipedia.org/wiki/Chutia_kingdom",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
    "id": "bengmara",
    "name": "Bengmara",
+   "name_assamese": "বেংমৰা",
    "kind": "Region",
    "also_called": [
     "Bengmara",
@@ -21434,7 +21626,12 @@
    "location": "Tinsukia district, Assam",
    "summary": "The seat of the Moran and Matak chiefs during the Moamoria rebellions.",
    "notes": "Identification with the Tinsukia area is approximate.",
-   "confidence": "low"
+   "confidence": "low",
+   "latitude": 27.49,
+   "longitude": 95.36,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "saraighat",
@@ -21450,8 +21647,11 @@
    "location": "Guwahati, Assam (the narrowest reach of the Brahmaputra)",
    "summary": "Site of the great naval battle of March 1671.",
    "confidence": "high",
+   "latitude": 26.1758,
+   "longitude": 91.6722,
    "sources": [
-    "https://en.wikipedia.org/wiki/Battle_of_Saraighat"
+    "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -21469,13 +21669,17 @@
    "summary": "The Mughal garrison fort retaken by the Ahoms (1667 in the project's scenes; August 1682 in other sources).",
    "notes": "The date differs between sources; one gives the fort's site as the present Deputy Commissioner's bungalow.",
    "confidence": "medium",
+   "latitude": 26.185,
+   "longitude": 91.746,
    "sources": [
-    "https://en.wikipedia.org/wiki/Battle_of_Itakhuli"
+    "https://en.wikipedia.org/wiki/Battle_of_Itakhuli",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
    "id": "alaboi",
    "name": "Alaboi",
+   "name_assamese": "আলাবৈ",
    "kind": "Battle site",
    "also_called": [
     "Alaboi",
@@ -21486,8 +21690,11 @@
    "summary": "Site of the 1669 defeat in which about 10,000 Ahom soldiers died.",
    "notes": "The sources read give only 'Alaboi plains' and 'Alaboi hills near Dalbari'.",
    "confidence": "low",
+   "latitude": 26.3,
+   "longitude": 91.7,
    "sources": [
-    "https://en.wikipedia.org/wiki/Battle_of_Alaboi"
+    "https://en.wikipedia.org/wiki/Battle_of_Alaboi",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -21503,13 +21710,17 @@
    "location": "Nagaon district, Assam",
    "summary": "The seat of the Borphukan; Lachit died here in April 1672.",
    "confidence": "high",
+   "latitude": 26.58,
+   "longitude": 93,
    "sources": [
-    "https://en.wikipedia.org/wiki/Kaliabor"
+    "https://en.wikipedia.org/wiki/Kaliabor",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
    "id": "kajali",
    "name": "Kajali",
+   "name_assamese": "কাজলী",
    "kind": "Fort",
    "also_called": [
     "Kajali",
@@ -21521,13 +21732,17 @@
    "summary": "The first seat of the Borphukan and the Ahom outpost at the mouth of the Kolong; first Mughal foray in 1615.",
    "notes": "Exact site approximate.",
    "confidence": "low",
+   "latitude": 26.24,
+   "longitude": 92.05,
    "sources": [
-    "https://en.wikipedia.org/wiki/Borphukan"
+    "https://en.wikipedia.org/wiki/Borphukan",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
    "id": "samdhara",
    "name": "Samdhara",
+   "name_assamese": "সমধাৰা",
    "kind": "Fort",
    "also_called": [
     "Samdhara",
@@ -21536,7 +21751,12 @@
    "location": "Lower Assam (exact place not established)",
    "summary": "Ahom fort where the Mughal fleet was destroyed in a night attack.",
    "notes": "Present-day place not established in the sources read.",
-   "confidence": "low"
+   "confidence": "low",
+   "latitude": 26.62,
+   "longitude": 92.88,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "duimunisila",
@@ -21554,6 +21774,7 @@
   {
    "id": "ghilajharighat",
    "name": "Ghilajharighat",
+   "name_assamese": "ঘিলাধাৰীঘাটৰ সন্ধি",
    "kind": "Place",
    "also_called": [
     "Ghilajharighat"
@@ -21562,8 +21783,11 @@
    "summary": "Where the Treaty of Ghilajharighat of January 1663 was signed after Mir Jumla's invasion.",
    "notes": "Present-day place not established in the sources read.",
    "confidence": "low",
+   "latitude": 27.27,
+   "longitude": 95.4,
    "sources": [
-    "https://en.wikipedia.org/wiki/Treaty_of_Ghilajharighat"
+    "https://en.wikipedia.org/wiki/Treaty_of_Ghilajharighat",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -21578,7 +21802,12 @@
    "present_name": "Dhubri",
    "location": "Dhubri district, Assam",
    "summary": "A frontier town on the lower Brahmaputra, the western limit of Ahom control at times.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 26.0207,
+   "longitude": 89.9743,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "nagaon",
@@ -21593,13 +21822,17 @@
    "location": "Nagaon district, Assam",
    "summary": "A central Assam town and district, where Iwaz Khalji's army was turned back in 1226-27 (per the Gachtal inscription).",
    "confidence": "high",
+   "latitude": 26.35,
+   "longitude": 92.6833,
    "sources": [
-    "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
+    "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
    "id": "dimapur",
    "name": "Dimapur",
+   "name_assamese": "ডিমাপুৰ",
    "kind": "City",
    "also_called": [
     "Dimapur",
@@ -21610,13 +21843,17 @@
    "location": "Nagaland",
    "summary": "The Dimasa (Kachari) capital until the 16th century, with brick walls, tanks and carved pillars.",
    "confidence": "high",
+   "latitude": 25.91,
+   "longitude": 93.73,
    "sources": [
-    "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+    "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
    "id": "maibong",
    "name": "Maibong",
+   "name_assamese": "মাইবং",
    "kind": "Town",
    "also_called": [
     "Maibong"
@@ -21624,7 +21861,12 @@
    "present_name": "Maibong",
    "location": "Dima Hasao district, Assam",
    "summary": "The Dimasa capital after Dimapur was abandoned.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 25.3,
+   "longitude": 93.17,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "kamatapur",
@@ -21648,6 +21890,7 @@
   {
    "id": "cooch-behar",
    "name": "Cooch Behar",
+   "name_assamese": "কোচবিহাৰ",
    "kind": "City",
    "also_called": [
     "Koch Bihar",
@@ -21657,7 +21900,12 @@
    "present_name": "Cooch Behar",
    "location": "Cooch Behar district, West Bengal",
    "summary": "The Koch Bihar capital in the 16th century, near the old Kamatapur.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 26.3452,
+   "longitude": 89.4482,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   },
   {
    "id": "gachtal",
@@ -21706,8 +21954,11 @@
    "summary": "The village of Sankardev's birth and early life, in the Bhuyan country.",
    "notes": "His birthplace is also given as Patekibari near Bhuragaon.",
    "confidence": "high",
+   "latitude": 26.3504,
+   "longitude": 92.6796,
    "sources": [
-    "https://en.wikipedia.org/wiki/Sankardev"
+    "https://en.wikipedia.org/wiki/Sankardev",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -21722,8 +21973,11 @@
    "location": "Kamrup district, Assam",
    "summary": "The limit of Husain Shah's conquest by 1502; later a Koch seat.",
    "confidence": "high",
+   "latitude": 26.25,
+   "longitude": 91.53,
    "sources": [
-    "https://en.wikipedia.org/wiki/Bengal%E2%80%93Kamata_War"
+    "https://en.wikipedia.org/wiki/Bengal%E2%80%93Kamata_War",
+    "https://github.com/axomrank/AHOM"
    ]
   },
   {
@@ -21931,6 +22185,559 @@
    "location": "Magway Region, Myanmar",
    "summary": "Where the Treaty of Yandabo (1826) ended the First Anglo-Burmese War and Burmese rule in Assam.",
    "confidence": "high"
+  },
+  {
+   "id": "dikhowmukh",
+   "name": "Dikhowmukh",
+   "name_assamese": "দিখৌমুখ",
+   "kind": "Place",
+   "present_name": "Dikhowmukh",
+   "location": "At the mouth of the Dikhow river, Sivasagar district, Assam (approximate)",
+   "summary": "Where the Dikhow river meets the Brahmaputra.",
+   "notes": "From the catalogue coordinates; not otherwise checked.",
+   "confidence": "low",
+   "latitude": 26.98,
+   "longitude": 94.38,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "singri",
+   "name": "Singri",
+   "name_assamese": "শিংৰি",
+   "kind": "Place",
+   "present_name": "Singri",
+   "location": "Darrang district, Assam (approximate, from the coordinates)",
+   "summary": "A place on the Ahom map catalogue.",
+   "notes": "Identified only from the catalogue coordinates; not otherwise checked.",
+   "confidence": "low",
+   "latitude": 26.66,
+   "longitude": 92.38,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "narayanpur",
+   "name": "Narayanpur",
+   "name_assamese": "নাৰায়ণপুৰ",
+   "kind": "Place",
+   "present_name": "Narayanpur",
+   "location": "Upper Assam (approximate, from the coordinates)",
+   "summary": "A place on the Ahom map catalogue.",
+   "notes": "Identified only from the catalogue coordinates; not otherwise checked.",
+   "confidence": "low",
+   "latitude": 26.95,
+   "longitude": 93.87,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "biswanath",
+   "name": "Biswanath",
+   "name_assamese": "বিশ্বনাথ",
+   "kind": "Town",
+   "present_name": "Biswanath (Biswanath Chariali)",
+   "location": "Biswanath district, Assam",
+   "summary": "A town on the north bank of the Brahmaputra.",
+   "confidence": "high",
+   "latitude": 26.73,
+   "longitude": 93.15,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "dergaon",
+   "name": "Dergaon",
+   "name_assamese": "দেৰগাঁও",
+   "kind": "Town",
+   "present_name": "Dergaon",
+   "location": "Golaghat district, Assam",
+   "summary": "A town in Upper Assam.",
+   "confidence": "high",
+   "latitude": 26.7,
+   "longitude": 93.97,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "auniati",
+   "name": "Auniati Satra",
+   "name_assamese": "আউনীআটী সত্ৰ",
+   "kind": "Monastery",
+   "present_name": "Auniati Satra",
+   "location": "Majuli district, Assam",
+   "summary": "A Vaishnava satra on Majuli.",
+   "confidence": "high",
+   "latitude": 26.9402,
+   "longitude": 94.1238,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "jogighopa",
+   "name": "Jogighopa",
+   "name_assamese": "যোগীঘোপা",
+   "kind": "Town",
+   "present_name": "Jogighopa",
+   "location": "Bongaigaon district, Assam",
+   "summary": "A town on the Brahmaputra in Lower Assam.",
+   "confidence": "high",
+   "latitude": 26.23,
+   "longitude": 90.57,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "jerenga",
+   "name": "Jerenga Pathar",
+   "name_assamese": "জেৰেঙা পথাৰ",
+   "kind": "Place",
+   "also_called": [
+    "Jerenga"
+   ],
+   "present_name": "Jerenga Pathar",
+   "location": "Near Sivasagar, Assam",
+   "summary": "The field near Sivasagar associated with Joymoti.",
+   "notes": "Location as given in the AHOM catalogue.",
+   "confidence": "medium",
+   "latitude": 26.99,
+   "longitude": 94.66,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "umananda",
+   "name": "Umananda",
+   "name_assamese": "উমানন্দ",
+   "kind": "Temple",
+   "present_name": "Umananda Temple",
+   "location": "Peacock Island in the Brahmaputra, Guwahati, Assam",
+   "summary": "A Shiva temple on Peacock Island at Guwahati.",
+   "confidence": "high",
+   "latitude": 26.195,
+   "longitude": 91.7447,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "jaintiapur",
+   "name": "Jaintiapur",
+   "name_assamese": "জয়ন্তীয়াপুৰ",
+   "kind": "Capital",
+   "present_name": "Jaintiapur",
+   "location": "Jaintiapur Upazila, Sylhet Division, Bangladesh",
+   "summary": "The capital of the Jaintia kingdom.",
+   "notes": "Present-day location from standard references; not re-checked.",
+   "confidence": "medium",
+   "latitude": 25.13,
+   "longitude": 92.13,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "siva-dol",
+   "name": "Siva Dol",
+   "name_assamese": "শিৱদ'ল",
+   "kind": "Temple",
+   "also_called": [
+    "Shiva Dol",
+    "Sivadol"
+   ],
+   "present_name": "Siva Dol",
+   "location": "Bank of the Sivasagar tank, Sivasagar, Assam",
+   "summary": "The great Shiva temple on the Sivasagar tank.",
+   "confidence": "high",
+   "latitude": 26.9856,
+   "longitude": 94.635,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "talatal-ghar",
+   "name": "Talatal Ghar",
+   "name_assamese": "তলাতল ঘৰ",
+   "kind": "Monument",
+   "present_name": "Talatal Ghar",
+   "location": "Rangpur (Sivasagar), Assam",
+   "summary": "The Ahom palace with underground levels.",
+   "confidence": "high",
+   "latitude": 26.9663,
+   "longitude": 94.6247,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "manipur",
+   "name": "Manipur",
+   "name_assamese": "মণিপুৰ",
+   "kind": "Region",
+   "present_name": "Manipur",
+   "location": "Manipur, India",
+   "summary": "The hill kingdom south of Assam.",
+   "confidence": "high",
+   "latitude": 24.8,
+   "longitude": 93.94,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "nazira",
+   "name": "Nazira",
+   "name_assamese": "নাজিৰা",
+   "kind": "Town",
+   "present_name": "Nazira",
+   "location": "Sivasagar district, Assam",
+   "summary": "A town near Garhgaon.",
+   "confidence": "high",
+   "latitude": 26.91,
+   "longitude": 94.73,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "dibrugarh",
+   "name": "Dibrugarh",
+   "name_assamese": "ডিব্ৰুগড়",
+   "kind": "City",
+   "present_name": "Dibrugarh",
+   "location": "Dibrugarh district, Assam",
+   "summary": "A city on the Brahmaputra in Upper Assam.",
+   "confidence": "high",
+   "latitude": 27.4728,
+   "longitude": 94.912,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "tinsukia",
+   "name": "Tinsukia",
+   "name_assamese": "তিনিচুকীয়া",
+   "kind": "City",
+   "present_name": "Tinsukia",
+   "location": "Tinsukia district, Assam",
+   "summary": "A town and district in the far east of Upper Assam.",
+   "confidence": "high",
+   "latitude": 27.4922,
+   "longitude": 95.3597,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "ledo",
+   "name": "Ledo",
+   "name_assamese": "লেডো",
+   "kind": "Town",
+   "present_name": "Ledo",
+   "location": "Tinsukia district, Assam",
+   "summary": "A town at the foot of the Patkai range.",
+   "confidence": "high",
+   "latitude": 27.2905,
+   "longitude": 95.744,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "golaghat",
+   "name": "Golaghat",
+   "name_assamese": "গোলাঘাট",
+   "kind": "Town",
+   "present_name": "Golaghat",
+   "location": "Golaghat district, Assam",
+   "summary": "A town and district in Upper Assam.",
+   "confidence": "high",
+   "latitude": 26.5167,
+   "longitude": 93.9667,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "lakhimpur",
+   "name": "North Lakhimpur",
+   "name_assamese": "উত্তৰ লক্ষীমপুৰ",
+   "kind": "Town",
+   "present_name": "North Lakhimpur",
+   "location": "Lakhimpur district, Assam",
+   "summary": "A town on the north bank in Upper Assam.",
+   "confidence": "high",
+   "latitude": 27.2357,
+   "longitude": 94.1019,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "barpeta",
+   "name": "Barpeta",
+   "name_assamese": "বৰপেটা",
+   "kind": "Town",
+   "present_name": "Barpeta",
+   "location": "Barpeta district, Assam",
+   "summary": "A town in Lower Assam.",
+   "confidence": "high",
+   "latitude": 26.3226,
+   "longitude": 91.0033,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "goalpara",
+   "name": "Goalpara",
+   "name_assamese": "গোৱালপাৰা",
+   "kind": "Town",
+   "present_name": "Goalpara",
+   "location": "Goalpara district, Assam",
+   "summary": "A town on the Brahmaputra in western Assam.",
+   "confidence": "high",
+   "latitude": 26.1667,
+   "longitude": 90.6167,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "mayong",
+   "name": "Mayong",
+   "name_assamese": "মায়ং",
+   "kind": "Village",
+   "present_name": "Mayong",
+   "location": "Morigaon district, Assam",
+   "summary": "A village known in Assamese lore for magic.",
+   "confidence": "high",
+   "latitude": 26.25,
+   "longitude": 92.0333,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "kaziranga",
+   "name": "Kaziranga",
+   "name_assamese": "কাজিৰঙা",
+   "kind": "Park",
+   "present_name": "Kaziranga National Park",
+   "location": "Golaghat and Nagaon districts, Assam",
+   "summary": "A great wetland and grassland reserve south of the Brahmaputra.",
+   "confidence": "high",
+   "latitude": 26.5775,
+   "longitude": 93.1711,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "kohima",
+   "name": "Kohima",
+   "name_assamese": "কোহিমা",
+   "kind": "City",
+   "present_name": "Kohima",
+   "location": "Nagaland, India",
+   "summary": "The capital of Nagaland, in the Naga hills.",
+   "confidence": "high",
+   "latitude": 25.6747,
+   "longitude": 94.1086,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "imphal",
+   "name": "Imphal",
+   "name_assamese": "ইম্ফল",
+   "kind": "City",
+   "present_name": "Imphal",
+   "location": "Manipur, India",
+   "summary": "The capital of Manipur.",
+   "confidence": "high",
+   "latitude": 24.817,
+   "longitude": 93.9368,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "silchar",
+   "name": "Silchar",
+   "name_assamese": "শিলচৰ",
+   "kind": "City",
+   "present_name": "Silchar",
+   "location": "Cachar district, Assam",
+   "summary": "The main city of the Barak valley.",
+   "confidence": "high",
+   "latitude": 24.8333,
+   "longitude": 92.7789,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "bhamo",
+   "name": "Bhamo",
+   "name_assamese": "ভামো",
+   "kind": "Town",
+   "present_name": "Bhamo",
+   "location": "Kachin State, Myanmar",
+   "summary": "A river town on the Irrawaddy near the old Tai routes.",
+   "confidence": "high",
+   "latitude": 24.2667,
+   "longitude": 97.2333,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "tawang",
+   "name": "Tawang",
+   "name_assamese": "তাৱাং",
+   "kind": "Town",
+   "present_name": "Tawang",
+   "location": "Tawang district, Arunachal Pradesh, India",
+   "summary": "A Buddhist centre in the western Himalaya.",
+   "confidence": "high",
+   "latitude": 27.5861,
+   "longitude": 91.8594,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "hukawng",
+   "name": "Hukawng Valley",
+   "name_assamese": "হুকাং উপত্যকা",
+   "kind": "Region",
+   "present_name": "Hukawng Valley",
+   "location": "Kachin State, Myanmar",
+   "summary": "The valley traditionally linked to the Tai homeland.",
+   "confidence": "medium",
+   "latitude": 26.4383,
+   "longitude": 96.5589,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "hayagriva-madhava",
+   "name": "Hayagriva Madhava Temple",
+   "name_assamese": "হয়গ্ৰীৱ মাধৱ মন্দিৰ",
+   "kind": "Temple",
+   "present_name": "Hayagriva Madhava Temple",
+   "location": "Hajo, Kamrup district, Assam",
+   "summary": "A temple at Hajo, sacred to Hindus and Buddhists.",
+   "confidence": "high",
+   "latitude": 26.2427,
+   "longitude": 91.5265,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "dakhinpat",
+   "name": "Dakhinpat Satra",
+   "name_assamese": "দক্ষিণপাট সত্ৰ",
+   "kind": "Monastery",
+   "present_name": "Dakhinpat Satra",
+   "location": "Majuli district, Assam",
+   "summary": "A Vaishnava satra on Majuli.",
+   "confidence": "high",
+   "latitude": 26.9181,
+   "longitude": 94.2664,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "kamalabari",
+   "name": "Kamalabari Satra",
+   "name_assamese": "কমলাবাৰী সত্ৰ",
+   "kind": "Monastery",
+   "present_name": "Kamalabari Satra",
+   "location": "Majuli district, Assam",
+   "summary": "A Vaishnava satra on Majuli.",
+   "confidence": "high",
+   "latitude": 26.9562,
+   "longitude": 94.1728,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "garamur",
+   "name": "Garamur Satra",
+   "name_assamese": "গড়মূৰ সত্ৰ",
+   "kind": "Monastery",
+   "present_name": "Garamur Satra",
+   "location": "Majuli district, Assam",
+   "summary": "A Vaishnava satra on Majuli.",
+   "confidence": "high",
+   "latitude": 26.9832,
+   "longitude": 94.1564,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "barpeta-satra",
+   "name": "Barpeta Satra",
+   "name_assamese": "বৰপেটা সত্ৰ",
+   "kind": "Monastery",
+   "present_name": "Barpeta Satra",
+   "location": "Barpeta district, Assam",
+   "summary": "The Vaishnava satra at Barpeta.",
+   "confidence": "high",
+   "latitude": 26.3226,
+   "longitude": 91.0033,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "pandu",
+   "name": "Pandu",
+   "name_assamese": "পাণ্ডু",
+   "kind": "Town",
+   "present_name": "Pandu",
+   "location": "Guwahati, Assam",
+   "summary": "A port quarter of Guwahati on the south bank of the Brahmaputra.",
+   "confidence": "high",
+   "latitude": 26.1636,
+   "longitude": 91.6806,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "mong-yang",
+   "name": "Mong Yang (Mohnyin)",
+   "name_assamese": "মং য়াং (মোহনিয়িন)",
+   "kind": "Kingdom",
+   "present_name": "Mohnyin (Mong Yang)",
+   "location": "Kachin State, Myanmar",
+   "summary": "A Tai state, also called Mong Yang.",
+   "notes": "Present-day name as given in the AHOM catalogue.",
+   "confidence": "medium",
+   "latitude": 24.779,
+   "longitude": 96.373,
+   "sources": [
+    "https://github.com/axomrank/AHOM"
+   ]
   }
  ]
 }

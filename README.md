@@ -13,7 +13,7 @@ Open `index.html`, or serve the folder with `python3 -m http.server`.
 | `period` | 7 | a period of Assam's history | `date_label`, `start_year`, `end_year`, `summary`, `group_order` (order of groups on the page) |
 | `person` | 328 | a person | `period`, `group`, dates, `role`, `summary`, `notes`, Tai and Hindu names, `ahom_king_no`, `koch_no`, `confidence`, `sources`, `character_sheets` |
 | `event` | 24 | a dated event on the Timeline page | `start_year`, `end_year`, `summary`, `people`, `places`, `scene_image` (optional) |
-| `place` | 91 | a place: historic names, present-day name and location, kind, how sure the identification is | `also_called`, `present_name`, `location`, `group` (kind), `confidence`, `sources` |
+| `place` | 127 | a place: historic names, present-day name and location, kind, how sure the identification is | `also_called`, `present_name`, `location`, `group` (kind), `confidence`, `sources` |
 | `scene` | 331 | an illustrated scene, or a researched one not painted yet (`status` = `planned`) | `date_label`, `sort_year`, `group` (era), `summary`, `people`, `main_people`, `places` (place ids), `scene_image` |
 
 Images live inside the record they belong to. A person's `character_sheets` cell lists their sheets and

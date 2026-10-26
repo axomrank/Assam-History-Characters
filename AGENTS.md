@@ -17,6 +17,7 @@ Rebuild it after adding files: `python3 tools/index_library.py`.
 | Real reference photos with licences | `images/photos/<site>/`, `images/photos/manifest.csv` |
 | Face crops of Ahom people (127) | `images/faces/<id>.webp` |
 | Ahom reels (video) | `reels/web/NN-name.mp4` + `.webp` poster (49 reels), `reels/web/context/` captions (`.as.vtt`, `.en.vtt`), `reels/studio/reel-NNN-*/` HyperFrames projects (each has its own AGENTS.md) |
+| Map shapes (district, river, India and world outlines) and attribution | `data/maps/` (spots = `lat`/`lon` on `place` rows) |
 | Drop new character images here | `incoming/` then `python3 tools/add_sheets.py` |
 
 ## Rules
