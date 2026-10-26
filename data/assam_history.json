@@ -20591,6 +20591,480 @@
    "scene_thumbnail": "media/scenes/gallery/notable-figures/thumb/assam-movement-student-rally.webp"
   }
  ],
+ "realms": [
+  {
+   "id": "kamarupa-traditional",
+   "name": "Kamarupa: the traditional bounds",
+   "kingdom": "kamarupa",
+   "period": "kamarupa",
+   "date_label": "traditional description (c. 350 to 1100)",
+   "start_year": 350,
+   "end_year": 1100,
+   "summary": "The bounds that later texts give for Kamarupa, from the Karatoya in the west to the far east, with the Brahmaputra's course near Mymensingh in the south and Kanchenjunga in the north.",
+   "boundary": "West: Karatoya river | East: Sadiya (the Kalika Purana also gives Lalitakanta near Guwahati; Dikkaravasini, linked to the Dikrong river, and Dikshu, linked to the Dibang) | South: the Brahmaputra's junction near the Dhaka and Mymensingh districts | North: Kanchenjunga",
+   "notes": "Textual, not period-specific: the sources are Xuanzang (7th c.), the Kalika Purana (10th c.) and the Yogini Tantra (16th c.). No inscription confirms these bounds, and Shin (2018) calls it futile to project any fixed boundary on Kamarupa, which never formed a single entity.",
+   "confidence": "low",
+   "places": [
+    "karatoya",
+    "sadiya",
+    "dikrang",
+    "dibang",
+    "mymensingh",
+    "kanchenjanga",
+    "brahmaputra"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa"
+   ]
+  },
+  {
+   "id": "kamarupa-varman",
+   "name": "Kamarupa under the Varmans: reach, not a boundary",
+   "kingdom": "kamarupa",
+   "period": "kamarupa",
+   "date_label": "c. 350 to 650",
+   "start_year": 350,
+   "end_year": 650,
+   "summary": "The Varman kings pushed outward: Kalyanavarman took Davaka (the Kopili valley), Mahendravarman extended control eastward, Sylhet (the Chandrapuri visaya) was held by the time of the Nidhanpur grant, and Sthitavarman and Bhaskaravarman campaigned against Gauda at Karnasuvarna.",
+   "boundary": "West: no river named for this period (tradition gives the Karatoya) | East: 'further eastern areas' (no river named) | South-west: Sylhet and the Gauda frontier at Karnasuvarna",
+   "notes": "The sources read give conquests and findspots, not river boundaries. Pundravardhana is named as Xuanzang's starting point, not as a conquest.",
+   "confidence": "low",
+   "places": [
+    "karatoya",
+    "kopili",
+    "davaka",
+    "karnasuvarna",
+    "nidhanpur",
+    "sylhet"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa"
+   ]
+  },
+  {
+   "id": "kamarupa-pala",
+   "name": "Kamarupa under the Palas",
+   "kingdom": "kamarupa",
+   "period": "kamarupa",
+   "date_label": "c. 900 to 1100",
+   "start_year": 900,
+   "end_year": 1100,
+   "summary": "A core on the south bank of the Brahmaputra around Kamarupanagara; the western territories were lost to Ramapala of Bengal, and local chiefs held parts of Kamrup, Darrang and Sonitpur on the north bank.",
+   "boundary": "Core: the south bank of the Brahmaputra | West: lost to Ramapala of Bengal (no river named) | North bank: held by local rulers such as Bhaskara in Kamrup, Darrang and Sonitpur",
+   "notes": "The article read states these extents without naming rivers beyond the Brahmaputra; the Pala chronology is unsettled.",
+   "confidence": "low",
+   "places": [
+    "brahmaputra",
+    "kamarupanagara",
+    "north-guwahati"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa"
+   ]
+  },
+  {
+   "id": "kamata-sandhya",
+   "name": "Kamata, c. 1257 to 1440",
+   "kingdom": "kamata",
+   "period": "western",
+   "date_label": "c. 1257 to 1440",
+   "start_year": 1257,
+   "end_year": 1440,
+   "summary": "The kingdom of Sandhya and his successors: from the Karatoya in the west to the Barnadi in the east, including Rangpur and northern Mymensingh to the south. Control east of the Manas was loose.",
+   "boundary": "West: Karatoya river | East: Barnadi river (control beyond the Manas 'lax') | North: the Bhutan hills | South: Rangpur and northern Mymensingh",
+   "notes": "Reconstructed from epigraphy and later tradition. The north and south limits are as listed in the source (Kamrup, Goalpara, Jalpaiguri, Cooch Behar, Rangpur and northern Mymensingh), not river lines.",
+   "confidence": "medium",
+   "places": [
+    "karatoya",
+    "barnadi",
+    "manas",
+    "rangpur-bangladesh",
+    "mymensingh",
+    "kamatapur"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom",
+    "https://en.wikipedia.org/wiki/Kamarupa"
+   ]
+  },
+  {
+   "id": "khen-kamata",
+   "name": "The Khen kingdom of Kamata",
+   "kingdom": "kamata",
+   "period": "western",
+   "date_label": "1440 to 1498",
+   "start_year": 1440,
+   "end_year": 1498,
+   "summary": "Niladhwaj, Chakradhwaj and Nilambar ruled from Kamatapur between the Karatoya and the Barnadi.",
+   "boundary": "West: Karatoya river | East: Barnadi river | Capital: Kamatapur (Gosanimari)",
+   "notes": "The span is from Sarkar. A claim that Nilambar widened the kingdom into parts of West Bengal, Mymensingh and Dinajpur is uncited.",
+   "confidence": "medium",
+   "places": [
+    "karatoya",
+    "barnadi",
+    "kamatapur"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Khen_dynasty",
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+   ]
+  },
+  {
+   "id": "bengal-kamata",
+   "name": "Husain Shah's Kamata (the Sultanate's reach)",
+   "kingdom": "bengal-sultanate",
+   "period": "western",
+   "date_label": "c. 1498 to c. 1505",
+   "start_year": 1498,
+   "end_year": 1505,
+   "summary": "After taking Kamatapur, Alauddin Husain Shah held the region to Hajo by 1502; one account pushes it east to the Barnadi by defeating Harup Narayan. The Bhuyans then destroyed Danyal's garrison.",
+   "boundary": "West: Karatoya river | East: Hajo (by 1502); the Barnadi in one account (the Baro-Bhuyan article)",
+   "notes": "The two eastern limits come from different sources.",
+   "confidence": "medium",
+   "places": [
+    "karatoya",
+    "hajo",
+    "barnadi",
+    "kamatapur"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bengal%E2%80%93Kamata_War",
+    "https://en.wikipedia.org/wiki/Baro-Bhuyan"
+   ]
+  },
+  {
+   "id": "koch-biswa-singha",
+   "name": "The early Koch kingdom of Biswa Singha",
+   "kingdom": "koch-kingdom",
+   "period": "western",
+   "date_label": "1515 to 1540",
+   "start_year": 1515,
+   "end_year": 1540,
+   "summary": "Biswa Singha's kingdom ran from the Karatoya in the west to the Barnadi in the east.",
+   "boundary": "West: Karatoya river | East: Barnadi river | South: Ghoraghat (Rangpur) in one study",
+   "notes": "Another account describes a late Koch-Kamata extent from the Teesta to the Sankosh instead; the dates and sources differ.",
+   "confidence": "medium",
+   "places": [
+    "karatoya",
+    "barnadi",
+    "ghoraghat",
+    "teesta",
+    "sankosh"
+   ],
+   "sources": [
+    "https://roundtableindia.co.in/?p=17149",
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+   ]
+  },
+  {
+   "id": "koch-naranarayan",
+   "name": "Nara Narayan's undivided Koch kingdom",
+   "kingdom": "koch-kingdom",
+   "period": "western",
+   "date_label": "c. 1540 to 1581",
+   "start_year": 1540,
+   "end_year": 1581,
+   "summary": "At its widest the undivided Koch kingdom reached far east: from the Karatoya (or the Sankosh) in the west to the Bhareli (Kameng), and briefly the Subansiri, in the east.",
+   "boundary": "West: Karatoya river (the Kamrup article) or Sankosh river (the Koch Hajo article) | East: Bhareli (Kameng) river; the Subansiri briefly (via the Treaty of Majuli), after which the Ahoms pushed Koch control back to the Bhareli",
+   "notes": "The sources give competing descriptions. Kamata's control beyond the Manas had always been lax.",
+   "confidence": "low",
+   "places": [
+    "karatoya",
+    "sankosh",
+    "bhareli",
+    "subansiri",
+    "manas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamrup_region",
+    "https://en.wikipedia.org/wiki/Koch_Hajo"
+   ]
+  },
+  {
+   "id": "koch-hajo-1581",
+   "name": "Koch Hajo",
+   "kingdom": "koch-hajo",
+   "period": "western",
+   "date_label": "1581 to 1613",
+   "start_year": 1581,
+   "end_year": 1613,
+   "summary": "The eastern half of Nara Narayan's divided kingdom, on the north bank of the Brahmaputra from the Sankosh to the Bhareli, with land south of the river west of the Kolong-Kopili.",
+   "boundary": "West: Sankosh river (the border with Koch Bihar) | East: Bhareli (Bharali) river | South: west of the Kalang-Kopili river, to the forests of Mymensingh",
+   "notes": "A mirrored older text names the Subansiri as the dividing line instead of the Sankosh; the main source says Sankosh.",
+   "confidence": "medium",
+   "places": [
+    "sankosh",
+    "bhareli",
+    "kolong",
+    "kopili",
+    "brahmaputra"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Koch_Hajo",
+    "https://en.wikipedia.org/wiki/Kamrup_region"
+   ]
+  },
+  {
+   "id": "koch-bihar-1581",
+   "name": "Koch Bihar",
+   "kingdom": "koch-bihar",
+   "period": "western",
+   "date_label": "from 1581",
+   "start_year": 1581,
+   "end_year": 1949,
+   "summary": "The western half of the divided kingdom, west of the Sankosh, the line that is roughly today's Assam-West Bengal border.",
+   "boundary": "East: Sankosh river | West: the Koch Bihar lands towards the Teesta and Karatoya",
+   "notes": "Only the Sankosh boundary is given in the sources read.",
+   "confidence": "medium",
+   "places": [
+    "sankosh",
+    "teesta",
+    "karatoya"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Koch_Hajo",
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+   ]
+  },
+  {
+   "id": "mughal-kamrup-1615",
+   "name": "Mughal Kamrup",
+   "kingdom": "mughal-kamrup",
+   "period": "western",
+   "date_label": "by 1615 to 1639",
+   "start_year": 1615,
+   "end_year": 1639,
+   "summary": "The Mughal sarkars on the Koch Hajo lands: Dhekeri between the Sankosh and the Manas, and Kamrup between the Manas and the Barnadi. By 1615 the Mughal frontier reached the Barnadi.",
+   "boundary": "Dhekeri: between the Sankosh and Manas rivers | Kamrup: between the Manas and Barnadi rivers | East limit by 1615: Barnadi river",
+   "notes": "Largely congruent with the British Kamrup district of 1833-36. Wade (1805) gives Kamrup as bounded by the Manas (west), Raotan (north), Barnadi (east) and Brahmaputra (south).",
+   "confidence": "medium",
+   "places": [
+    "sankosh",
+    "manas",
+    "barnadi",
+    "brahmaputra"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamrup_region"
+   ]
+  },
+  {
+   "id": "asurar-ali-1639",
+   "name": "The Treaty of Asurar Ali boundary",
+   "kingdom": "mughal-kamrup",
+   "period": "ahom",
+   "date_label": "February 1639",
+   "start_year": 1639,
+   "end_year": 1662,
+   "summary": "After the Mughal-Ahom war, the Barnadi on the north bank and Asurar Ali on the south bank marked the limit; the Ahom king recognised Mughal supremacy in Kamrup and the Mughals held western Assam from Guwahati to the Manas.",
+   "boundary": "North bank: Barnadi river | South bank: Asurar Ali (a causeway at Guwahati, believed to be Rajgarh Road); the Ahom-Mughal conflicts article gives the Kalang instead",
+   "notes": "The two Wikipedia articles disagree on the southern mark (Asurar Ali vs Kalang). Mir Jumla's advance in 1662 was measured against this line.",
+   "confidence": "medium",
+   "places": [
+    "barnadi",
+    "asurar-ali",
+    "kolong",
+    "guwahati",
+    "manas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Asurar_Ali",
+    "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+   ]
+  },
+  {
+   "id": "ghilajharighat-1663",
+   "name": "The Treaty of Ghilajharighat boundary",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "December 1662 to January 1663",
+   "start_year": 1663,
+   "end_year": 1667,
+   "summary": "After Mir Jumla took Garhgaon, the Ahoms ceded Guwahati's side of the valley: on the north bank Guwahati to Samdhara on the Bharali, on the south bank Guwahati to the Kolong, and the Manas-to-Guwahati region was returned to the Mughals.",
+   "boundary": "North bank: Guwahati to Samdhara on the Bharali river | South bank: Guwahati to the Kolong river | Also: the region between the Manas and Guwahati returned to the Mughals",
+   "notes": "The infobox places the signing at Panibat of Tipam on the Dihing; the article does not say where Ghilajharighat is. The Barnadi does not appear in the 1663 terms.",
+   "confidence": "medium",
+   "places": [
+    "bhareli",
+    "samdhara",
+    "kolong",
+    "manas",
+    "guwahati",
+    "ghilajharighat"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Ghilajharighat"
+   ]
+  },
+  {
+   "id": "ahom-early",
+   "name": "The early Ahom kingdom",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1228 to c. 1500",
+   "start_year": 1228,
+   "end_year": 1500,
+   "summary": "Settlements on both banks of the Brahmaputra and on Majuli, around Charaideo; the Dikhow marked the frontier with the Kacharis from the 1270s. In the Buranji division of the early offices, the Burhagohain's land lay between Sadiya and the Gerelua on the north bank and the Borgohain's west to the Burai.",
+   "boundary": "East: the Patkai hills | West: Dikhow river (the Ahom-Kachari frontier) | Offices: Burhagohain between Sadiya and the Gerelua river (north bank); Borgohain to the west up to the Burai river",
+   "notes": "The Dikhow frontier is in the project's own scenes (AHOM-026 to 031); the Gerelua and Burai limits are from the Ahom kingdom article, and neither river is placed here.",
+   "confidence": "medium",
+   "places": [
+    "patkai",
+    "dikhou",
+    "dihing",
+    "namdang",
+    "majuli",
+    "charaideo",
+    "sadiya"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ahom_kingdom",
+    "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+   ]
+  },
+  {
+   "id": "ahom-1523-1536",
+   "name": "The Ahom kingdom after the Chutia annexation",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1523 to 1536",
+   "start_year": 1523,
+   "end_year": 1536,
+   "summary": "The annexation added Sadiya, Habung, Dihing (Mungklang) and the Kaliabor side; land west of the Dhansiri came from the Kacharis, and by 1536 Ahom rule reached the Kolong in Nagaon.",
+   "boundary": "East: Sadiya | West: the Dhansiri (from c. 1526), then the Kolong river in Nagaon (by 1536)",
+   "notes": "The article gives both 1523 and 1524 for the Chutia annexation, and does not name a river for the western edge in 1523.",
+   "confidence": "medium",
+   "places": [
+    "sadiya",
+    "habung",
+    "dhansiri",
+    "kolong",
+    "nagaon",
+    "kaliabor"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ahom_kingdom"
+   ]
+  },
+  {
+   "id": "ahom-1657",
+   "name": "The Ahom kingdom at its greatest extent",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1657 to 1662",
+   "start_year": 1657,
+   "end_year": 1662,
+   "summary": "Under Jayadhwaj Singha the Ahoms occupied Kamrup and held the Brahmaputra valley from Sadiya in the east, the greatest extent; Mir Jumla took Garhgaon in 1662 and the Kamrup gains were lost.",
+   "boundary": "East: Sadiya | West: Kamrup (no river named in the source)",
+   "notes": "The article gives no western river for this peak.",
+   "confidence": "low",
+   "places": [
+    "sadiya",
+    "garhgaon"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ahom_kingdom"
+   ]
+  },
+  {
+   "id": "ahom-manas-1682",
+   "name": "The Ahom kingdom from 1682: the Manas frontier",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1682 to 1826",
+   "start_year": 1682,
+   "end_year": 1826,
+   "summary": "After the Battle of Itakhuli the Manas became the western boundary of the Ahom kingdom and stayed so until the British; the Borphukan ruled from Guwahati over the land from the Manas to Kaliabor, and Kamrup then matched the later British district.",
+   "boundary": "West: Manas river | East: Sadiya and the Patkai | Borphukan's domain: the Manas to Kaliabor",
+   "notes": "Itakhuli is dated August 1682 in most sources (the project's scenes date its recapture to 1667). Kamrup's eastern edge is the Barnadi in the Mughal and British accounts.",
+   "confidence": "high",
+   "places": [
+    "manas",
+    "kaliabor",
+    "guwahati",
+    "itakhuli",
+    "sadiya",
+    "patkai"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
+    "https://en.wikipedia.org/wiki/Kamrup_region",
+    "https://en.wikipedia.org/wiki/Battle_of_Itakhuli"
+   ]
+  },
+  {
+   "id": "chutia-kingdom",
+   "name": "The Chutia kingdom",
+   "kingdom": "chutia-kingdom",
+   "period": "neighbours",
+   "date_label": "to 1523-24",
+   "start_year": 1187,
+   "end_year": 1523,
+   "summary": "A kingdom of the north-bank valleys of the Subansiri, Brahmaputra, Lohit and Dihing, with Sadiya as its seat; one study gives it from the Sisi in the west to the Brahmaputra in the east with the hills to the north and the Buri Dihing to the south. Its influence may have reached Biswanath in Darrang.",
+   "boundary": "West: Sisi river | East: the Brahmaputra, and on the north bank Parshuram Kund | North: the hills | South: Buri Dihing | Heartland: the Subansiri, Brahmaputra, Lohit and Dihing valleys",
+   "notes": "The source's own wording is odd (Sisi west to the Brahmaputra east); the Ahom border is not defined by a river in the article (a 1513 conflict led to Dikhowmukh). Kings' lists are unreliable.",
+   "confidence": "low",
+   "places": [
+    "sisi",
+    "brahmaputra",
+    "parshuram-kund",
+    "dihing",
+    "subansiri",
+    "lohit",
+    "sadiya",
+    "biswanath"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chutia_kingdom"
+   ]
+  },
+  {
+   "id": "dimasa-early",
+   "name": "The early Dimasa (Kachari) kingdom",
+   "kingdom": "dimasa-kingdom",
+   "period": "neighbours",
+   "date_label": "from the late 13th century to 1536",
+   "start_year": 1275,
+   "end_year": 1536,
+   "summary": "Dimasa power lay from the Dikhow in the east to the Kolong in the west, including the Dhansiri valley and the North Cachar hills; one Dimasa tradition puts the eastern limit at the Mohong or Namdang. The Ahom Buranji instead describes the kingdom from the Kopili to the Dhansiri. Capital: Dimapur until 1536, then Maibong.",
+   "boundary": "East: Dikhow river (Ahom account); the Mohong or Namdang (Dimasa tradition) | West: Kolong river, or the Kopili in the Ahom Buranji | Core: the Dhansiri valley and the North Cachar hills",
+   "notes": "Mostly popular and community sources; the Kolong-Kopili and Dhansiri differences are contested.",
+   "confidence": "low",
+   "places": [
+    "dikhou",
+    "kolong",
+    "kopili",
+    "dhansiri",
+    "namdang",
+    "dimapur",
+    "maibong"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+    "https://www.esamskriti.com/e/History/Indian-History/About-the-Dimasa-Kingdom-of-Assam--1.aspx"
+   ]
+  },
+  {
+   "id": "dimasa-17th",
+   "name": "The Dimasa kingdom in the 17th century",
+   "kingdom": "dimasa-kingdom",
+   "period": "neighbours",
+   "date_label": "17th century",
+   "start_year": 1600,
+   "end_year": 1700,
+   "summary": "By the reign of Birdarpan Narayan the Kacharis had withdrawn from the Dhansiri valley, which reverted to jungle and became a barrier between their kingdom and the Ahoms.",
+   "boundary": "North and east: the Dhansiri valley left as a jungle buffer | Capital: Maibong",
+   "notes": "One summary of a community source.",
+   "confidence": "low",
+   "places": [
+    "dhansiri",
+    "maibong"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+   ]
+  }
+ ],
  "places": [
   {
    "id": "kamarupa",
@@ -21748,14 +22222,16 @@
     "Samdhara",
     "Samdhara fort"
    ],
-   "location": "Lower Assam (exact place not established)",
+   "present_name": "On the Bharali (Kameng) river, north bank (per the 1663 treaty text)",
+   "location": "Near Tezpur, Sonitpur district, Assam (approximate)",
    "summary": "Ahom fort where the Mughal fleet was destroyed in a night attack.",
-   "notes": "Present-day place not established in the sources read.",
-   "confidence": "low",
+   "notes": "The Treaty of Ghilajharighat text places Samdhara on the Bharali river; the AHOM map point sits near Tezpur, which agrees. Another source mentions a Samdhara fort resisting the Mughals around 1636.",
+   "confidence": "medium",
    "latitude": 26.62,
    "longitude": 92.88,
    "sources": [
-    "https://github.com/axomrank/AHOM"
+    "https://github.com/axomrank/AHOM",
+    "https://en.wikipedia.org/wiki/Treaty_of_Ghilajharighat"
    ]
   },
   {
@@ -22737,6 +23213,356 @@
    "longitude": 96.373,
    "sources": [
     "https://github.com/axomrank/AHOM"
+   ]
+  },
+  {
+   "id": "sankosh",
+   "name": "Sankosh",
+   "kind": "River",
+   "also_called": [
+    "Sankosh River",
+    "Gadadhar"
+   ],
+   "present_name": "Sankosh River",
+   "location": "Along the border of Assam and West Bengal, from Bhutan to the Brahmaputra system",
+   "summary": "The river that divided Koch Bihar from Koch Hajo in 1581; roughly today's Assam-West Bengal border.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Koch_Hajo"
+   ]
+  },
+  {
+   "id": "bhareli",
+   "name": "Bhareli",
+   "kind": "River",
+   "also_called": [
+    "Bharali",
+    "Bhareli",
+    "Jia Bharali",
+    "Kameng",
+    "Bhoroli"
+   ],
+   "present_name": "Kameng (Jia Bharali) River",
+   "location": "Arunachal Pradesh and Sonitpur district, Assam",
+   "summary": "A north-bank river near Tezpur; the eastern limit of Koch Hajo, and where the 1663 treaty put the Ahom-Mughal frontier on the north bank (Samdhara on the Bharali).",
+   "notes": "Spelled Bharali, Bhareli or Bhoroli in different sources.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Koch_Hajo",
+    "https://en.wikipedia.org/wiki/Treaty_of_Ghilajharighat"
+   ]
+  },
+  {
+   "id": "subansiri",
+   "name": "Subansiri",
+   "kind": "River",
+   "also_called": [
+    "Subansiri River",
+    "Suvansiri",
+    "Subanshiri"
+   ],
+   "present_name": "Subansiri River",
+   "location": "Arunachal Pradesh and Assam (Lakhimpur and Dhemaji districts)",
+   "summary": "A major north-bank river; the Chutia heartland lay on it, and Koch power briefly reached it under Nara Narayan.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chutia_kingdom"
+   ]
+  },
+  {
+   "id": "dibang",
+   "name": "Dibang",
+   "kind": "River",
+   "also_called": [
+    "Dibang River",
+    "Dihang (Dibang)",
+    "Dikshu"
+   ],
+   "present_name": "Dibang River",
+   "location": "Arunachal Pradesh and Assam",
+   "summary": "An eastern river; the 'Dikshu' of the Kalika Purana is linked to it as the eastern limit of Kamarupa.",
+   "notes": "Linking Dikshu to the Dibang rests on Sircar and Boruah.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa"
+   ]
+  },
+  {
+   "id": "dikrang",
+   "name": "Dikrang",
+   "kind": "River",
+   "also_called": [
+    "Dikrong",
+    "Dikrang River",
+    "Dikkaravasini (traditional)"
+   ],
+   "present_name": "Dikrong River",
+   "location": "Arunachal Pradesh and Lakhimpur district, Assam",
+   "summary": "A north-bank river linked in tradition to the Dikkaravasini shrine on Kamarupa's eastern edge.",
+   "notes": "The link rests on Dutta 2008; it is not the same as the 'Dikrai'.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa"
+   ]
+  },
+  {
+   "id": "sisi",
+   "name": "Sisi",
+   "kind": "River",
+   "also_called": [
+    "Sisi River",
+    "Sissi River"
+   ],
+   "present_name": "Sisi River",
+   "location": "Upper Assam, north bank (exact reach approximate)",
+   "summary": "Named as the western limit of the Chutia kingdom in one study.",
+   "notes": "Present-day river approximate; not checked.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chutia_kingdom"
+   ]
+  },
+  {
+   "id": "lohit",
+   "name": "Lohit",
+   "kind": "River",
+   "also_called": [
+    "Lohit River",
+    "Luhit"
+   ],
+   "present_name": "Lohit River",
+   "location": "Arunachal Pradesh and Assam",
+   "summary": "A great eastern tributary of the Brahmaputra; the Chutia valley lands lay between the Subansiri, Brahmaputra, Lohit and Dihing.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chutia_kingdom"
+   ]
+  },
+  {
+   "id": "parshuram-kund",
+   "name": "Parshuram Kund",
+   "kind": "Pilgrim site",
+   "also_called": [
+    "Parashuram Kund",
+    "Parasuram Kunda"
+   ],
+   "present_name": "Parshuram Kund",
+   "location": "Lohit district, Arunachal Pradesh",
+   "summary": "A sacred pool named as the eastern end of the Chutia holdings on the north bank.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chutia_kingdom"
+   ]
+  },
+  {
+   "id": "dhansiri",
+   "name": "Dhansiri",
+   "kind": "River",
+   "also_called": [
+    "Dhansiri River",
+    "Dhansiri valley"
+   ],
+   "present_name": "Dhansiri River",
+   "location": "Golaghat and Dima Hasao districts, Assam, and Nagaland",
+   "summary": "The valley of the early Dimasa (Kachari) kingdom; later a jungle buffer between the Kacharis and the Ahoms, and the limit of Ahom land in the 1520s-30s.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+   ]
+  },
+  {
+   "id": "asurar-ali",
+   "name": "Asurar Ali",
+   "kind": "Causeway",
+   "also_called": [
+    "Asurar Ali",
+    "Asurar Ali causeway"
+   ],
+   "present_name": "Rajgarh Road, Guwahati",
+   "location": "Guwahati, Assam",
+   "summary": "A causeway (garh) at Guwahati; the south-bank mark of the 1639 Ahom-Mughal boundary.",
+   "notes": "'Believed to be' Rajgarh Road, Guwahati; the causeway survived into the late 1960s.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Asurar_Ali"
+   ]
+  },
+  {
+   "id": "kanchenjanga",
+   "name": "Kanchenjunga",
+   "kind": "Mountain",
+   "also_called": [
+    "Kanchanjanga",
+    "Kanchenjanga",
+    "Kanchenjunga"
+   ],
+   "present_name": "Kanchenjunga",
+   "location": "Sikkim and Nepal border",
+   "summary": "The mountain named as the northern limit of Kamarupa in the traditional description.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa"
+   ]
+  },
+  {
+   "id": "mymensingh",
+   "name": "Mymensingh",
+   "kind": "Region",
+   "also_called": [
+    "Mymensingh",
+    "Mymensingh district"
+   ],
+   "present_name": "Mymensingh",
+   "location": "Mymensingh Division, Bangladesh",
+   "summary": "The southern limit of traditional Kamarupa, and later a southern part of Kamata (northern Mymensingh).",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+   ]
+  },
+  {
+   "id": "ghoraghat",
+   "name": "Ghoraghat",
+   "kind": "Town",
+   "also_called": [
+    "Ghoraghat",
+    "Goraghat"
+   ],
+   "present_name": "Ghoraghat",
+   "location": "Rangpur-Dinajpur area, Bangladesh",
+   "summary": "A river crossing on the Karatoya; one study gives the southern edge of Biswa Singha's kingdom here.",
+   "notes": "Location approximate.",
+   "confidence": "low"
+  },
+  {
+   "id": "koch-kingdom",
+   "name": "Koch kingdom",
+   "kind": "Kingdom",
+   "also_called": [
+    "Koch kingdom",
+    "Koch Kamata",
+    "Koch dynasty realm"
+   ],
+   "present_name": "North-eastern Bengal and western Assam",
+   "location": "Assam and West Bengal",
+   "summary": "The kingdom founded by Biswa Singha in 1515; undivided under Nara Narayan until 1581.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Koch_dynasty"
+   ]
+  },
+  {
+   "id": "koch-hajo",
+   "name": "Koch Hajo",
+   "kind": "Kingdom",
+   "also_called": [
+    "Koch Hajo",
+    "Koch Hajo kingdom"
+   ],
+   "present_name": "Western Assam, north bank",
+   "location": "Assam",
+   "summary": "The eastern part of the divided Koch kingdom (1581 to 1613), north of the Brahmaputra between the Sankosh and the Bhareli.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Koch_Hajo"
+   ]
+  },
+  {
+   "id": "koch-bihar",
+   "name": "Koch Bihar",
+   "kind": "Kingdom",
+   "also_called": [
+    "Koch Bihar kingdom",
+    "Cooch Behar kingdom"
+   ],
+   "present_name": "Cooch Behar region",
+   "location": "West Bengal",
+   "summary": "The western part of the divided Koch kingdom, west of the Sankosh.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Koch_Hajo"
+   ]
+  },
+  {
+   "id": "ahom-kingdom",
+   "name": "Ahom kingdom",
+   "kind": "Kingdom",
+   "also_called": [
+    "Ahom kingdom",
+    "Ahom dynasty realm",
+    "Tai-Ahom kingdom"
+   ],
+   "present_name": "Brahmaputra valley, Assam",
+   "location": "Assam",
+   "summary": "The Tai-Ahom kingdom of 1228 to 1826.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ahom_kingdom"
+   ]
+  },
+  {
+   "id": "chutia-kingdom",
+   "name": "Chutia kingdom",
+   "kind": "Kingdom",
+   "also_called": [
+    "Chutia kingdom",
+    "Sadhaya",
+    "Sutiya kingdom"
+   ],
+   "present_name": "Far eastern Assam (Lakhimpur, Dhemaji, Tinsukia, Dibrugarh)",
+   "location": "Assam and Arunachal Pradesh",
+   "summary": "The Sadiya-based kingdom annexed by the Ahoms in 1523-24.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chutia_kingdom"
+   ]
+  },
+  {
+   "id": "dimasa-kingdom",
+   "name": "Dimasa kingdom",
+   "kind": "Kingdom",
+   "also_called": [
+    "Dimasa (Kachari) kingdom",
+    "Kachari kingdom",
+    "Hidimba kingdom"
+   ],
+   "present_name": "Dhansiri valley and Dima Hasao",
+   "location": "Assam and Nagaland",
+   "summary": "The Dimasa (Kachari) kingdom with capitals at Dimapur and later Maibong.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+   ]
+  },
+  {
+   "id": "bengal-sultanate",
+   "name": "Bengal Sultanate",
+   "kind": "Kingdom",
+   "also_called": [
+    "Bengal Sultanate",
+    "Sultanate of Bengal",
+    "Gaur sultanate"
+   ],
+   "present_name": "Bengal",
+   "location": "West Bengal and Bangladesh",
+   "summary": "The Sultanate of Gaur and Lakhnauti, which took Kamata in 1498.",
+   "confidence": "high"
+  },
+  {
+   "id": "mughal-kamrup",
+   "name": "Mughal Sarkar Kamrup",
+   "kind": "Province",
+   "also_called": [
+    "Sarkar Kamrup",
+    "Kamrup (Mughal)",
+    "Mughal Kamrup"
+   ],
+   "present_name": "Western Assam between the Manas and Barnadi",
+   "location": "Assam",
+   "summary": "The Mughal administrative unit of Kamrup, later (1833-36) the basis of the British Kamrup district.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamrup_region"
    ]
   }
  ]

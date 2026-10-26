@@ -6,7 +6,7 @@ const url = p => p.split('/').map(encodeURIComponent).join('/');
 const eraById = Object.fromEntries(S.eras.map(e => [e.id, e]));
 const charById = Object.fromEntries(S.characters.map(c => [c.id, c]));
 const sceneById = Object.fromEntries(S.scenes.map(s => [s.id, s]));
-const places = S.places || [], placeById = Object.fromEntries(places.map(p => [p.id, p]));
+const realms = S.realms || [], places = S.places || [], placeById = Object.fromEntries(places.map(p => [p.id, p]));
 const chars = [...S.characters].sort((a, b) => a.sort_year - b.sort_year);
 for (const c of S.characters) { c.sheets = c.sheets || []; c.scenes = []; c.mainScenes = []; }
 for (const s of S.scenes) for (const id of s.chars) { const c = charById[id]; if (c) { c.scenes.push(s.id); if (s.main.includes(id)) c.mainScenes.push(s.id); } }
@@ -76,7 +76,7 @@ const STR = {
     srHint:'Type a name to see that character’s sheet and the scenes they are in. Type an event, a place or a date to see matching scenes, each with the sheets of the people in it.',
     srNone:'Nothing matches. Try a shorter name or another spelling.', srPick:'Several characters match. Choose one to see their sheet and scenes.',
     srCharacter:'Character', srScenesWith:n=>`Scenes with ${n}`, srScenes:'Scenes', srPeople:'People mentioned', srOpen:'Open full page', srSheetCount:n=>`${n} ${n === 1 ? 'sheet' : 'sheets'}`,
-    srPlace:'Place', srPlaceScenes:n=>`Scenes at ${n}`, srAlso:'Also called', srToday:'Today', srIdent:'Identification', srPlacePick:'Several places match. Choose one.', srPlaceCount:n=>`${n} ${n === 1 ? 'place' : 'places'}`, srTimeline:'On the timeline', srMapPoint:'Map point', srApprox:'approximate', srOpenMap:'Open map', srNoSceneHere:'No catalogued scene is set here yet.', placesWord:'Places', todayWord:'today',
+    srExtent:'Extent through time', srBoundaryOf:'Marks the boundary of', srBoundsAt:'Bounded by', srPlace:'Place', srPlaceScenes:n=>`Scenes at ${n}`, srAlso:'Also called', srToday:'Today', srIdent:'Identification', srPlacePick:'Several places match. Choose one.', srPlaceCount:n=>`${n} ${n === 1 ? 'place' : 'places'}`, srTimeline:'On the timeline', srMapPoint:'Map point', srApprox:'approximate', srOpenMap:'Open map', srNoSceneHere:'No catalogued scene is set here yet.', placesWord:'Places', todayWord:'today',
     srSceneCount:n=>`${n} ${n === 1 ? 'scene' : 'scenes'}`, srCharCount:n=>`${n} ${n === 1 ? 'character' : 'characters'}`, srNoSheet:'No sheet yet', srMore:n=>`+${n}`,
   },
   as: {
@@ -92,7 +92,7 @@ const STR = {
     scenesTitle:'ঐতিহাসিক দৃশ্য', refNotes:'ৰেফাৰেন্স টোকা', copyBrief:'ৰেফাৰেন্স ব্ৰিফ কপি কৰক',
     searchLabel:'বিচাৰক', searchPh:'চৰিত্ৰ, দৃশ্য বা ঠাই বিচাৰক', srHint:'নাম লিখিলে সেই চৰিত্ৰৰ পত্ৰ আৰু তেওঁ থকা দৃশ্য দেখুৱাব। ঘটনা বা ঠাইৰ নাম লিখিলে মিল থকা দৃশ্য দেখুৱাব।',
     srNone:'একো পোৱা নগ’ল। চুটি নাম বা আন বানান চেষ্টা কৰক।', srPick:'কেইবাজনো চৰিত্ৰ মিলিছে। এজনক বাছক।', srCharacter:'চৰিত্ৰ', srScenesWith:n=>`${n} থকা দৃশ্য`, srScenes:'দৃশ্য', srPeople:'উল্লেখ থকা মানুহ', srOpen:'সম্পূৰ্ণ পৃষ্ঠা খোলক',
-    srPlace:'ঠাই', srPlaceScenes:n=>`${n}ৰ দৃশ্য`, srAlso:'আন নাম', srToday:'এতিয়া', srIdent:'চিনাক্তকৰণ', srPlacePick:'কেইবাটাও ঠাই মিলিছে। এটা বাছক।', srPlaceCount:n=>`${n}টা ঠাই`, srTimeline:'সময়ৰেখাত', srMapPoint:'মানচিত্ৰৰ বিন্দু', srApprox:'আনুমানিক', srOpenMap:'মানচিত্ৰ চাওক', srNoSceneHere:'ইয়াত এতিয়াও কোনো দৃশ্য নাই।', placesWord:'ঠাই', todayWord:'এতিয়া',
+    srExtent:'সময়ৰ লগে লগে সীমা', srBoundaryOf:'ইয়াৰ সীমা চিহ্নিত কৰে', srBoundsAt:'সীমা', srPlace:'ঠাই', srPlaceScenes:n=>`${n}ৰ দৃশ্য`, srAlso:'আন নাম', srToday:'এতিয়া', srIdent:'চিনাক্তকৰণ', srPlacePick:'কেইবাটাও ঠাই মিলিছে। এটা বাছক।', srPlaceCount:n=>`${n}টা ঠাই`, srTimeline:'সময়ৰেখাত', srMapPoint:'মানচিত্ৰৰ বিন্দু', srApprox:'আনুমানিক', srOpenMap:'মানচিত্ৰ চাওক', srNoSceneHere:'ইয়াত এতিয়াও কোনো দৃশ্য নাই।', placesWord:'ঠাই', todayWord:'এতিয়া',
     srSheetCount:n=>`${n}খন পত্ৰ`, srSceneCount:n=>`${n}টা দৃশ্য`, srCharCount:n=>`${n} জন চৰিত্ৰ`, srNoSheet:'এতিয়াও পত্ৰ নাই', srMore:n=>`+${n}`,
   },
 };
@@ -473,8 +473,19 @@ const placeLink = (p, label) => `<a href="#/search?q=${encodeURIComponent(p.name
 function placeCard(p) {
   return `<li><a class="placecard" href="#/search?q=${encodeURIComponent(p.name)}"><b>${esc(p.name)}</b>${p.name_as ? `<span class="as">${esc(p.name_as)}</span>` : ''}<small>${esc(p.cat || '')}${p.present ? ` · ${esc(t('srToday'))}: ${esc(p.present)}` : ''}</small></a></li>`;
 }
+const placeHref = id => `#/search?q=${encodeURIComponent((placeById[id] || { name: id }).name)}`;
+function realmView(r, withKingdom) {
+  const rows = (r.bounds || '').split('|').map(x => x.trim()).filter(Boolean).map(x => { const i = x.indexOf(':'); return i > 0 ? [x.slice(0, i), x.slice(i + 1).trim()] : ['', x]; });
+  const pols = placeById[r.polity];
+  return `<li><h3>${esc(r.label)}${r.conf ? ` <span class="badge ${r.conf === 'high' ? '' : 'warn'}" title="${esc(t('srIdent'))}">${esc(cap(r.conf))}</span>` : ''}</h3>
+    <p class="rname">${esc(r.name)}${withKingdom && pols ? ` · <a href="${placeHref(pols.id)}">${esc(pols.name)}</a>` : ''}</p>
+    ${rows.length ? `<dl class="bounds">${rows.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>` : ''}
+    <p>${esc(r.desc || '')}</p>${r.note ? `<p class="pnote">${esc(r.note)}</p>` : ''}
+    ${(r.places || []).length ? `<p class="rchips">${r.places.filter(id => placeById[id]).map(id => `<a href="${placeHref(id)}">${esc(placeById[id].name)}</a>`).join('')}</p>` : ''}</li>`;
+}
 function placeView(p) {
   const scs = S.scenes.filter(s => (s.places || []).includes(p.id)), evs = S.events.filter(e => (e.places || []).includes(p.id)).sort((a, b) => (a.year ?? 0) - (b.year ?? 0));
+  const ext = realms.filter(r => r.polity === p.id).sort((a, b) => (a.start ?? 0) - (b.start ?? 0)), bnd = realms.filter(r => r.polity !== p.id && (r.places || []).includes(p.id)).sort((a, b) => (a.start ?? 0) - (b.start ?? 0));
   window.__sceneList = scs;
   const srcs = srcOf(p.src).map(u => /^https?:/.test(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(decodeURIComponent(u.replace(/^https?:\/\/(www\.)?/, '').replace(/^en\.wikipedia\.org\/wiki\//, 'Wikipedia: ')).replace(/_/g, ' ').slice(0, 56))}</a>` : esc(u)).join(', ');
   const alt = (p.alt || '').split(';').map(x => x.trim()).filter(x => x && x !== p.name);
@@ -482,8 +493,10 @@ function placeView(p) {
   return `<section class="sr-place" aria-label="${esc(t('srPlace'))}"><p class="kind">${esc(p.cat || t('srPlace'))}</p><h2>${esc(p.name)}</h2>${p.name_as ? `<div class="as">${esc(p.name_as)}</div>` : ''}
     <dl class="pfacts">${alt.length ? `<div><dt>${esc(t('srAlso'))}</dt><dd>${esc(alt.join(', '))}</dd></div>` : ''}${now ? `<div><dt>${esc(t('srToday'))}</dt><dd>${esc(now)}</dd></div>` : ''}${p.conf ? `<div><dt>${esc(t('srIdent'))}</dt><dd>${esc(cap(p.conf))}</dd></div>` : ''}${p.geo ? `<div><dt>${esc(t('srMapPoint'))}</dt><dd>${p.geo[0].toFixed(3)}°N, ${p.geo[1].toFixed(3)}°E <small>(${esc(t('srApprox'))})</small> <a href="https://www.openstreetmap.org/?mlat=${p.geo[0]}&mlon=${p.geo[1]}#map=9/${p.geo[0]}/${p.geo[1]}" target="_blank" rel="noopener">${esc(t('srOpenMap'))}</a></dd></div>` : ''}</dl>
     <p>${esc(p.desc || '')}</p>${p.note ? `<p class="pnote">${esc(p.note)}</p>` : ''}${srcs ? `<p class="srcline">${esc(t('sources'))}: ${srcs}</p>` : ''}</section>
+    ${ext.length ? `<section class="section"><div class="row"><h2>${esc(t('srExtent'))}</h2></div><ol class="rlist">${ext.map(r => realmView(r, false)).join('')}</ol></section>` : ''}
     <section class="section"><div class="row"><h2>${esc(t('srPlaceScenes', p.name))}</h2><span class="count">${esc(t('srSceneCount', scs.length))}</span></div>
       ${scs.length ? `<ul class="grid">${scs.map(sceneResult).join('')}</ul>` : `<div class="empty">${esc(t('srNoSceneHere'))}</div>`}</section>
+    ${bnd.length ? `<section class="section"><div class="row"><h2>${esc(t('srBoundaryOf'))}</h2></div><ol class="rlist">${bnd.map(r => realmView(r, true)).join('')}</ol></section>` : ''}
     ${evs.length ? `<section class="section"><div class="row"><h2>${esc(t('srTimeline'))}</h2><a href="#/timeline">${esc(t('timeline'))}</a></div><ul class="evlist">${evs.map(e => `<li><b>${esc(e.year ?? '')}${e.end && e.end !== e.year ? '–' + esc(e.end) : ''}</b> ${esc(e.title)}<small>${esc(e.body || '')}</small></li>`).join('')}</ul></section>` : ''}`;
 }
 function viewSearch(raw) {
