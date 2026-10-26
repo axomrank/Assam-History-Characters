@@ -8,7 +8,9 @@ Each CSV row is one record, told apart by the `type` column:
           character_sheets lists their images as "path | caption"; the kind (portrait, pose, turnaround...)
           is the start of the file name, and the size is read from the file.
   event   a dated event on the timeline page (people = ids of the people involved; scene_image optional)
-  scene   an illustrated scene (scene_image; people = everyone in it, main_people = who it is about).
+  place   a place (name, also_called = historic and alternative names, present_name and location = what it is today and where,
+          group = kind of place, summary, notes, confidence = how sure the present-day identification is, sources)
+  scene   an illustrated scene (scene_image; people = everyone in it, main_people = who it is about, places = place ids).
           A researched scene not painted yet has status "planned" and no scene_image; the site shows a placeholder.
 Lists inside a cell are separated by "; ". Every image's thumbnail is the same file name in a thumb/ folder beside it.
 
@@ -31,7 +33,7 @@ CSV = ROOT / "data/assam_history.csv"
 COLS = ["type", "id", "name", "name_assamese", "period", "group", "date_label", "start_year", "end_year", "sort_year",
         "role", "summary", "notes", "tai_name", "hindu_name", "also_called", "relation", "fate", "consort", "marital_status",
         "ahom_king_no", "koch_no", "koch_branch", "confidence", "status", "approx_dates", "people", "main_people",
-        "collection", "character_sheets", "scene_image", "group_order", "sources"]
+        "collection", "character_sheets", "scene_image", "group_order", "sources", "places", "present_name", "location"]
 FULL_KINDS = {"sheet", "turnaround", "face", "costume", "props", "palette"}
 
 
@@ -109,7 +111,7 @@ def main():
     problems = []
     by_type = defaultdict(list)
     for r in rows:
-        if r["type"] not in ("period", "person", "event", "scene"): problems.append(f"unknown type {r['type']!r} on {r['id']}")
+        if r["type"] not in ("period", "person", "event", "scene", "place"): problems.append(f"unknown type {r['type']!r} on {r['id']}")
         by_type[r["type"]].append(r)
     for t, rs in by_type.items():
         dup = [i for i, n in Counter(r["id"] for r in rs).items() if n > 1]
@@ -117,6 +119,7 @@ def main():
     by_type["scene"] = scene_order(by_type["scene"])
     era_ids = [r["id"] for r in by_type["period"]]
     ids = {r["id"] for r in by_type["person"]}
+    place_ids = {r["id"] for r in by_type["place"]}
     exists = lambda p: (ROOT / p).is_file()
 
     src_index = {}
@@ -130,6 +133,8 @@ def main():
         chars, main = lst(r["people"]), lst(r["main_people"])
         for i in chars + main:
             if i not in ids: problems.append(f"scene {r['id']}: unknown person {i}")
+        for i in lst(r["places"]):
+            if i not in place_ids: problems.append(f"scene {r['id']}: unknown place {i}")
         img = r["scene_image"]
         if not img:   # a researched scene that is not painted yet: the site shows a placeholder
             if r["status"] != "planned": problems.append(f"scene {r['id']}: no scene_image (set status to planned if it is not painted yet)")
@@ -141,6 +146,7 @@ def main():
         scenes.append({"id": r["id"], "event": r["name"], "date_label": r["date_label"],
                        **({"file": img, "thumbnail": thumb_of(img), "filename": img.rsplit("/", 1)[-1]} if img else {"planned": 1}),
                        "collection": r["collection"], "description": r["summary"], "chars": chars, "main": main,
+                       **({"places": lst(r["places"])} if r["places"] else {}),
                        **({"conf": r["confidence"]} if r["confidence"] else {}), **({"notes": r["notes"]} if r["notes"] and not img else {}),
                        **({"src": src(r["sources"])} if r["sources"] else {})})
         if ok:
@@ -175,21 +181,27 @@ def main():
         for i in lst(r["people"]):
             if i not in ids: problems.append(f"event {r['id']}: unknown person {i}")
         if r["scene_image"] and not (exists(r["scene_image"]) and exists(thumb_of(r["scene_image"]))): problems.append(f"event {r['id']}: missing file {r['scene_image']}")
+        for i in lst(r["places"]):
+            if i not in place_ids: problems.append(f"event {r['id']}: unknown place {i}")
         events.append({"year": num(r["start_year"]), "end": num(r["end_year"]), "title": r["name"], "body": r["summary"], "ids": lst(r["people"]), "src": src(r["sources"]),
+                       **({"places": lst(r["places"])} if r["places"] else {}),
                        **({"image": r["scene_image"], "thumb": thumb_of(r["scene_image"])} if r["scene_image"] else {})})
 
     eras = [{"id": r["id"], "name": r["name"], "name_as": r["name_assamese"], "start": num(r["start_year"]), "end": num(r["end_year"]),
              "label": r["date_label"], **({"blurb": r["summary"]} if r["summary"] else {}), **({"groups": lst(r["group_order"])} if r["group_order"] else {})}
             for r in by_type["period"]]
 
-    site = {"eras": eras, "characters": chars, "scenes": scenes, "events": events, "src": list(src_index)}
+    places = [{"id": r["id"], "name": r["name"], "name_as": r["name_assamese"], "cat": r["group"], "alt": r["also_called"], "present": r["present_name"],
+               "loc": r["location"], "desc": r["summary"], "note": r["notes"], "conf": r["confidence"], "src": src(r["sources"])} for r in by_type["place"]]
+    places = [{k: v for k, v in p.items() if v not in ("", [], None)} for p in places]
+    site = {"eras": eras, "characters": chars, "scenes": scenes, "events": events, "places": places, "src": list(src_index)}
     (ROOT / "data/site.js").write_text("window.SITE=" + json.dumps(site, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
 
     write_tree(by_type, sheets, avail={c["id"]: c["av"][0] for c in chars})
     stamp_index()
 
     names = ["none", "scenes", "portrait", "sheet"]
-    print(f"site.js: {len(eras)} periods, {len(chars)} people, {sum(map(len, sheets.values()))} character sheets, {len(events)} events, {len(scenes)} scenes")
+    print(f"site.js: {len(eras)} periods, {len(chars)} people, {sum(map(len, sheets.values()))} character sheets, {len(events)} events, {len(scenes)} scenes, {len(places)} places")
     print("availability:", ", ".join(f"{names[k]} {levels[k]}" for k in (3, 2, 1, 0)))
     for p in problems: print("ERROR", p)
     sys.exit(1 if problems else 0)
@@ -213,7 +225,7 @@ def write_tree(by_type, sheets, avail):
         base = {"id": r["id"], "title": r["name"], "date_label": r["date_label"], "sort_year": num(r["sort_year"]), "era": r["group"],
                 "collection": r["collection"], "summary": r["summary"], "people": lst(r["people"]),
                 "scene_image": r["scene_image"], "scene_thumbnail": thumb_of(r["scene_image"]) if r["scene_image"] else "",
-                "status": r["status"], "confidence": r["confidence"], "sources": lst(r["sources"])}
+                "status": r["status"], "confidence": r["confidence"], "sources": lst(r["sources"]), "places": lst(r["places"])}
         if not lst(r["people"]): unlinked.append(clean(base))
         for i in lst(r["people"]): scenes_of[i].append(clean({**base, "main": i in lst(r["main_people"])}))
     by_year = lambda x: (x.get("sort_year", x.get("start_year")) is None, x.get("sort_year", x.get("start_year")) or 0)
@@ -242,7 +254,10 @@ def write_tree(by_type, sheets, avail):
                               "start_year": num(p["start_year"]), "end_year": num(p["end_year"]), "summary": p["summary"], "dynasties": dynasties}))
     tree = {"title": "Assam history: periods, dynasties, characters, events and scenes",
             "note": "Generated by tools/build.py from data/assam_history.csv. Edit the CSV, then rebuild.",
-            "periods": periods, "scenes_without_characters": sorted(unlinked, key=by_year)}
+            "periods": periods, "scenes_without_characters": sorted(unlinked, key=by_year),
+            "places": [clean({"id": r["id"], "name": r["name"], "name_assamese": r["name_assamese"], "kind": r["group"], "also_called": lst(r["also_called"]),
+                              "present_name": r["present_name"], "location": r["location"], "summary": r["summary"], "notes": r["notes"],
+                              "confidence": r["confidence"], "sources": lst(r["sources"])}) for r in by_type["place"]]}
     (ROOT / "data/assam_history.json").write_text(json.dumps(tree, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 

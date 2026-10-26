@@ -7,7 +7,7 @@ Rebuild it after adding files: `python3 tools/index_library.py`.
 ## Where things are
 | Need | Look in |
 |---|---|
-| The data (people, events, scenes) | `data/assam_history.csv` only; `python3 tools/build.py` regenerates `data/site.js` and `.json` |
+| The data (people, events, scenes, places) | `data/assam_history.csv` only; `python3 tools/build.py` regenerates `data/site.js` and `.json` |
 | Published character sheets | `media/characters/<person-id>/<kind>-N.webp` (+ `thumb/`) |
 | Published scenes | `media/scenes/<group>/<era>/<SCENE-ID>.webp` (+ `thumb/`) |
 | Lossless PNG original of a published sheet/scene | `masters/sheets/<id>/`, `masters/scenes/<era>/` |
@@ -23,6 +23,7 @@ Rebuild it after adding files: `python3 tools/index_library.py`.
 - Before making images read `research/ahom/agent-guidance.md` (reference-selection and costume rules).
 - Notes go in `research/`, never beside images. Only README.md and AGENTS.md stay at the root.
 - Published = `index.html`, `assets/`, `data/`, `media/`, `tools/`. `reels/` is local too. Everything else is local and git-ignored (rights of photos/references are not cleared).
+- Places are `place` rows in the CSV (`also_called` = historic names, `present_name`/`location` = today). Scenes and events link to them in the `places` column; the header search uses them. How they were made: `research/places/README.md`.
 - Never put images in the CSV as separate records; they belong to a person (`character_sheets`) or a scene (`scene_image`).
 - Ids are kebab-case (`bala-varman`); the person id is the folder name under `media/characters/` and `masters/sheets/`.
 - `status` in INDEX.csv: published, master, draft, generated, reference, research.

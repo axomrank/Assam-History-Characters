@@ -6,6 +6,7 @@ const url = p => p.split('/').map(encodeURIComponent).join('/');
 const eraById = Object.fromEntries(S.eras.map(e => [e.id, e]));
 const charById = Object.fromEntries(S.characters.map(c => [c.id, c]));
 const sceneById = Object.fromEntries(S.scenes.map(s => [s.id, s]));
+const places = S.places || [], placeById = Object.fromEntries(places.map(p => [p.id, p]));
 const chars = [...S.characters].sort((a, b) => a.sort_year - b.sort_year);
 for (const c of S.characters) { c.sheets = c.sheets || []; c.scenes = []; c.mainScenes = []; }
 for (const s of S.scenes) for (const id of s.chars) { const c = charById[id]; if (c) { c.scenes.push(s.id); if (s.main.includes(id)) c.mainScenes.push(s.id); } }
@@ -75,6 +76,7 @@ const STR = {
     srHint:'Type a name to see that character’s sheet and the scenes they are in. Type an event, a place or a date to see matching scenes, each with the sheets of the people in it.',
     srNone:'Nothing matches. Try a shorter name or another spelling.', srPick:'Several characters match. Choose one to see their sheet and scenes.',
     srCharacter:'Character', srScenesWith:n=>`Scenes with ${n}`, srScenes:'Scenes', srPeople:'People mentioned', srOpen:'Open full page', srSheetCount:n=>`${n} ${n === 1 ? 'sheet' : 'sheets'}`,
+    srPlace:'Place', srPlaceScenes:n=>`Scenes at ${n}`, srAlso:'Also called', srToday:'Today', srIdent:'Identification', srPlacePick:'Several places match. Choose one.', srPlaceCount:n=>`${n} ${n === 1 ? 'place' : 'places'}`, srTimeline:'On the timeline', srNoSceneHere:'No catalogued scene is set here yet.', placesWord:'Places', todayWord:'today',
     srSceneCount:n=>`${n} ${n === 1 ? 'scene' : 'scenes'}`, srCharCount:n=>`${n} ${n === 1 ? 'character' : 'characters'}`, srNoSheet:'No sheet yet', srMore:n=>`+${n}`,
   },
   as: {
@@ -90,6 +92,7 @@ const STR = {
     scenesTitle:'ঐতিহাসিক দৃশ্য', refNotes:'ৰেফাৰেন্স টোকা', copyBrief:'ৰেফাৰেন্স ব্ৰিফ কপি কৰক',
     searchLabel:'বিচাৰক', searchPh:'চৰিত্ৰ, দৃশ্য বা ঠাই বিচাৰক', srHint:'নাম লিখিলে সেই চৰিত্ৰৰ পত্ৰ আৰু তেওঁ থকা দৃশ্য দেখুৱাব। ঘটনা বা ঠাইৰ নাম লিখিলে মিল থকা দৃশ্য দেখুৱাব।',
     srNone:'একো পোৱা নগ’ল। চুটি নাম বা আন বানান চেষ্টা কৰক।', srPick:'কেইবাজনো চৰিত্ৰ মিলিছে। এজনক বাছক।', srCharacter:'চৰিত্ৰ', srScenesWith:n=>`${n} থকা দৃশ্য`, srScenes:'দৃশ্য', srPeople:'উল্লেখ থকা মানুহ', srOpen:'সম্পূৰ্ণ পৃষ্ঠা খোলক',
+    srPlace:'ঠাই', srPlaceScenes:n=>`${n}ৰ দৃশ্য`, srAlso:'আন নাম', srToday:'এতিয়া', srIdent:'চিনাক্তকৰণ', srPlacePick:'কেইবাটাও ঠাই মিলিছে। এটা বাছক।', srPlaceCount:n=>`${n}টা ঠাই`, srTimeline:'সময়ৰেখাত', srNoSceneHere:'ইয়াত এতিয়াও কোনো দৃশ্য নাই।', placesWord:'ঠাই', todayWord:'এতিয়া',
     srSheetCount:n=>`${n}খন পত্ৰ`, srSceneCount:n=>`${n}টা দৃশ্য`, srCharCount:n=>`${n} জন চৰিত্ৰ`, srNoSheet:'এতিয়াও পত্ৰ নাই', srMore:n=>`+${n}`,
   },
 };
@@ -336,8 +339,10 @@ function sceneItem(s) {
   const links = s.chars.map(id => `<a href="#/c/${id}" data-closeviewer>${esc(nm(charById[id]))}</a>`).join('');
   const srcs = srcOf(s.src).map(u => /^https?:/.test(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(decodeURIComponent(u.replace(/^https?:\/\/(www\.)?/, '').replace(/^en\.wikipedia\.org\/wiki\//, 'Wikipedia: ')).replace(/_/g, ' ').slice(0, 60))}</a>` : esc(u)).join('');
   const meta = s.conf || srcs ? `<p class="vmeta">${s.conf ? `${esc(t('confWord'))}: ${esc(s.conf)}. ` : ''}${srcs ? `${esc(t('sourcesWord'))}: ${srcs}` : ''}</p>` : '';
+  const pls = (s.places || []).map(id => placeById[id]).filter(Boolean);
+  const where = pls.length ? `<p class="vmeta vplaces">${esc(t('placesWord'))}: ${pls.map(p => placeLink(p) + (p.present && norm(p.present) !== norm(p.name) ? ` <small>(${esc(t('todayWord'))}: ${esc(p.present)})</small>` : '')).join('; ')}</p>` : '';
   return { src: s.planned ? '' : url(s.file), title: s.event, sub: s.date_label, name: s.filename,
-    foot: `${s.planned ? `<p><em>${esc(t('plannedBody'))}</em></p>` : ''}<p>${esc(s.description)}</p>${s.notes ? `<p class="vnote">${esc(s.notes)}</p>` : ''}${meta}${links}` };
+    foot: `${s.planned ? `<p><em>${esc(t('plannedBody'))}</em></p>` : ''}<p>${esc(s.description)}</p>${s.notes ? `<p class="vnote">${esc(s.notes)}</p>` : ''}${where}${meta}${links}` };
 }
 function sheetItems(c) {
   return c.sheets.map(s => ({ src: url(s.file), title: nm(c), sub: kindName(s.kind), name: `${c.id}-${s.kind}.webp`, foot: s.caption ? esc(s.caption) : '' }));
@@ -414,18 +419,24 @@ function viewTimeline() {
 const norm = x => String(x ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^\p{L}\p{M}\p{N}\s]/gu, ' ').replace(/\s+/g, ' ').trim();
 const nameKeys = c => c._nk || (c._nk = [c.name, c.name_as, c.tai_name, c.hindu_name, c.nicknames, c.alt_names, c.id.replace(/-/g, ' ')].map(norm).filter(Boolean));
 const charText = c => c._tx || (c._tx = norm([c.role, c.label, c.summary, c.notes, c.group, c.dynasty, c.consort, c.relation, c.fate].join(' ')));
-const sceneText = s => s._tx || (s._tx = norm([s.event, s.description, s.notes, s.date_label, s.collection, ...s.chars.map(id => (charById[id] || {}).name)].join(' ')));
-function nameScore(c, n, toks) {
+const sceneText = s => s._tx || (s._tx = norm([s.event, s.description, s.notes, s.date_label, s.collection, ...s.chars.map(id => (charById[id] || {}).name), ...(s.places || []).map(id => placeById[id] ? placeWords(placeById[id]) : '')].join(' ')));
+function scoreKeys(keys, n, toks, cap = 100) {
   let best = 0;
-  for (const k of nameKeys(c)) {
+  for (const k of keys) {
     if (k === n) best = Math.max(best, 100);
     else if (k.startsWith(n)) best = Math.max(best, 70);
     else if (k.includes(' ' + n)) best = Math.max(best, 55);
     else if (k.includes(n)) best = Math.max(best, 40);
     else if (toks.length > 1 && toks.every(w => k.includes(w))) best = Math.max(best, 30);
   }
-  return best;
+  return Math.min(best, cap);
 }
+const nameScore = (c, n, toks) => scoreKeys(nameKeys(c), n, toks);
+/* Places: names and historic names count in full; the present-day name counts less, so the historic place wins an exact match. */
+const placeNameKeys = p => p._nk || (p._nk = [p.name, p.name_as, ...(p.alt || '').split(';')].map(norm).filter(Boolean));
+const placeNowKeys = p => p._pk || (p._pk = [p.present].map(norm).filter(Boolean));
+const placeScore = (p, n, toks) => Math.max(scoreKeys(placeNameKeys(p), n, toks), scoreKeys(placeNowKeys(p), n, toks, 60));
+const placeWords = p => p._pw || (p._pw = norm([p.name, p.name_as, p.alt, p.present].join(' ')));
 /* The catalogue records who a scene is about, not who is visible in the painted image, and a scene's people list also holds
    the reigning king and other context figures. For the tiny sheets use only the scene's main figures; when a scene has
    none, use the people its own text names, or its single linked person. */
@@ -458,11 +469,35 @@ function charHit(c) {
   const sh = [...c.sheets].sort((a, b) => coverRank(a.kind) - coverRank(b.kind))[0];
   return { c, sh };
 }
+const placeLink = (p, label) => `<a href="#/search?q=${encodeURIComponent(p.name)}" data-closeviewer>${esc(label || p.name)}</a>`;
+function placeCard(p) {
+  return `<li><a class="placecard" href="#/search?q=${encodeURIComponent(p.name)}"><b>${esc(p.name)}</b>${p.name_as ? `<span class="as">${esc(p.name_as)}</span>` : ''}<small>${esc(p.cat || '')}${p.present ? ` · ${esc(t('srToday'))}: ${esc(p.present)}` : ''}</small></a></li>`;
+}
+function placeView(p) {
+  const scs = S.scenes.filter(s => (s.places || []).includes(p.id)), evs = S.events.filter(e => (e.places || []).includes(p.id)).sort((a, b) => (a.year ?? 0) - (b.year ?? 0));
+  window.__sceneList = scs;
+  const srcs = srcOf(p.src).map(u => /^https?:/.test(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(decodeURIComponent(u.replace(/^https?:\/\/(www\.)?/, '').replace(/^en\.wikipedia\.org\/wiki\//, 'Wikipedia: ')).replace(/_/g, ' ').slice(0, 56))}</a>` : esc(u)).join(', ');
+  const alt = (p.alt || '').split(';').map(x => x.trim()).filter(x => x && x !== p.name);
+  const now = [p.present, p.loc].filter(Boolean).join(', ');
+  return `<section class="sr-place" aria-label="${esc(t('srPlace'))}"><p class="kind">${esc(p.cat || t('srPlace'))}</p><h2>${esc(p.name)}</h2>${p.name_as ? `<div class="as">${esc(p.name_as)}</div>` : ''}
+    <dl class="pfacts">${alt.length ? `<div><dt>${esc(t('srAlso'))}</dt><dd>${esc(alt.join(', '))}</dd></div>` : ''}${now ? `<div><dt>${esc(t('srToday'))}</dt><dd>${esc(now)}</dd></div>` : ''}${p.conf ? `<div><dt>${esc(t('srIdent'))}</dt><dd>${esc(cap(p.conf))}</dd></div>` : ''}</dl>
+    <p>${esc(p.desc || '')}</p>${p.note ? `<p class="pnote">${esc(p.note)}</p>` : ''}${srcs ? `<p class="srcline">${esc(t('sources'))}: ${srcs}</p>` : ''}</section>
+    <section class="section"><div class="row"><h2>${esc(t('srPlaceScenes', p.name))}</h2><span class="count">${esc(t('srSceneCount', scs.length))}</span></div>
+      ${scs.length ? `<ul class="grid">${scs.map(sceneResult).join('')}</ul>` : `<div class="empty">${esc(t('srNoSceneHere'))}</div>`}</section>
+    ${evs.length ? `<section class="section"><div class="row"><h2>${esc(t('srTimeline'))}</h2><a href="#/timeline">${esc(t('timeline'))}</a></div><ul class="evlist">${evs.map(e => `<li><b>${esc(e.year ?? '')}${e.end && e.end !== e.year ? '–' + esc(e.end) : ''}</b> ${esc(e.title)}<small>${esc(e.body || '')}</small></li>`).join('')}</ul></section>` : ''}`;
+}
 function viewSearch(raw) {
   const n = norm(raw), toks = n.split(' ').filter(Boolean);
   const head = `<div class="page-head sr-head"><h1>${esc(t('searchLabel'))}</h1>${raw.trim() ? `<p class="qshow">“${esc(raw.trim())}”</p>` : ''}</div>`;
   if (!n) return head + `<p class="sr-hint">${esc(t('srHint'))}</p>`;
   const byName = chars.map(c => [c, nameScore(c, n, toks)]).filter(x => x[1] > 0).sort((a, b) => b[1] - a[1] || withSheets(b[0]) - withSheets(a[0]) || a[0].sort_year - b[0].sort_year);
+  const byPlace = places.map(p => [p, placeScore(p, n, toks)]).filter(x => x[1] > 0).sort((a, b) => b[1] - a[1] || a[0].name.localeCompare(b[0].name));
+  const placeFirst = byPlace.length > 0 && byPlace[0][1] > (byName.length ? byName[0][1] : 0);   /* a person wins a tie */
+  if (placeFirst) {
+    const top = byPlace[0][1], one = byPlace.length === 1 || (top >= 100 && byPlace[1][1] < 100) || (top >= 55 && byPlace[1][1] < top);
+    if (one) return head + placeView(byPlace[0][0]);
+    return head + `<p class="count" aria-live="polite">${esc(t('srPlacePick'))} ${esc(t('srPlaceCount', byPlace.length))}</p><ul class="pcards">${byPlace.slice(0, 48).map(([pl]) => placeCard(pl)).join('')}</ul>`;
+  }
   const single = byName.length === 1 || (byName.length > 1 && byName[0][1] >= 100 && byName[1][1] < 100);
   if (single) {
     const c = byName[0][0], sheets = c.sheets, scs = [...c.mainScenes, ...c.scenes.filter(x => !c.mainScenes.includes(x))].map(x => sceneById[x]);

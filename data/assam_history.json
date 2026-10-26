@@ -64,6 +64,11 @@
           "https://en.wikipedia.org/wiki/Kamarupa",
           "https://en.wikipedia.org/wiki/Varman_dynasty"
          ],
+         "places": [
+          "kamarupa",
+          "davaka",
+          "allahabad-pillar"
+         ],
          "main": false
         },
         {
@@ -85,6 +90,9 @@
           "https://en.wikipedia.org/wiki/Kamarupa",
           "https://en.wikipedia.org/wiki/Varman_dynasty",
           "https://en.wikipedia.org/wiki/Nidhanpur_copperplate_inscription"
+         ],
+         "places": [
+          "kamarupa"
          ],
          "main": true
         }
@@ -219,6 +227,12 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa"
          ],
+         "places": [
+          "kamarupa",
+          "kopili",
+          "davaka",
+          "allahabad-pillar"
+         ],
          "main": true
         }
        ]
@@ -300,6 +314,11 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Umachal_rock_inscription"
          ],
+         "places": [
+          "guwahati",
+          "umachal",
+          "nilachal"
+         ],
          "main": true
         },
         {
@@ -320,6 +339,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Varman_dynasty",
           "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "places": [
+          "kamarupa"
          ],
          "main": true
         }
@@ -402,6 +424,10 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa"
          ],
+         "places": [
+          "kamarupa",
+          "malwa"
+         ],
          "main": false
         },
         {
@@ -423,6 +449,10 @@
           "https://en.wikipedia.org/wiki/Nidhanpur_copperplate_inscription",
           "https://whatisindia.com/inscriptions/epigraphica_indica/vol27_1947-1948/bhattasali.html"
          ],
+         "places": [
+          "nidhanpur",
+          "sylhet"
+         ],
          "main": true
         },
         {
@@ -442,6 +472,10 @@
          "confidence": "medium",
          "sources": [
           "https://whatisindia.com/inscriptions/epigraphica_indica/vol27_1947-1948/bhattasali.html"
+         ],
+         "places": [
+          "barganga",
+          "nagaon"
          ],
          "main": true
         }
@@ -524,6 +558,10 @@
           "https://en.wikipedia.org/wiki/Kamarupa",
           "https://en.wikipedia.org/wiki/Varman_dynasty"
          ],
+         "places": [
+          "karnasuvarna",
+          "gaur"
+         ],
          "main": true
         }
        ]
@@ -577,6 +615,11 @@
           "https://en.wikipedia.org/wiki/Varman_dynasty",
           "https://en.wikipedia.org/wiki/Kamarupa"
          ],
+         "places": [
+          "kamarupa",
+          "brahmaputra",
+          "aphsad"
+         ],
          "main": true
         }
        ]
@@ -628,6 +671,9 @@
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "places": [
+          "gaur"
          ],
          "main": true
         }
@@ -681,6 +727,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa"
          ],
+         "places": [
+          "gaur"
+         ],
          "main": true
         },
         {
@@ -703,6 +752,11 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
           "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "places": [
+          "kamarupa",
+          "gaur",
+          "thanesar"
          ],
          "main": true
         },
@@ -727,6 +781,10 @@
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
           "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
          ],
+         "places": [
+          "kamarupa",
+          "nalanda"
+         ],
          "main": true
         },
         {
@@ -750,6 +808,9 @@
           "https://www.wisdomlib.org/south-asia/book/buddhist-records-of-the-western-world-xuanzang/d/doc220228.html",
           "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
          ],
+         "places": [
+          "kanauj"
+         ],
          "main": true
         },
         {
@@ -771,6 +832,9 @@
          "sources": [
           "https://www.wisdomlib.org/south-asia/book/buddhist-records-of-the-western-world-xuanzang/d/doc220253.html"
          ],
+         "places": [
+          "kamarupa"
+         ],
          "main": true
         },
         {
@@ -791,6 +855,11 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Nidhanpur_copperplate_inscription",
           "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "places": [
+          "karnasuvarna",
+          "nidhanpur",
+          "gaur"
          ],
          "main": true
         },
@@ -934,6 +1003,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Mlechchha_dynasty",
           "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "places": [
+          "kamarupa"
          ],
          "main": true
         }
@@ -1181,6 +1253,9 @@
           "https://dharmalekha.info/texts/INSSiddham02087",
           "https://siddham.network/inscription/in02087/"
          ],
+         "places": [
+          "kamarupa"
+         ],
          "main": true
         },
         {
@@ -1252,6 +1327,9 @@
           "https://en.wikipedia.org/wiki/Kamarupa",
           "https://en.wikipedia.org/wiki/Mlechchha_dynasty"
          ],
+         "places": [
+          "haruppeswara"
+         ],
          "main": true
         },
         {
@@ -1272,6 +1350,10 @@
          "sources": [
           "https://asiguwahaticircle.gov.in/rock%20inscription.html",
           "https://en.wikipedia.org/wiki/Kamarupa_inscriptions"
+         ],
+         "places": [
+          "brahmaputra",
+          "haruppeswara"
          ],
          "main": true
         }
@@ -1322,6 +1404,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
           "https://en.wikipedia.org/wiki/Mlechchha_dynasty"
+         ],
+         "places": [
+          "brahmaputra"
          ],
          "main": true
         }
@@ -1397,6 +1482,9 @@
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa_inscriptions"
+         ],
+         "places": [
+          "nagaon"
          ],
          "main": true
         }
@@ -1507,6 +1595,9 @@
           "https://en.wikipedia.org/wiki/Kamarupa",
           "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
          ],
+         "places": [
+          "haruppeswara"
+         ],
          "main": true
         }
        ]
@@ -1558,6 +1649,11 @@
           "https://en.wikipedia.org/wiki/Kamarupa",
           "https://en.wikipedia.org/wiki/Durjaya_(Kamarupa_capital)"
          ],
+         "places": [
+          "brahmaputra",
+          "guwahati",
+          "durjaya"
+         ],
          "main": true
         },
         {
@@ -1578,6 +1674,10 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
           "https://ir.nbu.ac.in/bitstreams/15fe8ad7-cbf9-4fa3-b50a-0e05c40ae1a8/download"
+         ],
+         "places": [
+          "durjaya",
+          "sualkuchi"
          ],
          "main": true
         }
@@ -1628,6 +1728,10 @@
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa_inscriptions"
+         ],
+         "places": [
+          "guwahati",
+          "barpanara"
          ],
          "main": true
         }
@@ -1757,6 +1861,11 @@
           "https://en.wikipedia.org/wiki/Kamarupa",
           "https://en.wikipedia.org/wiki/Dharma_Pala"
          ],
+         "places": [
+          "pushpabhadra",
+          "north-guwahati",
+          "kamarupanagara"
+         ],
          "main": true
         }
        ]
@@ -1824,6 +1933,9 @@
           "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
           "https://en.wikipedia.org/wiki/Jaya_Pala",
           "https://en.wikipedia.org/wiki/Ramapala"
+         ],
+         "places": [
+          "kamarupa"
          ],
          "main": true
         }
@@ -1915,6 +2027,10 @@
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
           "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
          ],
+         "places": [
+          "kamarupa",
+          "nalanda"
+         ],
          "main": false
         }
        ]
@@ -1969,6 +2085,11 @@
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
           "https://en.wikipedia.org/wiki/Kamarupa"
          ],
+         "places": [
+          "kamarupa",
+          "gaur",
+          "thanesar"
+         ],
          "main": false
         },
         {
@@ -1991,6 +2112,9 @@
          "sources": [
           "https://www.wisdomlib.org/south-asia/book/buddhist-records-of-the-western-world-xuanzang/d/doc220228.html",
           "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
+         ],
+         "places": [
+          "kanauj"
          ],
          "main": false
         }
@@ -2042,6 +2166,11 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
           "https://en.wikipedia.org/wiki/Kamarupa"
+         ],
+         "places": [
+          "kamarupa",
+          "gaur",
+          "thanesar"
          ],
          "main": false
         }
@@ -2117,6 +2246,10 @@
           "https://en.wikipedia.org/wiki/Bhaskaravarman",
           "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
          ],
+         "places": [
+          "kamarupa",
+          "nalanda"
+         ],
          "main": true
         },
         {
@@ -2140,6 +2273,9 @@
           "https://www.wisdomlib.org/south-asia/book/buddhist-records-of-the-western-world-xuanzang/d/doc220228.html",
           "https://www.ibiblio.org/britishraj/Jackson2/chapter13.html"
          ],
+         "places": [
+          "kanauj"
+         ],
          "main": false
         },
         {
@@ -2160,6 +2296,9 @@
          "confidence": "low",
          "sources": [
           "https://www.wisdomlib.org/south-asia/book/buddhist-records-of-the-western-world-xuanzang/d/doc220253.html"
+         ],
+         "places": [
+          "kamarupa"
          ],
          "main": true
         }
@@ -2272,6 +2411,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
           "https://en.wikipedia.org/wiki/Kumarapala_(Pala_king)"
+         ],
+         "places": [
+          "kamarupa"
          ],
          "main": true
         }
@@ -2387,6 +2529,9 @@
           "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
           "https://en.wikipedia.org/wiki/Kumarapala_(Pala_king)"
          ],
+         "places": [
+          "kamarupa"
+         ],
          "main": true
         },
         {
@@ -2407,6 +2552,10 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
           "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
+         ],
+         "places": [
+          "kamarupa",
+          "kamauli"
          ],
          "main": true
         }
@@ -2940,6 +3089,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/14_Sukhangphaa_First_Kamata_War.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/14_Sukhangphaa_First_Kamata_War.webp",
+         "places": [
+          "kamata",
+          "lower-assam"
+         ],
          "main": true
         },
         {
@@ -2956,6 +3109,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/15_Ahom_Kamata_War_Stalemate_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/15_Ahom_Kamata_War_Stalemate_v01.webp",
+         "places": [
+          "kamata"
+         ],
          "main": true
         },
         {
@@ -2972,6 +3128,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/15_Ahom_Kamata_War_Stalemate_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/15_Ahom_Kamata_War_Stalemate_v02.webp",
+         "places": [
+          "kamata"
+         ],
          "main": true
         },
         {
@@ -2992,6 +3151,9 @@
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/16_Sukhangphaa_and_Princess_Rajani_Royal_Marriage.webp",
          "sources": [
           "https://en.wikipedia.org/wiki/Sukhaangphaa"
+         ],
+         "places": [
+          "kamata"
          ],
          "main": true
         }
@@ -3778,6 +3940,10 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
          ],
+         "places": [
+          "kamata",
+          "karatoya"
+         ],
          "main": true
         }
        ]
@@ -4080,6 +4246,10 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/17_Koch_Invasion_and_Ahom_Retreat_from_Garhgaon.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/17_Koch_Invasion_and_Ahom_Retreat_from_Garhgaon.webp",
+         "places": [
+          "namrup",
+          "garhgaon"
+         ],
          "main": false
         }
        ]
@@ -4148,6 +4318,10 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/17_Koch_Invasion_and_Ahom_Retreat_from_Garhgaon.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/17_Koch_Invasion_and_Ahom_Retreat_from_Garhgaon.webp",
+         "places": [
+          "namrup",
+          "garhgaon"
+         ],
          "main": true
         },
         {
@@ -4164,6 +4338,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/18_Treaty_of_Majuli.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/18_Treaty_of_Majuli.webp",
+         "places": [
+          "majuli"
+         ],
          "main": false
         }
        ]
@@ -5633,6 +5810,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Sukaphaa_Departs_Mong_Mao_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Sukaphaa_Departs_Mong_Mao_v01.webp",
+         "places": [
+          "mong-mao"
+         ],
          "main": true
         },
         {
@@ -5650,6 +5830,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Sukaphaa_Departs_Mong_Mao_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Sukaphaa_Departs_Mong_Mao_v02.webp",
+         "places": [
+          "mong-mao"
+         ],
          "main": true
         },
         {
@@ -5667,6 +5850,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Sukaphaa_Departs_Mong_Mao_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Sukaphaa_Departs_Mong_Mao_v03.webp",
+         "places": [
+          "mong-mao"
+         ],
          "main": true
         },
         {
@@ -5684,6 +5870,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Sukaphaa_Departs_Mong_Mao_v04.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Sukaphaa_Departs_Mong_Mao_v04.webp",
+         "places": [
+          "mong-mao"
+         ],
          "main": true
         },
         {
@@ -5699,6 +5888,11 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/02_Crossing_the_Patkai_Hills_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/02_Crossing_the_Patkai_Hills_v02.webp",
+         "places": [
+          "patkai",
+          "pangsau-pass",
+          "khamjang"
+         ],
          "main": false
         },
         {
@@ -5714,6 +5908,11 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/02_Crossing_the_Patkai_Hills_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/02_Crossing_the_Patkai_Hills_v03.webp",
+         "places": [
+          "patkai",
+          "pangsau-pass",
+          "khamjang"
+         ],
          "main": false
         },
         {
@@ -5729,6 +5928,11 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/02_Crossing_the_Patkai_Hills_v04.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/02_Crossing_the_Patkai_Hills_v04.webp",
+         "places": [
+          "patkai",
+          "pangsau-pass",
+          "khamjang"
+         ],
          "main": false
         },
         {
@@ -5744,6 +5948,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/03_Sukaphaa_Negotiates_with_Naga_Chiefs.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/03_Sukaphaa_Negotiates_with_Naga_Chiefs.webp",
+         "places": [
+          "namrup"
+         ],
          "main": false
         },
         {
@@ -5759,6 +5966,11 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/04_First_View_of_the_Brahmaputra_Valley.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/04_First_View_of_the_Brahmaputra_Valley.webp",
+         "places": [
+          "brahmaputra-valley",
+          "brahmaputra",
+          "mung-dun-sun-kham"
+         ],
          "main": false
         },
         {
@@ -5778,6 +5990,11 @@
           "https://en.wikipedia.org/wiki/Sukaphaa",
           "https://en.wikipedia.org/wiki/Sandhya_(ruler_of_Kamarupa)"
          ],
+         "places": [
+          "upper-assam",
+          "brahmaputra-valley",
+          "dihing"
+         ],
          "main": true
         },
         {
@@ -5793,6 +6010,11 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/06_First_Tai_Settlement_in_Assam.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/06_First_Tai_Settlement_in_Assam.webp",
+         "places": [
+          "habung",
+          "tipam",
+          "simaluguri"
+         ],
          "main": false
         },
         {
@@ -5808,6 +6030,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/13_Charaideo_at_Sunset.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/13_Charaideo_at_Sunset.webp",
+         "places": [
+          "charaideo"
+         ],
          "main": false
         },
         {
@@ -5870,6 +6095,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/09_Building_Charaideo.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/09_Building_Charaideo.webp",
+         "places": [
+          "charaideo"
+         ],
          "main": false
         },
         {
@@ -5900,6 +6128,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/10_Sukaphaa_Royal_Court_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/10_Sukaphaa_Royal_Court_v02.webp",
+         "places": [
+          "charaideo"
+         ],
          "main": true
         },
         {
@@ -5915,6 +6146,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/14_Royal_Moidams_of_Charaideo.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/14_Royal_Moidams_of_Charaideo.webp",
+         "places": [
+          "charaideo"
+         ],
          "main": false
         },
         {
@@ -5929,6 +6163,11 @@
          ],
          "scene_image": "media/scenes/gallery/history-and-royalty/sukapha-face-closeup.webp",
          "scene_thumbnail": "media/scenes/gallery/history-and-royalty/thumb/sukapha-face-closeup.webp",
+         "places": [
+          "brahmaputra-valley",
+          "brahmaputra",
+          "patkai"
+         ],
          "main": true
         },
         {
@@ -5971,6 +6210,9 @@
          ],
          "scene_image": "media/scenes/gallery/history-and-royalty/sukapha-jungle-expedition.webp",
          "scene_thumbnail": "media/scenes/gallery/history-and-royalty/thumb/sukapha-jungle-expedition.webp",
+         "places": [
+          "patkai"
+         ],
          "main": true
         },
         {
@@ -5985,6 +6227,9 @@
          ],
          "scene_image": "media/scenes/gallery/history-and-royalty/sukapha-brahmaputra-riverbank.webp",
          "scene_thumbnail": "media/scenes/gallery/history-and-royalty/thumb/sukapha-brahmaputra-riverbank.webp",
+         "places": [
+          "brahmaputra"
+         ],
          "main": true
         }
        ]
@@ -6052,6 +6297,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/02_Dikhou_Frontier_between_Ahoms_and_Kacharis_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/02_Dikhou_Frontier_between_Ahoms_and_Kacharis_v02.webp",
+         "places": [
+          "dikhou"
+         ],
          "main": false
         },
         {
@@ -6067,6 +6315,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/03_Ahom_Kachari_Border_Confrontation_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/03_Ahom_Kachari_Border_Confrontation_v01.webp",
+         "places": [
+          "dikhou"
+         ],
          "main": false
         },
         {
@@ -6097,6 +6348,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/05_Dikhou_River_Boundary_Agreement.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/05_Dikhou_River_Boundary_Agreement.webp",
+         "places": [
+          "dikhou"
+         ],
          "main": false
         },
         {
@@ -6172,6 +6426,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/09_Naga_Chieftains_Submit_to_Suteuphaa.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/09_Naga_Chieftains_Submit_to_Suteuphaa.webp",
+         "places": [
+          "charaideo"
+         ],
          "main": false
         },
         {
@@ -6187,6 +6444,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/10_Peace_Restored_on_the_Dikhou_Frontier.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/10_Peace_Restored_on_the_Dikhou_Frontier.webp",
+         "places": [
+          "upper-assam",
+          "dikhou"
+         ],
          "main": false
         }
        ]
@@ -6338,6 +6599,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/14_Sukhangphaa_First_Kamata_War.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/14_Sukhangphaa_First_Kamata_War.webp",
+         "places": [
+          "kamata",
+          "lower-assam"
+         ],
          "main": false
         },
         {
@@ -6354,6 +6619,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/15_Ahom_Kamata_War_Stalemate_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/15_Ahom_Kamata_War_Stalemate_v01.webp",
+         "places": [
+          "kamata"
+         ],
          "main": false
         },
         {
@@ -6370,6 +6638,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/15_Ahom_Kamata_War_Stalemate_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/15_Ahom_Kamata_War_Stalemate_v02.webp",
+         "places": [
+          "kamata"
+         ],
          "main": false
         },
         {
@@ -6391,6 +6662,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sukhaangphaa"
          ],
+         "places": [
+          "kamata"
+         ],
          "main": false
         },
         {
@@ -6408,6 +6682,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/17_Birth_of_Chao_Pulai.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/17_Birth_of_Chao_Pulai.webp",
+         "places": [
+          "kamata"
+         ],
          "main": false
         },
         {
@@ -6422,6 +6699,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/90_Ahom_Kamata_Battle_Unconfirmed_Event_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/90_Ahom_Kamata_Battle_Unconfirmed_Event_v01.webp",
+         "places": [
+          "kamata",
+          "lower-assam"
+         ],
          "main": false
         },
         {
@@ -6436,6 +6717,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/90_Ahom_Kamata_Battle_Unconfirmed_Event_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/90_Ahom_Kamata_Battle_Unconfirmed_Event_v02.webp",
+         "places": [
+          "kamata",
+          "lower-assam"
+         ],
          "main": false
         }
        ]
@@ -6506,6 +6791,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/18_Chao_Pulai_Meets_Kamata_Envoys.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/18_Chao_Pulai_Meets_Kamata_Envoys.webp",
+         "places": [
+          "kamata"
+         ],
          "main": false
         },
         {
@@ -6538,6 +6826,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/20_Chao_Pulai_Appointed_Governor_of_Sadiya_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/20_Chao_Pulai_Appointed_Governor_of_Sadiya_v03.webp",
+         "places": [
+          "sadiya"
+         ],
          "main": false
         },
         {
@@ -6626,6 +6917,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/16_Sutuphaa_Peace_Summit_on_the_Safrai_River.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/16_Sutuphaa_Peace_Summit_on_the_Safrai_River.webp",
+         "places": [
+          "safrai"
+         ],
          "main": false
         },
         {
@@ -6641,6 +6935,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/17_Betrayal_and_Assassination_on_the_Safrai_River.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/17_Betrayal_and_Assassination_on_the_Safrai_River.webp",
+         "places": [
+          "safrai"
+         ],
          "main": true
         }
        ]
@@ -6734,6 +7031,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_kingdom"
          ],
+         "places": [
+          "sadiya"
+         ],
          "main": true
         },
         {
@@ -6749,6 +7049,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/19_Tyao_Khamti_Queen_Cast_Adrift.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/19_Tyao_Khamti_Queen_Cast_Adrift.webp",
+         "places": [
+          "brahmaputra"
+         ],
          "main": false
         },
         {
@@ -6765,6 +7068,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/20_Birth_of_Sudang_at_Habung_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/20_Birth_of_Sudang_at_Habung_v02.webp",
+         "places": [
+          "habung"
+         ],
          "main": false
         },
         {
@@ -6875,6 +7181,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/20_Birth_of_Sudang_at_Habung_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/20_Birth_of_Sudang_at_Habung_v02.webp",
+         "places": [
+          "habung"
+         ],
          "main": true
         },
         {
@@ -6890,6 +7199,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/22_Sudang_The_Lost_Prince_at_Habung.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/22_Sudang_The_Lost_Prince_at_Habung.webp",
+         "places": [
+          "habung"
+         ],
          "main": true
         },
         {
@@ -6910,6 +7222,10 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
          ],
+         "places": [
+          "kamata",
+          "karatoya"
+         ],
          "main": false
         },
         {
@@ -6925,6 +7241,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Revelation_of_Sudang_Royal_Identity.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Revelation_of_Sudang_Royal_Identity.webp",
+         "places": [
+          "habung"
+         ],
          "main": true
         },
         {
@@ -6945,6 +7264,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
+         "places": [
+          "habung"
+         ],
          "main": true
         },
         {
@@ -6960,6 +7282,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/03_Sudang_Returns_to_Charaideo.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/03_Sudang_Returns_to_Charaideo.webp",
+         "places": [
+          "brahmaputra",
+          "charaideo"
+         ],
          "main": true
         },
         {
@@ -7023,6 +7349,9 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
+         "places": [
+          "tipam"
          ],
          "main": true
         },
@@ -7091,6 +7420,10 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
+         "places": [
+          "mungkang",
+          "tipam"
+         ],
          "main": true
         },
         {
@@ -7113,6 +7446,11 @@
           "https://en.wikipedia.org/wiki/Sudangphaa",
           "https://en.wikipedia.org/wiki/Ahom_kingdom"
          ],
+         "places": [
+          "mungkang",
+          "patkai",
+          "nongnyang"
+         ],
          "main": false
         },
         {
@@ -7134,6 +7472,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
+         "places": [
+          "kamata"
+         ],
          "main": false
         },
         {
@@ -7149,6 +7490,10 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/09_Sudangphaa_Strengthening_Administration.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/09_Sudangphaa_Strengthening_Administration.webp",
+         "places": [
+          "dihing",
+          "charagua"
+         ],
          "main": false
         },
         {
@@ -7215,6 +7560,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/11_King_Sujanphaa_Portrait.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/11_King_Sujanphaa_Portrait.webp",
+         "places": [
+          "upper-assam"
+         ],
          "main": true
         }
        ]
@@ -7378,6 +7726,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/17_Boundary_Stones_of_Charaideo.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/17_Boundary_Stones_of_Charaideo.webp",
+         "places": [
+          "charaideo"
+         ],
          "main": false
         }
        ]
@@ -7448,6 +7799,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/18_Suhenphaa_Battle_of_Turung.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/18_Suhenphaa_Battle_of_Turung.webp",
+         "places": [
+          "dikhou"
+         ],
          "main": false
         },
         {
@@ -7494,6 +7848,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/21_Suhenphaa_Inspects_Palace_Construction.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/21_Suhenphaa_Inspects_Palace_Construction.webp",
+         "places": [
+          "charagua"
+         ],
          "main": true
         },
         {
@@ -7786,6 +8143,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/05_Suhungmung_Advances_to_the_Chutia_Frontier.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/05_Suhungmung_Advances_to_the_Chutia_Frontier.webp",
+         "places": [
+          "brahmaputra"
+         ],
          "main": false
         },
         {
@@ -7806,6 +8166,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Suhungmung",
           "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
+         "places": [
+          "sadiya"
          ],
          "main": false
         },
@@ -7859,6 +8222,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Suhungmung"
          ],
+         "places": [
+          "dimapur"
+         ],
          "main": true
         },
         {
@@ -7876,6 +8242,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/09_Turbak_Invasion.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/09_Turbak_Invasion.webp",
+         "places": [
+          "gaur"
+         ],
          "main": false
         },
         {
@@ -7893,6 +8262,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/10_Victory_Over_Turbak.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/10_Victory_Over_Turbak.webp",
+         "places": [
+          "karatoya"
+         ],
          "main": false
         },
         {
@@ -7935,6 +8307,11 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Suhungmung",
           "https://en.wikipedia.org/wiki/Ahom_kingdom"
+         ],
+         "places": [
+          "kolong",
+          "dimapur",
+          "maibong"
          ],
          "main": true
         },
@@ -8052,6 +8429,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/11_Suklenmung_Takes_the_Throne.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/11_Suklenmung_Takes_the_Throne.webp",
+         "places": [
+          "garhgaon"
+         ],
          "main": true
         },
         {
@@ -8088,6 +8468,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/12_Building_Garhgaon.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/12_Building_Garhgaon.webp",
+         "places": [
+          "garhgaon"
+         ],
          "main": false
         },
         {
@@ -8192,6 +8575,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/15_Sukhaamphaa_Khora_Raja_Royal_Procession_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/15_Sukhaamphaa_Khora_Raja_Royal_Procession_v01.webp",
+         "places": [
+          "garhgaon"
+         ],
          "main": true
         },
         {
@@ -8207,6 +8593,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/15_Sukhaamphaa_Khora_Raja_Royal_Procession_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/15_Sukhaamphaa_Khora_Raja_Royal_Procession_v02.webp",
+         "places": [
+          "garhgaon"
+         ],
          "main": true
         },
         {
@@ -8224,6 +8613,10 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/17_Koch_Invasion_and_Ahom_Retreat_from_Garhgaon.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/17_Koch_Invasion_and_Ahom_Retreat_from_Garhgaon.webp",
+         "places": [
+          "namrup",
+          "garhgaon"
+         ],
          "main": false
         },
         {
@@ -8240,6 +8633,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/18_Treaty_of_Majuli.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/18_Treaty_of_Majuli.webp",
+         "places": [
+          "majuli"
+         ],
          "main": false
         },
         {
@@ -8309,6 +8705,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/19_Pratap_Singha_Takes_the_Throne_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/19_Pratap_Singha_Takes_the_Throne_v01.webp",
+         "places": [
+          "garhgaon"
+         ],
          "main": true
         },
         {
@@ -8324,6 +8723,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/19_Pratap_Singha_Takes_the_Throne_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/19_Pratap_Singha_Takes_the_Throne_v02.webp",
+         "places": [
+          "garhgaon"
+         ],
          "main": true
         },
         {
@@ -8359,6 +8761,9 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Susenghphaa"
+         ],
+         "places": [
+          "hajo"
          ],
          "main": false
         },
@@ -8400,6 +8805,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Balinarayan"
          ],
+         "places": [
+          "hajo"
+         ],
          "main": true
         },
         {
@@ -8417,6 +8825,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/21_Creation_of_Borbarua_and_Borphukan.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/21_Creation_of_Borbarua_and_Borphukan.webp",
+         "places": [
+          "lower-assam"
+         ],
          "main": false
         },
         {
@@ -8441,6 +8852,11 @@
           "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
          ],
+         "places": [
+          "brahmaputra",
+          "kajali",
+          "samdhara"
+         ],
          "main": false
         },
         {
@@ -8463,6 +8879,12 @@
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
           "https://en.wikipedia.org/wiki/Battle_of_Duimunisila"
          ],
+         "places": [
+          "sualkuchi",
+          "samdhara",
+          "duimunisila",
+          "hajo"
+         ],
          "main": false
         },
         {
@@ -8480,6 +8902,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/22_Pratap_Singha_Western_Frontier.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/22_Pratap_Singha_Western_Frontier.webp",
+         "places": [
+          "barnadi"
+         ],
          "main": false
         },
         {
@@ -8803,6 +9228,10 @@
           "https://en.wikipedia.org/wiki/Treaty_of_Ghilajharighat",
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
          ],
+         "places": [
+          "guwahati",
+          "dhubri"
+         ],
          "main": true
         },
         {
@@ -8818,6 +9247,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/35_Jayadhwaj_Singha_at_Naam_Prasanga.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/35_Jayadhwaj_Singha_at_Naam_Prasanga.webp",
+         "places": [
+          "majuli"
+         ],
          "main": false
         },
         {
@@ -8835,6 +9267,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/28_Mir_Jumla_Invasion_of_Assam.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/28_Mir_Jumla_Invasion_of_Assam.webp",
+         "places": [
+          "brahmaputra"
+         ],
          "main": false
         },
         {
@@ -8852,6 +9287,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/29_Fall_of_Garhgaon_to_the_Mughals_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/29_Fall_of_Garhgaon_to_the_Mughals_v02.webp",
+         "places": [
+          "garhgaon"
+         ],
          "main": false
         },
         {
@@ -8868,6 +9306,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/30_Jayadhwaj_Singha_Retreats_Through_the_Monsoon.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/30_Jayadhwaj_Singha_Retreats_Through_the_Monsoon.webp",
+         "places": [
+          "namrup"
+         ],
          "main": false
         },
         {
@@ -8885,6 +9326,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/31_Treaty_of_Ghilajharighat.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/31_Treaty_of_Ghilajharighat.webp",
+         "places": [
+          "lower-assam",
+          "ghilajharighat"
+         ],
          "main": false
         },
         {
@@ -8901,6 +9346,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/32_Ramani_Gabharu_and_Tribute_Farewell_to_Mir_Jumla_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/32_Ramani_Gabharu_and_Tribute_Farewell_to_Mir_Jumla_v01.webp",
+         "places": [
+          "delhi"
+         ],
          "main": false
         },
         {
@@ -8917,6 +9365,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/32_Ramani_Gabharu_and_Tribute_Farewell_to_Mir_Jumla_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/32_Ramani_Gabharu_and_Tribute_Farewell_to_Mir_Jumla_v03.webp",
+         "places": [
+          "delhi"
+         ],
          "main": false
         },
         {
@@ -8932,6 +9383,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/33_Jayadhwaj_Singha_After_the_Humiliating_Treaty.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/33_Jayadhwaj_Singha_After_the_Humiliating_Treaty.webp",
+         "places": [
+          "garhgaon"
+         ],
          "main": true
         },
         {
@@ -9033,6 +9487,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/01_Chakradhwaj_Singha_Oath_of_Resistance.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/01_Chakradhwaj_Singha_Oath_of_Resistance.webp",
+         "places": [
+          "delhi"
+         ],
          "main": true
         },
         {
@@ -9049,6 +9506,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/02_Lachit_Borphukan_Receives_Command_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/02_Lachit_Borphukan_Receives_Command_v02.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": false
         },
         {
@@ -9066,6 +9526,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/03_Lachit_Liberates_Guwahati_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/03_Lachit_Liberates_Guwahati_v01.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": false
         },
         {
@@ -9083,6 +9546,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/03_Lachit_Liberates_Guwahati_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/03_Lachit_Liberates_Guwahati_v02.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": false
         },
         {
@@ -9099,6 +9565,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/04_Lachit_Recaptures_Itakhuli.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/04_Lachit_Recaptures_Itakhuli.webp",
+         "places": [
+          "manas",
+          "itakhuli"
+         ],
          "main": false
         },
         {
@@ -9116,6 +9586,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/05_Lachit_Mourns_the_Fallen_at_Alaboi.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/05_Lachit_Mourns_the_Fallen_at_Alaboi.webp",
+         "places": [
+          "alaboi"
+         ],
          "main": false
         },
         {
@@ -9133,6 +9606,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/06_Chakradhwaj_Singha_Rebuilds_the_Army_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/06_Chakradhwaj_Singha_Rebuilds_the_Army_v01.webp",
+         "places": [
+          "saraighat",
+          "alaboi"
+         ],
          "main": false
         },
         {
@@ -9150,6 +9627,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/06_Chakradhwaj_Singha_Rebuilds_the_Army_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/06_Chakradhwaj_Singha_Rebuilds_the_Army_v02.webp",
+         "places": [
+          "saraighat",
+          "alaboi"
+         ],
          "main": false
         }
        ]
@@ -9235,6 +9716,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/08_Lachit_Prepares_for_Saraighat_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/08_Lachit_Prepares_for_Saraighat_v01.webp",
+         "places": [
+          "saraighat"
+         ],
          "main": false
         },
         {
@@ -9251,6 +9735,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/08_Lachit_Prepares_for_Saraighat_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/08_Lachit_Prepares_for_Saraighat_v02.webp",
+         "places": [
+          "saraighat"
+         ],
          "main": false
         },
         {
@@ -9285,6 +9772,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/10_Lachit_Commands_the_Battle_of_Saraighat_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/10_Lachit_Commands_the_Battle_of_Saraighat_v02.webp",
+         "places": [
+          "brahmaputra",
+          "saraighat"
+         ],
          "main": false
         },
         {
@@ -9303,6 +9794,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/10_Lachit_Commands_the_Battle_of_Saraighat_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/10_Lachit_Commands_the_Battle_of_Saraighat_v03.webp",
+         "places": [
+          "brahmaputra",
+          "saraighat"
+         ],
          "main": false
         },
         {
@@ -9334,6 +9829,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/27_Lachit_Borphukan_Portrait_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/27_Lachit_Borphukan_Portrait_v01.webp",
+         "places": [
+          "saraighat"
+         ],
          "main": false
         },
         {
@@ -9350,6 +9848,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/27_Lachit_Borphukan_Portrait_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/27_Lachit_Borphukan_Portrait_v02.webp",
+         "places": [
+          "saraighat"
+         ],
          "main": false
         },
         {
@@ -9370,6 +9871,11 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Lachit_Borphukan"
+         ],
+         "places": [
+          "hoolungapara",
+          "saraighat",
+          "kaliabor"
          ],
          "main": false
         },
@@ -9392,6 +9898,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sunyatphaa",
           "https://en.wikipedia.org/wiki/Suklamphaa"
+         ],
+         "places": [
+          "charaideo"
          ],
          "main": true
         }
@@ -9483,6 +9992,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sunyatphaa",
           "https://en.wikipedia.org/wiki/Suklamphaa"
+         ],
+         "places": [
+          "charaideo"
          ],
          "main": false
         }
@@ -9607,6 +10119,10 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/15_Fall_of_Gobar_Raja.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/15_Fall_of_Gobar_Raja.webp",
+         "places": [
+          "guwahati",
+          "garhgaon"
+         ],
          "main": true
         }
        ]
@@ -9761,6 +10277,9 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/20_Sudoiphaa_Paratiya_Raja_Royal_Court.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/20_Sudoiphaa_Paratiya_Raja_Royal_Court.webp",
+         "places": [
+          "lower-assam"
+         ],
          "main": true
         },
         {
@@ -9778,6 +10297,9 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/21_Laluk_Sola_Surrenders_Guwahati_to_the_Mughals_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/21_Laluk_Sola_Surrenders_Guwahati_to_the_Mughals_v02.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": false
         }
        ]
@@ -9900,6 +10422,9 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Laluksola_Borphukan"
+         ],
+         "places": [
+          "guwahati"
          ],
          "main": false
         },
@@ -10045,6 +10570,11 @@
           "https://en.wikipedia.org/wiki/Battle_of_Itakhuli",
           "https://en.wikipedia.org/wiki/Supatphaa"
          ],
+         "places": [
+          "manas",
+          "guwahati",
+          "itakhuli"
+         ],
          "main": true
         },
         {
@@ -10179,6 +10709,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/31_Rudra_Singha_Builds_Rangpur_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/31_Rudra_Singha_Builds_Rangpur_v01.webp",
+         "places": [
+          "namdang",
+          "sivasagar",
+          "joysagar"
+         ],
          "main": false
         },
         {
@@ -10195,6 +10730,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/31_Rudra_Singha_Builds_Rangpur_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/31_Rudra_Singha_Builds_Rangpur_v02.webp",
+         "places": [
+          "namdang",
+          "sivasagar",
+          "joysagar"
+         ],
          "main": false
         },
         {
@@ -10215,6 +10755,9 @@
           "https://en.wikipedia.org/wiki/Rudra_Singha",
           "https://sivasagar.assam.gov.in/tourist-place-detail/334"
          ],
+         "places": [
+          "namdang"
+         ],
          "main": true
         },
         {
@@ -10230,6 +10773,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/32_Rudra_Singha_at_Rang_Ghar_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/32_Rudra_Singha_at_Rang_Ghar_v01.webp",
+         "places": [
+          "rang-ghar"
+         ],
          "main": true
         },
         {
@@ -10245,6 +10791,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/32_Rudra_Singha_at_Rang_Ghar_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/32_Rudra_Singha_at_Rang_Ghar_v02.webp",
+         "places": [
+          "rang-ghar"
+         ],
          "main": true
         },
         {
@@ -10277,6 +10826,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/33_Ahom_Royal_Court_and_Singhason_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/33_Ahom_Royal_Court_and_Singhason_v01.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -10292,6 +10844,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/33_Ahom_Royal_Court_and_Singhason_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/33_Ahom_Royal_Court_and_Singhason_v02.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -10307,6 +10862,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/33_Ahom_Royal_Court_and_Singhason_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/33_Ahom_Royal_Court_and_Singhason_v03.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -10325,6 +10883,10 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Rudra_Singha"
+         ],
+         "places": [
+          "guwahati",
+          "sivasagar"
          ],
          "main": true
         },
@@ -10346,6 +10908,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Rudra_Singha",
           "https://en.wikipedia.org/wiki/Sutanpha"
+         ],
+         "places": [
+          "guwahati"
          ],
          "main": true
         }
@@ -10405,6 +10970,9 @@
           "https://en.wikipedia.org/wiki/Rudra_Singha",
           "https://en.wikipedia.org/wiki/Sutanpha"
          ],
+         "places": [
+          "guwahati"
+         ],
          "main": false
         },
         {
@@ -10424,6 +10992,10 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Sutanpha"
+         ],
+         "places": [
+          "nilachal",
+          "kamakhya"
          ],
          "main": false
         },
@@ -10489,6 +11061,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/03_Construction_of_Sivasagar_Tank_and_Siva_Dol.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/03_Construction_of_Sivasagar_Tank_and_Siva_Dol.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -10597,6 +11172,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/06_Rang_Ghar_Royal_Games.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/06_Rang_Ghar_Royal_Games.webp",
+         "places": [
+          "rang-ghar"
+         ],
          "main": false
         },
         {
@@ -10627,6 +11205,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/08_Rang_Ghar_Royal_Gathering.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/08_Rang_Ghar_Royal_Gathering.webp",
+         "places": [
+          "rang-ghar"
+         ],
          "main": false
         },
         {
@@ -10703,6 +11284,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/09_Expansion_of_Talatal_Ghar.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/09_Expansion_of_Talatal_Ghar.webp",
+         "places": [
+          "dikhou"
+         ],
          "main": false
         },
         {
@@ -10745,6 +11329,10 @@
           "https://en.wikipedia.org/wiki/Kareng_Ghar",
           "https://en.wikipedia.org/wiki/Garhgaon",
           "https://sivasagar.assam.gov.in/tourist-place-detail/328"
+         ],
+         "places": [
+          "garhgaon",
+          "kareng-ghar"
          ],
          "main": true
         },
@@ -10857,6 +11445,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/12_First_Moamoria_Rebellion.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/12_First_Moamoria_Rebellion.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -10874,6 +11465,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/13_Deposition_and_Imprisonment_of_Lakshmi_Singha.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/13_Deposition_and_Imprisonment_of_Lakshmi_Singha.webp",
+         "places": [
+          "joysagar"
+         ],
          "main": true
         },
         {
@@ -10967,6 +11561,9 @@
           "https://en.wikipedia.org/wiki/Moamoria_rebellion",
           "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
          ],
+         "places": [
+          "sivasagar"
+         ],
          "main": true
         },
         {
@@ -10983,6 +11580,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/16_Moamoria_Rebels_Capture_Rangpur_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/16_Moamoria_Rebels_Capture_Rangpur_v01.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -10999,6 +11599,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/16_Moamoria_Rebels_Capture_Rangpur_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/16_Moamoria_Rebels_Capture_Rangpur_v02.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -11014,6 +11617,11 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/17_Gaurinath_Singha_Flees_to_Guwahati.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/17_Gaurinath_Singha_Flees_to_Guwahati.webp",
+         "places": [
+          "upper-assam",
+          "brahmaputra",
+          "guwahati"
+         ],
          "main": true
         },
         {
@@ -11035,6 +11643,10 @@
           "https://en.wikipedia.org/wiki/Moamoria_rebellion",
           "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
          ],
+         "places": [
+          "guwahati",
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -11052,6 +11664,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/18_Captain_Thomas_Welsh_Expedition.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/18_Captain_Thomas_Welsh_Expedition.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -11090,6 +11705,10 @@
           "https://en.wikipedia.org/wiki/Timeline_of_Jorhat",
           "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
           "https://jorhat.assam.gov.in/about-us/history-jorhat"
+         ],
+         "places": [
+          "sivasagar",
+          "jorhat"
          ],
          "main": false
         }
@@ -11145,6 +11764,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/20_Regency_of_Purnananda_Burhagohain.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/20_Regency_of_Purnananda_Burhagohain.webp",
+         "places": [
+          "jorhat"
+         ],
          "main": false
         }
        ]
@@ -11219,6 +11841,10 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/22_First_Burmese_Invasion_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/22_First_Burmese_Invasion_v01.webp",
+         "places": [
+          "patkai",
+          "jorhat"
+         ],
          "main": false
         },
         {
@@ -11236,6 +11862,10 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/22_First_Burmese_Invasion_v04.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/22_First_Burmese_Invasion_v04.webp",
+         "places": [
+          "patkai",
+          "jorhat"
+         ],
          "main": false
         },
         {
@@ -11254,6 +11884,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/23_Assassination_of_Badan_Chandra_Borphukan.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/23_Assassination_of_Badan_Chandra_Borphukan.webp",
+         "places": [
+          "jorhat"
+         ],
          "main": false
         },
         {
@@ -11271,6 +11904,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/24_Ruchinath_Burhagohain_Installs_Purandar_Singha.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/24_Ruchinath_Burhagohain_Installs_Purandar_Singha.webp",
+         "places": [
+          "jorhat"
+         ],
          "main": true
         },
         {
@@ -11321,6 +11957,9 @@
           "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
           "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
          ],
+         "places": [
+          "guwahati"
+         ],
          "main": true
         },
         {
@@ -11343,6 +11982,11 @@
           "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
           "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
           "https://jorhat.assam.gov.in/about-us/history-jorhat"
+         ],
+         "places": [
+          "guwahati",
+          "jorhat",
+          "mahgarh"
          ],
          "main": true
         },
@@ -11423,6 +12067,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/24_Ruchinath_Burhagohain_Installs_Purandar_Singha.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/24_Ruchinath_Burhagohain_Installs_Purandar_Singha.webp",
+         "places": [
+          "jorhat"
+         ],
          "main": true
         },
         {
@@ -11456,6 +12103,9 @@
          ],
          "scene_image": "media/scenes/ahom/1833-1838-british-annexation/32_Purandar_Singha_Restored_as_Tributary_Ruler.webp",
          "scene_thumbnail": "media/scenes/ahom/1833-1838-british-annexation/thumb/32_Purandar_Singha_Restored_as_Tributary_Ruler.webp",
+         "places": [
+          "upper-assam"
+         ],
          "main": true
         },
         {
@@ -11502,6 +12152,9 @@
          ],
          "scene_image": "media/scenes/ahom/1833-1838-british-annexation/34_British_Annexation_and_Deposition_of_Purandar_Singha.webp",
          "scene_thumbnail": "media/scenes/ahom/1833-1838-british-annexation/thumb/34_British_Annexation_and_Deposition_of_Purandar_Singha.webp",
+         "places": [
+          "upper-assam"
+         ],
          "main": true
         }
        ]
@@ -11572,6 +12225,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/29_First_Anglo_Burmese_War_and_Treaty_of_Yandabo_Montage.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/29_First_Anglo_Burmese_War_and_Treaty_of_Yandabo_Montage.webp",
+         "places": [
+          "brahmaputra"
+         ],
          "main": false
         },
         {
@@ -11588,6 +12244,10 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/30_First_Anglo_Burmese_War_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/30_First_Anglo_Burmese_War_v01.webp",
+         "places": [
+          "upper-assam",
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -11604,6 +12264,10 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/31_Treaty_of_Yandabo_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/31_Treaty_of_Yandabo_v03.webp",
+         "places": [
+          "ava",
+          "yandabo"
+         ],
          "main": false
         }
        ]
@@ -11773,6 +12437,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sukhaangphaa"
          ],
+         "places": [
+          "kamata"
+         ],
          "main": false
         },
         {
@@ -11790,6 +12457,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/17_Birth_of_Chao_Pulai.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/17_Birth_of_Chao_Pulai.webp",
+         "places": [
+          "kamata"
+         ],
          "main": false
         }
        ]
@@ -11857,6 +12527,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sukhaangphaa"
          ],
+         "places": [
+          "kamata"
+         ],
          "main": false
         }
        ]
@@ -11904,6 +12577,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/17_Birth_of_Chao_Pulai.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/17_Birth_of_Chao_Pulai.webp",
+         "places": [
+          "kamata"
+         ],
          "main": true
         },
         {
@@ -11920,6 +12596,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/18_Chao_Pulai_Meets_Kamata_Envoys.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/18_Chao_Pulai_Meets_Kamata_Envoys.webp",
+         "places": [
+          "kamata"
+         ],
          "main": true
         },
         {
@@ -11952,6 +12631,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/20_Chao_Pulai_Appointed_Governor_of_Sadiya_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/20_Chao_Pulai_Appointed_Governor_of_Sadiya_v03.webp",
+         "places": [
+          "sadiya"
+         ],
          "main": true
         }
        ]
@@ -12003,6 +12685,10 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
+         "places": [
+          "mungkang",
+          "tipam"
+         ],
          "main": false
         },
         {
@@ -12023,6 +12709,9 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
+         "places": [
+          "kamata"
          ],
          "main": false
         }
@@ -12131,6 +12820,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Susenghphaa"
          ],
+         "places": [
+          "hajo"
+         ],
          "main": true
         }
        ]
@@ -12177,6 +12869,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/32_Ramani_Gabharu_and_Tribute_Farewell_to_Mir_Jumla_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/32_Ramani_Gabharu_and_Tribute_Farewell_to_Mir_Jumla_v01.webp",
+         "places": [
+          "delhi"
+         ],
          "main": true
         },
         {
@@ -12193,6 +12888,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/32_Ramani_Gabharu_and_Tribute_Farewell_to_Mir_Jumla_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/32_Ramani_Gabharu_and_Tribute_Farewell_to_Mir_Jumla_v03.webp",
+         "places": [
+          "delhi"
+         ],
          "main": true
         }
        ]
@@ -12430,6 +13128,9 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/03_Construction_of_Sivasagar_Tank_and_Siva_Dol.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/03_Construction_of_Sivasagar_Tank_and_Siva_Dol.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -12615,6 +13316,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/23_Assassination_of_Badan_Chandra_Borphukan.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/23_Assassination_of_Badan_Chandra_Borphukan.webp",
+         "places": [
+          "jorhat"
+         ],
          "main": false
         }
        ]
@@ -12669,6 +13373,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Sukaphaa_Departs_Mong_Mao_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Sukaphaa_Departs_Mong_Mao_v01.webp",
+         "places": [
+          "mong-mao"
+         ],
          "main": false
         },
         {
@@ -12686,6 +13393,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Sukaphaa_Departs_Mong_Mao_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Sukaphaa_Departs_Mong_Mao_v02.webp",
+         "places": [
+          "mong-mao"
+         ],
          "main": false
         },
         {
@@ -12703,6 +13413,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Sukaphaa_Departs_Mong_Mao_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Sukaphaa_Departs_Mong_Mao_v03.webp",
+         "places": [
+          "mong-mao"
+         ],
          "main": false
         },
         {
@@ -12720,6 +13433,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Sukaphaa_Departs_Mong_Mao_v04.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Sukaphaa_Departs_Mong_Mao_v04.webp",
+         "places": [
+          "mong-mao"
+         ],
          "main": false
         }
        ]
@@ -12767,6 +13483,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Sukaphaa_Departs_Mong_Mao_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Sukaphaa_Departs_Mong_Mao_v01.webp",
+         "places": [
+          "mong-mao"
+         ],
          "main": false
         },
         {
@@ -12784,6 +13503,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Sukaphaa_Departs_Mong_Mao_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Sukaphaa_Departs_Mong_Mao_v02.webp",
+         "places": [
+          "mong-mao"
+         ],
          "main": false
         },
         {
@@ -12801,6 +13523,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Sukaphaa_Departs_Mong_Mao_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Sukaphaa_Departs_Mong_Mao_v03.webp",
+         "places": [
+          "mong-mao"
+         ],
          "main": false
         },
         {
@@ -12818,6 +13543,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/01_Sukaphaa_Departs_Mong_Mao_v04.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Sukaphaa_Departs_Mong_Mao_v04.webp",
+         "places": [
+          "mong-mao"
+         ],
          "main": false
         }
        ]
@@ -12884,6 +13612,9 @@
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/01_Search_for_the_Lost_Prince_Sudang.webp",
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
+         "places": [
+          "habung"
          ],
          "main": false
         }
@@ -12952,6 +13683,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
+         "places": [
+          "habung"
+         ],
          "main": false
         }
        ]
@@ -13003,6 +13737,10 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
+         "places": [
+          "mungkang",
+          "tipam"
+         ],
          "main": false
         },
         {
@@ -13024,6 +13762,11 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa",
           "https://en.wikipedia.org/wiki/Ahom_kingdom"
+         ],
+         "places": [
+          "mungkang",
+          "patkai",
+          "nongnyang"
          ],
          "main": true
         }
@@ -13076,6 +13819,10 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
+         "places": [
+          "mungkang",
+          "tipam"
+         ],
          "main": false
         },
         {
@@ -13098,6 +13845,11 @@
           "https://en.wikipedia.org/wiki/Sudangphaa",
           "https://en.wikipedia.org/wiki/Ahom_kingdom"
          ],
+         "places": [
+          "mungkang",
+          "patkai",
+          "nongnyang"
+         ],
          "main": true
         },
         {
@@ -13118,6 +13870,9 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
+         ],
+         "places": [
+          "kamata"
          ],
          "main": true
         }
@@ -13164,6 +13919,9 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/18_Suhenphaa_Battle_of_Turung.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/18_Suhenphaa_Battle_of_Turung.webp",
+         "places": [
+          "dikhou"
+         ],
          "main": false
         },
         {
@@ -13249,6 +14007,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Suhungmung",
           "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
+         "places": [
+          "sadiya"
          ],
          "main": false
         },
@@ -13410,6 +14171,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/09_Turbak_Invasion.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/09_Turbak_Invasion.webp",
+         "places": [
+          "gaur"
+         ],
          "main": false
         },
         {
@@ -13427,6 +14191,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/10_Victory_Over_Turbak.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/10_Victory_Over_Turbak.webp",
+         "places": [
+          "karatoya"
+         ],
          "main": false
         }
        ]
@@ -13542,6 +14309,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/21_Creation_of_Borbarua_and_Borphukan.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/21_Creation_of_Borbarua_and_Borphukan.webp",
+         "places": [
+          "lower-assam"
+         ],
          "main": false
         },
         {
@@ -13564,6 +14334,12 @@
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
           "https://en.wikipedia.org/wiki/Battle_of_Duimunisila"
          ],
+         "places": [
+          "sualkuchi",
+          "samdhara",
+          "duimunisila",
+          "hajo"
+         ],
          "main": true
         },
         {
@@ -13581,6 +14357,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/22_Pratap_Singha_Western_Frontier.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/22_Pratap_Singha_Western_Frontier.webp",
+         "places": [
+          "barnadi"
+         ],
          "main": false
         }
        ]
@@ -13626,6 +14405,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/21_Creation_of_Borbarua_and_Borphukan.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/21_Creation_of_Borbarua_and_Borphukan.webp",
+         "places": [
+          "lower-assam"
+         ],
          "main": false
         }
        ]
@@ -13757,6 +14539,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/01_Chakradhwaj_Singha_Oath_of_Resistance.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/01_Chakradhwaj_Singha_Oath_of_Resistance.webp",
+         "places": [
+          "delhi"
+         ],
          "main": false
         },
         {
@@ -13774,6 +14559,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/06_Chakradhwaj_Singha_Rebuilds_the_Army_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/06_Chakradhwaj_Singha_Rebuilds_the_Army_v01.webp",
+         "places": [
+          "saraighat",
+          "alaboi"
+         ],
          "main": false
         },
         {
@@ -13791,6 +14580,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/06_Chakradhwaj_Singha_Rebuilds_the_Army_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/06_Chakradhwaj_Singha_Rebuilds_the_Army_v02.webp",
+         "places": [
+          "saraighat",
+          "alaboi"
+         ],
          "main": false
         },
         {
@@ -13808,6 +14601,10 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/15_Fall_of_Gobar_Raja.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/15_Fall_of_Gobar_Raja.webp",
+         "places": [
+          "guwahati",
+          "garhgaon"
+         ],
          "main": true
         },
         {
@@ -13872,6 +14669,9 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/20_Sudoiphaa_Paratiya_Raja_Royal_Court.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/20_Sudoiphaa_Paratiya_Raja_Royal_Court.webp",
+         "places": [
+          "lower-assam"
+         ],
          "main": false
         }
        ]
@@ -13915,6 +14715,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/02_Lachit_Borphukan_Receives_Command_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/02_Lachit_Borphukan_Receives_Command_v02.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": true
         },
         {
@@ -13932,6 +14735,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/03_Lachit_Liberates_Guwahati_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/03_Lachit_Liberates_Guwahati_v01.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": true
         },
         {
@@ -13949,6 +14755,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/03_Lachit_Liberates_Guwahati_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/03_Lachit_Liberates_Guwahati_v02.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": true
         },
         {
@@ -13965,6 +14774,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/04_Lachit_Recaptures_Itakhuli.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/04_Lachit_Recaptures_Itakhuli.webp",
+         "places": [
+          "manas",
+          "itakhuli"
+         ],
          "main": false
         },
         {
@@ -13982,6 +14795,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/05_Lachit_Mourns_the_Fallen_at_Alaboi.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/05_Lachit_Mourns_the_Fallen_at_Alaboi.webp",
+         "places": [
+          "alaboi"
+         ],
          "main": false
         },
         {
@@ -13999,6 +14815,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/06_Chakradhwaj_Singha_Rebuilds_the_Army_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/06_Chakradhwaj_Singha_Rebuilds_the_Army_v01.webp",
+         "places": [
+          "saraighat",
+          "alaboi"
+         ],
          "main": false
         },
         {
@@ -14016,6 +14836,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/06_Chakradhwaj_Singha_Rebuilds_the_Army_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/06_Chakradhwaj_Singha_Rebuilds_the_Army_v02.webp",
+         "places": [
+          "saraighat",
+          "alaboi"
+         ],
          "main": false
         },
         {
@@ -14064,6 +14888,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/08_Lachit_Prepares_for_Saraighat_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/08_Lachit_Prepares_for_Saraighat_v01.webp",
+         "places": [
+          "saraighat"
+         ],
          "main": false
         },
         {
@@ -14080,6 +14907,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/08_Lachit_Prepares_for_Saraighat_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/08_Lachit_Prepares_for_Saraighat_v02.webp",
+         "places": [
+          "saraighat"
+         ],
          "main": false
         },
         {
@@ -14114,6 +14944,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/10_Lachit_Commands_the_Battle_of_Saraighat_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/10_Lachit_Commands_the_Battle_of_Saraighat_v02.webp",
+         "places": [
+          "brahmaputra",
+          "saraighat"
+         ],
          "main": false
         },
         {
@@ -14132,6 +14966,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/10_Lachit_Commands_the_Battle_of_Saraighat_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/10_Lachit_Commands_the_Battle_of_Saraighat_v03.webp",
+         "places": [
+          "brahmaputra",
+          "saraighat"
+         ],
          "main": false
         },
         {
@@ -14148,6 +14986,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/27_Lachit_Borphukan_Portrait_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/27_Lachit_Borphukan_Portrait_v01.webp",
+         "places": [
+          "saraighat"
+         ],
          "main": true
         },
         {
@@ -14164,6 +15005,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/27_Lachit_Borphukan_Portrait_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/27_Lachit_Borphukan_Portrait_v02.webp",
+         "places": [
+          "saraighat"
+         ],
          "main": true
         },
         {
@@ -14184,6 +15028,11 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Lachit_Borphukan"
+         ],
+         "places": [
+          "hoolungapara",
+          "saraighat",
+          "kaliabor"
          ],
          "main": true
         }
@@ -14235,6 +15084,11 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Lachit_Borphukan"
          ],
+         "places": [
+          "hoolungapara",
+          "saraighat",
+          "kaliabor"
+         ],
          "main": false
         },
         {
@@ -14252,6 +15106,9 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/21_Laluk_Sola_Surrenders_Guwahati_to_the_Mughals_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/21_Laluk_Sola_Surrenders_Guwahati_to_the_Mughals_v02.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": true
         },
         {
@@ -14287,6 +15144,9 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Laluksola_Borphukan"
+         ],
+         "places": [
+          "guwahati"
          ],
          "main": true
         }
@@ -14371,6 +15231,9 @@
           "https://en.wikipedia.org/wiki/Sunyatphaa",
           "https://en.wikipedia.org/wiki/Suklamphaa"
          ],
+         "places": [
+          "charaideo"
+         ],
          "main": false
         },
         {
@@ -14420,6 +15283,10 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/15_Fall_of_Gobar_Raja.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/15_Fall_of_Gobar_Raja.webp",
+         "places": [
+          "guwahati",
+          "garhgaon"
+         ],
          "main": true
         }
        ]
@@ -14470,6 +15337,10 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sutanpha"
          ],
+         "places": [
+          "nilachal",
+          "kamakhya"
+         ],
          "main": true
         },
         {
@@ -14484,6 +15355,9 @@
          ],
          "scene_image": "media/scenes/gallery/history-and-royalty/parbatia-gohain-1.webp",
          "scene_thumbnail": "media/scenes/gallery/history-and-royalty/thumb/parbatia-gohain-1.webp",
+         "places": [
+          "kamakhya"
+         ],
          "main": true
         },
         {
@@ -14498,6 +15372,9 @@
          ],
          "scene_image": "media/scenes/gallery/history-and-royalty/parbatia-gohain-2.webp",
          "scene_thumbnail": "media/scenes/gallery/history-and-royalty/thumb/parbatia-gohain-2.webp",
+         "places": [
+          "kamakhya"
+         ],
          "main": true
         }
        ]
@@ -14542,6 +15419,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/31_Rudra_Singha_Builds_Rangpur_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/31_Rudra_Singha_Builds_Rangpur_v01.webp",
+         "places": [
+          "namdang",
+          "sivasagar",
+          "joysagar"
+         ],
          "main": false
         },
         {
@@ -14558,6 +15440,11 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/31_Rudra_Singha_Builds_Rangpur_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/31_Rudra_Singha_Builds_Rangpur_v02.webp",
+         "places": [
+          "namdang",
+          "sivasagar",
+          "joysagar"
+         ],
          "main": false
         }
        ]
@@ -14722,6 +15609,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/16_Moamoria_Rebels_Capture_Rangpur_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/16_Moamoria_Rebels_Capture_Rangpur_v01.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -14738,6 +15628,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/16_Moamoria_Rebels_Capture_Rangpur_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/16_Moamoria_Rebels_Capture_Rangpur_v02.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -14761,6 +15654,10 @@
           "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
           "https://jorhat.assam.gov.in/about-us/history-jorhat"
          ],
+         "places": [
+          "sivasagar",
+          "jorhat"
+         ],
          "main": true
         },
         {
@@ -14777,6 +15674,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/20_Regency_of_Purnananda_Burhagohain.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/20_Regency_of_Purnananda_Burhagohain.webp",
+         "places": [
+          "jorhat"
+         ],
          "main": true
         },
         {
@@ -14797,6 +15697,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Moamoria_rebellion",
           "https://en.wikipedia.org/wiki/Matak_rajya"
+         ],
+         "places": [
+          "bengmara"
          ],
          "main": false
         },
@@ -14837,6 +15740,9 @@
           "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
           "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
          ],
+         "places": [
+          "ava"
+         ],
          "main": false
         },
         {
@@ -14854,6 +15760,10 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/22_First_Burmese_Invasion_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/22_First_Burmese_Invasion_v01.webp",
+         "places": [
+          "patkai",
+          "jorhat"
+         ],
          "main": false
         },
         {
@@ -14871,6 +15781,10 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/22_First_Burmese_Invasion_v04.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/22_First_Burmese_Invasion_v04.webp",
+         "places": [
+          "patkai",
+          "jorhat"
+         ],
          "main": false
         }
        ]
@@ -14941,6 +15855,9 @@
           "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
           "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
          ],
+         "places": [
+          "ava"
+         ],
          "main": true
         },
         {
@@ -14958,6 +15875,10 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/22_First_Burmese_Invasion_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/22_First_Burmese_Invasion_v01.webp",
+         "places": [
+          "patkai",
+          "jorhat"
+         ],
          "main": false
         },
         {
@@ -14975,6 +15896,10 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/22_First_Burmese_Invasion_v04.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/22_First_Burmese_Invasion_v04.webp",
+         "places": [
+          "patkai",
+          "jorhat"
+         ],
          "main": false
         },
         {
@@ -14993,6 +15918,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/23_Assassination_of_Badan_Chandra_Borphukan.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/23_Assassination_of_Badan_Chandra_Borphukan.webp",
+         "places": [
+          "jorhat"
+         ],
          "main": true
         },
         {
@@ -15060,6 +15988,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/24_Ruchinath_Burhagohain_Installs_Purandar_Singha.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/24_Ruchinath_Burhagohain_Installs_Purandar_Singha.webp",
+         "places": [
+          "jorhat"
+         ],
          "main": false
         },
         {
@@ -15123,6 +16054,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/23_Assassination_of_Badan_Chandra_Borphukan.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/23_Assassination_of_Badan_Chandra_Borphukan.webp",
+         "places": [
+          "jorhat"
+         ],
          "main": false
         }
        ]
@@ -15213,6 +16147,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/12_First_Moamoria_Rebellion.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/12_First_Moamoria_Rebellion.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         },
         {
@@ -15230,6 +16167,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/13_Deposition_and_Imprisonment_of_Lakshmi_Singha.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/13_Deposition_and_Imprisonment_of_Lakshmi_Singha.webp",
+         "places": [
+          "joysagar"
+         ],
          "main": false
         },
         {
@@ -15308,6 +16248,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/12_First_Moamoria_Rebellion.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/12_First_Moamoria_Rebellion.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         }
        ]
@@ -15352,6 +16295,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/13_Deposition_and_Imprisonment_of_Lakshmi_Singha.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/13_Deposition_and_Imprisonment_of_Lakshmi_Singha.webp",
+         "places": [
+          "joysagar"
+         ],
          "main": false
         }
        ]
@@ -15399,6 +16345,10 @@
           "https://en.wikipedia.org/wiki/Moamoria_rebellion",
           "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
           "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
+         ],
+         "places": [
+          "sivasagar",
+          "majuli"
          ],
          "main": true
         }
@@ -15449,6 +16399,10 @@
           "https://en.wikipedia.org/wiki/Moamoria_rebellion",
           "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
          ],
+         "places": [
+          "guwahati",
+          "sivasagar"
+         ],
          "main": true
         }
        ]
@@ -15497,6 +16451,9 @@
           "https://en.wikipedia.org/wiki/Matak_rajya",
           "https://tinsukia.assam.gov.in/about-us/history"
          ],
+         "places": [
+          "bengmara"
+         ],
          "main": true
         },
         {
@@ -15517,6 +16474,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Moamoria_rebellion",
           "https://en.wikipedia.org/wiki/Matak_rajya"
+         ],
+         "places": [
+          "bengmara"
          ],
          "main": true
         }
@@ -15619,6 +16579,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/09_Turbak_Invasion.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/09_Turbak_Invasion.webp",
+         "places": [
+          "gaur"
+         ],
          "main": true
         },
         {
@@ -15636,6 +16599,9 @@
          ],
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/10_Victory_Over_Turbak.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/10_Victory_Over_Turbak.webp",
+         "places": [
+          "karatoya"
+         ],
          "main": true
         },
         {
@@ -15712,6 +16678,11 @@
           "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
          ],
+         "places": [
+          "brahmaputra",
+          "kajali",
+          "samdhara"
+         ],
          "main": true
         }
        ]
@@ -15765,6 +16736,11 @@
           "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
          ],
+         "places": [
+          "brahmaputra",
+          "kajali",
+          "samdhara"
+         ],
          "main": true
         }
        ]
@@ -15814,6 +16790,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Balinarayan"
          ],
+         "places": [
+          "hajo"
+         ],
          "main": false
         },
         {
@@ -15837,6 +16816,11 @@
           "https://en.wikipedia.org/wiki/Battle_of_Samdhara",
           "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+         ],
+         "places": [
+          "brahmaputra",
+          "kajali",
+          "samdhara"
          ],
          "main": false
         }
@@ -15890,6 +16874,12 @@
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
           "https://en.wikipedia.org/wiki/Battle_of_Duimunisila"
          ],
+         "places": [
+          "sualkuchi",
+          "samdhara",
+          "duimunisila",
+          "hajo"
+         ],
          "main": false
         },
         {
@@ -15907,6 +16897,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/22_Pratap_Singha_Western_Frontier.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/22_Pratap_Singha_Western_Frontier.webp",
+         "places": [
+          "barnadi"
+         ],
          "main": false
         }
        ]
@@ -15955,6 +16948,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/28_Mir_Jumla_Invasion_of_Assam.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/28_Mir_Jumla_Invasion_of_Assam.webp",
+         "places": [
+          "brahmaputra"
+         ],
          "main": true
         },
         {
@@ -15972,6 +16968,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/29_Fall_of_Garhgaon_to_the_Mughals_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/29_Fall_of_Garhgaon_to_the_Mughals_v02.webp",
+         "places": [
+          "garhgaon"
+         ],
          "main": false
         },
         {
@@ -15988,6 +16987,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/30_Jayadhwaj_Singha_Retreats_Through_the_Monsoon.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/30_Jayadhwaj_Singha_Retreats_Through_the_Monsoon.webp",
+         "places": [
+          "namrup"
+         ],
          "main": false
         },
         {
@@ -16005,6 +17007,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/31_Treaty_of_Ghilajharighat.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/31_Treaty_of_Ghilajharighat.webp",
+         "places": [
+          "lower-assam",
+          "ghilajharighat"
+         ],
          "main": false
         },
         {
@@ -16024,6 +17030,10 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Mir_Jumla_II"
+         ],
+         "places": [
+          "garhgaon",
+          "ghilajharighat"
          ],
          "main": true
         }
@@ -16071,6 +17081,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/28_Mir_Jumla_Invasion_of_Assam.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/28_Mir_Jumla_Invasion_of_Assam.webp",
+         "places": [
+          "brahmaputra"
+         ],
          "main": false
         },
         {
@@ -16088,6 +17101,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/31_Treaty_of_Ghilajharighat.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/31_Treaty_of_Ghilajharighat.webp",
+         "places": [
+          "lower-assam",
+          "ghilajharighat"
+         ],
          "main": false
         },
         {
@@ -16107,6 +17124,10 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Mir_Jumla_II"
+         ],
+         "places": [
+          "garhgaon",
+          "ghilajharighat"
          ],
          "main": false
         }
@@ -16154,6 +17175,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/29_Fall_of_Garhgaon_to_the_Mughals_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/29_Fall_of_Garhgaon_to_the_Mughals_v02.webp",
+         "places": [
+          "garhgaon"
+         ],
          "main": false
         }
        ]
@@ -16201,6 +17225,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/03_Lachit_Liberates_Guwahati_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/03_Lachit_Liberates_Guwahati_v01.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": false
         },
         {
@@ -16218,6 +17245,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/03_Lachit_Liberates_Guwahati_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/03_Lachit_Liberates_Guwahati_v02.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": false
         }
        ]
@@ -16292,6 +17322,9 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/05_Lachit_Mourns_the_Fallen_at_Alaboi.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/05_Lachit_Mourns_the_Fallen_at_Alaboi.webp",
+         "places": [
+          "alaboi"
+         ],
          "main": false
         },
         {
@@ -16310,6 +17343,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/10_Lachit_Commands_the_Battle_of_Saraighat_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/10_Lachit_Commands_the_Battle_of_Saraighat_v02.webp",
+         "places": [
+          "brahmaputra",
+          "saraighat"
+         ],
          "main": false
         },
         {
@@ -16328,6 +17365,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/10_Lachit_Commands_the_Battle_of_Saraighat_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/10_Lachit_Commands_the_Battle_of_Saraighat_v03.webp",
+         "places": [
+          "brahmaputra",
+          "saraighat"
+         ],
          "main": false
         }
        ]
@@ -16376,6 +17417,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/10_Lachit_Commands_the_Battle_of_Saraighat_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/10_Lachit_Commands_the_Battle_of_Saraighat_v02.webp",
+         "places": [
+          "brahmaputra",
+          "saraighat"
+         ],
          "main": false
         },
         {
@@ -16394,6 +17439,10 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/10_Lachit_Commands_the_Battle_of_Saraighat_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/10_Lachit_Commands_the_Battle_of_Saraighat_v03.webp",
+         "places": [
+          "brahmaputra",
+          "saraighat"
+         ],
          "main": false
         }
        ]
@@ -16440,6 +17489,9 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/21_Laluk_Sola_Surrenders_Guwahati_to_the_Mughals_v02.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/21_Laluk_Sola_Surrenders_Guwahati_to_the_Mughals_v02.webp",
+         "places": [
+          "guwahati"
+         ],
          "main": false
         }
        ]
@@ -16495,6 +17547,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/18_Captain_Thomas_Welsh_Expedition.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/18_Captain_Thomas_Welsh_Expedition.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": true
         },
         {
@@ -16558,6 +17613,9 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/18_Captain_Thomas_Welsh_Expedition.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/18_Captain_Thomas_Welsh_Expedition.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": false
         }
        ]
@@ -16608,6 +17666,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
           "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+         ],
+         "places": [
+          "ava"
          ],
          "main": true
         }
@@ -16707,6 +17768,11 @@
           "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
           "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
           "https://jorhat.assam.gov.in/about-us/history-jorhat"
+         ],
+         "places": [
+          "guwahati",
+          "jorhat",
+          "mahgarh"
          ],
          "main": false
         },
@@ -16850,6 +17916,11 @@
           "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
           "https://jorhat.assam.gov.in/about-us/history-jorhat"
          ],
+         "places": [
+          "guwahati",
+          "jorhat",
+          "mahgarh"
+         ],
          "main": true
         }
        ]
@@ -16897,6 +17968,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/29_First_Anglo_Burmese_War_and_Treaty_of_Yandabo_Montage.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/29_First_Anglo_Burmese_War_and_Treaty_of_Yandabo_Montage.webp",
+         "places": [
+          "brahmaputra"
+         ],
          "main": false
         }
        ]
@@ -16943,6 +18017,10 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/30_First_Anglo_Burmese_War_v01.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/30_First_Anglo_Burmese_War_v01.webp",
+         "places": [
+          "upper-assam",
+          "sivasagar"
+         ],
          "main": false
         }
        ]
@@ -16990,6 +18068,9 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/29_First_Anglo_Burmese_War_and_Treaty_of_Yandabo_Montage.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/29_First_Anglo_Burmese_War_and_Treaty_of_Yandabo_Montage.webp",
+         "places": [
+          "brahmaputra"
+         ],
          "main": false
         },
         {
@@ -17006,6 +18087,10 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/31_Treaty_of_Yandabo_v03.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/31_Treaty_of_Yandabo_v03.webp",
+         "places": [
+          "ava",
+          "yandabo"
+         ],
          "main": false
         }
        ]
@@ -17092,6 +18177,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_kingdom"
          ],
+         "places": [
+          "sadiya"
+         ],
          "main": false
         }
        ]
@@ -17159,6 +18247,9 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
+         "places": [
+          "sadiya"
          ],
          "main": false
         }
@@ -17326,6 +18417,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Suhungmung",
           "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
+         "places": [
+          "sadiya"
          ],
          "main": false
         }
@@ -18275,6 +19369,9 @@
          ],
          "scene_image": "media/scenes/gallery/notable-figures/nathan-brown-orunodoi.webp",
          "scene_thumbnail": "media/scenes/gallery/notable-figures/thumb/nathan-brown-orunodoi.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": true
         }
        ]
@@ -18311,6 +19408,9 @@
          ],
          "scene_image": "media/scenes/gallery/notable-figures/miles-bronson-dictionary.webp",
          "scene_thumbnail": "media/scenes/gallery/notable-figures/thumb/miles-bronson-dictionary.webp",
+         "places": [
+          "sivasagar"
+         ],
          "main": true
         }
        ]
@@ -18943,6 +20043,9 @@
          ],
          "scene_image": "media/scenes/ahom/1833-1838-british-annexation/32_Purandar_Singha_Restored_as_Tributary_Ruler.webp",
          "scene_thumbnail": "media/scenes/ahom/1833-1838-british-annexation/thumb/32_Purandar_Singha_Restored_as_Tributary_Ruler.webp",
+         "places": [
+          "upper-assam"
+         ],
          "main": false
         }
        ]
@@ -18990,6 +20093,9 @@
          ],
          "scene_image": "media/scenes/ahom/1833-1838-british-annexation/34_British_Annexation_and_Deposition_of_Purandar_Singha.webp",
          "scene_thumbnail": "media/scenes/ahom/1833-1838-british-annexation/thumb/34_British_Annexation_and_Deposition_of_Purandar_Singha.webp",
+         "places": [
+          "upper-assam"
+         ],
          "main": false
         }
        ]
@@ -19144,6 +20250,10 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Gomdhar_Konwar",
     "https://cbcindia.gov.in/wp-content/themes/boc/mann_ki_baat/e_july24/files/basic-html/page31.html"
+   ],
+   "places": [
+    "sivasagar",
+    "jorhat"
    ]
   },
   {
@@ -19194,7 +20304,10 @@
    "collection": "Assamese AI gallery",
    "summary": "Artistic representation of Hetuka Xulin, an eerie figure originating in folklore and oral ghost traditions across rural Upper Assam.",
    "scene_image": "media/scenes/gallery/folklore-and-legends/hetuka-xulin-rural-myth.webp",
-   "scene_thumbnail": "media/scenes/gallery/folklore-and-legends/thumb/hetuka-xulin-rural-myth.webp"
+   "scene_thumbnail": "media/scenes/gallery/folklore-and-legends/thumb/hetuka-xulin-rural-myth.webp",
+   "places": [
+    "upper-assam"
+   ]
   },
   {
    "id": "hetuka-xulin-2",
@@ -19395,6 +20508,1429 @@
    "summary": "Historical representation of the grassroots mass student mobilization during the historic Assam Agitation (1979–1985).",
    "scene_image": "media/scenes/gallery/notable-figures/assam-movement-student-rally.webp",
    "scene_thumbnail": "media/scenes/gallery/notable-figures/thumb/assam-movement-student-rally.webp"
+  }
+ ],
+ "places": [
+  {
+   "id": "kamarupa",
+   "name": "Kamarupa",
+   "name_assamese": "কামৰূপ",
+   "kind": "Region",
+   "also_called": [
+    "Pragjyotisha",
+    "Kamrupa",
+    "Kamrup (old kingdom)"
+   ],
+   "present_name": "Assam (Brahmaputra valley)",
+   "location": "Assam, with parts of North Bengal, northern Bangladesh and Bhutan at its height",
+   "summary": "The ancient kingdom of the Varman, Salastambha and Pala dynasties, c. 350 to 1100 CE.",
+   "notes": "The traditional bounds, from the Karatoya in the west to Sadiya in the east, rest on texts; no inscription confirms them. Capitals: Pragjyotishpura, Haruppeswara (Tezpur) and Durjaya.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa"
+   ]
+  },
+  {
+   "id": "kamata",
+   "name": "Kamata",
+   "name_assamese": "কামতা",
+   "kind": "Kingdom",
+   "also_called": [
+    "Kamata kingdom",
+    "Kamatapur kingdom",
+    "Kamrup-Kamata"
+   ],
+   "present_name": "Western Assam and North Bengal",
+   "location": "Kamrup, Goalpara and Dhubri in Assam; Cooch Behar and Jalpaiguri in West Bengal; Rangpur and northern Mymensingh in Bangladesh",
+   "summary": "The successor kingdom of western Kamarupa, c. 1250 to 1498 (Sandhya to the Khen dynasty), between the Karatoya and the Barnadi.",
+   "notes": "Early history is reconstructed from epigraphy and later tradition.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+   ]
+  },
+  {
+   "id": "upper-assam",
+   "name": "Upper Assam",
+   "name_assamese": "উজনি অসম",
+   "kind": "Region",
+   "also_called": [
+    "Ujoni Assam",
+    "Ujani Asom",
+    "Upper Assam valley"
+   ],
+   "present_name": "Upper Assam",
+   "location": "The districts of Dibrugarh, Tinsukia, Sivasagar, Charaideo, Jorhat, Golaghat, Dhemaji and Lakhimpur in eastern Assam",
+   "summary": "The eastern Brahmaputra valley, the Ahom heartland.",
+   "confidence": "high"
+  },
+  {
+   "id": "lower-assam",
+   "name": "Lower Assam",
+   "name_assamese": "নামনি অসম",
+   "kind": "Region",
+   "also_called": [
+    "Namoni Assam",
+    "Western Assam",
+    "Namani Asom"
+   ],
+   "present_name": "Lower (Western) Assam",
+   "location": "Kamrup, Goalpara, Dhubri, Barpeta, Nalbari and nearby districts of western Assam",
+   "summary": "The western Brahmaputra valley, the Kamarupa and Kamata country.",
+   "confidence": "high"
+  },
+  {
+   "id": "brahmaputra-valley",
+   "name": "Brahmaputra Valley",
+   "name_assamese": "ব্ৰহ্মপুত্ৰ উপত্যকা",
+   "kind": "Region",
+   "also_called": [
+    "Assam Valley",
+    "Assam valley",
+    "Brahmaputra plain"
+   ],
+   "present_name": "Brahmaputra Valley, Assam",
+   "location": "Assam, India",
+   "summary": "The long river valley that holds most of Assam's history.",
+   "confidence": "high"
+  },
+  {
+   "id": "brahmaputra",
+   "name": "Brahmaputra",
+   "name_assamese": "ব্ৰহ্মপুত্ৰ",
+   "kind": "River",
+   "also_called": [
+    "Lauhitya",
+    "Luit",
+    "Brahmaputra River",
+    "Lohit"
+   ],
+   "present_name": "Brahmaputra River",
+   "location": "Flows through Arunachal Pradesh and Assam in India, then Bangladesh",
+   "summary": "The great river of the valley. Early texts call it Lauhitya; Assamese call it Luit.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa"
+   ]
+  },
+  {
+   "id": "kopili",
+   "name": "Kopili",
+   "name_assamese": "কপিলী",
+   "kind": "River",
+   "also_called": [
+    "Kapili",
+    "Kopili River",
+    "Kapili River"
+   ],
+   "present_name": "Kopili River",
+   "location": "Karbi Anglong, Nagaon and Morigaon districts, Assam",
+   "summary": "A north-flowing tributary of the Brahmaputra; its valley held the Davaka kingdom and later the Bhuyan heartland.",
+   "confidence": "high"
+  },
+  {
+   "id": "kolong",
+   "name": "Kolong",
+   "name_assamese": "কলং",
+   "kind": "River",
+   "also_called": [
+    "Kolong River",
+    "Kalang",
+    "Kalong"
+   ],
+   "present_name": "Kolong River",
+   "location": "Nagaon and Morigaon districts, Assam",
+   "summary": "A branch of the Brahmaputra; the first Borphukan's territory lay between the Brahmaputra and the Kolong, and Ahom rule reached it in the 16th century.",
+   "confidence": "high"
+  },
+  {
+   "id": "manas",
+   "name": "Manas",
+   "name_assamese": "মানাহ",
+   "kind": "River",
+   "also_called": [
+    "Manas River",
+    "Manah",
+    "Manaha"
+   ],
+   "present_name": "Manas River",
+   "location": "Assam and Bhutan",
+   "summary": "After 1682 the western edge of Ahom control, held against the Mughals.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Battle_of_Itakhuli"
+   ]
+  },
+  {
+   "id": "barnadi",
+   "name": "Barnadi",
+   "name_assamese": "বৰনদী",
+   "kind": "River",
+   "also_called": [
+    "Barnadi River",
+    "Bornadi",
+    "Barnadi"
+   ],
+   "present_name": "Barnadi River",
+   "location": "Udalguri and Darrang districts, Assam",
+   "summary": "The eastern boundary of Kamata and of the early Koch kingdom.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+   ]
+  },
+  {
+   "id": "karatoya",
+   "name": "Karatoya",
+   "kind": "River",
+   "also_called": [
+    "Karatoya River",
+    "Karatoa"
+   ],
+   "present_name": "Karatoya River",
+   "location": "North Bengal (West Bengal) and Bangladesh",
+   "summary": "The western boundary of Kamata and the traditional western boundary of Kamarupa; long the line fought over with Bengal's rulers.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+   ]
+  },
+  {
+   "id": "teesta",
+   "name": "Teesta",
+   "kind": "River",
+   "also_called": [
+    "Tista",
+    "Trisrota",
+    "Teesta River"
+   ],
+   "present_name": "Teesta River",
+   "location": "Sikkim, West Bengal and Bangladesh",
+   "summary": "Crossed by Bakhtiyar Khalji's army in 1206 on the road to and from Tibet.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bakhtiyar_Khalji%27s_Tibet_campaign"
+   ]
+  },
+  {
+   "id": "dikhou",
+   "name": "Dikhou",
+   "name_assamese": "দিখৌ",
+   "kind": "River",
+   "also_called": [
+    "Dikhow",
+    "Dikhou River",
+    "Dikhow River"
+   ],
+   "present_name": "Dikhow River",
+   "location": "Sivasagar district, Assam",
+   "summary": "The old frontier between the Ahoms and the Kacharis in the 13th century.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+   ]
+  },
+  {
+   "id": "dihing",
+   "name": "Dihing",
+   "name_assamese": "দিহিং",
+   "kind": "River",
+   "also_called": [
+    "Burhi Dihing",
+    "Buri Dihing",
+    "Dihing River"
+   ],
+   "present_name": "Buri Dihing River",
+   "location": "Tinsukia, Dibrugarh and Sivasagar districts, Assam",
+   "summary": "The river of the early Ahom capitals, including Charagua.",
+   "confidence": "high"
+  },
+  {
+   "id": "safrai",
+   "name": "Safrai",
+   "kind": "River",
+   "also_called": [
+    "Safrai River"
+   ],
+   "location": "Upper Assam (exact reach not established)",
+   "summary": "River on which the Ahom king Sutuphaa met the Chutia king in 1376.",
+   "notes": "Present-day course not established in the sources read.",
+   "confidence": "low"
+  },
+  {
+   "id": "namdang",
+   "name": "Namdang",
+   "name_assamese": "নামদাং",
+   "kind": "River",
+   "also_called": [
+    "Namdang River",
+    "Namdang stone bridge"
+   ],
+   "present_name": "Namdang River and stone bridge",
+   "location": "Sivasagar district, Assam",
+   "summary": "A river near Garhgaon, with a stone bridge of the Ahom period.",
+   "notes": "Exact setting not re-checked.",
+   "confidence": "medium"
+  },
+  {
+   "id": "pushpabhadra",
+   "name": "Pushpabhadra",
+   "kind": "River",
+   "also_called": [
+    "Pushpabhadra River"
+   ],
+   "location": "Brahmaputra valley, Assam (exact river not established)",
+   "summary": "River named in a Pala grant issued by Dharmapala.",
+   "notes": "Present-day river not established here.",
+   "confidence": "low"
+  },
+  {
+   "id": "guwahati",
+   "name": "Guwahati",
+   "name_assamese": "গুৱাহাটী",
+   "kind": "City",
+   "also_called": [
+    "Gauhati",
+    "Pragjyotishpura (traditional)",
+    "Guwahati city"
+   ],
+   "present_name": "Guwahati",
+   "location": "Kamrup Metropolitan district, Assam",
+   "summary": "The chief city of Lower Assam; the seat of the Borphukan after 1682 and the site of the Battle of Saraighat.",
+   "confidence": "high"
+  },
+  {
+   "id": "pragjyotishpura",
+   "name": "Pragjyotishpura",
+   "name_assamese": "প্ৰাগ্জ্যোতিষপুৰ",
+   "kind": "Capital",
+   "also_called": [
+    "Pragjyotisha",
+    "Pragjyotishpur"
+   ],
+   "present_name": "Guwahati",
+   "location": "Kamrup Metropolitan district, Assam",
+   "summary": "The first capital of Kamarupa under the Varman dynasty, traditionally at Guwahati.",
+   "notes": "Identification with Guwahati is traditional.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa"
+   ]
+  },
+  {
+   "id": "north-guwahati",
+   "name": "North Guwahati",
+   "name_assamese": "উত্তৰ গুৱাহাটী",
+   "kind": "Town",
+   "also_called": [
+    "Kamarupanagara",
+    "Kamrupnagar"
+   ],
+   "present_name": "North Guwahati",
+   "location": "Kamrup district, Assam (north bank of the Brahmaputra)",
+   "summary": "The north-bank town identified with Kamarupanagara, the post-Pala capital that Sandhya later left.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
+   ]
+  },
+  {
+   "id": "kamarupanagara",
+   "name": "Kamarupanagara",
+   "name_assamese": "কামৰূপনগৰ",
+   "kind": "Capital",
+   "also_called": [
+    "Kamrupanagara",
+    "Kamrup-nagar"
+   ],
+   "present_name": "North Guwahati",
+   "location": "Kamrup district, Assam",
+   "summary": "The capital of Kamarupa in the late Pala and post-Pala period, abandoned for Kamatapur after Sandhya defeated Yuzbak in 1257.",
+   "notes": "Identified with North Guwahati.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)",
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+   ]
+  },
+  {
+   "id": "durjaya",
+   "name": "Durjaya",
+   "kind": "Capital",
+   "also_called": [
+    "Durjaya (Pala capital)"
+   ],
+   "present_name": "North Guwahati or Tezpur (unsettled)",
+   "location": "Kamrup or Sonitpur district, Assam",
+   "summary": "A Pala capital built or renamed by Ratnapala.",
+   "notes": "The sources read disagree: one article says North Guwahati; the project's own note on Ratnapala says Hadapyaka (Tezpur) was renamed Durjaya.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
+   ]
+  },
+  {
+   "id": "haruppeswara",
+   "name": "Haruppeswara",
+   "name_assamese": "হৰুপ্পেশ্বৰ",
+   "kind": "Capital",
+   "also_called": [
+    "Haruppeshvara",
+    "Hadapeshvara",
+    "Hatapesvara",
+    "Hadapyaka",
+    "Harruppeswar"
+   ],
+   "present_name": "Tezpur",
+   "location": "Sonitpur district, Assam",
+   "summary": "The capital of the Salastambha dynasty, c. 650 to 900.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
+   ]
+  },
+  {
+   "id": "karnasuvarna",
+   "name": "Karnasuvarna",
+   "kind": "Capital",
+   "also_called": [
+    "Karnasuvarna",
+    "Karna-Suvarna",
+    "Karnasubarna"
+   ],
+   "present_name": "Near Chiruti, Murshidabad",
+   "location": "Murshidabad district, West Bengal",
+   "summary": "The capital of Shashanka, ruler of Gauda.",
+   "notes": "Standard identification; not re-checked in this session.",
+   "confidence": "medium"
+  },
+  {
+   "id": "davaka",
+   "name": "Davaka",
+   "kind": "Kingdom",
+   "also_called": [
+    "Davaka kingdom"
+   ],
+   "present_name": "Nagaon region (Kopili valley)",
+   "location": "Nagaon district, Assam",
+   "summary": "A frontier kingdom named with Kamarupa on Samudragupta's Allahabad Pillar; Kalyanavarman is said to have taken it.",
+   "notes": "Standard identification; not re-checked here.",
+   "confidence": "medium"
+  },
+  {
+   "id": "nidhanpur",
+   "name": "Nidhanpur",
+   "kind": "Archaeological site",
+   "also_called": [
+    "Panchakhanda",
+    "Nidhanpur copper plates"
+   ],
+   "present_name": "Panchakhanda, Moulvibazar",
+   "location": "Moulvibazar district, Sylhet Division, Bangladesh",
+   "summary": "Findspot of Bhaskaravarman's Nidhanpur copper-plate grant.",
+   "notes": "Standard identification; not re-checked here.",
+   "confidence": "high"
+  },
+  {
+   "id": "umachal",
+   "name": "Umachal",
+   "name_assamese": "উমাচল",
+   "kind": "Hill",
+   "also_called": [
+    "Umachal slope of Nilachal",
+    "Umachal rock inscription"
+   ],
+   "present_name": "Umachal, Guwahati",
+   "location": "Slope of Nilachal Hill, Guwahati, Assam",
+   "summary": "Findspot of the cave-temple inscription of Surendravarman for Balabhadra (5th century).",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Umachal_rock_inscription"
+   ]
+  },
+  {
+   "id": "nilachal",
+   "name": "Nilachal",
+   "name_assamese": "নীলাচল",
+   "kind": "Hill",
+   "also_called": [
+    "Nilachal Hill",
+    "Nilanchal",
+    "Kamakhya Hill",
+    "Nilachal Parvat"
+   ],
+   "present_name": "Nilachal Hill, Guwahati",
+   "location": "Guwahati, Assam",
+   "summary": "The hill of the Kamakhya temple, a sacred centre of Kamarupa.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Umachal_rock_inscription"
+   ]
+  },
+  {
+   "id": "kamakhya",
+   "name": "Kamakhya",
+   "name_assamese": "কামাখ্যা",
+   "kind": "Temple",
+   "also_called": [
+    "Kamakhya Temple",
+    "Kamakhya Devi",
+    "Kamakhya Mandir"
+   ],
+   "present_name": "Kamakhya Temple",
+   "location": "Nilachal Hill, Guwahati, Assam",
+   "summary": "The great Shakta temple of Kamarupa and Assam.",
+   "confidence": "high"
+  },
+  {
+   "id": "sualkuchi",
+   "name": "Sualkuchi",
+   "name_assamese": "শুৱালকুছি",
+   "kind": "Town",
+   "also_called": [
+    "Sualkuchi (Pala grant site)"
+   ],
+   "present_name": "Sualkuchi",
+   "location": "Kamrup district, Assam (north bank of the Brahmaputra)",
+   "summary": "A Pala-period grant is named for it; today the centre of Assam's silk weaving.",
+   "confidence": "high"
+  },
+  {
+   "id": "barganga",
+   "name": "Barganga",
+   "kind": "Archaeological site",
+   "also_called": [
+    "Badaganga",
+    "Barganga river",
+    "Badaganga rock inscription"
+   ],
+   "present_name": "Barganga",
+   "location": "Nagaon district, Assam",
+   "summary": "Findspot of a rock inscription of Bhutivarman (6th century).",
+   "notes": "The inscription's reading and date are disputed (Bhattasali vs Sircar).",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_inscriptions"
+   ]
+  },
+  {
+   "id": "barpanara",
+   "name": "Barpanara",
+   "kind": "Village",
+   "also_called": [
+    "Barpanara village"
+   ],
+   "present_name": "Barpanara",
+   "location": "Kamrup district, Assam",
+   "summary": "Findspot of Indrapala's copper-plate grant.",
+   "confidence": "medium"
+  },
+  {
+   "id": "mong-mao",
+   "name": "Mong Mao",
+   "kind": "Kingdom",
+   "also_called": [
+    "Muang Mao",
+    "Maw",
+    "Mao Lung",
+    "Mong Mao Lung"
+   ],
+   "present_name": "Around Ruili",
+   "location": "Dehong Dai and Jingpo Autonomous Prefecture, Yunnan, China",
+   "summary": "The Tai state from which Sukaphaa left in 1215.",
+   "notes": "Some accounts place it instead in the Hukawng valley, Myanmar.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukaphaa"
+   ]
+  },
+  {
+   "id": "mung-dun-sun-kham",
+   "name": "Mungdunshunkham",
+   "kind": "Region",
+   "also_called": [
+    "Mung Dun Sun Kham",
+    "Land of the Golden Gardens"
+   ],
+   "present_name": "Hukawng Valley (traditional)",
+   "location": "Kachin State, northern Myanmar",
+   "summary": "'The land of golden gardens', the Tai homeland in the Ahom chronicles.",
+   "notes": "Identification with the Hukawng valley is traditional.",
+   "confidence": "medium"
+  },
+  {
+   "id": "mungkang",
+   "name": "Mungkang",
+   "kind": "Kingdom",
+   "also_called": [
+    "Mong Kawng",
+    "Mogaung",
+    "Mungkang"
+   ],
+   "present_name": "Mogaung",
+   "location": "Kachin State, Myanmar",
+   "summary": "The Tai state beyond the Patkai that sent an invasion force in the early 15th century.",
+   "notes": "Standard identification; not re-checked here.",
+   "confidence": "medium"
+  },
+  {
+   "id": "patkai",
+   "name": "Patkai Range",
+   "name_assamese": "পাটকাই",
+   "kind": "Hill",
+   "also_called": [
+    "Patkai Hills",
+    "Patkai Range",
+    "Patkai"
+   ],
+   "present_name": "Patkai Range",
+   "location": "Arunachal Pradesh and Nagaland, on the India-Myanmar border",
+   "summary": "The hills Sukaphaa crossed in 1228.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukaphaa"
+   ]
+  },
+  {
+   "id": "pangsau-pass",
+   "name": "Pangsau Pass",
+   "kind": "Pass",
+   "also_called": [
+    "Pangsau",
+    "Pangsau Pass"
+   ],
+   "present_name": "Pangsau Pass",
+   "location": "Changlang district, Arunachal Pradesh, on the India-Myanmar border",
+   "summary": "The pass through which Sukaphaa crossed the Patkai in 1228.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukaphaa"
+   ]
+  },
+  {
+   "id": "khamjang",
+   "name": "Khamjang",
+   "kind": "River",
+   "also_called": [
+    "Khamjang River"
+   ],
+   "location": "Patkai foothills, near the border (exact place not established)",
+   "summary": "River crossed by Sukaphaa before the Nongnyang lake.",
+   "notes": "Present-day place not established in the sources read.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukaphaa"
+   ]
+  },
+  {
+   "id": "nongnyang",
+   "name": "Nongnyang",
+   "kind": "Lake",
+   "also_called": [
+    "Nangyang",
+    "Nongnyang Lake",
+    "Nongyang"
+   ],
+   "location": "Patkai foothills, Upper Assam (exact place not established)",
+   "summary": "Lake where Sukaphaa left a guard in 1227 and where the 1401 treaty fixed the Patkai boundary.",
+   "notes": "Present-day place not established in the sources read.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukaphaa"
+   ]
+  },
+  {
+   "id": "namrup",
+   "name": "Namrup",
+   "name_assamese": "নামৰূপ",
+   "kind": "Town",
+   "also_called": [
+    "Namrup"
+   ],
+   "present_name": "Namrup",
+   "location": "Dibrugarh district, Assam",
+   "summary": "Where Sukaphaa arrived in December 1228; later a refuge for Jayadhwaj Singha in 1662.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukaphaa"
+   ]
+  },
+  {
+   "id": "habung",
+   "name": "Habung",
+   "name_assamese": "হাবুং",
+   "kind": "Region",
+   "also_called": [
+    "Habung",
+    "Habung country"
+   ],
+   "present_name": "Dhakuakhana / Dhemaji area (sources differ)",
+   "location": "North bank of the Brahmaputra, Lakhimpur or Dhemaji district, Assam",
+   "summary": "An early Ahom base and a Chutia-ruled area; where Prince Sudang was raised in hiding.",
+   "notes": "The sources read give Dhakuakhana in one place and Dhemaji in another.",
+   "confidence": "low"
+  },
+  {
+   "id": "tipam",
+   "name": "Tipam",
+   "name_assamese": "টিপাম",
+   "kind": "Region",
+   "also_called": [
+    "Tipam",
+    "Tipam country",
+    "Tipam hills"
+   ],
+   "present_name": "Tipam area",
+   "location": "Tinsukia and Dibrugarh districts, Assam (approximate)",
+   "summary": "An early Tai settlement area; site of the battle at Kuhiarbari in 1401 or so.",
+   "notes": "Exact setting approximate.",
+   "confidence": "low"
+  },
+  {
+   "id": "simaluguri",
+   "name": "Simaluguri",
+   "kind": "Town",
+   "also_called": [
+    "Shimolguri",
+    "Simaluguri"
+   ],
+   "present_name": "Simaluguri",
+   "location": "Sivasagar district, Assam",
+   "summary": "An early Ahom settlement.",
+   "notes": "Sukaphaa's site is placed 'downstream of' present Simaluguri; not re-checked.",
+   "confidence": "low"
+  },
+  {
+   "id": "ligirigaon",
+   "name": "Ligirigaon",
+   "kind": "Settlement",
+   "also_called": [
+    "Ligirigaon",
+    "Song-Tak"
+   ],
+   "present_name": "Near Nazira",
+   "location": "Sivasagar district, Assam",
+   "summary": "An early Ahom base before Charaideo.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukaphaa"
+   ]
+  },
+  {
+   "id": "mungklang",
+   "name": "Mungklang",
+   "kind": "Settlement",
+   "also_called": [
+    "Mungklang",
+    "Abhoipur"
+   ],
+   "present_name": "Abhoipur (reported)",
+   "location": "Upper Assam (district not confirmed)",
+   "summary": "Sukaphaa's base in 1236.",
+   "notes": "Sources equate it with Abhoipur; not re-checked.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukaphaa"
+   ]
+  },
+  {
+   "id": "charaideo",
+   "name": "Charaideo",
+   "name_assamese": "চৰাইদেউ",
+   "kind": "Capital",
+   "also_called": [
+    "Che-Rai-Doi",
+    "Charai-deo",
+    "Charaideo hill"
+   ],
+   "present_name": "Charaideo",
+   "location": "Charaideo district (headquarters Sonari), Assam",
+   "summary": "The sacred first capital of the Ahoms, founded in 1253, and the site of the royal moidams.",
+   "notes": "Charaideo district was cut from Sivasagar in 2015.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Charaideo_district"
+   ]
+  },
+  {
+   "id": "charagua",
+   "name": "Charagua",
+   "kind": "Capital",
+   "also_called": [
+    "Charagua",
+    "Charaguwa"
+   ],
+   "location": "On the Dihing river, Upper Assam (exact place not established)",
+   "summary": "A later Ahom capital built on the Dihing.",
+   "notes": "Present-day place not established in the sources read.",
+   "confidence": "low"
+  },
+  {
+   "id": "garhgaon",
+   "name": "Garhgaon",
+   "name_assamese": "গড়গাঁও",
+   "kind": "Capital",
+   "also_called": [
+    "Gargaon",
+    "Garhgaon",
+    "Garhgaon Palace"
+   ],
+   "present_name": "Garhgaon",
+   "location": "Near Nazira, Sivasagar district, Assam",
+   "summary": "An Ahom capital from the 17th century, with the Kareng Ghar palace.",
+   "notes": "District placement not re-checked.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kareng-ghar",
+   "name": "Kareng Ghar",
+   "name_assamese": "কৰেং ঘৰ",
+   "kind": "Monument",
+   "also_called": [
+    "Kareng Ghar",
+    "Garhgaon Palace"
+   ],
+   "present_name": "Kareng Ghar",
+   "location": "Garhgaon, Sivasagar district, Assam",
+   "summary": "The seven-storey palace of the Ahom kings at Garhgaon, rebuilt in brick in the 18th century.",
+   "confidence": "high"
+  },
+  {
+   "id": "sivasagar",
+   "name": "Sivasagar",
+   "name_assamese": "শিৱসাগৰ",
+   "kind": "City",
+   "also_called": [
+    "Rangpur",
+    "Sibsagar",
+    "Sivpur",
+    "Sivpore",
+    "Rongpur"
+   ],
+   "present_name": "Sivasagar",
+   "location": "Sivasagar district, Assam",
+   "summary": "The Ahom capital Rangpur (1699 to 1788), renamed for the Sivasagar tank dug in 1733.",
+   "notes": "In Ahom scenes 'Rangpur' means this town. Kamata texts also mention Rangpur in present Bangladesh; see rangpur-bangladesh.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sivasagar"
+   ]
+  },
+  {
+   "id": "rang-ghar",
+   "name": "Rang Ghar",
+   "name_assamese": "ৰংঘৰ",
+   "kind": "Monument",
+   "also_called": [
+    "Rang Ghar",
+    "Rong Ghar",
+    "Royal sports pavilion"
+   ],
+   "present_name": "Rang Ghar",
+   "location": "Sivasagar, Assam",
+   "summary": "The royal sports pavilion of the Ahom kings, an early 18th-century amphitheatre.",
+   "confidence": "high"
+  },
+  {
+   "id": "joysagar",
+   "name": "Joysagar",
+   "name_assamese": "জয়সাগৰ",
+   "kind": "Tank",
+   "also_called": [
+    "Joysagar tank",
+    "Joysagar Pukhuri",
+    "Jaysagar"
+   ],
+   "present_name": "Joysagar",
+   "location": "Near Sivasagar, Assam",
+   "summary": "The great tank dug by Rudra Singha in memory of his mother Joymoti, with temples on its bank.",
+   "confidence": "high"
+  },
+  {
+   "id": "jorhat",
+   "name": "Jorhat",
+   "name_assamese": "জোৰহাট",
+   "kind": "City",
+   "also_called": [
+    "Jorhat",
+    "Jorhat (Ahom capital)"
+   ],
+   "present_name": "Jorhat",
+   "location": "Jorhat district, Assam",
+   "summary": "The last Ahom capital (from 1794), and the site of Lachit's maidam at Hoolungapara.",
+   "confidence": "high"
+  },
+  {
+   "id": "hoolungapara",
+   "name": "Hoolungapara",
+   "kind": "Monument",
+   "also_called": [
+    "Hoolungapara",
+    "Lachit Maidam",
+    "Holongapara"
+   ],
+   "present_name": "Hoolungapara",
+   "location": "Jorhat district, Assam",
+   "summary": "Site of the Lachit Maidam built by Udayaditya Singha.",
+   "confidence": "medium"
+  },
+  {
+   "id": "mahgarh",
+   "name": "Mahgarh",
+   "kind": "Fort",
+   "also_called": [
+    "Mahgarh",
+    "Mahgarh fort"
+   ],
+   "present_name": "Mahgarh",
+   "location": "Near Jorhat, Assam",
+   "summary": "Where Chandrakanta Singha camped and lost to the Burmese in April 1822.",
+   "notes": "Location given in the project's scene text.",
+   "confidence": "low"
+  },
+  {
+   "id": "majuli",
+   "name": "Majuli",
+   "name_assamese": "মাজুলী",
+   "kind": "Island",
+   "also_called": [
+    "Majuli",
+    "Majuli island",
+    "Majuli Island"
+   ],
+   "present_name": "Majuli",
+   "location": "Majuli district, Assam (river island)",
+   "summary": "The great river island of the Brahmaputra, a centre of Vaishnava satras.",
+   "confidence": "high"
+  },
+  {
+   "id": "sadiya",
+   "name": "Sadiya",
+   "name_assamese": "সদিয়া",
+   "kind": "Town",
+   "also_called": [
+    "Sadiya",
+    "Sadhaya",
+    "Sadhayapura",
+    "Sadhaya"
+   ],
+   "present_name": "Sadiya",
+   "location": "Tinsukia district, Assam",
+   "summary": "The seat of the Chutia kingdom, taken by the Ahoms in 1523-24.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chutia_kingdom"
+   ]
+  },
+  {
+   "id": "bengmara",
+   "name": "Bengmara",
+   "kind": "Region",
+   "also_called": [
+    "Bengmara",
+    "Bengmara (Moran country)"
+   ],
+   "present_name": "Tinsukia area",
+   "location": "Tinsukia district, Assam",
+   "summary": "The seat of the Moran and Matak chiefs during the Moamoria rebellions.",
+   "notes": "Identification with the Tinsukia area is approximate.",
+   "confidence": "low"
+  },
+  {
+   "id": "saraighat",
+   "name": "Saraighat",
+   "name_assamese": "সৰাইঘাট",
+   "kind": "Battle site",
+   "also_called": [
+    "Saraighat",
+    "Saraighat gorge",
+    "Saraighat Bridge"
+   ],
+   "present_name": "Saraighat",
+   "location": "Guwahati, Assam (the narrowest reach of the Brahmaputra)",
+   "summary": "Site of the great naval battle of March 1671.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Battle_of_Saraighat"
+   ]
+  },
+  {
+   "id": "itakhuli",
+   "name": "Itakhuli",
+   "name_assamese": "ইটাখুলী",
+   "kind": "Fort",
+   "also_called": [
+    "Itakhuli",
+    "Itakhuli fort",
+    "Itakhuli garrison"
+   ],
+   "present_name": "Itakhuli, Guwahati",
+   "location": "South bank of the Brahmaputra near Nilachal, Guwahati, Assam",
+   "summary": "The Mughal garrison fort retaken by the Ahoms (1667 in the project's scenes; August 1682 in other sources).",
+   "notes": "The date differs between sources; one gives the fort's site as the present Deputy Commissioner's bungalow.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Battle_of_Itakhuli"
+   ]
+  },
+  {
+   "id": "alaboi",
+   "name": "Alaboi",
+   "kind": "Battle site",
+   "also_called": [
+    "Alaboi",
+    "Alaboi hills",
+    "Alaboi plains"
+   ],
+   "location": "Near Dalbari, Assam (exact present place not established)",
+   "summary": "Site of the 1669 defeat in which about 10,000 Ahom soldiers died.",
+   "notes": "The sources read give only 'Alaboi plains' and 'Alaboi hills near Dalbari'.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Battle_of_Alaboi"
+   ]
+  },
+  {
+   "id": "kaliabor",
+   "name": "Kaliabor",
+   "name_assamese": "কলিয়াবৰ",
+   "kind": "Town",
+   "also_called": [
+    "Kaliabor",
+    "Kaliabar"
+   ],
+   "present_name": "Kaliabor",
+   "location": "Nagaon district, Assam",
+   "summary": "The seat of the Borphukan; Lachit died here in April 1672.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kaliabor"
+   ]
+  },
+  {
+   "id": "kajali",
+   "name": "Kajali",
+   "kind": "Fort",
+   "also_called": [
+    "Kajali",
+    "Kajalimukh",
+    "Kajali Chowki"
+   ],
+   "present_name": "Kajalimukh area",
+   "location": "Brahmaputra-Kolong confluence, Nagaon/Morigaon, Assam (approximate)",
+   "summary": "The first seat of the Borphukan and the Ahom outpost at the mouth of the Kolong; first Mughal foray in 1615.",
+   "notes": "Exact site approximate.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Borphukan"
+   ]
+  },
+  {
+   "id": "samdhara",
+   "name": "Samdhara",
+   "kind": "Fort",
+   "also_called": [
+    "Samdhara",
+    "Samdhara fort"
+   ],
+   "location": "Lower Assam (exact place not established)",
+   "summary": "Ahom fort where the Mughal fleet was destroyed in a night attack.",
+   "notes": "Present-day place not established in the sources read.",
+   "confidence": "low"
+  },
+  {
+   "id": "duimunisila",
+   "name": "Duimunisila",
+   "kind": "Fort",
+   "also_called": [
+    "Duimunisila",
+    "Dumunisila"
+   ],
+   "location": "Brahmaputra, Assam (exact place not established)",
+   "summary": "Place of the naval fight that stopped the Mughal advance in the early Mughal war.",
+   "notes": "Present-day place not established in the sources read.",
+   "confidence": "low"
+  },
+  {
+   "id": "ghilajharighat",
+   "name": "Ghilajharighat",
+   "kind": "Place",
+   "also_called": [
+    "Ghilajharighat"
+   ],
+   "location": "Upper Assam (exact place not established)",
+   "summary": "Where the Treaty of Ghilajharighat of January 1663 was signed after Mir Jumla's invasion.",
+   "notes": "Present-day place not established in the sources read.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Ghilajharighat"
+   ]
+  },
+  {
+   "id": "dhubri",
+   "name": "Dhubri",
+   "name_assamese": "ধুবুৰী",
+   "kind": "Town",
+   "also_called": [
+    "Dhubri",
+    "Dhuburi"
+   ],
+   "present_name": "Dhubri",
+   "location": "Dhubri district, Assam",
+   "summary": "A frontier town on the lower Brahmaputra, the western limit of Ahom control at times.",
+   "confidence": "high"
+  },
+  {
+   "id": "nagaon",
+   "name": "Nagaon",
+   "name_assamese": "নগাঁও",
+   "kind": "Town",
+   "also_called": [
+    "Nagaon",
+    "Nowgong"
+   ],
+   "present_name": "Nagaon",
+   "location": "Nagaon district, Assam",
+   "summary": "A central Assam town and district, where Iwaz Khalji's army was turned back in 1226-27 (per the Gachtal inscription).",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
+   ]
+  },
+  {
+   "id": "dimapur",
+   "name": "Dimapur",
+   "kind": "City",
+   "also_called": [
+    "Dimapur",
+    "Dimapur ruins",
+    "Rajbari Dimapur"
+   ],
+   "present_name": "Dimapur",
+   "location": "Nagaland",
+   "summary": "The Dimasa (Kachari) capital until the 16th century, with brick walls, tanks and carved pillars.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+   ]
+  },
+  {
+   "id": "maibong",
+   "name": "Maibong",
+   "kind": "Town",
+   "also_called": [
+    "Maibong"
+   ],
+   "present_name": "Maibong",
+   "location": "Dima Hasao district, Assam",
+   "summary": "The Dimasa capital after Dimapur was abandoned.",
+   "confidence": "high"
+  },
+  {
+   "id": "kamatapur",
+   "name": "Kamatapur",
+   "name_assamese": "কামতাপুৰ",
+   "kind": "Capital",
+   "also_called": [
+    "Kamatapura",
+    "Gosanimari",
+    "Kamata capital"
+   ],
+   "present_name": "Gosanimari",
+   "location": "Near Cooch Behar, West Bengal",
+   "summary": "The capital of Kamata from about 1257, and of the Khen kings; destroyed in 1498.",
+   "notes": "Sources place it near Cooch Behar or at Gosanimari.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+   ]
+  },
+  {
+   "id": "cooch-behar",
+   "name": "Cooch Behar",
+   "kind": "City",
+   "also_called": [
+    "Koch Bihar",
+    "Cooch Behar",
+    "Cooch-Bihar"
+   ],
+   "present_name": "Cooch Behar",
+   "location": "Cooch Behar district, West Bengal",
+   "summary": "The Koch Bihar capital in the 16th century, near the old Kamatapur.",
+   "confidence": "high"
+  },
+  {
+   "id": "gachtal",
+   "name": "Gachtal",
+   "kind": "Battle site",
+   "also_called": [
+    "Gachtal",
+    "Gachtal inscription"
+   ],
+   "present_name": "Near Nagaon",
+   "location": "Nagaon district, Assam",
+   "summary": "Findspot of an inscription of the Sultanate wars; where allies fought Sikandar Shah in 1362.",
+   "notes": "Standard identification as given in the sources read.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
+   ]
+  },
+  {
+   "id": "langamaguri",
+   "name": "Langamaguri",
+   "kind": "Settlement",
+   "also_called": [
+    "Langamaguri"
+   ],
+   "location": "North of Guwahati, Assam (exact place not established)",
+   "summary": "Where Chandivara's group of Kayastha and Brahmin families were settled by Kamata's kings.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Baro-Bhuyan"
+   ]
+  },
+  {
+   "id": "bordowa",
+   "name": "Bordowa",
+   "name_assamese": "বৰদোৱা",
+   "kind": "Village",
+   "also_called": [
+    "Bardowa",
+    "Batadrava",
+    "Bordowa",
+    "Alipukhuri"
+   ],
+   "present_name": "Bordowa",
+   "location": "Nagaon district, Assam",
+   "summary": "The village of Sankardev's birth and early life, in the Bhuyan country.",
+   "notes": "His birthplace is also given as Patekibari near Bhuragaon.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sankardev"
+   ]
+  },
+  {
+   "id": "hajo",
+   "name": "Hajo",
+   "name_assamese": "হাজো",
+   "kind": "Town",
+   "also_called": [
+    "Hajo"
+   ],
+   "present_name": "Hajo",
+   "location": "Kamrup district, Assam",
+   "summary": "The limit of Husain Shah's conquest by 1502; later a Koch seat.",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bengal%E2%80%93Kamata_War"
+   ]
+  },
+  {
+   "id": "rangpur-bangladesh",
+   "name": "Rangpur (Bangladesh)",
+   "kind": "City",
+   "present_name": "Rangpur",
+   "location": "Rangpur Division, Bangladesh",
+   "summary": "Held by Dharmanarayan after the split of Kamata; not the Ahom Rangpur (Sivasagar).",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+   ]
+  },
+  {
+   "id": "gaur",
+   "name": "Gaur",
+   "kind": "Capital",
+   "also_called": [
+    "Gauda",
+    "Gaur",
+    "Gaud",
+    "Lakhnauti",
+    "Lakhnawati"
+   ],
+   "present_name": "Gaur ruins",
+   "location": "Malda district, West Bengal, on the Bangladesh border",
+   "summary": "The capital of the Bengal Sultanate and earlier Gauda.",
+   "notes": "Lakhnauti was the Sultanate's regional centre near Gaur.",
+   "confidence": "high"
+  },
+  {
+   "id": "devkot",
+   "name": "Devkot",
+   "kind": "Town",
+   "also_called": [
+    "Devkot"
+   ],
+   "present_name": "Devkot",
+   "location": "Dakshin Dinajpur district, West Bengal",
+   "summary": "The Bengal Sultanate's frontier base from which Bakhtiyar Khalji set out in 1206.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bakhtiyar_Khalji%27s_Tibet_campaign"
+   ]
+  },
+  {
+   "id": "sonargaon",
+   "name": "Sonargaon",
+   "kind": "Capital",
+   "also_called": [
+    "Sonargaon",
+    "Sonargaon"
+   ],
+   "present_name": "Sonargaon",
+   "location": "Narayanganj district, Bangladesh",
+   "summary": "The eastern Bengal capital from which Bahadur Shah raided Kamata in 1321-22.",
+   "confidence": "high"
+  },
+  {
+   "id": "sylhet",
+   "name": "Sylhet",
+   "kind": "City",
+   "also_called": [
+    "Sylhet",
+    "Srihatta",
+    "Sribhumi"
+   ],
+   "present_name": "Sylhet",
+   "location": "Sylhet Division, Bangladesh",
+   "summary": "A region held by rulers claiming Kamarupa's legacy.",
+   "confidence": "high"
+  },
+  {
+   "id": "kanauj",
+   "name": "Kanauj",
+   "kind": "City",
+   "also_called": [
+    "Kannauj",
+    "Kanyakubja",
+    "Kanauj"
+   ],
+   "present_name": "Kannauj",
+   "location": "Uttar Pradesh, India",
+   "summary": "Harsha's capital, where the great assembly of c. 643 was held.",
+   "confidence": "high"
+  },
+  {
+   "id": "thanesar",
+   "name": "Thanesar",
+   "kind": "City",
+   "also_called": [
+    "Sthanvishvara",
+    "Thanesar"
+   ],
+   "present_name": "Thanesar",
+   "location": "Kurukshetra district, Haryana, India",
+   "summary": "The early seat of Harsha's family.",
+   "confidence": "high"
+  },
+  {
+   "id": "nalanda",
+   "name": "Nalanda",
+   "kind": "Monastery",
+   "also_called": [
+    "Nalanda Mahavihara",
+    "Nalanda"
+   ],
+   "present_name": "Nalanda",
+   "location": "Bihar, India",
+   "summary": "The Buddhist monastic university where Xuanzang studied.",
+   "confidence": "high"
+  },
+  {
+   "id": "allahabad-pillar",
+   "name": "Allahabad Pillar",
+   "kind": "Monument",
+   "also_called": [
+    "Prayaga Prasasti",
+    "Allahabad pillar inscription"
+   ],
+   "present_name": "Allahabad Pillar",
+   "location": "Prayagraj, Uttar Pradesh, India",
+   "summary": "Samudragupta's pillar inscription, the first written mention of Kamarupa.",
+   "confidence": "high"
+  },
+  {
+   "id": "aphsad",
+   "name": "Aphsad",
+   "kind": "Village",
+   "also_called": [
+    "Apsad",
+    "Aphsad",
+    "Aphsad inscription"
+   ],
+   "present_name": "Aphsad",
+   "location": "Nawada district, Bihar, India",
+   "summary": "Findspot of Adityasena's inscription, which records Mahasenagupta's defeat of Susthitavarman.",
+   "notes": "District not re-checked.",
+   "confidence": "medium"
+  },
+  {
+   "id": "malwa",
+   "name": "Malwa",
+   "kind": "Region",
+   "also_called": [
+    "Malwa"
+   ],
+   "present_name": "Malwa",
+   "location": "Madhya Pradesh, India",
+   "summary": "A Gupta-period kingdom whose raid on Kamarupa is noted in the Varman story.",
+   "confidence": "high"
+  },
+  {
+   "id": "delhi",
+   "name": "Delhi",
+   "kind": "City",
+   "also_called": [
+    "Delhi",
+    "Dilli",
+    "Delhi Sultanate"
+   ],
+   "present_name": "Delhi",
+   "location": "Delhi, India",
+   "summary": "The seat of the Sultanate and then the Mughal court.",
+   "confidence": "high"
+  },
+  {
+   "id": "kamauli",
+   "name": "Kamauli",
+   "kind": "Village",
+   "also_called": [
+    "Kamauli",
+    "Kamauli grant"
+   ],
+   "present_name": "Kamauli",
+   "location": "Near Varanasi, Uttar Pradesh, India",
+   "summary": "Findspot of Vaidyadeva's copper-plate grant.",
+   "notes": "Standard identification; not re-checked here.",
+   "confidence": "medium"
+  },
+  {
+   "id": "ava",
+   "name": "Ava",
+   "kind": "Capital",
+   "also_called": [
+    "Ava",
+    "Inwa",
+    "Amarapura"
+   ],
+   "present_name": "Inwa",
+   "location": "Mandalay Region, Myanmar",
+   "summary": "The Burmese capital area that sent armies into Assam in 1817-1826.",
+   "confidence": "high"
+  },
+  {
+   "id": "yandabo",
+   "name": "Yandabo",
+   "kind": "Village",
+   "also_called": [
+    "Yandabo",
+    "Yandaboo"
+   ],
+   "present_name": "Yandabo",
+   "location": "Magway Region, Myanmar",
+   "summary": "Where the Treaty of Yandabo (1826) ended the First Anglo-Burmese War and Burmese rule in Assam.",
+   "confidence": "high"
   }
  ]
 }
