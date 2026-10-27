@@ -2856,7 +2856,7 @@
        "sort_year": 1228,
        "role": "King of Kamata",
        "summary": "Founder of the Kamata kingdom. Took the throne in 1228 as a vassal of Delhi, then stopped paying tribute; captured and executed Yuzbak in 1257 and moved the capital from Kamarupanagara to Kamatapur after that.",
-       "notes": "Heritage University paper gives 1228–1265. Control over lands east of the Manas was loose. The reorganisation into the Kamata state is dated c. 1250–1270. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/sandhya/local-scene-references.md.",
+       "notes": "Heritage University paper gives 1228–1265. Control over lands east of the Manas was loose. The reorganisation into the Kamata state is dated c. 1250–1270. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/sandhya/local-scene-references.md. Current sheet approved 27 October 2026. Appearance and clothing are artistic choices, not authenticated likeness or ethnic evidence. Earlier image retained on disk as an older version.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -2868,7 +2868,7 @@
        "character_sheets": [
         {
          "kind": "turnaround",
-         "caption": "Sandhya (Kamateswar), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "caption": "Sandhya, approved eight-view reconstruction, user-directed muted regional dress and interpretive likeness",
          "image": "media/characters/sandhya/turnaround-1.webp",
          "thumbnail": "media/characters/sandhya/thumb/turnaround-1.webp",
          "width": 1536,
@@ -2917,7 +2917,7 @@
        "sort_year": 1262,
        "role": "King of Kamata",
        "summary": "Early Kamata ruler listed between Sandhya and Rup Narayan; no dates or events are given.",
-       "notes": "Dated 1265–1285 in the Heritage University paper; no events are given.",
+       "notes": "Dated 1265–1285 in the Heritage University paper; no events are given. Current sheet approved 27 October 2026. Appearance and clothing are artistic choices, not authenticated likeness or ethnic evidence. Earlier image retained on disk as an older version.",
        "confidence": "low",
        "status": "researched",
        "sheet_status": "sheet",
@@ -2928,11 +2928,11 @@
        "character_sheets": [
         {
          "kind": "turnaround",
-         "caption": "Sindhu Rai, eight-view character sheet, modern artistic reconstruction, appearance and costume speculative",
+         "caption": "Sindhu Rai, approved eight-view reconstruction, interpretive family resemblance to Sandhya, user-directed eye shape and regional dress",
          "image": "media/characters/sindhu-rai/turnaround-1.webp",
          "thumbnail": "media/characters/sindhu-rai/thumb/turnaround-1.webp",
-         "width": 199,
-         "height": 149
+         "width": 1536,
+         "height": 1024
         }
        ]
       },
@@ -2963,13 +2963,23 @@
        "sort_year": 1300,
        "role": "King of Kamata",
        "summary": "Said to have founded a new ruling line by killing the Kameswar of Sandhya's line; his minister Pratapdhwaj later took power.",
-       "notes": "Dated 1300–1305 in the Heritage University paper.",
+       "notes": "Dated 1300–1305 in the Heritage University paper. Current sheet saved 27 October 2026; appearance and costume are artistic reconstructions, not authenticated likenesses or exact historical dress.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Kamata_kingdom",
         "https://heritageuniversityofkerala.com/JournalPDF/Volume11.2/70.pdf"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Singhadhwaj, eight-view artistic reconstruction, restrained Kamata court dress",
+         "image": "media/characters/singhadhwaj/turnaround-1.webp",
+         "thumbnail": "media/characters/singhadhwaj/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -2981,14 +2991,24 @@
        "sort_year": 1305,
        "role": "King of Kamata (minister who took the throne)",
        "summary": "Minister of Singhadhwaj who took the throne. Faced Ghiyasuddin Bahadur Shah's raid in 1321–22 with little success, and his reign overlaps the Ahom–Kamata war of about 1324.",
-       "notes": "Father of Durlabhnarayan. Dates 1305–1325 appear in two king lists.",
+       "notes": "Father of Durlabhnarayan. Dates 1305–1325 appear in two king lists. Current sheet saved 27 October 2026; appearance and costume are artistic reconstructions, not authenticated likenesses or exact historical dress.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Kamata_kingdom",
         "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam",
         "https://www.dimasathairili.com/2022/08/list-of-kamata-kings-and-rulers.html.html"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Pratapdhwaj, eight-view artistic reconstruction, refined Kamata court dress",
+         "image": "media/characters/pratapdhwaj/turnaround-1.webp",
+         "thumbnail": "media/characters/pratapdhwaj/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -3017,14 +3037,24 @@
        "sort_year": 1325,
        "role": "Kamata ruler",
        "summary": "Cousin of Pratapdhwaj who took power at his death; after a settlement with Durlabhnarayan he kept Rangpur and Mymensingh.",
-       "notes": "Dated 1325–1330 in one list and 1330–1350 in another that seems to conflate him with Durlabhnarayan.",
+       "notes": "Dated 1325–1330 in one list and 1330–1350 in another that seems to conflate him with Durlabhnarayan. Current sheet saved 27 October 2026; appearance and costume are artistic reconstructions, not authenticated likenesses or exact historical dress.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Kamata_kingdom",
         "https://www.dimasathairili.com/2022/08/list-of-kamata-kings-and-rulers.html.html",
         "https://heritageuniversityofkerala.com/JournalPDF/Volume11.2/70.pdf"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Dharmanarayan, eight-view artistic reconstruction, layered Kamata court dress",
+         "image": "media/characters/dharmanarayan/turnaround-1.webp",
+         "thumbnail": "media/characters/dharmanarayan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -3170,15 +3200,25 @@
        "sort_year": 1350,
        "role": "King of Kamata",
        "summary": "Kamata king weakened by Sikandar Shah's 1357–62 invasion; some historians say he and Mahamanikya resisted Sikandar Shah around 1362. A Bhuyan then took power.",
-       "notes": "Dated 1350–1365 in two lists; 1350–1385 in another.",
+       "notes": "Dated 1350–1365 in two lists; 1350–1385 in another. Current sheet saved 27 October 2026; appearance and costume are artistic reconstructions, not authenticated likenesses or exact historical dress.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Kamata_kingdom",
         "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam",
         "https://en.wikipedia.org/wiki/Mahamanikya",
         "https://www.dimasathairili.com/2022/08/list-of-kamata-kings-and-rulers.html.html"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Indranarayan, eight-view artistic reconstruction, richly woven Kamata court dress",
+         "image": "media/characters/indranarayan/turnaround-1.webp",
+         "thumbnail": "media/characters/indranarayan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -3546,9 +3586,19 @@
        "notes": "Possibly fled after the 1353 campaign against Ilyas Shah.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Baro-Bhuyan"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Candivara (Chandibar), eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/candivara/turnaround-1.webp",
+         "thumbnail": "media/characters/candivara/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -4118,10 +4168,20 @@
        "koch_branch": "Koch kingdom (undivided)",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Cooch_Behar_State",
         "https://www.royalark.net/India/cooch2.htm"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Hajo (Koch chief), eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/hajo-koch-chief/turnaround-1.webp",
+         "thumbnail": "media/characters/hajo-koch-chief/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
