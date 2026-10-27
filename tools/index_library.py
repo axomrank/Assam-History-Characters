@@ -12,6 +12,7 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
+PEOPLE = {r["id"] for r in csv.DictReader(open(ROOT / "data/assam_history.csv", encoding="utf-8-sig")) if r["type"] == "person"}
 IMG = {".png", ".jpg", ".jpeg", ".webp"}
 SKIP = {".git", "__pycache__", "assets", "tools"}
 
@@ -39,8 +40,9 @@ def classify(rel):
         era = p[2] if p[1] == "scenes" else ""
     elif top == "drafts":
         status = "draft"
-        kind = "character-sheet" if "sheets" in p or "supporting" in p else "scene"
-        subject = re.sub(r"[-_]?(v\d+|character-sheet).*", "", name)
+        person = len(p) > 3 and p[2] in PEOPLE   # drafts/<dynasty>/<person-id>/<file>: an older sheet of that person
+        kind = "character-sheet" if person or "sheets" in p or "supporting" in p else "scene"
+        subject = p[2] if person else re.sub(r"[-_]?(v\d+|character-sheet).*", "", name)
         era = p[1]
     elif top == "images":
         status = "reference" if p[1] in ("references", "photos") else "generated"
