@@ -6479,6 +6479,27 @@
          "main": true
         },
         {
+         "id": "DIMASA-03",
+         "title": "The Dimasa Kingdom Bows to the Koch",
+         "date_label": "1564",
+         "sort_year": 1564,
+         "era": "Neighbouring kingdoms (1520–1835)",
+         "collection": "Neighbouring kingdoms chronology",
+         "summary": "After Chilarai’s victories, the Dimasa kingdom becomes a tributary of the Koch kingdom.",
+         "people": [
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+         ],
+         "places": [
+          "maibong"
+         ],
+         "main": false
+        },
+        {
          "id": "KOCH-16",
          "title": "Chilarai at Sylhet",
          "date_label": "1560s",
@@ -7843,6 +7864,29 @@
          "width": 1536,
          "height": 1024
         }
+       ],
+       "scenes": [
+        {
+         "id": "DIMASA-01",
+         "title": "A Coin at Dimapur",
+         "date_label": "Saka 1442 (c. 1520)",
+         "sort_year": 1520,
+         "era": "Neighbouring kingdoms (1520–1835)",
+         "collection": "Neighbouring kingdoms chronology",
+         "summary": "A coin of Viravijay Narayan, probably Khorapha, struck at Dimapur, is the earliest direct evidence of the Dimasa kingdom.",
+         "people": [
+          "khorapha"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+         ],
+         "places": [
+          "dimapur"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -7926,6 +7970,26 @@
          "thumbnail": "media/characters/yasho-narayan/thumb/turnaround-1.webp",
          "width": 1536,
          "height": 1024
+        }
+       ],
+       "scenes": [
+        {
+         "id": "DIMASA-04",
+         "title": "Yasho Narayan Defeats the Jaintias at Dimarua",
+         "date_label": "c. 1583–1601",
+         "sort_year": 1590,
+         "era": "Neighbouring kingdoms (1520–1835)",
+         "collection": "Neighbouring kingdoms chronology",
+         "summary": "Yasho Narayan (Satrudaman), the strongest of the Dimasa kings, defeats the Jaintias at Dimarua.",
+         "people": [
+          "yasho-narayan"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+         ],
+         "main": true
         }
        ]
       },
@@ -8031,6 +8095,50 @@
          "thumbnail": "media/characters/govindachandra/thumb/turnaround-1.webp",
          "width": 1536,
          "height": 1024
+        }
+       ],
+       "scenes": [
+        {
+         "id": "DIMASA-06",
+         "title": "Govindachandra Restored by the British",
+         "date_label": "1826",
+         "sort_year": 1826,
+         "era": "Neighbouring kingdoms (1520–1835)",
+         "collection": "Neighbouring kingdoms chronology",
+         "summary": "After the Treaty of Yandabo the British restore Govindachandra to the Dimasa throne in Cachar.",
+         "people": [
+          "govindachandra"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+         ],
+         "places": [
+          "silchar"
+         ],
+         "main": true
+        },
+        {
+         "id": "DIMASA-07",
+         "title": "Cachar Annexed",
+         "date_label": "1832–1833",
+         "sort_year": 1832,
+         "era": "Neighbouring kingdoms (1520–1835)",
+         "collection": "Neighbouring kingdoms chronology",
+         "summary": "After Govindachandra’s death (1830) the British pension off Senapati Tularam and annex his hill region (1832), then Govindachandra’s plains as Cachar district (1833).",
+         "people": [
+          "govindachandra"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+         ],
+         "places": [
+          "silchar"
+         ],
+         "main": false
         }
        ]
       }
@@ -8184,6 +8292,27 @@
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-202.webp",
          "status": "illustrated",
          "main": false
+        },
+        {
+         "id": "MANIPUR-01",
+         "title": "The First Maha Ras Lila",
+         "date_label": "1777",
+         "sort_year": 1777,
+         "era": "Neighbouring kingdoms (1520–1835)",
+         "collection": "Neighbouring kingdoms chronology",
+         "summary": "At Bhagyachandra’s court the first Manipuri Maha Ras Lila is performed, the beginning of the classical Manipuri dance tradition.",
+         "people": [
+          "bhagyachandra"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhagyachandra"
+         ],
+         "places": [
+          "imphal"
+         ],
+         "main": true
         }
        ]
       },
@@ -8240,6 +8369,30 @@
          "thumbnail": "media/characters/gambhir-singha/thumb/turnaround-1.webp",
          "width": 1536,
          "height": 1024
+        }
+       ],
+       "scenes": [
+        {
+         "id": "MANIPUR-03",
+         "title": "Gambhir Singha Retakes Manipur",
+         "date_label": "1825",
+         "sort_year": 1825,
+         "era": "Neighbouring kingdoms (1520–1835)",
+         "collection": "Neighbouring kingdoms chronology",
+         "summary": "With British support in the first Anglo-Burmese war, Gambhir Singha drives the Burmese out and is restored as king of Manipur.",
+         "people": [
+          "gambhir-singha"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Manipur_(princely_state)",
+          "https://en.wikipedia.org/wiki/Bhagyachandra"
+         ],
+         "places": [
+          "imphal"
+         ],
+         "main": true
         }
        ]
       }
@@ -21347,6 +21500,26 @@
        "sheet_status": "none",
        "sources": [
         "https://en.wikipedia.org/wiki/Bhattadeva"
+       ],
+       "scenes": [
+        {
+         "id": "BHAKTI-05",
+         "title": "Bhattadev Writes Assamese Prose",
+         "date_label": "late 16th – early 17th century",
+         "sort_year": 1595,
+         "era": "Bhakti movement (1468–1700)",
+         "collection": "Bhakti chronology",
+         "summary": "Bhattadev renders the Bhagavata and the Gita into Assamese prose, among the earliest literary prose in a modern Indian language.",
+         "people": [
+          "bhattadev"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhattadeva"
+         ],
+         "main": true
+        }
        ]
       }
      ]
@@ -21412,6 +21585,47 @@
          "main": true
         },
         {
+         "id": "BHAKTI-01",
+         "title": "Sankardev Stages the Chihna Yatra",
+         "date_label": "late 15th century (traditional)",
+         "sort_year": 1468,
+         "era": "Bhakti movement (1468–1700)",
+         "collection": "Bhakti chronology",
+         "summary": "Young Sankardev stages a dance-drama, the Chihna Yatra, the first of the plays and performances that grow into Ankiya Naat and the satra theatre tradition.",
+         "people": [
+          "sankardev"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sankardev"
+         ],
+         "places": [
+          "bordowa"
+         ],
+         "main": true
+        },
+        {
+         "id": "BHAKTI-02",
+         "title": "Madhavdev Meets Sankardev",
+         "date_label": "1522 (traditional) or early 1530s",
+         "sort_year": 1522,
+         "era": "Bhakti movement (1468–1700)",
+         "collection": "Bhakti chronology",
+         "summary": "At Dhuwahat, after a long debate, Madhavdev accepts Sankardev as his guru and becomes his chief disciple.",
+         "people": [
+          "sankardev",
+          "madhavdev"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Madhavdev",
+          "https://en.wikipedia.org/wiki/Sankardev"
+         ],
+         "main": false
+        },
+        {
          "id": "AHOM-243",
          "title": "Execution of Hari and Sankardeva Leaves the Ahom Kingdom",
          "date_label": "c. 1540s",
@@ -21428,6 +21642,28 @@
          "status": "illustrated",
          "sources": [
           "https://en.wikipedia.org/wiki/Suklenmung"
+         ],
+         "main": true
+        },
+        {
+         "id": "BHAKTI-03",
+         "title": "The Prayer House at Patbausi",
+         "date_label": "after c. 1546",
+         "sort_year": 1550,
+         "era": "Bhakti movement (1468–1700)",
+         "collection": "Bhakti chronology",
+         "summary": "Settled at Patbausi near Barpeta in Koch territory, Sankardev gathers disciples around a prayer house, the pattern of the namghar and the satra.",
+         "people": [
+          "sankardev",
+          "madhavdev"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sankardev"
+         ],
+         "places": [
+          "barpeta"
          ],
          "main": true
         },
@@ -21579,7 +21815,31 @@
        "notes": "Dates from standard accounts; not checked against a page.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "BHAKTI-04",
+         "title": "Madhavdev Leads the Order",
+         "date_label": "late 16th century",
+         "sort_year": 1569,
+         "era": "Bhakti movement (1468–1700)",
+         "collection": "Bhakti chronology",
+         "summary": "After Sankardev’s death Madhavdev leads the Ekasarana order, while Damodardev’s followers form a separate branch, the start of the divisions (sanghati) of the movement.",
+         "people": [
+          "madhavdev",
+          "damodardev"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Madhavdev"
+         ],
+         "places": [
+          "barpeta"
+         ],
+         "main": false
+        }
+       ]
       },
       {
        "id": "madhavdev",
@@ -21596,6 +21856,72 @@
        "sheet_status": "none",
        "sources": [
         "https://en.wikipedia.org/wiki/Madhavdev"
+       ],
+       "scenes": [
+        {
+         "id": "BHAKTI-02",
+         "title": "Madhavdev Meets Sankardev",
+         "date_label": "1522 (traditional) or early 1530s",
+         "sort_year": 1522,
+         "era": "Bhakti movement (1468–1700)",
+         "collection": "Bhakti chronology",
+         "summary": "At Dhuwahat, after a long debate, Madhavdev accepts Sankardev as his guru and becomes his chief disciple.",
+         "people": [
+          "sankardev",
+          "madhavdev"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Madhavdev",
+          "https://en.wikipedia.org/wiki/Sankardev"
+         ],
+         "main": true
+        },
+        {
+         "id": "BHAKTI-03",
+         "title": "The Prayer House at Patbausi",
+         "date_label": "after c. 1546",
+         "sort_year": 1550,
+         "era": "Bhakti movement (1468–1700)",
+         "collection": "Bhakti chronology",
+         "summary": "Settled at Patbausi near Barpeta in Koch territory, Sankardev gathers disciples around a prayer house, the pattern of the namghar and the satra.",
+         "people": [
+          "sankardev",
+          "madhavdev"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sankardev"
+         ],
+         "places": [
+          "barpeta"
+         ],
+         "main": false
+        },
+        {
+         "id": "BHAKTI-04",
+         "title": "Madhavdev Leads the Order",
+         "date_label": "late 16th century",
+         "sort_year": 1569,
+         "era": "Bhakti movement (1468–1700)",
+         "collection": "Bhakti chronology",
+         "summary": "After Sankardev’s death Madhavdev leads the Ekasarana order, while Damodardev’s followers form a separate branch, the start of the divisions (sanghati) of the movement.",
+         "people": [
+          "madhavdev",
+          "damodardev"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Madhavdev"
+         ],
+         "places": [
+          "barpeta"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -21626,7 +21952,27 @@
        "notes": "Dates from memory of standard accounts; verify.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "BHAKTI-06",
+         "title": "Aniruddhadeva Founds the Moamara Satra",
+         "date_label": "c. 1600",
+         "sort_year": 1600,
+         "era": "Bhakti movement (1468–1700)",
+         "collection": "Bhakti chronology",
+         "summary": "Aniruddhadeva founds the Moamara satra, whose disciples, many of them Morans, later rise against the Ahom state in the Moamoria rebellion.",
+         "people": [
+          "aniruddhadeva"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Aniruddhadeva"
+         ],
+         "main": true
+        }
+       ]
       }
      ]
     },
@@ -21767,7 +22113,68 @@
        "role": "Entrepreneur and rebel",
        "summary": "Assamese entrepreneur who pioneered tea planting and was hanged for his part in the 1857 revolt.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "COL-01",
+         "title": "The Assam Tea Plant Shown to Robert Bruce",
+         "date_label": "1823",
+         "sort_year": 1823,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "Guided by Maniram Dewan, the Scottish trader Robert Bruce is shown the tea plant growing wild, used by the Singpho, in upper Assam.",
+         "people": [
+          "maniram-dewan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Maniram_Dewan",
+          "https://en.wikipedia.org/wiki/Assam_tea"
+         ],
+         "main": true
+        },
+        {
+         "id": "COL-02",
+         "title": "The Assam Company",
+         "date_label": "1839",
+         "sort_year": 1839,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "The Assam Company is formed to grow tea commercially; Maniram Dewan serves it before starting his own gardens.",
+         "people": [
+          "maniram-dewan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Assam_Company",
+          "https://en.wikipedia.org/wiki/Maniram_Dewan"
+         ],
+         "main": true
+        },
+        {
+         "id": "COL-04",
+         "title": "Maniram Dewan and Piyali Baruah Hanged",
+         "date_label": "26 February 1858",
+         "sort_year": 1858,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "For plotting a rising in 1857 to restore Ahom rule, Maniram Dewan and Piyali Baruah are hanged at Jorhat jail.",
+         "people": [
+          "maniram-dewan"
+         ],
+         "status": "planned",
+         "confidence": "high",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Maniram_Dewan"
+         ],
+         "places": [
+          "jorhat"
+         ],
+         "main": true
+        }
+       ]
       },
       {
        "id": "nathan-brown",
@@ -21789,6 +22196,28 @@
         }
        ],
        "scenes": [
+        {
+         "id": "COL-03",
+         "title": "Orunodoi, the First Assamese Magazine",
+         "date_label": "January 1846",
+         "sort_year": 1846,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "American Baptist missionaries at Sivasagar begin Orunodoi, the first Assamese magazine.",
+         "people": [
+          "nathan-brown",
+          "miles-bronson"
+         ],
+         "status": "planned",
+         "confidence": "high",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Orunodoi"
+         ],
+         "places": [
+          "sivasagar"
+         ],
+         "main": true
+        },
         {
          "id": "nathan-brown",
          "title": "Rev. Nathan Brown (Editor of Orunodoi)",
@@ -21829,6 +22258,28 @@
         }
        ],
        "scenes": [
+        {
+         "id": "COL-03",
+         "title": "Orunodoi, the First Assamese Magazine",
+         "date_label": "January 1846",
+         "sort_year": 1846,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "American Baptist missionaries at Sivasagar begin Orunodoi, the first Assamese magazine.",
+         "people": [
+          "nathan-brown",
+          "miles-bronson"
+         ],
+         "status": "planned",
+         "confidence": "high",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Orunodoi"
+         ],
+         "places": [
+          "sivasagar"
+         ],
+         "main": false
+        },
         {
          "id": "miles-bronson",
          "title": "Rev. Miles Bronson (Dictionary Compiler)",
@@ -22075,7 +22526,28 @@
        "role": "Writer, called Sahityarathi",
        "summary": "Pioneering writer and satirist who shaped modern Assamese literature.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "COL-08",
+         "title": "Jonaki",
+         "date_label": "1889",
+         "sort_year": 1889,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "Assamese students in Calcutta start the magazine Jonaki, opening the romantic age of modern Assamese literature.",
+         "people": [
+          "lakshminath-bezbaroa",
+          "hemchandra-goswami"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Jonaki"
+         ],
+         "main": true
+        }
+       ]
       },
       {
        "id": "padmanath-gohain-baruah",
@@ -22168,6 +22640,25 @@
        ],
        "scenes": [
         {
+         "id": "COL-08",
+         "title": "Jonaki",
+         "date_label": "1889",
+         "sort_year": 1889,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "Assamese students in Calcutta start the magazine Jonaki, opening the romantic age of modern Assamese literature.",
+         "people": [
+          "lakshminath-bezbaroa",
+          "hemchandra-goswami"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Jonaki"
+         ],
+         "main": false
+        },
+        {
          "id": "hemchandra-goswami-portrait",
          "title": "Hemchandra Goswami (Jonaki Era Pioneer)",
          "date_label": "AI illustration",
@@ -22209,7 +22700,30 @@
        "summary": "Veteran of the Quit India movement, killed at Behali in 1942.",
        "status": "seed",
        "approx_dates": true,
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "COL-15",
+         "title": "Bhogeswari Phukanani at Barhampur",
+         "date_label": "20 September 1942",
+         "sort_year": 1942,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "On the same day Bhogeswari Phukanani, a mother of eight, is shot while trying to raise the flag at Barhampur in Nagaon.",
+         "people": [
+          "bhogeswari-phukanani"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhogeswari_Phukanani"
+         ],
+         "places": [
+          "nagaon"
+         ],
+         "main": true
+        }
+       ]
       },
       {
        "id": "gopinath-bordoloi",
@@ -22220,7 +22734,27 @@
        "role": "First Chief Minister of Assam",
        "summary": "Led Assam's Congress ministry from 1946 and resisted its grouping into Pakistan.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "COL-17",
+         "title": "Bordoloi Refuses the Grouping",
+         "date_label": "1946",
+         "sort_year": 1946,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "Gopinath Bordoloi leads Assam’s resistance to the Cabinet Mission plan, which would have grouped Assam with Bengal.",
+         "people": [
+          "gopinath-bordoloi"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Gopinath_Bordoloi"
+         ],
+         "main": true
+        }
+       ]
       },
       {
        "id": "chandraprabha-saikiani",
@@ -22231,7 +22765,27 @@
        "role": "Social reformer",
        "summary": "Pioneer of women's education and organising in Assam.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "COL-12",
+         "title": "The Assam Women’s Association",
+         "date_label": "1926",
+         "sort_year": 1926,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "Chandraprabha Saikiani founds the Assam Pradeshik Mahila Samiti, the province’s women’s organisation.",
+         "people": [
+          "chandraprabha-saikiani"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chandraprabha_Saikiani"
+         ],
+         "main": true
+        }
+       ]
       },
       {
        "id": "jyotiprasad-agarwala",
@@ -22270,6 +22824,24 @@
         }
        ],
        "scenes": [
+        {
+         "id": "COL-13",
+         "title": "Joymoti, the First Assamese Film",
+         "date_label": "1935",
+         "sort_year": 1935,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "Jyotiprasad Agarwala makes Joymoti, the first Assamese feature film, telling the story of the Ahom princess (AHOM-174, 177, 281).",
+         "people": [
+          "jyotiprasad-agarwala"
+         ],
+         "status": "planned",
+         "confidence": "high",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Joymoti_(1935_film)"
+         ],
+         "main": true
+        },
         {
          "id": "jyotiprasad-agarwala-portrait",
          "title": "Rupkonwar Jyoti Prasad Agarwala (Portrait)",
@@ -22326,7 +22898,30 @@
        "role": "Freedom fighter",
        "summary": "Executed by the British in 1943 for the Sarupathar derailment.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "COL-16",
+         "title": "Kushal Konwar Hanged",
+         "date_label": "15 June 1943",
+         "sort_year": 1943,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "Blamed for the derailment of a military train at Sarupathar, the Gandhian Kushal Konwar is hanged at Jorhat jail.",
+         "people": [
+          "kushal-konwar"
+         ],
+         "status": "planned",
+         "confidence": "high",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kushal_Konwar"
+         ],
+         "places": [
+          "jorhat"
+         ],
+         "main": true
+        }
+       ]
       },
       {
        "id": "bishnu-rabha",
@@ -22444,7 +23039,27 @@
        "role": "Freedom fighter",
        "summary": "Young Quit India martyr shot while leading a procession to Gohpur police station.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "COL-14",
+         "title": "Kanaklata at Gohpur",
+         "date_label": "20 September 1942",
+         "sort_year": 1942,
+         "era": "Colonial Assam (1823–1947)",
+         "collection": "Colonial chronology",
+         "summary": "In the Quit India movement, seventeen-year-old Kanaklata Barua leads a procession to raise the national flag at the Gohpur police station and is shot dead.",
+         "people": [
+          "kanaklata-barua"
+         ],
+         "status": "planned",
+         "confidence": "high",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kanaklata_Barua"
+         ],
+         "main": true
+        }
+       ]
       }
      ]
     },
@@ -22576,7 +23191,30 @@
        "role": "Singer, composer and filmmaker",
        "summary": "Singer and composer whose songs made Assam's culture known across India.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "MOD-07",
+         "title": "Farewell to Bhupen Hazarika",
+         "date_label": "November 2011",
+         "sort_year": 2011,
+         "era": "Assam since independence (1947–2011)",
+         "collection": "Modern chronology",
+         "summary": "Vast crowds in Guwahati bid farewell to the singer and filmmaker Bhupen Hazarika.",
+         "people": [
+          "bhupen-hazarika"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhupen_Hazarika"
+         ],
+         "places": [
+          "guwahati"
+         ],
+         "main": true
+        }
+       ]
       },
       {
        "id": "bishnuram-medhi",
@@ -22598,7 +23236,27 @@
        "role": "President of India",
        "summary": "Assam politician who became the fifth President of India in 1974.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "MOD-04",
+         "title": "Fakhruddin Ali Ahmed Becomes President",
+         "date_label": "24 August 1974",
+         "sort_year": 1974,
+         "era": "Assam since independence (1947–2011)",
+         "collection": "Modern chronology",
+         "summary": "Fakhruddin Ali Ahmed of Assam is sworn in as the fifth President of India.",
+         "people": [
+          "fakhruddin-ali-ahmed"
+         ],
+         "status": "planned",
+         "confidence": "high",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Fakhruddin_Ali_Ahmed"
+         ],
+         "main": true
+        }
+       ]
       },
       {
        "id": "bimala-prasad-chaliha",
@@ -22609,7 +23267,27 @@
        "role": "Chief Minister of Assam",
        "summary": "Chief Minister of Assam from 1957 to 1970.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "MOD-02",
+         "title": "The Language Movement",
+         "date_label": "1960",
+         "sort_year": 1960,
+         "era": "Assam since independence (1947–2011)",
+         "collection": "Modern chronology",
+         "summary": "Assamese is made the official language of the state by the Official Language Act, after a year of agitation.",
+         "people": [
+          "bimala-prasad-chaliha"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Assam_Official_Language_Act,_1960"
+         ],
+         "main": false
+        }
+       ]
       },
       {
        "id": "hiteswar-saikia",
@@ -22631,7 +23309,48 @@
        "role": "Chief Minister of Assam",
        "summary": "Student leader of the Assam Movement who became Chief Minister at 33.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "none",
+       "scenes": [
+        {
+         "id": "MOD-05",
+         "title": "The Assam Movement",
+         "date_label": "1979–1985",
+         "sort_year": 1979,
+         "era": "Assam since independence (1947–2011)",
+         "collection": "Modern chronology",
+         "summary": "Students of AASU and others lead a six-year mass movement over immigration and the electoral rolls.",
+         "people": [
+          "prafulla-kumar-mahanta"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Assam_Movement"
+         ],
+         "places": [
+          "guwahati"
+         ],
+         "main": false
+        },
+        {
+         "id": "MOD-06",
+         "title": "The Assam Accord",
+         "date_label": "15 August 1985",
+         "sort_year": 1985,
+         "era": "Assam since independence (1947–2011)",
+         "collection": "Modern chronology",
+         "summary": "The Assam Accord is signed with the central government, ending the movement; Prafulla Kumar Mahanta becomes Chief Minister that December.",
+         "people": [
+          "prafulla-kumar-mahanta"
+         ],
+         "status": "planned",
+         "confidence": "high",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Assam_Accord"
+         ],
+         "main": true
+        }
+       ]
       },
       {
        "id": "tarun-gogoi",
@@ -22798,6 +23517,23 @@
    ]
   },
   {
+   "id": "DIMASA-02",
+   "title": "A New Capital at Maibong",
+   "date_label": "1558 or 1559",
+   "sort_year": 1558,
+   "era": "Neighbouring kingdoms (1520–1835)",
+   "collection": "Neighbouring kingdoms chronology",
+   "summary": "After a 22-year interregnum following the loss of Dimapur, Nirbhaya Narayana sets up the Dimasa capital at Maibong in the hills.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+   ],
+   "places": [
+    "maibong"
+   ]
+  },
+  {
    "id": "KOCH-18",
    "title": "The Koch Fleet Routed",
    "date_label": "1565",
@@ -22857,6 +23593,41 @@
    ]
   },
   {
+   "id": "DIMASA-05",
+   "title": "The Court Moves to Khaspur",
+   "date_label": "c. 1745",
+   "sort_year": 1745,
+   "era": "Neighbouring kingdoms (1520–1835)",
+   "collection": "Neighbouring kingdoms chronology",
+   "summary": "Koch rule at Khaspur in the Barak valley ends, the state merges with the Dimasa kingdom, and Khaspur becomes the Dimasa capital.",
+   "status": "planned",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+   ],
+   "places": [
+    "silchar"
+   ]
+  },
+  {
+   "id": "MANIPUR-02",
+   "title": "Manipur under Burmese Occupation",
+   "date_label": "1819–1825",
+   "sort_year": 1819,
+   "era": "Neighbouring kingdoms (1520–1835)",
+   "collection": "Neighbouring kingdoms chronology",
+   "summary": "Burmese armies occupy Manipur, and many Manipuris flee to Cachar and Sylhet.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Manipur_(princely_state)",
+    "https://en.wikipedia.org/wiki/Bhagyachandra"
+   ],
+   "places": [
+    "imphal"
+   ]
+  },
+  {
    "id": "AHOM-276",
    "title": "Gomdhar Konwar's Revolt",
    "date_label": "1828",
@@ -22874,6 +23645,160 @@
    "places": [
     "sivasagar",
     "jorhat"
+   ]
+  },
+  {
+   "id": "JAINTIA-01",
+   "title": "The Jaintia Kingdom Annexed",
+   "date_label": "1835",
+   "sort_year": 1835,
+   "era": "Neighbouring kingdoms (1520–1835)",
+   "collection": "Neighbouring kingdoms chronology",
+   "summary": "The British annex the Jaintia kingdom, ending its rule over the plains around Jaintiapur and the Jaintia hills.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jaintia_Kingdom"
+   ],
+   "places": [
+    "jaintiapur"
+   ]
+  },
+  {
+   "id": "COL-05",
+   "title": "Phulaguri Dhewa",
+   "date_label": "1861",
+   "sort_year": 1861,
+   "era": "Colonial Assam (1823–1947)",
+   "collection": "Colonial chronology",
+   "summary": "Peasants at Phulaguri in Nagaon rise against new taxes; police fire on the gathering, and leaders are hanged or deported.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Phulaguri_Dhewa",
+    "https://en.wikipedia.org/wiki/British_rule_in_Assam"
+   ],
+   "places": [
+    "nagaon"
+   ]
+  },
+  {
+   "id": "COL-06",
+   "title": "Assamese Restored in Schools and Courts",
+   "date_label": "1873",
+   "sort_year": 1873,
+   "era": "Colonial Assam (1823–1947)",
+   "collection": "Colonial chronology",
+   "summary": "After decades of Bengali as the official language, Assamese is restored in the schools and courts of Assam, a campaign begun by Anandaram Dhekial Phukan and the missionaries.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/British_rule_in_Assam"
+   ]
+  },
+  {
+   "id": "COL-07",
+   "title": "Assam Becomes a Province",
+   "date_label": "1874",
+   "sort_year": 1874,
+   "era": "Colonial Assam (1823–1947)",
+   "collection": "Colonial chronology",
+   "summary": "Assam is separated from Bengal as a Chief Commissioner’s province, with Sylhet and the hill districts.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/British_rule_in_Assam"
+   ]
+  },
+  {
+   "id": "COL-09",
+   "title": "Patharughat",
+   "date_label": "28 January 1894",
+   "sort_year": 1894,
+   "era": "Colonial Assam (1823–1947)",
+   "collection": "Colonial chronology",
+   "summary": "At Patharughat in Darrang, troops fire on peasants gathered to protest a steep rise in land revenue.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Darrang_district",
+    "https://en.wikipedia.org/wiki/British_rule_in_Assam"
+   ]
+  },
+  {
+   "id": "COL-10",
+   "title": "Eastern Bengal and Assam",
+   "date_label": "1905–1912",
+   "sort_year": 1905,
+   "era": "Colonial Assam (1823–1947)",
+   "collection": "Colonial chronology",
+   "summary": "The partition of Bengal joins Assam with eastern Bengal in a new province, undone in 1912.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Eastern_Bengal_and_Assam"
+   ]
+  },
+  {
+   "id": "COL-11",
+   "title": "Gandhi in Assam",
+   "date_label": "August 1921",
+   "sort_year": 1921,
+   "era": "Colonial Assam (1823–1947)",
+   "collection": "Colonial chronology",
+   "summary": "Gandhi tours Assam during the Non-Cooperation movement; foreign cloth is burnt and Assamese join the national movement in numbers.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/British_rule_in_Assam"
+   ],
+   "places": [
+    "guwahati"
+   ]
+  },
+  {
+   "id": "COL-18",
+   "title": "The Sylhet Referendum",
+   "date_label": "July 1947",
+   "sort_year": 1947,
+   "era": "Colonial Assam (1823–1947)",
+   "collection": "Colonial chronology",
+   "summary": "Sylhet votes to join East Pakistan, and Assam enters independence without it.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/1947_Sylhet_referendum"
+   ],
+   "places": [
+    "sylhet"
+   ]
+  },
+  {
+   "id": "MOD-01",
+   "title": "The Great Earthquake",
+   "date_label": "15 August 1950",
+   "sort_year": 1950,
+   "era": "Assam since independence (1947–2011)",
+   "collection": "Modern chronology",
+   "summary": "One of the strongest earthquakes on record strikes Assam and Tibet, changing rivers and burying land under sand.",
+   "status": "planned",
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/1950_Assam%E2%80%93Tibet_earthquake"
+   ]
+  },
+  {
+   "id": "MOD-03",
+   "title": "War Reaches Bomdila",
+   "date_label": "November 1962",
+   "sort_year": 1962,
+   "era": "Assam since independence (1947–2011)",
+   "collection": "Modern chronology",
+   "summary": "In the Sino-Indian war, Chinese forces take Bomdila; Tezpur is evacuated before the ceasefire.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sino-Indian_War"
    ]
   },
   {
