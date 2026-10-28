@@ -857,12 +857,22 @@
        "sort_year": 650,
        "role": "Last Varman ruler",
        "summary": "Named in some lists as the last ruler of the Varman line after Bhaskarvarman; his parentage is unknown. This is the row marked “Unknown” in the source CSV.",
-       "notes": "Sources disagree on the end of the dynasty (650 or 655 CE).",
+       "notes": "Sources disagree on the end of the dynasty (650 or 655 CE). Sheet completed 2026-10-28. Face, apparent age and dress are artistic interpretations using local dynasty or Sankardev clothing references, not authenticated historical appearance. Prompts: research/remaining-royals-poets/generation-2026-10-28.json.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Varman_dynasty"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Avantivarman, eight-view artistic reconstruction",
+         "image": "media/characters/avantivarman/turnaround-1.webp",
+         "thumbnail": "media/characters/avantivarman/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -5792,7 +5802,9 @@
           "biswa-singha",
           "sisu-koch"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-01.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-01.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Biswa_Singha"
@@ -5813,7 +5825,9 @@
          "people": [
           "biswa-singha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-02.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-02.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Biswa_Singha",
@@ -5835,7 +5849,9 @@
          "people": [
           "biswa-singha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-03.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-03.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Kamakhya_Temple"
@@ -5855,11 +5871,11 @@
          "collection": "Koch chronology",
          "summary": "Biswa Singha sends his sons Malladev (Nara Narayan) and Sukladhwaj (Chilarai) to study under Brahmananda at Varanasi, and brings priests from Kanauj, Mithila, Benaras and Puri.",
          "people": [
-          "biswa-singha",
-          "nara-narayan",
-          "chilarai"
+          "biswa-singha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-04.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-04.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Biswa_Singha"
@@ -5882,7 +5898,9 @@
           "biswa-singha",
           "ton-kham-borgohain"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-05.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-05.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts",
@@ -5902,10 +5920,11 @@
          "collection": "Koch chronology",
          "summary": "Biswa Singha advances into Ahom territory as far as Singari but gives up for lack of supplies. That winter he and his brother visit Suhungmung’s court.",
          "people": [
-          "biswa-singha",
-          "suhungmung"
+          "biswa-singha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-06.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-06.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts",
@@ -5984,7 +6003,9 @@
           "biswa-singha",
           "sisu-koch"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-01.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-01.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Biswa_Singha"
@@ -6029,30 +6050,6 @@
        ],
        "scenes": [
         {
-         "id": "KOCH-04",
-         "title": "Learned Brahmins Come to the Koch Court",
-         "date_label": "early 16th century",
-         "sort_year": 1525,
-         "era": "Koch kingdom (1515–1587)",
-         "collection": "Koch chronology",
-         "summary": "Biswa Singha sends his sons Malladev (Nara Narayan) and Sukladhwaj (Chilarai) to study under Brahmananda at Varanasi, and brings priests from Kanauj, Mithila, Benaras and Puri.",
-         "people": [
-          "biswa-singha",
-          "nara-narayan",
-          "chilarai"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Biswa_Singha"
-         ],
-         "places": [
-          "koch-kingdom",
-          "kanauj"
-         ],
-         "main": false
-        },
-        {
          "id": "KOCH-07",
          "title": "The Princes Return from Varanasi",
          "date_label": "1540",
@@ -6064,7 +6061,9 @@
           "nara-narayan",
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-07.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-07.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Nara_Narayan",
@@ -6074,51 +6073,6 @@
           "koch-kingdom"
          ],
          "main": true
-        },
-        {
-         "id": "KOCH-08",
-         "title": "Building the Gohain Kamal Ali",
-         "date_label": "completed 1547",
-         "sort_year": 1547,
-         "era": "Koch kingdom (1515–1587)",
-         "collection": "Koch chronology",
-         "summary": "An embanked road some 350 miles long is raised from Koch Bihar to Narayanpur for the war against the Ahoms; it carries the name of Gohain Kamal, Nara Narayan’s brother, and a fort is built at Narayanpur.",
-         "people": [
-          "gosain-kamal",
-          "nara-narayan"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts"
-         ],
-         "places": [
-          "narayanpur",
-          "cooch-behar"
-         ],
-         "main": false
-        },
-        {
-         "id": "KOCH-09",
-         "title": "Weaving the Vrindavani Vastra",
-         "date_label": "c. 1554",
-         "sort_year": 1554,
-         "era": "Koch kingdom (1515–1587)",
-         "collection": "Koch chronology",
-         "summary": "For Nara Narayan, master weavers at Tantikuchi near Barpeta, guided by Sankardev, weave a long silk cloth showing Krishna’s life in Vrindavan.",
-         "people": [
-          "sankardev",
-          "nara-narayan"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Sankardev"
-         ],
-         "places": [
-          "barpeta"
-         ],
-         "main": false
         },
         {
          "id": "KOCH-10",
@@ -6131,11 +6085,14 @@
          "people": [
           "nara-narayan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-10.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-10.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch_coinage",
-          "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts"
+          "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts",
+          "https://www.orientalnumismaticsociety.org/archive/IS_010.pdf"
          ],
          "places": [
           "koch-kingdom"
@@ -6155,7 +6112,9 @@
           "nara-narayan",
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-11.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-11.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Sankardev"
@@ -6199,10 +6158,13 @@
           "chilarai",
           "nara-narayan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-17.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-17.webp",
+         "status": "illustrated",
          "confidence": "high",
          "sources": [
-          "https://en.wikipedia.org/wiki/Kamakhya_Temple"
+          "https://en.wikipedia.org/wiki/Kamakhya_Temple",
+          "https://www.incredibleindia.gov.in/en/assam/guwahati/kamakhya-temple"
          ],
          "places": [
           "kamakhya",
@@ -6221,7 +6183,9 @@
          "people": [
           "nara-narayan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-23.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-23.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Nara_Narayan",
@@ -6243,11 +6207,14 @@
          "people": [
           "nara-narayan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-24.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-24.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Nara_Narayan",
-          "https://en.wikipedia.org/wiki/Rama_Saraswati"
+          "https://en.wikipedia.org/wiki/Rama_Saraswati",
+          "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300386740"
          ],
          "places": [
           "koch-kingdom"
@@ -6266,7 +6233,9 @@
           "nara-narayan",
           "raghudev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-25.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-25.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch_Hajo",
@@ -6314,30 +6283,6 @@
        ],
        "scenes": [
         {
-         "id": "KOCH-04",
-         "title": "Learned Brahmins Come to the Koch Court",
-         "date_label": "early 16th century",
-         "sort_year": 1525,
-         "era": "Koch kingdom (1515–1587)",
-         "collection": "Koch chronology",
-         "summary": "Biswa Singha sends his sons Malladev (Nara Narayan) and Sukladhwaj (Chilarai) to study under Brahmananda at Varanasi, and brings priests from Kanauj, Mithila, Benaras and Puri.",
-         "people": [
-          "biswa-singha",
-          "nara-narayan",
-          "chilarai"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Biswa_Singha"
-         ],
-         "places": [
-          "koch-kingdom",
-          "kanauj"
-         ],
-         "main": false
-        },
-        {
          "id": "KOCH-07",
          "title": "The Princes Return from Varanasi",
          "date_label": "1540",
@@ -6349,7 +6294,9 @@
           "nara-narayan",
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-07.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-07.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Nara_Narayan",
@@ -6390,7 +6337,9 @@
           "nara-narayan",
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-11.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-11.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Sankardev"
@@ -6433,7 +6382,9 @@
          "people": [
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-12.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-12.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch_dynasty"
@@ -6471,7 +6422,9 @@
          "people": [
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-13.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-13.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Chilarai"
@@ -6492,10 +6445,13 @@
          "people": [
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-14.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-14.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Chilarai"
+          "https://en.wikipedia.org/wiki/Chilarai",
+          "https://en.wikipedia.org/wiki/Nara_Narayan"
          ],
          "main": true
         },
@@ -6510,7 +6466,9 @@
          "people": [
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-15.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-15.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Chilarai"
@@ -6531,7 +6489,9 @@
          "people": [
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-16.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-16.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Chilarai"
@@ -6553,10 +6513,13 @@
           "chilarai",
           "nara-narayan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-17.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-17.webp",
+         "status": "illustrated",
          "confidence": "high",
          "sources": [
-          "https://en.wikipedia.org/wiki/Kamakhya_Temple"
+          "https://en.wikipedia.org/wiki/Kamakhya_Temple",
+          "https://www.incredibleindia.gov.in/en/assam/guwahati/kamakhya-temple"
          ],
          "places": [
           "kamakhya",
@@ -6575,7 +6538,9 @@
          "people": [
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-19.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-19.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.banglapedia.org/index.php/Sulaiman_Karrani",
@@ -6597,7 +6562,9 @@
          "people": [
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-22.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-22.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Chilarai"
@@ -6615,16 +6582,27 @@
        "sort_year": 1540,
        "role": "Koch prince and governor",
        "summary": "Step-brother of Nara Narayan; built the Gohain Kamal Ali road, governed Brahmapur (Khaspur) and opened the secret road for Chilarai's invasion of 1546.",
+       "notes": " Sheet completed 2026-10-28. Face, apparent age and dress are artistic interpretations using local dynasty or Sankardev clothing references, not authenticated historical appearance. Prompts: research/remaining-royals-poets/generation-2026-10-28.json.",
        "relation": "Son of Biswa Singha; first governor of Khaspur (Brahmapur)",
        "koch_no": 1,
        "koch_branch": "Khaspur kings",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Nara_Narayan",
         "https://en.wikipedia.org/wiki/Koch_dynasty",
         "https://en.wikipedia.org/wiki/Suklenmung"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Gosain Kamal (Kamal Narayan), eight-view artistic reconstruction",
+         "image": "media/characters/gosain-kamal/turnaround-1.webp",
+         "thumbnail": "media/characters/gosain-kamal/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -6636,10 +6614,11 @@
          "collection": "Koch chronology",
          "summary": "An embanked road some 350 miles long is raised from Koch Bihar to Narayanpur for the war against the Ahoms; it carries the name of Gohain Kamal, Nara Narayan’s brother, and a fort is built at Narayanpur.",
          "people": [
-          "gosain-kamal",
-          "nara-narayan"
+          "gosain-kamal"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-08.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-08.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts"
@@ -6702,7 +6681,9 @@
           "nara-narayan",
           "raghudev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-25.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-25.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch_Hajo",
@@ -6725,10 +6706,13 @@
          "people": [
           "raghudev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1581-1616-koch-hajo/HAJO-01.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1581-1616-koch-hajo/thumb/HAJO-01.webp",
+         "status": "illustrated",
          "confidence": "high",
          "sources": [
-          "https://en.wikipedia.org/wiki/Hayagriva_Madhava_Temple"
+          "https://en.wikipedia.org/wiki/Hayagriva_Madhava_Temple",
+          "https://asiguwahaticircle.gov.in/hayagriva%20madhava%20temple.html"
          ],
          "places": [
           "hajo",
@@ -6747,7 +6731,9 @@
          "people": [
           "raghudev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1581-1616-koch-hajo/HAJO-02.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1581-1616-koch-hajo/thumb/HAJO-02.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch_Hajo"
@@ -6768,7 +6754,9 @@
          "people": [
           "raghudev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1581-1616-koch-hajo/HAJO-03.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1581-1616-koch-hajo/thumb/HAJO-03.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch_Hajo"
@@ -6790,7 +6778,9 @@
          "people": [
           "raghudev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1581-1616-koch-hajo/HAJO-04.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1581-1616-koch-hajo/thumb/HAJO-04.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch_Hajo"
@@ -6799,30 +6789,6 @@
           "koch-hajo"
          ],
          "main": true
-        },
-        {
-         "id": "HAJO-05",
-         "title": "A Contested Throne",
-         "date_label": "1603",
-         "sort_year": 1603,
-         "era": "Koch Hajo (1581–1616)",
-         "collection": "Koch chronology",
-         "summary": "Raghudev dies and his son Parikshit Narayan takes the throne; another prince, Man Singha, takes refuge with the Ahoms at Namrup.",
-         "people": [
-          "raghudev",
-          "parikshit-narayan",
-          "man-singha-koch"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Koch_Hajo"
-         ],
-         "places": [
-          "koch-hajo",
-          "namrup"
-         ],
-         "main": false
         }
        ]
       },
@@ -6852,32 +6818,6 @@
          "thumbnail": "media/characters/man-singha-koch/thumb/turnaround-1.webp",
          "width": 1536,
          "height": 1024
-        }
-       ],
-       "scenes": [
-        {
-         "id": "HAJO-05",
-         "title": "A Contested Throne",
-         "date_label": "1603",
-         "sort_year": 1603,
-         "era": "Koch Hajo (1581–1616)",
-         "collection": "Koch chronology",
-         "summary": "Raghudev dies and his son Parikshit Narayan takes the throne; another prince, Man Singha, takes refuge with the Ahoms at Namrup.",
-         "people": [
-          "raghudev",
-          "parikshit-narayan",
-          "man-singha-koch"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Koch_Hajo"
-         ],
-         "places": [
-          "koch-hajo",
-          "namrup"
-         ],
-         "main": false
         }
        ]
       },
@@ -6922,11 +6862,11 @@
          "collection": "Koch chronology",
          "summary": "Raghudev dies and his son Parikshit Narayan takes the throne; another prince, Man Singha, takes refuge with the Ahoms at Namrup.",
          "people": [
-          "raghudev",
-          "parikshit-narayan",
-          "man-singha-koch"
+          "parikshit-narayan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1581-1616-koch-hajo/HAJO-05.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1581-1616-koch-hajo/thumb/HAJO-05.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch_Hajo"
@@ -6948,32 +6888,12 @@
          "people": [
           "parikshit-narayan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1581-1616-koch-hajo/HAJO-06.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1581-1616-koch-hajo/thumb/HAJO-06.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch_Hajo"
-         ],
-         "places": [
-          "koch-hajo"
-         ],
-         "main": true
-        },
-        {
-         "id": "HAJO-07",
-         "title": "The Mughal Fleet Sails from Dhaka",
-         "date_label": "July 1612",
-         "sort_year": 1612,
-         "era": "Koch Hajo (1581–1616)",
-         "collection": "Koch chronology",
-         "summary": "Allied with Lakshmi Narayan of Koch Bihar, the Mughal governor of Bengal sends an army and a river fleet from near Dhaka against Koch Hajo. By the end of the year the kingdom is occupied.",
-         "people": [
-          "parikshit-narayan"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Koch_Hajo",
-          "https://en.wikipedia.org/wiki/Koch_dynasty"
          ],
          "places": [
           "koch-hajo"
@@ -6989,14 +6909,16 @@
          "collection": "Koch chronology",
          "summary": "Driven back to Pandu near Guwahati, Parikshit Narayan surrenders and agrees to serve the Mughals, but dies before he can take up the post. His brother Balinarayan escapes to the Ahoms.",
          "people": [
-          "parikshit-narayan",
-          "balinarayan"
+          "parikshit-narayan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1581-1616-koch-hajo/HAJO-08.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1581-1616-koch-hajo/thumb/HAJO-08.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch_Hajo",
-          "https://en.wikipedia.org/wiki/Koch_dynasty"
+          "https://en.wikipedia.org/wiki/Koch_dynasty",
+          "https://en.banglapedia.org/index.php/Islam_Khan_Chisti"
          ],
          "places": [
           "pandu"
@@ -7014,41 +6936,26 @@
        "sort_year": 1615,
        "role": "Founder of Darrang",
        "summary": "Fled to the Ahoms in 1613; Pratap Singha made him tributary king of Darrang (between the Barnadi and Bharali) after the 1615 victory. Fought beside the Ahoms for two decades and was killed at Singri in 1638.",
-       "notes": "The article's infobox gives 1638 (1639).",
+       "notes": "The article's infobox gives 1638 (1639). Sheet completed 2026-10-28. Face, apparent age and dress are artistic interpretations using local dynasty or Sankardev clothing references, not authenticated historical appearance. Prompts: research/remaining-royals-poets/generation-2026-10-28.json.",
        "relation": "Son of Raghudev; brother of Parikshit",
        "koch_no": 1,
        "koch_branch": "Darrang kings",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Balinarayan",
         "https://en.wikipedia.org/wiki/Koch_Hajo",
         "https://en.wikipedia.org/wiki/Koch_dynasty"
        ],
-       "scenes": [
+       "character_sheets": [
         {
-         "id": "HAJO-08",
-         "title": "Parikshit Narayan Surrenders at Pandu",
-         "date_label": "1613–1614",
-         "sort_year": 1614,
-         "era": "Koch Hajo (1581–1616)",
-         "collection": "Koch chronology",
-         "summary": "Driven back to Pandu near Guwahati, Parikshit Narayan surrenders and agrees to serve the Mughals, but dies before he can take up the post. His brother Balinarayan escapes to the Ahoms.",
-         "people": [
-          "parikshit-narayan",
-          "balinarayan"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Koch_Hajo",
-          "https://en.wikipedia.org/wiki/Koch_dynasty"
-         ],
-         "places": [
-          "pandu"
-         ],
-         "main": false
+         "kind": "turnaround",
+         "caption": "Balinarayan (Dharma Narayan), eight-view artistic reconstruction",
+         "image": "media/characters/balinarayan/turnaround-1.webp",
+         "thumbnail": "media/characters/balinarayan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
         }
        ]
       }
@@ -7138,28 +7045,6 @@
           "sadiya"
          ],
          "main": false
-        },
-        {
-         "id": "CHUTIA-01",
-         "title": "A Land Grant at Sadhayapuri",
-         "date_label": "Saka 1314 (1392 CE)",
-         "sort_year": 1392,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "At Sadhayapuri the Chutia kings Nandi and Satyanarayana issue the Dhenukhana copper plate, a Sanskrit land grant and the earliest dated record of the kingdom.",
-         "people": [
-          "nandi-chutia",
-          "satyanarayana-chutia"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "places": [
-          "sadiya"
-         ],
-         "main": false
         }
        ]
       },
@@ -7239,12 +7124,13 @@
          "sort_year": 1392,
          "era": "Chutia kingdom (1350–1524)",
          "collection": "Chutia chronology",
-         "summary": "At Sadhayapuri the Chutia kings Nandi and Satyanarayana issue the Dhenukhana copper plate, a Sanskrit land grant and the earliest dated record of the kingdom.",
+         "summary": "At Sadhayapuri, Satyanarayana issues the Dhenukhana copper-plate land grant, naming his father Nandi. Dated 1392, it is among the earliest dated records of the Chutia kingdom.",
          "people": [
-          "nandi-chutia",
           "satyanarayana-chutia"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-01.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-01.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_Kingdom"
@@ -7265,7 +7151,9 @@
          "people": [
           "satyanarayana-chutia"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-02.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-02.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_Kingdom"
@@ -7315,7 +7203,9 @@
          "people": [
           "lakshminarayana-chutia"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-03.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-03.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_Kingdom"
@@ -7333,10 +7223,14 @@
          "people": [
           "lakshminarayana-chutia"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-04.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-04.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
-          "https://en.wikipedia.org/wiki/Bhismaknagar"
+          "https://en.wikipedia.org/wiki/Bhismaknagar",
+          "https://asiguwahaticircle.gov.in/bhismaknagar.html",
+          "https://roing.nic.in/tourist-place/bhismaknagar/"
          ],
          "places": [
           "dibang"
@@ -7383,7 +7277,9 @@
          "people": [
           "durlabhnarayana-chutia"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-05.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-05.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_Kingdom"
@@ -7433,7 +7329,9 @@
          "people": [
           "muktadharmanarayana"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-06.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-06.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Tamreswari_Temple",
@@ -7583,10 +7481,11 @@
          "collection": "Chutia chronology",
          "summary": "In a border dispute Dhirnarayan raises the Posola-garh stockade at Dikhowmukh; an Ahom force led by Suhungmung routs the Chutias.",
          "people": [
-          "dhirnarayan",
-          "suhungmung"
+          "dhirnarayan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-08.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-08.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_Kingdom"
@@ -7607,31 +7506,12 @@
          "people": [
           "dhirnarayan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-09.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-09.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "main": true
-        },
-        {
-         "id": "CHUTIA-10",
-         "title": "The Chutia Regalia Carried Away",
-         "date_label": "1523",
-         "sort_year": 1523,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "After the rout at the Dibru fort and the death of the Chutia king, the Ahoms carry off the royal heirlooms: the gold and silver cat (mekuri), the royal umbrella and the bedstead.",
-         "people": [
-          "dhirnarayan"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "places": [
-          "sadiya"
          ],
          "main": true
         },
@@ -7727,7 +7607,9 @@
          "people": [
           "sadhaknarayan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-13.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-13.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_Kingdom"
@@ -10899,28 +10781,6 @@
          "main": true
         },
         {
-         "id": "CHUTIA-08",
-         "title": "Dhirnarayan’s Stockade at Dikhowmukh",
-         "date_label": "1513",
-         "sort_year": 1513,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "In a border dispute Dhirnarayan raises the Posola-garh stockade at Dikhowmukh; an Ahom force led by Suhungmung routs the Chutias.",
-         "people": [
-          "dhirnarayan",
-          "suhungmung"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "places": [
-          "dikhowmukh"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-095",
          "title": "Ahom Vanguard Marches Against the Chutia Kingdom",
          "date_label": "1520",
@@ -11110,26 +10970,6 @@
           "maibong"
          ],
          "main": true
-        },
-        {
-         "id": "KOCH-06",
-         "title": "The March to Singari Turns Back",
-         "date_label": "1537",
-         "sort_year": 1537,
-         "era": "Koch kingdom (1515–1587)",
-         "collection": "Koch chronology",
-         "summary": "Biswa Singha advances into Ahom territory as far as Singari but gives up for lack of supplies. That winter he and his brother visit Suhungmung’s court.",
-         "people": [
-          "biswa-singha",
-          "suhungmung"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts",
-          "https://en.wikipedia.org/wiki/Biswa_Singha"
-         ],
-         "main": false
         },
         {
          "id": "AHOM-242",
@@ -17237,7 +17077,9 @@
           "biswa-singha",
           "ton-kham-borgohain"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-05.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-05.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts",
@@ -21257,12 +21099,22 @@
        "sort_year": 1300,
        "role": "Court poet of Kamata",
        "summary": "Counted among the first known Assamese writers, patron Durlabhnarayan. His Prahlada Charita is regarded as the earliest known Assamese poem.",
-       "notes": "No explicit dates in the source.",
+       "notes": "No explicit dates in the source. Sheet completed 2026-10-28. Face, apparent age and dress are artistic interpretations using local dynasty or Sankardev clothing references, not authenticated historical appearance. Prompts: research/remaining-royals-poets/generation-2026-10-28.json.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Hema_Saraswati"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Hema Saraswati, eight-view artistic reconstruction",
+         "image": "media/characters/hema-saraswati/turnaround-1.webp",
+         "thumbnail": "media/characters/hema-saraswati/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -21323,12 +21175,22 @@
        "sort_year": 1310,
        "role": "Court poet of Kamata",
        "summary": "Pre-Vaishnava Assamese poet; wrote Babruvahanar Yuddha.",
-       "notes": "Century from a category tag only.",
+       "notes": "Century from a category tag only. Sheet completed 2026-10-28. Face, apparent age and dress are artistic interpretations using local dynasty or Sankardev clothing references, not authenticated historical appearance. Prompts: research/remaining-royals-poets/generation-2026-10-28.json.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Harihara_Vipra"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Harihara Vipra, eight-view artistic reconstruction",
+         "image": "media/characters/harihara-vipra/turnaround-1.webp",
+         "thumbnail": "media/characters/harihara-vipra/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -21389,12 +21251,22 @@
        "sort_year": 1350,
        "role": "Poet",
        "summary": "Author of the Saptakanda Ramayana, regarded as the oldest rendering of the Ramayana into an Indo-Aryan language. Patron: Mahamanikya, a Kachari king.",
-       "notes": "Dated by a stone inscription equated with 1352.",
+       "notes": "Dated by a stone inscription equated with 1352. Sheet completed 2026-10-28. Face, apparent age and dress are artistic interpretations using local dynasty or Sankardev clothing references, not authenticated historical appearance. Prompts: research/remaining-royals-poets/generation-2026-10-28.json.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Madhava_Kandali"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Madhava Kandali, eight-view artistic reconstruction",
+         "image": "media/characters/madhava-kandali/turnaround-1.webp",
+         "thumbnail": "media/characters/madhava-kandali/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -21568,13 +21440,16 @@
          "collection": "Koch chronology",
          "summary": "For Nara Narayan, master weavers at Tantikuchi near Barpeta, guided by Sankardev, weave a long silk cloth showing Krishna’s life in Vrindavan.",
          "people": [
-          "sankardev",
-          "nara-narayan"
+          "sankardev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-09.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-09.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Sankardev"
+          "https://en.wikipedia.org/wiki/Sankardev",
+          "https://collections.lacma.org/object/69745",
+          "https://gujralfoundation.org/project/krishna-in-the-garden-of-assam/"
          ],
          "places": [
           "barpeta"
@@ -21594,7 +21469,9 @@
           "nara-narayan",
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-11.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-11.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Sankardev"
@@ -21615,7 +21492,9 @@
          "people": [
           "sankardev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-20.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-20.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Sankardev"
@@ -21819,7 +21698,9 @@
          "people": [
           "sati-sadhani"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-11.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-11.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Sati_Sadhani",
@@ -22866,8 +22747,30 @@
    "era": "Chutia kingdom (1350–1524)",
    "collection": "Chutia chronology",
    "summary": "Chutia blacksmiths, bell-metal workers and goldsmiths, and the salt springs at Borhat, make the kingdom one of the most productive of the valley.",
-   "status": "planned",
+   "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-07.webp",
+   "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-07.webp",
+   "status": "illustrated",
    "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chutia_Kingdom",
+    "https://or.niscpr.res.in/index.php/IJTK/article/download/3161/2524"
+   ],
+   "places": [
+    "sadiya"
+   ]
+  },
+  {
+   "id": "CHUTIA-10",
+   "title": "The Chutia Regalia Carried Away",
+   "date_label": "1523",
+   "sort_year": 1523,
+   "era": "Chutia kingdom (1350–1524)",
+   "collection": "Chutia chronology",
+   "summary": "After the rout at the Dibru fort and the death of the Chutia king, the Ahoms carry off the royal heirlooms: the gold and silver cat (mekuri), the royal umbrella and the bedstead.",
+   "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-10.webp",
+   "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-10.webp",
+   "status": "illustrated",
+   "confidence": "medium",
    "sources": [
     "https://en.wikipedia.org/wiki/Chutia_Kingdom"
    ],
@@ -22883,7 +22786,9 @@
    "era": "Chutia kingdom (1350–1524)",
    "collection": "Chutia chronology",
    "summary": "Brahmans, Kayasthas and artisans are moved from Sadiya to the Ahom capital; one account says some 3,000 blacksmiths were settled at Bosa and Ujoni. Chutia cannons and hand-guns (hiloi) pass to the Ahoms.",
-   "status": "planned",
+   "scene_image": "media/scenes/neighbours/1350-1524-chutia/CHUTIA-12.webp",
+   "scene_thumbnail": "media/scenes/neighbours/1350-1524-chutia/thumb/CHUTIA-12.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
     "https://en.wikipedia.org/wiki/Chutia_Kingdom"
@@ -22900,7 +22805,9 @@
    "era": "Koch kingdom (1515–1587)",
    "collection": "Koch chronology",
    "summary": "Rebuilt after the Treaty of Majuli, Ahom forces rout the Koch river fleet under Tepu Barua.",
-   "status": "planned",
+   "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-18.webp",
+   "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-18.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
     "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts"
@@ -22917,13 +22824,36 @@
    "era": "Koch kingdom (1515–1587)",
    "collection": "Koch chronology",
    "summary": "The last Koch expedition against the Ahoms is repulsed at the Dhansiri.",
-   "status": "planned",
+   "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-21.webp",
+   "scene_thumbnail": "media/scenes/western-assam/1515-1587-koch/thumb/KOCH-21.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
     "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts"
    ],
    "places": [
     "dhansiri"
+   ]
+  },
+  {
+   "id": "HAJO-07",
+   "title": "The Mughal Fleet Sails from Dhaka",
+   "date_label": "July 1612",
+   "sort_year": 1612,
+   "era": "Koch Hajo (1581–1616)",
+   "collection": "Koch chronology",
+   "summary": "Allied with Lakshmi Narayan of Koch Bihar, the Mughal governor of Bengal sends an army and a river fleet from near Dhaka against Koch Hajo. By the end of the year the kingdom is occupied.",
+   "scene_image": "media/scenes/western-assam/1581-1616-koch-hajo/HAJO-07.webp",
+   "scene_thumbnail": "media/scenes/western-assam/1581-1616-koch-hajo/thumb/HAJO-07.webp",
+   "status": "illustrated",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Koch_Hajo",
+    "https://en.wikipedia.org/wiki/Koch_dynasty",
+    "https://en.banglapedia.org/index.php/Islam_Khan_Chisti"
+   ],
+   "places": [
+    "koch-hajo"
    ]
   },
   {
