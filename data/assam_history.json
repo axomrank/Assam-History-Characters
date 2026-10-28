@@ -4635,7 +4635,8 @@
          "collection": "Kamarupa chronology",
          "summary": "At Devkot in March 1206, the Turkic general Bakhtiyar Khalji sets out toward Tibet with about 10,000 horsemen, led by the recently converted Mech tribal chief Ali Mech. He had invited the Rai of Kamrud to join; the Rai refused.",
          "people": [
-          "bakhtiyar-khalji"
+          "bakhtiyar-khalji",
+          "ali-mech"
          ],
          "scene_image": "media/scenes/western-assam/1100-1515-kamata/KAMATA-02.webp",
          "scene_thumbnail": "media/scenes/western-assam/1100-1515-kamata/thumb/KAMATA-02.webp",
@@ -5601,9 +5602,64 @@
     },
     {
      "name": "Koch kingdom (undivided)",
-     "start_year": 1440,
+     "start_year": 1206,
      "end_year": 1587,
      "characters": [
+      {
+       "id": "ali-mech",
+       "name": "Ali Mech",
+       "date_label": "fl. 1206",
+       "start_year": 1206,
+       "end_year": 1206,
+       "sort_year": 1206,
+       "role": "Mech chief, guide of Bakhtiyar Khalji",
+       "summary": "A Mech chief, recently converted to Islam, who guided Bakhtiyar Khalji’s army from Devkot toward Tibet in March 1206; the expedition was destroyed on its return.",
+       "notes": "Known from Minhaj’s Tabaqat-i Nasiri as relayed by later historians. Placed with the Koch group as a Mech figure of the western valley, three centuries before the Koch kingdom. Character sheet is a modern artistic reconstruction; clothing follows present-day Mech dress references, not 13th-century evidence.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.banglapedia.org/index.php/Bakhtiyar_Khalji"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Ali Mech, eight-view character sheet, modern artistic reconstruction",
+         "image": "media/characters/ali-mech/turnaround-1.webp",
+         "thumbnail": "media/characters/ali-mech/thumb/turnaround-1.webp",
+         "width": 1448,
+         "height": 1086
+        }
+       ],
+       "scenes": [
+        {
+         "id": "KAMATA-02",
+         "title": "Ali Mech Guides Bakhtiyar Khalji's Horsemen",
+         "date_label": "March 1206",
+         "sort_year": 1206,
+         "era": "Kamata and its neighbours (1100–1515)",
+         "collection": "Kamarupa chronology",
+         "summary": "At Devkot in March 1206, the Turkic general Bakhtiyar Khalji sets out toward Tibet with about 10,000 horsemen, led by the recently converted Mech tribal chief Ali Mech. He had invited the Rai of Kamrud to join; the Rai refused.",
+         "people": [
+          "bakhtiyar-khalji",
+          "ali-mech"
+         ],
+         "scene_image": "media/scenes/western-assam/1100-1515-kamata/KAMATA-02.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1100-1515-kamata/thumb/KAMATA-02.webp",
+         "status": "illustrated",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bakhtiyar_Khalji%27s_Tibet_campaign",
+          "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
+         ],
+         "places": [
+          "devkot",
+          "teesta"
+         ],
+         "main": true
+        }
+       ]
+      },
       {
        "id": "hajo-koch-chief",
        "name": "Hajo (Koch chief)",
