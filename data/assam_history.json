@@ -7286,11 +7286,22 @@
        "sort_year": 1405,
        "role": "Chutia king",
        "summary": "Chutia king known from sources dated 1392 and 1401.",
+       "notes": "Character sheet completed 2026-10-28 from the local Chutia community reference and individual design plan. Face, apparent age, colour, jewellery and exact garment construction are artistic interpretations, not authenticated historical appearance. See research/koch-chutia-1350-1616/chutia-sheets/eight-generation-final-2026-10-28.json.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Lakshminarayana (Dharmanarayana), realistic eight-view Chutia clothing interpretation, individual costume and face, no neck gamusa",
+         "image": "media/characters/lakshminarayana-chutia/turnaround-1.webp",
+         "thumbnail": "media/characters/lakshminarayana-chutia/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7343,12 +7354,22 @@
        "sort_year": 1428,
        "role": "Chutia king",
        "summary": "Chutia king known from a grant dated 1428.",
-       "notes": "Not the Kamata king of the same name.",
+       "notes": "Not the Kamata king of the same name. Character sheet completed 2026-10-28 from the local Chutia community reference and individual design plan. Face, apparent age, colour, jewellery and exact garment construction are artistic interpretations, not authenticated historical appearance. See research/koch-chutia-1350-1616/chutia-sheets/eight-generation-final-2026-10-28.json.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Durlabhnarayana (Chutia), realistic eight-view Chutia clothing interpretation, individual costume and face, no neck gamusa",
+         "image": "media/characters/durlabhnarayana-chutia/turnaround-1.webp",
+         "thumbnail": "media/characters/durlabhnarayana-chutia/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7383,11 +7404,22 @@
        "sort_year": 1442,
        "role": "Chutia king",
        "summary": "Known from an inscription dated 1442.",
+       "notes": "Character sheet completed 2026-10-28 from the local Chutia community reference and individual design plan. Face, apparent age, colour, jewellery and exact garment construction are artistic interpretations, not authenticated historical appearance. See research/koch-chutia-1350-1616/chutia-sheets/eight-generation-final-2026-10-28.json.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Muktadharmanarayana, realistic eight-view Chutia clothing interpretation, individual costume and face, no neck gamusa",
+         "image": "media/characters/muktadharmanarayana/turnaround-1.webp",
+         "thumbnail": "media/characters/muktadharmanarayana/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -7423,11 +7455,22 @@
        "sort_year": 1450,
        "role": "Chutia king",
        "summary": "Chutia king known without dates; the page notes a possible match with Yasanarayana of the Dhenukhana plate.",
+       "notes": "Character sheet completed 2026-10-28 from the local Chutia community reference and individual design plan. Face, apparent age, colour, jewellery and exact garment construction are artistic interpretations, not authenticated historical appearance. See research/koch-chutia-1350-1616/chutia-sheets/eight-generation-final-2026-10-28.json.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Pratyaksanarayana (Yasanarayana), realistic eight-view Chutia clothing interpretation, individual costume and face, no neck gamusa",
+         "image": "media/characters/pratyaksanarayana/turnaround-1.webp",
+         "thumbnail": "media/characters/pratyaksanarayana/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -7439,11 +7482,22 @@
        "sort_year": 1470,
        "role": "Chutia king",
        "summary": "Chutia king of the late 15th century; may be the Yasanarayana of the Dhenukhana plate.",
+       "notes": "Character sheet completed 2026-10-28 from the local Chutia community reference and individual design plan. Face, apparent age, colour, jewellery and exact garment construction are artistic interpretations, not authenticated historical appearance. See research/koch-chutia-1350-1616/chutia-sheets/eight-generation-final-2026-10-28.json.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Yasamanarayana, realistic eight-view Chutia clothing interpretation, individual costume and face, no neck gamusa",
+         "image": "media/characters/yasamanarayana/turnaround-1.webp",
+         "thumbnail": "media/characters/yasamanarayana/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -7455,11 +7509,22 @@
        "sort_year": 1490,
        "role": "Chutia king",
        "summary": "Chutia king listed before Dhirnarayan; no events are given.",
+       "notes": "Character sheet completed 2026-10-28 from the local Chutia community reference and individual design plan. Face, apparent age, colour, jewellery and exact garment construction are artistic interpretations, not authenticated historical appearance. See research/koch-chutia-1350-1616/chutia-sheets/eight-generation-final-2026-10-28.json.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Purandarnarayana, realistic eight-view Chutia clothing interpretation, individual costume and face, no neck gamusa",
+         "image": "media/characters/purandarnarayana/turnaround-1.webp",
+         "thumbnail": "media/characters/purandarnarayana/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -7606,11 +7671,22 @@
        "sort_year": 1522,
        "role": "Chutia minister",
        "summary": "A minister said to have been defeated alongside Dhirnarayan.",
+       "notes": "Character sheet completed 2026-10-28 from the local Chutia community reference and individual design plan. Face, apparent age, colour, jewellery and exact garment construction are artistic interpretations, not authenticated historical appearance. See research/koch-chutia-1350-1616/chutia-sheets/eight-generation-final-2026-10-28.json.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Kasitora, realistic eight-view Chutia clothing interpretation, individual costume and face, no neck gamusa",
+         "image": "media/characters/kasitora/turnaround-1.webp",
+         "thumbnail": "media/characters/kasitora/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -7622,11 +7698,22 @@
        "sort_year": 1523,
        "role": "Chutia prince",
        "summary": "Prince after the fall; accounts differ on whether he was deported to Darrang or killed.",
+       "notes": "Character sheet completed 2026-10-28 from the local Chutia community reference and individual design plan. Face, apparent age, colour, jewellery and exact garment construction are artistic interpretations, not authenticated historical appearance. See research/koch-chutia-1350-1616/chutia-sheets/eight-generation-final-2026-10-28.json.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Sadhaknarayan, realistic eight-view Chutia clothing interpretation, individual costume and face, no neck gamusa",
+         "image": "media/characters/sadhaknarayan/turnaround-1.webp",
+         "thumbnail": "media/characters/sadhaknarayan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -21678,12 +21765,22 @@
        "sort_year": 1187,
        "role": "Legendary Chutia king",
        "summary": "Figure of the Chutiyar Rajar Vamsavali (published 1850), a late manuscript that scholars treat as legendary; historians think it was composed in the early 19th century.",
-       "notes": "No historical standing; included because it appears in popular lists.",
+       "notes": "No historical standing; included because it appears in popular lists. Warrior character sheet created 2026-10-28 at the user’s request. Face, apparent age, clothing, jewellery and weapons are artistic interpretations, not historical evidence. See research/koch-chutia-1350-1616/chutia-sheets/birpal-warrior-2026-10-28.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Birpal, legendary Chutia warrior king, eight-view artistic interpretation with sword and shield",
+         "image": "media/characters/birpal/turnaround-1.webp",
+         "thumbnail": "media/characters/birpal/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
