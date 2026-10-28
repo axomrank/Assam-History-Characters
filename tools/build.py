@@ -94,8 +94,8 @@ def scene_year(r):
 
 
 def scene_order(scenes):
-    """Scenes in date order: the dated collections (eras, by the years in their group name) first, then the
-    undated gallery. An undated scene takes the year of the scene before it, so it stays where it was put."""
+    """Scenes in strict date order across all eras and collections (ties keep era order, then file order), then the
+    undated gallery. An undated scene takes the year of the scene before it in its era, so it stays where it was put."""
     def era_start(g):
         m = re.search(r"\((\d{3,4})", g or "")
         return int(m.group(1)) if m else None
@@ -104,7 +104,7 @@ def scene_order(scenes):
         start, y = era_start(r["group"]), scene_year(r)
         if y is None: y = last.get(r["group"])
         last[r["group"]] = y
-        keyed.append(((start is None, start or 0, y is None, y or 0, n), r))
+        keyed.append(((y is None and start is None, y if y is not None else (start or 0), start or 0, n), r))
     return [r for _, r in sorted(keyed, key=lambda k: k[0])]
 
 
