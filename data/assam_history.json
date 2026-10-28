@@ -5779,6 +5779,139 @@
           "barnadi"
          ],
          "main": true
+        },
+        {
+         "id": "KOCH-01",
+         "title": "Biswa Singha Counts His People",
+         "date_label": "c. 1515–1520",
+         "sort_year": 1516,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "After a census, Biswa Singha organises his fighting men in graded units under officers called Thakuria, Saikia, Hazari, Omra and Nawab, appoints twelve Karji ministers from Mech families, makes his brother Sisu yuvaraj and names a senapati.",
+         "people": [
+          "biswa-singha",
+          "sisu-koch"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Biswa_Singha"
+         ],
+         "places": [
+          "koch-kingdom"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-02",
+         "title": "The Court Moves to Hingulabas",
+         "date_label": "c. 1515–1530",
+         "sort_year": 1518,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "At his mother’s request Biswa Singha moves his seat from the Chikna hills to Hingulabas; Kamatapur later becomes the capital.",
+         "people": [
+          "biswa-singha"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Biswa_Singha",
+          "https://en.wikipedia.org/wiki/Koch_dynasty"
+         ],
+         "places": [
+          "koch-kingdom"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-03",
+         "title": "Biswa Singha Revives Worship at Kamakhya",
+         "date_label": "early 16th century",
+         "sort_year": 1520,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Biswa Singha is said to have found the ruined shrine on Nilachal hill and restored worship there.",
+         "people": [
+          "biswa-singha"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamakhya_Temple"
+         ],
+         "places": [
+          "kamakhya",
+          "nilachal"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-04",
+         "title": "Learned Brahmins Come to the Koch Court",
+         "date_label": "early 16th century",
+         "sort_year": 1525,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Biswa Singha sends his sons Malladev (Nara Narayan) and Sukladhwaj (Chilarai) to study under Brahmananda at Varanasi, and brings priests from Kanauj, Mithila, Benaras and Puri.",
+         "people": [
+          "biswa-singha",
+          "nara-narayan",
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Biswa_Singha"
+         ],
+         "places": [
+          "koch-kingdom",
+          "kanauj"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-05",
+         "title": "Biswa Singha Makes Peace with the Ahom Army",
+         "date_label": "c. 1532",
+         "sort_year": 1532,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Returning from chasing Turbak’s Bengal army to the Karatoya, the Ahom general Tonkham Borgohain meets Biswa Singha, who makes peace and agrees to send the Ahom court a yearly tribute of horses.",
+         "people": [
+          "biswa-singha",
+          "ton-kham-borgohain"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts",
+          "https://en.wikipedia.org/wiki/Biswa_Singha"
+         ],
+         "places": [
+          "karatoya"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-06",
+         "title": "The March to Singari Turns Back",
+         "date_label": "1537",
+         "sort_year": 1537,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Biswa Singha advances into Ahom territory as far as Singari but gives up for lack of supplies. That winter he and his brother visit Suhungmung’s court.",
+         "people": [
+          "biswa-singha",
+          "suhungmung"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts",
+          "https://en.wikipedia.org/wiki/Biswa_Singha"
+         ],
+         "main": true
         }
        ]
       },
@@ -5838,6 +5971,28 @@
           "barnadi"
          ],
          "main": false
+        },
+        {
+         "id": "KOCH-01",
+         "title": "Biswa Singha Counts His People",
+         "date_label": "c. 1515–1520",
+         "sort_year": 1516,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "After a census, Biswa Singha organises his fighting men in graded units under officers called Thakuria, Saikia, Hazari, Omra and Nawab, appoints twelve Karji ministers from Mech families, makes his brother Sisu yuvaraj and names a senapati.",
+         "people": [
+          "biswa-singha",
+          "sisu-koch"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Biswa_Singha"
+         ],
+         "places": [
+          "koch-kingdom"
+         ],
+         "main": false
         }
        ]
       },
@@ -5874,6 +6029,143 @@
        ],
        "scenes": [
         {
+         "id": "KOCH-04",
+         "title": "Learned Brahmins Come to the Koch Court",
+         "date_label": "early 16th century",
+         "sort_year": 1525,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Biswa Singha sends his sons Malladev (Nara Narayan) and Sukladhwaj (Chilarai) to study under Brahmananda at Varanasi, and brings priests from Kanauj, Mithila, Benaras and Puri.",
+         "people": [
+          "biswa-singha",
+          "nara-narayan",
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Biswa_Singha"
+         ],
+         "places": [
+          "koch-kingdom",
+          "kanauj"
+         ],
+         "main": false
+        },
+        {
+         "id": "KOCH-07",
+         "title": "The Princes Return from Varanasi",
+         "date_label": "1540",
+         "sort_year": 1540,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "After Biswa Singha’s death, Nara Narayan and Chilarai come back from Varanasi; Nara Narayan takes the throne, with Chilarai as his commander.",
+         "people": [
+          "nara-narayan",
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Nara_Narayan",
+          "https://en.wikipedia.org/wiki/Biswa_Singha"
+         ],
+         "places": [
+          "koch-kingdom"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-08",
+         "title": "Building the Gohain Kamal Ali",
+         "date_label": "completed 1547",
+         "sort_year": 1547,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "An embanked road some 350 miles long is raised from Koch Bihar to Narayanpur for the war against the Ahoms; it carries the name of Gohain Kamal, Nara Narayan’s brother, and a fort is built at Narayanpur.",
+         "people": [
+          "gosain-kamal",
+          "nara-narayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts"
+         ],
+         "places": [
+          "narayanpur",
+          "cooch-behar"
+         ],
+         "main": false
+        },
+        {
+         "id": "KOCH-09",
+         "title": "Weaving the Vrindavani Vastra",
+         "date_label": "c. 1554",
+         "sort_year": 1554,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "For Nara Narayan, master weavers at Tantikuchi near Barpeta, guided by Sankardev, weave a long silk cloth showing Krishna’s life in Vrindavan.",
+         "people": [
+          "sankardev",
+          "nara-narayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sankardev"
+         ],
+         "places": [
+          "barpeta"
+         ],
+         "main": false
+        },
+        {
+         "id": "KOCH-10",
+         "title": "The First Narayani Coins",
+         "date_label": "Saka 1477 (1555 CE)",
+         "sort_year": 1555,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Nara Narayan strikes silver coins in his own name, the Narayani, dated Saka 1477. The same year he writes to the Ahom king Sukhaamphaa proposing friendship and is rebuffed.",
+         "people": [
+          "nara-narayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_coinage",
+          "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts"
+         ],
+         "places": [
+          "koch-kingdom"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-11",
+         "title": "Sankardev Answers the Pundits",
+         "date_label": "1550s–1560s",
+         "sort_year": 1558,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Accused of spreading a new faith, Sankardev goes into hiding when Nara Narayan orders his arrest. Brought to court through Chilarai, he answers the pundits in debate; the king frees him and seats him near the throne.",
+         "people": [
+          "sankardev",
+          "nara-narayan",
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sankardev"
+         ],
+         "places": [
+          "cooch-behar"
+         ],
+         "main": false
+        },
+        {
          "id": "AHOM-113",
          "title": "Chilarai's Invasion of Garhgaon",
          "date_label": "1562–1563",
@@ -5892,6 +6184,97 @@
          "places": [
           "namrup",
           "garhgaon"
+         ],
+         "main": false
+        },
+        {
+         "id": "KOCH-17",
+         "title": "Meghamukdam’s Brick Dome at Kamakhya",
+         "date_label": "1565",
+         "sort_year": 1565,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "The Kamakhya temple is rebuilt under Chilarai’s supervision, as its inscription of 1565 records. After two failed attempts at a stone spire, the Koch artisan Meghamukdam raises a brick dome, the start of the ‘Nilachal’ temple type.",
+         "people": [
+          "chilarai",
+          "nara-narayan"
+         ],
+         "status": "planned",
+         "confidence": "high",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamakhya_Temple"
+         ],
+         "places": [
+          "kamakhya",
+          "nilachal"
+         ],
+         "main": false
+        },
+        {
+         "id": "KOCH-23",
+         "title": "An Edict for the Old Faiths",
+         "date_label": "16th century",
+         "sort_year": 1575,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Nara Narayan issues an edict recognising the religious practices of the Koch, Mech and Kachari peoples, alongside the Brahmanical order of his court.",
+         "people": [
+          "nara-narayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Nara_Narayan",
+          "https://en.wikipedia.org/wiki/Koch_dynasty"
+         ],
+         "places": [
+          "koch-kingdom"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-24",
+         "title": "The Epics in Assamese",
+         "date_label": "16th century",
+         "sort_year": 1576,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Nara Narayan commissions Assamese versions of the Bhagavad Gita, the Puranas and the Mahabharata. Rama Saraswati, remembered as ‘Axom Byas’, renders the Mahabharata.",
+         "people": [
+          "nara-narayan"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Nara_Narayan",
+          "https://en.wikipedia.org/wiki/Rama_Saraswati"
+         ],
+         "places": [
+          "koch-kingdom"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-25",
+         "title": "The Kingdom Divided",
+         "date_label": "1581",
+         "sort_year": 1581,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Nara Narayan makes his nephew Raghudev, Chilarai’s son, king of the eastern part at Barnagar near the Manas, paying tribute. The western part is to go to his own son Lakshmi Narayan.",
+         "people": [
+          "nara-narayan",
+          "raghudev"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_Hajo",
+          "https://en.wikipedia.org/wiki/Nara_Narayan"
+         ],
+         "places": [
+          "koch-hajo",
+          "manas"
          ],
          "main": false
         }
@@ -5931,6 +6314,53 @@
        ],
        "scenes": [
         {
+         "id": "KOCH-04",
+         "title": "Learned Brahmins Come to the Koch Court",
+         "date_label": "early 16th century",
+         "sort_year": 1525,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Biswa Singha sends his sons Malladev (Nara Narayan) and Sukladhwaj (Chilarai) to study under Brahmananda at Varanasi, and brings priests from Kanauj, Mithila, Benaras and Puri.",
+         "people": [
+          "biswa-singha",
+          "nara-narayan",
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Biswa_Singha"
+         ],
+         "places": [
+          "koch-kingdom",
+          "kanauj"
+         ],
+         "main": false
+        },
+        {
+         "id": "KOCH-07",
+         "title": "The Princes Return from Varanasi",
+         "date_label": "1540",
+         "sort_year": 1540,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "After Biswa Singha’s death, Nara Narayan and Chilarai come back from Varanasi; Nara Narayan takes the throne, with Chilarai as his commander.",
+         "people": [
+          "nara-narayan",
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Nara_Narayan",
+          "https://en.wikipedia.org/wiki/Biswa_Singha"
+         ],
+         "places": [
+          "koch-kingdom"
+         ],
+         "main": false
+        },
+        {
          "id": "AHOM-109",
          "title": "Battle of Pichala Against Koch Forces",
          "date_label": "1546–1547",
@@ -5945,6 +6375,29 @@
          "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-109.webp",
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-109.webp",
          "status": "illustrated",
+         "main": false
+        },
+        {
+         "id": "KOCH-11",
+         "title": "Sankardev Answers the Pundits",
+         "date_label": "1550s–1560s",
+         "sort_year": 1558,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Accused of spreading a new faith, Sankardev goes into hiding when Nara Narayan orders his arrest. Brought to court through Chilarai, he answers the pundits in debate; the king frees him and seats him near the throne.",
+         "people": [
+          "sankardev",
+          "nara-narayan",
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sankardev"
+         ],
+         "places": [
+          "cooch-behar"
+         ],
          "main": false
         },
         {
@@ -5970,6 +6423,25 @@
          "main": true
         },
         {
+         "id": "KOCH-12",
+         "title": "Chilarai Takes the Barak Valley",
+         "date_label": "1562",
+         "sort_year": 1562,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Chilarai wins the Barak valley from Tripura and sets up the outpost of Khaspur, which a step-brother’s line later governs.",
+         "people": [
+          "chilarai",
+          "udita-narayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_dynasty"
+         ],
+         "main": true
+        },
+        {
          "id": "AHOM-114",
          "title": "The Treaty of Majuli",
          "date_label": "1563",
@@ -5988,6 +6460,150 @@
           "majuli"
          ],
          "main": false
+        },
+        {
+         "id": "KOCH-13",
+         "title": "Manipur’s King Pays Tribute",
+         "date_label": "1560s",
+         "sort_year": 1563,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Ripu Singha of Manipur submits to Chilarai without a fight, paying silver, gold and elephants; a yearly tribute follows.",
+         "people": [
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chilarai"
+         ],
+         "places": [
+          "manipur"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-14",
+         "title": "The Battle at Langai",
+         "date_label": "1560s",
+         "sort_year": 1564,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "In the campaign against Tripura its king is killed in battle at Langai; his brother submits and rules under a yearly tribute.",
+         "people": [
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chilarai"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-15",
+         "title": "The Jaintia Prince Submits",
+         "date_label": "1560s",
+         "sort_year": 1564,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "The Jaintia king is killed fighting Chilarai’s army; his son submits and pays horses, coins and swords, with a yearly tribute.",
+         "people": [
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chilarai"
+         ],
+         "places": [
+          "jaintiapur"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-16",
+         "title": "Chilarai at Sylhet",
+         "date_label": "1560s",
+         "sort_year": 1565,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "After two days of fighting Chilarai kills the governor of Sylhet, and the governor’s brother pays a heavy tribute. On the way back he defeats the small chiefdom of Dimarua and imprisons its king, later releasing him.",
+         "people": [
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chilarai"
+         ],
+         "places": [
+          "sylhet"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-17",
+         "title": "Meghamukdam’s Brick Dome at Kamakhya",
+         "date_label": "1565",
+         "sort_year": 1565,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "The Kamakhya temple is rebuilt under Chilarai’s supervision, as its inscription of 1565 records. After two failed attempts at a stone spire, the Koch artisan Meghamukdam raises a brick dome, the start of the ‘Nilachal’ temple type.",
+         "people": [
+          "chilarai",
+          "nara-narayan"
+         ],
+         "status": "planned",
+         "confidence": "high",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Kamakhya_Temple"
+         ],
+         "places": [
+          "kamakhya",
+          "nilachal"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-19",
+         "title": "Chilarai Captured in Bengal",
+         "date_label": "1568",
+         "sort_year": 1568,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Chilarai invades the Bengal of Sulaiman Karrani; when its weapons run out his army is beaten and he is taken prisoner, through Kalapahar’s stratagem in some accounts. He is later set free.",
+         "people": [
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.banglapedia.org/index.php/Sulaiman_Karrani",
+          "https://en.wikipedia.org/wiki/Kalapahad"
+         ],
+         "places": [
+          "gaur"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-22",
+         "title": "Chilarai Dies on the Ganges",
+         "date_label": "1571",
+         "sort_year": 1571,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Chilarai, the ‘kite’ general named for the speed of his marches, dies of smallpox on the bank of the Ganges.",
+         "people": [
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chilarai"
+         ],
+         "main": true
         }
        ]
       }
@@ -6027,6 +6643,142 @@
          "width": 1536,
          "height": 1024
         }
+       ],
+       "scenes": [
+        {
+         "id": "KOCH-25",
+         "title": "The Kingdom Divided",
+         "date_label": "1581",
+         "sort_year": 1581,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Nara Narayan makes his nephew Raghudev, Chilarai’s son, king of the eastern part at Barnagar near the Manas, paying tribute. The western part is to go to his own son Lakshmi Narayan.",
+         "people": [
+          "nara-narayan",
+          "raghudev"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_Hajo",
+          "https://en.wikipedia.org/wiki/Nara_Narayan"
+         ],
+         "places": [
+          "koch-hajo",
+          "manas"
+         ],
+         "main": true
+        },
+        {
+         "id": "HAJO-01",
+         "title": "Raghudev Builds the Hayagriva Madhava Temple",
+         "date_label": "1583",
+         "sort_year": 1583,
+         "era": "Koch Hajo (1581–1616)",
+         "collection": "Koch chronology",
+         "summary": "On Manikut hill at Hajo, Raghudev completes the temple of Hayagriva Madhava, recorded in his inscription.",
+         "people": [
+          "raghudev"
+         ],
+         "status": "planned",
+         "confidence": "high",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Hayagriva_Madhava_Temple"
+         ],
+         "places": [
+          "hajo",
+          "hayagriva-madhava"
+         ],
+         "main": true
+        },
+        {
+         "id": "HAJO-02",
+         "title": "Raghudev Stops the Tribute",
+         "date_label": "1587",
+         "sort_year": 1587,
+         "era": "Koch Hajo (1581–1616)",
+         "collection": "Koch chronology",
+         "summary": "When Nara Narayan dies, Raghudev stops paying tribute and declares Koch Hajo independent.",
+         "people": [
+          "raghudev"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_Hajo"
+         ],
+         "places": [
+          "koch-hajo"
+         ],
+         "main": true
+        },
+        {
+         "id": "HAJO-03",
+         "title": "Raghudev and Isa Khan Strike Bahirbandh",
+         "date_label": "1596",
+         "sort_year": 1596,
+         "era": "Koch Hajo (1581–1616)",
+         "collection": "Koch chronology",
+         "summary": "Allied with Isa Khan, chief of the Bengal Bhuyans, Raghudev attacks Bahirbandh in Koch Bihar, and moves his capital from Barnagar to North Guwahati.",
+         "people": [
+          "raghudev"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_Hajo"
+         ],
+         "places": [
+          "north-guwahati",
+          "sonargaon"
+         ],
+         "main": true
+        },
+        {
+         "id": "HAJO-04",
+         "title": "Defeat and Recovery",
+         "date_label": "1597",
+         "sort_year": 1597,
+         "era": "Koch Hajo (1581–1616)",
+         "collection": "Koch chronology",
+         "summary": "In May a Koch Bihar and Mughal army defeats Raghudev. Later that year Isa Khan helps him win back his ground, routing the Mughals and killing their commander Durjan Singh.",
+         "people": [
+          "raghudev"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_Hajo"
+         ],
+         "places": [
+          "koch-hajo"
+         ],
+         "main": true
+        },
+        {
+         "id": "HAJO-05",
+         "title": "A Contested Throne",
+         "date_label": "1603",
+         "sort_year": 1603,
+         "era": "Koch Hajo (1581–1616)",
+         "collection": "Koch chronology",
+         "summary": "Raghudev dies and his son Parikshit Narayan takes the throne; another prince, Man Singha, takes refuge with the Ahoms at Namrup.",
+         "people": [
+          "raghudev",
+          "parikshit-narayan",
+          "man-singha-koch"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_Hajo"
+         ],
+         "places": [
+          "koch-hajo",
+          "namrup"
+         ],
+         "main": false
+        }
        ]
       },
       {
@@ -6055,6 +6807,32 @@
          "thumbnail": "media/characters/man-singha-koch/thumb/turnaround-1.webp",
          "width": 1536,
          "height": 1024
+        }
+       ],
+       "scenes": [
+        {
+         "id": "HAJO-05",
+         "title": "A Contested Throne",
+         "date_label": "1603",
+         "sort_year": 1603,
+         "era": "Koch Hajo (1581–1616)",
+         "collection": "Koch chronology",
+         "summary": "Raghudev dies and his son Parikshit Narayan takes the throne; another prince, Man Singha, takes refuge with the Ahoms at Namrup.",
+         "people": [
+          "raghudev",
+          "parikshit-narayan",
+          "man-singha-koch"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_Hajo"
+         ],
+         "places": [
+          "koch-hajo",
+          "namrup"
+         ],
+         "main": false
         }
        ]
       },
@@ -6088,6 +6866,98 @@
          "width": 1536,
          "height": 1024
         }
+       ],
+       "scenes": [
+        {
+         "id": "HAJO-05",
+         "title": "A Contested Throne",
+         "date_label": "1603",
+         "sort_year": 1603,
+         "era": "Koch Hajo (1581–1616)",
+         "collection": "Koch chronology",
+         "summary": "Raghudev dies and his son Parikshit Narayan takes the throne; another prince, Man Singha, takes refuge with the Ahoms at Namrup.",
+         "people": [
+          "raghudev",
+          "parikshit-narayan",
+          "man-singha-koch"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_Hajo"
+         ],
+         "places": [
+          "koch-hajo",
+          "namrup"
+         ],
+         "main": true
+        },
+        {
+         "id": "HAJO-06",
+         "title": "Parikshit Recovers the Royal Insignia",
+         "date_label": "1603–1608",
+         "sort_year": 1605,
+         "era": "Koch Hajo (1581–1616)",
+         "collection": "Koch chronology",
+         "summary": "Parikshit Narayan occupies Bahirbandh and recovers the royal insignia from Koch Bihar.",
+         "people": [
+          "parikshit-narayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_Hajo"
+         ],
+         "places": [
+          "koch-hajo"
+         ],
+         "main": true
+        },
+        {
+         "id": "HAJO-07",
+         "title": "The Mughal Fleet Sails from Dhaka",
+         "date_label": "July 1612",
+         "sort_year": 1612,
+         "era": "Koch Hajo (1581–1616)",
+         "collection": "Koch chronology",
+         "summary": "Allied with Lakshmi Narayan of Koch Bihar, the Mughal governor of Bengal sends an army and a river fleet from near Dhaka against Koch Hajo. By the end of the year the kingdom is occupied.",
+         "people": [
+          "parikshit-narayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_Hajo",
+          "https://en.wikipedia.org/wiki/Koch_dynasty"
+         ],
+         "places": [
+          "koch-hajo"
+         ],
+         "main": true
+        },
+        {
+         "id": "HAJO-08",
+         "title": "Parikshit Narayan Surrenders at Pandu",
+         "date_label": "1613–1614",
+         "sort_year": 1614,
+         "era": "Koch Hajo (1581–1616)",
+         "collection": "Koch chronology",
+         "summary": "Driven back to Pandu near Guwahati, Parikshit Narayan surrenders and agrees to serve the Mughals, but dies before he can take up the post. His brother Balinarayan escapes to the Ahoms.",
+         "people": [
+          "parikshit-narayan",
+          "balinarayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_Hajo",
+          "https://en.wikipedia.org/wiki/Koch_dynasty"
+         ],
+         "places": [
+          "pandu"
+         ],
+         "main": true
+        }
        ]
       }
      ]
@@ -6117,6 +6987,31 @@
         "https://en.wikipedia.org/wiki/Balinarayan",
         "https://en.wikipedia.org/wiki/Koch_Hajo",
         "https://en.wikipedia.org/wiki/Koch_dynasty"
+       ],
+       "scenes": [
+        {
+         "id": "HAJO-08",
+         "title": "Parikshit Narayan Surrenders at Pandu",
+         "date_label": "1613–1614",
+         "sort_year": 1614,
+         "era": "Koch Hajo (1581–1616)",
+         "collection": "Koch chronology",
+         "summary": "Driven back to Pandu near Guwahati, Parikshit Narayan surrenders and agrees to serve the Mughals, but dies before he can take up the post. His brother Balinarayan escapes to the Ahoms.",
+         "people": [
+          "parikshit-narayan",
+          "balinarayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_Hajo",
+          "https://en.wikipedia.org/wiki/Koch_dynasty"
+         ],
+         "places": [
+          "pandu"
+         ],
+         "main": false
+        }
        ]
       },
       {
@@ -6783,6 +7678,31 @@
         "https://en.wikipedia.org/wiki/Nara_Narayan",
         "https://en.wikipedia.org/wiki/Koch_dynasty",
         "https://en.wikipedia.org/wiki/Suklenmung"
+       ],
+       "scenes": [
+        {
+         "id": "KOCH-08",
+         "title": "Building the Gohain Kamal Ali",
+         "date_label": "completed 1547",
+         "sort_year": 1547,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "An embanked road some 350 miles long is raised from Koch Bihar to Narayanpur for the war against the Ahoms; it carries the name of Gohain Kamal, Nara Narayan’s brother, and a fort is built at Narayanpur.",
+         "people": [
+          "gosain-kamal",
+          "nara-narayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts"
+         ],
+         "places": [
+          "narayanpur",
+          "cooch-behar"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -6804,6 +7724,27 @@
        "sources": [
         "https://en.wikipedia.org/wiki/Koch_dynasty",
         "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+       ],
+       "scenes": [
+        {
+         "id": "KOCH-12",
+         "title": "Chilarai Takes the Barak Valley",
+         "date_label": "1562",
+         "sort_year": 1562,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Chilarai wins the Barak valley from Tripura and sets up the outpost of Khaspur, which a step-brother’s line later governs.",
+         "people": [
+          "chilarai",
+          "udita-narayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch_dynasty"
+         ],
+         "main": false
+        }
        ]
       },
       {
@@ -9465,6 +10406,28 @@
          "main": true
         },
         {
+         "id": "CHUTIA-08",
+         "title": "Dhirnarayan’s Stockade at Dikhowmukh",
+         "date_label": "1513",
+         "sort_year": 1513,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "In a border dispute Dhirnarayan raises the Posola-garh stockade at Dikhowmukh; an Ahom force led by Suhungmung routs the Chutias.",
+         "people": [
+          "dhirnarayan",
+          "suhungmung"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "dikhowmukh"
+         ],
+         "main": false
+        },
+        {
          "id": "AHOM-095",
          "title": "Ahom Vanguard Marches Against the Chutia Kingdom",
          "date_label": "1520",
@@ -9654,6 +10617,26 @@
           "maibong"
          ],
          "main": true
+        },
+        {
+         "id": "KOCH-06",
+         "title": "The March to Singari Turns Back",
+         "date_label": "1537",
+         "sort_year": 1537,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Biswa Singha advances into Ahom territory as far as Singari but gives up for lack of supplies. That winter he and his brother visit Suhungmung’s court.",
+         "people": [
+          "biswa-singha",
+          "suhungmung"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts",
+          "https://en.wikipedia.org/wiki/Biswa_Singha"
+         ],
+         "main": false
         },
         {
          "id": "AHOM-242",
@@ -15747,6 +16730,31 @@
          "width": 1536,
          "height": 1024
         }
+       ],
+       "scenes": [
+        {
+         "id": "KOCH-05",
+         "title": "Biswa Singha Makes Peace with the Ahom Army",
+         "date_label": "c. 1532",
+         "sort_year": 1532,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Returning from chasing Turbak’s Bengal army to the Karatoya, the Ahom general Tonkham Borgohain meets Biswa Singha, who makes peace and agrees to send the Ahom court a yearly tribute of horses.",
+         "people": [
+          "biswa-singha",
+          "ton-kham-borgohain"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts",
+          "https://en.wikipedia.org/wiki/Biswa_Singha"
+         ],
+         "places": [
+          "karatoya"
+         ],
+         "main": false
+        }
        ]
       },
       {
@@ -19814,6 +20822,28 @@
           "sadiya"
          ],
          "main": false
+        },
+        {
+         "id": "CHUTIA-01",
+         "title": "A Land Grant at Sadhayapuri",
+         "date_label": "Saka 1314 (1392 CE)",
+         "sort_year": 1392,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "At Sadhayapuri the Chutia kings Nandi and Satyanarayana issue the Dhenukhana copper plate, a Sanskrit land grant and the earliest dated record of the kingdom.",
+         "people": [
+          "nandi-chutia",
+          "satyanarayana-chutia"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": false
         }
        ]
       },
@@ -19885,6 +20915,49 @@
           "sadiya"
          ],
          "main": false
+        },
+        {
+         "id": "CHUTIA-01",
+         "title": "A Land Grant at Sadhayapuri",
+         "date_label": "Saka 1314 (1392 CE)",
+         "sort_year": 1392,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "At Sadhayapuri the Chutia kings Nandi and Satyanarayana issue the Dhenukhana copper plate, a Sanskrit land grant and the earliest dated record of the kingdom.",
+         "people": [
+          "nandi-chutia",
+          "satyanarayana-chutia"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": true
+        },
+        {
+         "id": "CHUTIA-02",
+         "title": "Vaishnava Brahmins at the Chutia Court",
+         "date_label": "late 14th century",
+         "sort_year": 1395,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Vaishnava Brahmins reach the Chutia court and compose genealogies linking its kings to Krishna’s family, while ranking them below themselves.",
+         "people": [
+          "satyanarayana-chutia"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": true
         }
        ]
       },
@@ -19902,6 +20975,47 @@
        "sheet_status": "none",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "scenes": [
+        {
+         "id": "CHUTIA-03",
+         "title": "Lakshminarayana’s Ghilamara Grant",
+         "date_label": "1401",
+         "sort_year": 1401,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Lakshminarayana issues a copper-plate land grant, later found at Ghilamara.",
+         "people": [
+          "lakshminarayana-chutia"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "main": true
+        },
+        {
+         "id": "CHUTIA-04",
+         "title": "The Brick Fort at Bhismaknagar",
+         "date_label": "early 15th century",
+         "sort_year": 1405,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "At the foot of the Mishmi hills a fortified city of fired brick and stone rises, with walls about 4.5 m high, a palace complex of three halls and several tanks. A brick bearing Lakshminarayana’s name suggests it was his capital.",
+         "people": [
+          "lakshminarayana-chutia"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhismaknagar"
+         ],
+         "places": [
+          "dibang"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -19919,6 +21033,29 @@
        "sheet_status": "none",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "scenes": [
+        {
+         "id": "CHUTIA-05",
+         "title": "Durlabhnarayana’s Grant at Sadiya",
+         "date_label": "Saka 1350 (1428 CE)",
+         "sort_year": 1428,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Durlabhnarayana issues the Sadiya-Chepakhowa copper-plate grant.",
+         "people": [
+          "durlabhnarayana-chutia"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -19935,6 +21072,30 @@
        "sheet_status": "none",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "scenes": [
+        {
+         "id": "CHUTIA-06",
+         "title": "A Brick Wall for Kechaikhati",
+         "date_label": "Saka 1364 (1442 CE)",
+         "sort_year": 1442,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Mukta Dharmanarayana, a Chutia prince, builds the brick wall of the shrine of the goddess Kechaikhati (Dikkaravasini) on the Paya river, served by Deori priests. A later copper roof gives the temple its name, Tamreswari.",
+         "people": [
+          "muktadharmanarayana"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Tamreswari_Temple",
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": true
+        }
        ]
       },
       {
@@ -20033,6 +21194,67 @@
        ],
        "scenes": [
         {
+         "id": "CHUTIA-08",
+         "title": "Dhirnarayan’s Stockade at Dikhowmukh",
+         "date_label": "1513",
+         "sort_year": 1513,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "In a border dispute Dhirnarayan raises the Posola-garh stockade at Dikhowmukh; an Ahom force led by Suhungmung routs the Chutias.",
+         "people": [
+          "dhirnarayan",
+          "suhungmung"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "dikhowmukh"
+         ],
+         "main": true
+        },
+        {
+         "id": "CHUTIA-09",
+         "title": "The Chutias Take Mungkhrang",
+         "date_label": "1520",
+         "sort_year": 1520,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Chutia forces attack the Ahom fort at Mungkhrang twice and take it on the second attempt, before the Ahoms win it back.",
+         "people": [
+          "dhirnarayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "main": true
+        },
+        {
+         "id": "CHUTIA-10",
+         "title": "The Chutia Regalia Carried Away",
+         "date_label": "1523",
+         "sort_year": 1523,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "After the rout at the Dibru fort and the death of the Chutia king, the Ahoms carry off the royal heirlooms: the gold and silver cat (mekuri), the royal umbrella and the bedstead.",
+         "people": [
+          "dhirnarayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": true
+        },
+        {
          "id": "AHOM-096",
          "title": "Annexation of the Chutia Kingdom",
          "date_label": "1523",
@@ -20089,6 +21311,26 @@
        "sheet_status": "none",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "scenes": [
+        {
+         "id": "CHUTIA-13",
+         "title": "Sadhaknarayan Sent to Darrang",
+         "date_label": "1524",
+         "sort_year": 1526,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Some sources say the Chutia prince Sadhaknarayan was deported to Darrang, where descendants are said to live at Geruwapara.",
+         "people": [
+          "sadhaknarayan"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "main": true
+        }
        ]
       }
      ]
@@ -20906,6 +22148,72 @@
          "main": true
         },
         {
+         "id": "KOCH-09",
+         "title": "Weaving the Vrindavani Vastra",
+         "date_label": "c. 1554",
+         "sort_year": 1554,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "For Nara Narayan, master weavers at Tantikuchi near Barpeta, guided by Sankardev, weave a long silk cloth showing Krishna’s life in Vrindavan.",
+         "people": [
+          "sankardev",
+          "nara-narayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sankardev"
+         ],
+         "places": [
+          "barpeta"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-11",
+         "title": "Sankardev Answers the Pundits",
+         "date_label": "1550s–1560s",
+         "sort_year": 1558,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Accused of spreading a new faith, Sankardev goes into hiding when Nara Narayan orders his arrest. Brought to court through Chilarai, he answers the pundits in debate; the king frees him and seats him near the throne.",
+         "people": [
+          "sankardev",
+          "nara-narayan",
+          "chilarai"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sankardev"
+         ],
+         "places": [
+          "cooch-behar"
+         ],
+         "main": true
+        },
+        {
+         "id": "KOCH-20",
+         "title": "Sankardev’s Last Days at Bheladonga",
+         "date_label": "1568 or 1569",
+         "sort_year": 1569,
+         "era": "Koch kingdom (1515–1587)",
+         "collection": "Koch chronology",
+         "summary": "Sankardev dies at Bheladonga near the Koch capital, having declined Nara Narayan’s request to become his disciple.",
+         "people": [
+          "sankardev"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sankardev"
+         ],
+         "places": [
+          "cooch-behar"
+         ],
+         "main": true
+        },
+        {
          "id": "srimanta-sankardev-portrait",
          "title": "Mahapurusha Srimanta Sankardev",
          "date_label": "AI illustration",
@@ -21086,6 +22394,28 @@
         }
        ],
        "scenes": [
+        {
+         "id": "CHUTIA-11",
+         "title": "Queen Sadhani",
+         "date_label": "1524 (tradition)",
+         "sort_year": 1524,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Tradition remembers the Chutia queen Sadhani as refusing to submit to the conquerors. The Ahom chronicles mention only a chief Chutia queen, Nang Lung or Bor Konwari, at the fall of Sadiya.",
+         "people": [
+          "sati-sadhani"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sati_Sadhani",
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": true
+        },
         {
          "id": "sati-sadhani-heroic",
          "title": "Birangana Sati Sadhani (Heroic Queen)",
@@ -22113,6 +23443,74 @@
    "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-060.webp",
    "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-060.webp",
    "status": "illustrated"
+  },
+  {
+   "id": "CHUTIA-07",
+   "title": "Smiths and Salt Wells of Sadiya",
+   "date_label": "15th century",
+   "sort_year": 1460,
+   "era": "Chutia kingdom (1350–1524)",
+   "collection": "Chutia chronology",
+   "summary": "Chutia blacksmiths, bell-metal workers and goldsmiths, and the salt springs at Borhat, make the kingdom one of the most productive of the valley.",
+   "status": "planned",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+   ],
+   "places": [
+    "sadiya"
+   ]
+  },
+  {
+   "id": "CHUTIA-12",
+   "title": "Artisans Taken to the Ahom Capital",
+   "date_label": "1524",
+   "sort_year": 1525,
+   "era": "Chutia kingdom (1350–1524)",
+   "collection": "Chutia chronology",
+   "summary": "Brahmans, Kayasthas and artisans are moved from Sadiya to the Ahom capital; one account says some 3,000 blacksmiths were settled at Bosa and Ujoni. Chutia cannons and hand-guns (hiloi) pass to the Ahoms.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+   ],
+   "places": [
+    "sadiya"
+   ]
+  },
+  {
+   "id": "KOCH-18",
+   "title": "The Koch Fleet Routed",
+   "date_label": "1565",
+   "sort_year": 1566,
+   "era": "Koch kingdom (1515–1587)",
+   "collection": "Koch chronology",
+   "summary": "Rebuilt after the Treaty of Majuli, Ahom forces rout the Koch river fleet under Tepu Barua.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts"
+   ],
+   "places": [
+    "brahmaputra"
+   ]
+  },
+  {
+   "id": "KOCH-21",
+   "title": "Turned Back at the Dhansiri",
+   "date_label": "December 1570 – January 1571",
+   "sort_year": 1570,
+   "era": "Koch kingdom (1515–1587)",
+   "collection": "Koch chronology",
+   "summary": "The last Koch expedition against the Ahoms is repulsed at the Dhansiri.",
+   "status": "planned",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Koch%E2%80%93Ahom_conflicts"
+   ],
+   "places": [
+    "dhansiri"
+   ]
   },
   {
    "id": "AHOM-276",
