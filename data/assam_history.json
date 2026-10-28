@@ -7079,7 +7079,7 @@
        "sort_year": 1350,
        "role": "Earliest attested Chutia king",
        "summary": "Ruled from Sadhayapura (Sadiya); known from a grant issued by his son Satyanarayana, who also names his mother Daivaki.",
-       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/nandi-chutia/local-scene-references.md.",
+       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/nandi-chutia/local-scene-references.md. Clothing remade 2026-10-28 following user-directed local Chutia man/woman sheets with restrained royal details and no neck gamusa. Present-day reference clothing and royal additions are artistic interpretation, not authenticated medieval dress. See research/koch-chutia-1350-1616/chutia-sheets/nandi-chutia-remake-2026-10-28.md.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -7089,7 +7089,7 @@
        "character_sheets": [
         {
          "kind": "turnaround",
-         "caption": "Nandi (Nandisvara), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "caption": "Nandi (Nandisvara), eight-view Chutia clothing interpretation, restrained royal details, no neck gamusa",
          "image": "media/characters/nandi-chutia/turnaround-1.webp",
          "thumbnail": "media/characters/nandi-chutia/thumb/turnaround-1.webp",
          "width": 1536,
@@ -7172,7 +7172,7 @@
        "sort_year": 1380,
        "role": "Chutia king",
        "summary": "Son of Nandi; ruled from Sadhayapura. A later Chutia king names Ratnanarayana, identified with him, as king of Kamatapura, which may show a link between Sadiya and Kamata.",
-       "notes": "The Ratnanarayana identification is a scholarly suggestion. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/satyanarayana-chutia/local-scene-references.md.",
+       "notes": "The Ratnanarayana identification is a scholarly suggestion. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/satyanarayana-chutia/local-scene-references.md. Clothing remade 2026-10-28 following user-directed local Chutia man/woman sheets with restrained royal details and no neck gamusa. Present-day reference clothing and royal additions are artistic interpretation, not authenticated medieval dress. See research/koch-chutia-1350-1616/chutia-sheets/satyanarayana-chutia-remake-2026-10-28.md.",
        "confidence": "medium",
        "status": "researched",
        "sheet_status": "sheet",
@@ -7182,7 +7182,7 @@
        "character_sheets": [
         {
          "kind": "turnaround",
-         "caption": "Satyanarayana (Ratnanarayana), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "caption": "Satyanarayana (Ratnanarayana), eight-view Chutia clothing interpretation, restrained royal details, no neck gamusa",
          "image": "media/characters/satyanarayana-chutia/turnaround-1.webp",
          "thumbnail": "media/characters/satyanarayana-chutia/thumb/turnaround-1.webp",
          "width": 1536,
@@ -7471,7 +7471,7 @@
        "sort_year": 1510,
        "role": "Last Chutia king",
        "summary": "Built a fort at Dikhowmukh in 1513, was routed attacking the Ahom fort at Dibru in 1523, and was killed, ending the kingdom in 1523–24.",
-       "notes": "Known from an inscription dated 1522. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/dhirnarayan/local-scene-references.md.",
+       "notes": "Known from an inscription dated 1522. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/dhirnarayan/local-scene-references.md. Clothing remade 2026-10-28 following user-directed local Chutia man/woman sheets with restrained royal details and no neck gamusa. Present-day reference clothing and royal additions are artistic interpretation, not authenticated medieval dress. See research/koch-chutia-1350-1616/chutia-sheets/dhirnarayan-remake-2026-10-28.md.",
        "confidence": "high",
        "status": "researched",
        "sheet_status": "sheet",
@@ -7482,7 +7482,7 @@
        "character_sheets": [
         {
          "kind": "turnaround",
-         "caption": "Dhirnarayan, realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "caption": "Dhirnarayan, eight-view Chutia clothing interpretation, restrained royal details, no neck gamusa",
          "image": "media/characters/dhirnarayan/turnaround-1.webp",
          "thumbnail": "media/characters/dhirnarayan/thumb/turnaround-1.webp",
          "width": 1536,
@@ -7665,10 +7665,20 @@
        "sort_year": 1286,
        "role": "Kachari king",
        "summary": "Named in a popular king list as a Kachari ruler of the 13th–14th century; not found in the scholarly sources reviewed.",
-       "notes": "Treat as unverified.",
+       "notes": "Treat as unverified. Sheet created/remade 2026-10-28 using the local Dimasa man clothing sheet at the user’s request. Face, age, clothing and royal jewellery are artistic interpretations, not authenticated likenesses or historical royal dress. See research/dimasa/royal-sheets-final-2026-10-28.json.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none"
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bhopal (Kachari, traditional list), realistic eight-view Dimasa clothing interpretation, restrained royal details",
+         "image": "media/characters/bhopal-kachari/turnaround-1.webp",
+         "thumbnail": "media/characters/bhopal-kachari/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ]
       },
       {
        "id": "purandar-kachari",
@@ -7679,10 +7689,20 @@
        "sort_year": 1316,
        "role": "Kachari king",
        "summary": "Named in the same popular king list; unverified.",
-       "notes": "Not the Ahom king Purandar Singha.",
+       "notes": "Not the Ahom king Purandar Singha. Sheet created/remade 2026-10-28 using the local Dimasa man clothing sheet at the user’s request. Face, age, clothing and royal jewellery are artistic interpretations, not authenticated likenesses or historical royal dress. See research/dimasa/royal-sheets-final-2026-10-28.json.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none"
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Purandar (Kachari, traditional list), realistic eight-view Dimasa clothing interpretation, restrained royal details",
+         "image": "media/characters/purandar-kachari/turnaround-1.webp",
+         "thumbnail": "media/characters/purandar-kachari/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ]
       },
       {
        "id": "mahamanikya",
@@ -7693,14 +7713,24 @@
        "sort_year": 1330,
        "role": "Barahi (Kachari) king of the Kapili valley",
        "summary": "Ruled around Nagaon, Morigaon and Hojai; patron of the poet Madhava Kandali. A Hojai (Lanka) inscription dated 1352 records a land grant; some historians say he joined Kamata and the Bhuyans against Sikandar Shah around 1362.",
-       "notes": "Called Borahi-Kachari king Manikpha in one source; the lineage label varies.",
+       "notes": "Called Borahi-Kachari king Manikpha in one source; the lineage label varies. Sheet created/remade 2026-10-28 using the local Dimasa man clothing sheet at the user’s request. Face, age, clothing and royal jewellery are artistic interpretations, not authenticated likenesses or historical royal dress. See research/dimasa/royal-sheets-final-2026-10-28.json.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Mahamanikya",
         "https://en.wikipedia.org/wiki/Madhava_Kandali",
         "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Mahamanikya (Barahi king), realistic eight-view Dimasa clothing interpretation, restrained royal details",
+         "image": "media/characters/mahamanikya/turnaround-1.webp",
+         "thumbnail": "media/characters/mahamanikya/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "events": [
         {
@@ -7804,10 +7834,20 @@
        "sort_year": 1336,
        "role": "Kachari king at Dimapur",
        "summary": "The same list places him at Dimapur from 1336; the Dimasa Kingdom article says early king lists are late constructions and should be treated with caution.",
-       "notes": "Treat as unverified.",
+       "notes": "Treat as unverified. Sheet created/remade 2026-10-28 using the local Dimasa man clothing sheet at the user’s request. Face, age, clothing and royal jewellery are artistic interpretations, not authenticated likenesses or historical royal dress. See research/dimasa/royal-sheets-final-2026-10-28.json.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none"
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bicharpatiha (Prakash, traditional list), realistic eight-view Dimasa clothing interpretation, restrained royal details",
+         "image": "media/characters/bicharpatiha/turnaround-1.webp",
+         "thumbnail": "media/characters/bicharpatiha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ]
       },
       {
        "id": "khorapha",
@@ -7818,11 +7858,22 @@
        "sort_year": 1520,
        "role": "Dimasa king",
        "summary": "Issued a silver coin in 1520 and was killed in an Ahom attack in 1526.",
+       "notes": "Sheet created/remade 2026-10-28 using the local Dimasa man clothing sheet at the user’s request. Face, age, clothing and royal jewellery are artistic interpretations, not authenticated likenesses or historical royal dress. See research/dimasa/royal-sheets-final-2026-10-28.json.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Khorapha, realistic eight-view Dimasa clothing interpretation, restrained royal details",
+         "image": "media/characters/khorapha/turnaround-1.webp",
+         "thumbnail": "media/characters/khorapha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -7834,12 +7885,23 @@
        "sort_year": 1526,
        "role": "Dimasa king",
        "summary": "Succeeded his brother Khorapha and fled Dimapur when the Ahoms attacked in 1531.",
+       "notes": "Sheet created/remade 2026-10-28 using the local Dimasa man clothing sheet at the user’s request. Face, age, clothing and royal jewellery are artistic interpretations, not authenticated likenesses or historical royal dress. See research/dimasa/royal-sheets-final-2026-10-28.json.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
         "https://en.wikipedia.org/wiki/Kachari_Kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Khunkhara, realistic eight-view Dimasa clothing interpretation, restrained royal details",
+         "image": "media/characters/khunkhara/turnaround-1.webp",
+         "thumbnail": "media/characters/khunkhara/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -7851,12 +7913,23 @@
        "sort_year": 1531,
        "role": "Dimasa king",
        "summary": "Installed by Suhungmung, to whom he gave his sister in marriage; killed when he tried to break free. The Ahoms occupied Dimapur in 1536.",
+       "notes": "Sheet created/remade 2026-10-28 using the local Dimasa man clothing sheet at the user’s request. Face, age, clothing and royal jewellery are artistic interpretations, not authenticated likenesses or historical royal dress. See research/dimasa/royal-sheets-final-2026-10-28.json.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
         "https://en.wikipedia.org/wiki/Kachari_Kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Detsung (Dersung), realistic eight-view Dimasa clothing interpretation, restrained royal details",
+         "image": "media/characters/detsung/turnaround-1.webp",
+         "thumbnail": "media/characters/detsung/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -7868,12 +7941,23 @@
        "sort_year": 1583,
        "role": "Most powerful Dimasa king",
        "summary": "Ruled North Cachar, the Dhansiri valley and parts of Sylhet and struck coins in his name.",
+       "notes": "Sheet created/remade 2026-10-28 using the local Dimasa man clothing sheet at the user’s request. Face, age, clothing and royal jewellery are artistic interpretations, not authenticated likenesses or historical royal dress. See research/dimasa/royal-sheets-final-2026-10-28.json.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
         "https://en.wikipedia.org/wiki/Kachari_Kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Yasho Narayan (Satrudaman), realistic eight-view Dimasa clothing interpretation, additional royal gold jewellery",
+         "image": "media/characters/yasho-narayan/turnaround-1.webp",
+         "thumbnail": "media/characters/yasho-narayan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -7885,7 +7969,7 @@
        "sort_year": 1706,
        "role": "Dimasa king",
        "summary": "Declared independence; Rudra Singha invaded Maibong in December 1706 and destroyed its fort. Tamradhwaj fled to Jaintia and was imprisoned.",
-       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/tamradhwaj/local-scene-references.md.",
+       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/tamradhwaj/local-scene-references.md. Sheet created/remade 2026-10-28 using the local Dimasa man clothing sheet at the user’s request. Face, age, clothing and royal jewellery are artistic interpretations, not authenticated likenesses or historical royal dress. See research/dimasa/royal-sheets-final-2026-10-28.json.",
        "confidence": "high",
        "status": "researched",
        "sheet_status": "sheet",
@@ -7897,7 +7981,7 @@
        "character_sheets": [
         {
          "kind": "turnaround",
-         "caption": "Tamradhwaj Narayan, realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "caption": "Tamradhwaj Narayan, realistic eight-view Dimasa clothing interpretation, additional royal gold jewellery",
          "image": "media/characters/tamradhwaj/turnaround-1.webp",
          "thumbnail": "media/characters/tamradhwaj/thumb/turnaround-1.webp",
          "width": 1536,
@@ -7934,12 +8018,23 @@
        "sort_year": 1790,
        "role": "Dimasa king",
        "summary": "Sheltered Moamoria rebels, causing Ahom–Dimasa skirmishes from 1803 to 1805; helped Manipur against the Burmese.",
+       "notes": "Sheet created/remade 2026-10-28 using the local Dimasa man clothing sheet at the user’s request. Face, age, clothing and royal jewellery are artistic interpretations, not authenticated likenesses or historical royal dress. See research/dimasa/royal-sheets-final-2026-10-28.json.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
         "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Krishnachandra Narayan, realistic eight-view Dimasa clothing interpretation, additional royal gold jewellery",
+         "image": "media/characters/krishnachandra/turnaround-1.webp",
+         "thumbnail": "media/characters/krishnachandra/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -7951,13 +8046,23 @@
        "sort_year": 1814,
        "role": "Last Dimasa king",
        "summary": "Restored by the British after the 1826 Treaty of Yandabo; died in 1830.",
-       "notes": "The two sources split his reign into two periods.",
+       "notes": "The two sources split his reign into two periods. Sheet created/remade 2026-10-28 using the local Dimasa man clothing sheet at the user’s request. Face, age, clothing and royal jewellery are artistic interpretations, not authenticated likenesses or historical royal dress. See research/dimasa/royal-sheets-final-2026-10-28.json.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
         "https://en.wikipedia.org/wiki/Kachari_Kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Govindachandra Narayan, realistic eight-view Dimasa clothing interpretation, additional royal gold jewellery",
+         "image": "media/characters/govindachandra/turnaround-1.webp",
+         "thumbnail": "media/characters/govindachandra/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       }
      ]
@@ -7976,12 +8081,23 @@
        "sort_year": 1612,
        "role": "Jaintia king",
        "summary": "Jaintia king whose manoeuvres are linked to the Dimasa–Ahom conflict of 1618.",
+       "notes": "Sheet created/remade 2026-10-28 using Jaintia/Pnar community reference or researched Manipur royal clothing as appropriate. Faces, ages, jewellery and unseen garment construction are artistic interpretations, not authenticated historical appearance. See research/jaintia-manipur/clothing-references-2026-10-28.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Jaintia_Kingdom",
         "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Jasa Manik, realistic eight-view Jaintia/Pnar clothing interpretation with modest royal jewellery",
+         "image": "media/characters/jasa-manik/turnaround-1.webp",
+         "thumbnail": "media/characters/jasa-manik/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -7993,7 +8109,7 @@
        "sort_year": 1694,
        "role": "Jaintia king",
        "summary": "Kidnapped the Dimasa king, prompting Rudra Singha's 1707–08 invasion; died an Ahom captive.",
-       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/ram-singh-jaintia/local-scene-references.md.",
+       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/ram-singh-jaintia/local-scene-references.md. Sheet created/remade 2026-10-28 using Jaintia/Pnar community reference or researched Manipur royal clothing as appropriate. Faces, ages, jewellery and unseen garment construction are artistic interpretations, not authenticated historical appearance. See research/jaintia-manipur/clothing-references-2026-10-28.md.",
        "confidence": "high",
        "status": "researched",
        "sheet_status": "sheet",
@@ -8004,7 +8120,7 @@
        "character_sheets": [
         {
          "kind": "turnaround",
-         "caption": "Ram Singh I (Jaintia), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "caption": "Ram Singh I (Jaintia), realistic eight-view Jaintia/Pnar clothing interpretation with modest royal jewellery",
          "image": "media/characters/ram-singh-jaintia/turnaround-1.webp",
          "thumbnail": "media/characters/ram-singh-jaintia/thumb/turnaround-1.webp",
          "width": 1536,
@@ -8041,18 +8157,19 @@
        "sort_year": 1759,
        "role": "King of Manipur",
        "summary": "Fled to Ahom territory after the Burmese invasion of 1764 and was sheltered by Rajeswar Singha, who backed his return; reinstated in 1773. Promoted Vaishnavism and the Manipuri Raas Leela.",
-       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/bhagyachandra/local-scene-references.md.",
+       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/bhagyachandra/local-scene-references.md. Sheet created/remade 2026-10-28 using Jaintia/Pnar community reference or researched Manipur royal clothing as appropriate. Faces, ages, jewellery and unseen garment construction are artistic interpretations, not authenticated historical appearance. See research/jaintia-manipur/clothing-references-2026-10-28.md.",
        "confidence": "high",
        "status": "researched",
        "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Bhagyachandra",
-        "https://en.wikipedia.org/wiki/Rajeswar_Singha"
+        "https://en.wikipedia.org/wiki/Rajeswar_Singha",
+        "https://ignca.gov.in/divisionss/janapada-sampada/northeastern-regional-centre/textiles-of-manipur/"
        ],
        "character_sheets": [
         {
          "kind": "turnaround",
-         "caption": "Bhagyachandra (Jai Singh), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "caption": "Bhagyachandra (Jai Singh), realistic eight-view researched Meitei royal clothing interpretation",
          "image": "media/characters/bhagyachandra/turnaround-1.webp",
          "thumbnail": "media/characters/bhagyachandra/thumb/turnaround-1.webp",
          "width": 1536,
@@ -8110,11 +8227,22 @@
        "sort_year": 1790,
        "role": "Jaintia king",
        "summary": "Long-reigning Jaintia king who agreed in 1824 to deal only with the British.",
+       "notes": "Sheet created/remade 2026-10-28 using Jaintia/Pnar community reference or researched Manipur royal clothing as appropriate. Faces, ages, jewellery and unseen garment construction are artistic interpretations, not authenticated historical appearance. See research/jaintia-manipur/clothing-references-2026-10-28.md.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Jaintia_Kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Ram Singh II (Jaintia), realistic eight-view Jaintia/Pnar clothing interpretation with modest royal jewellery",
+         "image": "media/characters/ram-singh-ii-jaintia/turnaround-1.webp",
+         "thumbnail": "media/characters/ram-singh-ii-jaintia/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -8126,11 +8254,24 @@
        "sort_year": 1825,
        "role": "King of Manipur",
        "summary": "Repulsed the Burmese in 1825.",
+       "notes": "Sheet created/remade 2026-10-28 using Jaintia/Pnar community reference or researched Manipur royal clothing as appropriate. Faces, ages, jewellery and unseen garment construction are artistic interpretations, not authenticated historical appearance. See research/jaintia-manipur/clothing-references-2026-10-28.md. Portrait reference: Moirangthemcha, Wikimedia Commons, Gambhirsingh.jpg, CC BY-SA 3.0; generated full-body adaptation under CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Gambhirsingh.jpg ; https://creativecommons.org/licenses/by-sa/3.0/",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
-        "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+        "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+        "https://commons.wikimedia.org/wiki/File:Gambhirsingh.jpg",
+        "https://ignca.gov.in/divisionss/janapada-sampada/northeastern-regional-centre/textiles-of-manipur/"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Gambhir Singha, realistic eight-view researched Meitei royal clothing interpretation (portrait reference: Moirangthemcha, Wikimedia Commons, CC BY-SA 3.0 adaptation)",
+         "image": "media/characters/gambhir-singha/turnaround-1.webp",
+         "thumbnail": "media/characters/gambhir-singha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       }
      ]
@@ -21555,26 +21696,18 @@
        "sort_year": 1530,
        "role": "Heroine of legend",
        "summary": "Heroine of an Assamese folk legend of devotion and courage.",
-       "notes": "Legendary figure with no verified dates.",
+       "notes": "Legendary figure with no verified dates. Clothing remade 2026-10-28 following user-directed local Chutia man/woman sheets with restrained royal details and no neck gamusa. Present-day reference clothing and royal additions are artistic interpretation, not authenticated medieval dress. See research/koch-chutia-1350-1616/chutia-sheets/sati-sadhani-remake-2026-10-28.md.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "portrait",
+       "sheet_status": "sheet",
        "character_sheets": [
         {
-         "kind": "pose",
-         "caption": "Birangana Sati Sadhani (Heroic Queen)",
-         "image": "media/characters/sati-sadhani/pose-1.webp",
-         "thumbnail": "media/characters/sati-sadhani/thumb/pose-1.webp",
-         "width": 1024,
-         "height": 1536
-        },
-        {
-         "kind": "pose",
-         "caption": "Birangana Sati Sadhani (Warrior Stance)",
-         "image": "media/characters/sati-sadhani/pose-2.webp",
-         "thumbnail": "media/characters/sati-sadhani/thumb/pose-2.webp",
-         "width": 1024,
-         "height": 1536
+         "kind": "turnaround",
+         "caption": "Sati Sadhoni, eight-view Chutia clothing interpretation with ginger cat, restrained royal details, no neck gamusa",
+         "image": "media/characters/sati-sadhani/turnaround-1.webp",
+         "thumbnail": "media/characters/sati-sadhani/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
         }
        ],
        "scenes": [
