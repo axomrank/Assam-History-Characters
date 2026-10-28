@@ -289,9 +289,9 @@ table.cov.hh tbody td:first-child{box-shadow:inset 3px 0 var(--dc);padding-left:
 @media (max-width:780px){.chead.hh h1{margin-left:0;padding-left:14px}}
 
 /* researched scenes not painted yet: an empty folio frame instead of the picture */
-.scene .ph-scene{padding:0;width:100%;aspect-ratio:3/2;display:grid;place-items:center;border-radius:var(--r);border:1px dashed var(--line);
-  background:repeating-linear-gradient(135deg,transparent 0 11px,color-mix(in srgb,var(--line) 35%,transparent) 11px 12px),var(--leaf)}
-.scene .ph-scene em{font-size:.86rem;color:var(--muted);background:var(--leaf);padding:2px 10px;border-radius:var(--r)}
+.scene .ph-scene{padding:0;width:100%;aspect-ratio:3/2;display:grid;place-items:center;border-radius:var(--r);border:1.5px dashed var(--muted);
+  background:repeating-linear-gradient(135deg,transparent 0 10px,color-mix(in srgb,var(--muted) 22%,transparent) 10px 11px),var(--leaf2)}
+.scene .ph-scene em{font-size:.9rem;font-style:normal;color:var(--ink);border:1px solid var(--line);background:var(--leaf);padding:2px 10px;border-radius:var(--r)}
 .scene.planned:hover .ph-scene{border-color:var(--hengul)}
 .scene.hh .ph-scene{box-shadow:0 3px 0 var(--dc)}
 .vph{width:min(70vw,480px);aspect-ratio:3/2;display:grid;place-items:center;border:1px dashed #3e3426;border-radius:var(--r);
@@ -369,8 +369,12 @@ dialog#viewer.noimg .vfoot{max-height:45vh}
 @media (max-width:600px){.bounds div{grid-template-columns:1fr;gap:2px}}
 
 /* people whose sheet is researched and briefed but not drawn yet */
-.media .ph-sheet{width:100%;height:100%;display:grid;place-items:center;border:1px dashed var(--line);border-radius:inherit;
-  background:repeating-linear-gradient(135deg,transparent 0 11px,color-mix(in srgb,var(--line) 35%,transparent) 11px 12px),var(--leaf)}
-.media .ph-sheet em{font-size:.86rem;color:var(--muted);background:var(--leaf);padding:2px 10px;border-radius:var(--r)}
-.sheetmain.planned-sheet{background:repeating-linear-gradient(135deg,transparent 0 11px,color-mix(in srgb,var(--line) 35%,transparent) 11px 12px),var(--leaf);border:1px dashed var(--line)}
-.sheetmain.planned-sheet strong{background:var(--leaf);padding:0 8px}
+.media .ph-sheet{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;
+  border:1.5px dashed var(--muted);border-radius:inherit;
+  background:repeating-linear-gradient(135deg,transparent 0 10px,color-mix(in srgb,var(--muted) 22%,transparent) 10px 11px),var(--leaf2)}
+.media .ph-sheet svg{fill:none;stroke:var(--muted);stroke-width:2;opacity:.8}
+.media .ph-sheet em{font-size:.95rem;font-style:normal;color:var(--ink);background:var(--leaf);padding:3px 12px;border-radius:var(--r);border:1px solid var(--line)}
+.sheetmain.planned-sheet{border:1.5px dashed var(--muted);
+  background:repeating-linear-gradient(135deg,transparent 0 12px,color-mix(in srgb,var(--muted) 22%,transparent) 12px 13px),var(--leaf2)}
+.sheetmain.planned-sheet>div{background:var(--leaf);padding:16px 22px;border-radius:var(--r);border:1px solid var(--line);max-width:34ch}
+.tag.plan::before{border:1.5px dashed var(--muted);background:transparent}

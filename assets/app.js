@@ -24,7 +24,7 @@ const HOUSES = [
   ['pala', 'Pala dynasty of Kamarupa and its successors', ['Pala dynasty', 'Kamarupa after the Palas']],
   ['kamata', 'Kamata and Khen', ['Kamata and Khen kingdoms']],
   ['bhuyan', 'Baro-Bhuyans', ['Baro-Bhuyans']],
-  ['koch', 'Koch, all branches', ['Koch kingdom (undivided)', 'Koch Hajo kings', 'Darrang kings', 'Beltola kings', 'Bijni kings', 'Khaspur kings']],
+  ['koch', 'Koch, all branches', ['Koch kingdom (undivided)', 'Koch Hajo kings']],
   ['ahom', 'Ahom', ['Ahom kings', 'Ahom queens and royal family', 'Ahom officers and generals', 'Moamoria rebels']],
   ['chutia', 'Chutia', ['Chutia kingdom']],
   ['dimasa', 'Dimasa (Kachari)', ['Dimasa (Kachari) kingdom']],
@@ -127,6 +127,7 @@ function setQuery(path, params) {
 }
 const hasBrief = c => !c.sheets.length && c.brief && Object.keys(c.brief).length > 0;
 function availTag(c) {
+  if (hasBrief(c)) return [t('sheetPlanned'), 'plan'];
   const [l, full, port, m, a] = c.av || [0, 0, 0, 0, 0];
   if (l === 3) return [t('withSheet') + (full + port > 1 ? ` (${full + port})` : ''), 'ok'];
   if (l === 2) return [t('portraitsOnly') + (port > 1 ? ` (${port})` : ''), 'ok'];
@@ -143,7 +144,7 @@ function charCard(c) {
   const sc = !s ? c.mainScenes.map(x => sceneById[x]).find(x => !x.planned) || null : null;
   const [tag, tone] = availTag(c);
   return `<li><a class="card ${hc(house(c))}" href="#/c/${esc(c.id)}">
-    <div class="media ${sc ? 'photo' : ''}">${s ? `<img src="${url(s.thumb)}" alt="Character sheet of ${esc(c.name)}" loading="lazy" decoding="async">` : sc ? `<img src="${url(sc.thumbnail)}" alt="Scene: ${esc(sc.event)}" loading="lazy" decoding="async">` : hasBrief(c) ? `<span class="ph-sheet"><em>${esc(t('sheetPlanned'))}</em></span>` : `<span class="ph" aria-hidden="true">${esc([...nm(c)][0])}</span>`}</div>
+    <div class="media ${sc ? 'photo' : ''}">${s ? `<img src="${url(s.thumb)}" alt="Character sheet of ${esc(c.name)}" loading="lazy" decoding="async">` : sc ? `<img src="${url(sc.thumbnail)}" alt="Scene: ${esc(sc.event)}" loading="lazy" decoding="async">` : hasBrief(c) ? `<span class="ph-sheet"><svg viewBox="0 0 40 64" width="44" height="70" aria-hidden="true"><circle cx="20" cy="11" r="8"/><path d="M6 62V34c0-8 6-13 14-13s14 5 14 13v28"/></svg><em>${esc(t('sheetPlanned'))}</em></span>` : `<span class="ph" aria-hidden="true">${esc([...nm(c)][0])}</span>`}</div>
     <div class="body"><h3>${esc(nm(c))}</h3>${nm2(c) ? `<span class="as">${esc(nm2(c))}</span>` : ''}
     <span class="meta">${esc(c.label)}</span>${c.ahom_no ? `<span class="meta">Ahom king no. ${c.ahom_no.join(' and ')}${c.tai_name && c.tai_name !== c.name ? `, Tai name ${esc(c.tai_name)}` : ''}</span>` : c.koch_no ? `<span class="meta">${esc(c.koch_branch)} no. ${c.koch_no}</span>` : ''}
     <span class="tag ${tone}">${esc(tag)}</span></div></a></li>`;
@@ -369,9 +370,9 @@ function viewKings(which) {
       <p class="srcline">Source: Wikipedia, Ahom dynasty (king list), cross-checked against Ahom kingdom and the individual king articles. Spellings of Tai names vary between sources.</p>`;
   }
   const note = { 'Kamarupa after the Palas': 'The successors of the Pala kings, c. 1100–1228, in several regions: the west under Bengal’s Palas, a lunar dynasty on the north bank, and Prithu.', 'Kamata and Khen kingdoms': 'The Kamata kingdom founded by Sandhya after 1228 and the Khen dynasty (1440–1498). Dates are later reconstructions and sources differ.', 'Baro-Bhuyans': 'The Bhuyan chiefs who held power between the Khen and the Koch, and ended Sultanate rule around 1510.',
-    'Koch kingdom (undivided)': 'The undivided kingdom (1515–1587) and the family around it.', 'Koch Hajo kings': 'The eastern Koch branch, in lower Assam, to 1613–14.', 'Darrang kings': 'Tributary kings of the Ahoms between the Barnadi and Bharali, from 1616. The Darrang line was annexed by the British in 1826.', 'Beltola kings': 'A small kingdom near Guwahati, set up in 1615 under the Ahom Borphukan.', 'Bijni kings': 'Descendants of Parikshit Narayan between the Sankosh and Manas. The sources give no reign years, so only the order is known.', 'Khaspur kings': 'A Koch outpost in the Barak valley that merged into the Kachari kingdom in 1745.',
+    'Koch kingdom (undivided)': 'The undivided kingdom (1515–1587) and the family around it.', 'Koch Hajo kings': 'The eastern Koch branch, in lower Assam, to 1613–14.',
     'Chutia kingdom': 'The kingdom of Sadiya in the north-east, attested by inscriptions from the late 14th century and annexed by the Ahoms in 1523–24.', 'Dimasa (Kachari) kingdom': 'The Dimasa and Barahi kings of the Kapili, Dhansiri and Barak valleys. Early king lists are late constructions.', 'Jaintia and Manipur': 'The hill kingdoms on the edge of the valley.' };
-  const groups = tab === 'west' ? ['Kamarupa after the Palas', 'Kamata and Khen kingdoms', 'Baro-Bhuyans', 'Koch kingdom (undivided)', 'Koch Hajo kings', 'Darrang kings', 'Beltola kings', 'Bijni kings', 'Khaspur kings'] : ['Chutia kingdom', 'Dimasa (Kachari) kingdom', 'Jaintia and Manipur'];
+  const groups = tab === 'west' ? ['Kamarupa after the Palas', 'Kamata and Khen kingdoms', 'Baro-Bhuyans', 'Koch kingdom (undivided)', 'Koch Hajo kings'] : ['Chutia kingdom', 'Dimasa (Kachari) kingdom', 'Jaintia and Manipur'];
   const lead = tab === 'west' ? 'Western (Namoni) Assam after 1100 is kept on its own: the successors of Kamarupa, Kamata and the Khen, the Bhuyans, and every Koch branch. Where the sources give no reign years the label says so and the order is the only claim.' : 'Kingdoms beside the Ahoms that were neither Ahom nor part of the western Assam lines.';
   const sect = groups.map(b => {
     const list = chars.filter(c => (c.group || c.dynasty) === b).sort((a, c) => (a.koch_no || 0) - (c.koch_no || 0) || a.sort_year - c.sort_year);
