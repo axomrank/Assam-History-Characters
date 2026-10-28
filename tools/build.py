@@ -36,13 +36,13 @@ CSV = ROOT / "data/assam_history.csv"
 COLS = ["type", "id", "name", "name_assamese", "period", "group", "date_label", "start_year", "end_year", "sort_year",
         "role", "summary", "notes", "tai_name", "hindu_name", "also_called", "relation", "fate", "consort", "marital_status",
         "ahom_king_no", "koch_no", "koch_branch", "confidence", "status", "approx_dates", "people", "main_people",
-        "collection", "character_sheets", "scene_image", "group_order", "sources", "places", "present_name", "location", "lat", "lon", "boundary"]
+        "collection", "character_sheets", "scene_image", "group_order", "sources", "places", "present_name", "location", "lat", "lon", "boundary", "sheet_brief"]
 FULL_KINDS = {"sheet", "turnaround", "face", "costume", "props", "palette"}
 
 
 def read_rows():
     with open(CSV, newline="", encoding="utf-8-sig") as f:
-        return list(csv.DictReader(f))
+        return [{c: r.get(c) or "" for c in COLS} for r in csv.DictReader(f)]
 
 
 def write_rows(rows):
@@ -73,6 +73,15 @@ def num(v):
     try: f = float(v)
     except ValueError: return None
     return int(f) if f.is_integer() else f
+
+
+def brief_of(cell):
+    """sheet_brief: 'appearance: ... | costume: ... | props: ... | avoid: ...' -> dict (a design brief for a sheet not made yet)"""
+    out = {}
+    for part in (cell or "").split("|"):
+        k, _, v = part.partition(":")
+        if v.strip() and k.strip().lower() in ("appearance", "costume", "props", "avoid"): out[k.strip().lower()] = v.strip()
+    return out
 
 
 def scene_year(r):
@@ -176,7 +185,7 @@ def main():
              "reign_start": num(r["start_year"]), "reign_end": num(r["end_year"]), "confidence": r["confidence"], "tai_name": r["tai_name"],
              "hindu_name": r["hindu_name"], "nicknames": r["also_called"], "relation": r["relation"], "fate": r["fate"], "consort": r["consort"],
              "marital": r["marital_status"], "ahom_no": [int(x) for x in lst(r["ahom_king_no"])], "koch_no": num(r["koch_no"]),
-             "koch_branch": r["koch_branch"], "approx": r["approx_dates"] == "yes", "src": src(r["sources"]), "av": av, "sheets": sheets[i]}
+             "koch_branch": r["koch_branch"], "approx": r["approx_dates"] == "yes", "src": src(r["sources"]), "av": av, "sheets": sheets[i], "brief": brief_of(r["sheet_brief"])}
         chars.append({k: v for k, v in c.items() if k in ("id", "name", "era", "sort_year", "label", "role", "summary", "status", "av") or not (v is None or v is False or v == "" or v == [])})
 
     events = []

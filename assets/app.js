@@ -59,7 +59,7 @@ const STR = {
     inEra:'in', allGroups:'All groups', conf:'Confidence', confHigh:'High', confMedium:'Medium', confLow:'Low', sources:'Sources', alsoKnown:'Also known as',
     confHighNote:'Several sources agree on the main facts.', confMediumNote:'One good source, or dates that vary between sources.', confLowNote:'A single source, a legend, or disputed. Check before relying on it.', showAll:'Show all eras', approxCsv:'Reign dates follow the source timeline, which uses evenly spaced periods for the early dynasties. Treat them as approximate.',
     dynasty:'Dynasty', consort:'Consort', marital:'Marital status', events:'Events and notes', source:'Source', noEvents:'The source timeline lists no events for this ruler.',
-    sheetsH:'Character sheets', noSheetTitle:'No sheet yet', noSheetBody:'This character’s sheet has not been added.',
+    sheetsH:'Character sheets', noSheetTitle:'No sheet yet', sheetPlanned:'Sheet planned', sheetPlannedBody:'Researched and briefed, not drawn yet. The design brief is under Reference notes; copy it with the button below it.', noSheetBody:'This character’s sheet has not been added.',
     download:'Download', zoom:'Open large', refNotes:'Reference notes', notesEmpty:'No reference notes have been written for this character yet.',
     appearance:'Appearance', costume:'Costume', props:'Props and weapons', avoid:'Avoid',
     copyBrief:'Copy reference brief', copied:'Reference brief copied', copyFail:'Could not copy. Select the text and copy it yourself.',
@@ -89,7 +89,7 @@ const STR = {
     search:'নাম, ভূমিকা বা যুগ অনুসৰি বিচাৰক', allEras:'সকলো যুগ', all:'সকলো',
     results:n=>`${n} জন চৰিত্ৰ`, back:'সকলো চৰিত্ৰ', download:'ডাউনলোড', close:'বন্ধ কৰক', fit:'খাপ খুৱাওক',
     sceneTeaser:'ঐতিহাসিক দৃশ্য', allScenes:'সকলো দৃশ্য', sceneCount:n=>`${n}টা দৃশ্য`, painted:'অঁকা', planned:'এতিয়াও অঁকা হোৱা নাই', plannedTag:'এতিয়াও অঁকা হোৱা নাই', plannedCount:n=>`, ${n}টা এতিয়াও অঁকা হোৱা নাই`,
-    scenesTitle:'ঐতিহাসিক দৃশ্য', refNotes:'ৰেফাৰেন্স টোকা', copyBrief:'ৰেফাৰেন্স ব্ৰিফ কপি কৰক',
+    scenesTitle:'ঐতিহাসিক দৃশ্য', refNotes:'ৰেফাৰেন্স টোকা', sheetPlanned:'চৰিত্ৰ-পত্ৰ পৰিকল্পিত', copyBrief:'ৰেফাৰেন্স ব্ৰিফ কপি কৰক',
     searchLabel:'বিচাৰক', searchPh:'চৰিত্ৰ, দৃশ্য বা ঠাই বিচাৰক', srHint:'নাম লিখিলে সেই চৰিত্ৰৰ পত্ৰ আৰু তেওঁ থকা দৃশ্য দেখুৱাব। ঘটনা বা ঠাইৰ নাম লিখিলে মিল থকা দৃশ্য দেখুৱাব।',
     srNone:'একো পোৱা নগ’ল। চুটি নাম বা আন বানান চেষ্টা কৰক।', srPick:'কেইবাজনো চৰিত্ৰ মিলিছে। এজনক বাছক।', srCharacter:'চৰিত্ৰ', srScenesWith:n=>`${n} থকা দৃশ্য`, srScenes:'দৃশ্য', srPeople:'উল্লেখ থকা মানুহ', srOpen:'সম্পূৰ্ণ পৃষ্ঠা খোলক',
     srExtent:'সময়ৰ লগে লগে সীমা', srBoundaryOf:'ইয়াৰ সীমা চিহ্নিত কৰে', srBoundsAt:'সীমা', srPlace:'ঠাই', srPlaceScenes:n=>`${n}ৰ দৃশ্য`, srAlso:'আন নাম', srToday:'এতিয়া', srIdent:'চিনাক্তকৰণ', srPlacePick:'কেইবাটাও ঠাই মিলিছে। এটা বাছক।', srPlaceCount:n=>`${n}টা ঠাই`, srTimeline:'সময়ৰেখাত', srMapPoint:'মানচিত্ৰৰ বিন্দু', srApprox:'আনুমানিক', srOpenMap:'মানচিত্ৰ চাওক', srNoSceneHere:'ইয়াত এতিয়াও কোনো দৃশ্য নাই।', placesWord:'ঠাই', todayWord:'এতিয়া',
@@ -125,6 +125,7 @@ function setQuery(path, params) {
   const q = new URLSearchParams(); for (const [k, v] of Object.entries(params)) if (v) q.set(k, v);
   history.replaceState(null, '', '#' + path + (q.toString() ? '?' + q : ''));
 }
+const hasBrief = c => !c.sheets.length && c.brief && Object.keys(c.brief).length > 0;
 function availTag(c) {
   const [l, full, port, m, a] = c.av || [0, 0, 0, 0, 0];
   if (l === 3) return [t('withSheet') + (full + port > 1 ? ` (${full + port})` : ''), 'ok'];
@@ -142,7 +143,7 @@ function charCard(c) {
   const sc = !s ? c.mainScenes.map(x => sceneById[x]).find(x => !x.planned) || null : null;
   const [tag, tone] = availTag(c);
   return `<li><a class="card ${hc(house(c))}" href="#/c/${esc(c.id)}">
-    <div class="media ${sc ? 'photo' : ''}">${s ? `<img src="${url(s.thumb)}" alt="Character sheet of ${esc(c.name)}" loading="lazy" decoding="async">` : sc ? `<img src="${url(sc.thumbnail)}" alt="Scene: ${esc(sc.event)}" loading="lazy" decoding="async">` : `<span class="ph" aria-hidden="true">${esc([...nm(c)][0])}</span>`}</div>
+    <div class="media ${sc ? 'photo' : ''}">${s ? `<img src="${url(s.thumb)}" alt="Character sheet of ${esc(c.name)}" loading="lazy" decoding="async">` : sc ? `<img src="${url(sc.thumbnail)}" alt="Scene: ${esc(sc.event)}" loading="lazy" decoding="async">` : hasBrief(c) ? `<span class="ph-sheet"><em>${esc(t('sheetPlanned'))}</em></span>` : `<span class="ph" aria-hidden="true">${esc([...nm(c)][0])}</span>`}</div>
     <div class="body"><h3>${esc(nm(c))}</h3>${nm2(c) ? `<span class="as">${esc(nm2(c))}</span>` : ''}
     <span class="meta">${esc(c.label)}</span>${c.ahom_no ? `<span class="meta">Ahom king no. ${c.ahom_no.join(' and ')}${c.tai_name && c.tai_name !== c.name ? `, Tai name ${esc(c.tai_name)}` : ''}</span>` : c.koch_no ? `<span class="meta">${esc(c.koch_branch)} no. ${c.koch_no}</span>` : ''}
     <span class="tag ${tone}">${esc(tag)}</span></div></a></li>`;
@@ -260,6 +261,7 @@ function viewCharacter(id, q) {
     ${!mainSc.length && !otherSc.length ? `<section class="section"><div class="empty">${esc(t('scenesWithNone'))}</div></section>` : ''}`;
 }
 function sheetViewHTML(c) {
+  if (hasBrief(c)) return `<div class="sheetmain none planned-sheet"><div><strong style="font-family:var(--serif);font-size:1.3rem;color:var(--text)">${esc(t('sheetPlanned'))}</strong><br>${esc(t('sheetPlannedBody'))}</div></div>`;
   if (!c.sheets.length) return `<div class="sheetmain none"><div><strong style="font-family:var(--serif);font-size:1.3rem;color:var(--text)">${esc(t('noSheetTitle'))}</strong><br>${esc(c.mainScenes.length ? t('noPortraitBody') : t('noSheetBody'))}</div></div>`;
   const s = c.sheets[sheetIdx];
   return `<button type="button" class="sheetmain" id="sheetOpen" aria-label="${esc(t('zoom'))}"><img src="${url(s.file)}" alt="${esc(kindName(s.kind))} character sheet of ${esc(c.name)}" width="${s.width}" height="${s.height}"></button>

@@ -17,6 +17,10 @@ Open `index.html`, or serve the folder with `python3 -m http.server`.
 | `place` | 148 | a place: historic names, present-day name and location, kind, how sure the identification is | `also_called`, `present_name`, `location`, `group` (kind), `confidence`, `sources` |
 | `scene` | 331 | an illustrated scene, or a researched one not painted yet (`status` = `planned`) | `date_label`, `sort_year`, `group` (era), `summary`, `people`, `main_people`, `places` (place ids), `scene_image` |
 
+A person whose sheet is researched but not drawn yet can carry a design brief in `sheet_brief`, written as
+`appearance: … | costume: … | props: … | avoid: …`. The site then shows a hatched "Sheet planned" placeholder for them and
+puts the brief under Reference notes, where the "Copy reference brief" button copies it for an image tool.
+
 Images live inside the record they belong to. A person's `character_sheets` cell lists their sheets and
 portraits as `path | caption`, for example
 `media/characters/sukaphaa/pose-1.webp | Chaolung Sukapha on Royal Throne (Profile)`. The kind (portrait, pose,
