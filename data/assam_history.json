@@ -7057,6 +7057,1087 @@
    ]
   },
   {
+   "id": "neighbours",
+   "name": "Neighbouring kingdoms",
+   "name_assamese": "চুবুৰীয়া ৰাজ্য",
+   "date_label": "c. 1300–1830",
+   "start_year": 1300,
+   "end_year": 1830,
+   "summary": "The Chutia kingdom of Sadiya, the Dimasa (Kachari) and Barahi kingdoms of the centre and south, and Jaintia and Manipur on the edge of the hills.",
+   "dynasties": [
+    {
+     "name": "Chutia kingdom",
+     "start_year": 1350,
+     "end_year": 1524,
+     "characters": [
+      {
+       "id": "nandi-chutia",
+       "name": "Nandi (Nandisvara)",
+       "date_label": "second half of the 14th century",
+       "start_year": 1350,
+       "end_year": 1380,
+       "sort_year": 1350,
+       "role": "Earliest attested Chutia king",
+       "summary": "Ruled from Sadhayapura (Sadiya); known from a grant issued by his son Satyanarayana, who also names his mother Daivaki.",
+       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/nandi-chutia/local-scene-references.md.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Nandi (Nandisvara), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/nandi-chutia/turnaround-1.webp",
+         "thumbnail": "media/characters/nandi-chutia/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
+       "events": [
+        {
+         "id": "event-1380-13",
+         "title": "The Chutia kingdom appears in the record",
+         "date_label": "1380–1400",
+         "start_year": 1380,
+         "end_year": 1400,
+         "summary": "Nandi and Satyanarayana rule from Sadhayapura (Sadiya), the earliest Chutia kings known from inscriptions. Tyao Khamti's expedition against them fails (1380–87).",
+         "people": [
+          "nandi-chutia",
+          "satyanarayana-chutia",
+          "tyao-khamti"
+         ],
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ]
+        }
+       ],
+       "scenes": [
+        {
+         "id": "AHOM-279",
+         "title": "Tyao Khamti's Failed Expedition Against the Chutias",
+         "date_label": "1380–1387",
+         "sort_year": 1380,
+         "era": "Foundational Era (1228–1497)",
+         "collection": "AHOM chronology",
+         "summary": "Nandi and Satyanarayana rule the Chutia kingdom from Sadhayapura (Sadiya), the earliest Chutia kings known from inscriptions. Tyao Khamti's campaign against them fails.",
+         "people": [
+          "tyao-khamti",
+          "nandi-chutia",
+          "satyanarayana-chutia"
+         ],
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-279.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-279.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": false
+        },
+        {
+         "id": "CHUTIA-01",
+         "title": "A Land Grant at Sadhayapuri",
+         "date_label": "Saka 1314 (1392 CE)",
+         "sort_year": 1392,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "At Sadhayapuri the Chutia kings Nandi and Satyanarayana issue the Dhenukhana copper plate, a Sanskrit land grant and the earliest dated record of the kingdom.",
+         "people": [
+          "nandi-chutia",
+          "satyanarayana-chutia"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": false
+        }
+       ]
+      },
+      {
+       "id": "satyanarayana-chutia",
+       "name": "Satyanarayana (Ratnanarayana)",
+       "date_label": "late 14th century (grant of 1392)",
+       "start_year": 1380,
+       "end_year": 1400,
+       "sort_year": 1380,
+       "role": "Chutia king",
+       "summary": "Son of Nandi; ruled from Sadhayapura. A later Chutia king names Ratnanarayana, identified with him, as king of Kamatapura, which may show a link between Sadiya and Kamata.",
+       "notes": "The Ratnanarayana identification is a scholarly suggestion. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/satyanarayana-chutia/local-scene-references.md.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Satyanarayana (Ratnanarayana), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/satyanarayana-chutia/turnaround-1.webp",
+         "thumbnail": "media/characters/satyanarayana-chutia/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
+       "events": [
+        {
+         "id": "event-1380-13",
+         "title": "The Chutia kingdom appears in the record",
+         "date_label": "1380–1400",
+         "start_year": 1380,
+         "end_year": 1400,
+         "summary": "Nandi and Satyanarayana rule from Sadhayapura (Sadiya), the earliest Chutia kings known from inscriptions. Tyao Khamti's expedition against them fails (1380–87).",
+         "people": [
+          "nandi-chutia",
+          "satyanarayana-chutia",
+          "tyao-khamti"
+         ],
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ]
+        }
+       ],
+       "scenes": [
+        {
+         "id": "AHOM-279",
+         "title": "Tyao Khamti's Failed Expedition Against the Chutias",
+         "date_label": "1380–1387",
+         "sort_year": 1380,
+         "era": "Foundational Era (1228–1497)",
+         "collection": "AHOM chronology",
+         "summary": "Nandi and Satyanarayana rule the Chutia kingdom from Sadhayapura (Sadiya), the earliest Chutia kings known from inscriptions. Tyao Khamti's campaign against them fails.",
+         "people": [
+          "tyao-khamti",
+          "nandi-chutia",
+          "satyanarayana-chutia"
+         ],
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-279.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-279.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": false
+        },
+        {
+         "id": "CHUTIA-01",
+         "title": "A Land Grant at Sadhayapuri",
+         "date_label": "Saka 1314 (1392 CE)",
+         "sort_year": 1392,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "At Sadhayapuri the Chutia kings Nandi and Satyanarayana issue the Dhenukhana copper plate, a Sanskrit land grant and the earliest dated record of the kingdom.",
+         "people": [
+          "nandi-chutia",
+          "satyanarayana-chutia"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": true
+        },
+        {
+         "id": "CHUTIA-02",
+         "title": "Vaishnava Brahmins at the Chutia Court",
+         "date_label": "late 14th century",
+         "sort_year": 1395,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Vaishnava Brahmins reach the Chutia court and compose genealogies linking its kings to Krishna’s family, while ranking them below themselves.",
+         "people": [
+          "satyanarayana-chutia"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": true
+        }
+       ]
+      },
+      {
+       "id": "lakshminarayana-chutia",
+       "name": "Lakshminarayana (Dharmanarayana)",
+       "date_label": "early 15th century",
+       "start_year": 1400,
+       "end_year": 1428,
+       "sort_year": 1405,
+       "role": "Chutia king",
+       "summary": "Chutia king known from sources dated 1392 and 1401.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "scenes": [
+        {
+         "id": "CHUTIA-03",
+         "title": "Lakshminarayana’s Ghilamara Grant",
+         "date_label": "1401",
+         "sort_year": 1401,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Lakshminarayana issues a copper-plate land grant, later found at Ghilamara.",
+         "people": [
+          "lakshminarayana-chutia"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "main": true
+        },
+        {
+         "id": "CHUTIA-04",
+         "title": "The Brick Fort at Bhismaknagar",
+         "date_label": "early 15th century",
+         "sort_year": 1405,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "At the foot of the Mishmi hills a fortified city of fired brick and stone rises, with walls about 4.5 m high, a palace complex of three halls and several tanks. A brick bearing Lakshminarayana’s name suggests it was his capital.",
+         "people": [
+          "lakshminarayana-chutia"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Bhismaknagar"
+         ],
+         "places": [
+          "dibang"
+         ],
+         "main": true
+        }
+       ]
+      },
+      {
+       "id": "durlabhnarayana-chutia",
+       "name": "Durlabhnarayana (Chutia)",
+       "date_label": "early 15th century (grant of 1428)",
+       "start_year": 1428,
+       "end_year": 1442,
+       "sort_year": 1428,
+       "role": "Chutia king",
+       "summary": "Chutia king known from a grant dated 1428.",
+       "notes": "Not the Kamata king of the same name.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "scenes": [
+        {
+         "id": "CHUTIA-05",
+         "title": "Durlabhnarayana’s Grant at Sadiya",
+         "date_label": "Saka 1350 (1428 CE)",
+         "sort_year": 1428,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Durlabhnarayana issues the Sadiya-Chepakhowa copper-plate grant.",
+         "people": [
+          "durlabhnarayana-chutia"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": true
+        }
+       ]
+      },
+      {
+       "id": "muktadharmanarayana",
+       "name": "Muktadharmanarayana",
+       "date_label": "mid-15th century",
+       "start_year": 1442,
+       "end_year": 1460,
+       "sort_year": 1442,
+       "role": "Chutia king",
+       "summary": "Known from an inscription dated 1442.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "scenes": [
+        {
+         "id": "CHUTIA-06",
+         "title": "A Brick Wall for Kechaikhati",
+         "date_label": "Saka 1364 (1442 CE)",
+         "sort_year": 1442,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Mukta Dharmanarayana, a Chutia prince, builds the brick wall of the shrine of the goddess Kechaikhati (Dikkaravasini) on the Paya river, served by Deori priests. A later copper roof gives the temple its name, Tamreswari.",
+         "people": [
+          "muktadharmanarayana"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Tamreswari_Temple",
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": true
+        }
+       ]
+      },
+      {
+       "id": "pratyaksanarayana",
+       "name": "Pratyaksanarayana (Yasanarayana)",
+       "date_label": "mid-15th century",
+       "start_year": 1445,
+       "end_year": 1470,
+       "sort_year": 1450,
+       "role": "Chutia king",
+       "summary": "Chutia king known without dates; the page notes a possible match with Yasanarayana of the Dhenukhana plate.",
+       "confidence": "low",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ]
+      },
+      {
+       "id": "yasamanarayana",
+       "name": "Yasamanarayana",
+       "date_label": "late 15th century",
+       "start_year": 1470,
+       "end_year": 1490,
+       "sort_year": 1470,
+       "role": "Chutia king",
+       "summary": "Chutia king of the late 15th century; may be the Yasanarayana of the Dhenukhana plate.",
+       "confidence": "low",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ]
+      },
+      {
+       "id": "purandarnarayana",
+       "name": "Purandarnarayana",
+       "date_label": "late 15th century",
+       "start_year": 1490,
+       "end_year": 1510,
+       "sort_year": 1490,
+       "role": "Chutia king",
+       "summary": "Chutia king listed before Dhirnarayan; no events are given.",
+       "confidence": "low",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ]
+      },
+      {
+       "id": "dhirnarayan",
+       "name": "Dhirnarayan",
+       "date_label": "to 1523–24",
+       "start_year": 1510,
+       "end_year": 1523,
+       "sort_year": 1510,
+       "role": "Last Chutia king",
+       "summary": "Built a fort at Dikhowmukh in 1513, was routed attacking the Ahom fort at Dibru in 1523, and was killed, ending the kingdom in 1523–24.",
+       "notes": "Known from an inscription dated 1522. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/dhirnarayan/local-scene-references.md.",
+       "confidence": "high",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Chutia_kingdom",
+        "https://en.wikipedia.org/wiki/Suhungmung"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Dhirnarayan, realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/dhirnarayan/turnaround-1.webp",
+         "thumbnail": "media/characters/dhirnarayan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
+       "events": [
+        {
+         "id": "event-1512-23",
+         "title": "Suhungmung annexes the Chutia kingdom",
+         "date_label": "1512–1524",
+         "start_year": 1512,
+         "end_year": 1524,
+         "summary": "Habung is taken in 1512 and Dhirnarayan is routed at Dibru in 1523. By 1524 Phrasengmung Borgohain governs Sadiya.",
+         "people": [
+          "suhungmung",
+          "dhirnarayan",
+          "phrasengmung-borgohain"
+         ],
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suhungmung",
+          "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ]
+        }
+       ],
+       "scenes": [
+        {
+         "id": "CHUTIA-08",
+         "title": "Dhirnarayan’s Stockade at Dikhowmukh",
+         "date_label": "1513",
+         "sort_year": 1513,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "In a border dispute Dhirnarayan raises the Posola-garh stockade at Dikhowmukh; an Ahom force led by Suhungmung routs the Chutias.",
+         "people": [
+          "dhirnarayan",
+          "suhungmung"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "dikhowmukh"
+         ],
+         "main": true
+        },
+        {
+         "id": "CHUTIA-09",
+         "title": "The Chutias Take Mungkhrang",
+         "date_label": "1520",
+         "sort_year": 1520,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Chutia forces attack the Ahom fort at Mungkhrang twice and take it on the second attempt, before the Ahoms win it back.",
+         "people": [
+          "dhirnarayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "main": true
+        },
+        {
+         "id": "CHUTIA-10",
+         "title": "The Chutia Regalia Carried Away",
+         "date_label": "1523",
+         "sort_year": 1523,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "After the rout at the Dibru fort and the death of the Chutia king, the Ahoms carry off the royal heirlooms: the gold and silver cat (mekuri), the royal umbrella and the bedstead.",
+         "people": [
+          "dhirnarayan"
+         ],
+         "status": "planned",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": true
+        },
+        {
+         "id": "AHOM-096",
+         "title": "Annexation of the Chutia Kingdom",
+         "date_label": "1523",
+         "sort_year": 1523,
+         "era": "Imperial Expansion & Early Invasions (1497–1603)",
+         "collection": "AHOM chronology",
+         "summary": "Chutia forces routed at Chandangiri; Sadiya annexed into the Ahom Empire; office of Sadiya-Khowa Gohain instituted; firearms and copper-plate treasures acquired.",
+         "people": [
+          "dhirnarayan",
+          "suhungmung",
+          "phrasengmung-borgohain"
+         ],
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-096.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-096.webp",
+         "status": "illustrated",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suhungmung",
+          "https://en.wikipedia.org/wiki/Chutia_kingdom"
+         ],
+         "places": [
+          "sadiya"
+         ],
+         "main": false
+        }
+       ]
+      },
+      {
+       "id": "kasitora",
+       "name": "Kasitora",
+       "date_label": "1522–1523",
+       "start_year": 1522,
+       "end_year": 1523,
+       "sort_year": 1522,
+       "role": "Chutia minister",
+       "summary": "A minister said to have been defeated alongside Dhirnarayan.",
+       "confidence": "low",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ]
+      },
+      {
+       "id": "sadhaknarayan",
+       "name": "Sadhaknarayan",
+       "date_label": "1523–1524",
+       "start_year": 1523,
+       "end_year": 1524,
+       "sort_year": 1523,
+       "role": "Chutia prince",
+       "summary": "Prince after the fall; accounts differ on whether he was deported to Darrang or killed.",
+       "confidence": "low",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Chutia_kingdom"
+       ],
+       "scenes": [
+        {
+         "id": "CHUTIA-13",
+         "title": "Sadhaknarayan Sent to Darrang",
+         "date_label": "1524",
+         "sort_year": 1526,
+         "era": "Chutia kingdom (1350–1524)",
+         "collection": "Chutia chronology",
+         "summary": "Some sources say the Chutia prince Sadhaknarayan was deported to Darrang, where descendants are said to live at Geruwapara.",
+         "people": [
+          "sadhaknarayan"
+         ],
+         "status": "planned",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
+         ],
+         "main": true
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Dimasa (Kachari) kingdom",
+     "start_year": 1286,
+     "end_year": 1830,
+     "characters": [
+      {
+       "id": "bhopal-kachari",
+       "name": "Bhopal (Kachari, traditional list)",
+       "date_label": "1286–1316 (traditional list)",
+       "start_year": 1286,
+       "end_year": 1316,
+       "sort_year": 1286,
+       "role": "Kachari king",
+       "summary": "Named in a popular king list as a Kachari ruler of the 13th–14th century; not found in the scholarly sources reviewed.",
+       "notes": "Treat as unverified.",
+       "confidence": "low",
+       "status": "researched",
+       "sheet_status": "none"
+      },
+      {
+       "id": "purandar-kachari",
+       "name": "Purandar (Kachari, traditional list)",
+       "date_label": "1316–1336 (traditional list)",
+       "start_year": 1316,
+       "end_year": 1336,
+       "sort_year": 1316,
+       "role": "Kachari king",
+       "summary": "Named in the same popular king list; unverified.",
+       "notes": "Not the Ahom king Purandar Singha.",
+       "confidence": "low",
+       "status": "researched",
+       "sheet_status": "none"
+      },
+      {
+       "id": "mahamanikya",
+       "name": "Mahamanikya (Barahi king)",
+       "date_label": "c. 1330–1370",
+       "start_year": 1330,
+       "end_year": 1370,
+       "sort_year": 1330,
+       "role": "Barahi (Kachari) king of the Kapili valley",
+       "summary": "Ruled around Nagaon, Morigaon and Hojai; patron of the poet Madhava Kandali. A Hojai (Lanka) inscription dated 1352 records a land grant; some historians say he joined Kamata and the Bhuyans against Sikandar Shah around 1362.",
+       "notes": "Called Borahi-Kachari king Manikpha in one source; the lineage label varies.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "scenes",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Mahamanikya",
+        "https://en.wikipedia.org/wiki/Madhava_Kandali",
+        "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
+       ],
+       "events": [
+        {
+         "id": "event-1330-10",
+         "title": "Mahamanikya and the Saptakanda Ramayana",
+         "date_label": "1330–1370",
+         "start_year": 1330,
+         "end_year": 1370,
+         "summary": "The Barahi king Mahamanikya rules around Nagaon and Hojai (a 1352 inscription records his grant) and sponsors Madhava Kandali's Ramayana.",
+         "people": [
+          "mahamanikya",
+          "madhava-kandali"
+         ],
+         "sources": [
+          "https://en.wikipedia.org/wiki/Mahamanikya",
+          "https://en.wikipedia.org/wiki/Madhava_Kandali"
+         ]
+        },
+        {
+         "id": "event-1356-12",
+         "title": "Ilyas Shah and Sikandar Shah invade",
+         "date_label": "1356–1362",
+         "start_year": 1356,
+         "end_year": 1362,
+         "summary": "Bengal forces occupy Kamrup including Guwahati in 1356–57. Sikandar Shah then pushes to the Kopili, where Kamata, Bhuyan and Barahi forces fight him near Gachtal. A coin of 1360 carries a Kamrup mint name.",
+         "people": [
+          "shamsuddin-ilyas-shah",
+          "sikandar-shah-bengal",
+          "indranarayan",
+          "mahamanikya"
+         ],
+         "sources": [
+          "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam",
+          "https://en.wikipedia.org/wiki/Bengal_Sultanate%E2%80%93Kamata_Kingdom_War",
+          "https://en.wikipedia.org/wiki/Mahamanikya"
+         ]
+        }
+       ],
+       "scenes": [
+        {
+         "id": "KAMATA-14",
+         "title": "Madhav Kandali Writes the Saptakanda Ramayana",
+         "date_label": "c. 1330–1370",
+         "sort_year": 1350,
+         "era": "Kamata and its neighbours (1100–1515)",
+         "collection": "Kamarupa chronology",
+         "summary": "At the command of Mahamanikya, a Barāha/Borahi king of the Nagaon–Morigaon–Hojai region, the poet Madhav Kandali translates the Sanskrit Ramayana into Assamese verse; the Lankākānda states this patronage.",
+         "people": [
+          "madhava-kandali",
+          "mahamanikya"
+         ],
+         "scene_image": "media/scenes/western-assam/1100-1515-kamata/KAMATA-14.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1100-1515-kamata/thumb/KAMATA-14.webp",
+         "status": "illustrated",
+         "confidence": "medium",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Mahamanikya",
+          "https://en.wikipedia.org/wiki/Kamata_Kingdom"
+         ],
+         "places": [
+          "nagaon"
+         ],
+         "main": false
+        },
+        {
+         "id": "KAMATA-16",
+         "title": "Sikandar Shah Met at Gachtal",
+         "date_label": "1362",
+         "sort_year": 1362,
+         "era": "Kamata and its neighbours (1100–1515)",
+         "collection": "Kamarupa chronology",
+         "summary": "Sikandar Shah advances to the Kopili river, where Mahamanikya, Indranarayan of Kamata and the Bhuyan chiefs fight him at Gachtal near Nagaon.",
+         "people": [
+          "sikandar-shah-bengal",
+          "mahamanikya",
+          "indranarayan"
+         ],
+         "scene_image": "media/scenes/western-assam/1100-1515-kamata/KAMATA-16.webp",
+         "scene_thumbnail": "media/scenes/western-assam/1100-1515-kamata/thumb/KAMATA-16.webp",
+         "status": "illustrated",
+         "confidence": "low",
+         "sources": [
+          "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam",
+          "https://en.wikipedia.org/wiki/Mahamanikya"
+         ],
+         "places": [
+          "gachtal",
+          "kopili",
+          "nagaon"
+         ],
+         "main": false
+        }
+       ]
+      },
+      {
+       "id": "bicharpatiha",
+       "name": "Bicharpatiha (Prakash, traditional list)",
+       "date_label": "1336–1386 (traditional list)",
+       "start_year": 1336,
+       "end_year": 1386,
+       "sort_year": 1336,
+       "role": "Kachari king at Dimapur",
+       "summary": "The same list places him at Dimapur from 1336; the Dimasa Kingdom article says early king lists are late constructions and should be treated with caution.",
+       "notes": "Treat as unverified.",
+       "confidence": "low",
+       "status": "researched",
+       "sheet_status": "none"
+      },
+      {
+       "id": "khorapha",
+       "name": "Khorapha",
+       "date_label": "c. 1520–1526",
+       "start_year": 1520,
+       "end_year": 1526,
+       "sort_year": 1520,
+       "role": "Dimasa king",
+       "summary": "Issued a silver coin in 1520 and was killed in an Ahom attack in 1526.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+       ]
+      },
+      {
+       "id": "khunkhara",
+       "name": "Khunkhara",
+       "date_label": "1526–1531",
+       "start_year": 1526,
+       "end_year": 1531,
+       "sort_year": 1526,
+       "role": "Dimasa king",
+       "summary": "Succeeded his brother Khorapha and fled Dimapur when the Ahoms attacked in 1531.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+        "https://en.wikipedia.org/wiki/Kachari_Kingdom"
+       ]
+      },
+      {
+       "id": "detsung",
+       "name": "Detsung (Dersung)",
+       "date_label": "1531–1536",
+       "start_year": 1531,
+       "end_year": 1536,
+       "sort_year": 1531,
+       "role": "Dimasa king",
+       "summary": "Installed by Suhungmung, to whom he gave his sister in marriage; killed when he tried to break free. The Ahoms occupied Dimapur in 1536.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+        "https://en.wikipedia.org/wiki/Kachari_Kingdom"
+       ]
+      },
+      {
+       "id": "yasho-narayan",
+       "name": "Yasho Narayan (Satrudaman)",
+       "date_label": "c. 1583–1601",
+       "start_year": 1583,
+       "end_year": 1601,
+       "sort_year": 1583,
+       "role": "Most powerful Dimasa king",
+       "summary": "Ruled North Cachar, the Dhansiri valley and parts of Sylhet and struck coins in his name.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+        "https://en.wikipedia.org/wiki/Kachari_Kingdom"
+       ]
+      },
+      {
+       "id": "tamradhwaj",
+       "name": "Tamradhwaj Narayan",
+       "date_label": "1706–1708",
+       "start_year": 1706,
+       "end_year": 1708,
+       "sort_year": 1706,
+       "role": "Dimasa king",
+       "summary": "Declared independence; Rudra Singha invaded Maibong in December 1706 and destroyed its fort. Tamradhwaj fled to Jaintia and was imprisoned.",
+       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/tamradhwaj/local-scene-references.md.",
+       "confidence": "high",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+        "https://en.wikipedia.org/wiki/Rudra_Singha",
+        "https://en.wikipedia.org/wiki/Kachari_Kingdom"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Tamradhwaj Narayan, realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/tamradhwaj/turnaround-1.webp",
+         "thumbnail": "media/characters/tamradhwaj/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
+       "scenes": [
+        {
+         "id": "AHOM-188",
+         "title": "Subjugation and Vassalage of the Kachari and Jaintia Rulers",
+         "date_label": "1706–1707",
+         "sort_year": 1706,
+         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
+         "collection": "AHOM chronology",
+         "summary": "Following victorious campaigns, Rudra Singha receives envoys and rulers of the Kacharis and Jaintias who submit tribute and acknowledge Ahom supremacy.",
+         "people": [
+          "ram-singh-jaintia",
+          "rudra-singha",
+          "tamradhwaj"
+         ],
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-188.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-188.webp",
+         "status": "illustrated",
+         "main": false
+        }
+       ]
+      },
+      {
+       "id": "krishnachandra",
+       "name": "Krishnachandra Narayan",
+       "date_label": "1790–1813",
+       "start_year": 1790,
+       "end_year": 1813,
+       "sort_year": 1790,
+       "role": "Dimasa king",
+       "summary": "Sheltered Moamoria rebels, causing Ahom–Dimasa skirmishes from 1803 to 1805; helped Manipur against the Burmese.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+        "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+       ]
+      },
+      {
+       "id": "govindachandra",
+       "name": "Govindachandra Narayan",
+       "date_label": "1814–1830",
+       "start_year": 1814,
+       "end_year": 1830,
+       "sort_year": 1814,
+       "role": "Last Dimasa king",
+       "summary": "Restored by the British after the 1826 Treaty of Yandabo; died in 1830.",
+       "notes": "The two sources split his reign into two periods.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+        "https://en.wikipedia.org/wiki/Kachari_Kingdom"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Jaintia and Manipur",
+     "start_year": 1612,
+     "end_year": 1832,
+     "characters": [
+      {
+       "id": "jasa-manik",
+       "name": "Jasa Manik",
+       "date_label": "1612–1625",
+       "start_year": 1612,
+       "end_year": 1625,
+       "sort_year": 1612,
+       "role": "Jaintia king",
+       "summary": "Jaintia king whose manoeuvres are linked to the Dimasa–Ahom conflict of 1618.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Jaintia_Kingdom",
+        "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+       ]
+      },
+      {
+       "id": "ram-singh-jaintia",
+       "name": "Ram Singh I (Jaintia)",
+       "date_label": "1694–1708",
+       "start_year": 1694,
+       "end_year": 1708,
+       "sort_year": 1694,
+       "role": "Jaintia king",
+       "summary": "Kidnapped the Dimasa king, prompting Rudra Singha's 1707–08 invasion; died an Ahom captive.",
+       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/ram-singh-jaintia/local-scene-references.md.",
+       "confidence": "high",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Jaintia_Kingdom",
+        "https://en.wikipedia.org/wiki/Rudra_Singha"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Ram Singh I (Jaintia), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/ram-singh-jaintia/turnaround-1.webp",
+         "thumbnail": "media/characters/ram-singh-jaintia/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
+       "scenes": [
+        {
+         "id": "AHOM-188",
+         "title": "Subjugation and Vassalage of the Kachari and Jaintia Rulers",
+         "date_label": "1706–1707",
+         "sort_year": 1706,
+         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
+         "collection": "AHOM chronology",
+         "summary": "Following victorious campaigns, Rudra Singha receives envoys and rulers of the Kacharis and Jaintias who submit tribute and acknowledge Ahom supremacy.",
+         "people": [
+          "ram-singh-jaintia",
+          "rudra-singha",
+          "tamradhwaj"
+         ],
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-188.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-188.webp",
+         "status": "illustrated",
+         "main": false
+        }
+       ]
+      },
+      {
+       "id": "bhagyachandra",
+       "name": "Bhagyachandra (Jai Singh)",
+       "date_label": "1748–1798",
+       "start_year": 1759,
+       "end_year": 1798,
+       "sort_year": 1759,
+       "role": "King of Manipur",
+       "summary": "Fled to Ahom territory after the Burmese invasion of 1764 and was sheltered by Rajeswar Singha, who backed his return; reinstated in 1773. Promoted Vaishnavism and the Manipuri Raas Leela.",
+       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/bhagyachandra/local-scene-references.md.",
+       "confidence": "high",
+       "status": "researched",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Bhagyachandra",
+        "https://en.wikipedia.org/wiki/Rajeswar_Singha"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bhagyachandra (Jai Singh), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/bhagyachandra/turnaround-1.webp",
+         "thumbnail": "media/characters/bhagyachandra/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
+       "scenes": [
+        {
+         "id": "AHOM-201",
+         "title": "Lata-Katai Ran: The Mountain Expedition to Manipur",
+         "date_label": "1765–1768",
+         "sort_year": 1765,
+         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
+         "collection": "AHOM chronology",
+         "summary": "Rajeswar Singha dispatches an army across trackless, creepers-choked mountain jungles ('Lata-Katai Ran') to liberate Manipur from Burmese occupation and reinstate Meitei King Jai Singh.",
+         "people": [
+          "bhagyachandra",
+          "haranath-phukan",
+          "rajeswar-singha"
+         ],
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-201.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-201.webp",
+         "status": "illustrated",
+         "places": [
+          "manipur"
+         ],
+         "main": false
+        },
+        {
+         "id": "AHOM-202",
+         "title": "Royal Wedding of Rajeswar Singha and Princess Kuranganayani",
+         "date_label": "1768",
+         "sort_year": 1768,
+         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
+         "collection": "AHOM chronology",
+         "summary": "In gratitude, King Jai Singh gives his heroic daughter Princess Kuranganayani in marriage to Rajeswar Singha, cementing eternal Ahom-Manipuri ties.",
+         "people": [
+          "bhagyachandra",
+          "kuranganayani",
+          "rajeswar-singha"
+         ],
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-202.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-202.webp",
+         "status": "illustrated",
+         "main": false
+        }
+       ]
+      },
+      {
+       "id": "ram-singh-ii-jaintia",
+       "name": "Ram Singh II (Jaintia)",
+       "date_label": "1790–1832",
+       "start_year": 1790,
+       "end_year": 1832,
+       "sort_year": 1790,
+       "role": "Jaintia king",
+       "summary": "Long-reigning Jaintia king who agreed in 1824 to deal only with the British.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Jaintia_Kingdom"
+       ]
+      },
+      {
+       "id": "gambhir-singha",
+       "name": "Gambhir Singha",
+       "date_label": "1825",
+       "start_year": 1825,
+       "end_year": 1825,
+       "sort_year": 1825,
+       "role": "King of Manipur",
+       "summary": "Repulsed the Burmese in 1825.",
+       "confidence": "medium",
+       "status": "researched",
+       "sheet_status": "none",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "ahom",
    "name": "Ahom period",
    "name_assamese": "অহম যুগ",
@@ -19918,1087 +20999,6 @@
          ],
          "main": false
         }
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "neighbours",
-   "name": "Neighbouring kingdoms",
-   "name_assamese": "চুবুৰীয়া ৰাজ্য",
-   "date_label": "c. 1300–1830",
-   "start_year": 1300,
-   "end_year": 1830,
-   "summary": "The Chutia kingdom of Sadiya, the Dimasa (Kachari) and Barahi kingdoms of the centre and south, and Jaintia and Manipur on the edge of the hills.",
-   "dynasties": [
-    {
-     "name": "Chutia kingdom",
-     "start_year": 1350,
-     "end_year": 1524,
-     "characters": [
-      {
-       "id": "nandi-chutia",
-       "name": "Nandi (Nandisvara)",
-       "date_label": "second half of the 14th century",
-       "start_year": 1350,
-       "end_year": 1380,
-       "sort_year": 1350,
-       "role": "Earliest attested Chutia king",
-       "summary": "Ruled from Sadhayapura (Sadiya); known from a grant issued by his son Satyanarayana, who also names his mother Daivaki.",
-       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/nandi-chutia/local-scene-references.md.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "sheet",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Chutia_kingdom"
-       ],
-       "character_sheets": [
-        {
-         "kind": "turnaround",
-         "caption": "Nandi (Nandisvara), realistic eight-view character sheet using local project references, modern artistic reconstruction",
-         "image": "media/characters/nandi-chutia/turnaround-1.webp",
-         "thumbnail": "media/characters/nandi-chutia/thumb/turnaround-1.webp",
-         "width": 1536,
-         "height": 1024
-        }
-       ],
-       "events": [
-        {
-         "id": "event-1380-13",
-         "title": "The Chutia kingdom appears in the record",
-         "date_label": "1380–1400",
-         "start_year": 1380,
-         "end_year": 1400,
-         "summary": "Nandi and Satyanarayana rule from Sadhayapura (Sadiya), the earliest Chutia kings known from inscriptions. Tyao Khamti's expedition against them fails (1380–87).",
-         "people": [
-          "nandi-chutia",
-          "satyanarayana-chutia",
-          "tyao-khamti"
-         ],
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_kingdom"
-         ]
-        }
-       ],
-       "scenes": [
-        {
-         "id": "AHOM-279",
-         "title": "Tyao Khamti's Failed Expedition Against the Chutias",
-         "date_label": "1380–1387",
-         "sort_year": 1380,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Nandi and Satyanarayana rule the Chutia kingdom from Sadhayapura (Sadiya), the earliest Chutia kings known from inscriptions. Tyao Khamti's campaign against them fails.",
-         "people": [
-          "tyao-khamti",
-          "nandi-chutia",
-          "satyanarayana-chutia"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-279.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-279.webp",
-         "status": "illustrated",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_kingdom"
-         ],
-         "places": [
-          "sadiya"
-         ],
-         "main": false
-        },
-        {
-         "id": "CHUTIA-01",
-         "title": "A Land Grant at Sadhayapuri",
-         "date_label": "Saka 1314 (1392 CE)",
-         "sort_year": 1392,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "At Sadhayapuri the Chutia kings Nandi and Satyanarayana issue the Dhenukhana copper plate, a Sanskrit land grant and the earliest dated record of the kingdom.",
-         "people": [
-          "nandi-chutia",
-          "satyanarayana-chutia"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "places": [
-          "sadiya"
-         ],
-         "main": false
-        }
-       ]
-      },
-      {
-       "id": "satyanarayana-chutia",
-       "name": "Satyanarayana (Ratnanarayana)",
-       "date_label": "late 14th century (grant of 1392)",
-       "start_year": 1380,
-       "end_year": 1400,
-       "sort_year": 1380,
-       "role": "Chutia king",
-       "summary": "Son of Nandi; ruled from Sadhayapura. A later Chutia king names Ratnanarayana, identified with him, as king of Kamatapura, which may show a link between Sadiya and Kamata.",
-       "notes": "The Ratnanarayana identification is a scholarly suggestion. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/satyanarayana-chutia/local-scene-references.md.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "sheet",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Chutia_kingdom"
-       ],
-       "character_sheets": [
-        {
-         "kind": "turnaround",
-         "caption": "Satyanarayana (Ratnanarayana), realistic eight-view character sheet using local project references, modern artistic reconstruction",
-         "image": "media/characters/satyanarayana-chutia/turnaround-1.webp",
-         "thumbnail": "media/characters/satyanarayana-chutia/thumb/turnaround-1.webp",
-         "width": 1536,
-         "height": 1024
-        }
-       ],
-       "events": [
-        {
-         "id": "event-1380-13",
-         "title": "The Chutia kingdom appears in the record",
-         "date_label": "1380–1400",
-         "start_year": 1380,
-         "end_year": 1400,
-         "summary": "Nandi and Satyanarayana rule from Sadhayapura (Sadiya), the earliest Chutia kings known from inscriptions. Tyao Khamti's expedition against them fails (1380–87).",
-         "people": [
-          "nandi-chutia",
-          "satyanarayana-chutia",
-          "tyao-khamti"
-         ],
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_kingdom"
-         ]
-        }
-       ],
-       "scenes": [
-        {
-         "id": "AHOM-279",
-         "title": "Tyao Khamti's Failed Expedition Against the Chutias",
-         "date_label": "1380–1387",
-         "sort_year": 1380,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Nandi and Satyanarayana rule the Chutia kingdom from Sadhayapura (Sadiya), the earliest Chutia kings known from inscriptions. Tyao Khamti's campaign against them fails.",
-         "people": [
-          "tyao-khamti",
-          "nandi-chutia",
-          "satyanarayana-chutia"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-279.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-279.webp",
-         "status": "illustrated",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_kingdom"
-         ],
-         "places": [
-          "sadiya"
-         ],
-         "main": false
-        },
-        {
-         "id": "CHUTIA-01",
-         "title": "A Land Grant at Sadhayapuri",
-         "date_label": "Saka 1314 (1392 CE)",
-         "sort_year": 1392,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "At Sadhayapuri the Chutia kings Nandi and Satyanarayana issue the Dhenukhana copper plate, a Sanskrit land grant and the earliest dated record of the kingdom.",
-         "people": [
-          "nandi-chutia",
-          "satyanarayana-chutia"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "places": [
-          "sadiya"
-         ],
-         "main": true
-        },
-        {
-         "id": "CHUTIA-02",
-         "title": "Vaishnava Brahmins at the Chutia Court",
-         "date_label": "late 14th century",
-         "sort_year": 1395,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "Vaishnava Brahmins reach the Chutia court and compose genealogies linking its kings to Krishna’s family, while ranking them below themselves.",
-         "people": [
-          "satyanarayana-chutia"
-         ],
-         "status": "planned",
-         "confidence": "low",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "places": [
-          "sadiya"
-         ],
-         "main": true
-        }
-       ]
-      },
-      {
-       "id": "lakshminarayana-chutia",
-       "name": "Lakshminarayana (Dharmanarayana)",
-       "date_label": "early 15th century",
-       "start_year": 1400,
-       "end_year": 1428,
-       "sort_year": 1405,
-       "role": "Chutia king",
-       "summary": "Chutia king known from sources dated 1392 and 1401.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Chutia_kingdom"
-       ],
-       "scenes": [
-        {
-         "id": "CHUTIA-03",
-         "title": "Lakshminarayana’s Ghilamara Grant",
-         "date_label": "1401",
-         "sort_year": 1401,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "Lakshminarayana issues a copper-plate land grant, later found at Ghilamara.",
-         "people": [
-          "lakshminarayana-chutia"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "main": true
-        },
-        {
-         "id": "CHUTIA-04",
-         "title": "The Brick Fort at Bhismaknagar",
-         "date_label": "early 15th century",
-         "sort_year": 1405,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "At the foot of the Mishmi hills a fortified city of fired brick and stone rises, with walls about 4.5 m high, a palace complex of three halls and several tanks. A brick bearing Lakshminarayana’s name suggests it was his capital.",
-         "people": [
-          "lakshminarayana-chutia"
-         ],
-         "status": "planned",
-         "confidence": "low",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Bhismaknagar"
-         ],
-         "places": [
-          "dibang"
-         ],
-         "main": true
-        }
-       ]
-      },
-      {
-       "id": "durlabhnarayana-chutia",
-       "name": "Durlabhnarayana (Chutia)",
-       "date_label": "early 15th century (grant of 1428)",
-       "start_year": 1428,
-       "end_year": 1442,
-       "sort_year": 1428,
-       "role": "Chutia king",
-       "summary": "Chutia king known from a grant dated 1428.",
-       "notes": "Not the Kamata king of the same name.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Chutia_kingdom"
-       ],
-       "scenes": [
-        {
-         "id": "CHUTIA-05",
-         "title": "Durlabhnarayana’s Grant at Sadiya",
-         "date_label": "Saka 1350 (1428 CE)",
-         "sort_year": 1428,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "Durlabhnarayana issues the Sadiya-Chepakhowa copper-plate grant.",
-         "people": [
-          "durlabhnarayana-chutia"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "places": [
-          "sadiya"
-         ],
-         "main": true
-        }
-       ]
-      },
-      {
-       "id": "muktadharmanarayana",
-       "name": "Muktadharmanarayana",
-       "date_label": "mid-15th century",
-       "start_year": 1442,
-       "end_year": 1460,
-       "sort_year": 1442,
-       "role": "Chutia king",
-       "summary": "Known from an inscription dated 1442.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Chutia_kingdom"
-       ],
-       "scenes": [
-        {
-         "id": "CHUTIA-06",
-         "title": "A Brick Wall for Kechaikhati",
-         "date_label": "Saka 1364 (1442 CE)",
-         "sort_year": 1442,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "Mukta Dharmanarayana, a Chutia prince, builds the brick wall of the shrine of the goddess Kechaikhati (Dikkaravasini) on the Paya river, served by Deori priests. A later copper roof gives the temple its name, Tamreswari.",
-         "people": [
-          "muktadharmanarayana"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Tamreswari_Temple",
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "places": [
-          "sadiya"
-         ],
-         "main": true
-        }
-       ]
-      },
-      {
-       "id": "pratyaksanarayana",
-       "name": "Pratyaksanarayana (Yasanarayana)",
-       "date_label": "mid-15th century",
-       "start_year": 1445,
-       "end_year": 1470,
-       "sort_year": 1450,
-       "role": "Chutia king",
-       "summary": "Chutia king known without dates; the page notes a possible match with Yasanarayana of the Dhenukhana plate.",
-       "confidence": "low",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Chutia_kingdom"
-       ]
-      },
-      {
-       "id": "yasamanarayana",
-       "name": "Yasamanarayana",
-       "date_label": "late 15th century",
-       "start_year": 1470,
-       "end_year": 1490,
-       "sort_year": 1470,
-       "role": "Chutia king",
-       "summary": "Chutia king of the late 15th century; may be the Yasanarayana of the Dhenukhana plate.",
-       "confidence": "low",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Chutia_kingdom"
-       ]
-      },
-      {
-       "id": "purandarnarayana",
-       "name": "Purandarnarayana",
-       "date_label": "late 15th century",
-       "start_year": 1490,
-       "end_year": 1510,
-       "sort_year": 1490,
-       "role": "Chutia king",
-       "summary": "Chutia king listed before Dhirnarayan; no events are given.",
-       "confidence": "low",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Chutia_kingdom"
-       ]
-      },
-      {
-       "id": "dhirnarayan",
-       "name": "Dhirnarayan",
-       "date_label": "to 1523–24",
-       "start_year": 1510,
-       "end_year": 1523,
-       "sort_year": 1510,
-       "role": "Last Chutia king",
-       "summary": "Built a fort at Dikhowmukh in 1513, was routed attacking the Ahom fort at Dibru in 1523, and was killed, ending the kingdom in 1523–24.",
-       "notes": "Known from an inscription dated 1522. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/dhirnarayan/local-scene-references.md.",
-       "confidence": "high",
-       "status": "researched",
-       "sheet_status": "sheet",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Chutia_kingdom",
-        "https://en.wikipedia.org/wiki/Suhungmung"
-       ],
-       "character_sheets": [
-        {
-         "kind": "turnaround",
-         "caption": "Dhirnarayan, realistic eight-view character sheet using local project references, modern artistic reconstruction",
-         "image": "media/characters/dhirnarayan/turnaround-1.webp",
-         "thumbnail": "media/characters/dhirnarayan/thumb/turnaround-1.webp",
-         "width": 1536,
-         "height": 1024
-        }
-       ],
-       "events": [
-        {
-         "id": "event-1512-23",
-         "title": "Suhungmung annexes the Chutia kingdom",
-         "date_label": "1512–1524",
-         "start_year": 1512,
-         "end_year": 1524,
-         "summary": "Habung is taken in 1512 and Dhirnarayan is routed at Dibru in 1523. By 1524 Phrasengmung Borgohain governs Sadiya.",
-         "people": [
-          "suhungmung",
-          "dhirnarayan",
-          "phrasengmung-borgohain"
-         ],
-         "sources": [
-          "https://en.wikipedia.org/wiki/Suhungmung",
-          "https://en.wikipedia.org/wiki/Chutia_kingdom"
-         ]
-        }
-       ],
-       "scenes": [
-        {
-         "id": "CHUTIA-08",
-         "title": "Dhirnarayan’s Stockade at Dikhowmukh",
-         "date_label": "1513",
-         "sort_year": 1513,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "In a border dispute Dhirnarayan raises the Posola-garh stockade at Dikhowmukh; an Ahom force led by Suhungmung routs the Chutias.",
-         "people": [
-          "dhirnarayan",
-          "suhungmung"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "places": [
-          "dikhowmukh"
-         ],
-         "main": true
-        },
-        {
-         "id": "CHUTIA-09",
-         "title": "The Chutias Take Mungkhrang",
-         "date_label": "1520",
-         "sort_year": 1520,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "Chutia forces attack the Ahom fort at Mungkhrang twice and take it on the second attempt, before the Ahoms win it back.",
-         "people": [
-          "dhirnarayan"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "main": true
-        },
-        {
-         "id": "CHUTIA-10",
-         "title": "The Chutia Regalia Carried Away",
-         "date_label": "1523",
-         "sort_year": 1523,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "After the rout at the Dibru fort and the death of the Chutia king, the Ahoms carry off the royal heirlooms: the gold and silver cat (mekuri), the royal umbrella and the bedstead.",
-         "people": [
-          "dhirnarayan"
-         ],
-         "status": "planned",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "places": [
-          "sadiya"
-         ],
-         "main": true
-        },
-        {
-         "id": "AHOM-096",
-         "title": "Annexation of the Chutia Kingdom",
-         "date_label": "1523",
-         "sort_year": 1523,
-         "era": "Imperial Expansion & Early Invasions (1497–1603)",
-         "collection": "AHOM chronology",
-         "summary": "Chutia forces routed at Chandangiri; Sadiya annexed into the Ahom Empire; office of Sadiya-Khowa Gohain instituted; firearms and copper-plate treasures acquired.",
-         "people": [
-          "dhirnarayan",
-          "suhungmung",
-          "phrasengmung-borgohain"
-         ],
-         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-096.webp",
-         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-096.webp",
-         "status": "illustrated",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Suhungmung",
-          "https://en.wikipedia.org/wiki/Chutia_kingdom"
-         ],
-         "places": [
-          "sadiya"
-         ],
-         "main": false
-        }
-       ]
-      },
-      {
-       "id": "kasitora",
-       "name": "Kasitora",
-       "date_label": "1522–1523",
-       "start_year": 1522,
-       "end_year": 1523,
-       "sort_year": 1522,
-       "role": "Chutia minister",
-       "summary": "A minister said to have been defeated alongside Dhirnarayan.",
-       "confidence": "low",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Chutia_kingdom"
-       ]
-      },
-      {
-       "id": "sadhaknarayan",
-       "name": "Sadhaknarayan",
-       "date_label": "1523–1524",
-       "start_year": 1523,
-       "end_year": 1524,
-       "sort_year": 1523,
-       "role": "Chutia prince",
-       "summary": "Prince after the fall; accounts differ on whether he was deported to Darrang or killed.",
-       "confidence": "low",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Chutia_kingdom"
-       ],
-       "scenes": [
-        {
-         "id": "CHUTIA-13",
-         "title": "Sadhaknarayan Sent to Darrang",
-         "date_label": "1524",
-         "sort_year": 1526,
-         "era": "Chutia kingdom (1350–1524)",
-         "collection": "Chutia chronology",
-         "summary": "Some sources say the Chutia prince Sadhaknarayan was deported to Darrang, where descendants are said to live at Geruwapara.",
-         "people": [
-          "sadhaknarayan"
-         ],
-         "status": "planned",
-         "confidence": "low",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Chutia_Kingdom"
-         ],
-         "main": true
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Dimasa (Kachari) kingdom",
-     "start_year": 1286,
-     "end_year": 1830,
-     "characters": [
-      {
-       "id": "bhopal-kachari",
-       "name": "Bhopal (Kachari, traditional list)",
-       "date_label": "1286–1316 (traditional list)",
-       "start_year": 1286,
-       "end_year": 1316,
-       "sort_year": 1286,
-       "role": "Kachari king",
-       "summary": "Named in a popular king list as a Kachari ruler of the 13th–14th century; not found in the scholarly sources reviewed.",
-       "notes": "Treat as unverified.",
-       "confidence": "low",
-       "status": "researched",
-       "sheet_status": "none"
-      },
-      {
-       "id": "purandar-kachari",
-       "name": "Purandar (Kachari, traditional list)",
-       "date_label": "1316–1336 (traditional list)",
-       "start_year": 1316,
-       "end_year": 1336,
-       "sort_year": 1316,
-       "role": "Kachari king",
-       "summary": "Named in the same popular king list; unverified.",
-       "notes": "Not the Ahom king Purandar Singha.",
-       "confidence": "low",
-       "status": "researched",
-       "sheet_status": "none"
-      },
-      {
-       "id": "mahamanikya",
-       "name": "Mahamanikya (Barahi king)",
-       "date_label": "c. 1330–1370",
-       "start_year": 1330,
-       "end_year": 1370,
-       "sort_year": 1330,
-       "role": "Barahi (Kachari) king of the Kapili valley",
-       "summary": "Ruled around Nagaon, Morigaon and Hojai; patron of the poet Madhava Kandali. A Hojai (Lanka) inscription dated 1352 records a land grant; some historians say he joined Kamata and the Bhuyans against Sikandar Shah around 1362.",
-       "notes": "Called Borahi-Kachari king Manikpha in one source; the lineage label varies.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "scenes",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Mahamanikya",
-        "https://en.wikipedia.org/wiki/Madhava_Kandali",
-        "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
-       ],
-       "events": [
-        {
-         "id": "event-1330-10",
-         "title": "Mahamanikya and the Saptakanda Ramayana",
-         "date_label": "1330–1370",
-         "start_year": 1330,
-         "end_year": 1370,
-         "summary": "The Barahi king Mahamanikya rules around Nagaon and Hojai (a 1352 inscription records his grant) and sponsors Madhava Kandali's Ramayana.",
-         "people": [
-          "mahamanikya",
-          "madhava-kandali"
-         ],
-         "sources": [
-          "https://en.wikipedia.org/wiki/Mahamanikya",
-          "https://en.wikipedia.org/wiki/Madhava_Kandali"
-         ]
-        },
-        {
-         "id": "event-1356-12",
-         "title": "Ilyas Shah and Sikandar Shah invade",
-         "date_label": "1356–1362",
-         "start_year": 1356,
-         "end_year": 1362,
-         "summary": "Bengal forces occupy Kamrup including Guwahati in 1356–57. Sikandar Shah then pushes to the Kopili, where Kamata, Bhuyan and Barahi forces fight him near Gachtal. A coin of 1360 carries a Kamrup mint name.",
-         "people": [
-          "shamsuddin-ilyas-shah",
-          "sikandar-shah-bengal",
-          "indranarayan",
-          "mahamanikya"
-         ],
-         "sources": [
-          "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam",
-          "https://en.wikipedia.org/wiki/Bengal_Sultanate%E2%80%93Kamata_Kingdom_War",
-          "https://en.wikipedia.org/wiki/Mahamanikya"
-         ]
-        }
-       ],
-       "scenes": [
-        {
-         "id": "KAMATA-14",
-         "title": "Madhav Kandali Writes the Saptakanda Ramayana",
-         "date_label": "c. 1330–1370",
-         "sort_year": 1350,
-         "era": "Kamata and its neighbours (1100–1515)",
-         "collection": "Kamarupa chronology",
-         "summary": "At the command of Mahamanikya, a Barāha/Borahi king of the Nagaon–Morigaon–Hojai region, the poet Madhav Kandali translates the Sanskrit Ramayana into Assamese verse; the Lankākānda states this patronage.",
-         "people": [
-          "madhava-kandali",
-          "mahamanikya"
-         ],
-         "scene_image": "media/scenes/western-assam/1100-1515-kamata/KAMATA-14.webp",
-         "scene_thumbnail": "media/scenes/western-assam/1100-1515-kamata/thumb/KAMATA-14.webp",
-         "status": "illustrated",
-         "confidence": "medium",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Mahamanikya",
-          "https://en.wikipedia.org/wiki/Kamata_Kingdom"
-         ],
-         "places": [
-          "nagaon"
-         ],
-         "main": false
-        },
-        {
-         "id": "KAMATA-16",
-         "title": "Sikandar Shah Met at Gachtal",
-         "date_label": "1362",
-         "sort_year": 1362,
-         "era": "Kamata and its neighbours (1100–1515)",
-         "collection": "Kamarupa chronology",
-         "summary": "Sikandar Shah advances to the Kopili river, where Mahamanikya, Indranarayan of Kamata and the Bhuyan chiefs fight him at Gachtal near Nagaon.",
-         "people": [
-          "sikandar-shah-bengal",
-          "mahamanikya",
-          "indranarayan"
-         ],
-         "scene_image": "media/scenes/western-assam/1100-1515-kamata/KAMATA-16.webp",
-         "scene_thumbnail": "media/scenes/western-assam/1100-1515-kamata/thumb/KAMATA-16.webp",
-         "status": "illustrated",
-         "confidence": "low",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam",
-          "https://en.wikipedia.org/wiki/Mahamanikya"
-         ],
-         "places": [
-          "gachtal",
-          "kopili",
-          "nagaon"
-         ],
-         "main": false
-        }
-       ]
-      },
-      {
-       "id": "bicharpatiha",
-       "name": "Bicharpatiha (Prakash, traditional list)",
-       "date_label": "1336–1386 (traditional list)",
-       "start_year": 1336,
-       "end_year": 1386,
-       "sort_year": 1336,
-       "role": "Kachari king at Dimapur",
-       "summary": "The same list places him at Dimapur from 1336; the Dimasa Kingdom article says early king lists are late constructions and should be treated with caution.",
-       "notes": "Treat as unverified.",
-       "confidence": "low",
-       "status": "researched",
-       "sheet_status": "none"
-      },
-      {
-       "id": "khorapha",
-       "name": "Khorapha",
-       "date_label": "c. 1520–1526",
-       "start_year": 1520,
-       "end_year": 1526,
-       "sort_year": 1520,
-       "role": "Dimasa king",
-       "summary": "Issued a silver coin in 1520 and was killed in an Ahom attack in 1526.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
-       ]
-      },
-      {
-       "id": "khunkhara",
-       "name": "Khunkhara",
-       "date_label": "1526–1531",
-       "start_year": 1526,
-       "end_year": 1531,
-       "sort_year": 1526,
-       "role": "Dimasa king",
-       "summary": "Succeeded his brother Khorapha and fled Dimapur when the Ahoms attacked in 1531.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
-        "https://en.wikipedia.org/wiki/Kachari_Kingdom"
-       ]
-      },
-      {
-       "id": "detsung",
-       "name": "Detsung (Dersung)",
-       "date_label": "1531–1536",
-       "start_year": 1531,
-       "end_year": 1536,
-       "sort_year": 1531,
-       "role": "Dimasa king",
-       "summary": "Installed by Suhungmung, to whom he gave his sister in marriage; killed when he tried to break free. The Ahoms occupied Dimapur in 1536.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
-        "https://en.wikipedia.org/wiki/Kachari_Kingdom"
-       ]
-      },
-      {
-       "id": "yasho-narayan",
-       "name": "Yasho Narayan (Satrudaman)",
-       "date_label": "c. 1583–1601",
-       "start_year": 1583,
-       "end_year": 1601,
-       "sort_year": 1583,
-       "role": "Most powerful Dimasa king",
-       "summary": "Ruled North Cachar, the Dhansiri valley and parts of Sylhet and struck coins in his name.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
-        "https://en.wikipedia.org/wiki/Kachari_Kingdom"
-       ]
-      },
-      {
-       "id": "tamradhwaj",
-       "name": "Tamradhwaj Narayan",
-       "date_label": "1706–1708",
-       "start_year": 1706,
-       "end_year": 1708,
-       "sort_year": 1706,
-       "role": "Dimasa king",
-       "summary": "Declared independence; Rudra Singha invaded Maibong in December 1706 and destroyed its fort. Tamradhwaj fled to Jaintia and was imprisoned.",
-       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/tamradhwaj/local-scene-references.md.",
-       "confidence": "high",
-       "status": "researched",
-       "sheet_status": "sheet",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
-        "https://en.wikipedia.org/wiki/Rudra_Singha",
-        "https://en.wikipedia.org/wiki/Kachari_Kingdom"
-       ],
-       "character_sheets": [
-        {
-         "kind": "turnaround",
-         "caption": "Tamradhwaj Narayan, realistic eight-view character sheet using local project references, modern artistic reconstruction",
-         "image": "media/characters/tamradhwaj/turnaround-1.webp",
-         "thumbnail": "media/characters/tamradhwaj/thumb/turnaround-1.webp",
-         "width": 1536,
-         "height": 1024
-        }
-       ],
-       "scenes": [
-        {
-         "id": "AHOM-188",
-         "title": "Subjugation and Vassalage of the Kachari and Jaintia Rulers",
-         "date_label": "1706–1707",
-         "sort_year": 1706,
-         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
-         "collection": "AHOM chronology",
-         "summary": "Following victorious campaigns, Rudra Singha receives envoys and rulers of the Kacharis and Jaintias who submit tribute and acknowledge Ahom supremacy.",
-         "people": [
-          "ram-singh-jaintia",
-          "rudra-singha",
-          "tamradhwaj"
-         ],
-         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-188.webp",
-         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-188.webp",
-         "status": "illustrated",
-         "main": false
-        }
-       ]
-      },
-      {
-       "id": "krishnachandra",
-       "name": "Krishnachandra Narayan",
-       "date_label": "1790–1813",
-       "start_year": 1790,
-       "end_year": 1813,
-       "sort_year": 1790,
-       "role": "Dimasa king",
-       "summary": "Sheltered Moamoria rebels, causing Ahom–Dimasa skirmishes from 1803 to 1805; helped Manipur against the Burmese.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
-        "https://en.wikipedia.org/wiki/Moamoria_rebellion"
-       ]
-      },
-      {
-       "id": "govindachandra",
-       "name": "Govindachandra Narayan",
-       "date_label": "1814–1830",
-       "start_year": 1814,
-       "end_year": 1830,
-       "sort_year": 1814,
-       "role": "Last Dimasa king",
-       "summary": "Restored by the British after the 1826 Treaty of Yandabo; died in 1830.",
-       "notes": "The two sources split his reign into two periods.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
-        "https://en.wikipedia.org/wiki/Kachari_Kingdom"
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Jaintia and Manipur",
-     "start_year": 1612,
-     "end_year": 1832,
-     "characters": [
-      {
-       "id": "jasa-manik",
-       "name": "Jasa Manik",
-       "date_label": "1612–1625",
-       "start_year": 1612,
-       "end_year": 1625,
-       "sort_year": 1612,
-       "role": "Jaintia king",
-       "summary": "Jaintia king whose manoeuvres are linked to the Dimasa–Ahom conflict of 1618.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Jaintia_Kingdom",
-        "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
-       ]
-      },
-      {
-       "id": "ram-singh-jaintia",
-       "name": "Ram Singh I (Jaintia)",
-       "date_label": "1694–1708",
-       "start_year": 1694,
-       "end_year": 1708,
-       "sort_year": 1694,
-       "role": "Jaintia king",
-       "summary": "Kidnapped the Dimasa king, prompting Rudra Singha's 1707–08 invasion; died an Ahom captive.",
-       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/ram-singh-jaintia/local-scene-references.md.",
-       "confidence": "high",
-       "status": "researched",
-       "sheet_status": "sheet",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Jaintia_Kingdom",
-        "https://en.wikipedia.org/wiki/Rudra_Singha"
-       ],
-       "character_sheets": [
-        {
-         "kind": "turnaround",
-         "caption": "Ram Singh I (Jaintia), realistic eight-view character sheet using local project references, modern artistic reconstruction",
-         "image": "media/characters/ram-singh-jaintia/turnaround-1.webp",
-         "thumbnail": "media/characters/ram-singh-jaintia/thumb/turnaround-1.webp",
-         "width": 1536,
-         "height": 1024
-        }
-       ],
-       "scenes": [
-        {
-         "id": "AHOM-188",
-         "title": "Subjugation and Vassalage of the Kachari and Jaintia Rulers",
-         "date_label": "1706–1707",
-         "sort_year": 1706,
-         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
-         "collection": "AHOM chronology",
-         "summary": "Following victorious campaigns, Rudra Singha receives envoys and rulers of the Kacharis and Jaintias who submit tribute and acknowledge Ahom supremacy.",
-         "people": [
-          "ram-singh-jaintia",
-          "rudra-singha",
-          "tamradhwaj"
-         ],
-         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-188.webp",
-         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-188.webp",
-         "status": "illustrated",
-         "main": false
-        }
-       ]
-      },
-      {
-       "id": "bhagyachandra",
-       "name": "Bhagyachandra (Jai Singh)",
-       "date_label": "1748–1798",
-       "start_year": 1759,
-       "end_year": 1798,
-       "sort_year": 1759,
-       "role": "King of Manipur",
-       "summary": "Fled to Ahom territory after the Burmese invasion of 1764 and was sheltered by Rajeswar Singha, who backed his return; reinstated in 1773. Promoted Vaishnavism and the Manipuri Raas Leela.",
-       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See the AHOM repo, research/regional-rulers-11-completion.md and AHOM repo, research/bhagyachandra/local-scene-references.md.",
-       "confidence": "high",
-       "status": "researched",
-       "sheet_status": "sheet",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Bhagyachandra",
-        "https://en.wikipedia.org/wiki/Rajeswar_Singha"
-       ],
-       "character_sheets": [
-        {
-         "kind": "turnaround",
-         "caption": "Bhagyachandra (Jai Singh), realistic eight-view character sheet using local project references, modern artistic reconstruction",
-         "image": "media/characters/bhagyachandra/turnaround-1.webp",
-         "thumbnail": "media/characters/bhagyachandra/thumb/turnaround-1.webp",
-         "width": 1536,
-         "height": 1024
-        }
-       ],
-       "scenes": [
-        {
-         "id": "AHOM-201",
-         "title": "Lata-Katai Ran: The Mountain Expedition to Manipur",
-         "date_label": "1765–1768",
-         "sort_year": 1765,
-         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
-         "collection": "AHOM chronology",
-         "summary": "Rajeswar Singha dispatches an army across trackless, creepers-choked mountain jungles ('Lata-Katai Ran') to liberate Manipur from Burmese occupation and reinstate Meitei King Jai Singh.",
-         "people": [
-          "bhagyachandra",
-          "haranath-phukan",
-          "rajeswar-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-201.webp",
-         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-201.webp",
-         "status": "illustrated",
-         "places": [
-          "manipur"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-202",
-         "title": "Royal Wedding of Rajeswar Singha and Princess Kuranganayani",
-         "date_label": "1768",
-         "sort_year": 1768,
-         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
-         "collection": "AHOM chronology",
-         "summary": "In gratitude, King Jai Singh gives his heroic daughter Princess Kuranganayani in marriage to Rajeswar Singha, cementing eternal Ahom-Manipuri ties.",
-         "people": [
-          "bhagyachandra",
-          "kuranganayani",
-          "rajeswar-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-202.webp",
-         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-202.webp",
-         "status": "illustrated",
-         "main": false
-        }
-       ]
-      },
-      {
-       "id": "ram-singh-ii-jaintia",
-       "name": "Ram Singh II (Jaintia)",
-       "date_label": "1790–1832",
-       "start_year": 1790,
-       "end_year": 1832,
-       "sort_year": 1790,
-       "role": "Jaintia king",
-       "summary": "Long-reigning Jaintia king who agreed in 1824 to deal only with the British.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Jaintia_Kingdom"
-       ]
-      },
-      {
-       "id": "gambhir-singha",
-       "name": "Gambhir Singha",
-       "date_label": "1825",
-       "start_year": 1825,
-       "end_year": 1825,
-       "sort_year": 1825,
-       "role": "King of Manipur",
-       "summary": "Repulsed the Burmese in 1825.",
-       "confidence": "medium",
-       "status": "researched",
-       "sheet_status": "none",
-       "sources": [
-        "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
        ]
       }
      ]
