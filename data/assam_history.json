@@ -23881,38 +23881,82 @@
   },
   {
    "id": "koch-naranarayan",
-   "name": "Nara Narayan's undivided Koch kingdom",
+   "name": "Nara Narayan's Koch kingdom, 1540 to 1562",
    "kingdom": "koch-kingdom",
    "period": "western",
-   "date_label": "c. 1540 to 1581",
+   "date_label": "1540 to 1562",
    "start_year": 1540,
-   "end_year": 1581,
-   "summary": "At its widest the undivided Koch kingdom reached far east: from the Karatoya (or the Sankosh) in the west to the Bhareli (Kameng), and briefly the Subansiri, in the east.",
-   "boundary": "West: Karatoya river (the Kamrup article) or Sankosh river (the Koch Hajo article) | East: Bhareli (Kameng) river; the Subansiri briefly (via the Treaty of Majuli), after which the Ahoms pushed Koch control back to the Bhareli",
-   "notes": "The sources give competing descriptions. Kamata's control beyond the Manas had always been lax.",
+   "end_year": 1562,
+   "summary": "Nara Narayan's early reign, when the Koch kingdom was a tributary of the Ahoms; the Koch east limit is not stated in the sources read, so the Barnadi of Biswa Singha's time is carried forward.",
+   "boundary": "West: Karatoya river | East: Barnadi (carried forward from Biswa Singha); the Koch were then tributary to the Ahoms, and a dispute at Sala above Kaliabor in 1546 ended in an Ahom victory at Pichala (1547)",
+   "notes": "Earlier versions of this row gave the Bhareli and Subansiri as the east limit; those belong to the years after the 1563 war (next rows). The Karatoya west limit is from the Kamrup article; another says the Sankosh.",
    "confidence": "low",
    "places": [
     "karatoya",
-    "sankosh",
-    "bhareli",
-    "subansiri",
-    "manas"
+    "barnadi",
+    "kaliabor"
    ],
    "sources": [
-    "https://en.wikipedia.org/wiki/Kamrup_region",
-    "https://en.wikipedia.org/wiki/Koch_Hajo"
+    "https://en.wikipedia.org/wiki/Nara_Narayan",
+    "https://en.wikipedia.org/wiki/Biswa_Singha"
+   ]
+  },
+  {
+   "id": "koch-1563-1580-north",
+   "name": "Nara Narayan's Koch kingdom after the Treaty of Majuli, 1563 to 1580",
+   "kingdom": "koch-kingdom",
+   "period": "western",
+   "date_label": "1563 to 1580",
+   "start_year": 1563,
+   "end_year": 1580,
+   "summary": "After Chilarai took the Ahom capital in 1563 the Treaty of Majuli gave the Koch the north-bank land east to Narayanpur; he then made the Kacharis, Manipur, Jaintia, Tripura and Sylhet tributary.",
+   "boundary": "West: Karatoya river | East (north bank): Narayanpur, the limit the Treaty of Majuli (1563) pushed the Koch frontier to | South: the Brahmaputra",
+   "notes": "The east limit on the north bank is the place named by the article, not a river. Bank split: the Ahom and Koch frontier differed on the two banks.",
+   "confidence": "medium",
+   "places": [
+    "karatoya",
+    "narayanpur",
+    "brahmaputra"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nara_Narayan",
+    "https://en.wikipedia.org/wiki/Chilarai",
+    "https://en.wikipedia.org/wiki/Sukhaamphaa"
+   ]
+  },
+  {
+   "id": "koch-1563-1580-south",
+   "name": "Nara Narayan's Koch kingdom after the Treaty of Majuli, 1563 to 1580",
+   "kingdom": "koch-kingdom",
+   "period": "western",
+   "date_label": "1563 to 1580",
+   "start_year": 1563,
+   "end_year": 1580,
+   "summary": "On the south bank the Koch line is not stated; it is shown at the Kolong, beside the Ahom limit.",
+   "boundary": "West: Karatoya river | East (south bank): the Kolong, where the Ahom limit of 1536 stood (no source read names the south-bank line) | North: the Brahmaputra",
+   "notes": "The east limit on the north bank is the place named by the article, not a river. Bank split: the Ahom and Koch frontier differed on the two banks.",
+   "confidence": "low",
+   "places": [
+    "karatoya",
+    "kolong",
+    "brahmaputra"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nara_Narayan",
+    "https://en.wikipedia.org/wiki/Chilarai",
+    "https://en.wikipedia.org/wiki/Sukhaamphaa"
    ]
   },
   {
    "id": "koch-hajo-1581",
-   "name": "Koch Hajo",
+   "name": "Koch Hajo, 1581 to 1613",
    "kingdom": "koch-hajo",
    "period": "western",
    "date_label": "1581 to 1613",
    "start_year": 1581,
    "end_year": 1613,
    "summary": "The eastern half of Nara Narayan's divided kingdom, on the north bank of the Brahmaputra from the Sankosh to the Bhareli, with land south of the river west of the Kolong-Kopili.",
-   "boundary": "West: Sankosh river (the border with Koch Bihar) | East: Bhareli (Bharali) river | South: west of the Kalang-Kopili river, to the forests of Mymensingh",
+   "boundary": "West: Sankosh river (the border with Koch Bihar) | East (north bank): the Bhareli (Jia Bharali), to which the Ahoms pushed the Koch back from the Subansiri | South: the Brahmaputra",
    "notes": "A mirrored older text names the Subansiri as the dividing line instead of the Sankosh; the main source says Sankosh.",
    "confidence": "medium",
    "places": [
@@ -23923,8 +23967,30 @@
     "brahmaputra"
    ],
    "sources": [
-    "https://en.wikipedia.org/wiki/Koch_Hajo",
-    "https://en.wikipedia.org/wiki/Kamrup_region"
+    "https://en.wikipedia.org/wiki/Koch_Hajo"
+   ]
+  },
+  {
+   "id": "koch-hajo-1581-south",
+   "name": "Koch Hajo, 1581 to 1613",
+   "kingdom": "koch-hajo",
+   "period": "western",
+   "date_label": "1581 to 1613",
+   "start_year": 1581,
+   "end_year": 1613,
+   "summary": "The eastern half of Nara Narayan's divided kingdom, on the north bank of the Brahmaputra from the Sankosh to the Bhareli, with land south of the river west of the Kolong-Kopili.",
+   "boundary": "West: Sankosh river | East (south bank): west of the Kalang-Kopili river, along the southward bend of the Brahmaputra toward the Mymensingh forests | North: the Brahmaputra",
+   "notes": "Before 1594 Isa Khan took the land south of Rangamati. Before the split Koch rule had reached the Subansiri; within a few years the Ahoms pushed it back to the Bhareli.",
+   "confidence": "medium",
+   "places": [
+    "sankosh",
+    "bhareli",
+    "kolong",
+    "kopili",
+    "brahmaputra"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Koch_Hajo"
    ]
   },
   {
@@ -24218,16 +24284,62 @@
    ]
   },
   {
-   "id": "ahom-1563-1614",
-   "name": "The Ahom kingdom after the Koch war, 1563 to 1614",
+   "id": "ahom-1563-1580-north",
+   "name": "The Ahom kingdom, 1563 to 1580",
    "kingdom": "ahom-kingdom",
    "period": "ahom",
-   "date_label": "1563 to 1614",
+   "date_label": "1563 to 1580",
    "start_year": 1563,
+   "end_year": 1580,
+   "summary": "After Chilarai took Garhgaon in 1563 the Treaty of Majuli gave the Koch the north-bank land east to Narayanpur; the Ahoms kept the south bank and, later, recovered Narayanpur and the land to Sala.",
+   "boundary": "East: Sadiya | West (north bank): Narayanpur, east of which the Ahoms held after the Treaty of Majuli (1563) | South: the Brahmaputra",
+   "notes": "The date the Ahoms recovered Narayanpur and Sala is not given in the sources read; the Koch Hajo article puts the push-back to the Bhareli within a few years of 1581, so 1581 is used. In 1576 the Nara of Mungkang reached the Sesa river before being driven back (an eastern raid, not a boundary).",
+   "confidence": "low",
+   "places": [
+    "sadiya",
+    "narayanpur",
+    "brahmaputra"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukhaamphaa",
+    "https://en.wikipedia.org/wiki/Nara_Narayan",
+    "https://en.wikipedia.org/wiki/Koch_Hajo"
+   ]
+  },
+  {
+   "id": "ahom-1563-1580-south",
+   "name": "The Ahom kingdom, 1563 to 1580",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1563 to 1580",
+   "start_year": 1563,
+   "end_year": 1580,
+   "summary": "On the south bank the Ahom limit is not reported to have changed.",
+   "boundary": "East: Sadiya | West (south bank): the Kolong, carried forward from 1536 | North: the Brahmaputra",
+   "notes": "The date the Ahoms recovered Narayanpur and Sala is not given in the sources read; the Koch Hajo article puts the push-back to the Bhareli within a few years of 1581, so 1581 is used. In 1576 the Nara of Mungkang reached the Sesa river before being driven back (an eastern raid, not a boundary).",
+   "confidence": "low",
+   "places": [
+    "sadiya",
+    "kolong",
+    "brahmaputra"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukhaamphaa",
+    "https://en.wikipedia.org/wiki/Nara_Narayan",
+    "https://en.wikipedia.org/wiki/Koch_Hajo"
+   ]
+  },
+  {
+   "id": "ahom-1581-1614-north",
+   "name": "The Ahom kingdom, 1581 to 1614",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1581 to 1614",
+   "start_year": 1581,
    "end_year": 1614,
-   "summary": "After Chilarai took Garhgaon in 1563 the Treaty of Majuli gave the Koch a large tract on the north bank; the Ahoms later recovered Narayanpur and land up to Sala. The Koch east limit in the same decades is the Bhareli.",
-   "boundary": "East: Sadiya | West (north bank): the Bhareli (Jia Bharali), the limit the Ahoms held the Koch to after the Treaty of Majuli",
-   "notes": "The Bhareli as the Ahom limit is taken from the project's own Koch row; Wikipedia does not name the river. The south-bank limit is not established. In 1576 the Nara of Mungkang reached the Sesa river before being driven back (an eastern raid, not a boundary).",
+   "summary": "The Ahom line on the north bank meets the Koch Hajo limit at the Bhareli.",
+   "boundary": "East: Sadiya | West (north bank): the Bhareli (Jia Bharali), the limit the Koch were pushed back to | South: the Brahmaputra",
+   "notes": "The date the Ahoms recovered Narayanpur and Sala is not given in the sources read; the Koch Hajo article puts the push-back to the Bhareli within a few years of 1581, so 1581 is used. In 1576 the Nara of Mungkang reached the Sesa river before being driven back (an eastern raid, not a boundary).",
    "confidence": "low",
    "places": [
     "sadiya",
@@ -24236,7 +24348,31 @@
    ],
    "sources": [
     "https://en.wikipedia.org/wiki/Sukhaamphaa",
-    "https://en.wikipedia.org/wiki/Ahom_kingdom"
+    "https://en.wikipedia.org/wiki/Nara_Narayan",
+    "https://en.wikipedia.org/wiki/Koch_Hajo"
+   ]
+  },
+  {
+   "id": "ahom-1581-1614-south",
+   "name": "The Ahom kingdom, 1581 to 1614",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1581 to 1614",
+   "start_year": 1581,
+   "end_year": 1614,
+   "summary": "The Ahom line on the north bank meets the Koch Hajo limit at the Bhareli.",
+   "boundary": "East: Sadiya | West (south bank): the Kolong (the Kalang), meeting the Koch Hajo limit | North: the Brahmaputra",
+   "notes": "The date the Ahoms recovered Narayanpur and Sala is not given in the sources read; the Koch Hajo article puts the push-back to the Bhareli within a few years of 1581, so 1581 is used. In 1576 the Nara of Mungkang reached the Sesa river before being driven back (an eastern raid, not a boundary).",
+   "confidence": "low",
+   "places": [
+    "sadiya",
+    "kolong",
+    "brahmaputra"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukhaamphaa",
+    "https://en.wikipedia.org/wiki/Nara_Narayan",
+    "https://en.wikipedia.org/wiki/Koch_Hajo"
    ]
   },
   {
@@ -24287,7 +24423,7 @@
   },
   {
    "id": "ahom-1639-1656-north",
-   "name": "The Ahom kingdom, north bank, 1639 to 1656",
+   "name": "The Ahom kingdom, 1639 to 1656",
    "kingdom": "ahom-kingdom",
    "period": "ahom",
    "date_label": "1639 to 1656",
@@ -24311,7 +24447,7 @@
   },
   {
    "id": "ahom-1639-1656-south",
-   "name": "The Ahom kingdom, south bank, 1639 to 1656",
+   "name": "The Ahom kingdom, 1639 to 1656",
    "kingdom": "ahom-kingdom",
    "period": "ahom",
    "date_label": "1639 to 1656",
