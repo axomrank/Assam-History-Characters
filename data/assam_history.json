@@ -25014,10 +25014,10 @@
    "present_name": "Charaideo",
    "location": "Charaideo district (headquarters Sonari), Assam",
    "summary": "The sacred first capital of the Ahoms, founded in 1253, and the site of the royal moidams.",
-   "notes": "Charaideo district was cut from Sivasagar in 2015.",
+   "notes": "Charaideo district was cut from Sivasagar in 2015. Capital c. 1253 to 1397 in the user capitals list (2026-10-31); map point from that list.",
    "confidence": "high",
-   "latitude": 26.9419,
-   "longitude": 94.8761,
+   "latitude": 26.941175,
+   "longitude": 94.87635,
    "sources": [
     "https://en.wikipedia.org/wiki/Charaideo_district",
     "https://github.com/axomrank/AHOM"
@@ -25033,11 +25033,11 @@
    ],
    "present_name": "Charaguwa",
    "location": "Charaguwa village, PIN 785672, Upper Assam",
-   "summary": "A later Ahom capital built on the Dihing.",
-   "notes": "Present-day place not established in the sources read. Place fixed by the user 2026-10-31 from the village and PIN (785672); the 27.079243 N, 94.660540 E point is that village, not surveyed against the Ahom capital remains.",
+   "summary": "The Ahom capital from about 1397 to 1497, built on the Dihing.",
+   "notes": "Present-day place not established in the sources read. Place fixed by the user 2026-10-31 from the village and PIN (785672); the 27.079243 N, 94.660540 E point is that village, not surveyed against the Ahom capital remains. Map point (27.084086 N, 94.644578 E) is from the user capitals list, 2026-10-31; it replaces the earlier village pin 27.079243, 94.660540 about 1.5 km away. Sources differ on the dates.",
    "confidence": "medium",
-   "latitude": 27.079243,
-   "longitude": 94.66054
+   "latitude": 27.084086,
+   "longitude": 94.644578
   },
   {
    "id": "garhgaon",
@@ -25052,7 +25052,7 @@
    "present_name": "Garhgaon",
    "location": "Near Nazira, Sivasagar district, Assam",
    "summary": "An Ahom capital from the 17th century, with the Kareng Ghar palace.",
-   "notes": "District placement not re-checked.",
+   "notes": "District placement not re-checked. Capital from about 1539 or 1540 to 1707 in the user capitals list. That list gives 26.966667 N, 94.683333 E, about 8 km west of the Kareng Ghar palace point kept here (26.93, 94.73); not reconciled.",
    "confidence": "medium",
    "latitude": 26.93,
    "longitude": 94.73,
@@ -25094,7 +25094,7 @@
    "present_name": "Sivasagar",
    "location": "Sivasagar district, Assam",
    "summary": "The Ahom capital Rangpur (1699 to 1788), renamed for the Sivasagar tank dug in 1733.",
-   "notes": "In Ahom scenes 'Rangpur' means this town. Kamata texts also mention Rangpur in present Bangladesh; see rangpur-bangladesh.",
+   "notes": "In Ahom scenes 'Rangpur' means this town. Kamata texts also mention Rangpur in present Bangladesh; see rangpur-bangladesh. The user capitals list gives Rangpur as capital 1707 to 1794, at the Talatal Ghar site; see rangpur-ahom. The dates above (1699 to 1788) are from the earlier source.",
    "confidence": "high",
    "latitude": 26.9889,
    "longitude": 94.639,
@@ -25155,6 +25155,7 @@
    "present_name": "Jorhat",
    "location": "Jorhat district, Assam",
    "summary": "The last Ahom capital (from 1794), and the site of Lachit's maidam at Hoolungapara.",
+   "notes": "Last capital 1794 to 1826 (called Dichoi in the user capitals list).",
    "confidence": "high",
    "latitude": 26.75,
    "longitude": 94.22,
@@ -27471,6 +27472,47 @@
     "https://nmma.nic.in",
     "https://archaeology.assam.gov.in",
     "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "bakata",
+   "name": "Bakata (Dihing)",
+   "kind": "Capital",
+   "also_called": [
+    "Dihing",
+    "Bokota",
+    "Dihing capital"
+   ],
+   "present_name": "Bakata (Dihing)",
+   "location": "Sivasagar district, Assam",
+   "summary": "The Ahom capital from about 1497 to 1539, on the Dihing.",
+   "notes": "The name is given as Dihing, Bakata or Bokota; dates and site are from the user capitals list and not checked against a second source.",
+   "confidence": "low",
+   "latitude": 26.9952,
+   "longitude": 94.6972,
+   "sources": [
+    "User capitals list, 2026-10-31",
+    "https://en.wikipedia.org/wiki/Ahom_kingdom"
+   ]
+  },
+  {
+   "id": "rangpur-ahom",
+   "name": "Rangpur (Ahom capital)",
+   "kind": "Capital",
+   "also_called": [
+    "Rongpur",
+    "Rangpur (Sivasagar)"
+   ],
+   "present_name": "Rangpur, Sivasagar",
+   "location": "Sivasagar district, Assam",
+   "summary": "The Ahom capital from about 1707 to 1794 (Rudra Singha began it about 1698 to 1705), with the Rang Ghar, Talatal Ghar and Joysagar.",
+   "notes": "Map point is the Rangpur capital site given in the user capitals list (near Talatal Ghar), not the centre of Sivasagar town. Not the Rangpur in Bangladesh.",
+   "confidence": "medium",
+   "latitude": 26.96524,
+   "longitude": 94.62467,
+   "sources": [
+    "User capitals list, 2026-10-31",
+    "https://en.wikipedia.org/wiki/Ahom_kingdom"
    ]
   }
  ]

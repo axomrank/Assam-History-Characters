@@ -14,7 +14,7 @@ Open `index.html`, or serve the folder with `python3 -m http.server`.
 | `person` | 328 | a person | `period`, `group`, dates, `role`, `summary`, `notes`, Tai and Hindu names, `ahom_king_no`, `koch_no`, `confidence`, `sources`, `character_sheets` |
 | `event` | 24 | a dated event on the Timeline page | `start_year`, `end_year`, `summary`, `people`, `places`, `scene_image` (optional) |
 | `realm` | 20 | a kingdom's extent in one era, bounded by rivers and landmarks | `group` (the kingdom's place id), `boundary` ("West: ... \| East: ..."), `places` (the rivers and landmarks), `notes` (disputes), `confidence`, `sources` |
-| `place` | 184 | a place: historic names, present-day name and location, kind, how sure the identification is | `also_called`, `present_name`, `location`, `group` (kind), `confidence`, `sources` |
+| `place` | 186 | a place: historic names, present-day name and location, kind, how sure the identification is | `also_called`, `present_name`, `location`, `group` (kind), `confidence`, `sources` |
 | `scene` | 331 | an illustrated scene, or a researched one not painted yet (`status` = `planned`) | `date_label`, `sort_year`, `group` (era), `summary`, `people`, `main_people`, `places` (place ids), `scene_image` |
 
 A person whose sheet is researched but not drawn yet can carry a design brief in `sheet_brief`, written as
