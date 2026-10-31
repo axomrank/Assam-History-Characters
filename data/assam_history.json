@@ -25052,10 +25052,10 @@
    "present_name": "Garhgaon",
    "location": "Near Nazira, Sivasagar district, Assam",
    "summary": "An Ahom capital from the 17th century, with the Kareng Ghar palace.",
-   "notes": "District placement not re-checked. Capital from about 1539 or 1540 to 1707 in the user capitals list. That list gives 26.966667 N, 94.683333 E, about 8 km west of the Kareng Ghar palace point kept here (26.93, 94.73); not reconciled.",
+   "notes": "District placement not re-checked. Capital from about 1539 or 1540 to 1707 in the user capitals list. Map point (26.966667 N, 94.683333 E) is from the user capitals list, 2026-10-31, used at the user's request. It lies about 8 km west of the Kareng Ghar palace point (26.9355, 94.7443), which is kept on the Kareng Ghar page; not reconciled.",
    "confidence": "medium",
-   "latitude": 26.93,
-   "longitude": 94.73,
+   "latitude": 26.966667,
+   "longitude": 94.683333,
    "sources": [
     "https://github.com/axomrank/AHOM"
    ]
