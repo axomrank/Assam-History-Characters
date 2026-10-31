@@ -1,6 +1,6 @@
 /* Offline support. The app shell and data are cached on install; images are cached as they are viewed.
    VERSION is rewritten by tools/build.py whenever the site files change. */
-const VERSION = '33455ea288';
+const VERSION = '44b10c2b02';
 const SHELL = `shell-${VERSION}`, IMAGES = 'images-v1', MAX_IMAGES = 400;
 const FILES = ['./', 'index.html', 'assets/app.css', 'assets/app.js', 'data/site.js', 'favicon.svg', 'manifest.webmanifest'];
 

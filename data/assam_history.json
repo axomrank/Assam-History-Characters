@@ -24020,16 +24020,46 @@
    ]
   },
   {
-   "id": "ahom-early",
-   "name": "The early Ahom kingdom",
+   "id": "ahom-1228-1267",
+   "name": "The first Ahom kingdom under Sukaphaa, 1228 to 1267",
    "kingdom": "ahom-kingdom",
    "period": "ahom",
-   "date_label": "1228 to c. 1500",
+   "date_label": "1228 to 1267",
    "start_year": 1228,
+   "end_year": 1267,
+   "summary": "Sukaphaa crossed the Patkai at the Pangsau pass in 1228, reached Namrup, and moved by stages (Tipam, Mungklang 1236, Habung 1240, Ligirigaon 1244, Simaluguri 1246) to Charaideo in 1253, where he was buried in 1268. The land was the south side of the upper Brahmaputra valley.",
+   "boundary": "East: the Patkai hills and Naga hills | West: the Dikhow | North: the Brahmaputra | South: the hills (the present Assam border)",
+   "notes": "Sources disagree: one account gives the Brahmaputra on the west, the Disang on the north, the Dikhow on the south and the Naga hills on the east; another gives the Dikhow on the west, the Brahmaputra on the north and the Naga hills on the south. The second is used because it matches the later Ahom-Kachari frontier on the Dikhow. Habung (Dhemaji) lay on the north bank from 1240, so the Brahmaputra is not a strict limit. No source read gives map-level boundaries for 1228 to 1400.",
+   "confidence": "low",
+   "places": [
+    "patkai",
+    "dikhou",
+    "brahmaputra",
+    "tipam",
+    "charaideo",
+    "habung",
+    "mungklang",
+    "ligirigaon",
+    "simaluguri",
+    "namrup"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukaphaa",
+    "https://en.wikipedia.org/wiki/Ahom_dynasty",
+    "https://en.wikipedia.org/wiki/Habung"
+   ]
+  },
+  {
+   "id": "ahom-early",
+   "name": "The early Ahom kingdom, 1268 to c. 1500",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1268 to c. 1500",
+   "start_year": 1268,
    "end_year": 1500,
    "summary": "Settlements on both banks of the Brahmaputra and on Majuli, around Charaideo; the Dikhow marked the frontier with the Kacharis from the 1270s. In the Buranji division of the early offices, the Burhagohain's land lay between Sadiya and the Gerelua on the north bank and the Borgohain's west to the Burai.",
    "boundary": "East: the Patkai hills | West: Dikhow river (the Ahom-Kachari frontier) | Offices: Burhagohain between Sadiya and the Gerelua river (north bank); Borgohain to the west up to the Burai river",
-   "notes": "The Dikhow frontier is in the project's own scenes (AHOM-026 to 031); the Gerelua and Burai limits are from the Ahom kingdom article, and neither river is placed here.",
+   "notes": "The Dikhow frontier is in the project's own scenes (AHOM-026 to 031); the Gerelua and Burai limits are from the Ahom kingdom article, and neither river is placed here. The 1228 to 1267 row holds the first settlement under Sukaphaa; the two share the Dikhow and Patkai limits because no source read gives a later change before the Chutia and Kachari wars of the 1510s and 1520s.",
    "confidence": "medium",
    "places": [
     "patkai",
@@ -24278,15 +24308,39 @@
    ]
   },
   {
-   "id": "ahom-1639-1656",
-   "name": "The Ahom kingdom after the Treaty of Asurar Ali, 1639 to 1656",
+   "id": "ahom-1639-1656-north",
+   "name": "The Ahom kingdom, north bank, 1639 to 1656",
    "kingdom": "ahom-kingdom",
    "period": "ahom",
    "date_label": "1639 to 1656",
    "start_year": 1639,
    "end_year": 1656,
    "summary": "By the treaty of February 1639 western Assam from Gauhati passed to the Mughals, who gave up claims east of the Barnadi in the north and beyond the Kalang in the south.",
-   "boundary": "East: Sadiya | West (north bank): the Barnadi, east of which the Mughals gave up their claims | West (south bank): the Kalang (Kolong)",
+   "boundary": "East: Sadiya | West (north bank): the Barnadi, east of which the Mughals gave up their claims | South: the Brahmaputra",
+   "notes": "The Ahom side of the line the Mughal row 1639 to 1662 draws from the other side. One article says Jayadhwaj Singha drove the Mughals from Gauhati and beyond the Manas in 1648; the article on the kingdom dates his occupation of Kamrup to 1657. Not resolved, so this period runs to 1656 and the 1657 row follows.",
+   "confidence": "medium",
+   "places": [
+    "sadiya",
+    "barnadi",
+    "kolong",
+    "asurar-ali",
+    "guwahati"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
+    "https://en.wikipedia.org/wiki/Ahom_kingdom"
+   ]
+  },
+  {
+   "id": "ahom-1639-1656-south",
+   "name": "The Ahom kingdom, south bank, 1639 to 1656",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1639 to 1656",
+   "start_year": 1639,
+   "end_year": 1656,
+   "summary": "By the treaty of February 1639 western Assam from Gauhati passed to the Mughals, who gave up claims east of the Barnadi in the north and beyond the Kalang in the south.",
+   "boundary": "East: Sadiya | West (south bank): the Kalang (Kolong), beyond which the Mughals gave up their claims | North: the Brahmaputra",
    "notes": "The Ahom side of the line the Mughal row 1639 to 1662 draws from the other side. One article says Jayadhwaj Singha drove the Mughals from Gauhati and beyond the Manas in 1648; the article on the kingdom dates his occupation of Kamrup to 1657. Not resolved, so this period runs to 1656 and the 1657 row follows.",
    "confidence": "medium",
    "places": [
