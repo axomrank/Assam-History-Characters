@@ -24186,6 +24186,120 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
    ]
+  },
+  {
+   "id": "ahom-1537-1562",
+   "name": "The Ahom kingdom, 1537 to 1562 (limit carried forward)",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1537 to 1562",
+   "start_year": 1537,
+   "end_year": 1562,
+   "summary": "No source read reports a change in the western frontier between the conquests of 1536 and the Koch invasion of 1563, so the Kolong limit is carried forward.",
+   "boundary": "East: Sadiya | West: the Kolong river in Nagaon, the limit reached by 1536",
+   "notes": "Inferred, not reported: an absence of evidence, not a documented border. Suhungmung also took the Chutia lands to the Tiphao in 1523 to 1524; a pursuit of the Turbak army reached the Karatoya in about 1533 but gave no lasting gain.",
+   "confidence": "low",
+   "places": [
+    "sadiya",
+    "kolong",
+    "nagaon"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ahom_kingdom",
+    "https://en.wikipedia.org/wiki/Suhungmung"
+   ]
+  },
+  {
+   "id": "ahom-1563-1614",
+   "name": "The Ahom kingdom after the Koch war, 1563 to 1614",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1563 to 1614",
+   "start_year": 1563,
+   "end_year": 1614,
+   "summary": "After Chilarai took Garhgaon in 1563 the Treaty of Majuli gave the Koch a large tract on the north bank; the Ahoms later recovered Narayanpur and land up to Sala. The Koch east limit in the same decades is the Bhareli.",
+   "boundary": "East: Sadiya | West (north bank): the Bhareli (Jia Bharali), the limit the Ahoms held the Koch to after the Treaty of Majuli",
+   "notes": "The Bhareli as the Ahom limit is taken from the project's own Koch row; Wikipedia does not name the river. The south-bank limit is not established. In 1576 the Nara of Mungkang reached the Sesa river before being driven back (an eastern raid, not a boundary).",
+   "confidence": "low",
+   "places": [
+    "sadiya",
+    "bhareli",
+    "brahmaputra"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sukhaamphaa",
+    "https://en.wikipedia.org/wiki/Ahom_kingdom"
+   ]
+  },
+  {
+   "id": "ahom-1615-1635",
+   "name": "The Ahom kingdom facing the Mughals, 1615 to 1635",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1615 to 1635",
+   "start_year": 1615,
+   "end_year": 1635,
+   "summary": "After the Koch Hajo kingdom collapsed the Mughals reached the Barnadi (1614) and pushed east; the Ahoms held Kajali as their frontier post and checked them at the Bharali in 1615.",
+   "boundary": "East: Sadiya | West: the frontier post at Kajali; the Borphukan governed west of Kaliabor | The Mughals claimed east of the Barnadi up to Singiri (1613 to 1615)",
+   "notes": "Kajali is used as the western limit for display; the line is a post, not a river. The Mughal claim reached beyond the Ahom line, so the two overlapped in dispute.",
+   "confidence": "medium",
+   "places": [
+    "sadiya",
+    "kajali",
+    "kaliabor",
+    "barnadi",
+    "bhareli"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
+    "https://en.wikipedia.org/wiki/Pratap_Singha"
+   ]
+  },
+  {
+   "id": "ahom-1636-1638",
+   "name": "The Ahom kingdom after Hajo, 1636 to 1638",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1636 to 1638",
+   "start_year": 1636,
+   "end_year": 1638,
+   "summary": "The Ahoms defeated the Mughals at Sualkuchi in 1636 and captured Hajo; the Mughals failed to take Samdhara in 1638 to 1639.",
+   "boundary": "East: Sadiya | West: Hajo, taken after the Ahom victory at Sualkuchi (1636)",
+   "notes": "Hajo marks the farthest western reach, not a river boundary.",
+   "confidence": "medium",
+   "places": [
+    "sadiya",
+    "hajo",
+    "sualkuchi",
+    "samdhara"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+   ]
+  },
+  {
+   "id": "ahom-1639-1656",
+   "name": "The Ahom kingdom after the Treaty of Asurar Ali, 1639 to 1656",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1639 to 1656",
+   "start_year": 1639,
+   "end_year": 1656,
+   "summary": "By the treaty of February 1639 western Assam from Gauhati passed to the Mughals, who gave up claims east of the Barnadi in the north and beyond the Kalang in the south.",
+   "boundary": "East: Sadiya | West (north bank): the Barnadi, east of which the Mughals gave up their claims | West (south bank): the Kalang (Kolong)",
+   "notes": "The Ahom side of the line the Mughal row 1639 to 1662 draws from the other side. One article says Jayadhwaj Singha drove the Mughals from Gauhati and beyond the Manas in 1648; the article on the kingdom dates his occupation of Kamrup to 1657. Not resolved, so this period runs to 1656 and the 1657 row follows.",
+   "confidence": "medium",
+   "places": [
+    "sadiya",
+    "barnadi",
+    "kolong",
+    "asurar-ali",
+    "guwahati"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
+    "https://en.wikipedia.org/wiki/Ahom_kingdom"
+   ]
   }
  ],
  "places": [
