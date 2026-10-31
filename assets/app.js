@@ -347,9 +347,11 @@ function curveAt(l, ax, v) {
   if (l.chain) { const f = l.chain[0], k = ax === 0 ? 0 : 1; return f.line && v < Math.min(...f.line.map(p => p[k])) && l.chain[1] ? curveAt(l.chain[1], ax, v) : curveAt(f, ax, v); }
   if (ax === 1 && l.name === 'Brahmaputra' && v < 90.05) v = 90.05;   /* the lower river runs north-south: hold the east-west line at Dhubri */
   if (!l.line) return ax === 0 ? l.lon : (l.lat ?? l.lon);
-  const k = ax === 0 ? 0 : 1, o = 1 - k, near = l.line.filter(p => Math.abs(p[k] - v) <= (ax === 1 ? 0.08 : 0.2));
-  const use = near.length ? near : [l.line.reduce((b, p) => Math.abs(p[k] - v) < Math.abs(b[k] - v) ? p : b)];
-  return use.reduce((s, p) => s + p[o], 0) / use.length;
+  /* where the line crosses this latitude (ax 0) or longitude (ax 1): the mean of the crossings, else the value at the nearest end */
+  const k = ax === 0 ? 0 : 1, o = 1 - k, hits = [];
+  for (let i = 0; i < l.line.length - 1; i++) { const a = l.line[i], b = l.line[i + 1]; if ((a[k] - v) * (b[k] - v) <= 0 && a[k] !== b[k]) hits.push(a[o] + (b[o] - a[o]) * (v - a[k]) / (b[k] - a[k])); }
+  if (hits.length) return hits.reduce((s, x) => s + x, 0) / hits.length;
+  return l.line.reduce((best, p) => Math.abs(p[k] - v) < Math.abs(best[k] - v) ? p : best)[o];
 }
 /* toggle pills: each place kind belongs to one group; the layers (rivers, kingdoms, labels) are pills too */
 const PILLS = [['cities', 'pillCities', ['Capital', 'City']], ['towns', 'pillTowns', ['Town', 'Village', 'Settlement']], ['faith', 'pillFaith', ['Temple', 'Monastery', 'Pilgrim site']],
@@ -391,6 +393,7 @@ function viewMap(q) {
   const pc = window.polygonClipping;
   const toPC = rg => { const c = rg.map(([la, lo]) => [lo, la]); if (c.length && (c[0][0] !== c[c.length - 1][0] || c[0][1] !== c[c.length - 1][1])) c.push(c[0]); return [c]; };
   const safe = (fn, fallback) => { try { return fn(); } catch (e) { return fallback; } };
+  const fillHoles = mp => mp.map(poly => [poly[0]]);   /* no kingdom here has an enclave: a hole is a sliver between two border sources */
   const mpPath = mp => mp.map(poly => poly.map(rg => 'M' + rg.map(([lo, la]) => X(lo) + ' ' + Y(la)).join('L') + 'Z').join('')).join('');
   const landCache = {};
   const landFor = (polity, plain) => {
@@ -400,11 +403,12 @@ function viewMap(q) {
       .filter(([id]) => !['karbi-anglong', 'west-karbi-anglong'].includes(id) && !(id === 'dima-hasao' && polity !== 'dimasa-kingdom') && !(['cachar', 'hailakandi', 'karimganj'].includes(id) && !['kamarupa', 'dimasa-kingdom'].includes(polity)))
       .flatMap(([, d]) => d.rings.map(toPC));
     if (plain) {
-      mapGeo.b.india.rings.map(rg => clipBox(rg, 25.4, 27.0, 87.5, 89.95)).filter(x => x.length > 2).forEach(rg => polys.push(toPC(rg)));
+      /* one source (Natural Earth) for India and Bangladesh, so they meet without slivers; the second piece overlaps the Assam border so no gap shows there */
+      (mapGeo.nb.countries.India || []).flatMap(rg => [clipBox(rg, 25.4, 27.0, 87.5, 89.95), clipBox(rg, 26.05, 27.0, 89.9, 90.2)]).filter(x => x.length > 2).forEach(rg => polys.push(toPC(rg)));
       (mapGeo.nb.countries.Bangladesh || []).map(rg => clipBox(rg, 24.0, 26.8, 87.5, 92.6)).filter(x => x.length > 2).forEach(rg => polys.push(toPC(rg)));
     }
     const good = polys.filter(pg => safe(() => pc.union(pg), null));
-    return landCache[key] = safe(() => pc.union(...good), []);
+    return landCache[key] = safe(() => fillHoles(pc.union(...good)), []);
   };
   const geo = realms.map(r => {
     const w = limitOf(r.w), e = limitOf(r.e), n = limitOf(r.n), s = limitOf(r.s);
@@ -416,18 +420,18 @@ function viewMap(q) {
   const shapeOf = g => {
     if (g.mp) return g.mp;
     const { w, e, n, s } = g, west = [], east = [], south = [], north = [];
-    for (let la = 22.6; la <= 29.1; la += 0.04) {
+    for (let la = 22.6; la <= 29.1; la += 0.02) {
       west.push([w ? curveAt(w, 0, la) : e ? curveAt(e, 0, la) - 1.7 : lon0, la]);
       east.push([e ? curveAt(e, 0, la) : w ? curveAt(w, 0, la) + 1.7 : lon1, la]);
     }
     for (let lo = 87.6; lo <= 98.4; lo += 0.03) { south.push([lo, s ? curveAt(s, 1, lo) : g.plainDefault ? 24.75 : 22]); north.push([lo, n ? curveAt(n, 1, lo) : 30]); }
     const close = pts => [[...pts, pts[0]]];
     const region = close([...west, ...east.reverse()]), band = close([...south, ...north.reverse()]);
-    return g.mp = safe(() => pc.intersection(landFor(g.r.polity, g.plain), region, band), []);
+    return g.mp = safe(() => fillHoles(pc.intersection(landFor(g.r.polity, g.plain), region, band)), []);
   };
   const groupShape = parts => {
     const key = parts.map(([g, r]) => r.id).join('|');
-    return groupShape.cache[key] || (groupShape.cache[key] = safe(() => parts.length > 1 ? pc.union(...parts.map(([g]) => shapeOf(g)).filter(m => m.length)) : shapeOf(parts[0][0]), []));
+    return groupShape.cache[key] || (groupShape.cache[key] = safe(() => parts.length > 1 ? fillHoles(pc.union(...parts.map(([g]) => shapeOf(g)).filter(m => m.length))) : shapeOf(parts[0][0]), []));
   };
   groupShape.cache = {};
   const yMin = 350, yMax = 1950, y0 = Math.min(yMax, Math.max(yMin, Number(st.y) || 1650));
