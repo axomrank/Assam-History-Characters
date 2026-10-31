@@ -6545,10 +6545,13 @@
          "people": [
           "chilarai"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1520-1835/DIMASA-03.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1520-1835/thumb/DIMASA-03.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+          "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+          "https://repository.tribal.gov.in/bitstream/123456789/73787/1/AIRT_1988_0001_book.pdf"
          ],
          "places": [
           "maibong"
@@ -7929,14 +7932,17 @@
          "sort_year": 1520,
          "era": "Neighbouring kingdoms (1520–1835)",
          "collection": "Neighbouring kingdoms chronology",
-         "summary": "A coin of Viravijay Narayan, probably Khorapha, struck at Dimapur, is the earliest direct evidence of the Dimasa kingdom.",
+         "summary": "A coin dated Saka 1442 (c. 1520), issued in the name Viravijaya Narayana and tentatively associated with Khorapha, provides direct evidence of early Dimasa kingship.",
          "people": [
           "khorapha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1520-1835/DIMASA-01.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1520-1835/thumb/DIMASA-01.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+          "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+          "https://www.yumpu.com/en/document/view/40925060/download-catalogue-pdf-spink/52"
          ],
          "places": [
           "dimapur"
@@ -8040,10 +8046,13 @@
          "people": [
           "yasho-narayan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1520-1835/DIMASA-04.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1520-1835/thumb/DIMASA-04.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
-          "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+          "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+          "https://repository.tribal.gov.in/bitstream/123456789/73787/1/AIRT_1988_0001_book.pdf"
          ],
          "main": true
         }
@@ -8165,10 +8174,13 @@
          "people": [
           "govindachandra"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1520-1835/DIMASA-06.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1520-1835/thumb/DIMASA-06.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+          "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+          "https://ignca.gov.in/Asi_data/42192.pdf"
          ],
          "places": [
           "silchar"
@@ -8178,18 +8190,21 @@
         {
          "id": "DIMASA-07",
          "title": "Cachar Annexed",
-         "date_label": "1832–1833",
+         "date_label": "14 August 1832",
          "sort_year": 1832,
          "era": "Neighbouring kingdoms (1520–1835)",
          "collection": "Neighbouring kingdoms chronology",
-         "summary": "After Govindachandra’s death (1830) the British pension off Senapati Tularam and annex his hill region (1832), then Govindachandra’s plains as Cachar district (1833).",
+         "summary": "After Govindachandra’s death in 1830, the British annex the plains of Cachar by proclamation on 14 August 1832. Tularam retains his hill possessions at this stage.",
          "people": [
           "govindachandra"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1520-1835/DIMASA-07.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1520-1835/thumb/DIMASA-07.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+          "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+          "https://ignca.gov.in/Asi_data/42192.pdf"
          ],
          "places": [
           "silchar"
@@ -8352,18 +8367,21 @@
         {
          "id": "MANIPUR-01",
          "title": "The First Maha Ras Lila",
-         "date_label": "1777",
-         "sort_year": 1777,
+         "date_label": "1779",
+         "sort_year": 1779,
          "era": "Neighbouring kingdoms (1520–1835)",
          "collection": "Neighbouring kingdoms chronology",
          "summary": "At Bhagyachandra’s court the first Manipuri Maha Ras Lila is performed, the beginning of the classical Manipuri dance tradition.",
          "people": [
           "bhagyachandra"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1520-1835/MANIPUR-01.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1520-1835/thumb/MANIPUR-01.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Bhagyachandra"
+          "https://en.wikipedia.org/wiki/Bhagyachandra",
+          "https://ufdcimages.uflib.ufl.edu/UF/E0/05/39/32/00001/SEBASTIAN_R.pdf"
          ],
          "places": [
           "imphal"
@@ -8439,11 +8457,14 @@
          "people": [
           "gambhir-singha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/neighbours/1520-1835/MANIPUR-03.webp",
+         "scene_thumbnail": "media/scenes/neighbours/1520-1835/thumb/MANIPUR-03.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Manipur_(princely_state)",
-          "https://en.wikipedia.org/wiki/Bhagyachandra"
+          "https://en.wikipedia.org/wiki/Bhagyachandra",
+          "https://tourism.gov.in/sites/default/files/2020-04/Manipur.pdf"
          ],
          "places": [
           "imphal"
@@ -21533,12 +21554,24 @@
        "sort_year": 1540,
        "role": "Poet and disciple of Sankardev",
        "summary": "Poet from Hajo, born Haricharan; wrote Kumara Harana.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29.",
        "confidence": "medium",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Ananta_Kandali",
-        "https://en.wikipedia.org/wiki/Srimanta_Sankardeva"
+        "https://en.wikipedia.org/wiki/Srimanta_Sankardeva",
+        "https://ignca.gov.in/Asi_data/1995.pdf"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Ananta Kandali, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/ananta-kandali/turnaround-1.webp",
+         "thumbnail": "media/characters/ananta-kandali/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -21551,11 +21584,23 @@
        "sort_year": 1558,
        "role": "Father of Assamese prose",
        "summary": "Prose translator of the Bhagavata and Gita (Katha Bhagavata, Katha Gita); head of Patbausi satra and founder of Byaskuchi satra.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
-        "https://en.wikipedia.org/wiki/Bhattadeva"
+        "https://en.wikipedia.org/wiki/Bhattadeva",
+        "https://bhattadevuniversity.ac.in/docs/prospectus2024-25.pdf"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bhattadev, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/bhattadev/turnaround-1.webp",
+         "thumbnail": "media/characters/bhattadev/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -21569,10 +21614,13 @@
          "people": [
           "bhattadev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/bhakti/1468-1700/BHAKTI-05.webp",
+         "scene_thumbnail": "media/scenes/bhakti/1468-1700/thumb/BHAKTI-05.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Bhattadeva"
+          "https://en.wikipedia.org/wiki/Bhattadeva",
+          "https://bhattadevuniversity.ac.in/docs/prospectus2024-25.pdf"
          ],
          "main": true
         }
@@ -21651,10 +21699,14 @@
          "people": [
           "sankardev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/bhakti/1468-1700/BHAKTI-01.webp",
+         "scene_thumbnail": "media/scenes/bhakti/1468-1700/thumb/BHAKTI-01.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
-          "https://en.wikipedia.org/wiki/Sankardev"
+          "https://en.wikipedia.org/wiki/Sankardev",
+          "https://indiaich-sna.in/sites/default/files/2023-11/report_36.pdf",
+          "https://collections.lacma.org/object/69745"
          ],
          "places": [
           "bordowa"
@@ -21673,11 +21725,14 @@
           "sankardev",
           "madhavdev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/bhakti/1468-1700/BHAKTI-02.webp",
+         "scene_thumbnail": "media/scenes/bhakti/1468-1700/thumb/BHAKTI-02.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Madhavdev",
-          "https://en.wikipedia.org/wiki/Sankardev"
+          "https://en.wikipedia.org/wiki/Sankardev",
+          "https://barpeta.assam.gov.in/about-us-level-two/heritage-%26-culture/culture"
          ],
          "main": false
         },
@@ -21713,10 +21768,13 @@
           "sankardev",
           "madhavdev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/bhakti/1468-1700/BHAKTI-03.webp",
+         "scene_thumbnail": "media/scenes/bhakti/1468-1700/thumb/BHAKTI-03.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Sankardev"
+          "https://en.wikipedia.org/wiki/Sankardev",
+          "https://barpeta.assam.gov.in/about-us-level-two/heritage-%26-culture/culture"
          ],
          "places": [
           "barpeta"
@@ -21868,10 +21926,23 @@
        "sort_year": 1488,
        "role": "Saint",
        "summary": "Disciple of Sankardev and founder of the Brahma Sanghati tradition.",
-       "notes": "Dates from standard accounts; not checked against a page.",
+       "notes": "Dates from standard accounts; not checked against a page. Generated artistic reconstruction, 2026-10-29; reference roles and prompt recorded in research/completion-2026-10-29.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://barpeta.assam.gov.in/about-us-level-two/heritage-%26-culture/culture"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Damodardev, eight-view character sheet, artistic reconstruction",
+         "image": "media/characters/damodardev/turnaround-1.webp",
+         "thumbnail": "media/characters/damodardev/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "BHAKTI-04",
@@ -21885,10 +21956,14 @@
           "madhavdev",
           "damodardev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/bhakti/1468-1700/BHAKTI-04.webp",
+         "scene_thumbnail": "media/scenes/bhakti/1468-1700/thumb/BHAKTI-04.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
-          "https://en.wikipedia.org/wiki/Madhavdev"
+          "https://en.wikipedia.org/wiki/Madhavdev",
+          "https://barpeta.assam.gov.in/about-us-level-two/heritage-%26-culture/culture",
+          "https://barpeta.assam.gov.in/tourist-place-detail/218"
          ],
          "places": [
           "barpeta"
@@ -21907,11 +21982,24 @@
        "sort_year": 1489,
        "role": "Saint and poet",
        "summary": "Sankardev's chief disciple and successor, converted after a debate around 1532. Wrote the Naam Ghosa and about 191 borgeets.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles and prompt recorded in research/completion-2026-10-29.",
        "confidence": "high",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
-        "https://en.wikipedia.org/wiki/Madhavdev"
+        "https://en.wikipedia.org/wiki/Madhavdev",
+        "https://barpeta.assam.gov.in/about-us-level-two/heritage-%26-culture/culture",
+        "https://barpeta.assam.gov.in/tourist-place-detail/218"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Madhavdev, eight-view character sheet, artistic reconstruction",
+         "image": "media/characters/madhavdev/turnaround-1.webp",
+         "thumbnail": "media/characters/madhavdev/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ],
        "scenes": [
         {
@@ -21926,11 +22014,14 @@
           "sankardev",
           "madhavdev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/bhakti/1468-1700/BHAKTI-02.webp",
+         "scene_thumbnail": "media/scenes/bhakti/1468-1700/thumb/BHAKTI-02.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
           "https://en.wikipedia.org/wiki/Madhavdev",
-          "https://en.wikipedia.org/wiki/Sankardev"
+          "https://en.wikipedia.org/wiki/Sankardev",
+          "https://barpeta.assam.gov.in/about-us-level-two/heritage-%26-culture/culture"
          ],
          "main": true
         },
@@ -21946,10 +22037,13 @@
           "sankardev",
           "madhavdev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/bhakti/1468-1700/BHAKTI-03.webp",
+         "scene_thumbnail": "media/scenes/bhakti/1468-1700/thumb/BHAKTI-03.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Sankardev"
+          "https://en.wikipedia.org/wiki/Sankardev",
+          "https://barpeta.assam.gov.in/about-us-level-two/heritage-%26-culture/culture"
          ],
          "places": [
           "barpeta"
@@ -21968,10 +22062,14 @@
           "madhavdev",
           "damodardev"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/bhakti/1468-1700/BHAKTI-04.webp",
+         "scene_thumbnail": "media/scenes/bhakti/1468-1700/thumb/BHAKTI-04.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
-          "https://en.wikipedia.org/wiki/Madhavdev"
+          "https://en.wikipedia.org/wiki/Madhavdev",
+          "https://barpeta.assam.gov.in/about-us-level-two/heritage-%26-culture/culture",
+          "https://barpeta.assam.gov.in/tourist-place-detail/218"
          ],
          "places": [
           "barpeta"
@@ -21989,11 +22087,22 @@
        "sort_year": 1545,
        "role": "Disciple, son-in-law of Sankardev",
        "summary": "Captured and executed in Suklenmung's reign, which led Sankardev to leave the Ahom kingdom (some chronicles place it under Suhungmung).",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
        "sources": [
         "https://en.wikipedia.org/wiki/Suklenmung"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Hari (Sankardev's son-in-law), eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/hari-sankardev/turnaround-1.webp",
+         "thumbnail": "media/characters/hari-sankardev/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
        ]
       },
       {
@@ -22005,10 +22114,23 @@
        "sort_year": 1553,
        "role": "Founder of the Moamara Satra",
        "summary": "Vaishnava teacher who founded the Moamara satra, whose followers later led the Moamoria rebellion.",
-       "notes": "Dates from memory of standard accounts; verify.",
+       "notes": "Dates from memory of standard accounts; verify. Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29.",
        "confidence": "low",
        "status": "researched",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://ojs.utlib.ee/index.php/JEF/article/download/18835/13519/21941"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Aniruddhadeva, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/aniruddhadeva/turnaround-1.webp",
+         "thumbnail": "media/characters/aniruddhadeva/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "BHAKTI-06",
@@ -22021,10 +22143,13 @@
          "people": [
           "aniruddhadeva"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/bhakti/1468-1700/BHAKTI-06.webp",
+         "scene_thumbnail": "media/scenes/bhakti/1468-1700/thumb/BHAKTI-06.webp",
+         "status": "illustrated",
          "confidence": "low",
          "sources": [
-          "https://en.wikipedia.org/wiki/Aniruddhadeva"
+          "https://en.wikipedia.org/wiki/Aniruddhadeva",
+          "https://ojs.utlib.ee/index.php/JEF/article/download/18835/13519/21941"
          ],
          "main": true
         }
@@ -22168,8 +22293,23 @@
        "sort_year": 1806,
        "role": "Entrepreneur and rebel",
        "summary": "Assamese entrepreneur who pioneered tea planting and was hanged for his part in the 1857 revolt.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Commemorative portrait, not authenticated photograph; unseen views reconstructed.",
        "status": "seed",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Maniram_Dewan",
+        "https://www.publicationsdivision.nic.in/journals/Journalarchives/Yojana/Yojana-English/2007/December/Yojana_2007_December_659992158.pdf"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Maniram Dewan, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/maniram-dewan/turnaround-1.webp",
+         "thumbnail": "media/characters/maniram-dewan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "COL-01",
@@ -22182,11 +22322,14 @@
          "people": [
           "maniram-dewan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-01.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-01.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Maniram_Dewan",
-          "https://en.wikipedia.org/wiki/Assam_tea"
+          "https://en.wikipedia.org/wiki/Assam_tea",
+          "https://www.kkhsou.ac.in/web/teaworld/page-details.php?page=9d34bb5c4a06966fcf6ceb4bf"
          ],
          "main": true
         },
@@ -22201,11 +22344,14 @@
          "people": [
           "maniram-dewan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-02.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-02.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
           "https://en.wikipedia.org/wiki/Assam_Company",
-          "https://en.wikipedia.org/wiki/Maniram_Dewan"
+          "https://en.wikipedia.org/wiki/Maniram_Dewan",
+          "https://atom.aim25.com/index.php/assam-company-tea-producers-and-traders-2"
          ],
          "main": true
         },
@@ -22220,10 +22366,13 @@
          "people": [
           "maniram-dewan"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-04.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-04.webp",
+         "status": "illustrated",
          "confidence": "high",
          "sources": [
-          "https://en.wikipedia.org/wiki/Maniram_Dewan"
+          "https://en.wikipedia.org/wiki/Maniram_Dewan",
+          "https://www.publicationsdivision.nic.in/journals/Journalarchives/Yojana/Yojana-English/2007/December/Yojana_2007_December_659992158.pdf"
          ],
          "places": [
           "jorhat"
@@ -22264,10 +22413,13 @@
           "nathan-brown",
           "miles-bronson"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-03.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-03.webp",
+         "status": "illustrated",
          "confidence": "high",
          "sources": [
-          "https://en.wikipedia.org/wiki/Orunodoi"
+          "https://en.wikipedia.org/wiki/Orunodoi",
+          "https://www.gucdoe.in/sites/default/files/MMC-1025_1.pdf"
          ],
          "places": [
           "sivasagar"
@@ -22326,10 +22478,13 @@
           "nathan-brown",
           "miles-bronson"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-03.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-03.webp",
+         "status": "illustrated",
          "confidence": "high",
          "sources": [
-          "https://en.wikipedia.org/wiki/Orunodoi"
+          "https://en.wikipedia.org/wiki/Orunodoi",
+          "https://www.gucdoe.in/sites/default/files/MMC-1025_1.pdf"
          ],
          "places": [
           "sivasagar"
@@ -22425,8 +22580,22 @@
        "sort_year": 1830,
        "role": "Freedom fighter",
        "summary": "Ahom noble who plotted against the East India Company and was executed in 1830.",
+       "notes": "No authentic likeness established. Purandar Singha local generated sheet used ONLY for regional tailoring comparison; invented distinct face. Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "sheet",
+       "sources": [
+        "https://publications.assamtourism.gov.in/publications/files/Assam_Tourism_Coffee_Table_Book.pdf"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Piyali Phukan, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/piyali-phukan/turnaround-1.webp",
+         "thumbnail": "media/characters/piyali-phukan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ]
       },
       {
        "id": "hemchandra-baruah",
@@ -22581,8 +22750,22 @@
        "sort_year": 1864,
        "role": "Writer, called Sahityarathi",
        "summary": "Pioneering writer and satirist who shaped modern Assamese literature.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Commemorative painted portrait; unseen views and colours interpreted.",
        "status": "seed",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Lakshminath_Bezbarua"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Lakshminath Bezbaroa, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/lakshminath-bezbaroa/turnaround-1.webp",
+         "thumbnail": "media/characters/lakshminath-bezbaroa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "COL-08",
@@ -22596,10 +22779,13 @@
           "lakshminath-bezbaroa",
           "hemchandra-goswami"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-08.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-08.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Jonaki"
+          "https://en.wikipedia.org/wiki/Jonaki",
+          "https://serendipityarts.org/writing_initiatives/jonaki-the-birth-of-assamese-nationalism/"
          ],
          "main": true
         }
@@ -22707,10 +22893,13 @@
           "lakshminath-bezbaroa",
           "hemchandra-goswami"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-08.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-08.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Jonaki"
+          "https://en.wikipedia.org/wiki/Jonaki",
+          "https://serendipityarts.org/writing_initiatives/jonaki-the-birth-of-assamese-nationalism/"
          ],
          "main": false
         },
@@ -22754,25 +22943,43 @@
        "sort_year": 1885,
        "role": "Freedom fighter",
        "summary": "Veteran of the Quit India movement, killed at Behali in 1942.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Old reproduced memorial portrait; facial and costume reference, provenance not independently authenticated.",
        "status": "seed",
        "approx_dates": true,
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Bhogeswari_Phukanani",
+        "https://admin.missiongyan.in/admin/ebook/ebook_2541_81763515.pdf"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bhogeswari Phukanani, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/bhogeswari-phukanani/turnaround-1.webp",
+         "thumbnail": "media/characters/bhogeswari-phukanani/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "COL-15",
          "title": "Bhogeswari Phukanani at Barhampur",
-         "date_label": "20 September 1942",
+         "date_label": "September 1942",
          "sort_year": 1942,
          "era": "Colonial Assam (1823–1947)",
          "collection": "Colonial chronology",
-         "summary": "On the same day Bhogeswari Phukanani, a mother of eight, is shot while trying to raise the flag at Barhampur in Nagaon.",
+         "summary": "Bhogeswari Phukanani joins the Quit India protests at Barhampur in Nagaon and is fatally shot during a confrontation over the national flag.",
          "people": [
           "bhogeswari-phukanani"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-15.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-15.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Bhogeswari_Phukanani"
+          "https://en.wikipedia.org/wiki/Bhogeswari_Phukanani",
+          "https://admin.missiongyan.in/admin/ebook/ebook_2541_81763515.pdf"
          ],
          "places": [
           "nagaon"
@@ -22789,8 +22996,23 @@
        "sort_year": 1890,
        "role": "First Chief Minister of Assam",
        "summary": "Led Assam's Congress ministry from 1946 and resisted its grouping into Pakistan.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Reproduced portrait for facial features; unseen full-body views reconstructed.",
        "status": "seed",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Gopinath_Bordoloi",
+        "https://assambidhansabha.org/chiefministersince"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Gopinath Bordoloi, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/gopinath-bordoloi/turnaround-1.webp",
+         "thumbnail": "media/characters/gopinath-bordoloi/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "COL-17",
@@ -22803,10 +23025,13 @@
          "people": [
           "gopinath-bordoloi"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-17.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-17.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Gopinath_Bordoloi"
+          "https://en.wikipedia.org/wiki/Gopinath_Bordoloi",
+          "https://nehruarchive.in/documents/to-gopinath-bardoloi-23-september-1946-2ve13k"
          ],
          "main": true
         }
@@ -22820,8 +23045,22 @@
        "sort_year": 1901,
        "role": "Social reformer",
        "summary": "Pioneer of women's education and organising in Assam.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Commemorative India Post stamp; later-life face; no stamp graphics reproduced.",
        "status": "seed",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Chandraprabha_Saikiani"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Chandraprabha Saikiani, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/chandraprabha-saikiani/turnaround-1.webp",
+         "thumbnail": "media/characters/chandraprabha-saikiani/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "COL-12",
@@ -22834,10 +23073,13 @@
          "people": [
           "chandraprabha-saikiani"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-12.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-12.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Chandraprabha_Saikiani"
+          "https://en.wikipedia.org/wiki/Chandraprabha_Saikiani",
+          "https://ir.nbu.ac.in/bitstreams/d20cdb44-441b-487a-ab3c-81fe2b037bfd/download"
          ],
          "main": true
         }
@@ -22891,10 +23133,13 @@
          "people": [
           "jyotiprasad-agarwala"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-13.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-13.webp",
+         "status": "illustrated",
          "confidence": "high",
          "sources": [
-          "https://en.wikipedia.org/wiki/Joymoti_(1935_film)"
+          "https://en.wikipedia.org/wiki/Joymoti_(1935_film)",
+          "https://www.publicationsdivision.nic.in/journals/Journalarchives/Yojana/Yojana-English/1995/August/Yojana_1995_August_1611045932.pdf"
          ],
          "main": true
         },
@@ -22953,8 +23198,23 @@
        "sort_year": 1905,
        "role": "Freedom fighter",
        "summary": "Executed by the British in 1943 for the Sarupathar derailment.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Reproduced historical portrait; unseen views and colour reconstructed.",
        "status": "seed",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Kushal_Konwar",
+        "https://www.culture.gov.in/files/publications_documents/Martyrs_Vol_4_06_03_2019_6.pdf"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Kushal Konwar, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/kushal-konwar/turnaround-1.webp",
+         "thumbnail": "media/characters/kushal-konwar/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "COL-16",
@@ -22967,10 +23227,13 @@
          "people": [
           "kushal-konwar"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-16.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-16.webp",
+         "status": "illustrated",
          "confidence": "high",
          "sources": [
-          "https://en.wikipedia.org/wiki/Kushal_Konwar"
+          "https://en.wikipedia.org/wiki/Kushal_Konwar",
+          "https://www.culture.gov.in/files/publications_documents/Martyrs_Vol_4_06_03_2019_6.pdf"
          ],
          "places": [
           "jorhat"
@@ -23094,8 +23357,23 @@
        "sort_year": 1924,
        "role": "Freedom fighter",
        "summary": "Young Quit India martyr shot while leading a procession to Gohpur police station.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Modern memorial statue used for costume/posture; facial likeness approximate, no authentic portrait established.",
        "status": "seed",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Kanaklata_Barua",
+        "https://static.pib.gov.in/WriteReadData/userfiles/Unsung%20Heroes%20of%20Freedom%20Movement_o.pdf"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Kanaklata Barua, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/kanaklata-barua/turnaround-1.webp",
+         "thumbnail": "media/characters/kanaklata-barua/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "COL-14",
@@ -23108,10 +23386,13 @@
          "people": [
           "kanaklata-barua"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/colonial/1823-1947/COL-14.webp",
+         "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-14.webp",
+         "status": "illustrated",
          "confidence": "high",
          "sources": [
-          "https://en.wikipedia.org/wiki/Kanaklata_Barua"
+          "https://en.wikipedia.org/wiki/Kanaklata_Barua",
+          "https://static.pib.gov.in/WriteReadData/userfiles/Unsung%20Heroes%20of%20Freedom%20Movement_o.pdf"
          ],
          "main": true
         }
@@ -23246,8 +23527,23 @@
        "sort_year": 1926,
        "role": "Singer, composer and filmmaker",
        "summary": "Singer and composer whose songs made Assam's culture known across India.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Photographic identity reference, elder years.",
        "status": "seed",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Bhupen_Hazarika",
+        "https://www.sangeetnatak.gov.in/public/uploads/awardees/docs/1740643345_Bhupendra%20Hazarika.pdf"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bhupen Hazarika, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/bhupen-hazarika/turnaround-1.webp",
+         "thumbnail": "media/characters/bhupen-hazarika/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "MOD-07",
@@ -23260,10 +23556,13 @@
          "people": [
           "bhupen-hazarika"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/modern/1947-2011/MOD-07.webp",
+         "scene_thumbnail": "media/scenes/modern/1947-2011/thumb/MOD-07.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Bhupen_Hazarika"
+          "https://en.wikipedia.org/wiki/Bhupen_Hazarika",
+          "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=77048"
          ],
          "places": [
           "guwahati"
@@ -23280,8 +23579,23 @@
        "sort_year": 1950,
        "role": "Chief Minister of Assam",
        "summary": "Chief Minister of Assam from 1950 to 1957.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Commemorative drawing; green tint not a clothing or skin-colour source.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Bishnuram_Medhi",
+        "https://assambidhansabha.org/chiefministersince"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bishnuram Medhi, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/bishnuram-medhi/turnaround-1.webp",
+         "thumbnail": "media/characters/bishnuram-medhi/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ]
       },
       {
        "id": "fakhruddin-ali-ahmed",
@@ -23291,8 +23605,22 @@
        "sort_year": 1952,
        "role": "President of India",
        "summary": "Assam politician who became the fifth President of India in 1974.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Official President of India photographic portrait; unseen views reconstructed.",
        "status": "seed",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://www.presidentofindia.gov.in/fakhruddin-ali-ahmed-profile"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Fakhruddin Ali Ahmed, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/fakhruddin-ali-ahmed/turnaround-1.webp",
+         "thumbnail": "media/characters/fakhruddin-ali-ahmed/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "MOD-04",
@@ -23305,10 +23633,13 @@
          "people": [
           "fakhruddin-ali-ahmed"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/modern/1947-2011/MOD-04.webp",
+         "scene_thumbnail": "media/scenes/modern/1947-2011/thumb/MOD-04.webp",
+         "status": "illustrated",
          "confidence": "high",
          "sources": [
-          "https://en.wikipedia.org/wiki/Fakhruddin_Ali_Ahmed"
+          "https://en.wikipedia.org/wiki/Fakhruddin_Ali_Ahmed",
+          "https://www.presidentofindia.gov.in/fakhruddin-ali-ahmed-profile"
          ],
          "main": true
         }
@@ -23322,8 +23653,23 @@
        "sort_year": 1957,
        "role": "Chief Minister of Assam",
        "summary": "Chief Minister of Assam from 1957 to 1970.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Reproduced portrait for identity and visible clothing; unseen views reconstructed.",
        "status": "seed",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Bimala_Prasad_Chaliha",
+        "https://assambidhansabha.org/chiefministersince"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bimala Prasad Chaliha, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/bimala-prasad-chaliha/turnaround-1.webp",
+         "thumbnail": "media/characters/bimala-prasad-chaliha/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "MOD-02",
@@ -23336,10 +23682,13 @@
          "people": [
           "bimala-prasad-chaliha"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/modern/1947-2011/MOD-02.webp",
+         "scene_thumbnail": "media/scenes/modern/1947-2011/thumb/MOD-02.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Assam_Official_Language_Act,_1960"
+          "https://en.wikipedia.org/wiki/Assam_Official_Language_Act,_1960",
+          "https://legislative.assam.gov.in/documents-detail/the-assam-official-language-act-1960"
          ],
          "main": false
         }
@@ -23353,8 +23702,23 @@
        "sort_year": 1983,
        "role": "Chief Minister of Assam",
        "summary": "Twice Chief Minister of Assam.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Photographic identity/clothing reference; unseen views reconstructed.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Hiteswar_Saikia",
+        "https://assambidhansabha.org/chiefministersince"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Hiteswar Saikia, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/hiteswar-saikia/turnaround-1.webp",
+         "thumbnail": "media/characters/hiteswar-saikia/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ]
       },
       {
        "id": "prafulla-kumar-mahanta",
@@ -23364,8 +23728,23 @@
        "sort_year": 1985,
        "role": "Chief Minister of Assam",
        "summary": "Student leader of the Assam Movement who became Chief Minister at 33.",
+       "notes": "Official Ministry of Culture2017 photograph via Wikimedia Commons; GODL-India attribution. Mature2017 sheet;1985 scenes age-adjusted. Visual reference attribution: Ministry of Culture, Government of India, GODL-India; derived illustration, no endorsement implied. Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29.",
        "status": "seed",
-       "sheet_status": "none",
+       "sheet_status": "sheet",
+       "sources": [
+        "https://assambidhansabha.org/chiefministersince",
+        "https://commons.wikimedia.org/wiki/File:The_former_Chief_Minister_of_Assam,_Shri_Prafulla_Kumar_Mahanta_calling_on_the_Minister_of_State_for_Culture_and_Tourism_(Independent_Charge),_Dr._Mahesh_Sharma,_in_New_Delhi_on_July_20,_2017_(cropped).jpg"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Prafulla Kumar Mahanta, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/prafulla-kumar-mahanta/turnaround-1.webp",
+         "thumbnail": "media/characters/prafulla-kumar-mahanta/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "MOD-05",
@@ -23378,10 +23757,13 @@
          "people": [
           "prafulla-kumar-mahanta"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/modern/1947-2011/MOD-05.webp",
+         "scene_thumbnail": "media/scenes/modern/1947-2011/thumb/MOD-05.webp",
+         "status": "illustrated",
          "confidence": "medium",
          "sources": [
-          "https://en.wikipedia.org/wiki/Assam_Movement"
+          "https://en.wikipedia.org/wiki/Assam_Movement",
+          "https://assamaccord.assam.gov.in/sites/default/files/swf_utility_folder/departments/assamaccord_medhassu_in_oid_3/portlet/level_1/files/The%20Assam%20Accord%20-%20English.pdf"
          ],
          "places": [
           "guwahati"
@@ -23399,10 +23781,13 @@
          "people": [
           "prafulla-kumar-mahanta"
          ],
-         "status": "planned",
+         "scene_image": "media/scenes/modern/1947-2011/MOD-06.webp",
+         "scene_thumbnail": "media/scenes/modern/1947-2011/thumb/MOD-06.webp",
+         "status": "illustrated",
          "confidence": "high",
          "sources": [
-          "https://en.wikipedia.org/wiki/Assam_Accord"
+          "https://en.wikipedia.org/wiki/Assam_Accord",
+          "https://assamaccord.assam.gov.in/sites/default/files/swf_utility_folder/departments/assamaccord_medhassu_in_oid_3/portlet/level_1/files/The%20Assam%20Accord%20-%20English.pdf"
          ],
          "main": true
         }
@@ -23416,8 +23801,23 @@
        "sort_year": 2001,
        "role": "Chief Minister of Assam",
        "summary": "Chief Minister of Assam for three terms from 2001 to 2016, the longest in the state's history.",
+       "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. 2013 photographic identity/clothing reference; unseen views reconstructed.",
        "status": "seed",
-       "sheet_status": "none"
+       "sheet_status": "sheet",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Tarun_Gogoi",
+        "https://assambidhansabha.org/chiefministersince"
+       ],
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Tarun Gogoi, eight-view character sheet, artistic reconstruction, see research/completion-2026-10-29",
+         "image": "media/characters/tarun-gogoi/turnaround-1.webp",
+         "thumbnail": "media/characters/tarun-gogoi/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ]
       }
      ]
     }
@@ -23580,10 +23980,13 @@
    "era": "Neighbouring kingdoms (1520–1835)",
    "collection": "Neighbouring kingdoms chronology",
    "summary": "After a 22-year interregnum following the loss of Dimapur, Nirbhaya Narayana sets up the Dimasa capital at Maibong in the hills.",
-   "status": "planned",
+   "scene_image": "media/scenes/neighbours/1520-1835/DIMASA-02.webp",
+   "scene_thumbnail": "media/scenes/neighbours/1520-1835/thumb/DIMASA-02.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
-    "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+    "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+    "https://www.yumpu.com/en/document/view/40925060/download-catalogue-pdf-spink/52"
    ],
    "places": [
     "maibong"
@@ -23651,15 +24054,18 @@
   {
    "id": "DIMASA-05",
    "title": "The Court Moves to Khaspur",
-   "date_label": "c. 1745",
+   "date_label": "mid-18th century (c.1745–1750)",
    "sort_year": 1745,
    "era": "Neighbouring kingdoms (1520–1835)",
    "collection": "Neighbouring kingdoms chronology",
    "summary": "Koch rule at Khaspur in the Barak valley ends, the state merges with the Dimasa kingdom, and Khaspur becomes the Dimasa capital.",
-   "status": "planned",
+   "scene_image": "media/scenes/neighbours/1520-1835/DIMASA-05.webp",
+   "scene_thumbnail": "media/scenes/neighbours/1520-1835/thumb/DIMASA-05.webp",
+   "status": "illustrated",
    "confidence": "low",
    "sources": [
-    "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
+    "https://en.wikipedia.org/wiki/Dimasa_Kingdom",
+    "https://repository.tribal.gov.in/bitstream/123456789/73787/1/AIRT_1988_0001_book.pdf"
    ],
    "places": [
     "silchar"
@@ -23673,11 +24079,14 @@
    "era": "Neighbouring kingdoms (1520–1835)",
    "collection": "Neighbouring kingdoms chronology",
    "summary": "Burmese armies occupy Manipur, and many Manipuris flee to Cachar and Sylhet.",
-   "status": "planned",
+   "scene_image": "media/scenes/neighbours/1520-1835/MANIPUR-02.webp",
+   "scene_thumbnail": "media/scenes/neighbours/1520-1835/thumb/MANIPUR-02.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
     "https://en.wikipedia.org/wiki/Manipur_(princely_state)",
-    "https://en.wikipedia.org/wiki/Bhagyachandra"
+    "https://en.wikipedia.org/wiki/Bhagyachandra",
+    "https://tourism.gov.in/sites/default/files/2020-04/Manipur.pdf"
    ],
    "places": [
     "imphal"
@@ -23711,10 +24120,13 @@
    "era": "Neighbouring kingdoms (1520–1835)",
    "collection": "Neighbouring kingdoms chronology",
    "summary": "The British annex the Jaintia kingdom, ending its rule over the plains around Jaintiapur and the Jaintia hills.",
-   "status": "planned",
+   "scene_image": "media/scenes/neighbours/1520-1835/JAINTIA-01.webp",
+   "scene_thumbnail": "media/scenes/neighbours/1520-1835/thumb/JAINTIA-01.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
-    "https://en.wikipedia.org/wiki/Jaintia_Kingdom"
+    "https://en.wikipedia.org/wiki/Jaintia_Kingdom",
+    "https://www.ncert.nic.in/pdf/publication/otherpublications/tinei101.pdf"
    ],
    "places": [
     "jaintiapur"
@@ -23728,11 +24140,14 @@
    "era": "Colonial Assam (1823–1947)",
    "collection": "Colonial chronology",
    "summary": "Peasants at Phulaguri in Nagaon rise against new taxes; police fire on the gathering, and leaders are hanged or deported.",
-   "status": "planned",
+   "scene_image": "media/scenes/colonial/1823-1947/COL-05.webp",
+   "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-05.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
     "https://en.wikipedia.org/wiki/Phulaguri_Dhewa",
-    "https://en.wikipedia.org/wiki/British_rule_in_Assam"
+    "https://en.wikipedia.org/wiki/British_rule_in_Assam",
+    "https://www.jetir.org/view?paper=JETIR1905S36"
    ],
    "places": [
     "nagaon"
@@ -23746,10 +24161,13 @@
    "era": "Colonial Assam (1823–1947)",
    "collection": "Colonial chronology",
    "summary": "After decades of Bengali as the official language, Assamese is restored in the schools and courts of Assam, a campaign begun by Anandaram Dhekial Phukan and the missionaries.",
-   "status": "planned",
+   "scene_image": "media/scenes/colonial/1823-1947/COL-06.webp",
+   "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-06.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
-    "https://en.wikipedia.org/wiki/British_rule_in_Assam"
+    "https://en.wikipedia.org/wiki/British_rule_in_Assam",
+    "https://archives.assam.gov.in/sites/default/files/swf_utility_folder/departments/archives_webcomindia_org_oid_3/portlet/level_1/files/general_1874_-_1932.pdf"
    ]
   },
   {
@@ -23760,10 +24178,13 @@
    "era": "Colonial Assam (1823–1947)",
    "collection": "Colonial chronology",
    "summary": "Assam is separated from Bengal as a Chief Commissioner’s province, with Sylhet and the hill districts.",
-   "status": "planned",
+   "scene_image": "media/scenes/colonial/1823-1947/COL-07.webp",
+   "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-07.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
-    "https://en.wikipedia.org/wiki/British_rule_in_Assam"
+    "https://en.wikipedia.org/wiki/British_rule_in_Assam",
+    "https://archives.assam.gov.in/sites/default/files/swf_utility_folder/departments/archives_webcomindia_org_oid_3/portlet/level_1/files/general_1874_-_1932.pdf"
    ]
   },
   {
@@ -23774,11 +24195,14 @@
    "era": "Colonial Assam (1823–1947)",
    "collection": "Colonial chronology",
    "summary": "At Patharughat in Darrang, troops fire on peasants gathered to protest a steep rise in land revenue.",
-   "status": "planned",
+   "scene_image": "media/scenes/colonial/1823-1947/COL-09.webp",
+   "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-09.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
     "https://en.wikipedia.org/wiki/Darrang_district",
-    "https://en.wikipedia.org/wiki/British_rule_in_Assam"
+    "https://en.wikipedia.org/wiki/British_rule_in_Assam",
+    "https://karatoya.nbu.ac.in/doc/Karatoya_2009_Volume_3.pdf"
    ]
   },
   {
@@ -23789,7 +24213,9 @@
    "era": "Colonial Assam (1823–1947)",
    "collection": "Colonial chronology",
    "summary": "The partition of Bengal joins Assam with eastern Bengal in a new province, undone in 1912.",
-   "status": "planned",
+   "scene_image": "media/scenes/colonial/1823-1947/COL-10.webp",
+   "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-10.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
     "https://en.wikipedia.org/wiki/Eastern_Bengal_and_Assam"
@@ -23803,10 +24229,13 @@
    "era": "Colonial Assam (1823–1947)",
    "collection": "Colonial chronology",
    "summary": "Gandhi tours Assam during the Non-Cooperation movement; foreign cloth is burnt and Assamese join the national movement in numbers.",
-   "status": "planned",
+   "scene_image": "media/scenes/colonial/1823-1947/COL-11.webp",
+   "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-11.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
-    "https://en.wikipedia.org/wiki/British_rule_in_Assam"
+    "https://en.wikipedia.org/wiki/British_rule_in_Assam",
+    "https://en.wikisource.org/wiki/Page:Speeches_And_Writings_MKGandhi.djvu/683"
    ],
    "places": [
     "guwahati"
@@ -23820,10 +24249,13 @@
    "era": "Colonial Assam (1823–1947)",
    "collection": "Colonial chronology",
    "summary": "Sylhet votes to join East Pakistan, and Assam enters independence without it.",
-   "status": "planned",
+   "scene_image": "media/scenes/colonial/1823-1947/COL-18.webp",
+   "scene_thumbnail": "media/scenes/colonial/1823-1947/thumb/COL-18.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
-    "https://en.wikipedia.org/wiki/1947_Sylhet_referendum"
+    "https://en.wikipedia.org/wiki/1947_Sylhet_referendum",
+    "https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/making-and-unmaking-of-assambengal-borders-and-the-sylhet-referendum/A75509398FB7B75CF274CA11A399B581"
    ],
    "places": [
     "sylhet"
@@ -23837,10 +24269,13 @@
    "era": "Assam since independence (1947–2011)",
    "collection": "Modern chronology",
    "summary": "One of the strongest earthquakes on record strikes Assam and Tibet, changing rivers and burying land under sand.",
-   "status": "planned",
+   "scene_image": "media/scenes/modern/1947-2011/MOD-01.webp",
+   "scene_thumbnail": "media/scenes/modern/1947-2011/thumb/MOD-01.webp",
+   "status": "illustrated",
    "confidence": "high",
    "sources": [
-    "https://en.wikipedia.org/wiki/1950_Assam%E2%80%93Tibet_earthquake"
+    "https://en.wikipedia.org/wiki/1950_Assam%E2%80%93Tibet_earthquake",
+    "https://www.asdma.gov.in/download/literature_survey.pdf"
    ]
   },
   {
@@ -23851,10 +24286,13 @@
    "era": "Assam since independence (1947–2011)",
    "collection": "Modern chronology",
    "summary": "In the Sino-Indian war, Chinese forces take Bomdila; Tezpur is evacuated before the ceasefire.",
-   "status": "planned",
+   "scene_image": "media/scenes/modern/1947-2011/MOD-03.webp",
+   "scene_thumbnail": "media/scenes/modern/1947-2011/thumb/MOD-03.webp",
+   "status": "illustrated",
    "confidence": "medium",
    "sources": [
-    "https://en.wikipedia.org/wiki/Sino-Indian_War"
+    "https://en.wikipedia.org/wiki/Sino-Indian_War",
+    "https://www.claudearpi.net/wp-content/uploads/2016/12/WhitePaper8NEW.pdf"
    ]
   },
   {
