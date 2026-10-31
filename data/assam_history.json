@@ -24471,7 +24471,7 @@
    ],
    "location": "Brahmaputra valley, Assam (exact river not established)",
    "summary": "River named in a Pala grant issued by Dharmapala.",
-   "notes": "Present-day river not established here.",
+   "notes": "Present-day river not established here. A 12th-century copper plate named for it comes from the north bank, North Guwahati region; the exact location is unknown, so it is not geocoded.",
    "confidence": "low"
   },
   {
@@ -24558,11 +24558,11 @@
    "also_called": [
     "Durjaya (Pala capital)"
    ],
-   "present_name": "North Guwahati or Tezpur (unsettled)",
-   "location": "Kamrup or Sonitpur district, Assam",
+   "present_name": "Tezpur",
+   "location": "Sonitpur district, Assam",
    "summary": "A Pala capital built or renamed by Ratnapala.",
-   "notes": "The sources read disagree: one article says North Guwahati; the project's own note on Ratnapala says Hadapyaka (Tezpur) was renamed Durjaya.",
-   "confidence": "low",
+   "notes": "The sources read disagree: one article says North Guwahati; the project's own note on Ratnapala says Hadapyaka (Tezpur) was renamed Durjaya. Identified with Tezpur (user, 2026-10-31); Haruppeswara and Hadapyaka are older names of the same town, so the map dot is under Haruppeswara. The North Guwahati reading in one article is set aside.",
+   "confidence": "medium",
    "sources": [
     "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
    ]
@@ -24628,11 +24628,16 @@
     "Panchakhanda",
     "Nidhanpur copper plates"
    ],
-   "present_name": "Panchakhanda, Moulvibazar",
-   "location": "Moulvibazar district, Sylhet Division, Bangladesh",
+   "present_name": "Nidhanpur, Panchakhanda",
+   "location": "Sylhet District, Sylhet Division, Bangladesh (Beanibazar area)",
    "summary": "Findspot of Bhaskaravarman's Nidhanpur copper-plate grant.",
-   "notes": "Standard identification; not re-checked here.",
-   "confidence": "high"
+   "notes": "Standard identification; not re-checked here. The earlier note said Moulvibazar; Wikipedia and the inscription gazetteer place the findspot in Sylhet District. Map point: locality coordinate, approximate.",
+   "confidence": "high",
+   "latitude": 24.7994,
+   "longitude": 92.1522,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nidhanpur_copperplate_inscription"
+   ]
   },
   {
    "id": "umachal",
@@ -24646,7 +24651,10 @@
    "present_name": "Umachal, Guwahati",
    "location": "Slope of Nilachal Hill, Guwahati, Assam",
    "summary": "Findspot of the cave-temple inscription of Surendravarman for Balabhadra (5th century).",
+   "notes": "Map point is the monument-level coordinate (best available).",
    "confidence": "high",
+   "latitude": 26.168959,
+   "longitude": 91.717356,
    "sources": [
     "https://en.wikipedia.org/wiki/Umachal_rock_inscription"
    ]
@@ -24700,7 +24708,7 @@
    ],
    "present_name": "Sualkuchi",
    "location": "Kamrup district, Assam (north bank of the Brahmaputra)",
-   "summary": "A Pala-period grant is named for it; today the centre of Assam's silk weaving.",
+   "summary": "A Pala-period grant is named for it; today the centre of Assam's silk weaving. An 11th-century copper plate is recorded from Sualkuchi (gazetteer coordinate 26.16806, 91.57111).",
    "confidence": "high",
    "latitude": 26.17,
    "longitude": 91.57,
@@ -24718,12 +24726,15 @@
     "Badaganga rock inscription"
    ],
    "present_name": "Barganga",
-   "location": "Nagaon district, Assam",
-   "summary": "Findspot of a rock inscription of Bhutivarman (6th century).",
-   "notes": "The inscription's reading and date are disputed (Bhattasali vs Sircar).",
+   "location": "Barganga village, about 3 km south of Dokmoka, Karbi Anglong district, Assam",
+   "summary": "Findspot of a rock inscription of Bhutivarman (6th century). Dated c. 600 CE in the inscription gazetteer.",
+   "notes": "The inscription's reading and date are disputed (Bhattasali vs Sircar). The Directorate of Archaeology, Assam places the village near Dokmoka in Karbi Anglong, not at Doboka in Nagaon as older notes had it. Map point is calculated from that description, not a surveyed GPS point; needs a field check.",
    "confidence": "medium",
+   "latitude": 26.184,
+   "longitude": 93.0518,
    "sources": [
-    "https://en.wikipedia.org/wiki/Kamarupa_inscriptions"
+    "https://en.wikipedia.org/wiki/Kamarupa_inscriptions",
+    "https://archaeology.assam.gov.in"
    ]
   },
   {
@@ -24735,8 +24746,11 @@
    ],
    "present_name": "Barpanara",
    "location": "Kamrup district, Assam",
-   "summary": "Findspot of Indrapala's copper-plate grant.",
-   "confidence": "medium"
+   "summary": "Findspot of Indrapala's copper-plate grant. The Gauhati copper plate (11th century) is attributed to this findspot.",
+   "notes": "Map point is a locality coordinate, approximate.",
+   "confidence": "medium",
+   "latitude": 26.382054,
+   "longitude": 91.729533
   },
   {
    "id": "mong-mao",
@@ -25017,10 +25031,13 @@
     "Charagua",
     "Charaguwa"
    ],
-   "location": "On the Dihing river, Upper Assam (exact place not established)",
+   "present_name": "Charaguwa",
+   "location": "Charaguwa village, PIN 785672, Upper Assam",
    "summary": "A later Ahom capital built on the Dihing.",
-   "notes": "Present-day place not established in the sources read.",
-   "confidence": "low"
+   "notes": "Present-day place not established in the sources read. Place fixed by the user 2026-10-31 from the village and PIN (785672); the 27.079243 N, 94.660540 E point is that village, not surveyed against the Ahom capital remains.",
+   "confidence": "medium",
+   "latitude": 27.079243,
+   "longitude": 94.66054
   },
   {
    "id": "garhgaon",
@@ -25519,13 +25536,16 @@
     "Gachtal",
     "Gachtal inscription"
    ],
-   "present_name": "Near Nagaon",
-   "location": "Nagaon district, Assam",
-   "summary": "Findspot of an inscription of the Sultanate wars; where allies fought Sikandar Shah in 1362.",
-   "notes": "Standard identification as given in the sources read.",
+   "present_name": "Gachtal, near Doboka",
+   "location": "Hojai district, Assam (formerly Nagaon)",
+   "summary": "Findspot of an inscription of the Sultanate wars; where allies fought Sikandar Shah in 1362. The archaeological site also yielded a copper-plate grant (11th century) and a later stone inscription (c. 1200 to 1300 CE); they are two separate records.",
+   "notes": "Standard identification as given in the sources read. Map point is the official site GPS of the Government of Assam.",
    "confidence": "medium",
+   "latitude": 26.120015,
+   "longitude": 92.846318,
    "sources": [
-    "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
+    "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam",
+    "https://archaeology.assam.gov.in"
    ]
   },
   {
@@ -25709,6 +25729,7 @@
    "present_name": "Nalanda",
    "location": "Bihar, India",
    "summary": "The Buddhist monastic university where Xuanzang studied.",
+   "notes": "Kamarupa clay seals of the 7th century were found at Nalanda.",
    "confidence": "high",
    "latitude": 25.1357,
    "longitude": 85.4438
@@ -25782,7 +25803,7 @@
    ],
    "present_name": "Kamauli",
    "location": "Near Varanasi, Uttar Pradesh, India",
-   "summary": "Findspot of Vaidyadeva's copper-plate grant.",
+   "summary": "Findspot of Vaidyadeva's copper-plate grant. The 12th-century plate was found in present-day Uttar Pradesh, outside Assam.",
    "notes": "Standard identification; not re-checked here. Map point is the Kamauli near Varanasi found on OpenStreetMap; not checked against the copperplate literature.",
    "confidence": "medium",
    "latitude": 25.351,
@@ -26973,6 +26994,483 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Madhavdev",
     "https://en.wikipedia.org/wiki/Sankardev"
+   ]
+  },
+  {
+   "id": "dubi",
+   "name": "Dubi",
+   "name_assamese": "দুবি",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Dubi copper plates"
+   ],
+   "present_name": "Dubi",
+   "location": "Bajali, Assam",
+   "summary": "Findspot of the Dubi copper plates (7th century).",
+   "notes": "Coordinate quality: documented locality, approximate pin.",
+   "confidence": "medium",
+   "latitude": 26.4797,
+   "longitude": 91.2067,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "hayungthal",
+   "name": "Hayungthal",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Hayungthal copper plates"
+   ],
+   "present_name": "Hayungthal",
+   "location": "Samaguri, Nagaon district, Assam",
+   "summary": "Findspot of the Hayungthal copper plates (9th century).",
+   "notes": "Coordinate quality: documented locality, approximate pin.",
+   "confidence": "medium",
+   "latitude": 26.250327,
+   "longitude": 92.811787,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "kuruabahi",
+   "name": "Kuruabahi",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Kuruvabahi",
+    "Kuruvabahi copper plate"
+   ],
+   "present_name": "Kuruabahi",
+   "location": "Samaguri, Nagaon district, Assam",
+   "summary": "Findspot of the Kuruvabahi copper plate (9th century).",
+   "notes": "Coordinate quality: documented locality, approximate pin.",
+   "confidence": "medium",
+   "latitude": 26.4131,
+   "longitude": 92.8474,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "tezpur",
+   "name": "Tezpur",
+   "name_assamese": "তেজপুৰ",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Hadapyaka",
+    "Haruppeswara",
+    "Durjaya",
+    "Tezpur copper plates",
+    "Tezpur rock inscription"
+   ],
+   "present_name": "Tezpur",
+   "location": "Sonitpur district, Assam",
+   "summary": "Findspot of the Tezpur copper plates (9th century) and the Tezpur rock inscription on the Brahmaputra bank (829 to 830 CE). Tezpur is also the old Hadapyaka, Haruppeswara and, in the Pala period, Durjaya.",
+   "notes": "No separate map point: the dot is under Haruppeswara. Gazetteer coordinates, copper plates 26.6230 N, 92.7976 E; rock inscription 26.616667 N, 92.783333 E (ASI locality).",
+   "confidence": "high",
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "parbatiya",
+   "name": "Parbatiya",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Parbatiya copper plates"
+   ],
+   "present_name": "Parbatiya",
+   "location": "near Tezpur, Sonitpur district, Assam",
+   "summary": "Findspot of the Parbatiya copper plates (9th century).",
+   "notes": "Coordinate quality: documented locality, approximate pin.",
+   "confidence": "medium",
+   "latitude": 26.6273,
+   "longitude": 92.7649,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "sutargaon",
+   "name": "Sutargaon",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Nowgong copper plate"
+   ],
+   "present_name": "Sutargaon",
+   "location": "near Puranigudam, Nagaon district, Assam",
+   "summary": "Findspot of the Nowgong copper plate (9th century), near Puranigudam.",
+   "notes": "The plate is tied to Sutargaon, not the centre of Nagaon town. The map point is a nearby locality anchor; needs a field check.",
+   "confidence": "low",
+   "latitude": 26.37247,
+   "longitude": 92.7948,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "guwakuchi",
+   "name": "Guwakuchi",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Guwakuchi copper plate"
+   ],
+   "present_name": "Guwakuchi",
+   "location": "near Nalbari, Assam",
+   "summary": "Findspot of the Guwakuchi copper plate (11th century).",
+   "notes": "Several similarly named settlements exist in Nalbari district; the map point is an approximate village location needing cadastral confirmation.",
+   "confidence": "low",
+   "latitude": 26.4,
+   "longitude": 91.42,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "ambari",
+   "name": "Ambari",
+   "name_assamese": "আম্বাৰী",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Ambari archaeological site",
+    "Ambari inscription"
+   ],
+   "present_name": "Ambari",
+   "location": "Guwahati, Assam",
+   "summary": "Archaeological site in Guwahati and findspot of the Ambari inscription (1232 CE).",
+   "notes": "Coordinate quality: official or monument-level.",
+   "confidence": "high",
+   "latitude": 26.185556,
+   "longitude": 91.755833,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "kanai-barashi-bowa",
+   "name": "Kanai-Barashi-Bowa",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Kanabarshi",
+    "Kanabarshi inscription"
+   ],
+   "present_name": "Kanai-Barashi-Bowa",
+   "location": "North Guwahati, Kamrup district, Assam",
+   "summary": "Candidate site for the Kanabarshi inscription (1206 CE), in the North Guwahati region.",
+   "notes": "Whether the Kanabarshi record and the Kanai-Barashi-Bowa site are the same is not settled; check the original epigraphic publication. Map point is a candidate site, not a confirmed findspot.",
+   "confidence": "low",
+   "latitude": 26.210215,
+   "longitude": 91.742539,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "duargarila",
+   "name": "Duargarila",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Duargarila rock inscription"
+   ],
+   "present_name": "Duargarila",
+   "location": "Nilachal Hill, Guwahati, Assam",
+   "summary": "Rock inscription on Nilachal Hill dated Saka 1654 (1732 CE).",
+   "notes": "Coordinate quality: official or monument-level (National Monuments Authority).",
+   "confidence": "high",
+   "latitude": 26.161111,
+   "longitude": 91.710833,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "odalbakra",
+   "name": "Odalbakra",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Srikumara copper bell"
+   ],
+   "present_name": "Odalbakra",
+   "location": "Kahilipara, Guwahati, Assam",
+   "summary": "Provenance of the Srikumara inscribed copper bell (9th to 10th century), now in the museum catalogues.",
+   "notes": "Coordinate quality: documented locality, approximate pin.",
+   "confidence": "medium",
+   "latitude": 26.14016,
+   "longitude": 91.751,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "boko",
+   "name": "Boko",
+   "kind": "Inscription findspot",
+   "present_name": "Boko",
+   "location": "Kamrup district, Assam",
+   "summary": "Provenance of the Boko stone slab inscription (medieval, date uncertain).",
+   "notes": "Coordinate quality: documented locality.",
+   "confidence": "medium",
+   "latitude": 25.97533,
+   "longitude": 91.2276,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "sukan-pukhuri",
+   "name": "Sukan Pukhuri",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Hiloi cannon"
+   ],
+   "present_name": "Sukan Pukhuri",
+   "location": "Dibrugarh district, Assam",
+   "summary": "Provenance of the inscribed Hiloi cannon (late Ahom).",
+   "notes": "Coordinate quality: documented locality.",
+   "confidence": "medium",
+   "latitude": 27.222575,
+   "longitude": 94.961004,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "amguri",
+   "name": "Amguri",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Pramathesvari cannon"
+   ],
+   "present_name": "Amguri",
+   "location": "Sivasagar district, Assam",
+   "summary": "Provenance of the Pramathesvari inscribed cannon, Saka 1651 (1729 CE).",
+   "notes": "Coordinate quality: documented locality.",
+   "confidence": "medium",
+   "latitude": 27.2019,
+   "longitude": 94.9416,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "berengpani",
+   "name": "Berengpani",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Gadadhar cannon"
+   ],
+   "present_name": "Berengpani",
+   "location": "near New Sadiya, Tinsukia district, Assam",
+   "summary": "Provenance of the Gadadhar inscribed cannon, given as Saka 1538 (1616 CE), on the Berengpani river near New Sadiya.",
+   "notes": "The catalogue date (1616) sits oddly with Gadadhar Singha, who ruled 1681 to 1696; date and name need checking. The map point is a Sadiya-area anchor, not the river site.",
+   "confidence": "low",
+   "latitude": 27.84348,
+   "longitude": 95.67319,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "lepetkata",
+   "name": "Lepetkata",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Rudra Singha copper plate"
+   ],
+   "present_name": "Lepetkata",
+   "location": "Lepetkata Tea Estate, Dibrugarh district, Assam",
+   "summary": "Discovery place of the Rudra Singha copper plate (Ahom period), at a tea estate.",
+   "notes": "Coordinate quality: documented locality.",
+   "confidence": "medium",
+   "latitude": 27.36657,
+   "longitude": 94.88333,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "fatasil-ambari",
+   "name": "Fatasil Ambari",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Nimajani Barphukan inscription"
+   ],
+   "present_name": "Fatasil Ambari",
+   "location": "Guwahati, Assam",
+   "summary": "Provenance, in the museum catalogue, of the Nimajani Barphukan stone inscription (Ahom period attribution).",
+   "notes": "Map point is approximate; the attribution is from a museum catalogue.",
+   "confidence": "low",
+   "latitude": 26.15826,
+   "longitude": 91.73445,
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "dighaligaon",
+   "name": "Dighaligaon",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Dighaligaon copper plate"
+   ],
+   "present_name": "Dighaligaon",
+   "location": "Kaliabor, Nagaon district, Assam",
+   "summary": "Findspot of the Dighaligaon copper plate of Vanamala Varmadeva (9th century).",
+   "notes": "Catalogued by the NMMA from Kaliabor, Nagaon. Not reliably geocoded, so no map point.",
+   "confidence": "medium",
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "khanamukh",
+   "name": "Khanamukh",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Khanamukh copper plate"
+   ],
+   "present_name": "Khanamukh",
+   "location": "Barbhagia Mauza, Nagaon district, Assam",
+   "summary": "Findspot of the Khanamukh copper plate (11th to 12th century).",
+   "notes": "Not reliably geocoded, so no map point.",
+   "confidence": "low",
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "ulubari-darrang",
+   "name": "Ulubari (Darrang)",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Ulubari copper plates"
+   ],
+   "present_name": "Ulubari (Darrang)",
+   "location": "Naharbari Mauza, Darrang district, Assam",
+   "summary": "Findspot of the Ulubari copper plates (9th century).",
+   "notes": "Not reliably geocoded, so no map point. Not the Ulubari of Guwahati.",
+   "confidence": "low",
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "haoraghat",
+   "name": "Haoraghat",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Uttarbarbil",
+    "Haoraghat plates"
+   ],
+   "present_name": "Haoraghat",
+   "location": "Karbi Anglong district, Assam",
+   "summary": "Region of the Uttarbarbil (Haoraghat) copper plates (9th century).",
+   "notes": "Not reliably geocoded, so no map point.",
+   "confidence": "low",
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "khanikargaon",
+   "name": "Khanikargaon",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Nagajari-Khanikargaon inscription"
+   ],
+   "present_name": "Khanikargaon",
+   "location": "Golaghat district, Assam",
+   "summary": "Findspot of the Nagajari-Khanikargaon inscription (5th century).",
+   "notes": "Exact site GPS unavailable, so no map point.",
+   "confidence": "medium",
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
+   ]
+  },
+  {
+   "id": "deopani",
+   "name": "Deopani",
+   "kind": "Inscription findspot",
+   "also_called": [
+    "Deopani Vishnu image"
+   ],
+   "present_name": "Deopani",
+   "location": "Golaghat region, Assam",
+   "summary": "Findspot of the Deopani Vishnu image inscription (early medieval).",
+   "notes": "Exact site GPS unavailable, so no map point.",
+   "confidence": "low",
+   "sources": [
+    "User-compiled inscription gazetteer, 2026-10-31 (cites the NMMA catalogue, Directorate of Archaeology Assam and ASI Guwahati Circle)",
+    "https://nmma.nic.in",
+    "https://archaeology.assam.gov.in",
+    "https://asiguwahaticircle.gov.in"
    ]
   }
  ]
