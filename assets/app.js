@@ -347,11 +347,12 @@ function curveAt(l, ax, v) {
   if (l.chain) { const f = l.chain[0], k = ax === 0 ? 0 : 1; return f.line && v < Math.min(...f.line.map(p => p[k])) && l.chain[1] ? curveAt(l.chain[1], ax, v) : curveAt(f, ax, v); }
   if (ax === 1 && l.name === 'Brahmaputra' && v < 90.05) v = 90.05;   /* the lower river runs north-south: hold the east-west line at Dhubri */
   if (!l.line) return ax === 0 ? l.lon : (l.lat ?? l.lon);
-  /* where the line crosses this latitude (ax 0) or longitude (ax 1): the mean of the crossings, else the value at the nearest end */
-  const k = ax === 0 ? 0 : 1, o = 1 - k, hits = [];
-  for (let i = 0; i < l.line.length - 1; i++) { const a = l.line[i], b = l.line[i + 1]; if ((a[k] - v) * (b[k] - v) <= 0 && a[k] !== b[k]) hits.push(a[o] + (b[o] - a[o]) * (v - a[k]) / (b[k] - a[k])); }
+  /* where the line crosses this latitude (ax 0) or longitude (ax 1): the mean of the crossings, else the value at the nearest end.
+     As a north or south limit the Brahmaputra is only its east-west course in Assam, not the Jamuna and Padma channels far south, which would cross the same longitude again. */
+  const k = ax === 0 ? 0 : 1, o = 1 - k, hits = [], ln = ax === 1 && l.name === 'Brahmaputra' ? l.line.filter(p => p[0] >= 25.6) : l.line;
+  for (let i = 0; i < ln.length - 1; i++) { const a = ln[i], b = ln[i + 1]; if ((a[k] - v) * (b[k] - v) <= 0 && a[k] !== b[k]) hits.push(a[o] + (b[o] - a[o]) * (v - a[k]) / (b[k] - a[k])); }
   if (hits.length) return hits.reduce((s, x) => s + x, 0) / hits.length;
-  return l.line.reduce((best, p) => Math.abs(p[k] - v) < Math.abs(best[k] - v) ? p : best)[o];
+  return ln.reduce((best, p) => Math.abs(p[k] - v) < Math.abs(best[k] - v) ? p : best)[o];
 }
 /* toggle pills: each place kind belongs to one group; the layers (rivers, kingdoms, labels) are pills too */
 const PILLS = [['cities', 'pillCities', ['Capital', 'City']], ['towns', 'pillTowns', ['Town', 'Village', 'Settlement']], ['faith', 'pillFaith', ['Temple', 'Monastery', 'Pilgrim site']],
