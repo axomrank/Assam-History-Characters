@@ -23928,28 +23928,6 @@
    ]
   },
   {
-   "id": "koch-bihar-1581",
-   "name": "Koch Bihar",
-   "kingdom": "koch-bihar",
-   "period": "western",
-   "date_label": "from 1581",
-   "start_year": 1581,
-   "end_year": 1949,
-   "summary": "The western half of the divided kingdom, west of the Sankosh, the line that is roughly today's Assam-West Bengal border.",
-   "boundary": "East: Sankosh river | West: the Koch Bihar lands towards the Teesta and Karatoya",
-   "notes": "Only the Sankosh boundary is given in the sources read.",
-   "confidence": "medium",
-   "places": [
-    "sankosh",
-    "teesta",
-    "karatoya"
-   ],
-   "sources": [
-    "https://en.wikipedia.org/wiki/Koch_Hajo",
-    "https://en.wikipedia.org/wiki/Kamata_Kingdom"
-   ]
-  },
-  {
    "id": "mughal-kamrup-1615",
    "name": "Mughal Kamrup",
    "kingdom": "mughal-kamrup",
@@ -25691,8 +25669,6 @@
    "location": "Cooch Behar district, West Bengal",
    "summary": "The Koch Bihar capital in the 16th century, near the old Kamatapur.",
    "confidence": "high",
-   "latitude": 26.3452,
-   "longitude": 89.4482,
    "sources": [
     "https://github.com/axomrank/AHOM"
    ]

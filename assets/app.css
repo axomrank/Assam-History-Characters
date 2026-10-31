@@ -417,9 +417,9 @@ body.mappage{--paper:#fff;--leaf:#faf8f2;--leaf2:#efebe0;--line:#dcd7c9;--ink:#1
 .mapfig svg{background:var(--leaf);border:1px solid var(--line);cursor:grab;touch-action:pan-y}
 .mapfig svg.panning{cursor:grabbing}
 #mbase path{fill:none;vector-effect:non-scaling-stroke;stroke-linejoin:round}
-.mdist{stroke:#d9d4c7;stroke-width:.5}
-.mstate{stroke:#bdb7a6;stroke-width:.8}
-.mnat{stroke:#a8a290;stroke-width:.8}
+.mdist{stroke:#ede9df;stroke-width:.5}
+.mstate{stroke:#e2ddd0;stroke-width:.6}
+.mnat{stroke:#d8d3c5;stroke-width:.6}
 .mrv{vector-effect:non-scaling-stroke;stroke-width:1.1;opacity:.75}.mrv.big{stroke-width:2}
 .mdot{stroke:#fff;stroke-width:1}
 .mlb{stroke:#fff}
