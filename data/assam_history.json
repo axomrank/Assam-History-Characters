@@ -20947,66 +20947,6 @@
           "cooch-behar"
          ],
          "main": true
-        },
-        {
-         "id": "srimanta-sankardev-portrait",
-         "title": "Mahapurusha Srimanta Sankardev",
-         "date_label": "AI illustration",
-         "era": "AI gallery · Notable Figures",
-         "collection": "Assamese AI gallery",
-         "summary": "15th–16th century saint-scholar, polymath, playwright, social reformer, and founder of Ekasarana Dharma and the Sattriya cultural tradition.",
-         "people": [
-          "sankardev"
-         ],
-         "scene_image": "media/scenes/gallery/notable-figures/srimanta-sankardev-portrait.webp",
-         "scene_thumbnail": "media/scenes/gallery/notable-figures/thumb/srimanta-sankardev-portrait.webp",
-         "status": "illustrated",
-         "main": true
-        },
-        {
-         "id": "srimanta-sankardev-scholar",
-         "title": "Srimanta Sankardev Writing on Sanchi-Pat",
-         "date_label": "AI illustration",
-         "era": "AI gallery · Notable Figures",
-         "collection": "Assamese AI gallery",
-         "summary": "Depiction of Guru Sankardev composing hymns, Kirtana Ghosha, and Ankiya Nat dramas on bark manuscripts (Sanchi-pat).",
-         "people": [
-          "sankardev"
-         ],
-         "scene_image": "media/scenes/gallery/notable-figures/srimanta-sankardev-scholar.webp",
-         "scene_thumbnail": "media/scenes/gallery/notable-figures/thumb/srimanta-sankardev-scholar.webp",
-         "status": "illustrated",
-         "main": true
-        },
-        {
-         "id": "srimanta-sankardev-meditation",
-         "title": "Srimanta Sankardev in Contemplation",
-         "date_label": "AI illustration",
-         "era": "AI gallery · Notable Figures",
-         "collection": "Assamese AI gallery",
-         "summary": "Contemplative and serene spiritual portrayal of Mahapurusha Srimanta Sankardev radiating spiritual wisdom.",
-         "people": [
-          "sankardev"
-         ],
-         "scene_image": "media/scenes/gallery/notable-figures/srimanta-sankardev-meditation.webp",
-         "scene_thumbnail": "media/scenes/gallery/notable-figures/thumb/srimanta-sankardev-meditation.webp",
-         "status": "illustrated",
-         "main": true
-        },
-        {
-         "id": "srimanta-sankardev-teaching",
-         "title": "Mahapurusha Sankardev Preaching Bhakti",
-         "date_label": "AI illustration",
-         "era": "AI gallery · Notable Figures",
-         "collection": "Assamese AI gallery",
-         "summary": "Srimanta Sankardev expounding the universal humanist message of devotion, equality, and compassion to disciples.",
-         "people": [
-          "sankardev"
-         ],
-         "scene_image": "media/scenes/gallery/notable-figures/srimanta-sankardev-teaching.webp",
-         "scene_thumbnail": "media/scenes/gallery/notable-figures/thumb/srimanta-sankardev-teaching.webp",
-         "status": "illustrated",
-         "main": true
         }
        ]
       },

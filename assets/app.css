@@ -378,3 +378,15 @@ dialog#viewer.noimg .vfoot{max-height:45vh}
   background:repeating-linear-gradient(135deg,transparent 0 12px,color-mix(in srgb,var(--muted) 22%,transparent) 12px 13px),var(--leaf2)}
 .sheetmain.planned-sheet>div{background:var(--leaf);padding:16px 22px;border-radius:var(--r);border:1px solid var(--line);max-width:34ch}
 .tag.plan::before{border:1.5px dashed var(--muted);background:transparent}
+
+/* map */
+.mapfig{margin:20px 0 0;max-width:1000px}
+.mapfig svg{width:100%;height:auto;display:block;background:var(--leaf);border:1px solid var(--line)}
+.mapfig figcaption{color:var(--muted);font-size:.9rem;margin-top:8px}
+.mind{fill:var(--leaf2);stroke:var(--line);stroke-width:1}
+.mas{fill:var(--paper);stroke:var(--muted);stroke-width:1.2}
+.mrv{fill:none;stroke:var(--river);stroke-width:1.2;opacity:.7}.mrv.big{stroke-width:2.4}
+.mdot{fill:var(--hengul);stroke:var(--leaf);stroke-width:1.5;cursor:pointer}
+.mdot:hover{fill:var(--haital)}
+.mlb{font-size:15px;fill:var(--ink);paint-order:stroke;stroke:var(--leaf);stroke-width:3px;pointer-events:none}
+#footLic{margin:.2em 0 0}

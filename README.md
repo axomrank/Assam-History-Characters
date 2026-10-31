@@ -114,3 +114,16 @@ Each dynasty or house has one colour, used on cards, headings, the home ribbon, 
 scenes: Ahom blue, Koch saffron, Varman lac red, Salastambha umber, Pala olive, Kamata plum, Bhuyan slate,
 Chutia green, Dimasa teal, Jaintia and Manipur rose, outside powers ash, saints and poets violet, colonial brown,
 modern slate-ink. Groups map to houses in `HOUSES` in `assets/app.js`; the colours are the `.h-<house>` rules in `assets/app.css`.
+
+## Licence
+
+For non-commercial use only. Images and text: CC BY-NC-ND 4.0 (`LICENSE-CONTENT.txt`); code: PolyForm Noncommercial 1.0.0
+(`LICENSE-CODE.md`); summary and exclusions (the MOD-06 photograph, map data, fonts) in `LICENSE` and on the site's
+`#/licence` page.
+
+## Sharing, search and offline
+
+`python3 tools/build.py` also writes `c/<person-id>/index.html` (one small page per person with Open Graph tags for link previews,
+which sends visitors on to `#/c/<id>`), `sitemap.xml` and `robots.txt`, and stamps `sw.js` with a version. `manifest.webmanifest`
+and `sw.js` make the site installable and readable offline (the app, data and any images already viewed). `assets/og.jpg` is the
+home-page preview image. The `#/map` page draws the places that have `lat`/`lon` on the Assam outline from `data/maps/`.

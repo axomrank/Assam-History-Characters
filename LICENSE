@@ -1,0 +1,28 @@
+Assam History Characters
+Copyright (c) 2026 the Assam History Characters project (github.com/axomrank/Assam-History-Characters)
+
+NON-COMMERCIAL USE ONLY. No part of this project may be used to make money, directly or indirectly,
+without the owner's written permission.
+
+1. Content (character sheets, scene images, thumbnails, the catalogue text in data/ and the site text)
+   is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+   (CC BY-NC-ND 4.0). Full text: LICENSE-CONTENT.txt, or https://creativecommons.org/licenses/by-nc-nd/4.0/
+   - You may copy and share it unchanged, with credit, for non-commercial purposes.
+   - You may not sell it, put it in a product or service that earns money, run it on a monetised channel
+     or book, or use it to train a commercial model.
+   - You may not share modified versions of it.
+   - Extra permission (not part of CC BY-NC-ND): you may use a sheet as a reference image for your own
+     NON-COMMERCIAL creative work, if you credit "Assam History Characters" and link to the site.
+     Work that earns money in any way is not covered and needs written permission.
+
+2. Code (index.html, assets/, tools/, sw.js) is licensed under the PolyForm Noncommercial License 1.0.0.
+   Full text: LICENSE-CODE.md, or https://polyformproject.org/licenses/noncommercial/1.0.0
+
+3. Not covered. Some material belongs to other people and keeps its own terms:
+   - the colourised photograph used for scene MOD-06 (The Assam Accord), whose origin is not identified;
+   - map shapes in data/maps/ (see data/maps/README.md: DataMeet CC BY-SA 2.5 / ODbL, Natural Earth public domain);
+   - fonts loaded from Google Fonts (SIL Open Font License);
+   - quotations and facts from the sources listed on each page.
+   Illustrations are AI-generated interpretations, not photographs or evidence of how anyone looked.
+
+To ask for commercial permission, open an issue at https://github.com/axomrank/Assam-History-Characters/issues

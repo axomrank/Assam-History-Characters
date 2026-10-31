@@ -23,7 +23,7 @@ Rebuild it after adding files: `python3 tools/index_library.py`.
 ## Rules
 - Before making images read `research/ahom/agent-guidance.md` (reference-selection and costume rules).
 - Notes go in `research/`, never beside images. Only README.md and AGENTS.md stay at the root.
-- Published = `index.html`, `assets/`, `data/`, `media/`, `tools/`. `reels/` is local too. Everything else is local and git-ignored (rights of photos/references are not cleared).
+- Published = `index.html`, `assets/`, `data/`, `media/`, `tools/`, plus generated `c/`, `sitemap.xml`, `robots.txt` (by build.py) and `sw.js`, `manifest.webmanifest`, `LICENSE*`. The licence is non-commercial (CC BY-NC-ND content, PolyForm NC code): add nothing that implies commercial use. `reels/` is local too. Everything else is local and git-ignored (rights of photos/references are not cleared).
 - Places are `place` rows in the CSV (`also_called` = historic names, `present_name`/`location` = today). Scenes and events link to them in the `places` column; the header search uses them. Kingdom extents bounded by rivers are `realm` rows (shown on the place pages of the kingdom and of each river); the research is in `research/places/river-boundaries.md`. How the places were made: `research/places/README.md`.
 - Never put images in the CSV as separate records; they belong to a person (`character_sheets`) or a scene (`scene_image`).
 - Ids are kebab-case (`bala-varman`); the person id is the folder name under `media/characters/` and `masters/sheets/`.

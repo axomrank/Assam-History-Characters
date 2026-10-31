@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://axomrank.github.io/Assam-History-Characters/sitemap.xml

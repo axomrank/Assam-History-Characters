@@ -43,7 +43,7 @@ const houseKey = () => `<ul class="hkey" aria-label="Dynasty colours">${HOUSES.m
 /* ---------- language ---------- */
 const STR = {
   en: {
-    brand:'Assam history sheets', home:'Home', characters:'Characters', kings:'Kings', timeline:'Timeline', scenes:'Scenes', coverage:'Coverage', about:'About',
+    brand:'Assam history sheets', home:'Home', characters:'Characters', kings:'Kings', map:'Map', mapLede:(n,m)=>`${n} places with a map point. ${m} more have no point yet.`, mapFail:'The map data could not be loaded.', mapKind:'Kind of place', mapAll:'All kinds', mapShown:n=>`${n} shown`, mapNote:'Points are approximate reference positions on modern geography, not surveyed locations or historical borders.', licence:'Licence and credits', footLic:'Non-commercial use only. Licence and credits', timeline:'Timeline', scenes:'Scenes', coverage:'Coverage', about:'About',
     h1:'The people of Assam’s history', h1sub:'Character sheets from Pushyavarman to Tarun Gogoi',
     lede:'Use them as reference images when you make AI art, video and books, so the same person looks the same in every scene.',
     span:(e, n)=>`${e} periods, ${n} people`,
@@ -80,7 +80,7 @@ const STR = {
     srSceneCount:n=>`${n} ${n === 1 ? 'scene' : 'scenes'}`, srCharCount:n=>`${n} ${n === 1 ? 'character' : 'characters'}`, srNoSheet:'No sheet yet', srMore:n=>`+${n}`,
   },
   as: {
-    brand:'অসম ইতিহাস চৰিত্ৰ-পত্ৰ', home:'ঘৰ', characters:'চৰিত্ৰ', kings:'ৰজাসকল', timeline:'সময়ৰেখা', scenes:'দৃশ্য', coverage:'অগ্ৰগতি', about:'আমাৰ বিষয়ে',
+    brand:'অসম ইতিহাস চৰিত্ৰ-পত্ৰ', home:'ঘৰ', characters:'চৰিত্ৰ', kings:'ৰজাসকল', map:'মানচিত্ৰ', mapLede:(n,m)=>`${n}টা ঠাইৰ মানচিত্ৰ-বিন্দু আছে। আৰু ${m}টাৰ এতিয়াও নাই।`, mapFail:'মানচিত্ৰৰ তথ্য লোড কৰিব পৰা নগ’ল।', mapKind:'ঠাইৰ প্ৰকাৰ', mapAll:'সকলো প্ৰকাৰ', mapShown:n=>`${n}টা দেখুওৱা হৈছে`, mapNote:'বিন্দুবোৰ আধুনিক ভূগোলত আনুমানিক অৱস্থান; জৰীপ কৰা ঠাই বা ঐতিহাসিক সীমা নহয়।', licence:'অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', footLic:'কেৱল অবাণিজ্যিক ব্যৱহাৰৰ বাবে। অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', timeline:'সময়ৰেখা', scenes:'দৃশ্য', coverage:'অগ্ৰগতি', about:'আমাৰ বিষয়ে',
     h1:'অসমৰ ইতিহাসৰ মানুহ', h1sub:'পুষ্যবৰ্মাৰ পৰা তৰুণ গগৈলৈ চৰিত্ৰ-পত্ৰ', span:(e, n)=>`${e}টা যুগ, ${n} জন মানুহ`,
     lede:'অসমৰ ইতিহাসৰ মানুহবোৰৰ চৰিত্ৰ-পত্ৰ। এআই চিত্ৰ, ভিডিঅ’ আৰু কিতাপ বনাওঁতে ৰেফাৰেন্স হিচাপে ব্যৱহাৰ কৰক।',
     browse:'চৰিত্ৰবোৰ চাওক', seeScenes:'ঐতিহাসিক দৃশ্য চাওক',
@@ -310,8 +310,58 @@ function viewAbout() {
     <p>This library collects character sheets for the people of Assam’s history, from the Varman king Pushyavarman in the fourth century to Tarun Gogoi, Chief Minister until 2016. Anyone making AI images, video, comics or books about Assam can use a sheet as a visual reference so the same person looks the same across scenes.</p>
     <h2>Using a sheet</h2><ol><li>Find a character and open their page.</li><li>Download the sheet and attach it as the reference image in your generator.</li><li>Copy the reference brief and paste it into your prompt.</li><li>Check dress, weapons and buildings against the period before you publish.</li></ol>
     <h2>${esc(t('about1'))}</h2><p>Sheets are illustrations. Nobody alive has seen most of these people, and for early figures nothing records how they looked. Most entries before 1826 were researched from published references (mainly Wikipedia articles on the Ahom, Koch, Kamata, Chutia and Dimasa kingdoms and on individual rulers), each with its sources and a confidence level. Confidence is High when several sources agree, Medium for one good source or dates that vary, and Low for single-source, legendary or disputed entries. Early dates are approximate, and where sources conflict the notes say so.</p>
-    <h2>Licence</h2><p>A licence for the images has not been chosen yet. Until one is added here, ask the maintainer before using them in anything you sell.</p>
+    <h2>Licence</h2><p>For non-commercial use only. Images and text are CC BY-NC-ND 4.0, code is PolyForm Noncommercial 1.0.0. Nothing here may be sold or used to earn money without written permission. <a href="#/licence">Read the licence and credits</a>.</p>
     <h2>For maintainers</h2><p>Add images to the <code>incoming</code> folder (<code>incoming/lachit-borphukan/turnaround.png</code>), then run <code>python3 tools/add_sheets.py</code>. See <a href="#/coverage">Coverage</a> for every character’s folder name. Everything on this site comes from one spreadsheet, <a href="data/assam_history.csv" download>data/assam_history.csv</a>: periods, people, images, events and scenes, one row each. Edit it, then run <code>python3 tools/build.py</code>.</p></div>`;
+}
+
+/* ---------- map ---------- */
+let mapGeo = null;
+function viewMap(q) {
+  const st = { kind: q.get('kind') || '' };
+  if (!mapGeo) {
+    mapGeo = 'loading';
+    Promise.all(['data/maps/boundaries.json', 'data/maps/assam.json'].map(f => fetch(f).then(r => r.json())))
+      .then(([b, a]) => { mapGeo = { b, a }; })
+      .catch(() => { mapGeo = 'fail'; })
+      .then(() => { if (parseHash().parts[0] === 'map') route(true); });
+  }
+  const pts = places.filter(p => p.geo), kinds = [...new Set(pts.map(p => p.cat || 'Place'))].sort();
+  const head = `<div class="page-head"><h1>${esc(t('map'))}</h1><p>${esc(t('mapLede', pts.length, places.length - pts.length))}</p></div>`;
+  if (mapGeo === 'loading') return head + `<p class="count">…</p>`;
+  if (mapGeo === 'fail') return head + `<div class="empty">${esc(t('mapFail'))}</div>`;
+  const shown = pts.filter(p => !st.kind || (p.cat || 'Place') === st.kind);
+  const W = 1000, lat0 = 23.6, lat1 = 29.2, lon0 = 88.8, lon1 = 98.2, k = Math.cos(26.5 * Math.PI / 180);
+  const H = Math.round(W * (lat1 - lat0) / ((lon1 - lon0) * k));
+  const X = lon => ((lon - lon0) / (lon1 - lon0) * W).toFixed(1), Y = lat => ((lat1 - lat) / (lat1 - lat0) * H).toFixed(1);
+  const ring = r => 'M' + r.map(([la, lo]) => X(lo) + ' ' + Y(la)).join('L') + 'Z';
+  const india = mapGeo.b.india.rings.map(ring).join(''), assam = mapGeo.b.assam.rings.map(ring).join('');
+  const rivers = Object.entries(mapGeo.a.rivers).map(([id, r]) => `<path class="mrv ${id === 'brahmaputra' ? 'big' : ''}" d="M${r.pts.map(([la, lo]) => X(lo) + ' ' + Y(la)).join('L')}"><title>${esc(r.name)}</title></path>`).join('');
+  const dots = shown.map(p => `<a href="${placeHref(p.id)}"><circle class="mdot" cx="${X(p.geo[1])}" cy="${Y(p.geo[0])}" r="6"><title>${esc(p.name)}${p.present ? ' (' + esc(p.present) + ')' : ''}</title></circle></a>`).join('');
+  const labels = shown.filter(p => ['Capital', 'City', 'Kingdom'].includes(p.cat)).map(p => `<text class="mlb" x="${+X(p.geo[1]) + 9}" y="${+Y(p.geo[0]) + 4}">${esc(p.name.replace(/ \(.*\)$/, ''))}</text>`).join('');
+  setTimeout(() => { const sel = $('mkind'); if (sel) sel.onchange = e => { st.kind = e.target.value; setQuery('/map', st); route(true); }; });
+  return head + `<div class="filters"><select id="mkind" aria-label="${esc(t('mapKind'))}"><option value="">${esc(t('mapAll'))}</option>${kinds.map(v => `<option ${st.kind === v ? 'selected' : ''}>${esc(v)}</option>`).join('')}</select><span class="count">${esc(t('mapShown', shown.length))}</span></div>
+    <figure class="mapfig"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t('map'))}"><path class="mind" d="${india}"/><path class="mas" d="${assam}"/>${rivers}${dots}${labels}</svg>
+    <figcaption>${esc(t('mapNote'))} <a href="data/maps/README.md">data/maps</a></figcaption></figure>`;
+}
+
+/* ---------- licence and credits ---------- */
+function viewLicence() {
+  return `<div class="page-head"><h1>${esc(t('licence'))}</h1><p>Non-commercial use only. Nothing here may be sold, or used to earn money in any way, without written permission.</p></div><div class="prose">
+    <h2>What you may do</h2>
+    <ul><li>Copy and share the images and text <b>unchanged</b>, with credit to “Assam History Characters”, for <b>non-commercial</b> purposes.</li>
+    <li>Use a sheet as a reference image for your own <b>non-commercial</b> creative work (a school project, a free video, a hobby comic), with credit and a link to this site.</li></ul>
+    <h2>What you may not do</h2>
+    <ul><li>Sell the images, or put them in a product, book, course, advert or channel that earns money.</li>
+    <li>Use them to train or fine-tune a commercial model.</li><li>Share edited or remixed versions of the images.</li></ul>
+    <h2>The terms</h2>
+    <p>Images, thumbnails, catalogue text and site text: <a href="LICENSE-CONTENT.txt">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0</a> (CC BY-NC-ND 4.0). Code: <a href="LICENSE-CODE.md">PolyForm Noncommercial 1.0.0</a>. The summary file is <a href="LICENSE">LICENSE</a>. For commercial permission, <a href="https://github.com/axomrank/Assam-History-Characters/issues" rel="noopener">open an issue</a>.</p>
+    <h2>Not covered by this licence</h2>
+    <ul><li><b>The Assam Accord scene (MOD-06)</b> uses a colourised photograph whose origin has not been identified. Do not reuse it; its rights are unknown.</li>
+    <li><b>Maps</b>: district and river shapes come from a source whose licence is not recorded; India outline from <a href="https://github.com/datameet/maps" rel="noopener">DataMeet</a> (CC BY-SA 2.5 / ODbL); world outlines from <a href="https://www.naturalearthdata.com/" rel="noopener">Natural Earth</a> (public domain).</li>
+    <li><b>Font</b>: Tiro Bangla, from Google Fonts (SIL Open Font License).</li>
+    <li><b>Sources</b>: facts are drawn from the works listed on each page, mainly Wikipedia and published histories. They remain the property of their authors.</li></ul>
+    <h2>About the images</h2>
+    <p>The illustrations are AI-generated interpretations. They are not photographs and not evidence of how anyone looked. Where a historical portrait or photograph was used as a reference, the person’s page says so in its reference notes.</p></div>`;
 }
 
 /* ---------- viewer ---------- */
@@ -560,11 +610,11 @@ document.addEventListener('keydown', e => {
 
 /* ---------- router ---------- */
 function setNav(active) {
-  $('nav').innerHTML = [['', 'home'], ['characters', 'characters'], ['kings', 'kings'], ['timeline', 'timeline'], ['scenes', 'scenes'], ['coverage', 'coverage'], ['about', 'about']]
+  $('nav').innerHTML = [['', 'home'], ['characters', 'characters'], ['kings', 'kings'], ['timeline', 'timeline'], ['map', 'map'], ['scenes', 'scenes'], ['coverage', 'coverage'], ['about', 'about']]
     .map(([p, k]) => `<a href="#/${p}" ${active === p ? 'aria-current="page"' : ''}>${esc(t(k))}</a>`).join('');
   $('brandName').textContent = t('brand'); $('langBtn').textContent = lang === 'as' ? 'English' : 'অসমীয়া';
   sIn.placeholder = t('searchPh'); sBtn.setAttribute('aria-label', t('searchLabel')); sIn.setAttribute('aria-label', t('searchLabel'));
-  $('footNote').textContent = t('foot'); document.documentElement.lang = lang === 'as' ? 'as' : 'en';
+  $('footNote').textContent = t('foot'); $('footLic').innerHTML = `<a href="#/licence">${esc(t('footLic'))}</a>`; document.documentElement.lang = lang === 'as' ? 'as' : 'en';
 }
 function route(keepScroll) {
   const { parts, q } = parseHash(), main = $('main'), top = parts[0] || '';
@@ -575,6 +625,8 @@ function route(keepScroll) {
   else if (top === 'timeline') { html = viewTimeline(); title = t('timeline'); }
   else if (top === 'scenes') { html = viewScenes(q); title = t('scenesTitle'); }
   else if (top === 'coverage') { html = viewCoverage(); title = t('covTitle'); }
+  else if (top === 'map') { html = viewMap(q); title = t('map'); }
+  else if (top === 'licence') { html = viewLicence(); title = t('licence'); }
   else if (top === 'about') { html = viewAbout(); title = t('about'); }
   else if (top === 'search') { html = viewSearch(q.get('q') || ''); title = t('searchLabel'); active = 'search'; }
   else { html = viewHome(); active = ''; }
@@ -605,4 +657,5 @@ document.addEventListener('click', e => {
 });
 $('langBtn').onclick = () => { lang = lang === 'as' ? 'en' : 'as'; try { localStorage.setItem('lang', lang); } catch {} route(); };
 route();
+if ('serviceWorker' in navigator && location.protocol !== 'file:') window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 })();

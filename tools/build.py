@@ -26,7 +26,7 @@ Scenes are written in date order (see scene_order). index.html gets ?v= stamps s
 Identical scene files count once. Problems (unknown ids, missing files) are printed and the build fails.
 Run: python3 tools/build.py
 """
-import csv, datetime, hashlib, json, re, sys
+import csv, datetime, hashlib, html, json, re, shutil, sys
 from collections import Counter, defaultdict
 from pathlib import Path
 from PIL import Image
@@ -219,13 +219,66 @@ def main():
     (ROOT / "data/site.js").write_text("window.SITE=" + json.dumps(site, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
 
     write_tree(by_type, sheets, avail={c["id"]: c["av"][0] for c in chars})
+    write_share_pages(chars, sheets)
     stamp_index()
+    stamp_service_worker()
 
     names = ["none", "scenes", "portrait", "sheet"]
     print(f"site.js: {len(eras)} periods, {len(chars)} people, {sum(map(len, sheets.values()))} character sheets, {len(events)} events, {len(scenes)} scenes, {len(places)} places, {len(realms)} realms")
     print("availability:", ", ".join(f"{names[k]} {levels[k]}" for k in (3, 2, 1, 0)))
     for p in problems: print("ERROR", p)
     sys.exit(1 if problems else 0)
+
+
+BASE = "https://axomrank.github.io/Assam-History-Characters/"
+
+SHARE_PAGE = """<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{title}</title>
+<meta name="description" content="{desc}">
+<link rel="canonical" href="{url}">
+<meta property="og:type" content="article"><meta property="og:site_name" content="Assam history sheets">
+<meta property="og:title" content="{title}"><meta property="og:description" content="{desc}">
+<meta property="og:url" content="{url}"><meta property="og:image" content="{image}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{title}">
+<meta name="twitter:description" content="{desc}"><meta name="twitter:image" content="{image}">
+<meta http-equiv="refresh" content="0;url=../../#/c/{id}">
+<script>location.replace("../../#/c/{id}");</script>
+<style>body{{font:18px/1.6 Georgia,serif;max-width:40rem;margin:12vh auto;padding:0 20px;background:#e9e1cc;color:#241c13}}a{{color:#a3301c}}</style>
+</head><body><h1>{name}</h1><p>{desc}</p><p><a href="../../#/c/{id}">Open the character page</a></p></body></html>
+"""
+
+
+def write_share_pages(chars, sheets):
+    """One small page per person at c/<id>/index.html carrying Open Graph tags (name, summary, sheet image) for link previews and
+    search engines; it sends visitors on to the app at #/c/<id>. Also writes sitemap.xml and robots.txt. The folder is rebuilt each run."""
+    out = ROOT / "c"
+    if out.exists(): shutil.rmtree(out)
+    urls = [BASE]
+    for c in chars:
+        sh = sheets.get(c["id"], [])
+        pick = next((s for s in sh if s["kind"] in FULL_KINDS), sh[0] if sh else None)
+        image = BASE + pick["file"] if pick else BASE + "assets/og.jpg"
+        desc = c.get("summary") or c.get("role", "")
+        if c.get("label") and c["label"] not in desc: desc = f"{c['label']}. {desc}"
+        desc = html.escape(desc if len(desc) <= 200 else desc[:197].rsplit(" ", 1)[0] + "...", quote=True)
+        url = f"{BASE}c/{c['id']}/"
+        d = out / c["id"]; d.mkdir(parents=True)
+        (d / "index.html").write_text(SHARE_PAGE.format(title=html.escape(f"{c['name']}, Assam history sheets", quote=True), desc=desc, url=url,
+                                                        image=html.escape(image, quote=True), id=c["id"], name=html.escape(c["name"])), encoding="utf-8")
+        urls.append(url)
+    today = datetime.date.today().isoformat()
+    (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "".join(f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
+    (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n", encoding="utf-8")
+
+
+def stamp_service_worker():
+    """Give sw.js a version that changes whenever the site files change, so installed copies refresh."""
+    page = ROOT / "sw.js"
+    if not page.exists(): return
+    v = hashlib.sha256(b"".join((ROOT / f).read_bytes() for f in ("data/site.js", "assets/app.js", "assets/app.css", "index.html"))).hexdigest()[:10]
+    page.write_text(re.sub(r"const VERSION = '[^']*';", f"const VERSION = '{v}';", page.read_text(encoding="utf-8")), encoding="utf-8")
 
 
 def write_tree(by_type, sheets, avail):
