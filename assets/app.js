@@ -43,7 +43,7 @@ const houseKey = () => `<ul class="hkey" aria-label="Dynasty colours">${HOUSES.m
 /* ---------- language ---------- */
 const STR = {
   en: {
-    brand:'Assam history sheets', home:'Home', characters:'Characters', kings:'Kings', map:'Map', mapLede:(n,m)=>`${n} places with a map point. ${m} more have no point yet.`, mapFail:'The map data could not be loaded.', mapKind:'Kind of place', mapAll:'All kinds', mapShown:n=>`${n} shown`, mapNote:'Points are approximate reference positions on modern geography, not surveyed locations or historical borders.', licence:'Licence and credits', footLic:'Non-commercial use only. Licence and credits', timeline:'Timeline', scenes:'Scenes', coverage:'Coverage', about:'About',
+    brand:'Assam history sheets', home:'Home', characters:'Characters', kings:'Kings', map:'Map', mapLede:(n,m)=>`${n} places with a map point. ${m} more have no point yet.`, mapFail:'The map data could not be loaded.', mapKind:'Kind of place', mapAll:'All kinds', mapShown:n=>`${n} shown`, mapOff:l=>`Outside this view: ${l}.`, mapNote:'Points are approximate reference positions on modern geography, not surveyed locations or historical borders.', licence:'Licence and credits', footLic:'Non-commercial use only. Licence and credits', timeline:'Timeline', scenes:'Scenes', coverage:'Coverage', about:'About',
     h1:'The people of Assam’s history', h1sub:'Character sheets from Pushyavarman to Tarun Gogoi',
     lede:'Use them as reference images when you make AI art, video and books, so the same person looks the same in every scene.',
     span:(e, n)=>`${e} periods, ${n} people`,
@@ -80,7 +80,7 @@ const STR = {
     srSceneCount:n=>`${n} ${n === 1 ? 'scene' : 'scenes'}`, srCharCount:n=>`${n} ${n === 1 ? 'character' : 'characters'}`, srNoSheet:'No sheet yet', srMore:n=>`+${n}`,
   },
   as: {
-    brand:'অসম ইতিহাস চৰিত্ৰ-পত্ৰ', home:'ঘৰ', characters:'চৰিত্ৰ', kings:'ৰজাসকল', map:'মানচিত্ৰ', mapLede:(n,m)=>`${n}টা ঠাইৰ মানচিত্ৰ-বিন্দু আছে। আৰু ${m}টাৰ এতিয়াও নাই।`, mapFail:'মানচিত্ৰৰ তথ্য লোড কৰিব পৰা নগ’ল।', mapKind:'ঠাইৰ প্ৰকাৰ', mapAll:'সকলো প্ৰকাৰ', mapShown:n=>`${n}টা দেখুওৱা হৈছে`, mapNote:'বিন্দুবোৰ আধুনিক ভূগোলত আনুমানিক অৱস্থান; জৰীপ কৰা ঠাই বা ঐতিহাসিক সীমা নহয়।', licence:'অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', footLic:'কেৱল অবাণিজ্যিক ব্যৱহাৰৰ বাবে। অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', timeline:'সময়ৰেখা', scenes:'দৃশ্য', coverage:'অগ্ৰগতি', about:'আমাৰ বিষয়ে',
+    brand:'অসম ইতিহাস চৰিত্ৰ-পত্ৰ', home:'ঘৰ', characters:'চৰিত্ৰ', kings:'ৰজাসকল', map:'মানচিত্ৰ', mapLede:(n,m)=>`${n}টা ঠাইৰ মানচিত্ৰ-বিন্দু আছে। আৰু ${m}টাৰ এতিয়াও নাই।`, mapFail:'মানচিত্ৰৰ তথ্য লোড কৰিব পৰা নগ’ল।', mapKind:'ঠাইৰ প্ৰকাৰ', mapAll:'সকলো প্ৰকাৰ', mapShown:n=>`${n}টা দেখুওৱা হৈছে`, mapOff:l=>`এই দৃশ্যৰ বাহিৰত: ${l}।`, mapNote:'বিন্দুবোৰ আধুনিক ভূগোলত আনুমানিক অৱস্থান; জৰীপ কৰা ঠাই বা ঐতিহাসিক সীমা নহয়।', licence:'অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', footLic:'কেৱল অবাণিজ্যিক ব্যৱহাৰৰ বাবে। অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', timeline:'সময়ৰেখা', scenes:'দৃশ্য', coverage:'অগ্ৰগতি', about:'আমাৰ বিষয়ে',
     h1:'অসমৰ ইতিহাসৰ মানুহ', h1sub:'পুষ্যবৰ্মাৰ পৰা তৰুণ গগৈলৈ চৰিত্ৰ-পত্ৰ', span:(e, n)=>`${e}টা যুগ, ${n} জন মানুহ`,
     lede:'অসমৰ ইতিহাসৰ মানুহবোৰৰ চৰিত্ৰ-পত্ৰ। এআই চিত্ৰ, ভিডিঅ’ আৰু কিতাপ বনাওঁতে ৰেফাৰেন্স হিচাপে ব্যৱহাৰ কৰক।',
     browse:'চৰিত্ৰবোৰ চাওক', seeScenes:'ঐতিহাসিক দৃশ্য চাওক',
@@ -330,7 +330,7 @@ function viewMap(q) {
   if (mapGeo === 'loading') return head + `<p class="count">…</p>`;
   if (mapGeo === 'fail') return head + `<div class="empty">${esc(t('mapFail'))}</div>`;
   const shown = pts.filter(p => !st.kind || (p.cat || 'Place') === st.kind);
-  const W = 1000, lat0 = 23.6, lat1 = 29.2, lon0 = 88.2, lon1 = 98.2, k = Math.cos(26.5 * Math.PI / 180);
+  const W = 1000, lat0 = 23.4, lat1 = 29.2, lon0 = 87.8, lon1 = 98.2, k = Math.cos(26.5 * Math.PI / 180);
   const H = Math.round(W * (lat1 - lat0) / ((lon1 - lon0) * k));
   const X = lon => ((lon - lon0) / (lon1 - lon0) * W).toFixed(1), Y = lat => ((lat1 - lat) / (lat1 - lat0) * H).toFixed(1);
   const ring = r => 'M' + r.map(([la, lo]) => X(lo) + ' ' + Y(la)).join('L') + 'Z';
@@ -338,12 +338,13 @@ function viewMap(q) {
   const riverPlace = { brahmaputra: 'brahmaputra', kapili: 'kopili', kolong: 'kolong', manas: 'manas', puthimari: 'barnadi', dikhou: 'dikhou', dihing: 'dihing', subansiri: 'subansiri', dibang: 'dibang', lohit: 'lohit', dhansiri: 'dhansiri', 'teesta-karatoya': 'karatoya' };
   const rivers = Object.entries(mapGeo.a.rivers).map(([id, r]) => { const d = `M${r.pts.map(([la, lo]) => X(lo) + ' ' + Y(la)).join('L')}`, path = `<path class="mrv ${id === 'brahmaputra' ? 'big' : ''}" d="${d}"><title>${esc(r.name)}</title></path>`;
     return placeById[riverPlace[id]] ? `<a href="${placeHref(riverPlace[id])}">${path}</a>` : path; }).join('');
-  const dots = shown.map(p => `<a href="${placeHref(p.id)}"><circle class="mdot" cx="${X(p.geo[1])}" cy="${Y(p.geo[0])}" r="6"><title>${esc(p.name)}${p.present ? ' (' + esc(p.present) + ')' : ''}</title></circle></a>`).join('');
-  const labels = shown.filter(p => ['Capital', 'City', 'Kingdom'].includes(p.cat)).map(p => `<text class="mlb" x="${+X(p.geo[1]) + 9}" y="${+Y(p.geo[0]) + 4}">${esc(p.name.replace(/ \(.*\)$/, ''))}</text>`).join('');
+  const inView = p => p.geo[0] >= lat0 && p.geo[0] <= lat1 && p.geo[1] >= lon0 && p.geo[1] <= lon1, off = shown.filter(p => !inView(p));
+  const dots = shown.filter(inView).map(p => `<a href="${placeHref(p.id)}"><circle class="mdot" cx="${X(p.geo[1])}" cy="${Y(p.geo[0])}" r="6"><title>${esc(p.name)}${p.present ? ' (' + esc(p.present) + ')' : ''}</title></circle></a>`).join('');
+  const labels = shown.filter(inView).filter(p => ['Capital', 'City', 'Kingdom'].includes(p.cat)).map(p => `<text class="mlb" x="${+X(p.geo[1]) + 9}" y="${+Y(p.geo[0]) + 4}">${esc(p.name.replace(/ \(.*\)$/, ''))}</text>`).join('');
   setTimeout(() => { const sel = $('mkind'); if (sel) sel.onchange = e => { st.kind = e.target.value; setQuery('/map', st); route(true); }; });
   return head + `<div class="filters"><select id="mkind" aria-label="${esc(t('mapKind'))}"><option value="">${esc(t('mapAll'))}</option>${kinds.map(v => `<option ${st.kind === v ? 'selected' : ''}>${esc(v)}</option>`).join('')}</select><span class="count">${esc(t('mapShown', shown.length))}</span></div>
     <figure class="mapfig"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t('map'))}"><path class="mind" d="${india}"/><path class="mas" d="${assam}"/>${rivers}${dots}${labels}</svg>
-    <figcaption>${esc(t('mapNote'))} <a href="data/maps/README.md">data/maps</a></figcaption></figure>`;
+    <figcaption>${esc(t('mapNote'))}${off.length ? ' ' + esc(t('mapOff', off.map(p => p.name).join(', '))) : ''} <a href="data/maps/README.md">data/maps</a></figcaption></figure>`;
 }
 
 /* ---------- licence and credits ---------- */

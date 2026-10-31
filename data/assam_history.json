@@ -24524,7 +24524,10 @@
    "present_name": "North Guwahati",
    "location": "Kamrup district, Assam (north bank of the Brahmaputra)",
    "summary": "The north-bank town identified with Kamarupanagara, the post-Pala capital that Sandhya later left.",
+   "notes": "Map point is the town, approximate.",
    "confidence": "medium",
+   "latitude": 26.19,
+   "longitude": 91.73,
    "sources": [
     "https://en.wikipedia.org/wiki/Pala_dynasty_(Kamarupa)"
    ]
@@ -24599,8 +24602,10 @@
    "present_name": "Near Chiruti, Murshidabad",
    "location": "Murshidabad district, West Bengal",
    "summary": "The capital of Shashanka, ruler of Gauda.",
-   "notes": "Standard identification; not re-checked in this session.",
-   "confidence": "medium"
+   "notes": "Standard identification; not re-checked in this session. Map point is the Rangamati mounds near Chiruti, about 10 km south-west of Berhampore (Wikipedia).",
+   "confidence": "medium",
+   "latitude": 24.0303,
+   "longitude": 88.1908
   },
   {
    "id": "davaka",
@@ -25587,6 +25592,8 @@
    "location": "Rangpur Division, Bangladesh",
    "summary": "Held by Dharmanarayan after the split of Kamata; not the Ahom Rangpur (Sivasagar).",
    "confidence": "high",
+   "latitude": 25.744,
+   "longitude": 89.275,
    "sources": [
     "https://en.wikipedia.org/wiki/Kamata_Kingdom"
    ]
@@ -25606,7 +25613,9 @@
    "location": "Malda district, West Bengal, on the Bangladesh border",
    "summary": "The capital of the Bengal Sultanate and earlier Gauda.",
    "notes": "Lakhnauti was the Sultanate's regional centre near Gaur.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 24.873,
+   "longitude": 88.133
   },
   {
    "id": "devkot",
@@ -25618,7 +25627,10 @@
    "present_name": "Devkot",
    "location": "Dakshin Dinajpur district, West Bengal",
    "summary": "The Bengal Sultanate's frontier base from which Bakhtiyar Khalji set out in 1206.",
+   "notes": "Map point is the village of Devkot near Gangarampur; the medieval site is uncertain.",
    "confidence": "medium",
+   "latitude": 25.414,
+   "longitude": 88.53,
    "sources": [
     "https://en.wikipedia.org/wiki/Bakhtiyar_Khalji%27s_Tibet_campaign"
    ]
@@ -25634,7 +25646,10 @@
    "present_name": "Sonargaon",
    "location": "Narayanganj district, Bangladesh",
    "summary": "The eastern Bengal capital from which Bahadur Shah raided Kamata in 1321-22.",
-   "confidence": "high"
+   "notes": "Map point is the Sonargaon upazila headquarters, not the ruins.",
+   "confidence": "high",
+   "latitude": 23.638,
+   "longitude": 90.599
   },
   {
    "id": "sylhet",
@@ -25648,7 +25663,9 @@
    "present_name": "Sylhet",
    "location": "Sylhet Division, Bangladesh",
    "summary": "A region held by rulers claiming Kamarupa's legacy.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 24.899,
+   "longitude": 91.869
   },
   {
    "id": "kanauj",
@@ -25662,7 +25679,9 @@
    "present_name": "Kannauj",
    "location": "Uttar Pradesh, India",
    "summary": "Harsha's capital, where the great assembly of c. 643 was held.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 27.051,
+   "longitude": 79.913
   },
   {
    "id": "thanesar",
@@ -25675,7 +25694,9 @@
    "present_name": "Thanesar",
    "location": "Kurukshetra district, Haryana, India",
    "summary": "The early seat of Harsha's family.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 29.975,
+   "longitude": 76.831
   },
   {
    "id": "nalanda",
@@ -25688,7 +25709,9 @@
    "present_name": "Nalanda",
    "location": "Bihar, India",
    "summary": "The Buddhist monastic university where Xuanzang studied.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 25.1357,
+   "longitude": 85.4438
   },
   {
    "id": "allahabad-pillar",
@@ -25701,7 +25724,10 @@
    "present_name": "Allahabad Pillar",
    "location": "Prayagraj, Uttar Pradesh, India",
    "summary": "Samudragupta's pillar inscription, the first written mention of Kamarupa.",
-   "confidence": "high"
+   "notes": "Map point is Prayagraj fort, where the pillar stands.",
+   "confidence": "high",
+   "latitude": 25.4284,
+   "longitude": 81.875
   },
   {
    "id": "aphsad",
@@ -25742,7 +25768,9 @@
    "present_name": "Delhi",
    "location": "Delhi, India",
    "summary": "The seat of the Sultanate and then the Mughal court.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 28.614,
+   "longitude": 77.209
   },
   {
    "id": "kamauli",
@@ -25755,8 +25783,10 @@
    "present_name": "Kamauli",
    "location": "Near Varanasi, Uttar Pradesh, India",
    "summary": "Findspot of Vaidyadeva's copper-plate grant.",
-   "notes": "Standard identification; not re-checked here.",
-   "confidence": "medium"
+   "notes": "Standard identification; not re-checked here. Map point is the Kamauli near Varanasi found on OpenStreetMap; not checked against the copperplate literature.",
+   "confidence": "medium",
+   "latitude": 25.351,
+   "longitude": 83.07
   },
   {
    "id": "ava",
@@ -25770,7 +25800,9 @@
    "present_name": "Inwa",
    "location": "Mandalay Region, Myanmar",
    "summary": "The Burmese capital area that sent armies into Assam in 1817-1826.",
-   "confidence": "high"
+   "confidence": "high",
+   "latitude": 21.858,
+   "longitude": 95.983
   },
   {
    "id": "yandabo",
@@ -25783,7 +25815,10 @@
    "present_name": "Yandabo",
    "location": "Magway Region, Myanmar",
    "summary": "Where the Treaty of Yandabo (1826) ended the First Anglo-Burmese War and Burmese rule in Assam.",
-   "confidence": "high"
+   "notes": "Map point from OpenStreetMap, which puts the village in the Myingyan area of Mandalay Region.",
+   "confidence": "high",
+   "latitude": 21.634,
+   "longitude": 95.36
   },
   {
    "id": "dikhowmukh",
@@ -26523,6 +26558,8 @@
    "location": "Sikkim and Nepal border",
    "summary": "The mountain named as the northern limit of Kamarupa in the traditional description.",
    "confidence": "high",
+   "latitude": 27.703,
+   "longitude": 88.147,
    "sources": [
     "https://en.wikipedia.org/wiki/Kamarupa"
    ]
@@ -26554,8 +26591,10 @@
    "present_name": "Ghoraghat",
    "location": "Rangpur-Dinajpur area, Bangladesh",
    "summary": "A river crossing on the Karatoya; one study gives the southern edge of Biswa Singha's kingdom here.",
-   "notes": "Location approximate.",
-   "confidence": "low"
+   "notes": "Location approximate. Map point is the modern town of Ghoraghat; the identification is low confidence.",
+   "confidence": "low",
+   "latitude": 25.239,
+   "longitude": 89.282
   },
   {
    "id": "koch-kingdom",

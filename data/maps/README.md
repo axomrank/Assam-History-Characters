@@ -12,7 +12,7 @@ Every coordinate is `[latitude, longitude]`.
 ## Spots
 
 The map spots are not a separate file. They are the `lat` and `lon` columns of the `place` rows in `data/assam_history.csv`
-(161 places; 86 have a point, from the AHOM map catalogue; its separate "Rangpur" spot is the same town as Sivasagar). Each point is an approximate catalogue reference point, not a surveyed
+(161 places; 103 have a point, from the AHOM map catalogue; its separate "Rangpur" spot is the same town as Sivasagar). Each point is an approximate catalogue reference point, not a surveyed
 location: it marks "about here" for a named place, region or river. `data/site.js` carries it as `geo: [lat, lon]` on each place.
 
 Not brought over: the AHOM map renderer (`map.js`) and the event routes (`map-stories.json`).
