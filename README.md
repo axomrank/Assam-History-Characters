@@ -126,4 +126,4 @@ For non-commercial use only. Images and text: CC BY-NC-ND 4.0 (`LICENSE-CONTENT.
 `python3 tools/build.py` also writes `c/<person-id>/index.html` (one small page per person with Open Graph tags for link previews,
 which sends visitors on to `#/c/<id>`), `sitemap.xml` and `robots.txt`, and stamps `sw.js` with a version. `manifest.webmanifest`
 and `sw.js` make the site installable and readable offline (the app, data and any images already viewed). `assets/og.jpg` is the
-home-page preview image. The `#/map` page draws the places that have `lat`/`lon` on the Assam outline from `data/maps/`.
+home-page preview image. The `#/map` page (shapes joined and cut with `assets/polygon-clipping.umd.min.js`, MIT) draws the places that have `lat`/`lon` on the Assam outline from `data/maps/`.

@@ -22,6 +22,7 @@ without the owner's written permission.
    - the colourised photograph used for scene MOD-06 (The Assam Accord), whose origin is not identified;
    - map shapes in data/maps/ (see data/maps/README.md: DataMeet CC BY-SA 2.5 / ODbL, Natural Earth public domain);
    - fonts loaded from Google Fonts (SIL Open Font License);
+   - assets/polygon-clipping.umd.min.js, the polygon-clipping library by Mike Fogel (MIT licence, https://github.com/mfogel/polygon-clipping), which keeps its own licence;
    - quotations and facts from the sources listed on each page.
    Illustrations are AI-generated interpretations, not photographs or evidence of how anyone looked.
 
