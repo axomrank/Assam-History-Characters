@@ -982,6 +982,7 @@
       {
        "id": "vijaya-vigrahastambha",
        "name": "Vijaya / Vigrahastambha",
+       "name_assamese": "বিজয় / বিগ্ৰহস্তম্ভ",
        "date_label": "Reign dates not given in the source",
        "sort_year": 676.1,
        "role": "Salastambha dynasty ruler",
@@ -1069,6 +1070,7 @@
       {
        "id": "balavarman-ii",
        "name": "Balavarman II",
+       "name_assamese": "দ্বিতীয় বলবৰ্মন",
        "date_label": "Reign dates not given in the source",
        "sort_year": 700.6,
        "role": "Salastambha dynasty ruler",
@@ -1112,6 +1114,7 @@
       {
        "id": "digleswaravarman",
        "name": "Digleswaravarman",
+       "name_assamese": "দিগলেশ্বৰবৰ্মা",
        "date_label": "Reign dates not given in the source",
        "sort_year": 712.8,
        "role": "Salastambha dynasty ruler",
@@ -1133,6 +1136,7 @@
       {
        "id": "salambha",
        "name": "Salambha",
+       "name_assamese": "শালম্ভ",
        "date_label": "Reign dates not given in the source",
        "sort_year": 718.9,
        "role": "Salastambha dynasty ruler",
@@ -1154,6 +1158,7 @@
       {
        "id": "harshadeva-alias-harshavarman",
        "name": "Harshadeva (alias Harshavarman)",
+       "name_assamese": "হৰ্ষদেৱ (হৰ্ষবৰ্মা)",
        "date_label": "725–745 CE",
        "start_year": 725,
        "end_year": 745,
@@ -1300,6 +1305,7 @@
       {
        "id": "vanamalavarmadeva",
        "name": "Vanamalavarmadeva",
+       "name_assamese": "বনমালবৰ্মদেৱ",
        "date_label": "832–855 CE",
        "start_year": 832,
        "end_year": 855,
@@ -1350,6 +1356,7 @@
       {
        "id": "jayamala-virabahu",
        "name": "Jayamala / Virabahu",
+       "name_assamese": "জয়মাল / বীৰবাহু",
        "date_label": "855–860 CE",
        "start_year": 855,
        "end_year": 860,
@@ -1374,6 +1381,7 @@
       {
        "id": "balavarman-iii",
        "name": "Balavarman III",
+       "name_assamese": "তৃতীয় বলবৰ্মন",
        "date_label": "860–880 CE",
        "start_year": 860,
        "end_year": 880,
@@ -2112,6 +2120,7 @@
       {
        "id": "xuanzang",
        "name": "Xuanzang",
+       "name_assamese": "হিউৱেন চাং (জুৱানজাং)",
        "date_label": "602–664 CE (visited 643)",
        "sort_year": 643,
        "role": "Chinese pilgrim and visitor",
@@ -2232,6 +2241,7 @@
       {
        "id": "kharabana",
        "name": "Kharabana",
+       "name_assamese": "খৰবন",
        "date_label": "12th century (no dates given)",
        "start_year": 1100,
        "end_year": 1120,
@@ -2259,6 +2269,7 @@
       {
        "id": "samudrapala",
        "name": "Samudrapala",
+       "name_assamese": "সমুদ্ৰপাল",
        "date_label": "c. 1100 (no dates given)",
        "start_year": 1100,
        "end_year": 1110,
@@ -2308,6 +2319,7 @@
       {
        "id": "timgyadeva",
        "name": "Timgyadeva",
+       "name_assamese": "তিমগ্যদেৱ",
        "date_label": "c. 1110–1126",
        "start_year": 1110,
        "end_year": 1126,
@@ -2382,6 +2394,7 @@
       {
        "id": "bhaskara-lunar",
        "name": "Bhaskara (lunar dynasty)",
+       "name_assamese": "ভাস্কৰ (চন্দ্ৰবংশ)",
        "date_label": "c. 1120–1200 (dynasty)",
        "start_year": 1120,
        "end_year": 1140,
@@ -2428,6 +2441,7 @@
       {
        "id": "gokuladeva",
        "name": "Gokuladeva",
+       "name_assamese": "গোকুলদেৱ",
        "date_label": "12th century (no dates given)",
        "start_year": 1120,
        "end_year": 1140,
@@ -2455,6 +2469,7 @@
       {
        "id": "vaidyadeva",
        "name": "Vaidyadeva",
+       "name_assamese": "বৈদ্যদেৱ",
        "date_label": "c. 1126–1140",
        "start_year": 1126,
        "end_year": 1140,
@@ -2554,6 +2569,7 @@
       {
        "id": "narayana-sylhet",
        "name": "Narayana (Sylhet)",
+       "name_assamese": "নাৰায়ণ (শ্ৰীহট্ট)",
        "date_label": "12th century (no dates given)",
        "start_year": 1140,
        "end_year": 1160,
@@ -2581,6 +2597,7 @@
       {
        "id": "rayarideva",
        "name": "Rayarideva",
+       "name_assamese": "ৰায়াৰিদেৱ",
        "date_label": "12th century",
        "start_year": 1140,
        "end_year": 1170,
@@ -2648,6 +2665,7 @@
       {
        "id": "kesavadeva",
        "name": "Kesavadeva",
+       "name_assamese": "কেশৱদেৱ",
        "date_label": "12th century (no dates given)",
        "start_year": 1160,
        "end_year": 1180,
@@ -2697,6 +2715,7 @@
       {
        "id": "udayakarna",
        "name": "Udayakarna",
+       "name_assamese": "উদয়কৰ্ণ",
        "date_label": "12th century (inscription 1185)",
        "start_year": 1170,
        "end_year": 1185,
@@ -2768,6 +2787,7 @@
       {
        "id": "vallabhadeva",
        "name": "Vallabhadeva",
+       "name_assamese": "বল্লভদেৱ",
        "date_label": "late 12th century",
        "start_year": 1185,
        "end_year": 1200,
@@ -2962,6 +2982,7 @@
       {
        "id": "ramapala",
        "name": "Ramapala (Pala Empire of Bengal)",
+       "name_assamese": "ৰামপাল",
        "date_label": "c. 1072–1126 (sources vary)",
        "start_year": 1100,
        "end_year": 1126,
@@ -3010,6 +3031,7 @@
       {
        "id": "kumarapala-bengal",
        "name": "Kumarapala (Pala king of Bengal)",
+       "name_assamese": "কুমাৰপাল",
        "date_label": "early 12th century",
        "start_year": 1126,
        "end_year": 1130,
@@ -3065,6 +3087,7 @@
       {
        "id": "sandhya",
        "name": "Sandhya (Kamateswar)",
+       "name_assamese": "সন্ধ্যা (কামতেশ্বৰ)",
        "date_label": "c. 1228–1260 (reconstructed)",
        "start_year": 1228,
        "end_year": 1260,
@@ -3257,6 +3280,7 @@
       {
        "id": "sindhu-rai",
        "name": "Sindhu Rai",
+       "name_assamese": "সিন্ধু ৰায়",
        "date_label": "c. 1260/65–1285 (reconstructed)",
        "start_year": 1260,
        "end_year": 1285,
@@ -3285,6 +3309,7 @@
       {
        "id": "rup-narayan",
        "name": "Rup Narayan",
+       "name_assamese": "ৰূপনাৰায়ণ",
        "date_label": "c. 1285–1300 (reconstructed)",
        "start_year": 1285,
        "end_year": 1300,
@@ -3313,6 +3338,7 @@
       {
        "id": "singhadhwaj",
        "name": "Singhadhwaj",
+       "name_assamese": "সিংহধ্বজ",
        "date_label": "c. 1300–1305 (reconstructed)",
        "start_year": 1300,
        "end_year": 1305,
@@ -3341,6 +3367,7 @@
       {
        "id": "pratapdhwaj",
        "name": "Pratapdhwaj",
+       "name_assamese": "প্ৰতাপধ্বজ",
        "date_label": "c. 1305–1325 (reconstructed)",
        "start_year": 1305,
        "end_year": 1325,
@@ -3415,6 +3442,7 @@
       {
        "id": "dharmanarayan",
        "name": "Dharmanarayan",
+       "name_assamese": "ধৰ্মনাৰায়ণ",
        "date_label": "c. 1325–1330 (reconstructed)",
        "start_year": 1325,
        "end_year": 1330,
@@ -3537,26 +3565,6 @@
          "places": [
           "kamata",
           "lower-assam"
-         ],
-         "main": true
-        },
-        {
-         "id": "AHOM-044",
-         "title": "Military Stalemate in the Kamata Campaign",
-         "date_label": "c. 1306–1307",
-         "sort_year": 1306,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "After prolonged fighting and sieges without either side securing a decisive victory, both monarchs recognize mutual exhaustion.",
-         "people": [
-          "durlabhnarayan",
-          "sukhaangphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-044.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-044.webp",
-         "status": "illustrated",
-         "places": [
-          "kamata"
          ],
          "main": true
         },
@@ -3688,6 +3696,7 @@
       {
        "id": "indranarayan",
        "name": "Indranarayan",
+       "name_assamese": "ইন্দ্ৰনাৰায়ণ",
        "date_label": "c. 1350–1365 (reconstructed)",
        "start_year": 1350,
        "end_year": 1365,
@@ -3794,6 +3803,7 @@
       {
        "id": "arimatta",
        "name": "Arimatta (Sasanka)",
+       "name_assamese": "অৰিমত্ত (শশাংক)",
        "date_label": "c. 1365–1385 (reconstructed)",
        "start_year": 1365,
        "end_year": 1385,
@@ -3869,6 +3879,7 @@
       {
        "id": "gajanka",
        "name": "Gajanka",
+       "name_assamese": "গজাংক",
        "date_label": "late 14th–15th century (undated)",
        "start_year": 1385,
        "end_year": 1400,
@@ -3916,6 +3927,7 @@
       {
        "id": "sukranka",
        "name": "Sukranka",
+       "name_assamese": "শুক্ৰাংক",
        "date_label": "15th century (undated)",
        "start_year": 1400,
        "end_year": 1420,
@@ -3963,6 +3975,7 @@
       {
        "id": "mriganka",
        "name": "Mriganka (Jungal Balahu)",
+       "name_assamese": "মৃগাংক (জুংগাল বলহু)",
        "date_label": "c. 1385–1440 (undated successor)",
        "start_year": 1420,
        "end_year": 1440,
@@ -4011,6 +4024,7 @@
       {
        "id": "niladhwaj",
        "name": "Niladhwaj",
+       "name_assamese": "নীলধ্বজ",
        "date_label": "1440–1460",
        "start_year": 1440,
        "end_year": 1460,
@@ -4086,6 +4100,7 @@
       {
        "id": "chakradhwaj-khen",
        "name": "Chakradhwaj (Khen)",
+       "name_assamese": "চক্ৰধ্বজ (খেন)",
        "date_label": "1460–1480",
        "start_year": 1460,
        "end_year": 1480,
@@ -4161,6 +4176,7 @@
       {
        "id": "nilambar",
        "name": "Nilambar",
+       "name_assamese": "নীলাম্বৰ",
        "date_label": "1480–1498",
        "start_year": 1480,
        "end_year": 1498,
@@ -4311,6 +4327,7 @@
       {
        "id": "sachipatra",
        "name": "Sachipatra",
+       "name_assamese": "শচীপাত্ৰ",
        "date_label": "1498 (traditional)",
        "start_year": 1498,
        "end_year": 1498,
@@ -4396,6 +4413,7 @@
       {
        "id": "candivara",
        "name": "Candivara (Chandibar)",
+       "name_assamese": "চণ্ডীৱৰ (চণ্ডীবৰ)",
        "date_label": "14th century",
        "start_year": 1350,
        "end_year": 1400,
@@ -4451,6 +4469,7 @@
       {
        "id": "rajadhara",
        "name": "Rajadhara",
+       "name_assamese": "ৰাজাধৰ",
        "date_label": "14th–15th century",
        "start_year": 1390,
        "end_year": 1430,
@@ -4477,6 +4496,7 @@
       {
        "id": "gandharva-raya",
        "name": "Gandharva Raya",
+       "name_assamese": "গন্ধৰ্ব ৰায়",
        "date_label": "15th century (ancestor of Harup Narayan)",
        "start_year": 1400,
        "end_year": 1450,
@@ -4503,6 +4523,7 @@
       {
        "id": "harup-narayan",
        "name": "Harup Narayan",
+       "name_assamese": "হৰূপনাৰায়ণ",
        "date_label": "c. 1500–1515",
        "start_year": 1498,
        "end_year": 1515,
@@ -4584,6 +4605,7 @@
       {
        "id": "bakhtiyar-khalji",
        "name": "Ikhtiyar al-Din Muhammad bin Bakhtiyar Khalji",
+       "name_assamese": "ইখতিয়াৰউদ্দিন মুহাম্মদ বখতিয়াৰ খলজী",
        "date_label": "d. 1206",
        "start_year": 1203,
        "end_year": 1206,
@@ -4683,6 +4705,7 @@
       {
        "id": "ghiyasuddin-iwaz-khalji",
        "name": "Ghiyasuddin Iwaz Khalji",
+       "name_assamese": "গিয়াছউদ্দিন ইৱাজ খলজী",
        "date_label": "1226–1228",
        "start_year": 1226,
        "end_year": 1228,
@@ -4756,6 +4779,7 @@
       {
        "id": "nasiruddin-mahmud",
        "name": "Nasiruddin Mahmud",
+       "name_assamese": "নাছিৰউদ্দিন মাহমুদ",
        "date_label": "1228–1229",
        "start_year": 1228,
        "end_year": 1229,
@@ -4831,6 +4855,7 @@
       {
        "id": "ikhtiyaruddin-yuzbak",
        "name": "Malik Ikhtiyaruddin Yuzbak Tughril Khan",
+       "name_assamese": "মালিক ইখতিয়াৰউদ্দিন য়ুজবক তুঘ্ৰিল খান",
        "date_label": "d. 1257",
        "start_year": 1257,
        "end_year": 1257,
@@ -4930,6 +4955,7 @@
       {
        "id": "ghiyasuddin-bahadur-shah",
        "name": "Ghiyasuddin Bahadur Shah",
+       "name_assamese": "গিয়াছউদ্দিন বাহাদুৰ শ্বাহ",
        "date_label": "raid 1321–1322; d. 1327–28",
        "start_year": 1321,
        "end_year": 1322,
@@ -5002,6 +5028,7 @@
       {
        "id": "shamsuddin-ilyas-shah",
        "name": "Shamsuddin Ilyas Shah",
+       "name_assamese": "শ্বামছউদ্দিন ইলিয়াছ শ্বাহ",
        "date_label": "d. c. November 1357",
        "start_year": 1356,
        "end_year": 1357,
@@ -5076,6 +5103,7 @@
       {
        "id": "sikandar-shah-bengal",
        "name": "Sikandar Shah of Bengal",
+       "name_assamese": "বংগৰ ছিকন্দৰ শ্বাহ",
        "date_label": "expeditions 1357–1362",
        "start_year": 1357,
        "end_year": 1362,
@@ -5155,6 +5183,7 @@
       {
        "id": "ghiyasuddin-azam-shah",
        "name": "Ghiyasuddin Azam Shah",
+       "name_assamese": "গিয়াছউদ্দিন আজম শ্বাহ",
        "date_label": "c. 1396–1400 (reign 1389–1410)",
        "start_year": 1396,
        "end_year": 1400,
@@ -5227,6 +5256,7 @@
       {
        "id": "shamsuddin-muzaffar-shah",
        "name": "Shamsuddin Muzaffar Shah",
+       "name_assamese": "শ্বামছউদ্দিন মুজাফ্ফৰ শ্বাহ",
        "date_label": "1492–1493",
        "start_year": 1492,
        "end_year": 1493,
@@ -5295,6 +5325,7 @@
       {
        "id": "alauddin-husain-shah",
        "name": "Alauddin Husain Shah",
+       "name_assamese": "আলাউদ্দিন হুছেইন শ্বাহ",
        "date_label": "r. 1493–1519",
        "start_year": 1493,
        "end_year": 1519,
@@ -5426,6 +5457,7 @@
       {
        "id": "shah-ismail-ghazi",
        "name": "Shah Ismail Ghazi",
+       "name_assamese": "শ্বাহ ইছমাইল গাজী",
        "date_label": "1498–1499",
        "start_year": 1498,
        "end_year": 1499,
@@ -5503,6 +5535,7 @@
       {
        "id": "danyal",
        "name": "Shahzada Danyal",
+       "name_assamese": "শ্বাহজাদা দানিয়াল",
        "date_label": "c. 1502–c. 1510",
        "start_year": 1502,
        "end_year": 1510,
@@ -5608,6 +5641,7 @@
       {
        "id": "ali-mech",
        "name": "Ali Mech",
+       "name_assamese": "আলি মেচ",
        "date_label": "fl. 1206",
        "start_year": 1206,
        "end_year": 1206,
@@ -5663,6 +5697,7 @@
       {
        "id": "hajo-koch-chief",
        "name": "Hajo (Koch chief)",
+       "name_assamese": "হাজো (কোচ সৰ্দাৰ)",
        "date_label": "15th century",
        "start_year": 1440,
        "end_year": 1480,
@@ -5694,6 +5729,7 @@
       {
        "id": "hariya-mandal",
        "name": "Hariya Mandal (Hari Das)",
+       "name_assamese": "হৰিয়া মণ্ডল (হৰি দাস)",
        "date_label": "late 15th century",
        "start_year": 1470,
        "end_year": 1500,
@@ -5993,6 +6029,7 @@
       {
        "id": "sisu-koch",
        "name": "Sisu (Sisya Singha)",
+       "name_assamese": "শিশু (শিশ্য সিংহ)",
        "date_label": "16th century",
        "start_year": 1515,
        "end_year": 1530,
@@ -6656,6 +6693,7 @@
       {
        "id": "gosain-kamal",
        "name": "Gosain Kamal (Kamal Narayan)",
+       "name_assamese": "গোঁসাই কমল (কমলনাৰায়ণ)",
        "date_label": "16th century",
        "start_year": 1540,
        "end_year": 1580,
@@ -6721,6 +6759,7 @@
       {
        "id": "raghudev",
        "name": "Raghudev",
+       "name_assamese": "ৰঘুদেৱ",
        "date_label": "1581–1603",
        "start_year": 1581,
        "end_year": 1603,
@@ -6875,6 +6914,7 @@
       {
        "id": "man-singha-koch",
        "name": "Man Singha (Koch Hajo prince)",
+       "name_assamese": "মান সিংহ (কোচহাজোৰ ৰাজকুমাৰ)",
        "date_label": "c. 1600",
        "start_year": 1600,
        "end_year": 1612,
@@ -6904,6 +6944,7 @@
       {
        "id": "parikshit-narayan",
        "name": "Parikshit Narayan",
+       "name_assamese": "পৰীক্ষিতনাৰায়ণ",
        "date_label": "1603–1613",
        "start_year": 1603,
        "end_year": 1613,
@@ -7010,6 +7051,7 @@
       {
        "id": "balinarayan",
        "name": "Balinarayan (Dharma Narayan)",
+       "name_assamese": "বলীনাৰায়ণ (ধৰ্মনাৰায়ণ)",
        "date_label": "1616–1638",
        "start_year": 1616,
        "end_year": 1638,
@@ -7060,6 +7102,7 @@
       {
        "id": "nandi-chutia",
        "name": "Nandi (Nandisvara)",
+       "name_assamese": "নন্দী (নন্দীশ্বৰ)",
        "date_label": "second half of the 14th century",
        "start_year": 1350,
        "end_year": 1380,
@@ -7131,6 +7174,7 @@
       {
        "id": "satyanarayana-chutia",
        "name": "Satyanarayana (Ratnanarayana)",
+       "name_assamese": "সত্যনাৰায়ণ (ৰত্নানাৰায়ণ)",
        "date_label": "late 14th century (grant of 1392)",
        "start_year": 1380,
        "end_year": 1400,
@@ -7248,6 +7292,7 @@
       {
        "id": "lakshminarayana-chutia",
        "name": "Lakshminarayana (Dharmanarayana)",
+       "name_assamese": "লক্ষ্মীনাৰায়ণ (ধৰ্মনাৰায়ণ)",
        "date_label": "early 15th century",
        "start_year": 1400,
        "end_year": 1428,
@@ -7322,6 +7367,7 @@
       {
        "id": "durlabhnarayana-chutia",
        "name": "Durlabhnarayana (Chutia)",
+       "name_assamese": "দুৰ্লভনাৰায়ণ (চুতীয়া)",
        "date_label": "early 15th century (grant of 1428)",
        "start_year": 1428,
        "end_year": 1442,
@@ -7374,6 +7420,7 @@
       {
        "id": "muktadharmanarayana",
        "name": "Muktadharmanarayana",
+       "name_assamese": "মুক্তধৰ্মনাৰায়ণ",
        "date_label": "mid-15th century",
        "start_year": 1442,
        "end_year": 1460,
@@ -7427,6 +7474,7 @@
       {
        "id": "pratyaksanarayana",
        "name": "Pratyaksanarayana (Yasanarayana)",
+       "name_assamese": "প্ৰত্যক্ষনাৰায়ণ (যশনাৰায়ণ)",
        "date_label": "mid-15th century",
        "start_year": 1445,
        "end_year": 1470,
@@ -7454,6 +7502,7 @@
       {
        "id": "yasamanarayana",
        "name": "Yasamanarayana",
+       "name_assamese": "যশমনাৰায়ণ",
        "date_label": "late 15th century",
        "start_year": 1470,
        "end_year": 1490,
@@ -7481,6 +7530,7 @@
       {
        "id": "purandarnarayana",
        "name": "Purandarnarayana",
+       "name_assamese": "পুৰন্দৰনাৰায়ণ",
        "date_label": "late 15th century",
        "start_year": 1490,
        "end_year": 1510,
@@ -7508,6 +7558,7 @@
       {
        "id": "dhirnarayan",
        "name": "Dhirnarayan",
+       "name_assamese": "ধীৰনাৰায়ণ",
        "date_label": "to 1523–24",
        "start_year": 1510,
        "end_year": 1523,
@@ -7625,6 +7676,7 @@
       {
        "id": "kasitora",
        "name": "Kasitora",
+       "name_assamese": "কাছিতোৰা",
        "date_label": "1522–1523",
        "start_year": 1522,
        "end_year": 1523,
@@ -7652,6 +7704,7 @@
       {
        "id": "sadhaknarayan",
        "name": "Sadhaknarayan",
+       "name_assamese": "সাধকনাৰায়ণ",
        "date_label": "1523–1524",
        "start_year": 1523,
        "end_year": 1524,
@@ -7708,6 +7761,7 @@
       {
        "id": "bhopal-kachari",
        "name": "Bhopal (Kachari, traditional list)",
+       "name_assamese": "ভোপাল (কছাৰী, পৰম্পৰাগত তালিকা)",
        "date_label": "1286–1316 (traditional list)",
        "start_year": 1286,
        "end_year": 1316,
@@ -7732,6 +7786,7 @@
       {
        "id": "purandar-kachari",
        "name": "Purandar (Kachari, traditional list)",
+       "name_assamese": "পুৰন্দৰ (কছাৰী, পৰম্পৰাগত তালিকা)",
        "date_label": "1316–1336 (traditional list)",
        "start_year": 1316,
        "end_year": 1336,
@@ -7756,6 +7811,7 @@
       {
        "id": "mahamanikya",
        "name": "Mahamanikya (Barahi king)",
+       "name_assamese": "মহামাণিক্য (বৰাহী ৰজা)",
        "date_label": "c. 1330–1370",
        "start_year": 1330,
        "end_year": 1370,
@@ -7877,6 +7933,7 @@
       {
        "id": "bicharpatiha",
        "name": "Bicharpatiha (Prakash, traditional list)",
+       "name_assamese": "বিচাৰপতিহা (প্ৰকাশ, পৰম্পৰাগত তালিকা)",
        "date_label": "1336–1386 (traditional list)",
        "start_year": 1336,
        "end_year": 1386,
@@ -7901,6 +7958,7 @@
       {
        "id": "khorapha",
        "name": "Khorapha",
+       "name_assamese": "খোৰাফা",
        "date_label": "c. 1520–1526",
        "start_year": 1520,
        "end_year": 1526,
@@ -7954,6 +8012,7 @@
       {
        "id": "khunkhara",
        "name": "Khunkhara",
+       "name_assamese": "খুনখৰা",
        "date_label": "1526–1531",
        "start_year": 1526,
        "end_year": 1531,
@@ -7982,6 +8041,7 @@
       {
        "id": "detsung",
        "name": "Detsung (Dersung)",
+       "name_assamese": "দেতছুং (দেৰছুং)",
        "date_label": "1531–1536",
        "start_year": 1531,
        "end_year": 1536,
@@ -8010,6 +8070,7 @@
       {
        "id": "yasho-narayan",
        "name": "Yasho Narayan (Satrudaman)",
+       "name_assamese": "যশোনাৰায়ণ (শত্ৰুদমন)",
        "date_label": "c. 1583–1601",
        "start_year": 1583,
        "end_year": 1601,
@@ -8061,6 +8122,7 @@
       {
        "id": "tamradhwaj",
        "name": "Tamradhwaj Narayan",
+       "name_assamese": "তাম্ৰধ্বজ নাৰায়ণ",
        "date_label": "1706–1708",
        "start_year": 1706,
        "end_year": 1708,
@@ -8110,6 +8172,7 @@
       {
        "id": "krishnachandra",
        "name": "Krishnachandra Narayan",
+       "name_assamese": "কৃষ্ণচন্দ্ৰ নাৰায়ণ",
        "date_label": "1790–1813",
        "start_year": 1790,
        "end_year": 1813,
@@ -8138,6 +8201,7 @@
       {
        "id": "govindachandra",
        "name": "Govindachandra Narayan",
+       "name_assamese": "গোবিন্দচন্দ্ৰ নাৰায়ণ",
        "date_label": "1814–1830",
        "start_year": 1814,
        "end_year": 1830,
@@ -8223,6 +8287,7 @@
       {
        "id": "jasa-manik",
        "name": "Jasa Manik",
+       "name_assamese": "জস মাণিক",
        "date_label": "1612–1625",
        "start_year": 1612,
        "end_year": 1625,
@@ -8251,6 +8316,7 @@
       {
        "id": "ram-singh-jaintia",
        "name": "Ram Singh I (Jaintia)",
+       "name_assamese": "প্ৰথম ৰাম সিংহ (জয়ন্তীয়া)",
        "date_label": "1694–1708",
        "start_year": 1694,
        "end_year": 1708,
@@ -8299,6 +8365,7 @@
       {
        "id": "bhagyachandra",
        "name": "Bhagyachandra (Jai Singh)",
+       "name_assamese": "ভাগ্যচন্দ্ৰ (জয় সিংহ)",
        "date_label": "1748–1798",
        "start_year": 1759,
        "end_year": 1798,
@@ -8393,6 +8460,7 @@
       {
        "id": "ram-singh-ii-jaintia",
        "name": "Ram Singh II (Jaintia)",
+       "name_assamese": "দ্বিতীয় ৰাম সিংহ (জয়ন্তীয়া)",
        "date_label": "1790–1832",
        "start_year": 1790,
        "end_year": 1832,
@@ -8420,6 +8488,7 @@
       {
        "id": "gambhir-singha",
        "name": "Gambhir Singha",
+       "name_assamese": "গম্ভীৰ সিংহ",
        "date_label": "1825",
        "start_year": 1825,
        "end_year": 1825,
@@ -8593,27 +8662,6 @@
        ],
        "scenes": [
         {
-         "id": "AHOM-001",
-         "title": "Sukaphaa Departs Mong Mao",
-         "date_label": "1215–1228",
-         "sort_year": 1215,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Prince Sukaphaa leaves his ancestral kingdom of Mong Mao following a succession dispute, leading 9,000 followers, noblemen, priests (Deodhais), horses, and two royal war elephants across Upper Burma towards Assam.",
-         "people": [
-          "sukaphaa",
-          "thaomung-borgohain",
-          "thaomung-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-001.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-001.webp",
-         "status": "illustrated",
-         "places": [
-          "mong-mao"
-         ],
-         "main": true
-        },
-        {
          "id": "AHOM-002",
          "title": "Sukaphaa Departs Mong Mao",
          "date_label": "1215–1228",
@@ -8635,48 +8683,6 @@
          "main": true
         },
         {
-         "id": "AHOM-003",
-         "title": "Sukaphaa Departs Mong Mao",
-         "date_label": "1215–1228",
-         "sort_year": 1215,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Prince Sukaphaa leaves his ancestral kingdom of Mong Mao following a succession dispute, leading 9,000 followers, noblemen, priests (Deodhais), horses, and two royal war elephants across Upper Burma towards Assam.",
-         "people": [
-          "sukaphaa",
-          "thaomung-borgohain",
-          "thaomung-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-003.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-003.webp",
-         "status": "illustrated",
-         "places": [
-          "mong-mao"
-         ],
-         "main": true
-        },
-        {
-         "id": "AHOM-004",
-         "title": "Sukaphaa Departs Mong Mao",
-         "date_label": "1215–1228",
-         "sort_year": 1215,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Prince Sukaphaa leaves his ancestral kingdom of Mong Mao following a succession dispute, leading 9,000 followers, noblemen, priests (Deodhais), horses, and two royal war elephants across Upper Burma towards Assam.",
-         "people": [
-          "sukaphaa",
-          "thaomung-borgohain",
-          "thaomung-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-004.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-004.webp",
-         "status": "illustrated",
-         "places": [
-          "mong-mao"
-         ],
-         "main": true
-        },
-        {
          "id": "AHOM-006",
          "title": "Crossing the Patkai Hills",
          "date_label": "1228",
@@ -8689,48 +8695,6 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-006.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-006.webp",
-         "status": "illustrated",
-         "places": [
-          "patkai",
-          "pangsau-pass",
-          "khamjang"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-007",
-         "title": "Crossing the Patkai Hills",
-         "date_label": "1228",
-         "sort_year": 1228,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Sukaphaa and his vanguard conquer the steep, dense subtropical mountain rainforests of the Patkai Range (Pangsau Pass), outmaneuvering hostile hill tribes and arriving at Khamjang on the border of Assam.",
-         "people": [
-          "sukaphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-007.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-007.webp",
-         "status": "illustrated",
-         "places": [
-          "patkai",
-          "pangsau-pass",
-          "khamjang"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-008",
-         "title": "Crossing the Patkai Hills",
-         "date_label": "1228",
-         "sort_year": 1228,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Sukaphaa and his vanguard conquer the steep, dense subtropical mountain rainforests of the Patkai Range (Pangsau Pass), outmaneuvering hostile hill tribes and arriving at Khamjang on the border of Assam.",
-         "people": [
-          "sukaphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-008.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-008.webp",
          "status": "illustrated",
          "places": [
           "patkai",
@@ -9211,22 +9175,6 @@
          "main": true
         },
         {
-         "id": "AHOM-034",
-         "title": "The Fierce Battle of the Naga Hills",
-         "date_label": "c. 1278",
-         "sort_year": 1278,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Ahom forces fight intense uphill engagements against fortified Naga hill positions, defeating hostile warriors in dense jungle terrain.",
-         "people": [
-          "suteuphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-034.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-034.webp",
-         "status": "illustrated",
-         "main": false
-        },
-        {
          "id": "AHOM-035",
          "title": "The Fierce Battle of the Naga Hills",
          "date_label": "c. 1278",
@@ -9440,26 +9388,6 @@
          "main": false
         },
         {
-         "id": "AHOM-044",
-         "title": "Military Stalemate in the Kamata Campaign",
-         "date_label": "c. 1306–1307",
-         "sort_year": 1306,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "After prolonged fighting and sieges without either side securing a decisive victory, both monarchs recognize mutual exhaustion.",
-         "people": [
-          "durlabhnarayan",
-          "sukhaangphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-044.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-044.webp",
-         "status": "illustrated",
-         "places": [
-          "kamata"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-045",
          "title": "Military Stalemate in the Kamata Campaign",
          "date_label": "c. 1306–1307",
@@ -9537,25 +9465,6 @@
          ],
          "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-042.webp",
          "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-042.webp",
-         "status": "illustrated",
-         "places": [
-          "kamata",
-          "lower-assam"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-043",
-         "title": "Frontier Battle with Kamata Forces",
-         "date_label": "c. 1305",
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "A pitched riverine engagement between Ahom war flotillas and Kamata defensive troops along the Lower Assam river passes.",
-         "people": [
-          "sukhaangphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-043.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-043.webp",
          "status": "illustrated",
          "places": [
           "kamata",
@@ -10211,25 +10120,6 @@
          "main": true
         },
         {
-         "id": "AHOM-069",
-         "title": "Harmonious Synthesis of Tai and Hindu Vedic Rituals",
-         "date_label": "c. 1400",
-         "sort_year": 1400,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Court ceremonies conduct Vedic homa rituals alongside traditional Tai worship of Somdeo and Me-Dam-Me-Phi ancestor rites.",
-         "people": [
-          "sudangphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-069.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-069.webp",
-         "status": "illustrated",
-         "places": [
-          "guwahati"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-070",
          "title": "Harmonious Synthesis of Tai and Hindu Vedic Rituals",
          "date_label": "c. 1400",
@@ -10723,25 +10613,6 @@
          "status": "illustrated",
          "places": [
           "charagua"
-         ],
-         "main": true
-        },
-        {
-         "id": "AHOM-087",
-         "title": "Assassination of King Suhenphaa",
-         "date_label": "1493",
-         "sort_year": 1493,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Turung palace laborers conceal weapons and spear King Suhenphaa to death inside the palace under cover of darkness.",
-         "people": [
-          "suhenphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-087.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-087.webp",
-         "status": "illustrated",
-         "sources": [
-          "https://en.wikipedia.org/wiki/Ahom_dynasty"
          ],
          "main": true
         },
@@ -11266,6 +11137,22 @@
          "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-104.webp",
          "status": "illustrated",
          "main": false
+        },
+        {
+         "id": "AHOM-105",
+         "title": "The Swarganarayan Invests the Royal Commander",
+         "date_label": "c. 1532",
+         "era": "Imperial Expansion & Early Invasions (1497–1603)",
+         "collection": "AHOM chronology",
+         "summary": "The monarch presents the consecrated Hengdang (royal curved sword) and battle garments to the appointed general.",
+         "people": [
+          "suhungmung",
+          "konseng"
+         ],
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-105.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-105.webp",
+         "status": "illustrated",
+         "main": false
         }
        ]
       },
@@ -11456,25 +11343,6 @@
        ],
        "scenes": [
         {
-         "id": "AHOM-111",
-         "title": "Royal Procession of King Sukhaamphaa",
-         "date_label": "c. 1555",
-         "sort_year": 1555,
-         "era": "Imperial Expansion & Early Invasions (1497–1603)",
-         "collection": "AHOM chronology",
-         "summary": "Magnificent procession of Sukhaamphaa riding atop the royal tusker through Garhgaon with gold-embroidered silk standards.",
-         "people": [
-          "sukhaamphaa"
-         ],
-         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-111.webp",
-         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-111.webp",
-         "status": "illustrated",
-         "places": [
-          "garhgaon"
-         ],
-         "main": true
-        },
-        {
          "id": "AHOM-112",
          "title": "Royal Procession of King Sukhaamphaa",
          "date_label": "c. 1555",
@@ -11603,25 +11471,6 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-116.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-116.webp",
-         "status": "illustrated",
-         "places": [
-          "garhgaon"
-         ],
-         "main": true
-        },
-        {
-         "id": "AHOM-117",
-         "title": "Accession of Susenghphaa (Pratap Singha)",
-         "date_label": "1603",
-         "sort_year": 1603,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Pratap Singha ascends the throne at Garhgaon, inaugurating decades of revolutionary governance and resistance against the Mughal Empire.",
-         "people": [
-          "pratap-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-117.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-117.webp",
          "status": "illustrated",
          "places": [
           "garhgaon"
@@ -11809,36 +11658,6 @@
          "places": [
           "barnadi"
          ],
-         "main": false
-        },
-        {
-         "id": "AHOM-105",
-         "title": "The Swarganarayan Invests the Royal Commander",
-         "date_label": "c. 1532",
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "The monarch presents the consecrated Hengdang (royal curved sword) and battle garments to the appointed general.",
-         "people": [
-          "pratap-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-105.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-105.webp",
-         "status": "illustrated",
-         "main": false
-        },
-        {
-         "id": "AHOM-106",
-         "title": "Ahom Commander Kneels in Fealty Before the King",
-         "date_label": "c. 1532",
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "A royal commander kneels before the Ahom throne pledging absolute victory or martyrdom for the homeland.",
-         "people": [
-          "pratap-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-106.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-106.webp",
-         "status": "illustrated",
          "main": false
         }
        ]
@@ -12071,26 +11890,6 @@
          "main": true
         },
         {
-         "id": "AHOM-128",
-         "title": "Royal Initiation into Ekasarana Dharma",
-         "date_label": "c. 1654–1663",
-         "sort_year": 1654,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Jayadhwaj takes spiritual initiation from Niranjan Bapu of Auniati Satra, formally adopting Mahapuruxiya Ekasarana Dharma as royal faith.",
-         "people": [
-          "jayadhwaj-singha",
-          "niranjan-deva"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-128.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-128.webp",
-         "status": "illustrated",
-         "places": [
-          "auniati"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-129",
          "title": "Royal Initiation into Ekasarana Dharma",
          "date_label": "c. 1654–1663",
@@ -12279,26 +12078,6 @@
          "main": false
         },
         {
-         "id": "AHOM-138",
-         "title": "Departure of Princess Ramani Gabharu to Delhi",
-         "date_label": "1663",
-         "sort_year": 1663,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Six-year-old Princess Ramani Gabharu (daughter of Jayadhwaj) is tearfully handed over as part of the treaty to be sent to Delhi, where she later marries Prince Azam Shah as Rahmat Banu Begum.",
-         "people": [
-          "jayadhwaj-singha",
-          "ramani-gabharu"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-138.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-138.webp",
-         "status": "illustrated",
-         "places": [
-          "delhi"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-139",
          "title": "King Jayadhwaj Singha's Vow of Liberation",
          "date_label": "1663",
@@ -12446,27 +12225,6 @@
          "main": false
         },
         {
-         "id": "AHOM-145",
-         "title": "Lachit Borphukan Liberates Guwahati",
-         "date_label": "November 1667",
-         "sort_year": 1667,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Ahom forces execute a coordinated amphibious night assault, breaching the Mughal ramparts and driving imperial troops out of Guwahati.",
-         "people": [
-          "chakradhwaj-singha",
-          "lachit-borphukan",
-          "syed-firoz-khan"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-145.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-145.webp",
-         "status": "illustrated",
-         "places": [
-          "guwahati"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-146",
          "title": "Lachit Borphukan Liberates Guwahati",
          "date_label": "November 1667",
@@ -12550,28 +12308,6 @@
           "alaboi"
          ],
          "main": false
-        },
-        {
-         "id": "AHOM-150",
-         "title": "Total Military Reorganization After Alaboi",
-         "date_label": "1669–1670",
-         "sort_year": 1669,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Chakradhwaj and Lachit regroup, constructing massive defensive mud ramparts (Gars) around Saraighat and converting strategy to pure riverine warfare.",
-         "people": [
-          "atan-burhagohain",
-          "chakradhwaj-singha",
-          "lachit-borphukan"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-150.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-150.webp",
-         "status": "illustrated",
-         "places": [
-          "saraighat",
-          "alaboi"
-         ],
-         "main": false
         }
        ]
       },
@@ -12626,43 +12362,6 @@
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-151.webp",
          "status": "illustrated",
          "main": true
-        },
-        {
-         "id": "AHOM-152",
-         "title": "War Council of Udayaditya Singha and Lachit Borphukan",
-         "date_label": "1670",
-         "sort_year": 1670,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Upon succeeding Chakradhwaj, Udayaditya reaffirms complete faith in Lachit Borphukan, coordinating logistics for the impending Mughal clash.",
-         "people": [
-          "lachit-borphukan",
-          "udayaditya-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-152.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-152.webp",
-         "status": "illustrated",
-         "main": true
-        },
-        {
-         "id": "AHOM-153",
-         "title": "Fortification of Saraighat and Execution of the Negligent Uncle",
-         "date_label": "1671",
-         "sort_year": 1671,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Lachit oversees construction of the Saraighat earthen rampart overnight; finding his maternal uncle negligent, he beheads him uttering: 'My uncle is not greater than my country!'",
-         "people": [
-          "lachit-borphukan",
-          "udayaditya-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-153.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-153.webp",
-         "status": "illustrated",
-         "places": [
-          "saraighat"
-         ],
-         "main": false
         },
         {
          "id": "AHOM-154",
@@ -12725,29 +12424,6 @@
          "main": false
         },
         {
-         "id": "AHOM-158",
-         "title": "The Epic Naval Battle of Saraighat",
-         "date_label": "March 1671",
-         "sort_year": 1671,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Ahom fleet traps Ram Singh's Mughal armada at the narrowest gorge of the Brahmaputra at Saraighat; Mughal naval force is completely shattered in a historic tactical masterpiece.",
-         "people": [
-          "lachit-borphukan",
-          "munawar-khan",
-          "ram-singh-i",
-          "udayaditya-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-158.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-158.webp",
-         "status": "illustrated",
-         "places": [
-          "brahmaputra",
-          "saraighat"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-159",
          "title": "The Expedition Against the Daflas",
          "date_label": "1671–1672",
@@ -12777,26 +12453,6 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-160.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-160.webp",
-         "status": "illustrated",
-         "places": [
-          "saraighat"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-161",
-         "title": "Portrait of Lachit Borphukan",
-         "date_label": "1671",
-         "sort_year": 1671,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Regal portrait of the legendary Ahom generalissimo Lachit Borphukan, victor of the epic Battle of Saraighat.",
-         "people": [
-          "lachit-borphukan",
-          "udayaditya-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-161.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-161.webp",
          "status": "illustrated",
          "places": [
           "saraighat"
@@ -12890,23 +12546,6 @@
         }
        ],
        "scenes": [
-        {
-         "id": "AHOM-162",
-         "title": "Rise of Debera Borbarua's Palace Reign of Terror",
-         "date_label": "1672–1675",
-         "sort_year": 1672,
-         "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Debera Borbarua accumulates absolute despotic control, executing rival ministers, princes, and courtiers with impunity.",
-         "people": [
-          "debera-borbarua",
-          "ramdhwaj-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-162.webp",
-         "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-162.webp",
-         "status": "illustrated",
-         "main": false
-        },
         {
          "id": "AHOM-163",
          "title": "Rise of Debera Borbarua's Palace Reign of Terror",
@@ -13646,22 +13285,6 @@
        ],
        "scenes": [
         {
-         "id": "AHOM-181",
-         "title": "Coronation of Rudra Singha (Sukhrungphaa)",
-         "date_label": "1696",
-         "sort_year": 1696,
-         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
-         "collection": "AHOM chronology",
-         "summary": "Son of Joymoti and Gadadhar Singha ascends the throne; initiates the zenith of Ahom political grandeur, architecture, and international diplomacy.",
-         "people": [
-          "rudra-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-181.webp",
-         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-181.webp",
-         "status": "illustrated",
-         "main": true
-        },
-        {
          "id": "AHOM-182",
          "title": "Coronation of Rudra Singha (Sukhrungphaa)",
          "date_label": "1696",
@@ -13691,28 +13314,6 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-183.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-183.webp",
-         "status": "illustrated",
-         "places": [
-          "namdang",
-          "sivasagar",
-          "joysagar"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-184",
-         "title": "Founding and Construction of Capital City Rangpur and Joysagar",
-         "date_label": "1698–1705",
-         "sort_year": 1698,
-         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
-         "collection": "AHOM chronology",
-         "summary": "Constructs the glorious capital Rangpur ('City of Joy'), excavates the massive Joysagar tank in memory of mother Joymoti, and builds Namdang stone bridge.",
-         "people": [
-          "ghanashyam-khanikar",
-          "rudra-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-184.webp",
-         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-184.webp",
          "status": "illustrated",
          "places": [
           "namdang",
@@ -13764,25 +13365,6 @@
          "main": true
         },
         {
-         "id": "AHOM-186",
-         "title": "King Rudra Singha Inaugurates Royal Festivities at Rang Ghar",
-         "date_label": "c. 1705",
-         "sort_year": 1705,
-         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
-         "collection": "AHOM chronology",
-         "summary": "Rudra Singha presides over Rongali Bihu festivities, buffalo fights, elephant encounters, and folk dances from the royal pavilion at Rang Ghar.",
-         "people": [
-          "rudra-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-186.webp",
-         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-186.webp",
-         "status": "illustrated",
-         "places": [
-          "rang-ghar"
-         ],
-         "main": true
-        },
-        {
          "id": "AHOM-188",
          "title": "Subjugation and Vassalage of the Kachari and Jaintia Rulers",
          "date_label": "1706–1707",
@@ -13813,44 +13395,6 @@
          ],
          "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-189.webp",
          "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-189.webp",
-         "status": "illustrated",
-         "places": [
-          "sivasagar"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-190",
-         "title": "Grand Durbar and the Seven-Tiered Singhason at Rangpur",
-         "date_label": "c. 1710",
-         "sort_year": 1710,
-         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
-         "collection": "AHOM chronology",
-         "summary": "Rudra Singha presides from the legendary jewel-inlaid lion throne (Singhason) under a golden canopy, welcoming foreign envoys from all corners of India.",
-         "people": [
-          "rudra-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-190.webp",
-         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-190.webp",
-         "status": "illustrated",
-         "places": [
-          "sivasagar"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-191",
-         "title": "Grand Durbar and the Seven-Tiered Singhason at Rangpur",
-         "date_label": "c. 1710",
-         "sort_year": 1710,
-         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
-         "collection": "AHOM chronology",
-         "summary": "Rudra Singha presides from the legendary jewel-inlaid lion throne (Singhason) under a golden canopy, welcoming foreign envoys from all corners of India.",
-         "people": [
-          "rudra-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-191.webp",
-         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-191.webp",
          "status": "illustrated",
          "places": [
           "sivasagar"
@@ -14595,26 +14139,6 @@
          "main": false
         },
         {
-         "id": "AHOM-208",
-         "title": "Second Moamoria Rebellion: Fall and Burning of Rangpur",
-         "date_label": "1786–1788",
-         "sort_year": 1786,
-         "era": "Moamoria Rebellions & Decline (1769–1817)",
-         "collection": "AHOM chronology",
-         "summary": "Rebels rise again with devastating ferocity, routing royal armies, storming and burning royal buildings of Rangpur.",
-         "people": [
-          "gaurinath-singha",
-          "purnananda-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-208.webp",
-         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-208.webp",
-         "status": "illustrated",
-         "places": [
-          "sivasagar"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-209",
          "title": "Flight of King Gaurinath Singha Down the Brahmaputra",
          "date_label": "1788",
@@ -14856,28 +14380,6 @@
          ],
          "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-215.webp",
          "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-215.webp",
-         "status": "illustrated",
-         "places": [
-          "patkai",
-          "jorhat"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-217",
-         "title": "The First Burmese Invasion (Manor Din Begins)",
-         "date_label": "March 1817",
-         "sort_year": 1817,
-         "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
-         "collection": "AHOM chronology",
-         "summary": "Badan Chandra brings a Burmese army of 16,000 soldiers across the Patkai; Purnananda dies of heartbreak; Burmese defeat Ahom troops at Ghiladhari and march on Jorhat.",
-         "people": [
-          "badan-chandra-borphukan",
-          "chandrakanta-singha",
-          "purnananda-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-217.webp",
-         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-217.webp",
          "status": "illustrated",
          "places": [
           "patkai",
@@ -15152,22 +14654,6 @@
          "main": false
         },
         {
-         "id": "AHOM-232",
-         "title": "Crushing Tax Demands on War-Devastated Population",
-         "date_label": "1834–1837",
-         "sort_year": 1834,
-         "era": "British Annexation & End of Monarchy (1833–1838)",
-         "collection": "AHOM chronology",
-         "summary": "Purandar struggles desperately to collect taxes from a depopulated and ruined citizenry to satisfy the exorbitant British tribute demand.",
-         "people": [
-          "purandar-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1833-1838-british-annexation/AHOM-232.webp",
-         "scene_thumbnail": "media/scenes/ahom/1833-1838-british-annexation/thumb/AHOM-232.webp",
-         "status": "illustrated",
-         "main": false
-        },
-        {
          "id": "AHOM-233",
          "title": "Final British Annexation of Assam and Deposition of Purandar Singha",
          "date_label": "October 1838",
@@ -15316,6 +14802,7 @@
       {
        "id": "badaucha",
        "name": "Badaucha (Moran chief)",
+       "name_assamese": "বাদাউচা (মৰাণ সৰ্দাৰ)",
        "date_label": "c. 1235",
        "start_year": 1235,
        "end_year": 1240,
@@ -15363,6 +14850,7 @@
       {
        "id": "thakumatha",
        "name": "Thakumatha (Barahi chief)",
+       "name_assamese": "থাকুমথা (বৰাহী সৰ্দাৰ)",
        "date_label": "c. 1235",
        "start_year": 1235,
        "end_year": 1240,
@@ -15502,6 +14990,7 @@
       {
        "id": "bhajani",
        "name": "Bhajani",
+       "name_assamese": "ভজনী",
        "date_label": "early 14th century",
        "start_year": 1324,
        "end_year": 1332,
@@ -15573,6 +15062,7 @@
       {
        "id": "chao-pulai",
        "name": "Chao Pulai",
+       "name_assamese": "চাও পুলাই",
        "date_label": "14th century",
        "start_year": 1330,
        "end_year": 1360,
@@ -15680,6 +15170,7 @@
       {
        "id": "tai-sulai",
        "name": "Tai Sulai",
+       "name_assamese": "তাই সুলাই",
        "date_label": "c. 1400",
        "start_year": 1400,
        "end_year": 1401,
@@ -15814,6 +15305,7 @@
       {
        "id": "mangaldoi",
        "name": "Mangaldoi (Mangaldahi)",
+       "name_assamese": "মঙ্গলদৈ (মঙ্গলদহী)",
        "date_label": "married 1603–1608",
        "start_year": 1603,
        "end_year": 1608,
@@ -15913,32 +15405,13 @@
           "delhi"
          ],
          "main": true
-        },
-        {
-         "id": "AHOM-138",
-         "title": "Departure of Princess Ramani Gabharu to Delhi",
-         "date_label": "1663",
-         "sort_year": 1663,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Six-year-old Princess Ramani Gabharu (daughter of Jayadhwaj) is tearfully handed over as part of the treaty to be sent to Delhi, where she later marries Prince Azam Shah as Rahmat Banu Begum.",
-         "people": [
-          "jayadhwaj-singha",
-          "ramani-gabharu"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-138.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-138.webp",
-         "status": "illustrated",
-         "places": [
-          "delhi"
-         ],
-         "main": true
         }
        ]
       },
       {
        "id": "pakhori-gabharu",
        "name": "Pakhori Gabharu",
+       "name_assamese": "পখৰী গাভৰু",
        "date_label": "17th century",
        "start_year": 1650,
        "end_year": 1680,
@@ -16389,6 +15862,7 @@
       {
        "id": "thaomung-burhagohain",
        "name": "First Burhagohain (Thaomung)",
+       "name_assamese": "প্ৰথম বুঢ়াগোহাঁই (থাওমুং)",
        "date_label": "c. 1228 (office created by Sukaphaa)",
        "start_year": 1228,
        "end_year": 1260,
@@ -16414,27 +15888,6 @@
        ],
        "scenes": [
         {
-         "id": "AHOM-001",
-         "title": "Sukaphaa Departs Mong Mao",
-         "date_label": "1215–1228",
-         "sort_year": 1215,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Prince Sukaphaa leaves his ancestral kingdom of Mong Mao following a succession dispute, leading 9,000 followers, noblemen, priests (Deodhais), horses, and two royal war elephants across Upper Burma towards Assam.",
-         "people": [
-          "sukaphaa",
-          "thaomung-borgohain",
-          "thaomung-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-001.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-001.webp",
-         "status": "illustrated",
-         "places": [
-          "mong-mao"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-002",
          "title": "Sukaphaa Departs Mong Mao",
          "date_label": "1215–1228",
@@ -16454,54 +15907,13 @@
           "mong-mao"
          ],
          "main": false
-        },
-        {
-         "id": "AHOM-003",
-         "title": "Sukaphaa Departs Mong Mao",
-         "date_label": "1215–1228",
-         "sort_year": 1215,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Prince Sukaphaa leaves his ancestral kingdom of Mong Mao following a succession dispute, leading 9,000 followers, noblemen, priests (Deodhais), horses, and two royal war elephants across Upper Burma towards Assam.",
-         "people": [
-          "sukaphaa",
-          "thaomung-borgohain",
-          "thaomung-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-003.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-003.webp",
-         "status": "illustrated",
-         "places": [
-          "mong-mao"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-004",
-         "title": "Sukaphaa Departs Mong Mao",
-         "date_label": "1215–1228",
-         "sort_year": 1215,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Prince Sukaphaa leaves his ancestral kingdom of Mong Mao following a succession dispute, leading 9,000 followers, noblemen, priests (Deodhais), horses, and two royal war elephants across Upper Burma towards Assam.",
-         "people": [
-          "sukaphaa",
-          "thaomung-borgohain",
-          "thaomung-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-004.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-004.webp",
-         "status": "illustrated",
-         "places": [
-          "mong-mao"
-         ],
-         "main": false
         }
        ]
       },
       {
        "id": "thaomung-borgohain",
        "name": "First Borgohain (Thaomung)",
+       "name_assamese": "প্ৰথম বৰগোহাঁই (থাওমুং)",
        "date_label": "c. 1228 (office created by Sukaphaa)",
        "start_year": 1228,
        "end_year": 1260,
@@ -16527,27 +15939,6 @@
        ],
        "scenes": [
         {
-         "id": "AHOM-001",
-         "title": "Sukaphaa Departs Mong Mao",
-         "date_label": "1215–1228",
-         "sort_year": 1215,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Prince Sukaphaa leaves his ancestral kingdom of Mong Mao following a succession dispute, leading 9,000 followers, noblemen, priests (Deodhais), horses, and two royal war elephants across Upper Burma towards Assam.",
-         "people": [
-          "sukaphaa",
-          "thaomung-borgohain",
-          "thaomung-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-001.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-001.webp",
-         "status": "illustrated",
-         "places": [
-          "mong-mao"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-002",
          "title": "Sukaphaa Departs Mong Mao",
          "date_label": "1215–1228",
@@ -16567,54 +15958,13 @@
           "mong-mao"
          ],
          "main": false
-        },
-        {
-         "id": "AHOM-003",
-         "title": "Sukaphaa Departs Mong Mao",
-         "date_label": "1215–1228",
-         "sort_year": 1215,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Prince Sukaphaa leaves his ancestral kingdom of Mong Mao following a succession dispute, leading 9,000 followers, noblemen, priests (Deodhais), horses, and two royal war elephants across Upper Burma towards Assam.",
-         "people": [
-          "sukaphaa",
-          "thaomung-borgohain",
-          "thaomung-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-003.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-003.webp",
-         "status": "illustrated",
-         "places": [
-          "mong-mao"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-004",
-         "title": "Sukaphaa Departs Mong Mao",
-         "date_label": "1215–1228",
-         "sort_year": 1215,
-         "era": "Foundational Era (1228–1497)",
-         "collection": "AHOM chronology",
-         "summary": "Prince Sukaphaa leaves his ancestral kingdom of Mong Mao following a succession dispute, leading 9,000 followers, noblemen, priests (Deodhais), horses, and two royal war elephants across Upper Burma towards Assam.",
-         "people": [
-          "sukaphaa",
-          "thaomung-borgohain",
-          "thaomung-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-004.webp",
-         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-004.webp",
-         "status": "illustrated",
-         "places": [
-          "mong-mao"
-         ],
-         "main": false
         }
        ]
       },
       {
        "id": "thao-cheoken",
        "name": "Thao Cheoken",
+       "name_assamese": "থাও চেউকেন",
        "date_label": "1397",
        "start_year": 1397,
        "end_year": 1397,
@@ -16686,6 +16036,7 @@
       {
        "id": "chaothai-khum-burhagohain",
        "name": "Chaothai Khum Burhagohain",
+       "name_assamese": "চাওথাই খুম বুঢ়াগোহাঁই",
        "date_label": "1397",
        "start_year": 1397,
        "end_year": 1407,
@@ -16757,6 +16108,7 @@
       {
        "id": "tasim-pou-borgohain",
        "name": "Tasim Pou Borgohain",
+       "name_assamese": "টাছিম পৌ বৰগোহাঁই",
        "date_label": "c. 1400",
        "start_year": 1400,
        "end_year": 1400,
@@ -16839,6 +16191,7 @@
       {
        "id": "nangchukham-borgohain",
        "name": "Nangchukham Borgohain",
+       "name_assamese": "নাংচুখাম বৰগোহাঁই",
        "date_label": "1401",
        "start_year": 1401,
        "end_year": 1401,
@@ -16945,6 +16298,7 @@
       {
        "id": "borgohain-khenphung",
        "name": "Khenphung Borgohain",
+       "name_assamese": "খেনফুং বৰগোহাঁই",
        "date_label": "c. 1490",
        "start_year": 1490,
        "end_year": 1493,
@@ -17008,6 +16362,7 @@
       {
        "id": "phrasengmung-borgohain",
        "name": "Phrasengmung Borgohain",
+       "name_assamese": "ফ্ৰাছেংমুং বৰগোহাঁই",
        "date_label": "from 1524",
        "start_year": 1524,
        "end_year": 1539,
@@ -17265,12 +16620,44 @@
           "karatoya"
          ],
          "main": false
+        },
+        {
+         "id": "AHOM-105",
+         "title": "The Swarganarayan Invests the Royal Commander",
+         "date_label": "c. 1532",
+         "era": "Imperial Expansion & Early Invasions (1497–1603)",
+         "collection": "AHOM chronology",
+         "summary": "The monarch presents the consecrated Hengdang (royal curved sword) and battle garments to the appointed general.",
+         "people": [
+          "suhungmung",
+          "konseng"
+         ],
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-105.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-105.webp",
+         "status": "illustrated",
+         "main": false
+        },
+        {
+         "id": "AHOM-106",
+         "title": "Ahom Commander Kneels in Fealty Before the King",
+         "date_label": "c. 1532",
+         "era": "Imperial Expansion & Early Invasions (1497–1603)",
+         "collection": "AHOM chronology",
+         "summary": "A royal commander kneels before the Ahom throne pledging absolute victory or martyrdom for the homeland.",
+         "people": [
+          "konseng"
+         ],
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-106.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-106.webp",
+         "status": "illustrated",
+         "main": false
         }
        ]
       },
       {
        "id": "ton-kham-borgohain",
        "name": "Ton Kham Borgohain",
+       "name_assamese": "টন খাম বৰগোহাঁই",
        "date_label": "1532–1533",
        "start_year": 1532,
        "end_year": 1533,
@@ -17325,6 +16712,7 @@
       {
        "id": "aikhek-burhagohain",
        "name": "Aikhek Burhagohain",
+       "name_assamese": "আইখেক বুঢ়াগোহাঁই",
        "date_label": "1563",
        "start_year": 1563,
        "end_year": 1563,
@@ -17470,6 +16858,7 @@
       {
        "id": "langi-panisiya",
        "name": "Langi Panisiya",
+       "name_assamese": "লাঙি পানীচিয়া",
        "date_label": "office created 1615 (catalogue)",
        "start_year": 1615,
        "end_year": 1625,
@@ -17519,6 +16908,7 @@
       {
        "id": "parbatia-phukan",
        "name": "Manthir Bharali Barua (Parbatia Phukan)",
+       "name_assamese": "মন্থিৰ ভৰালী বৰুৱা (পাৰ্বতীয়া ফুকন)",
        "date_label": "mid-17th century",
        "start_year": 1640,
        "end_year": 1650,
@@ -17545,6 +16935,7 @@
       {
        "id": "niranjan-deva",
        "name": "Niranjan Deva (Niranjan Bapu)",
+       "name_assamese": "নিৰঞ্জন দেৱ (নিৰঞ্জন বাপু)",
        "date_label": "mid-17th century",
        "start_year": 1650,
        "end_year": 1663,
@@ -17568,26 +16959,6 @@
         }
        ],
        "scenes": [
-        {
-         "id": "AHOM-128",
-         "title": "Royal Initiation into Ekasarana Dharma",
-         "date_label": "c. 1654–1663",
-         "sort_year": 1654,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Jayadhwaj takes spiritual initiation from Niranjan Bapu of Auniati Satra, formally adopting Mahapuruxiya Ekasarana Dharma as royal faith.",
-         "people": [
-          "jayadhwaj-singha",
-          "niranjan-deva"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-128.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-128.webp",
-         "status": "illustrated",
-         "places": [
-          "auniati"
-         ],
-         "main": false
-        },
         {
          "id": "AHOM-129",
          "title": "Royal Initiation into Ekasarana Dharma",
@@ -17674,28 +17045,6 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-149.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-149.webp",
-         "status": "illustrated",
-         "places": [
-          "saraighat",
-          "alaboi"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-150",
-         "title": "Total Military Reorganization After Alaboi",
-         "date_label": "1669–1670",
-         "sort_year": 1669,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Chakradhwaj and Lachit regroup, constructing massive defensive mud ramparts (Gars) around Saraighat and converting strategy to pure riverine warfare.",
-         "people": [
-          "atan-burhagohain",
-          "chakradhwaj-singha",
-          "lachit-borphukan"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-150.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-150.webp",
          "status": "illustrated",
          "places": [
           "saraighat",
@@ -17844,27 +17193,6 @@
          "main": true
         },
         {
-         "id": "AHOM-145",
-         "title": "Lachit Borphukan Liberates Guwahati",
-         "date_label": "November 1667",
-         "sort_year": 1667,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Ahom forces execute a coordinated amphibious night assault, breaching the Mughal ramparts and driving imperial troops out of Guwahati.",
-         "people": [
-          "chakradhwaj-singha",
-          "lachit-borphukan",
-          "syed-firoz-khan"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-145.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-145.webp",
-         "status": "illustrated",
-         "places": [
-          "guwahati"
-         ],
-         "main": true
-        },
-        {
          "id": "AHOM-146",
          "title": "Lachit Borphukan Liberates Guwahati",
          "date_label": "November 1667",
@@ -17950,28 +17278,6 @@
          "main": false
         },
         {
-         "id": "AHOM-150",
-         "title": "Total Military Reorganization After Alaboi",
-         "date_label": "1669–1670",
-         "sort_year": 1669,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Chakradhwaj and Lachit regroup, constructing massive defensive mud ramparts (Gars) around Saraighat and converting strategy to pure riverine warfare.",
-         "people": [
-          "atan-burhagohain",
-          "chakradhwaj-singha",
-          "lachit-borphukan"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-150.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-150.webp",
-         "status": "illustrated",
-         "places": [
-          "saraighat",
-          "alaboi"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-151",
          "title": "War Council of Udayaditya Singha and Lachit Borphukan",
          "date_label": "1670",
@@ -17987,43 +17293,6 @@
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-151.webp",
          "status": "illustrated",
          "main": true
-        },
-        {
-         "id": "AHOM-152",
-         "title": "War Council of Udayaditya Singha and Lachit Borphukan",
-         "date_label": "1670",
-         "sort_year": 1670,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Upon succeeding Chakradhwaj, Udayaditya reaffirms complete faith in Lachit Borphukan, coordinating logistics for the impending Mughal clash.",
-         "people": [
-          "lachit-borphukan",
-          "udayaditya-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-152.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-152.webp",
-         "status": "illustrated",
-         "main": true
-        },
-        {
-         "id": "AHOM-153",
-         "title": "Fortification of Saraighat and Execution of the Negligent Uncle",
-         "date_label": "1671",
-         "sort_year": 1671,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Lachit oversees construction of the Saraighat earthen rampart overnight; finding his maternal uncle negligent, he beheads him uttering: 'My uncle is not greater than my country!'",
-         "people": [
-          "lachit-borphukan",
-          "udayaditya-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-153.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-153.webp",
-         "status": "illustrated",
-         "places": [
-          "saraighat"
-         ],
-         "main": false
         },
         {
          "id": "AHOM-154",
@@ -18086,29 +17355,6 @@
          "main": false
         },
         {
-         "id": "AHOM-158",
-         "title": "The Epic Naval Battle of Saraighat",
-         "date_label": "March 1671",
-         "sort_year": 1671,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Ahom fleet traps Ram Singh's Mughal armada at the narrowest gorge of the Brahmaputra at Saraighat; Mughal naval force is completely shattered in a historic tactical masterpiece.",
-         "people": [
-          "lachit-borphukan",
-          "munawar-khan",
-          "ram-singh-i",
-          "udayaditya-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-158.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-158.webp",
-         "status": "illustrated",
-         "places": [
-          "brahmaputra",
-          "saraighat"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-160",
          "title": "Portrait of Lachit Borphukan",
          "date_label": "1671",
@@ -18122,26 +17368,6 @@
          ],
          "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-160.webp",
          "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-160.webp",
-         "status": "illustrated",
-         "places": [
-          "saraighat"
-         ],
-         "main": true
-        },
-        {
-         "id": "AHOM-161",
-         "title": "Portrait of Lachit Borphukan",
-         "date_label": "1671",
-         "sort_year": 1671,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Regal portrait of the legendary Ahom generalissimo Lachit Borphukan, victor of the epic Battle of Saraighat.",
-         "people": [
-          "lachit-borphukan",
-          "udayaditya-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-161.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-161.webp",
          "status": "illustrated",
          "places": [
           "saraighat"
@@ -18179,6 +17405,7 @@
       {
        "id": "laluk-sola",
        "name": "Laluk Sola Borphukan",
+       "name_assamese": "লালুক সোলা বৰফুকন",
        "date_label": "Borphukan 1672–1677; d. 1680",
        "start_year": 1672,
        "end_year": 1680,
@@ -18296,6 +17523,7 @@
       {
        "id": "debera-borbarua",
        "name": "Debera Borbarua",
+       "name_assamese": "দেবেৰা বৰবৰুৱা",
        "date_label": "c. 1672–1675",
        "start_year": 1672,
        "end_year": 1675,
@@ -18320,23 +17548,6 @@
         }
        ],
        "scenes": [
-        {
-         "id": "AHOM-162",
-         "title": "Rise of Debera Borbarua's Palace Reign of Terror",
-         "date_label": "1672–1675",
-         "sort_year": 1672,
-         "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Debera Borbarua accumulates absolute despotic control, executing rival ministers, princes, and courtiers with impunity.",
-         "people": [
-          "debera-borbarua",
-          "ramdhwaj-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-162.webp",
-         "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-162.webp",
-         "status": "illustrated",
-         "main": true
-        },
         {
          "id": "AHOM-163",
          "title": "Rise of Debera Borbarua's Palace Reign of Terror",
@@ -18440,6 +17651,7 @@
       {
        "id": "krishnaram-bhattacharya",
        "name": "Krishnaram Bhattacharya Nyayavagish",
+       "name_assamese": "কৃষ্ণৰাম ভট্টাচাৰ্য ন্যায়বাগীশ",
        "date_label": "early 18th century",
        "start_year": 1696,
        "end_year": 1744,
@@ -18530,6 +17742,7 @@
       {
        "id": "ghanashyam-khanikar",
        "name": "Ghanashyam Khanikar",
+       "name_assamese": "ঘনশ্যাম খনিকৰ",
        "date_label": "c. 1698–1705",
        "start_year": 1698,
        "end_year": 1705,
@@ -18572,34 +17785,13 @@
           "joysagar"
          ],
          "main": false
-        },
-        {
-         "id": "AHOM-184",
-         "title": "Founding and Construction of Capital City Rangpur and Joysagar",
-         "date_label": "1698–1705",
-         "sort_year": 1698,
-         "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
-         "collection": "AHOM chronology",
-         "summary": "Constructs the glorious capital Rangpur ('City of Joy'), excavates the massive Joysagar tank in memory of mother Joymoti, and builds Namdang stone bridge.",
-         "people": [
-          "ghanashyam-khanikar",
-          "rudra-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-184.webp",
-         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-184.webp",
-         "status": "illustrated",
-         "places": [
-          "namdang",
-          "sivasagar",
-          "joysagar"
-         ],
-         "main": false
         }
        ]
       },
       {
        "id": "kirti-chandra-borbarua",
        "name": "Kirti Chandra Borbarua (Gendhela)",
+       "name_assamese": "কীৰ্তিচন্দ্ৰ বৰবৰুৱা (গেন্ধেলা)",
        "date_label": "active 1751–1769",
        "start_year": 1751,
        "end_year": 1769,
@@ -18673,6 +17865,7 @@
       {
        "id": "haranath-phukan",
        "name": "Haranath Bitarual Phukan",
+       "name_assamese": "হৰনাথ বিচাৰোৱাল ফুকন",
        "date_label": "1765",
        "start_year": 1765,
        "end_year": 1765,
@@ -18763,26 +17956,6 @@
          ],
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-207.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-207.webp",
-         "status": "illustrated",
-         "places": [
-          "sivasagar"
-         ],
-         "main": false
-        },
-        {
-         "id": "AHOM-208",
-         "title": "Second Moamoria Rebellion: Fall and Burning of Rangpur",
-         "date_label": "1786–1788",
-         "sort_year": 1786,
-         "era": "Moamoria Rebellions & Decline (1769–1817)",
-         "collection": "AHOM chronology",
-         "summary": "Rebels rise again with devastating ferocity, routing royal armies, storming and burning royal buildings of Rangpur.",
-         "people": [
-          "gaurinath-singha",
-          "purnananda-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-208.webp",
-         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-208.webp",
          "status": "illustrated",
          "places": [
           "sivasagar"
@@ -18924,28 +18097,6 @@
           "jorhat"
          ],
          "main": false
-        },
-        {
-         "id": "AHOM-217",
-         "title": "The First Burmese Invasion (Manor Din Begins)",
-         "date_label": "March 1817",
-         "sort_year": 1817,
-         "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
-         "collection": "AHOM chronology",
-         "summary": "Badan Chandra brings a Burmese army of 16,000 soldiers across the Patkai; Purnananda dies of heartbreak; Burmese defeat Ahom troops at Ghiladhari and march on Jorhat.",
-         "people": [
-          "badan-chandra-borphukan",
-          "chandrakanta-singha",
-          "purnananda-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-217.webp",
-         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-217.webp",
-         "status": "illustrated",
-         "places": [
-          "patkai",
-          "jorhat"
-         ],
-         "main": false
         }
        ]
       },
@@ -19045,28 +18196,6 @@
          "main": false
         },
         {
-         "id": "AHOM-217",
-         "title": "The First Burmese Invasion (Manor Din Begins)",
-         "date_label": "March 1817",
-         "sort_year": 1817,
-         "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
-         "collection": "AHOM chronology",
-         "summary": "Badan Chandra brings a Burmese army of 16,000 soldiers across the Patkai; Purnananda dies of heartbreak; Burmese defeat Ahom troops at Ghiladhari and march on Jorhat.",
-         "people": [
-          "badan-chandra-borphukan",
-          "chandrakanta-singha",
-          "purnananda-burhagohain"
-         ],
-         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-217.webp",
-         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-217.webp",
-         "status": "illustrated",
-         "places": [
-          "patkai",
-          "jorhat"
-         ],
-         "main": false
-        },
-        {
          "id": "AHOM-218",
          "title": "Assassination of Traitor Badan Chandra Borphukan",
          "date_label": "August 1817",
@@ -19114,6 +18243,7 @@
       {
        "id": "ruchinath-burhagohain",
        "name": "Ruchinath Burhagohain",
+       "name_assamese": "ৰুচিনাথ বুঢ়াগোহাঁই",
        "date_label": "Burhagohain from 1817",
        "start_year": 1817,
        "end_year": 1822,
@@ -19186,6 +18316,7 @@
       {
        "id": "subedar-rup-singh",
        "name": "Subedar Rup Singh",
+       "name_assamese": "চুবেদাৰ ৰূপ সিং",
        "date_label": "1818",
        "start_year": 1818,
        "end_year": 1818,
@@ -19244,6 +18375,7 @@
       {
        "id": "mayamara-mahanta",
        "name": "Astabhuj Deva (Mayamara Mahanta)",
+       "name_assamese": "অষ্টভুজ দেৱ (মোৱামৰীয়া মহন্ত)",
        "date_label": "active 1769; d. 1770",
        "start_year": 1769,
        "end_year": 1770,
@@ -19275,6 +18407,7 @@
       {
        "id": "ragha-moran",
        "name": "Ragha Neog (Raghab Borbarua)",
+       "name_assamese": "ৰঘা নেওগ (ৰাঘৱ বৰবৰুৱা)",
        "date_label": "d. 11 April 1770",
        "start_year": 1769,
        "end_year": 1770,
@@ -19388,6 +18521,7 @@
       {
        "id": "naharkhora",
        "name": "Naharkhora Saikia",
+       "name_assamese": "নাহৰখোৰা শইকীয়া",
        "date_label": "d. 1770",
        "start_year": 1769,
        "end_year": 1770,
@@ -19437,6 +18571,7 @@
       {
        "id": "ramakanta",
        "name": "Ramakanta",
+       "name_assamese": "ৰমাকান্ত",
        "date_label": "Nov 1769 – 1770",
        "start_year": 1769,
        "end_year": 1770,
@@ -19486,6 +18621,7 @@
       {
        "id": "harihar-tanti",
        "name": "Harihar Tanti",
+       "name_assamese": "হৰিহৰ তাঁতী",
        "date_label": "1786",
        "start_year": 1786,
        "end_year": 1786,
@@ -19539,6 +18675,7 @@
       {
        "id": "bharat-singha",
        "name": "Bharat Singha",
+       "name_assamese": "ভৰত সিংহ",
        "date_label": "d. 1799",
        "start_year": 1786,
        "end_year": 1799,
@@ -19593,6 +18730,7 @@
       {
        "id": "sarbananda-singha",
        "name": "Sarbananda Singha",
+       "name_assamese": "সৰ্বানন্দ সিংহ",
        "date_label": "to 1805",
        "start_year": 1795,
        "end_year": 1805,
@@ -19677,6 +18815,7 @@
       {
        "id": "bit-malik",
        "name": "Bit Malik",
+       "name_assamese": "বিত মালিক",
        "date_label": "1527",
        "start_year": 1527,
        "end_year": 1527,
@@ -19724,6 +18863,7 @@
       {
        "id": "turbak",
        "name": "Turbak",
+       "name_assamese": "তুৰবক",
        "date_label": "d. 1533",
        "start_year": 1532,
        "end_year": 1533,
@@ -19819,6 +18959,7 @@
       {
        "id": "satrajit",
        "name": "Raja Satrajit of Bhusna",
+       "name_assamese": "ভূষণাৰ ৰজা সত্ৰাজিৎ",
        "date_label": "1615",
        "start_year": 1615,
        "end_year": 1615,
@@ -19877,6 +19018,7 @@
       {
        "id": "abu-bakr",
        "name": "Abu Bakr",
+       "name_assamese": "আবু বকৰ",
        "date_label": "1615",
        "start_year": 1615,
        "end_year": 1615,
@@ -19935,6 +19077,7 @@
       {
        "id": "qasim-khan-chishti",
        "name": "Qasim Khan Chishti",
+       "name_assamese": "কাছিম খান চিশ্তী",
        "date_label": "c. 1615",
        "start_year": 1615,
        "end_year": 1620,
@@ -20016,6 +19159,7 @@
       {
        "id": "allah-yar-khan",
        "name": "Allah Yar Khan",
+       "name_assamese": "আল্লাহ য়াৰ খান",
        "date_label": "1639",
        "start_year": 1639,
        "end_year": 1639,
@@ -20235,6 +19379,7 @@
       {
        "id": "dilir-khan",
        "name": "Dilir Khan",
+       "name_assamese": "দিলিৰ খান",
        "date_label": "1662",
        "start_year": 1662,
        "end_year": 1662,
@@ -20328,6 +19473,7 @@
       {
        "id": "shihabuddin-talish",
        "name": "Shihabuddin Talish",
+       "name_assamese": "শিহাবউদ্দিন তালিশ",
        "date_label": "chronicler of 1662",
        "start_year": 1662,
        "end_year": 1663,
@@ -20375,6 +19521,7 @@
       {
        "id": "syed-firoz-khan",
        "name": "Syed Firoz Khan",
+       "name_assamese": "ছৈয়দ ফিৰোজ খান",
        "date_label": "c. 1663–1667",
        "start_year": 1663,
        "end_year": 1667,
@@ -20399,27 +19546,6 @@
         }
        ],
        "scenes": [
-        {
-         "id": "AHOM-145",
-         "title": "Lachit Borphukan Liberates Guwahati",
-         "date_label": "November 1667",
-         "sort_year": 1667,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Ahom forces execute a coordinated amphibious night assault, breaching the Mughal ramparts and driving imperial troops out of Guwahati.",
-         "people": [
-          "chakradhwaj-singha",
-          "lachit-borphukan",
-          "syed-firoz-khan"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-145.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-145.webp",
-         "status": "illustrated",
-         "places": [
-          "guwahati"
-         ],
-         "main": false
-        },
         {
          "id": "AHOM-146",
          "title": "Lachit Borphukan Liberates Guwahati",
@@ -20446,6 +19572,7 @@
       {
        "id": "aurangzeb",
        "name": "Aurangzeb",
+       "name_assamese": "আওৰংজেব",
        "date_label": "ordered the 1667 expedition",
        "start_year": 1667,
        "end_year": 1667,
@@ -20473,6 +19600,7 @@
       {
        "id": "ram-singh-i",
        "name": "Ram Singh I of Amber",
+       "name_assamese": "অম্বৰৰ প্ৰথম ৰাম সিংহ",
        "date_label": "1629–1688",
        "start_year": 1667,
        "end_year": 1671,
@@ -20541,35 +19669,13 @@
           "saraighat"
          ],
          "main": false
-        },
-        {
-         "id": "AHOM-158",
-         "title": "The Epic Naval Battle of Saraighat",
-         "date_label": "March 1671",
-         "sort_year": 1671,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Ahom fleet traps Ram Singh's Mughal armada at the narrowest gorge of the Brahmaputra at Saraighat; Mughal naval force is completely shattered in a historic tactical masterpiece.",
-         "people": [
-          "lachit-borphukan",
-          "munawar-khan",
-          "ram-singh-i",
-          "udayaditya-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-158.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-158.webp",
-         "status": "illustrated",
-         "places": [
-          "brahmaputra",
-          "saraighat"
-         ],
-         "main": false
         }
        ]
       },
       {
        "id": "munawar-khan",
        "name": "Munawar Khan",
+       "name_assamese": "মুনৱ্বৰ খান",
        "date_label": "1671",
        "start_year": 1671,
        "end_year": 1671,
@@ -20616,35 +19722,13 @@
           "saraighat"
          ],
          "main": false
-        },
-        {
-         "id": "AHOM-158",
-         "title": "The Epic Naval Battle of Saraighat",
-         "date_label": "March 1671",
-         "sort_year": 1671,
-         "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
-         "collection": "AHOM chronology",
-         "summary": "Ahom fleet traps Ram Singh's Mughal armada at the narrowest gorge of the Brahmaputra at Saraighat; Mughal naval force is completely shattered in a historic tactical masterpiece.",
-         "people": [
-          "lachit-borphukan",
-          "munawar-khan",
-          "ram-singh-i",
-          "udayaditya-singha"
-         ],
-         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-158.webp",
-         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-158.webp",
-         "status": "illustrated",
-         "places": [
-          "brahmaputra",
-          "saraighat"
-         ],
-         "main": false
         }
        ]
       },
       {
        "id": "muhammad-azam-shah",
        "name": "Muhammad Azam Shah",
+       "name_assamese": "মুহাম্মদ আজম শ্বাহ",
        "date_label": "1679",
        "start_year": 1679,
        "end_year": 1679,
@@ -20702,6 +19786,7 @@
       {
        "id": "captain-welsh",
        "name": "Captain Thomas Welsh",
+       "name_assamese": "কেপ্টেইন টমাছ ৱেলছ",
        "date_label": "1792–1794",
        "start_year": 1792,
        "end_year": 1794,
@@ -20771,6 +19856,7 @@
       {
        "id": "cornwallis",
        "name": "Lord Cornwallis",
+       "name_assamese": "লৰ্ড কৰ্ণৱালিছ",
        "date_label": "1792",
        "start_year": 1792,
        "end_year": 1792,
@@ -20822,6 +19908,7 @@
       {
        "id": "bodawpaya",
        "name": "Bodawpaya",
+       "name_assamese": "বদোপায়া",
        "date_label": "king of Burma 1782–1819",
        "start_year": 1816,
        "end_year": 1819,
@@ -20876,6 +19963,7 @@
       {
        "id": "kiamingi",
        "name": "Kiamingi (Ala Mingi)",
+       "name_assamese": "কিয়ামিংগী (আলা মিংগী)",
        "date_label": "1819",
        "start_year": 1819,
        "end_year": 1819,
@@ -20927,6 +20015,7 @@
       {
        "id": "mingimaha-tilwa",
        "name": "Mingimaha Tilwa",
+       "name_assamese": "মিংগীমহা তিলৱা",
        "date_label": "1821–1822",
        "start_year": 1821,
        "end_year": 1822,
@@ -21006,6 +20095,7 @@
       {
        "id": "bagyidaw",
        "name": "Bagyidaw",
+       "name_assamese": "বাগ্যিদ’",
        "date_label": "king of Burma 1819–1837",
        "start_year": 1819,
        "end_year": 1837,
@@ -21057,6 +20147,7 @@
       {
        "id": "maha-bandula",
        "name": "Maha Bandula",
+       "name_assamese": "মহা বান্দুলা",
        "date_label": "d. 1 April 1825",
        "start_year": 1822,
        "end_year": 1825,
@@ -21132,6 +20223,7 @@
       {
        "id": "david-scott",
        "name": "David Scott",
+       "name_assamese": "ডেভিড স্কট",
        "date_label": "active 1823–1826",
        "start_year": 1823,
        "end_year": 1826,
@@ -21182,6 +20274,7 @@
       {
        "id": "alfred-richards",
        "name": "Colonel Alfred Richards",
+       "name_assamese": "কৰ্ণেল আলফ্ৰেড ৰিচাৰ্ডছ",
        "date_label": "1824",
        "start_year": 1824,
        "end_year": 1824,
@@ -21232,6 +20325,7 @@
       {
        "id": "archibald-campbell",
        "name": "Sir Archibald Campbell",
+       "name_assamese": "ছাৰ আৰ্চিবল্ড কেম্পবেল",
        "date_label": "1824–1826",
        "start_year": 1824,
        "end_year": 1826,
@@ -22081,6 +21175,7 @@
       {
        "id": "hari-sankardev",
        "name": "Hari (Sankardev's son-in-law)",
+       "name_assamese": "হৰি (শংকৰদেৱৰ জোঁৱাই)",
        "date_label": "mid-16th century",
        "start_year": 1540,
        "end_year": 1550,
@@ -22108,6 +21203,7 @@
       {
        "id": "aniruddhadeva",
        "name": "Aniruddhadeva",
+       "name_assamese": "অনিৰুদ্ধদেৱ",
        "date_label": "1553–1626",
        "start_year": 1553,
        "end_year": 1626,
@@ -22165,6 +21261,7 @@
       {
        "id": "birpal",
        "name": "Birpal (legendary)",
+       "name_assamese": "বীৰপাল (কিংবদন্তী)",
        "date_label": "legend",
        "start_year": 1187,
        "end_year": 1250,
@@ -22294,6 +21391,7 @@
        "role": "Entrepreneur and rebel",
        "summary": "Assamese entrepreneur who pioneered tea planting and was hanged for his part in the 1857 revolt.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Commemorative portrait, not authenticated photograph; unseen views reconstructed.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -22384,12 +21482,17 @@
       {
        "id": "nathan-brown",
        "name": "Nathan Brown",
+       "name_assamese": "নাথান ব্ৰাউন",
        "date_label": "1807–1886",
        "sort_year": 1807,
        "role": "American Baptist missionary",
-       "summary": "Missionary and printer who helped establish Assamese in print in the 1830s.",
+       "summary": "American Baptist missionary and printer, in Assam from 1837; with Oliver Cutter he began the periodical Orunodoi (1846) and founded Assamese-medium schools at Sibsagar, helping establish Assamese in print.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "portrait",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Nathan_Brown_(missionary)"
+       ],
        "character_sheets": [
         {
          "kind": "pose",
@@ -22449,12 +21552,17 @@
       {
        "id": "miles-bronson",
        "name": "Miles Bronson",
+       "name_assamese": "মাইলছ ব্ৰনছন",
        "date_label": "1812–1883",
        "sort_year": 1812,
        "role": "American Baptist missionary",
-       "summary": "Missionary who compiled an Assamese–English dictionary.",
+       "summary": "American Baptist missionary who founded the Panbazar Baptist church in Guwahati (1845) and compiled A Dictionary in Assamese and English (1867).",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "portrait",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Miles_Bronson"
+       ],
        "character_sheets": [
         {
          "kind": "pose",
@@ -22518,9 +21626,14 @@
        "date_label": "1829–1859",
        "sort_year": 1829,
        "role": "Reformer and writer",
-       "summary": "Early Assamese reformer who pressed for the Assamese language in schools and courts.",
+       "summary": "Early Assamese reformer who argued for the Assamese language in schools and courts after Bengali replaced it in 1836; it was restored in 1873, after his death.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "portrait",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Anandaram_Dhekial_Phukan",
+        "https://en.wikipedia.org/wiki/Assamese_Language_Movement"
+       ],
        "character_sheets": [
         {
          "kind": "portrait",
@@ -22581,6 +21694,7 @@
        "role": "Freedom fighter",
        "summary": "Ahom noble who plotted against the East India Company and was executed in 1830.",
        "notes": "No authentic likeness established. Purandar Singha local generated sheet used ONLY for regional tailoring comparison; invented distinct face. Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29.",
+       "confidence": "medium",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -22601,12 +21715,18 @@
        "id": "hemchandra-baruah",
        "name": "Hemchandra Baruah",
        "name_assamese": "হেমচন্দ্ৰ বৰুৱা",
-       "date_label": "1835–1896",
+       "date_label": "1835–1896/97",
        "sort_year": 1835,
        "role": "Lexicographer and writer",
-       "summary": "Compiled the first major Assamese dictionary, Hemkosh, and a grammar.",
+       "summary": "Wrote the first Assamese grammar and compiled the Hemkosh, the first exhaustive Assamese dictionary, published posthumously in 1900.",
+       "notes": "Death year differs between sources (1896 or 1897); born 10 Dec 1835 at Rajabahar near Dergaon.",
+       "confidence": "medium",
        "status": "seed",
        "sheet_status": "portrait",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Hemchandra_Barua",
+        "https://en.wikipedia.org/wiki/Hemkosh"
+       ],
        "character_sheets": [
         {
          "kind": "portrait",
@@ -22688,9 +21808,14 @@
        "date_label": "1837–1894",
        "sort_year": 1837,
        "role": "Writer and reformer",
-       "summary": "Wrote the first Assamese biography and a history of Assam; a social reformer.",
+       "summary": "Writer and reformer: Ramnavami Natak (written 1857), the Assam Buranji (1887), and in 1879 a widow remarriage that stirred orthodox Assam; also wrote a biography of Anandaram Dhekial Phukan.",
+       "notes": "Birth year is given as 1834 or 1837 in different entries of the same source; 1837 kept. The biography of Anandaram Dhekial Phukan is not confirmed in the source fetched.",
+       "confidence": "medium",
        "status": "seed",
        "sheet_status": "portrait",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Gunabhiram_Barua"
+       ],
        "character_sheets": [
         {
          "kind": "portrait",
@@ -22751,6 +21876,7 @@
        "role": "Writer, called Sahityarathi",
        "summary": "Pioneering writer and satirist who shaped modern Assamese literature.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Commemorative painted portrait; unseen views and colours interpreted.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -22798,9 +21924,13 @@
        "date_label": "1871–1946",
        "sort_year": 1871,
        "role": "Writer and historian",
-       "summary": "Playwright and historian who wrote on Assamese literature and the Ahom period.",
+       "summary": "Playwright (Joymoti, Gadadhar, Lachit Borphukan) and historian; first president of the Asam Sahitya Sabha (Sivasagar session, 26 December 1917).",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "portrait",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Padmanath_Gohain_Baruah"
+       ],
        "character_sheets": [
         {
          "kind": "portrait",
@@ -22859,9 +21989,13 @@
        "date_label": "1872–1928",
        "sort_year": 1872,
        "role": "Scholar and editor",
-       "summary": "Scholar known for cataloguing old Assamese manuscripts.",
+       "summary": "Scholar and poet who helped publish the Hemkosh (1900), presided over the Asam Sahitya Sabha (Tezpur, 1920) and compiled the Descriptive Catalogue of Assamese Manuscripts, published after his death (1930).",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "portrait",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Hemchandra_Goswami"
+       ],
        "character_sheets": [
         {
          "kind": "portrait",
@@ -22944,6 +22078,7 @@
        "role": "Freedom fighter",
        "summary": "Veteran of the Quit India movement, killed at Behali in 1942.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Old reproduced memorial portrait; facial and costume reference, provenance not independently authenticated.",
+       "confidence": "medium",
        "status": "seed",
        "approx_dates": true,
        "sheet_status": "sheet",
@@ -22997,6 +22132,7 @@
        "role": "First Chief Minister of Assam",
        "summary": "Led Assam's Congress ministry from 1946 and resisted its grouping into Pakistan.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Reproduced portrait for facial features; unseen full-body views reconstructed.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -23046,6 +22182,7 @@
        "role": "Social reformer",
        "summary": "Pioneer of women's education and organising in Assam.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Commemorative India Post stamp; later-life face; no stamp graphics reproduced.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -23093,8 +22230,12 @@
        "sort_year": 1903,
        "role": "Poet, playwright and filmmaker",
        "summary": "Made Assam's first feature film, Joymoti, in 1935; composed the Rupkonwar songs.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "portrait",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Jyoti_Prasad_Agarwala"
+       ],
        "character_sheets": [
         {
          "kind": "portrait",
@@ -23199,6 +22340,7 @@
        "role": "Freedom fighter",
        "summary": "Executed by the British in 1943 for the Sarupathar derailment.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Reproduced historical portrait; unseen views and colour reconstructed.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -23250,8 +22392,12 @@
        "sort_year": 1909,
        "role": "Artist, poet and revolutionary",
        "summary": "Multi-talented cultural figure known as Kalaguru and a leader of the Left.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "portrait",
+       "sources": [
+        "https://en.wikipedia.org/wiki/Bishnu_Prasad_Rabha"
+       ],
        "character_sheets": [
         {
          "kind": "portrait",
@@ -23358,6 +22504,7 @@
        "role": "Freedom fighter",
        "summary": "Young Quit India martyr shot while leading a procession to Gohpur police station.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Modern memorial statue used for costume/posture; facial likeness approximate, no authentic portrait established.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -23408,6 +22555,7 @@
       {
        "id": "thomas-robertson",
        "name": "Thomas Campbell Robertson",
+       "name_assamese": "টমাছ কেম্পবেল ৰবাৰ্টছন",
        "date_label": "1833",
        "start_year": 1833,
        "end_year": 1833,
@@ -23457,6 +22605,7 @@
       {
        "id": "francis-jenkins",
        "name": "Captain Francis Jenkins",
+       "name_assamese": "কেপ্টেইন ফ্ৰান্সিছ জেংকিন্স",
        "date_label": "1835–1838",
        "start_year": 1835,
        "end_year": 1838,
@@ -23528,6 +22677,7 @@
        "role": "Singer, composer and filmmaker",
        "summary": "Singer and composer whose songs made Assam's culture known across India.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Photographic identity reference, elder years.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -23580,6 +22730,7 @@
        "role": "Chief Minister of Assam",
        "summary": "Chief Minister of Assam from 1950 to 1957.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Commemorative drawing; green tint not a clothing or skin-colour source.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -23606,6 +22757,7 @@
        "role": "President of India",
        "summary": "Assam politician who became the fifth President of India in 1974.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Official President of India photographic portrait; unseen views reconstructed.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -23654,6 +22806,7 @@
        "role": "Chief Minister of Assam",
        "summary": "Chief Minister of Assam from 1957 to 1970.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Reproduced portrait for identity and visible clothing; unseen views reconstructed.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -23703,6 +22856,7 @@
        "role": "Chief Minister of Assam",
        "summary": "Twice Chief Minister of Assam.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. Photographic identity/clothing reference; unseen views reconstructed.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -23729,6 +22883,7 @@
        "role": "Chief Minister of Assam",
        "summary": "Student leader of the Assam Movement who became Chief Minister at 33.",
        "notes": "Official Ministry of Culture2017 photograph via Wikimedia Commons; GODL-India attribution. Mature2017 sheet;1985 scenes age-adjusted. Visual reference attribution: Ministry of Culture, Government of India, GODL-India; derived illustration, no endorsement implied. Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
@@ -23802,6 +22957,7 @@
        "role": "Chief Minister of Assam",
        "summary": "Chief Minister of Assam for three terms from 2001 to 2016, the longest in the state's history.",
        "notes": "Generated artistic reconstruction, 2026-10-29; reference roles, historical uncertainties and prompt recorded in research/completion-2026-10-29. 2013 photographic identity/clothing reference; unseen views reconstructed.",
+       "confidence": "high",
        "status": "seed",
        "sheet_status": "sheet",
        "sources": [
