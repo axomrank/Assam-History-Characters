@@ -338,6 +338,7 @@ function limitOf(spec) {
   if (kind === 'ridge' && A.ridges[id]) return { line: A.ridges[id], name: id === 'patkai' ? 'Patkai ridge' : id };
   if (kind === 'place' && placeById[id] && placeById[id].geo) return { lon: placeById[id].geo[1], lat: placeById[id].geo[0], name: placeById[id].name };
   if (kind === 'lon') return { lon: Number(id), name: `${id}°E` };
+  if (kind === 'lat') return { lat: Number(id), name: `${id}°N` };
   return null;
 }
 /* value of the curve across the other axis: ax 0 = longitude at a latitude, ax 1 = latitude at a longitude; mean of nearby vertices, else the nearest end */
@@ -389,16 +390,17 @@ function viewMap(q) {
   const baseCache = {}, baseFor = polity => baseCache[polity] || (baseCache[polity] = Object.entries(mapGeo.a.districts)
     .filter(([id]) => !['karbi-anglong', 'west-karbi-anglong'].includes(id) && !(id === 'dima-hasao' && polity !== 'dimasa-kingdom') && !(['cachar', 'hailakandi', 'karimganj'].includes(id) && !['kamarupa', 'dimasa-kingdom'].includes(polity)))
     .flatMap(([, d]) => d.rings).map(ring).join(''));
+  const bangladesh = (mapGeo.nb.countries.Bangladesh || []).map(rg => clipBox(rg, 24.0, 26.8, 87.5, 92.6)).filter(x => x.length > 2).map(ring).join('');
   const geo = realms.map(r => {
     const w = limitOf(r.w), e = limitOf(r.e), n = limitOf(r.n), s = limitOf(r.s);
     if (!w && !e && !n && !s) return null;
-    const west = [], east = [], south = [], north = [];
+    const west = [], east = [], south = [], north = [], plainDefault = !s && ((w ? curveAt(w, 0, 26) : 99) < 90.4);
     for (let la = 22.6; la <= 29.1; la += 0.04) {
       const lw = w ? curveAt(w, 0, la) : e ? curveAt(e, 0, la) - 1.7 : lon0, le = e ? curveAt(e, 0, la) : w ? curveAt(w, 0, la) + 1.7 : lon1;
       west.push([la, lw]); east.push([la, le]);
     }
     const poly = [...west, ...east.reverse()];
-    for (let lo = 87.6; lo <= 98.4; lo += 0.03) { south.push([s ? curveAt(s, 1, lo) : 22, lo]); north.push([n ? curveAt(n, 1, lo) : 30, lo]);   /* overlap the river so no gap shows between the banks */ }
+    for (let lo = 87.6; lo <= 98.4; lo += 0.03) { south.push([s ? curveAt(s, 1, lo) : plainDefault ? 24.75 : 22, lo]); north.push([n ? curveAt(n, 1, lo) : 30, lo]);   /* overlap the river so no gap shows between the banks */ }
     const wLon = Math.min(...west.map(p => p[1]));
     const plain = (w ? curveAt(w, 0, 26) : 99) < 90.4 || (!w && e && curveAt(e, 0, 26) < 92);
     return { r, w, e, n, s, open: (!w || !e) && (w || e), plain, region: ring(poly), band: ring([...south, ...north.reverse()]), base: baseFor(r.polity),
@@ -413,7 +415,7 @@ function viewMap(q) {
     /* the north-bank and south-bank parts of one kingdom go in one group, so where they overlap along the river the colour is not doubled */
     const parts = [...drawn.reduce((m, [g, r]) => m.set(r.name, [...(m.get(r.name) || []), [g, r]]), new Map()).values()];
     $('mrealms').innerHTML = parts.map(ps => { const g0 = ps[0][0];
-      return `<g style="--mc:${g0.color}"><g class="mreg ${g0.open ? 'open' : ''}">${ps.map(([g, r]) => `<g clip-path="url(#cw-${esc(r.id)})"><g clip-path="url(#cb-${esc(r.id)})"><path class="mbase" d="${g.base}"/>${g.plain ? `<path class="mbase" d="${duars}"/>` : ''}</g></g>`).join('')}</g>${ps.flatMap(([g]) => [g.w, g.e]).map(l => l && l.line ? `<path class="mlim" d="${line(l.line)}"/>` : '').join('')}</g>`; }).join('');
+      return `<g style="--mc:${g0.color}"><g class="mreg ${g0.open ? 'open' : ''}">${ps.map(([g, r]) => `<g clip-path="url(#cw-${esc(r.id)})"><g clip-path="url(#cb-${esc(r.id)})"><path class="mbase" d="${g.base}"/>${g.plain ? `<path class="mbase" d="${duars}${bangladesh}"/>` : ''}</g></g>`).join('')}</g>${ps.flatMap(([g]) => [g.w, g.e]).map(l => l && l.line ? `<path class="mlim" d="${line(l.line)}"/>` : '').join('')}</g>`; }).join('');
     $('myear').textContent = y;
     /* one legend entry per kingdom and period: the north-bank and south-bank parts share a name and are listed together */
     const groups = [...act.reduce((m, [g, r]) => m.set(r.name, [...(m.get(r.name) || []), [g, r]]), new Map()).values()];
