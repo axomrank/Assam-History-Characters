@@ -36,7 +36,7 @@ CSV = ROOT / "data/assam_history.csv"
 COLS = ["type", "id", "name", "name_assamese", "period", "group", "date_label", "start_year", "end_year", "sort_year",
         "role", "summary", "notes", "tai_name", "hindu_name", "also_called", "relation", "fate", "consort", "marital_status",
         "ahom_king_no", "koch_no", "koch_branch", "confidence", "status", "approx_dates", "people", "main_people",
-        "collection", "character_sheets", "scene_image", "group_order", "sources", "places", "present_name", "location", "lat", "lon", "boundary", "sheet_brief"]
+        "collection", "character_sheets", "scene_image", "group_order", "sources", "places", "present_name", "location", "lat", "lon", "boundary", "sheet_brief", "limit_west", "limit_east"]
 FULL_KINDS = {"sheet", "turnaround", "face", "costume", "props", "palette"}
 
 
@@ -214,7 +214,7 @@ def main():
             if i not in place_ids: problems.append(f"realm {r['id']}: unknown place {i}")
         realms.append({k: v for k, v in {"id": r["id"], "name": r["name"], "polity": r["group"], "era": r["period"], "label": r["date_label"], "start": num(r["start_year"]),
                        "end": num(r["end_year"]), "desc": r["summary"], "bounds": r["boundary"], "note": r["notes"], "conf": r["confidence"], "src": src(r["sources"]),
-                       "places": lst(r["places"])}.items() if v not in ("", [], None)})
+                       "places": lst(r["places"]), "w": r["limit_west"], "e": r["limit_east"]}.items() if v not in ("", [], None)})
     site = {"eras": eras, "characters": chars, "scenes": scenes, "events": events, "places": places, "realms": realms, "src": list(src_index)}
     (ROOT / "data/site.js").write_text("window.SITE=" + json.dumps(site, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
 

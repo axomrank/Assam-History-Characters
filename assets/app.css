@@ -390,3 +390,17 @@ dialog#viewer.noimg .vfoot{max-height:45vh}
 .mdot:hover{fill:var(--haital)}
 .mlb{font-size:15px;fill:var(--ink);paint-order:stroke;stroke:var(--leaf);stroke-width:3px;pointer-events:none}
 #footLic{margin:.2em 0 0}
+
+/* kingdoms through time */
+.mtime{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin:14px 0 0;max-width:1000px}
+.mtime label{min-width:7.5em}.mtime b{font-size:1.2em}
+.mtime input[type=range]{flex:1 1 260px;accent-color:var(--hengul)}
+.mmarks{flex-basis:100%;display:flex;flex-wrap:wrap;gap:4px 8px}
+.mmarks button{font-size:.85rem;padding:2px 8px}
+.mrealm{fill:var(--dc);fill-opacity:.3;stroke:var(--dc);stroke-width:1;stroke-opacity:.6}
+.mrealm.open{fill-opacity:.12;stroke-dasharray:4 4}
+.mlim{fill:none;stroke:var(--dc);stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}
+.mleg{list-style:none;margin:16px 0 0;padding:0;max-width:1000px;display:grid;gap:8px}
+.mleg li{display:flex;gap:10px;align-items:flex-start;font-size:.95rem}
+.mleg .sw{flex:none;width:14px;height:14px;margin-top:5px;background:var(--dc);border-radius:2px;display:inline-block}
+.mleg small{color:var(--muted)}.mleg li.none{color:var(--muted)}
