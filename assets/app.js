@@ -384,6 +384,11 @@ function viewMap(q) {
   /* kingdoms through time: the land between the west and east limit curves (and the north and south ones), cut from the present Assam outline,
      or from Assam plus the north Bengal duars for the western kingdoms; the hill and plain edges are the modern Assam border */
   const duars = mapGeo.b.india.rings.map(rg => clipBox(rg, 25.4, 27.0, 87.5, 89.95)).filter(x => x.length > 2).map(ring).join('');
+  /* land of a kingdom = the present districts, less the hill districts (Karbi Anglong, West Karbi Anglong, and Dima Hasao except for the Dimasa)
+     and the Barak valley (except for Kamarupa and the Dimasa), which none of the valley kingdoms ruled */
+  const baseCache = {}, baseFor = polity => baseCache[polity] || (baseCache[polity] = Object.entries(mapGeo.a.districts)
+    .filter(([id]) => !['karbi-anglong', 'west-karbi-anglong'].includes(id) && !(id === 'dima-hasao' && polity !== 'dimasa-kingdom') && !(['cachar', 'hailakandi', 'karimganj'].includes(id) && !['kamarupa', 'dimasa-kingdom'].includes(polity)))
+    .flatMap(([, d]) => d.rings).map(ring).join(''));
   const geo = realms.map(r => {
     const w = limitOf(r.w), e = limitOf(r.e), n = limitOf(r.n), s = limitOf(r.s);
     if (!w && !e && !n && !s) return null;
@@ -396,7 +401,7 @@ function viewMap(q) {
     for (let lo = 87.6; lo <= 98.4; lo += 0.03) { south.push([s ? curveAt(s, 1, lo) : 22, lo]); north.push([n ? curveAt(n, 1, lo) : 30, lo]);   /* overlap the river so no gap shows between the banks */ }
     const wLon = Math.min(...west.map(p => p[1]));
     const plain = (w ? curveAt(w, 0, 26) : 99) < 90.4 || (!w && e && curveAt(e, 0, 26) < 92);
-    return { r, w, e, n, s, open: (!w || !e) && (w || e), plain, region: ring(poly), band: ring([...south, ...north.reverse()]),
+    return { r, w, e, n, s, open: (!w || !e) && (w || e), plain, region: ring(poly), band: ring([...south, ...north.reverse()]), base: baseFor(r.polity),
              color: realmColor(r) };
   });
   const yMin = 350, yMax = 1950, y0 = Math.min(yMax, Math.max(yMin, Number(st.y) || 1650));
@@ -408,7 +413,7 @@ function viewMap(q) {
     /* the north-bank and south-bank parts of one kingdom go in one group, so where they overlap along the river the colour is not doubled */
     const parts = [...drawn.reduce((m, [g, r]) => m.set(r.name, [...(m.get(r.name) || []), [g, r]]), new Map()).values()];
     $('mrealms').innerHTML = parts.map(ps => { const g0 = ps[0][0];
-      return `<g style="--mc:${g0.color}"><g class="mreg ${g0.open ? 'open' : ''}">${ps.map(([g, r]) => `<g clip-path="url(#cw-${esc(r.id)})"><g clip-path="url(#cb-${esc(r.id)})"><path class="mbase" d="${assam}"/>${g.plain ? `<path class="mbase" d="${duars}"/>` : ''}</g></g>`).join('')}</g>${ps.flatMap(([g]) => [g.w, g.e]).map(l => l && l.line ? `<path class="mlim" d="${line(l.line)}"/>` : '').join('')}</g>`; }).join('');
+      return `<g style="--mc:${g0.color}"><g class="mreg ${g0.open ? 'open' : ''}">${ps.map(([g, r]) => `<g clip-path="url(#cw-${esc(r.id)})"><g clip-path="url(#cb-${esc(r.id)})"><path class="mbase" d="${g.base}"/>${g.plain ? `<path class="mbase" d="${duars}"/>` : ''}</g></g>`).join('')}</g>${ps.flatMap(([g]) => [g.w, g.e]).map(l => l && l.line ? `<path class="mlim" d="${line(l.line)}"/>` : '').join('')}</g>`; }).join('');
     $('myear').textContent = y;
     /* one legend entry per kingdom and period: the north-bank and south-bank parts share a name and are listed together */
     const groups = [...act.reduce((m, [g, r]) => m.set(r.name, [...(m.get(r.name) || []), [g, r]]), new Map()).values()];
