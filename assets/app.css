@@ -383,8 +383,6 @@ dialog#viewer.noimg .vfoot{max-height:45vh}
 .mapfig{margin:20px 0 0;max-width:1000px}
 .mapfig svg{width:100%;height:auto;display:block;background:var(--leaf);border:1px solid var(--line)}
 .mapfig figcaption{color:var(--muted);font-size:.9rem;margin-top:8px}
-.mind{fill:var(--leaf2);stroke:var(--line);stroke-width:1}
-.mas{fill:var(--paper);stroke:var(--muted);stroke-width:1.2}
 .mrv{fill:none;stroke:var(--river);stroke-width:1.2;opacity:.7}.mrv.big{stroke-width:2.4}
 .mdot{fill:var(--hengul);stroke:var(--leaf);stroke-width:1.5;cursor:pointer}
 .mdot:hover{fill:var(--haital)}
@@ -397,12 +395,12 @@ dialog#viewer.noimg .vfoot{max-height:45vh}
 .mtime input[type=range]{flex:1 1 260px;accent-color:var(--hengul)}
 .mmarks{flex-basis:100%;display:flex;flex-wrap:wrap;gap:4px 8px}
 .mmarks button{font-size:.85rem;padding:2px 8px}
-.mreg{opacity:.32}.mreg.open{opacity:.13}
-.mbase{fill:var(--dc);stroke:none}
-.mlim{fill:none;stroke:var(--dc);stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}
+.mreg{opacity:.4}.mreg.open{opacity:.17}
+.mbase{fill:var(--mc);stroke:none}
+.mlim{fill:none;vector-effect:non-scaling-stroke;stroke:var(--mc);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .mleg{list-style:none;margin:16px 0 0;padding:0;max-width:1000px;display:grid;gap:8px}
 .mleg li{display:flex;gap:10px;align-items:flex-start;font-size:.95rem}
-.mleg .sw{flex:none;width:14px;height:14px;margin-top:5px;background:var(--dc);border-radius:2px;display:inline-block}
+.mleg .sw{flex:none;width:14px;height:14px;margin-top:5px;background:var(--mc);border-radius:2px;display:inline-block}
 .mleg small{color:var(--muted)}.mleg li.none{color:var(--muted)}
 
 /* map toggle pills */
@@ -412,3 +410,19 @@ dialog#viewer.noimg .vfoot{max-height:45vh}
 .pill small{opacity:.7}
 .pill[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink);text-decoration:none}
 .mapfig.no-rivers #mrivers,.mapfig.no-realms #mrealms,.mapfig.no-labels #mlabels{display:none}
+
+/* map page: white page, off-white map box, thin light boundary lines with no fill */
+body.mappage{--paper:#fff;--leaf:#faf8f2;--leaf2:#efebe0;--line:#dcd7c9;--ink:#1d1a14;--muted:#6b655a;--hengul:#b3261e;--river:#2f7fa3;--on-ink:#fff;--focus:#b3261e;color-scheme:light}
+.mapfig{position:relative}
+.mapfig svg{background:var(--leaf);border:1px solid var(--line);cursor:grab;touch-action:pan-y}
+.mapfig svg.panning{cursor:grabbing}
+#mbase path{fill:none;vector-effect:non-scaling-stroke;stroke-linejoin:round}
+.mdist{stroke:#d9d4c7;stroke-width:.5}
+.mstate{stroke:#bdb7a6;stroke-width:.8}
+.mnat{stroke:#a8a290;stroke-width:.8}
+.mrv{vector-effect:non-scaling-stroke;stroke-width:1.1;opacity:.75}.mrv.big{stroke-width:2}
+.mdot{stroke:#fff;stroke-width:1}
+.mlb{stroke:#fff}
+.mzoom{position:absolute;top:10px;right:10px;z-index:2;display:flex;flex-direction:column;gap:4px}
+.mzoom button{width:34px;height:34px;font:inherit;font-size:1.2rem;line-height:1;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:3px;cursor:pointer}
+.mzoom button:hover{background:var(--leaf2)}

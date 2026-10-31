@@ -43,7 +43,7 @@ const houseKey = () => `<ul class="hkey" aria-label="Dynasty colours">${HOUSES.m
 /* ---------- language ---------- */
 const STR = {
   en: {
-    brand:'Assam history sheets', home:'Home', characters:'Characters', kings:'Kings', map:'Map', mapLede:(n,m)=>`${n} places with a map point. ${m} more have no point yet.`, mapFail:'The map data could not be loaded.', mapKind:'Kind of place', mapAll:'All kinds', mapShow:'Show or hide on the map', mapLayers:'Layers', mapPlaces:'Places', mapAllOn:'Show all', mapNoPlaces:'Hide all places', pillRivers:'Rivers', pillRealms:'Kingdoms', pillLabels:'Names', pillCities:'Capitals and cities', pillTowns:'Towns and villages', pillFaith:'Temples and satras', pillSites:'Sites and monuments', pillWar:'Forts and battles', pillLand:'Regions, hills and waters', mapShown:n=>`${n} shown`, mapYear:'Year', mapPlay:'Play', mapPause:'Pause', mapW:'West', mapE:'East', mapN:'North', mapS:'South', mapNoLimit:'no limit named', mapNoDraw:'no limit named, not drawn', mapNoKingdom:'No kingdom in the record covers this year.', mapSchem:'Shaded kingdoms are schematic: the strip between the named boundary rivers or places, cut from the present Assam border (plus the north Bengal duars for the western kingdoms), so the hill and plain edges are today’s, not those of the time. Bangladesh, Bhutan and Arunachal are not shaded. A faint dashed edge means no limit was named on that side.', mapOff:l=>`Outside this view: ${l}.`, mapNote:'Points are approximate reference positions on modern geography, not surveyed locations or historical borders.', licence:'Licence and credits', footLic:'Non-commercial use only. Licence and credits', timeline:'Timeline', scenes:'Scenes', coverage:'Coverage', about:'About',
+    brand:'Assam history sheets', home:'Home', characters:'Characters', kings:'Kings', map:'Map', mapLede:(n,m)=>`${n} places with a map point. ${m} more have no point yet.`, mapFail:'The map data could not be loaded.', mapKind:'Kind of place', mapAll:'All kinds', mapShow:'Show or hide on the map', mapLayers:'Layers', mapPlaces:'Places', mapAllOn:'Show all', mapNoPlaces:'Hide all places', pillRivers:'Rivers', pillRealms:'Kingdoms', pillLabels:'Names', pillCities:'Capitals and cities', pillTowns:'Towns and villages', pillFaith:'Temples and satras', pillSites:'Sites and monuments', pillWar:'Forts and battles', pillLand:'Regions, hills and waters', mapShown:n=>`${n} shown`, mapZoomIn:'Zoom in', mapZoomOut:'Zoom out', mapZoomReset:'Reset view', mapHint:'Scroll to zoom, drag to pan, double-click to zoom in.', mapYear:'Year', mapPlay:'Play', mapPause:'Pause', mapW:'West', mapE:'East', mapN:'North', mapS:'South', mapNoLimit:'no limit named', mapNoDraw:'no limit named, not drawn', mapNoKingdom:'No kingdom in the record covers this year.', mapSchem:'Shaded kingdoms are schematic: the strip between the named boundary rivers or places, cut from the present Assam border (plus the north Bengal duars for the western kingdoms), so the hill and plain edges are today’s, not those of the time. Bangladesh, Bhutan and Arunachal are not shaded. A faint dashed edge means no limit was named on that side.', mapOff:l=>`Outside this view: ${l}.`, mapNote:'Points are approximate reference positions on modern geography, not surveyed locations or historical borders.', licence:'Licence and credits', footLic:'Non-commercial use only. Licence and credits', timeline:'Timeline', scenes:'Scenes', coverage:'Coverage', about:'About',
     h1:'The people of Assam’s history', h1sub:'Character sheets from Pushyavarman to Tarun Gogoi',
     lede:'Use them as reference images when you make AI art, video and books, so the same person looks the same in every scene.',
     span:(e, n)=>`${e} periods, ${n} people`,
@@ -80,7 +80,7 @@ const STR = {
     srSceneCount:n=>`${n} ${n === 1 ? 'scene' : 'scenes'}`, srCharCount:n=>`${n} ${n === 1 ? 'character' : 'characters'}`, srNoSheet:'No sheet yet', srMore:n=>`+${n}`,
   },
   as: {
-    brand:'অসম ইতিহাস চৰিত্ৰ-পত্ৰ', home:'ঘৰ', characters:'চৰিত্ৰ', kings:'ৰজাসকল', map:'মানচিত্ৰ', mapLede:(n,m)=>`${n}টা ঠাইৰ মানচিত্ৰ-বিন্দু আছে। আৰু ${m}টাৰ এতিয়াও নাই।`, mapFail:'মানচিত্ৰৰ তথ্য লোড কৰিব পৰা নগ’ল।', mapKind:'ঠাইৰ প্ৰকাৰ', mapAll:'সকলো প্ৰকাৰ', mapShow:'মানচিত্ৰত দেখুওৱা বা লুকুৱাওক', mapLayers:'স্তৰ', mapPlaces:'ঠাই', mapAllOn:'সকলো দেখুৱাওক', mapNoPlaces:'সকলো ঠাই লুকুৱাওক', pillRivers:'নদী', pillRealms:'ৰাজ্য', pillLabels:'নাম', pillCities:'ৰাজধানী আৰু নগৰ', pillTowns:'চহৰ আৰু গাঁও', pillFaith:'মন্দিৰ আৰু সত্ৰ', pillSites:'স্থান আৰু স্মাৰক', pillWar:'দুৰ্গ আৰু যুদ্ধক্ষেত্ৰ', pillLand:'অঞ্চল, পাহাৰ আৰু জল', mapShown:n=>`${n}টা দেখুওৱা হৈছে`, mapYear:'বৰ্ষ', mapPlay:'চলাওক', mapPause:'ৰখাওক', mapW:'পশ্চিম', mapE:'পূব', mapN:'উত্তৰ', mapS:'দক্ষিণ', mapNoLimit:'সীমা উল্লেখ নাই', mapNoDraw:'সীমা উল্লেখ নাই, আঁকা হোৱা নাই', mapNoKingdom:'এই বছৰটো নথিত থকা কোনো ৰাজ্যই সামৰা নাই।', mapSchem:'ছাঁ দিয়া ৰাজ্যবোৰ আনুমানিক: নাম থকা সীমা-নদী বা ঠাইৰ মাজৰ ফালি, ভাৰতৰ সীমাত কটা (বাংলাদেশ আৰু ভূটান ছাঁ দিয়া হোৱা নাই)।', mapOff:l=>`এই দৃশ্যৰ বাহিৰত: ${l}।`, mapNote:'বিন্দুবোৰ আধুনিক ভূগোলত আনুমানিক অৱস্থান; জৰীপ কৰা ঠাই বা ঐতিহাসিক সীমা নহয়।', licence:'অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', footLic:'কেৱল অবাণিজ্যিক ব্যৱহাৰৰ বাবে। অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', timeline:'সময়ৰেখা', scenes:'দৃশ্য', coverage:'অগ্ৰগতি', about:'আমাৰ বিষয়ে',
+    brand:'অসম ইতিহাস চৰিত্ৰ-পত্ৰ', home:'ঘৰ', characters:'চৰিত্ৰ', kings:'ৰজাসকল', map:'মানচিত্ৰ', mapLede:(n,m)=>`${n}টা ঠাইৰ মানচিত্ৰ-বিন্দু আছে। আৰু ${m}টাৰ এতিয়াও নাই।`, mapFail:'মানচিত্ৰৰ তথ্য লোড কৰিব পৰা নগ’ল।', mapKind:'ঠাইৰ প্ৰকাৰ', mapAll:'সকলো প্ৰকাৰ', mapShow:'মানচিত্ৰত দেখুওৱা বা লুকুৱাওক', mapLayers:'স্তৰ', mapPlaces:'ঠাই', mapAllOn:'সকলো দেখুৱাওক', mapNoPlaces:'সকলো ঠাই লুকুৱাওক', pillRivers:'নদী', pillRealms:'ৰাজ্য', pillLabels:'নাম', pillCities:'ৰাজধানী আৰু নগৰ', pillTowns:'চহৰ আৰু গাঁও', pillFaith:'মন্দিৰ আৰু সত্ৰ', pillSites:'স্থান আৰু স্মাৰক', pillWar:'দুৰ্গ আৰু যুদ্ধক্ষেত্ৰ', pillLand:'অঞ্চল, পাহাৰ আৰু জল', mapShown:n=>`${n}টা দেখুওৱা হৈছে`, mapZoomIn:'ডাঙৰ কৰক', mapZoomOut:'সৰু কৰক', mapZoomReset:'পুনৰ আৰম্ভ', mapHint:'স্ক্ৰল কৰি জুম কৰক, টানি লৈ যাওক, দুবাৰ ক্লিক কৰিলে ডাঙৰ হ’ব।', mapYear:'বৰ্ষ', mapPlay:'চলাওক', mapPause:'ৰখাওক', mapW:'পশ্চিম', mapE:'পূব', mapN:'উত্তৰ', mapS:'দক্ষিণ', mapNoLimit:'সীমা উল্লেখ নাই', mapNoDraw:'সীমা উল্লেখ নাই, আঁকা হোৱা নাই', mapNoKingdom:'এই বছৰটো নথিত থকা কোনো ৰাজ্যই সামৰা নাই।', mapSchem:'ছাঁ দিয়া ৰাজ্যবোৰ আনুমানিক: নাম থকা সীমা-নদী বা ঠাইৰ মাজৰ ফালি, ভাৰতৰ সীমাত কটা (বাংলাদেশ আৰু ভূটান ছাঁ দিয়া হোৱা নাই)।', mapOff:l=>`এই দৃশ্যৰ বাহিৰত: ${l}।`, mapNote:'বিন্দুবোৰ আধুনিক ভূগোলত আনুমানিক অৱস্থান; জৰীপ কৰা ঠাই বা ঐতিহাসিক সীমা নহয়।', licence:'অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', footLic:'কেৱল অবাণিজ্যিক ব্যৱহাৰৰ বাবে। অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', timeline:'সময়ৰেখা', scenes:'দৃশ্য', coverage:'অগ্ৰগতি', about:'আমাৰ বিষয়ে',
     h1:'অসমৰ ইতিহাসৰ মানুহ', h1sub:'পুষ্যবৰ্মাৰ পৰা তৰুণ গগৈলৈ চৰিত্ৰ-পত্ৰ', span:(e, n)=>`${e}টা যুগ, ${n} জন মানুহ`,
     lede:'অসমৰ ইতিহাসৰ মানুহবোৰৰ চৰিত্ৰ-পত্ৰ। এআই চিত্ৰ, ভিডিঅ’ আৰু কিতাপ বনাওঁতে ৰেফাৰেন্স হিচাপে ব্যৱহাৰ কৰক।',
     browse:'চৰিত্ৰবোৰ চাওক', seeScenes:'ঐতিহাসিক দৃশ্য চাওক',
@@ -316,6 +316,8 @@ function viewAbout() {
 
 /* ---------- map ---------- */
 let mapGeo = null;
+const POLITY_COLOR = { kamarupa: '#e11d48', 'kamarupa-pala': '#84cc16', kamata: '#9333ea', 'bengal-sultanate': '#eab308', 'koch-kingdom': '#f97316', 'koch-hajo': '#f97316', 'koch-bihar': '#f97316', 'mughal-kamrup': '#db2777', 'ahom-kingdom': '#2563eb', 'chutia-kingdom': '#16a34a', 'dimasa-kingdom': '#06b6d4' };
+const realmColor = r => r.id === 'kamarupa-pala' ? POLITY_COLOR['kamarupa-pala'] : (POLITY_COLOR[r.polity] || '#64748b');
 const POLITY_HOUSE = { kamarupa: 'varman', kamata: 'kamata', 'bengal-sultanate': 'foreign', 'koch-kingdom': 'koch', 'koch-hajo': 'koch', 'koch-bihar': 'koch', 'mughal-kamrup': 'foreign', 'ahom-kingdom': 'ahom', 'chutia-kingdom': 'chutia', 'dimasa-kingdom': 'dimasa' };
 const clipHP = (pts, axis, v, hi) => {
   const inside = p => hi ? p[axis] >= v : p[axis] <= v, out = [];
@@ -355,8 +357,8 @@ function viewMap(q) {
   const st = { hide: q.get('hide') || '', y: q.get('y') || '' };
   if (!mapGeo) {
     mapGeo = 'loading';
-    Promise.all(['data/maps/boundaries.json', 'data/maps/assam.json'].map(f => fetch(f).then(r => r.json())))
-      .then(([b, a]) => { mapGeo = { b, a }; })
+    Promise.all(['data/maps/boundaries.json', 'data/maps/assam.json', 'data/maps/neighbours.json'].map(f => fetch(f).then(r => r.json())))
+      .then(([b, a, nb]) => { mapGeo = { b, a, nb }; })
       .catch(() => { mapGeo = 'fail'; })
       .then(() => { if (parseHash().parts[0] === 'map') route(true); });
   }
@@ -371,6 +373,7 @@ function viewMap(q) {
   const ring = r => 'M' + r.map(([la, lo]) => X(lo) + ' ' + Y(la)).join('L') + 'Z';
   const line = pts => 'M' + pts.map(([la, lo]) => X(lo) + ' ' + Y(la)).join('L');
   const india = mapGeo.b.india.rings.map(ring).join(''), assam = mapGeo.b.assam.rings.map(ring).join('');
+  const districts = Object.values(mapGeo.a.districts).flatMap(d => d.rings).map(ring).join(''), neighbours = Object.values(mapGeo.nb.countries).flat().map(ring).join('');
   const riverPlace = { brahmaputra: 'brahmaputra', kapili: 'kopili', kolong: 'kolong', manas: 'manas', puthimari: 'barnadi', dikhou: 'dikhou', dihing: 'dihing', subansiri: 'subansiri', dibang: 'dibang', lohit: 'lohit', dhansiri: 'dhansiri', 'teesta-karatoya': 'karatoya', sisi: 'sisi' };
   const rivers = Object.entries(mapGeo.a.rivers).map(([id, r]) => { const path = `<path class="mrv ${id === 'brahmaputra' ? 'big' : ''}" d="${line(r.pts)}"><title>${esc(r.name)}</title></path>`;
     return placeById[riverPlace[id]] ? `<a href="${placeHref(riverPlace[id])}">${path}</a>` : path; }).join('');
@@ -394,7 +397,7 @@ function viewMap(q) {
     const wLon = Math.min(...west.map(p => p[1]));
     const plain = (w ? curveAt(w, 0, 26) : 99) < 90.4 || (!w && e && curveAt(e, 0, 26) < 92);
     return { r, w, e, n, s, open: (!w || !e) && (w || e), plain, region: ring(poly), band: ring([...south, ...north.reverse()]),
-             house: r.id === 'kamarupa-pala' ? 'pala' : (POLITY_HOUSE[r.polity] || 'foreign') };
+             color: realmColor(r) };
   });
   const yMin = 350, yMax = 1950, y0 = Math.min(yMax, Math.max(yMin, Number(st.y) || 1650));
   const limName = (l, none) => l ? l.name : none;
@@ -402,11 +405,11 @@ function viewMap(q) {
     const act = geo.map((g, i) => [g, realms[i]]).filter(([g, r]) => r.start <= y && y <= (r.end ?? r.start));
     const drawn = act.filter(([g]) => g);
     $('mdefs').innerHTML = drawn.map(([g, r]) => `<clipPath id="cw-${esc(r.id)}"><path d="${g.region}"/></clipPath><clipPath id="cb-${esc(r.id)}"><path d="${g.band}"/></clipPath>`).join('');
-    $('mrealms').innerHTML = drawn.map(([g, r]) => `<g class="hh h-${g.house}"><g class="mreg ${g.open ? 'open' : ''}"><g clip-path="url(#cw-${esc(r.id)})"><g clip-path="url(#cb-${esc(r.id)})"><path class="mbase" d="${assam}"/>${g.plain ? `<path class="mbase" d="${duars}"/>` : ''}</g></g></g>${[g.w, g.e, g.n, g.s].map(l => l && l.line ? `<path class="mlim" d="${line(l.line)}"/>` : '').join('')}</g>`).join('');
+    $('mrealms').innerHTML = drawn.map(([g, r]) => `<g style="--mc:${g.color}"><g class="mreg ${g.open ? 'open' : ''}"><g clip-path="url(#cw-${esc(r.id)})"><g clip-path="url(#cb-${esc(r.id)})"><path class="mbase" d="${assam}"/>${g.plain ? `<path class="mbase" d="${duars}"/>` : ''}</g></g></g>${[g.w, g.e, g.n, g.s].map(l => l && l.line ? `<path class="mlim" d="${line(l.line)}"/>` : '').join('')}</g>`).join('');
     $('myear').textContent = y;
     $('mleg').innerHTML = act.length ? act.map(([g, r]) => {
       const lims = g ? [['mapW', g.w], ['mapE', g.e], ['mapN', g.n], ['mapS', g.s]].filter(([k, l]) => l || k === 'mapW' || k === 'mapE').map(([k, l]) => `${t(k)}: ${limName(l, t('mapNoLimit'))}`).join(' · ') : t('mapNoDraw');
-      return `<li class="hh h-${g ? g.house : 'foreign'}"><i class="sw"></i><div><b>${esc(r.name)}</b> <small>${esc(r.label)}</small><br><small>${esc(lims)}</small> · <a href="${placeHref(r.polity)}">${esc((placeById[r.polity] || { name: r.polity }).name)}</a></div></li>`; }).join('') : `<li class="none">${esc(t('mapNoKingdom'))}</li>`;
+      return `<li style="--mc:${g ? g.color : realmColor(r)}"><i class="sw"></i><div><b>${esc(r.name)}</b> <small>${esc(r.label)}</small><br><small>${esc(lims)}</small> · <a href="${placeHref(r.polity)}">${esc((placeById[r.polity] || { name: r.polity }).name)}</a></div></li>`; }).join('') : `<li class="none">${esc(t('mapNoKingdom'))}</li>`;
     st.y = String(y); setQuery('/map', st);
   };
   setTimeout(() => {
@@ -425,6 +428,30 @@ function viewMap(q) {
     $('mall').onclick = () => { st.hide = ''; apply(); };
     $('mnone').onclick = () => { st.hide = PILLS.map(p => p[0]).join(','); apply(); };
     apply();
+    const svg = fig.querySelector('svg'), vb = { x: 0, y: 0, w: W, h: H }, circles = [...svg.querySelectorAll('.mdot')], texts = [...svg.querySelectorAll('.mlb')];
+    const setVB = () => {
+      svg.setAttribute('viewBox', `${vb.x.toFixed(1)} ${vb.y.toFixed(1)} ${vb.w.toFixed(1)} ${vb.h.toFixed(1)}`);
+      const k = Math.max(vb.w / W, 0.12); circles.forEach(c => c.setAttribute('r', (5 * Math.sqrt(k)).toFixed(2))); texts.forEach(x => x.setAttribute('font-size', (15 * Math.sqrt(k)).toFixed(1)));
+    };
+    const at = (cx, cy) => { const r = svg.getBoundingClientRect(); return { x: vb.x + (cx - r.left) / r.width * vb.w, y: vb.y + (cy - r.top) / r.height * vb.h }; };
+    const zoom = (f, p) => {
+      p = p || { x: vb.x + vb.w / 2, y: vb.y + vb.h / 2 };
+      const nw = Math.min(W, Math.max(W / 24, vb.w * f)), nh = nw * H / W, rx = (p.x - vb.x) / vb.w, ry = (p.y - vb.y) / vb.h;
+      vb.w = nw; vb.h = nh; vb.x = Math.min(W - nw, Math.max(0, p.x - rx * nw)); vb.y = Math.min(H - nh, Math.max(0, p.y - ry * nh)); setVB();
+    };
+    svg.addEventListener('wheel', e => { e.preventDefault(); zoom(e.deltaY < 0 ? 0.8 : 1.25, at(e.clientX, e.clientY)); }, { passive: false });
+    $('mzin').onclick = () => zoom(0.7); $('mzout').onclick = () => zoom(1 / 0.7); $('mzreset').onclick = () => { vb.x = vb.y = 0; vb.w = W; vb.h = H; setVB(); };
+    svg.addEventListener('dblclick', e => zoom(0.5, at(e.clientX, e.clientY)));
+    let drag = null, moved = false;
+    svg.addEventListener('pointerdown', e => { if (e.pointerType === 'mouse' && e.button === 0) { drag = { cx: e.clientX, cy: e.clientY, x: vb.x, y: vb.y }; moved = false; } });
+    svg.addEventListener('pointermove', e => {
+      if (!drag) return; const r = svg.getBoundingClientRect(), dx = e.clientX - drag.cx, dy = e.clientY - drag.cy;
+      if (!moved && Math.hypot(dx, dy) < 5) return; moved = true; svg.classList.add('panning');
+      vb.x = Math.min(W - vb.w, Math.max(0, drag.x - dx / r.width * vb.w)); vb.y = Math.min(H - vb.h, Math.max(0, drag.y - dy / r.height * vb.h)); setVB();
+    });
+    const end = () => { drag = null; svg.classList.remove('panning'); };
+    svg.addEventListener('pointerup', end); svg.addEventListener('pointerleave', end);
+    svg.addEventListener('click', e => { if (moved) { e.preventDefault(); e.stopPropagation(); moved = false; } }, true);
     const rng = $('mrange'); paint(y0);
     rng.oninput = () => paint(Number(rng.value));
     document.querySelectorAll('[data-myear]').forEach(b => b.onclick = () => { rng.value = b.dataset.myear; paint(Number(rng.value)); });
@@ -442,8 +469,8 @@ function viewMap(q) {
     <button type="button" class="quiet" id="mall">${esc(t('mapAllOn'))}</button><button type="button" class="quiet" id="mnone">${esc(t('mapNoPlaces'))}</button><span class="count" id="mshown"></span></div>
     <div class="mtime"><label for="mrange">${esc(t('mapYear'))} <b id="myear">${y0}</b></label><input type="range" id="mrange" min="${yMin}" max="${yMax}" step="1" value="${y0}"><button type="button" id="mplay" class="btn">${esc(t('mapPlay'))}</button>
     <div class="mmarks">${marks.map(m => `<button type="button" class="quiet" data-myear="${m}">${m}</button>`).join('')}</div></div>
-    <figure class="mapfig"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t('map'))}"><path class="mind" d="${india}"/><path class="mas" d="${assam}"/><defs id="mdefs"></defs><g id="mrealms"></g><g id="mrivers">${rivers}</g><g id="mdots">${dots}</g><g id="mlabels">${labels}</g></svg>
-    <figcaption>${esc(t('mapNote'))}${off.length ? ' ' + esc(t('mapOff', off.map(p => p.name).join(', '))) : ''} ${esc(t('mapSchem'))} <a href="data/maps/README.md">data/maps</a></figcaption></figure>
+    <figure class="mapfig"><div class="mzoom"><button type="button" id="mzin" aria-label="${esc(t('mapZoomIn'))}">+</button><button type="button" id="mzout" aria-label="${esc(t('mapZoomOut'))}">−</button><button type="button" id="mzreset" aria-label="${esc(t('mapZoomReset'))}">⤢</button></div><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t('map'))}"><g id="mbase"><path class="mdist" d="${districts}"/><path class="mnat" d="${neighbours}"/><path class="mnat" d="${india}"/><path class="mstate" d="${assam}"/></g><defs id="mdefs"></defs><g id="mrealms"></g><g id="mrivers">${rivers}</g><g id="mdots">${dots}</g><g id="mlabels">${labels}</g></svg>
+    <figcaption>${esc(t('mapHint'))} ${esc(t('mapNote'))}${off.length ? ' ' + esc(t('mapOff', off.map(p => p.name).join(', '))) : ''} ${esc(t('mapSchem'))} <a href="data/maps/README.md">data/maps</a></figcaption></figure>
     <ul class="mleg" id="mleg" aria-live="polite"></ul>`;
 }
 
@@ -733,6 +760,7 @@ function route(keepScroll) {
   else if (top === 'about') { html = viewAbout(); title = t('about'); }
   else if (top === 'search') { html = viewSearch(q.get('q') || ''); title = t('searchLabel'); active = 'search'; }
   else { html = viewHome(); active = ''; }
+  document.body.classList.toggle('mappage', top === 'map');
   setNav(active); main.innerHTML = html; document.title = title === t('brand') ? title : `${title}, ${t('brand')}`;
   if (top === 'search') { if (document.activeElement !== sIn) sIn.value = q.get('q') || ''; openSearch(false); } else closeSearch();
   if (!route.first && keepScroll !== true) window.scrollTo(0, 0); route.first = false;
