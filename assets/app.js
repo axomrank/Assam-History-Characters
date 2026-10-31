@@ -316,7 +316,7 @@ function viewAbout() {
 
 /* ---------- map ---------- */
 let mapGeo = null;
-const POLITY_COLOR = { kamarupa: '#e11d48', 'kamarupa-pala': '#84cc16', kamata: '#9333ea', 'bengal-sultanate': '#eab308', 'koch-kingdom': '#f97316', 'koch-hajo': '#f97316', 'koch-bihar': '#f97316', 'mughal-kamrup': '#db2777', 'ahom-kingdom': '#2563eb', 'chutia-kingdom': '#16a34a', 'dimasa-kingdom': '#06b6d4' };
+const POLITY_COLOR = { kamarupa: '#e11d48', 'kamarupa-pala': '#84cc16', kamata: '#9333ea', 'bengal-sultanate': '#eab308', 'koch-kingdom': '#f97316', 'koch-hajo': '#f97316', 'koch-bihar': '#f97316', 'mughal-kamrup': '#db2777', 'ahom-kingdom': '#2563eb', 'chutia-kingdom': '#16a34a', 'dimasa-kingdom': '#92400e' };
 const realmColor = r => r.id === 'kamarupa-pala' ? POLITY_COLOR['kamarupa-pala'] : (POLITY_COLOR[r.polity] || '#64748b');
 const POLITY_HOUSE = { kamarupa: 'varman', kamata: 'kamata', 'bengal-sultanate': 'foreign', 'koch-kingdom': 'koch', 'koch-hajo': 'koch', 'koch-bihar': 'koch', 'mughal-kamrup': 'foreign', 'ahom-kingdom': 'ahom', 'chutia-kingdom': 'chutia', 'dimasa-kingdom': 'dimasa' };
 const clipHP = (pts, axis, v, hi) => {
