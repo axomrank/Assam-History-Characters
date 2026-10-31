@@ -24016,7 +24016,7 @@
    ]
   },
   {
-   "id": "asurar-ali-1639",
+   "id": "asurar-ali-1639-north",
    "name": "The Treaty of Asurar Ali boundary",
    "kingdom": "mughal-kamrup",
    "period": "ahom",
@@ -24024,8 +24024,32 @@
    "start_year": 1639,
    "end_year": 1662,
    "summary": "After the Mughal-Ahom war, the Barnadi on the north bank and Asurar Ali on the south bank marked the limit; the Ahom king recognised Mughal supremacy in Kamrup and the Mughals held western Assam from Guwahati to the Manas.",
-   "boundary": "North bank: Barnadi river | South bank: Asurar Ali (a causeway at Guwahati, believed to be Rajgarh Road); the Ahom-Mughal conflicts article gives the Kalang instead",
+   "boundary": "West: Sankosh river | East (north bank): the Barnadi, east of which the Mughals gave up their claims | South: the Brahmaputra",
    "notes": "The two Wikipedia articles disagree on the southern mark (Asurar Ali vs Kalang). Mir Jumla's advance in 1662 was measured against this line.",
+   "confidence": "medium",
+   "places": [
+    "barnadi",
+    "asurar-ali",
+    "kolong",
+    "guwahati",
+    "manas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Asurar_Ali",
+    "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
+   ]
+  },
+  {
+   "id": "asurar-ali-1639-south",
+   "name": "The Treaty of Asurar Ali boundary",
+   "kingdom": "mughal-kamrup",
+   "period": "ahom",
+   "date_label": "February 1639",
+   "start_year": 1639,
+   "end_year": 1662,
+   "summary": "After the Mughal-Ahom war, the Barnadi on the north bank and Asurar Ali on the south bank marked the limit; the Ahom king recognised Mughal supremacy in Kamrup and the Mughals held western Assam from Guwahati to the Manas.",
+   "boundary": "West: Sankosh river | East (south bank): the Kalang (Kolong), beyond which the Mughals gave up their claims (the causeway of Asurar Ali at Guwahati in another account) | North: the Brahmaputra",
+   "notes": "The two Wikipedia articles disagree on the southern mark (Asurar Ali vs Kalang). Mir Jumla's advance in 1662 was measured against this line. Bank split: the treaty gave the Mughals the north bank up to the Barnadi and the south bank up to the Kalang, mirroring the Ahom rows.",
    "confidence": "medium",
    "places": [
     "barnadi",

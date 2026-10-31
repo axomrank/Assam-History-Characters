@@ -343,7 +343,7 @@ function limitOf(spec) {
 /* value of the curve across the other axis: ax 0 = longitude at a latitude, ax 1 = latitude at a longitude; mean of nearby vertices, else the nearest end */
 function curveAt(l, ax, v) {
   if (!l.line) return ax === 0 ? l.lon : (l.lat ?? l.lon);
-  const k = ax === 0 ? 0 : 1, o = 1 - k, near = l.line.filter(p => Math.abs(p[k] - v) <= 0.2);
+  const k = ax === 0 ? 0 : 1, o = 1 - k, near = l.line.filter(p => Math.abs(p[k] - v) <= (ax === 1 ? 0.08 : 0.2));
   const use = near.length ? near : [l.line.reduce((b, p) => Math.abs(p[k] - v) < Math.abs(b[k] - v) ? p : b)];
   return use.reduce((s, p) => s + p[o], 0) / use.length;
 }
@@ -393,7 +393,7 @@ function viewMap(q) {
       west.push([la, lw]); east.push([la, le]);
     }
     const poly = [...west, ...east.reverse()];
-    for (let lo = 87.6; lo <= 98.4; lo += 0.05) { south.push([s ? curveAt(s, 1, lo) - 0.07 : 22, lo]); north.push([n ? curveAt(n, 1, lo) + 0.07 : 30, lo]);   /* overlap the river so no gap shows between the banks */ }
+    for (let lo = 87.6; lo <= 98.4; lo += 0.03) { south.push([s ? curveAt(s, 1, lo) : 22, lo]); north.push([n ? curveAt(n, 1, lo) : 30, lo]);   /* overlap the river so no gap shows between the banks */ }
     const wLon = Math.min(...west.map(p => p[1]));
     const plain = (w ? curveAt(w, 0, 26) : 99) < 90.4 || (!w && e && curveAt(e, 0, 26) < 92);
     return { r, w, e, n, s, open: (!w || !e) && (w || e), plain, region: ring(poly), band: ring([...south, ...north.reverse()]),
@@ -405,7 +405,10 @@ function viewMap(q) {
     const act = geo.map((g, i) => [g, realms[i]]).filter(([g, r]) => r.start <= y && y <= (r.end ?? r.start));
     const drawn = act.filter(([g]) => g);
     $('mdefs').innerHTML = drawn.map(([g, r]) => `<clipPath id="cw-${esc(r.id)}"><path d="${g.region}"/></clipPath><clipPath id="cb-${esc(r.id)}"><path d="${g.band}"/></clipPath>`).join('');
-    $('mrealms').innerHTML = drawn.map(([g, r]) => `<g style="--mc:${g.color}"><g class="mreg ${g.open ? 'open' : ''}"><g clip-path="url(#cw-${esc(r.id)})"><g clip-path="url(#cb-${esc(r.id)})"><path class="mbase" d="${assam}"/>${g.plain ? `<path class="mbase" d="${duars}"/>` : ''}</g></g></g>${[g.w, g.e].map(l => l && l.line ? `<path class="mlim" d="${line(l.line)}"/>` : '').join('')}</g>`).join('');
+    /* the north-bank and south-bank parts of one kingdom go in one group, so where they overlap along the river the colour is not doubled */
+    const parts = [...drawn.reduce((m, [g, r]) => m.set(r.name, [...(m.get(r.name) || []), [g, r]]), new Map()).values()];
+    $('mrealms').innerHTML = parts.map(ps => { const g0 = ps[0][0];
+      return `<g style="--mc:${g0.color}"><g class="mreg ${g0.open ? 'open' : ''}">${ps.map(([g, r]) => `<g clip-path="url(#cw-${esc(r.id)})"><g clip-path="url(#cb-${esc(r.id)})"><path class="mbase" d="${assam}"/>${g.plain ? `<path class="mbase" d="${duars}"/>` : ''}</g></g>`).join('')}</g>${ps.flatMap(([g]) => [g.w, g.e]).map(l => l && l.line ? `<path class="mlim" d="${line(l.line)}"/>` : '').join('')}</g>`; }).join('');
     $('myear').textContent = y;
     /* one legend entry per kingdom and period: the north-bank and south-bank parts share a name and are listed together */
     const groups = [...act.reduce((m, [g, r]) => m.set(r.name, [...(m.get(r.name) || []), [g, r]]), new Map()).values()];
