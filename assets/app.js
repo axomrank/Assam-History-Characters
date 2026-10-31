@@ -43,7 +43,7 @@ const houseKey = () => `<ul class="hkey" aria-label="Dynasty colours">${HOUSES.m
 /* ---------- language ---------- */
 const STR = {
   en: {
-    brand:'Assam history sheets', home:'Home', characters:'Characters', kings:'Kings', map:'Map', mapLede:(n,m)=>`${n} places with a map point. ${m} more have no point yet.`, mapFail:'The map data could not be loaded.', mapKind:'Kind of place', mapAll:'All kinds', mapShown:n=>`${n} shown`, mapYear:'Year', mapPlay:'Play', mapPause:'Pause', mapW:'West', mapE:'East', mapN:'North', mapS:'South', mapNoLimit:'no limit named', mapNoDraw:'no limit named, not drawn', mapNoKingdom:'No kingdom in the record covers this year.', mapSchem:'Shaded kingdoms are schematic: the strip between the named boundary rivers or places, cut from the present Assam border (plus the north Bengal duars for the western kingdoms), so the hill and plain edges are today’s, not those of the time. Bangladesh, Bhutan and Arunachal are not shaded. A faint dashed edge means no limit was named on that side.', mapOff:l=>`Outside this view: ${l}.`, mapNote:'Points are approximate reference positions on modern geography, not surveyed locations or historical borders.', licence:'Licence and credits', footLic:'Non-commercial use only. Licence and credits', timeline:'Timeline', scenes:'Scenes', coverage:'Coverage', about:'About',
+    brand:'Assam history sheets', home:'Home', characters:'Characters', kings:'Kings', map:'Map', mapLede:(n,m)=>`${n} places with a map point. ${m} more have no point yet.`, mapFail:'The map data could not be loaded.', mapKind:'Kind of place', mapAll:'All kinds', mapShow:'Show or hide on the map', mapLayers:'Layers', mapPlaces:'Places', mapAllOn:'Show all', mapNoPlaces:'Hide all places', pillRivers:'Rivers', pillRealms:'Kingdoms', pillLabels:'Names', pillCities:'Capitals and cities', pillTowns:'Towns and villages', pillFaith:'Temples and satras', pillSites:'Sites and monuments', pillWar:'Forts and battles', pillLand:'Regions, hills and waters', mapShown:n=>`${n} shown`, mapYear:'Year', mapPlay:'Play', mapPause:'Pause', mapW:'West', mapE:'East', mapN:'North', mapS:'South', mapNoLimit:'no limit named', mapNoDraw:'no limit named, not drawn', mapNoKingdom:'No kingdom in the record covers this year.', mapSchem:'Shaded kingdoms are schematic: the strip between the named boundary rivers or places, cut from the present Assam border (plus the north Bengal duars for the western kingdoms), so the hill and plain edges are today’s, not those of the time. Bangladesh, Bhutan and Arunachal are not shaded. A faint dashed edge means no limit was named on that side.', mapOff:l=>`Outside this view: ${l}.`, mapNote:'Points are approximate reference positions on modern geography, not surveyed locations or historical borders.', licence:'Licence and credits', footLic:'Non-commercial use only. Licence and credits', timeline:'Timeline', scenes:'Scenes', coverage:'Coverage', about:'About',
     h1:'The people of Assam’s history', h1sub:'Character sheets from Pushyavarman to Tarun Gogoi',
     lede:'Use them as reference images when you make AI art, video and books, so the same person looks the same in every scene.',
     span:(e, n)=>`${e} periods, ${n} people`,
@@ -80,7 +80,7 @@ const STR = {
     srSceneCount:n=>`${n} ${n === 1 ? 'scene' : 'scenes'}`, srCharCount:n=>`${n} ${n === 1 ? 'character' : 'characters'}`, srNoSheet:'No sheet yet', srMore:n=>`+${n}`,
   },
   as: {
-    brand:'অসম ইতিহাস চৰিত্ৰ-পত্ৰ', home:'ঘৰ', characters:'চৰিত্ৰ', kings:'ৰজাসকল', map:'মানচিত্ৰ', mapLede:(n,m)=>`${n}টা ঠাইৰ মানচিত্ৰ-বিন্দু আছে। আৰু ${m}টাৰ এতিয়াও নাই।`, mapFail:'মানচিত্ৰৰ তথ্য লোড কৰিব পৰা নগ’ল।', mapKind:'ঠাইৰ প্ৰকাৰ', mapAll:'সকলো প্ৰকাৰ', mapShown:n=>`${n}টা দেখুওৱা হৈছে`, mapYear:'বৰ্ষ', mapPlay:'চলাওক', mapPause:'ৰখাওক', mapW:'পশ্চিম', mapE:'পূব', mapN:'উত্তৰ', mapS:'দক্ষিণ', mapNoLimit:'সীমা উল্লেখ নাই', mapNoDraw:'সীমা উল্লেখ নাই, আঁকা হোৱা নাই', mapNoKingdom:'এই বছৰটো নথিত থকা কোনো ৰাজ্যই সামৰা নাই।', mapSchem:'ছাঁ দিয়া ৰাজ্যবোৰ আনুমানিক: নাম থকা সীমা-নদী বা ঠাইৰ মাজৰ ফালি, ভাৰতৰ সীমাত কটা (বাংলাদেশ আৰু ভূটান ছাঁ দিয়া হোৱা নাই)।', mapOff:l=>`এই দৃশ্যৰ বাহিৰত: ${l}।`, mapNote:'বিন্দুবোৰ আধুনিক ভূগোলত আনুমানিক অৱস্থান; জৰীপ কৰা ঠাই বা ঐতিহাসিক সীমা নহয়।', licence:'অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', footLic:'কেৱল অবাণিজ্যিক ব্যৱহাৰৰ বাবে। অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', timeline:'সময়ৰেখা', scenes:'দৃশ্য', coverage:'অগ্ৰগতি', about:'আমাৰ বিষয়ে',
+    brand:'অসম ইতিহাস চৰিত্ৰ-পত্ৰ', home:'ঘৰ', characters:'চৰিত্ৰ', kings:'ৰজাসকল', map:'মানচিত্ৰ', mapLede:(n,m)=>`${n}টা ঠাইৰ মানচিত্ৰ-বিন্দু আছে। আৰু ${m}টাৰ এতিয়াও নাই।`, mapFail:'মানচিত্ৰৰ তথ্য লোড কৰিব পৰা নগ’ল।', mapKind:'ঠাইৰ প্ৰকাৰ', mapAll:'সকলো প্ৰকাৰ', mapShow:'মানচিত্ৰত দেখুওৱা বা লুকুৱাওক', mapLayers:'স্তৰ', mapPlaces:'ঠাই', mapAllOn:'সকলো দেখুৱাওক', mapNoPlaces:'সকলো ঠাই লুকুৱাওক', pillRivers:'নদী', pillRealms:'ৰাজ্য', pillLabels:'নাম', pillCities:'ৰাজধানী আৰু নগৰ', pillTowns:'চহৰ আৰু গাঁও', pillFaith:'মন্দিৰ আৰু সত্ৰ', pillSites:'স্থান আৰু স্মাৰক', pillWar:'দুৰ্গ আৰু যুদ্ধক্ষেত্ৰ', pillLand:'অঞ্চল, পাহাৰ আৰু জল', mapShown:n=>`${n}টা দেখুওৱা হৈছে`, mapYear:'বৰ্ষ', mapPlay:'চলাওক', mapPause:'ৰখাওক', mapW:'পশ্চিম', mapE:'পূব', mapN:'উত্তৰ', mapS:'দক্ষিণ', mapNoLimit:'সীমা উল্লেখ নাই', mapNoDraw:'সীমা উল্লেখ নাই, আঁকা হোৱা নাই', mapNoKingdom:'এই বছৰটো নথিত থকা কোনো ৰাজ্যই সামৰা নাই।', mapSchem:'ছাঁ দিয়া ৰাজ্যবোৰ আনুমানিক: নাম থকা সীমা-নদী বা ঠাইৰ মাজৰ ফালি, ভাৰতৰ সীমাত কটা (বাংলাদেশ আৰু ভূটান ছাঁ দিয়া হোৱা নাই)।', mapOff:l=>`এই দৃশ্যৰ বাহিৰত: ${l}।`, mapNote:'বিন্দুবোৰ আধুনিক ভূগোলত আনুমানিক অৱস্থান; জৰীপ কৰা ঠাই বা ঐতিহাসিক সীমা নহয়।', licence:'অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', footLic:'কেৱল অবাণিজ্যিক ব্যৱহাৰৰ বাবে। অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', timeline:'সময়ৰেখা', scenes:'দৃশ্য', coverage:'অগ্ৰগতি', about:'আমাৰ বিষয়ে',
     h1:'অসমৰ ইতিহাসৰ মানুহ', h1sub:'পুষ্যবৰ্মাৰ পৰা তৰুণ গগৈলৈ চৰিত্ৰ-পত্ৰ', span:(e, n)=>`${e}টা যুগ, ${n} জন মানুহ`,
     lede:'অসমৰ ইতিহাসৰ মানুহবোৰৰ চৰিত্ৰ-পত্ৰ। এআই চিত্ৰ, ভিডিঅ’ আৰু কিতাপ বনাওঁতে ৰেফাৰেন্স হিচাপে ব্যৱহাৰ কৰক।',
     browse:'চৰিত্ৰবোৰ চাওক', seeScenes:'ঐতিহাসিক দৃশ্য চাওক',
@@ -345,8 +345,14 @@ function curveAt(l, ax, v) {
   const use = near.length ? near : [l.line.reduce((b, p) => Math.abs(p[k] - v) < Math.abs(b[k] - v) ? p : b)];
   return use.reduce((s, p) => s + p[o], 0) / use.length;
 }
+/* toggle pills: each place kind belongs to one group; the layers (rivers, kingdoms, labels) are pills too */
+const PILLS = [['cities', 'pillCities', ['Capital', 'City']], ['towns', 'pillTowns', ['Town', 'Village', 'Settlement']], ['faith', 'pillFaith', ['Temple', 'Monastery', 'Pilgrim site']],
+  ['sites', 'pillSites', ['Monument', 'Archaeological site', 'Inscription findspot', 'Tank', 'Causeway']], ['war', 'pillWar', ['Fort', 'Battle site']],
+  ['land', 'pillLand', ['Region', 'Kingdom', 'Hill', 'Lake', 'Island', 'Park', 'Pass', 'Mountain', 'River', 'Place']]];
+const PILL_OF = Object.fromEntries(PILLS.flatMap(([g, , ks]) => ks.map(k => [k, g])));
+const LAYERS = [['rivers', 'pillRivers'], ['realms', 'pillRealms'], ['labels', 'pillLabels']];
 function viewMap(q) {
-  const st = { kind: q.get('kind') || '', y: q.get('y') || '' };
+  const st = { hide: q.get('hide') || '', y: q.get('y') || '' };
   if (!mapGeo) {
     mapGeo = 'loading';
     Promise.all(['data/maps/boundaries.json', 'data/maps/assam.json'].map(f => fetch(f).then(r => r.json())))
@@ -354,23 +360,23 @@ function viewMap(q) {
       .catch(() => { mapGeo = 'fail'; })
       .then(() => { if (parseHash().parts[0] === 'map') route(true); });
   }
-  const pts = places.filter(p => p.geo), kinds = [...new Set(pts.map(p => p.cat || 'Place'))].sort();
+  const pts = places.filter(p => p.geo);
   const head = `<div class="page-head"><h1>${esc(t('map'))}</h1><p>${esc(t('mapLede', pts.length, places.length - pts.length))}</p></div>`;
   if (mapGeo === 'loading') return head + `<p class="count">…</p>`;
   if (mapGeo === 'fail') return head + `<div class="empty">${esc(t('mapFail'))}</div>`;
-  const shown = pts.filter(p => !st.kind || (p.cat || 'Place') === st.kind);
+  const shown = pts, groupOf = p => PILL_OF[p.cat || 'Place'] || 'land';
   const W = 1000, lat0 = 23.4, lat1 = 29.2, lon0 = 87.8, lon1 = 98.2, k = Math.cos(26.5 * Math.PI / 180);
   const H = Math.round(W * (lat1 - lat0) / ((lon1 - lon0) * k));
   const X = lon => ((lon - lon0) / (lon1 - lon0) * W).toFixed(1), Y = lat => ((lat1 - lat) / (lat1 - lat0) * H).toFixed(1);
   const ring = r => 'M' + r.map(([la, lo]) => X(lo) + ' ' + Y(la)).join('L') + 'Z';
   const line = pts => 'M' + pts.map(([la, lo]) => X(lo) + ' ' + Y(la)).join('L');
   const india = mapGeo.b.india.rings.map(ring).join(''), assam = mapGeo.b.assam.rings.map(ring).join('');
-  const riverPlace = { brahmaputra: 'brahmaputra', kapili: 'kopili', kolong: 'kolong', manas: 'manas', puthimari: 'barnadi', dikhou: 'dikhou', dihing: 'dihing', subansiri: 'subansiri', dibang: 'dibang', lohit: 'lohit', dhansiri: 'dhansiri', 'teesta-karatoya': 'karatoya' };
+  const riverPlace = { brahmaputra: 'brahmaputra', kapili: 'kopili', kolong: 'kolong', manas: 'manas', puthimari: 'barnadi', dikhou: 'dikhou', dihing: 'dihing', subansiri: 'subansiri', dibang: 'dibang', lohit: 'lohit', dhansiri: 'dhansiri', 'teesta-karatoya': 'karatoya', sisi: 'sisi' };
   const rivers = Object.entries(mapGeo.a.rivers).map(([id, r]) => { const path = `<path class="mrv ${id === 'brahmaputra' ? 'big' : ''}" d="${line(r.pts)}"><title>${esc(r.name)}</title></path>`;
     return placeById[riverPlace[id]] ? `<a href="${placeHref(riverPlace[id])}">${path}</a>` : path; }).join('');
   const inView = p => p.geo[0] >= lat0 && p.geo[0] <= lat1 && p.geo[1] >= lon0 && p.geo[1] <= lon1, off = shown.filter(p => !inView(p));
-  const dots = shown.filter(inView).map(p => `<a href="${placeHref(p.id)}"><circle class="mdot" cx="${X(p.geo[1])}" cy="${Y(p.geo[0])}" r="5"><title>${esc(p.name)}${p.present ? ' (' + esc(p.present) + ')' : ''}</title></circle></a>`).join('');
-  const labels = shown.filter(inView).filter(p => ['Capital', 'City', 'Kingdom'].includes(p.cat)).map(p => `<text class="mlb" x="${+X(p.geo[1]) + 9}" y="${+Y(p.geo[0]) + 4}">${esc(p.name.replace(/ \(.*\)$/, ''))}</text>`).join('');
+  const dots = shown.filter(inView).map(p => `<a data-g="${groupOf(p)}" href="${placeHref(p.id)}"><circle class="mdot" cx="${X(p.geo[1])}" cy="${Y(p.geo[0])}" r="5"><title>${esc(p.name)}${p.present ? ' (' + esc(p.present) + ')' : ''}</title></circle></a>`).join('');
+  const labels = shown.filter(inView).filter(p => ['Capital', 'City', 'Kingdom'].includes(p.cat)).map(p => `<text class="mlb" data-g="${groupOf(p)}" x="${+X(p.geo[1]) + 9}" y="${+Y(p.geo[0]) + 4}">${esc(p.name.replace(/ \(.*\)$/, ''))}</text>`).join('');
 
   /* kingdoms through time: the land between the west and east limit curves (and the north and south ones), cut from the present Assam outline,
      or from Assam plus the north Bengal duars for the western kingdoms; the hill and plain edges are the modern Assam border */
@@ -404,8 +410,21 @@ function viewMap(q) {
     st.y = String(y); setQuery('/map', st);
   };
   setTimeout(() => {
-    const sel = $('mkind'); if (!sel) return;
-    sel.onchange = e => { st.kind = e.target.value; setQuery('/map', st); route(true); };
+    const bar = $('mpills'); if (!bar) return;
+    const hidden = () => new Set(st.hide.split(',').filter(Boolean)), fig = document.querySelector('.mapfig');
+    const apply = () => {
+      const h = hidden();
+      bar.querySelectorAll('[data-pill]').forEach(b => b.setAttribute('aria-pressed', h.has(b.dataset.pill) ? 'false' : 'true'));
+      fig.classList.toggle('no-rivers', h.has('rivers')); fig.classList.toggle('no-realms', h.has('realms')); fig.classList.toggle('no-labels', h.has('labels'));
+      let n = 0; fig.querySelectorAll('#mdots a').forEach(a => { const off = h.has(a.dataset.g); a.style.display = off ? 'none' : ''; if (!off) n++; });
+      fig.querySelectorAll('#mlabels text').forEach(x => { x.style.display = h.has(x.dataset.g) ? 'none' : ''; });
+      $('mshown').textContent = t('mapShown', n); $('mleg').hidden = h.has('realms'); document.querySelector('.mtime').hidden = h.has('realms');
+      setQuery('/map', st);
+    };
+    bar.onclick = e => { const b = e.target.closest('[data-pill]'); if (!b) return; const h = hidden(); h.has(b.dataset.pill) ? h.delete(b.dataset.pill) : h.add(b.dataset.pill); st.hide = [...h].join(','); apply(); };
+    $('mall').onclick = () => { st.hide = ''; apply(); };
+    $('mnone').onclick = () => { st.hide = PILLS.map(p => p[0]).join(','); apply(); };
+    apply();
     const rng = $('mrange'); paint(y0);
     rng.oninput = () => paint(Number(rng.value));
     document.querySelectorAll('[data-myear]').forEach(b => b.onclick = () => { rng.value = b.dataset.myear; paint(Number(rng.value)); });
@@ -417,10 +436,13 @@ function viewMap(q) {
     };
   });
   const marks = [400, 900, 1300, 1500, 1600, 1670, 1750, 1820];
-  return head + `<div class="filters"><select id="mkind" aria-label="${esc(t('mapKind'))}"><option value="">${esc(t('mapAll'))}</option>${kinds.map(v => `<option ${st.kind === v ? 'selected' : ''}>${esc(v)}</option>`).join('')}</select><span class="count">${esc(t('mapShown', shown.length))}</span></div>
+  const pill = (key, label, n) => `<button type="button" class="pill" data-pill="${key}" aria-pressed="true">${esc(t(label))}${n != null ? ` <small>${n}</small>` : ''}</button>`;
+  return head + `<div class="pillbar" id="mpills" role="group" aria-label="${esc(t('mapShow'))}"><span class="pillhd">${esc(t('mapLayers'))}</span>${LAYERS.map(([k, l]) => pill(k, l)).join('')}
+    <span class="pillhd">${esc(t('mapPlaces'))}</span>${PILLS.map(([k, l]) => pill(k, l, shown.filter(p => groupOf(p) === k).length)).join('')}
+    <button type="button" class="quiet" id="mall">${esc(t('mapAllOn'))}</button><button type="button" class="quiet" id="mnone">${esc(t('mapNoPlaces'))}</button><span class="count" id="mshown"></span></div>
     <div class="mtime"><label for="mrange">${esc(t('mapYear'))} <b id="myear">${y0}</b></label><input type="range" id="mrange" min="${yMin}" max="${yMax}" step="1" value="${y0}"><button type="button" id="mplay" class="btn">${esc(t('mapPlay'))}</button>
     <div class="mmarks">${marks.map(m => `<button type="button" class="quiet" data-myear="${m}">${m}</button>`).join('')}</div></div>
-    <figure class="mapfig"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t('map'))}"><path class="mind" d="${india}"/><path class="mas" d="${assam}"/><defs id="mdefs"></defs><g id="mrealms"></g>${rivers}${dots}${labels}</svg>
+    <figure class="mapfig"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t('map'))}"><path class="mind" d="${india}"/><path class="mas" d="${assam}"/><defs id="mdefs"></defs><g id="mrealms"></g><g id="mrivers">${rivers}</g><g id="mdots">${dots}</g><g id="mlabels">${labels}</g></svg>
     <figcaption>${esc(t('mapNote'))}${off.length ? ' ' + esc(t('mapOff', off.map(p => p.name).join(', '))) : ''} ${esc(t('mapSchem'))} <a href="data/maps/README.md">data/maps</a></figcaption></figure>
     <ul class="mleg" id="mleg" aria-live="polite"></ul>`;
 }

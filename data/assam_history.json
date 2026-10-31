@@ -24155,7 +24155,7 @@
    "end_year": 1523,
    "summary": "A kingdom of the north-bank valleys of the Subansiri, Brahmaputra, Lohit and Dihing, with Sadiya as its seat; one study gives it from the Sisi in the west to the Brahmaputra in the east with the hills to the north and the Buri Dihing to the south. Its influence may have reached Biswanath in Darrang.",
    "boundary": "West: Sisi river | East: the Brahmaputra, and on the north bank Parshuram Kund | North: the hills | South: Buri Dihing | Heartland: the Subansiri, Brahmaputra, Lohit and Dihing valleys",
-   "notes": "The source's own wording is odd (Sisi west to the Brahmaputra east); the Ahom border is not defined by a river in the article (a 1513 conflict led to Dikhowmukh). Kings' lists are unreliable.",
+   "notes": "The source's own wording is odd (Sisi west to the Brahmaputra east); the Ahom border is not defined by a river in the article (a 1513 conflict led to Dikhowmukh). Kings' lists are unreliable. West limit drawn along the Sisi river as traced in the user's Assam Rivers.kml (about 95.4 to 95.6 E, 27.8 to 28.4 N, in the Dibang foothills). That lies east of the Subansiri valley named as the heartland, so the west limit and the heartland do not fit together; not reconciled.",
    "confidence": "low",
    "places": [
     "sisi",
@@ -26662,9 +26662,9 @@
     "Sissi River"
    ],
    "present_name": "Sisi River",
-   "location": "Upper Assam, north bank (exact reach approximate)",
+   "location": "Foothills between the Siang and the Dibang, Arunachal Pradesh (line from the user KML)",
    "summary": "Named as the western limit of the Chutia kingdom in one study.",
-   "notes": "Present-day river approximate; not checked.",
+   "notes": "Present-day river approximate; not checked. The river line on the map is from the user's Assam Rivers.kml (about 95.4 to 95.6 E, 27.8 to 28.4 N).",
    "confidence": "low",
    "sources": [
     "https://en.wikipedia.org/wiki/Chutia_kingdom"

@@ -404,3 +404,11 @@ dialog#viewer.noimg .vfoot{max-height:45vh}
 .mleg li{display:flex;gap:10px;align-items:flex-start;font-size:.95rem}
 .mleg .sw{flex:none;width:14px;height:14px;margin-top:5px;background:var(--dc);border-radius:2px;display:inline-block}
 .mleg small{color:var(--muted)}.mleg li.none{color:var(--muted)}
+
+/* map toggle pills */
+.pillbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 0;max-width:1000px}
+.pillhd{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 2px 0 8px}.pillhd:first-child{margin-left:0}
+.pill{font:inherit;font-size:.9rem;padding:3px 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;text-decoration:line-through;text-decoration-thickness:1px}
+.pill small{opacity:.7}
+.pill[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink);text-decoration:none}
+.mapfig.no-rivers #mrivers,.mapfig.no-realms #mrealms,.mapfig.no-labels #mlabels{display:none}
