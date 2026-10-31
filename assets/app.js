@@ -330,12 +330,14 @@ function viewMap(q) {
   if (mapGeo === 'loading') return head + `<p class="count">…</p>`;
   if (mapGeo === 'fail') return head + `<div class="empty">${esc(t('mapFail'))}</div>`;
   const shown = pts.filter(p => !st.kind || (p.cat || 'Place') === st.kind);
-  const W = 1000, lat0 = 23.6, lat1 = 29.2, lon0 = 88.8, lon1 = 98.2, k = Math.cos(26.5 * Math.PI / 180);
+  const W = 1000, lat0 = 23.6, lat1 = 29.2, lon0 = 88.2, lon1 = 98.2, k = Math.cos(26.5 * Math.PI / 180);
   const H = Math.round(W * (lat1 - lat0) / ((lon1 - lon0) * k));
   const X = lon => ((lon - lon0) / (lon1 - lon0) * W).toFixed(1), Y = lat => ((lat1 - lat) / (lat1 - lat0) * H).toFixed(1);
   const ring = r => 'M' + r.map(([la, lo]) => X(lo) + ' ' + Y(la)).join('L') + 'Z';
   const india = mapGeo.b.india.rings.map(ring).join(''), assam = mapGeo.b.assam.rings.map(ring).join('');
-  const rivers = Object.entries(mapGeo.a.rivers).map(([id, r]) => `<path class="mrv ${id === 'brahmaputra' ? 'big' : ''}" d="M${r.pts.map(([la, lo]) => X(lo) + ' ' + Y(la)).join('L')}"><title>${esc(r.name)}</title></path>`).join('');
+  const riverPlace = { brahmaputra: 'brahmaputra', kapili: 'kopili', kolong: 'kolong', manas: 'manas', puthimari: 'barnadi', dikhou: 'dikhou', dihing: 'dihing', subansiri: 'subansiri', dibang: 'dibang', lohit: 'lohit', dhansiri: 'dhansiri', 'teesta-karatoya': 'karatoya' };
+  const rivers = Object.entries(mapGeo.a.rivers).map(([id, r]) => { const d = `M${r.pts.map(([la, lo]) => X(lo) + ' ' + Y(la)).join('L')}`, path = `<path class="mrv ${id === 'brahmaputra' ? 'big' : ''}" d="${d}"><title>${esc(r.name)}</title></path>`;
+    return placeById[riverPlace[id]] ? `<a href="${placeHref(riverPlace[id])}">${path}</a>` : path; }).join('');
   const dots = shown.map(p => `<a href="${placeHref(p.id)}"><circle class="mdot" cx="${X(p.geo[1])}" cy="${Y(p.geo[0])}" r="6"><title>${esc(p.name)}${p.present ? ' (' + esc(p.present) + ')' : ''}</title></circle></a>`).join('');
   const labels = shown.filter(p => ['Capital', 'City', 'Kingdom'].includes(p.cat)).map(p => `<text class="mlb" x="${+X(p.geo[1]) + 9}" y="${+Y(p.geo[0]) + 4}">${esc(p.name.replace(/ \(.*\)$/, ''))}</text>`).join('');
   setTimeout(() => { const sel = $('mkind'); if (sel) sel.onchange = e => { st.kind = e.target.value; setQuery('/map', st); route(true); }; });

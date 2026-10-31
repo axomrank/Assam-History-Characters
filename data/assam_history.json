@@ -3271,7 +3271,8 @@
          ],
          "places": [
           "kamarupanagara",
-          "kamatapur"
+          "kamatapur",
+          "gosanimari"
          ],
          "main": true
         }
@@ -4167,7 +4168,8 @@
           "https://en.wikipedia.org/wiki/Kamata_Kingdom"
          ],
          "places": [
-          "kamatapur"
+          "kamatapur",
+          "gosanimari"
          ],
          "main": false
         }
@@ -4264,7 +4266,8 @@
           "https://en.wikipedia.org/wiki/Kamata_Kingdom"
          ],
          "places": [
-          "kamatapur"
+          "kamatapur",
+          "gosanimari"
          ],
          "main": true
         },
@@ -7358,7 +7361,8 @@
           "https://roing.nic.in/tourist-place/bhismaknagar/"
          ],
          "places": [
-          "dibang"
+          "dibang",
+          "bhismaknagar"
          ],
          "main": true
         }
@@ -7465,7 +7469,8 @@
           "https://en.wikipedia.org/wiki/Chutia_Kingdom"
          ],
          "places": [
-          "sadiya"
+          "sadiya",
+          "tamreswari"
          ],
          "main": true
         }
@@ -20828,6 +20833,9 @@
           "https://en.wikipedia.org/wiki/Sankardev",
           "https://barpeta.assam.gov.in/about-us-level-two/heritage-%26-culture/culture"
          ],
+         "places": [
+          "dhuwahat"
+         ],
          "main": false
         },
         {
@@ -20871,7 +20879,8 @@
           "https://barpeta.assam.gov.in/about-us-level-two/heritage-%26-culture/culture"
          ],
          "places": [
-          "barpeta"
+          "barpeta",
+          "patbausi"
          ],
          "main": true
         },
@@ -20944,7 +20953,8 @@
           "https://en.wikipedia.org/wiki/Sankardev"
          ],
          "places": [
-          "cooch-behar"
+          "cooch-behar",
+          "bheladonga"
          ],
          "main": true
         }
@@ -21057,6 +21067,9 @@
           "https://en.wikipedia.org/wiki/Sankardev",
           "https://barpeta.assam.gov.in/about-us-level-two/heritage-%26-culture/culture"
          ],
+         "places": [
+          "dhuwahat"
+         ],
          "main": true
         },
         {
@@ -21080,7 +21093,8 @@
           "https://barpeta.assam.gov.in/about-us-level-two/heritage-%26-culture/culture"
          ],
          "places": [
-          "barpeta"
+          "barpeta",
+          "patbausi"
          ],
          "main": false
         },
@@ -22057,7 +22071,8 @@
           "https://admin.missiongyan.in/admin/ebook/ebook_2541_81763515.pdf"
          ],
          "places": [
-          "nagaon"
+          "nagaon",
+          "barhampur"
          ],
          "main": true
         }
@@ -22318,7 +22333,8 @@
           "https://www.culture.gov.in/files/publications_documents/Martyrs_Vol_4_06_03_2019_6.pdf"
          ],
          "places": [
-          "jorhat"
+          "jorhat",
+          "sarupathar"
          ],
          "main": true
         }
@@ -22480,6 +22496,9 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Kanaklata_Barua",
           "https://static.pib.gov.in/WriteReadData/userfiles/Unsung%20Heroes%20of%20Freedom%20Movement_o.pdf"
+         ],
+         "places": [
+          "gohpur"
          ],
          "main": true
         }
@@ -22935,6 +22954,9 @@
    "confidence": "low",
    "sources": [
     "https://en.wikipedia.org/wiki/Madan_Kamdev"
+   ],
+   "places": [
+    "madan-kamdev"
    ]
   },
   {
@@ -23246,7 +23268,8 @@
     "https://www.jetir.org/view?paper=JETIR1905S36"
    ],
    "places": [
-    "nagaon"
+    "nagaon",
+    "phulaguri"
    ]
   },
   {
@@ -23299,6 +23322,9 @@
     "https://en.wikipedia.org/wiki/Darrang_district",
     "https://en.wikipedia.org/wiki/British_rule_in_Assam",
     "https://karatoya.nbu.ac.in/doc/Karatoya_2009_Volume_3.pdf"
+   ],
+   "places": [
+    "patharughat"
    ]
   },
   {
@@ -23389,6 +23415,9 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Sino-Indian_War",
     "https://www.claudearpi.net/wp-content/uploads/2016/12/WhitePaper8NEW.pdf"
+   ],
+   "places": [
+    "bomdila"
    ]
   },
   {
@@ -26657,6 +26686,254 @@
    "confidence": "medium",
    "sources": [
     "https://en.wikipedia.org/wiki/Kamrup_region"
+   ]
+  },
+  {
+   "id": "patbausi",
+   "name": "Patbausi",
+   "name_assamese": "পাটবাউসী",
+   "kind": "Monastery",
+   "also_called": [
+    "Patbaushi",
+    "Patbausi Satra",
+    "Patbaushi Than"
+   ],
+   "present_name": "Patbaushi Satra",
+   "location": "about 2 km north of Barpeta town, Barpeta district, Assam",
+   "summary": "Sankardev's settlement near Barpeta in Koch territory, where he gathered disciples around a prayer house and, tradition says, spent about eighteen years.",
+   "notes": "The length of his stay rests on a modern account; the satra shares its grounds with the Damodardev Satra.",
+   "confidence": "medium",
+   "latitude": 26.341,
+   "longitude": 91.003,
+   "sources": [
+    "https://barpeta.assam.gov.in/tourist-place-detail/274",
+    "https://en.wikipedia.org/wiki/Sankardev"
+   ]
+  },
+  {
+   "id": "bheladonga",
+   "name": "Bheladonga",
+   "name_assamese": "ভেলাডোঙা",
+   "kind": "Place",
+   "also_called": [
+    "Bhela",
+    "Bhela Kakatkuta"
+   ],
+   "present_name": "Madhupur area",
+   "location": "Cooch Behar district, West Bengal",
+   "summary": "Where Sankardev died in 1568 (Neog gives 1569), in the Koch kingdom near the capital.",
+   "notes": "The exact site is not fixed: one catalogue gives Bhela Kakatkuta near Madhupur, and the Madhupur Satra is tied to his last days. The point is the Madhupur area, not a surveyed spot.",
+   "confidence": "low",
+   "latitude": 26.365,
+   "longitude": 89.37,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sankardev",
+    "https://en.wikipedia.org/wiki/Madhupur_Satra"
+   ]
+  },
+  {
+   "id": "gosanimari",
+   "name": "Gosanimari",
+   "name_assamese": "গোসানীমাৰী",
+   "kind": "Archaeological site",
+   "also_called": [
+    "Rajpat",
+    "Kamatapur Fort"
+   ],
+   "present_name": "Gosanimari",
+   "location": "Dinhata I block, Cooch Behar district, West Bengal",
+   "summary": "The ruined fort and mound usually identified as Kamatapur, the last capital of the Khen kings until Alauddin Husain Shah's attack in 1498.",
+   "notes": "The Archaeological Survey of India excavated it in 1998 to 2000 and found walls, two wells and sculptures. Sources give coordinates about 15 km apart for the mound and the village; the mound is used here.",
+   "confidence": "medium",
+   "latitude": 26.152,
+   "longitude": 89.35,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gosanimari",
+    "https://en.wikipedia.org/wiki/Rajpat"
+   ]
+  },
+  {
+   "id": "bhismaknagar",
+   "name": "Bhismaknagar",
+   "name_assamese": "ভীষ্মকনগৰ",
+   "kind": "Archaeological site",
+   "also_called": [
+    "Che-lung (Tai name of the Chutia capital)"
+   ],
+   "present_name": "Bhismaknagar",
+   "location": "near Roing, Lower Dibang Valley district, Arunachal Pradesh",
+   "summary": "Ruins of a brick and stone fortified city with three tanks and two gates, attributed to the Chutia rulers; a brick names Lakshminarayana, taken as its builder or ruler.",
+   "notes": "The name is modern (1928 gazetteer), from Bhishmaka in the Rukmini story. The ruins are dated to the 11th to 15th century, and little has been excavated.",
+   "confidence": "medium",
+   "latitude": 28.0467,
+   "longitude": 96.0058,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bhismaknagar"
+   ]
+  },
+  {
+   "id": "tamreswari",
+   "name": "Tamreswari (Kechai-Khati)",
+   "name_assamese": "তামেশ্বৰী (কেচাইখাতী)",
+   "kind": "Temple",
+   "also_called": [
+    "Kechaikhati",
+    "Kesaikhati",
+    "Dikkaravasini",
+    "Pishasi"
+   ],
+   "present_name": "Tamreswari temple (original site)",
+   "location": "near Sadiya, Tinsukia district, Assam, and Arunachal Pradesh border",
+   "summary": "The Chutia shrine of the goddess Kechaikhati, named Tamreswari for its later copper roof, on the Paya river.",
+   "notes": "The brick wall is credited to the prince Mukta Dharmanarayana (Saka 1364, 1442 CE); the copper roof appears in a 1711 chronicle. Sources place the original shrine in Arunachal Pradesh about 18 km from Sadiya, but give conflicting coordinates, so no point is set.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tamreswari_Temple"
+   ]
+  },
+  {
+   "id": "madan-kamdev",
+   "name": "Madan Kamdev",
+   "name_assamese": "মদন কামদেৱ",
+   "kind": "Archaeological site",
+   "also_called": [
+    "Madan Kamdev ruins"
+   ],
+   "present_name": "Madan Kamdev",
+   "location": "near Baihata Chariali, Kamrup district, Assam",
+   "summary": "Ruins of a group of stone temples with carved sculpture of Uma-Maheshvara, the Sun and others, linked to the Kamarupa Palas.",
+   "notes": "The date is disputed: 9th to 10th century in older accounts, 10th to 12th century in later excavation analysis. Who built it is unsettled.",
+   "confidence": "medium",
+   "latitude": 26.3197,
+   "longitude": 91.7408,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Madan_Kamdev"
+   ]
+  },
+  {
+   "id": "phulaguri",
+   "name": "Phulaguri",
+   "name_assamese": "ফুলগুৰি",
+   "kind": "Village",
+   "also_called": [
+    "Phulaguri Dhewa"
+   ],
+   "present_name": "Phulaguri",
+   "location": "Nagaon district, Assam",
+   "summary": "Village where peasants rose in October 1861 against new taxes; the rising is often called the first peasant revolt in Assam.",
+   "notes": "Lieutenant Singer and police were killed, and troops then killed at least 54 farmers. Casualty figures vary by source.",
+   "confidence": "medium",
+   "latitude": 26.2624,
+   "longitude": 92.5814,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Phulaguri_Dhawa"
+   ]
+  },
+  {
+   "id": "patharughat",
+   "name": "Patharughat",
+   "name_assamese": "পথাৰুঘাট",
+   "kind": "Village",
+   "also_called": [
+    "Patharighat",
+    "Pathorighat"
+   ],
+   "present_name": "Patharughat",
+   "location": "Darrang district, Assam",
+   "summary": "Place of the peasant rising of 28 January 1894 against a steep rise in land revenue, ended by police firing.",
+   "notes": "Official records give 15 killed and 37 wounded; unofficial accounts give about 140 dead.",
+   "confidence": "medium",
+   "latitude": 26.4517,
+   "longitude": 91.8804,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Patharughat"
+   ]
+  },
+  {
+   "id": "gohpur",
+   "name": "Gohpur",
+   "name_assamese": "গহপুৰ",
+   "kind": "Town",
+   "present_name": "Gohpur",
+   "location": "Biswanath district, Assam",
+   "summary": "Town where Kanaklata Barua, aged 17, was shot leading a Quit India procession to the police station in 1942.",
+   "notes": "The point is the town centre; sources place it near 26.88 N, 93.63 to 93.70 E.",
+   "confidence": "medium",
+   "latitude": 26.88,
+   "longitude": 93.65,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gohpur",
+    "https://en.wikipedia.org/wiki/Kanaklata_Barua"
+   ]
+  },
+  {
+   "id": "barhampur",
+   "name": "Barhampur",
+   "name_assamese": "বৰহমপুৰ",
+   "kind": "Village",
+   "also_called": [
+    "Berhampur",
+    "Borhampur"
+   ],
+   "present_name": "Barhampur",
+   "location": "Nagaon district, Assam",
+   "summary": "Where Bhogeswari Phukanani was shot during the Quit India protests in September 1942.",
+   "notes": "Dates differ: firing on 18 September, death on 20 or 21 September 1942. No coordinates were found, so no map point is set.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bhogeswari_Phukanani"
+   ]
+  },
+  {
+   "id": "sarupathar",
+   "name": "Sarupathar",
+   "name_assamese": "সৰুপথাৰ",
+   "kind": "Town",
+   "present_name": "Sarupathar",
+   "location": "Golaghat district, Assam",
+   "summary": "Town near which a military train was derailed in 1942, the act for which Kushal Konwar was hanged.",
+   "notes": "Sources differ on the date of the derailment. The point is the town, not the exact track.",
+   "confidence": "medium",
+   "latitude": 26.1941,
+   "longitude": 93.8661,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sarupathar",
+    "https://en.wikipedia.org/wiki/Kushal_Konwar"
+   ]
+  },
+  {
+   "id": "bomdila",
+   "name": "Bomdila",
+   "name_assamese": "বমডিলা",
+   "kind": "Town",
+   "present_name": "Bomdila",
+   "location": "West Kameng district, Arunachal Pradesh",
+   "summary": "Town in the Kameng hills that Chinese forces took in November 1962, near the end of the Sino-Indian war.",
+   "notes": "The Wikipedia page for the town calls it the site of the last battle of the Se La Pass fighting.",
+   "confidence": "high",
+   "latitude": 27.265,
+   "longitude": 92.42,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bomdila"
+   ]
+  },
+  {
+   "id": "dhuwahat",
+   "name": "Dhuwahat",
+   "name_assamese": "ধুৱাহাট",
+   "kind": "Village",
+   "also_called": [
+    "Belguri Dhuwahat",
+    "Belaguri"
+   ],
+   "present_name": "Dhuwahat (Belguri)",
+   "location": "Majuli, Assam (disputed)",
+   "summary": "Where Madhavdev is said to have met Sankardev and become his chief disciple; Madhavdev's family had settled there after the Bhuyans were uprooted.",
+   "notes": "Sources disagree: one puts the meeting at Belguri on Majuli, another at Dhuwahat, and Dhuwahat and Belguri are described as nearby but not clearly the same place. No map point is set.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Madhavdev",
+    "https://en.wikipedia.org/wiki/Sankardev"
    ]
   }
  ]
