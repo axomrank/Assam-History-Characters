@@ -390,7 +390,7 @@ function viewMap(q) {
   const labels = shown.filter(inView).filter(p => ['Capital', 'City', 'Kingdom'].includes(p.cat)).map(p => `<text class="mlb" data-g="${groupOf(p)}" x="${+X(p.geo[1]) + 9}" y="${+Y(p.geo[0]) + 4}">${esc(p.name.replace(/ \(.*\)$/, ''))}</text>`).join('');
 
   /* kingdoms through time. One kingdom in one period is one polygon: the land (present districts, plus the north Bengal duars and Bangladesh for the western
-     kingdoms, less the hill districts and Barak valley the valley kingdoms did not rule) intersected with the area between its west and east limit curves (and
+     kingdoms, less the hill districts and Barak valley the valley kingdoms did not rule; the Dimasa-Kachari also held the Karbi and Dima Hasao hills) intersected with the area between its west and east limit curves (and
      north and south ones), the bank parts merged. polygon-clipping does the union and intersection, so no seams show inside a kingdom. */
   const pc = window.polygonClipping;
   const toPC = rg => { const c = rg.map(([la, lo]) => [lo, la]); if (c.length && (c[0][0] !== c[c.length - 1][0] || c[0][1] !== c[c.length - 1][1])) c.push(c[0]); return [c]; };
@@ -402,7 +402,7 @@ function viewMap(q) {
     const key = polity + (plain ? '+' : '');
     if (landCache[key]) return landCache[key];
     const polys = Object.entries(mapGeo.a.districts)
-      .filter(([id]) => !['karbi-anglong', 'west-karbi-anglong'].includes(id) && !(id === 'dima-hasao' && polity !== 'dimasa-kingdom') && !(['cachar', 'hailakandi', 'karimganj'].includes(id) && !['kamarupa', 'dimasa-kingdom'].includes(polity)))
+      .filter(([id]) => !(['karbi-anglong', 'west-karbi-anglong'].includes(id) && polity !== 'dimasa-kingdom') && !(id === 'dima-hasao' && polity !== 'dimasa-kingdom') && !(['cachar', 'hailakandi', 'karimganj'].includes(id) && !['kamarupa', 'dimasa-kingdom'].includes(polity)))
       .flatMap(([, d]) => d.rings.map(toPC));
     if (plain) {
       /* one source (Natural Earth) for India and Bangladesh, so they meet without slivers; the second piece overlaps the Assam border so no gap shows there */
