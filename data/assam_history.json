@@ -13263,7 +13263,7 @@
        "sort_year": 1696,
        "role": "Thirtieth Ahom king",
        "summary": "Took the kingdom to its peak, founded Rangpur as the capital, campaigned against the Dimasa and Jaintia kingdoms (1706–08) and planned a great war on Mughal Bengal, dying before it began.",
-       "notes": "Born c. 1665; died 27 August 1714 at North Guwahati.",
+       "notes": "Born c. 1665; died 27 August 1714 at North Guwahati. Planned a campaign to restore what his court understood as Assam's older Pauranic limits, from Sadiya to the Karatoya (S. K. Bhuyan, Annals of the Delhi Badshahate); the Manas stayed the frontier. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
        "tai_name": "Sukhrungphaa",
        "hindu_name": "Rudra Singha",
        "relation": "Son of Supaatphaa",
@@ -23772,7 +23772,7 @@
    "end_year": 650,
    "summary": "The Varman kings pushed outward: Kalyanavarman took Davaka (the Kopili valley), Mahendravarman extended control eastward, Sylhet (the Chandrapuri visaya) was held by the time of the Nidhanpur grant, and Sthitavarman and Bhaskaravarman campaigned against Gauda at Karnasuvarna.",
    "boundary": "West: no river named for this period (tradition gives the Karatoya) | East: 'further eastern areas' (no river named) | South-west: Sylhet and the Gauda frontier at Karnasuvarna",
-   "notes": "The sources read give conquests and findspots, not river boundaries. Pundravardhana is named as Xuanzang's starting point, not as a conquest. South set at about 24.0 N, the Sylhet and Karnasuvarna (Gauda frontier) side named in the record; a straight line. Land south of the Teesta/Karatoya line and east of it, in Bangladesh, is shaded. West limit follows the Teesta/Karatoya to its junction with the Brahmaputra (the Jamuna), then the Brahmaputra downstream.",
+   "notes": "The sources read give conquests and findspots, not river boundaries. Pundravardhana is named as Xuanzang's starting point, not as a conquest. South set at about 24.0 N, the Sylhet and Karnasuvarna (Gauda frontier) side named in the record; a straight line. Land south of the Teesta/Karatoya line and east of it, in Bangladesh, is shaded. West limit follows the Teesta/Karatoya to its junction with the Brahmaputra (the Jamuna), then the Brahmaputra downstream. Xuanzang (about 642 to 643) gives a circuit of about 10,000 li, says the country is bounded on the east by a line of hills, and describes hard routes beyond toward south-west China; these are itinerary figures, not surveyed borders. Samudragupta's Allahabad pillar (4th century) lists Kamarupa among the frontier kingdoms with no rivers or mountains named. The reports advise a graded core, influence and attested-outlier map in place of a hard polygon. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
    "confidence": "low",
    "places": [
     "karatoya",
@@ -23796,7 +23796,7 @@
    "end_year": 1100,
    "summary": "A core on the south bank of the Brahmaputra around Kamarupanagara; the western territories were lost to Ramapala of Bengal, and local chiefs held parts of Kamrup, Darrang and Sonitpur on the north bank.",
    "boundary": "Core: the south bank of the Brahmaputra | West: lost to Ramapala of Bengal (no river named) | North bank: held by local rulers such as Bhaskara in Kamrup, Darrang and Sonitpur",
-   "notes": "The article read states these extents without naming rivers beyond the Brahmaputra; the Pala chronology is unsettled.",
+   "notes": "The article read states these extents without naming rivers beyond the Brahmaputra; the Pala chronology is unsettled. Pala-period grants give very detailed local water bodies, embankments and fields; they show landscape, not a fixed state perimeter. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
    "confidence": "low",
    "places": [
     "brahmaputra",
@@ -23817,7 +23817,7 @@
    "end_year": 1440,
    "summary": "The kingdom of Sandhya and his successors: from the Karatoya in the west to the Barnadi in the east, including Rangpur and northern Mymensingh to the south. Control east of the Manas was loose.",
    "boundary": "West: Karatoya river | East: Barnadi river (control beyond the Manas 'lax') | North: the Bhutan hills | South: Rangpur and northern Mymensingh",
-   "notes": "Reconstructed from epigraphy and later tradition. The north and south limits are as listed in the source (Kamrup, Goalpara, Jalpaiguri, Cooch Behar, Rangpur and northern Mymensingh), not river lines. The shape ends at the Teesta/Karatoya junction with the Brahmaputra (about 25.46 N, 89.68 E): the west limit is the Teesta/Karatoya down to that junction, and the south limit is the junction's latitude, so it does not run on into Bangladesh.",
+   "notes": "Reconstructed from epigraphy and later tradition. The north and south limits are as listed in the source (Kamrup, Goalpara, Jalpaiguri, Cooch Behar, Rangpur and northern Mymensingh), not river lines. The shape ends at the Teesta/Karatoya junction with the Brahmaputra (about 25.46 N, 89.68 E): the west limit is the Teesta/Karatoya down to that junction, and the south limit is the junction's latitude, so it does not run on into Bangladesh. One late Buranji tradition credits Mriganka with a dominion from the Karatoya to Sadiya; N. N. Acharyya treats it as a claim needing interpretation, not an administered border. The safer core is the western and lower Brahmaputra, the Karatoya and Cooch Behar. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
    "confidence": "medium",
    "places": [
     "karatoya",
@@ -24234,6 +24234,46 @@
    ]
   },
   {
+   "id": "ahom-1668-1678",
+   "name": "The Ahom kingdom after Guwahati, 1668 to 1678",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "1668 to 1678",
+   "start_year": 1668,
+   "end_year": 1678,
+   "summary": "The Ahoms recovered Guwahati in 1667; the Mughals retook it in 1679 and the Ahoms defeated them finally at Itakhuli in 1682.",
+   "boundary": "East: Sadiya | West: Guwahati, recovered in 1667",
+   "notes": "The reports give only the recovery of Guwahati (1667) and the loss (1679), not a western river for these years, so Guwahati is used as the west limit and the shape is a stand-in. The years 1679 to 1681, when the Mughals held Guwahati, have no limit and are left blank. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
+   "confidence": "low",
+   "places": [
+    "sadiya",
+    "guwahati"
+   ],
+   "sources": [
+    "https://ignca.gov.in/Asi_data/5924.pdf",
+    "https://en.wikipedia.org/wiki/Ahom_kingdom"
+   ]
+  },
+  {
+   "id": "jaintia-kingdom",
+   "name": "The Jaintia kingdom",
+   "kingdom": "jaintia-kingdom",
+   "period": "neighbours",
+   "date_label": "medieval period to 1835",
+   "start_year": 1500,
+   "end_year": 1835,
+   "summary": "Hill nucleus in what is now Meghalaya with a plains domain around Jaintiapur and the Surma valley; annexed by the British in 1835.",
+   "boundary": "Core: the Khasi-Jaintia hills | West: the Khasi-Jaintia hill transition | East: the Cachar-facing uplands | South: the Surma plains | North: the hill frontier",
+   "notes": "The start year (1500) is a placeholder: the reports say only \"medieval\". No river limits are named, so it is listed but not drawn. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
+   "confidence": "low",
+   "places": [
+    "jaintiapur"
+   ],
+   "sources": [
+    "https://censusindia.gov.in/nada/index.php/catalog/865/download/36328/DH_2011_1707_PART_B_DCHB_JAINTIA_HILLS.pdf"
+   ]
+  },
+  {
    "id": "ahom-manas-1682",
    "name": "The Ahom kingdom from 1682: the Manas frontier",
    "kingdom": "ahom-kingdom",
@@ -24243,7 +24283,7 @@
    "end_year": 1826,
    "summary": "After the Battle of Itakhuli the Manas became the western boundary of the Ahom kingdom and stayed so until the British; the Borphukan ruled from Guwahati over the land from the Manas to Kaliabor, and Kamrup then matched the later British district.",
    "boundary": "West: Manas river | East: Sadiya and the Patkai | Borphukan's domain: the Manas to Kaliabor",
-   "notes": "Itakhuli is dated August 1682 in most sources (the project's scenes date its recapture to 1667). Kamrup's eastern edge is the Barnadi in the Mughal and British accounts.",
+   "notes": "Itakhuli is dated August 1682 in most sources (the project's scenes date its recapture to 1667). Kamrup's eastern edge is the Barnadi in the Mughal and British accounts. S. K. Bhuyan's translation of the Padshah Buranji says the river Manaha became the western boundary of Assam and remained so to 1826. Rudra Singha planned a campaign to restore the older \"Pauranic limits\" from Sadiya to the Karatoya, which shows the Ahom court distinguished the Manas frontier from the remembered Karatoya one. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
    "confidence": "high",
    "places": [
     "manas",
@@ -24269,7 +24309,7 @@
    "end_year": 1523,
    "summary": "A kingdom of the north-bank valleys of the Subansiri, Brahmaputra, Lohit and Dihing, with Sadiya as its seat; one study gives it from the Sisi in the west to the Brahmaputra in the east with the hills to the north and the Buri Dihing to the south. Its influence may have reached Biswanath in Darrang.",
    "boundary": "West: Sisi river | East: the Brahmaputra, and on the north bank Parshuram Kund | North: the hills | South: Buri Dihing | Heartland: the Subansiri, Brahmaputra, Lohit and Dihing valleys",
-   "notes": "The source's own wording is odd (Sisi west to the Brahmaputra east); the Ahom border is not defined by a river in the article (a 1513 conflict led to Dikhowmukh). Kings' lists are unreliable. West limit drawn along the Sisi river as traced in the user's Assam Rivers.kml (about 95.4 to 95.6 E, 27.8 to 28.4 N, in the Dibang foothills). That lies east of the Subansiri valley named as the heartland, so the west limit and the heartland do not fit together; not reconciled.",
+   "notes": "The source's own wording is odd (Sisi west to the Brahmaputra east); the Ahom border is not defined by a river in the article (a 1513 conflict led to Dikhowmukh). Kings' lists are unreliable. West limit drawn along the Sisi river as traced in the user's Assam Rivers.kml (about 95.4 to 95.6 E, 27.8 to 28.4 N, in the Dibang foothills). That lies east of the Subansiri valley named as the heartland, so the west limit and the heartland do not fit together; not reconciled. Per the reports: west the Sisi/Subansiri sector, east the Brahmakund/Lohit region, north the Himalayan foothills, south the Burhi Dihing. The far western extent is uncertain and claims reaching Biswanath are contested, not a solid line; Sadiya stayed the eastern gateway after the Ahom conquest. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
    "confidence": "low",
    "places": [
     "sisi",
@@ -24577,7 +24617,7 @@
    "present_name": "Assam (Brahmaputra valley)",
    "location": "Assam, with parts of North Bengal, northern Bangladesh and Bhutan at its height",
    "summary": "The ancient kingdom of the Varman, Salastambha and Pala dynasties, c. 350 to 1100 CE.",
-   "notes": "The traditional bounds, from the Karatoya in the west to Sadiya in the east, rest on texts; no inscription confirms them. Capitals: Pragjyotishpura, Haruppeswara (Tezpur) and Durjaya.",
+   "notes": "The traditional bounds, from the Karatoya in the west to Sadiya in the east, rest on texts; no inscription confirms them. Capitals: Pragjyotishpura, Haruppeswara (Tezpur) and Durjaya. Four layers should be kept apart: the epic Pragjyotisha (no usable boundary), the historical Kamarupa of the 4th to 12th centuries (inscriptions, Xuanzang), the sacred Kamarupa of the Kalika Purana and Yogini Tantra, and the medieval Kamata and Koch Kamrup (Jae-Eun Shin; Suchandra Ghosh). Copper plates delimit granted villages, not the kingdom. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
    "confidence": "high",
    "sources": [
     "https://en.wikipedia.org/wiki/Kamarupa"
@@ -24747,6 +24787,7 @@
    "present_name": "Karatoya River",
    "location": "North Bengal (West Bengal) and Bangladesh",
    "summary": "The western boundary of Kamata and the traditional western boundary of Kamarupa; long the line fought over with Bengal's rulers.",
+   "notes": "The historical Karatoya was a much larger Himalayan-fed river system running through north Bengal and northern Bangladesh (the Rangpur-Bogra axis); only fragments of its channels survive, so it is a north-south river corridor, not a point. A surviving channel near Bogra is at about 24.855 N, 89.374 E. Gait held that it once gathered waters now called the Tista, Kosi and Mahananda. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
    "confidence": "high",
    "latitude": 25.85,
    "longitude": 89.35,
@@ -25008,7 +25049,7 @@
    "present_name": "Nidhanpur, Panchakhanda",
    "location": "Sylhet District, Sylhet Division, Bangladesh (Beanibazar area)",
    "summary": "Findspot of Bhaskaravarman's Nidhanpur copper-plate grant.",
-   "notes": "Standard identification; not re-checked here. The earlier note said Moulvibazar; Wikipedia and the inscription gazetteer place the findspot in Sylhet District. Map point: locality coordinate, approximate.",
+   "notes": "Standard identification; not re-checked here. The earlier note said Moulvibazar; Wikipedia and the inscription gazetteer place the findspot in Sylhet District. Map point: locality coordinate, approximate. Bhaskaravarman's plates reissue an earlier grant to more than 200 Brahmins at the Mayurasalmala agrahara in Candrapuri visaya; found at Nidhanpur in December 1912 and discussed by Padmanath Bhattacharya at the Kamarupa Anusandhana Samiti in 1913. The findspot does not prove that all Sylhet was ruled from Pragjyotishpura, but it shows Kamarupa's ties to the Surma-Barak zone. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
    "confidence": "high",
    "latitude": 24.7994,
    "longitude": 92.1522,
@@ -26367,7 +26408,7 @@
    "present_name": "Jaintiapur",
    "location": "Jaintiapur Upazila, Sylhet Division, Bangladesh",
    "summary": "The capital of the Jaintia kingdom.",
-   "notes": "Present-day location from standard references; not re-checked.",
+   "notes": "Present-day location from standard references; not re-checked. Seat of the Jaintia plains domain toward the Surma valley; the Jaintia hill core in what is now Meghalaya stayed the durable centre until British annexation in 1835. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
    "confidence": "medium",
    "latitude": 25.13,
    "longitude": 92.13,
@@ -26781,6 +26822,7 @@
    "present_name": "Sankosh River",
    "location": "Along the border of Assam and West Bengal, from Bhutan to the Brahmaputra system",
    "summary": "The river that divided Koch Bihar from Koch Hajo in 1581; roughly today's Assam-West Bengal border.",
+   "notes": "In the later pitha schemes the Sankosh divides the western Ratnapitha from the next division eastward; an internal sacred and cultural boundary, not automatically a frontier. The four pithas are Kama, Ratna, Suvarna and Saumara (variant lists exist); rivers such as the Rupahi and Bharali also appear as pitha dividers. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
    "confidence": "high",
    "sources": [
     "https://en.wikipedia.org/wiki/Koch_Hajo"
@@ -26950,11 +26992,14 @@
    "also_called": [
     "Kanchanjanga",
     "Kanchenjanga",
-    "Kanchenjunga"
+    "Kanchenjunga",
+    "Kanjagiri",
+    "Kancana (Yogini Tantra, proposed)"
    ],
    "present_name": "Kanchenjunga",
    "location": "Sikkim and Nepal border",
    "summary": "The mountain named as the northern limit of Kamarupa in the traditional description.",
+   "notes": "Also the Kanjagiri / Kancana (Kanja) of the Yogini Tantra, the proposed northern limit of Kamarupa (D. C. Sircar); a far north-western Himalayan anchor, not a line along the valley, so the identification carries a question mark. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
    "confidence": "high",
    "latitude": 27.703,
    "longitude": 88.147,
@@ -27384,7 +27429,7 @@
    "present_name": "Dubi",
    "location": "Bajali, Assam",
    "summary": "Findspot of the Dubi copper plates (7th century).",
-   "notes": "Coordinate quality: documented locality, approximate pin.",
+   "notes": "Coordinate quality: documented locality, approximate pin. Dubi plates of Bhaskaravarman, found near Pathsala and first published through the Assam Research Society. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
    "confidence": "medium",
    "latitude": 26.4797,
    "longitude": 91.2067,
@@ -27909,6 +27954,62 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Shitalakshya_River",
     "https://www.ebharatisampat.in/pdfs/ebharati-pdf-16877649972030-SaktaPithas-DCSarkar-1948%28MDD%29.pdf"
+   ]
+  },
+  {
+   "id": "dikkaravasini",
+   "name": "Dikkaravasini",
+   "kind": "Pilgrim site",
+   "also_called": [
+    "Dikkaravasini",
+    "Dikkaravasini shrine",
+    "Lalitakanta (in the Kalika Purana narrative)"
+   ],
+   "present_name": "Dikrong (user identification)",
+   "location": "Dikrong river, Arunachal Pradesh and Lakhimpur district, Assam",
+   "summary": "The eastern end of Kamarupa in the Kalika Purana (from the Karatoya to Dikkaravasini).",
+   "notes": "The user identifies Dikkaravasini with the Dikrong river (2026-11-01), whose place is dikrang. The older tradition places the shrine near Sadiya and the Tamreswari or Kechaikhati complex (about 27.8 N, 95.6 to 95.8 E); the shrine and the landscape have been altered by river migration and earthquakes, so a precise point would be spurious and none is set. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
+   "confidence": "low",
+   "sources": [
+    "https://www.wisdomlib.org/hinduism/essay/studies-in-the-upapuranas/ocr/1470953/235",
+    "https://en.wikipedia.org/wiki/Kamarupa"
+   ]
+  },
+  {
+   "id": "diksu",
+   "name": "Diksu (Dikshu)",
+   "kind": "River",
+   "also_called": [
+    "Dikshu",
+    "Diksu river",
+    "Diksunadi"
+   ],
+   "present_name": "Dikhow River",
+   "location": "Sivasagar district, Assam",
+   "summary": "The sacred eastern river of Kamarupa in the Yogini Tantra.",
+   "notes": "The user identifies Diksu with the Dikhow (2026-11-01), as D. C. Sircar and Gait did. Others proposed the Dikrang or the Dibang; if Diksu is the Dikhow then the Yogini Tantra's eastern line lies far west of Dikkaravasini. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
+   "confidence": "medium",
+   "sources": [
+    "https://www.ebharatisampat.in/pdfs/ebharati-pdf-16877649972030-SaktaPithas-DCSarkar-1948%28MDD%29.pdf"
+   ]
+  },
+  {
+   "id": "jaintia-kingdom",
+   "name": "Jaintia kingdom",
+   "kind": "Kingdom",
+   "also_called": [
+    "Jaintia",
+    "Jayantia",
+    "Jainta",
+    "Jaintiapur kingdom"
+   ],
+   "present_name": "Jaintia Hills and the Surma plains",
+   "location": "Meghalaya and Sylhet, India and Bangladesh",
+   "summary": "A Khasi-Jaintia hill kingdom with a plains extension toward Jaintiapur and the Surma valley, until the British annexation in 1835.",
+   "notes": "The hill nucleus is in what is now Meghalaya; the Surma zone was the main southern frontier against expanding British Bengal. Its relations with the Ahoms and Kacharis ran through hills, passes and tributary communities, not one river line. The shape engine only shades Assam, Bengal and Bangladesh land, so the realm is listed but not drawn. Two boundary-history reports read 2026-11-01 (ChatGPT-compiled with citations, to be checked against the cited primary works); research/places/boundary-reports-2026-11-01.md.",
+   "confidence": "low",
+   "sources": [
+    "https://censusindia.gov.in/nada/index.php/catalog/865/download/36328/DH_2011_1707_PART_B_DCHB_JAINTIA_HILLS.pdf"
    ]
   }
  ]

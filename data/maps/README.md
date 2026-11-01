@@ -13,7 +13,16 @@ Every coordinate is `[latitude, longitude]`.
 ## Spots
 
 The map spots are not a separate file. They are the `lat` and `lon` columns of the `place` rows in `data/assam_history.csv`
-(187 places; 127 have a point, from the AHOM map catalogue; its separate "Rangpur" spot is the same town as Sivasagar). Each point is an approximate catalogue reference point, not a surveyed
+(190 places; 127 have a point, from the AHOM map catalogue; its separate "Rangpur" spot is the same town as Sivasagar). Each point is an approximate catalogue reference point, not a surveyed
 location: it marks "about here" for a named place, region or river. `data/site.js` carries it as `geo: [lat, lon]` on each place.
 
 Not brought over: the AHOM map renderer (`map.js`) and the event routes (`map-stories.json`).
+
+## Boundary data (kingdoms through time)
+
+The kingdom shapes on the map page are built from `realm` rows of `data/assam_history.csv`; the geometry is not stored here. Each row names its limits
+(`limit_west`, `limit_east`, `limit_north`, `limit_south`) as `river:<id>` (a line in `assam.json`), `place:<id>` (a place with lat/lon), `ridge:patkai`,
+`lat:<deg>` or `lon:<deg>`; `a>b` means follow `a`, then `b` below its end (the Teesta/Karatoya, then the Brahmaputra). Land comes from the present Assam
+districts (less the hill districts and the Barak valley where they were not held), plus the north Bengal duars and Bangladesh for the western kingdoms.
+Rivers added from the user's `Assam Rivers.kml` (2026-10-31/11-01): Teesta/Karatoya and Sisi. Identifications and the reading of the boundary texts:
+`research/places/boundary-reports-2026-11-01.md` (local). Sacred-geography rows (`kamarupa-kalika`, `kamarupa-yogini`) describe texts, not political frontiers.
