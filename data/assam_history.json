@@ -24632,7 +24632,7 @@
    "date_label": "sacred scheme, not a dated frontier",
    "summary": "Kamapitha in the Kakati (1967) scheme.",
    "boundary": "West: Sankosh | East: Rupahi (Rupali)",
-   "notes": "The Rupahi is a town point; the river is not in the data. South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "notes": "The Rupahi is the Puthimari/Bornadi (user identification). South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
    "confidence": "low",
    "places": [
     "sankosh",
@@ -25094,11 +25094,16 @@
    "also_called": [
     "Barnadi River",
     "Bornadi",
-    "Barnadi"
+    "Barnadi",
+    "Bornadi",
+    "Puthimari",
+    "Rupahi",
+    "Pushpita (Kalika Purana)"
    ],
    "present_name": "Barnadi River",
    "location": "Udalguri and Darrang districts, Assam",
    "summary": "The eastern boundary of Kamata and of the early Koch kingdom.",
+   "notes": "User identification, 2026-11-01: the Bornadi/Puthimari is the Rupahi (Rupika, Rupali) and is called Pushpita in the Kalika Purana. Note: this project draws the Barnadi limit of the 1639 treaty on the Puthimari/Bornadi line of the river file; whether the 1639 Barnadi and the Puthimari are the same stream is not settled.",
    "confidence": "high",
    "sources": [
     "https://en.wikipedia.org/wiki/Kamata_Kingdom"
@@ -25218,7 +25223,7 @@
    ],
    "location": "Brahmaputra valley, Assam (exact river not established)",
    "summary": "River named in a Pala grant issued by Dharmapala.",
-   "notes": "Present-day river not established here. A 12th-century copper plate named for it comes from the north bank, North Guwahati region; the exact location is unknown, so it is not geocoded.",
+   "notes": "Present-day river not established here. A 12th-century copper plate named for it comes from the north bank, North Guwahati region; the exact location is unknown, so it is not geocoded. The Kalika Purana's Pushpita is identified by the user with the Puthimari/Bornadi (2026-11-01); whether the Pala grant's Pushpabhadra is the same river is not confirmed.",
    "confidence": "low"
   },
   {
@@ -28365,22 +28370,22 @@
   },
   {
    "id": "rupahi",
-   "name": "Rupahi",
-   "kind": "Town",
+   "name": "Rupahi (Puthimari)",
+   "kind": "River",
    "also_called": [
     "Rupahi",
-    "Rupahi river",
     "Rupika",
     "Rupali",
-    "Itupahi"
+    "Itupahi",
+    "Puthimari",
+    "Bornadi",
+    "Pushpita (Kalika Purana)"
    ],
-   "present_name": "Rupahi",
-   "location": "Nagaon district, Assam",
-   "summary": "A place and river name in Nagaon district that marks the Kama/Ratna and Suvarna pitha boundary in several readings.",
-   "notes": "The river line is not in the project's river file, so the map uses the modern Rupahi town as a stand-in point; the ancient river identification (Rupika, Rupali, Rupahi) is not settled. Map point from OpenStreetMap.",
-   "confidence": "low",
-   "latitude": 26.4872,
-   "longitude": 92.7437,
+   "present_name": "Puthimari River (Bornadi)",
+   "location": "Nalbari, Kamrup and Baksa area, Assam",
+   "summary": "The river that marks the Kama/Ratna and Suvarna pitha boundary in several readings; the modern Puthimari (Bornadi).",
+   "notes": "User identification, 2026-11-01: the Bornadi/Puthimari is the Rupahi (Rupika, Rupali) and is called Pushpita in the Kalika Purana. The earlier stand-in point (Rupahi town in Nagaon, 26.49 N, 92.74 E) is removed; the pitha rows now follow the Puthimari line from the river file. Rupahi is also the name of a town in Nagaon, which is not this river.",
+   "confidence": "medium",
    "sources": [
     "https://en.wikipedia.org/wiki/Kamarupa_pithas",
     "https://en.wikipedia.org/wiki/Kamapitha",
