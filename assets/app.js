@@ -362,7 +362,7 @@ const PILL_OF = Object.fromEntries(PILLS.flatMap(([g, , ks]) => ks.map(k => [k, 
 const LAYERS = [['rivers', 'pillRivers'], ['realms', 'pillRealms'], ['kamarupa', 'pillKamarupa'], ['pithas', 'pillPithas'], ['labels', 'pillLabels']];
 const PITHA_COLOR = { ratna: '#0d9488', kama: '#c026d3', suvarna: '#ca8a04', saumara: '#4f46e5', bhadra: '#65a30d' };
 function viewMap(q) {
-  const st = { hide: q.has('hide') ? (q.get('hide') === '-' ? '' : q.get('hide')) : 'pithas', y: q.get('y') || '', pv: q.get('pv') || '' };   /* the pithas layer starts hidden */
+  const st = { hide: q.has('hide') ? (q.get('hide') === '-' ? '' : q.get('hide')) : 'pithas,kamarupa', y: q.get('y') || '', pv: q.get('pv') || '' };   /* the pithas and the remembered-Kamarupa layers start hidden */
   if (!mapGeo) {
     mapGeo = 'loading';
     Promise.all(['data/maps/boundaries.json', 'data/maps/assam.json', 'data/maps/neighbours.json'].map(f => fetch(f).then(r => r.json())))
