@@ -43,7 +43,7 @@ const houseKey = () => `<ul class="hkey" aria-label="Dynasty colours">${HOUSES.m
 /* ---------- language ---------- */
 const STR = {
   en: {
-    brand:'Assam history sheets', home:'Home', characters:'Characters', kings:'Kings', map:'Map', mapLede:(n,m)=>`${n} places with a map point. ${m} more have no point yet.`, mapFail:'The map data could not be loaded.', mapKind:'Kind of place', mapAll:'All kinds', mapShow:'Show or hide on the map', mapLayers:'Layers', mapPlaces:'Places', mapAllOn:'Show all', mapNoPlaces:'Hide all places', pillRivers:'Rivers', pillRealms:'Kingdoms', pillLabels:'Names', pillCities:'Capitals and cities', pillTowns:'Towns and villages', pillFaith:'Temples and satras', pillSites:'Sites and monuments', pillWar:'Forts and battles', pillLand:'Regions, hills and waters', mapShown:n=>`${n} shown`, mapZoomIn:'Zoom in', mapZoomOut:'Zoom out', mapZoomReset:'Reset view', mapHint:'Scroll to zoom, drag to pan, double-click to zoom in.', mapYear:'Year', mapPlay:'Play', mapPause:'Pause', mapW:'West', mapE:'East', mapN:'North', mapS:'South', mapNorthBank:'North bank', mapSouthBank:'South bank', mapNoLimit:'no limit named', mapNoDraw:'no limit named, not drawn', mapNoKingdom:'No kingdom in the record covers this year.', mapSchem:'Each shaded kingdom is one shape built from its named boundary rivers or places and cut from the present Assam border (plus the north Bengal duars for the western kingdoms), so the hill and plain edges are today’s, not those of the time. Bhutan and Arunachal are not shaded. A faint dashed edge means no limit was named on that side.', mapOff:l=>`Outside this view: ${l}.`, mapNote:'Points are approximate reference positions on modern geography, not surveyed locations or historical borders.', licence:'Licence and credits', footLic:'Non-commercial use only. Licence and credits', timeline:'Timeline', scenes:'Scenes', coverage:'Coverage', about:'About',
+    brand:'Assam history sheets', home:'Home', characters:'Characters', kings:'Kings', map:'Map', mapLede:(n,m)=>`${n} places with a map point. ${m} more have no point yet.`, mapFail:'The map data could not be loaded.', mapKind:'Kind of place', mapAll:'All kinds', mapShow:'Show or hide on the map', mapLayers:'Layers', mapPlaces:'Places', mapAllOn:'Show all', mapNoPlaces:'Hide all places', pillRivers:'Rivers', pillRealms:'Kingdoms', pillLabels:'Names', pillPithas:'Pithas', mapPithaScheme:'Pitha scheme', mapPithaNote:'The four sacred sectors of Kamarupa as one source gives them; the sources disagree on names and rivers.', mapPithaMore:'About the pithas and the sources',  pillCities:'Capitals and cities', pillTowns:'Towns and villages', pillFaith:'Temples and satras', pillSites:'Sites and monuments', pillWar:'Forts and battles', pillLand:'Regions, hills and waters', mapShown:n=>`${n} shown`, mapZoomIn:'Zoom in', mapZoomOut:'Zoom out', mapZoomReset:'Reset view', mapHint:'Scroll to zoom, drag to pan, double-click to zoom in.', mapYear:'Year', mapPlay:'Play', mapPause:'Pause', mapW:'West', mapE:'East', mapN:'North', mapS:'South', mapNorthBank:'North bank', mapSouthBank:'South bank', mapNoLimit:'no limit named', mapNoDraw:'no limit named, not drawn', mapNoKingdom:'No kingdom in the record covers this year.', mapSchem:'Each shaded kingdom is one shape built from its named boundary rivers or places and cut from the present Assam border (plus the north Bengal duars for the western kingdoms), so the hill and plain edges are today’s, not those of the time. Bhutan and Arunachal are not shaded. A faint dashed edge means no limit was named on that side.', mapOff:l=>`Outside this view: ${l}.`, mapNote:'Points are approximate reference positions on modern geography, not surveyed locations or historical borders.', licence:'Licence and credits', footLic:'Non-commercial use only. Licence and credits', timeline:'Timeline', scenes:'Scenes', coverage:'Coverage', about:'About',
     h1:'The people of Assam’s history', h1sub:'Character sheets from Pushyavarman to Tarun Gogoi',
     lede:'Use them as reference images when you make AI art, video and books, so the same person looks the same in every scene.',
     span:(e, n)=>`${e} periods, ${n} people`,
@@ -80,7 +80,7 @@ const STR = {
     srSceneCount:n=>`${n} ${n === 1 ? 'scene' : 'scenes'}`, srCharCount:n=>`${n} ${n === 1 ? 'character' : 'characters'}`, srNoSheet:'No sheet yet', srMore:n=>`+${n}`,
   },
   as: {
-    brand:'অসম ইতিহাস চৰিত্ৰ-পত্ৰ', home:'ঘৰ', characters:'চৰিত্ৰ', kings:'ৰজাসকল', map:'মানচিত্ৰ', mapLede:(n,m)=>`${n}টা ঠাইৰ মানচিত্ৰ-বিন্দু আছে। আৰু ${m}টাৰ এতিয়াও নাই।`, mapFail:'মানচিত্ৰৰ তথ্য লোড কৰিব পৰা নগ’ল।', mapKind:'ঠাইৰ প্ৰকাৰ', mapAll:'সকলো প্ৰকাৰ', mapShow:'মানচিত্ৰত দেখুওৱা বা লুকুৱাওক', mapLayers:'স্তৰ', mapPlaces:'ঠাই', mapAllOn:'সকলো দেখুৱাওক', mapNoPlaces:'সকলো ঠাই লুকুৱাওক', pillRivers:'নদী', pillRealms:'ৰাজ্য', pillLabels:'নাম', pillCities:'ৰাজধানী আৰু নগৰ', pillTowns:'চহৰ আৰু গাঁও', pillFaith:'মন্দিৰ আৰু সত্ৰ', pillSites:'স্থান আৰু স্মাৰক', pillWar:'দুৰ্গ আৰু যুদ্ধক্ষেত্ৰ', pillLand:'অঞ্চল, পাহাৰ আৰু জল', mapShown:n=>`${n}টা দেখুওৱা হৈছে`, mapZoomIn:'ডাঙৰ কৰক', mapZoomOut:'সৰু কৰক', mapZoomReset:'পুনৰ আৰম্ভ', mapHint:'স্ক্ৰল কৰি জুম কৰক, টানি লৈ যাওক, দুবাৰ ক্লিক কৰিলে ডাঙৰ হ’ব।', mapYear:'বৰ্ষ', mapPlay:'চলাওক', mapPause:'ৰখাওক', mapW:'পশ্চিম', mapE:'পূব', mapN:'উত্তৰ', mapS:'দক্ষিণ', mapNorthBank:'উত্তৰ পাৰ', mapSouthBank:'দক্ষিণ পাৰ', mapNoLimit:'সীমা উল্লেখ নাই', mapNoDraw:'সীমা উল্লেখ নাই, আঁকা হোৱা নাই', mapNoKingdom:'এই বছৰটো নথিত থকা কোনো ৰাজ্যই সামৰা নাই।', mapSchem:'ছাঁ দিয়া ৰাজ্যবোৰ আনুমানিক: নাম থকা সীমা-নদী বা ঠাইৰ মাজৰ ফালি, ভাৰতৰ সীমাত কটা (বাংলাদেশ আৰু ভূটান ছাঁ দিয়া হোৱা নাই)।', mapOff:l=>`এই দৃশ্যৰ বাহিৰত: ${l}।`, mapNote:'বিন্দুবোৰ আধুনিক ভূগোলত আনুমানিক অৱস্থান; জৰীপ কৰা ঠাই বা ঐতিহাসিক সীমা নহয়।', licence:'অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', footLic:'কেৱল অবাণিজ্যিক ব্যৱহাৰৰ বাবে। অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', timeline:'সময়ৰেখা', scenes:'দৃশ্য', coverage:'অগ্ৰগতি', about:'আমাৰ বিষয়ে',
+    brand:'অসম ইতিহাস চৰিত্ৰ-পত্ৰ', home:'ঘৰ', characters:'চৰিত্ৰ', kings:'ৰজাসকল', map:'মানচিত্ৰ', mapLede:(n,m)=>`${n}টা ঠাইৰ মানচিত্ৰ-বিন্দু আছে। আৰু ${m}টাৰ এতিয়াও নাই।`, mapFail:'মানচিত্ৰৰ তথ্য লোড কৰিব পৰা নগ’ল।', mapKind:'ঠাইৰ প্ৰকাৰ', mapAll:'সকলো প্ৰকাৰ', mapShow:'মানচিত্ৰত দেখুওৱা বা লুকুৱাওক', mapLayers:'স্তৰ', mapPlaces:'ঠাই', mapAllOn:'সকলো দেখুৱাওক', mapNoPlaces:'সকলো ঠাই লুকুৱাওক', pillRivers:'নদী', pillRealms:'ৰাজ্য', pillLabels:'নাম', pillPithas:'পীঠ', mapPithaScheme:'পীঠৰ বিন্যাস', mapPithaNote:'কামৰূপৰ চাৰিটা পবিত্ৰ অংশ; উৎস অনুসৰি নাম আৰু নদী সলনি হয়।', mapPithaMore:'পীঠ আৰু উৎসৰ বিষয়ে',  pillCities:'ৰাজধানী আৰু নগৰ', pillTowns:'চহৰ আৰু গাঁও', pillFaith:'মন্দিৰ আৰু সত্ৰ', pillSites:'স্থান আৰু স্মাৰক', pillWar:'দুৰ্গ আৰু যুদ্ধক্ষেত্ৰ', pillLand:'অঞ্চল, পাহাৰ আৰু জল', mapShown:n=>`${n}টা দেখুওৱা হৈছে`, mapZoomIn:'ডাঙৰ কৰক', mapZoomOut:'সৰু কৰক', mapZoomReset:'পুনৰ আৰম্ভ', mapHint:'স্ক্ৰল কৰি জুম কৰক, টানি লৈ যাওক, দুবাৰ ক্লিক কৰিলে ডাঙৰ হ’ব।', mapYear:'বৰ্ষ', mapPlay:'চলাওক', mapPause:'ৰখাওক', mapW:'পশ্চিম', mapE:'পূব', mapN:'উত্তৰ', mapS:'দক্ষিণ', mapNorthBank:'উত্তৰ পাৰ', mapSouthBank:'দক্ষিণ পাৰ', mapNoLimit:'সীমা উল্লেখ নাই', mapNoDraw:'সীমা উল্লেখ নাই, আঁকা হোৱা নাই', mapNoKingdom:'এই বছৰটো নথিত থকা কোনো ৰাজ্যই সামৰা নাই।', mapSchem:'ছাঁ দিয়া ৰাজ্যবোৰ আনুমানিক: নাম থকা সীমা-নদী বা ঠাইৰ মাজৰ ফালি, ভাৰতৰ সীমাত কটা (বাংলাদেশ আৰু ভূটান ছাঁ দিয়া হোৱা নাই)।', mapOff:l=>`এই দৃশ্যৰ বাহিৰত: ${l}।`, mapNote:'বিন্দুবোৰ আধুনিক ভূগোলত আনুমানিক অৱস্থান; জৰীপ কৰা ঠাই বা ঐতিহাসিক সীমা নহয়।', licence:'অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', footLic:'কেৱল অবাণিজ্যিক ব্যৱহাৰৰ বাবে। অনুজ্ঞাপত্ৰ আৰু কৃতজ্ঞতা', timeline:'সময়ৰেখা', scenes:'দৃশ্য', coverage:'অগ্ৰগতি', about:'আমাৰ বিষয়ে',
     h1:'অসমৰ ইতিহাসৰ মানুহ', h1sub:'পুষ্যবৰ্মাৰ পৰা তৰুণ গগৈলৈ চৰিত্ৰ-পত্ৰ', span:(e, n)=>`${e}টা যুগ, ${n} জন মানুহ`,
     lede:'অসমৰ ইতিহাসৰ মানুহবোৰৰ চৰিত্ৰ-পত্ৰ। এআই চিত্ৰ, ভিডিঅ’ আৰু কিতাপ বনাওঁতে ৰেফাৰেন্স হিচাপে ব্যৱহাৰ কৰক।',
     browse:'চৰিত্ৰবোৰ চাওক', seeScenes:'ঐতিহাসিক দৃশ্য চাওক',
@@ -359,9 +359,10 @@ const PILLS = [['cities', 'pillCities', ['Capital', 'City']], ['towns', 'pillTow
   ['sites', 'pillSites', ['Monument', 'Archaeological site', 'Inscription findspot', 'Tank', 'Causeway']], ['war', 'pillWar', ['Fort', 'Battle site']],
   ['land', 'pillLand', ['Region', 'Kingdom', 'Hill', 'Lake', 'Island', 'Park', 'Pass', 'Mountain', 'River', 'Place']]];
 const PILL_OF = Object.fromEntries(PILLS.flatMap(([g, , ks]) => ks.map(k => [k, g])));
-const LAYERS = [['rivers', 'pillRivers'], ['realms', 'pillRealms'], ['labels', 'pillLabels']];
+const LAYERS = [['rivers', 'pillRivers'], ['realms', 'pillRealms'], ['pithas', 'pillPithas'], ['labels', 'pillLabels']];
+const PITHA_COLOR = { ratna: '#0d9488', kama: '#c026d3', suvarna: '#ca8a04', saumara: '#4f46e5', bhadra: '#65a30d' };
 function viewMap(q) {
-  const st = { hide: q.get('hide') || '', y: q.get('y') || '' };
+  const st = { hide: q.has('hide') ? (q.get('hide') === '-' ? '' : q.get('hide')) : 'pithas', y: q.get('y') || '', pv: q.get('pv') || '' };   /* the pithas layer starts hidden */
   if (!mapGeo) {
     mapGeo = 'loading';
     Promise.all(['data/maps/boundaries.json', 'data/maps/assam.json', 'data/maps/neighbours.json'].map(f => fetch(f).then(r => r.json())))
@@ -435,6 +436,18 @@ function viewMap(q) {
     return groupShape.cache[key] || (groupShape.cache[key] = safe(() => parts.length > 1 ? fillHoles(pc.union(...parts.map(([g]) => shapeOf(g)).filter(m => m.length))) : shapeOf(parts[0][0]), []));
   };
   groupShape.cache = {};
+  /* the pithas of Kamarupa: sacred sectors, shown for one source's scheme at a time, apart from the year slider */
+  const pitRows = realms.map((r, i) => [geo[i], r]).filter(([g, r]) => g && r.id.startsWith('pitha-'));
+  const versions = [...new Set(pitRows.map(([, r]) => r.coll))];
+  if (!versions.includes(st.pv)) st.pv = versions[0] || '';
+  const paintPithas = () => {
+    const mine = pitRows.filter(([, r]) => r.coll === st.pv);
+    $('mpithas').innerHTML = mine.map(([g, r]) => { const mp = shapeOf(g), key = r.id.split('-').pop(), c = PITHA_COLOR[key] || '#64748b';
+      const ring0 = mp.map(pg => pg[0]).sort((a, b) => b.length - a.length)[0]; if (!ring0) return '';
+      const lo = ring0.map(p => p[0]), la = ring0.map(p => p[1]), cx = X((Math.min(...lo) + Math.max(...lo)) / 2), cy = Y((Math.min(...la) + Math.max(...la)) / 2);
+      return `<g style="--pc:${c}"><path class="mpit" fill-rule="evenodd" d="${mpPath(mp)}"/><text class="mpt" x="${cx}" y="${cy}" text-anchor="middle">${esc(r.name)}</text></g>`; }).join('');
+    $('mpleg').innerHTML = mine.map(([g, r]) => `<li style="--pc:${PITHA_COLOR[r.id.split('-').pop()] || '#64748b'}"><i class="sw"></i><div><b>${esc(r.name)}</b><br><small>${esc(r.boundary)}${r.notes ? ' · ' + esc(r.notes) : ''}</small></div></li>`).join('') + `<li class="none"><a href="${placeHref('kamarupa-pithas')}">${esc(t('mapPithaMore'))}</a></li>`;
+  };
   const yMin = 350, yMax = 1950, y0 = Math.min(yMax, Math.max(yMin, Number(st.y) || 1650));
   const limName = (l, none) => l ? l.name : none;
   const paint = y => {
@@ -452,7 +465,7 @@ function viewMap(q) {
       const lims = parts.map(([g, rr]) => { if (!g) return t('mapNoDraw'); const bank = split ? (g.n ? t('mapSouthBank') : g.s && g.s.line ? t('mapNorthBank') : '') : '';
         return (bank ? bank + ': ' : '') + [['mapW', g.w], ['mapE', g.e]].map(([k, l]) => `${t(k)} ${limName(l, t('mapNoLimit'))}`).join(', '); }).join(' · ');
       return `<li style="--mc:${g0 ? g0.color : realmColor(r)}"><i class="sw"></i><div><b>${esc(r.name)}</b> <small>${esc(r.label)}</small><br><small>${esc(lims)}</small> · <a href="${placeHref(r.polity)}">${esc((placeById[r.polity] || { name: r.polity }).name)}</a></div></li>`; }).join('') : `<li class="none">${esc(t('mapNoKingdom'))}</li>`;
-    st.y = String(y); setQuery('/map', st);
+    st.y = String(y); setQuery('/map', { ...st, hide: st.hide || '-' });
   };
   setTimeout(() => {
     const bar = $('mpills'); if (!bar) return;
@@ -460,13 +473,15 @@ function viewMap(q) {
     const apply = () => {
       const h = hidden();
       bar.querySelectorAll('[data-pill]').forEach(b => b.setAttribute('aria-pressed', h.has(b.dataset.pill) ? 'false' : 'true'));
+      fig.classList.toggle('no-pithas', h.has('pithas')); $('mpvw').hidden = $('mpleg').hidden = h.has('pithas'); if (!h.has('pithas')) paintPithas();
       fig.classList.toggle('no-rivers', h.has('rivers')); fig.classList.toggle('no-realms', h.has('realms')); fig.classList.toggle('no-labels', h.has('labels'));
       let n = 0; fig.querySelectorAll('#mdots a').forEach(a => { const off = h.has(a.dataset.g); a.style.display = off ? 'none' : ''; if (!off) n++; });
       fig.querySelectorAll('#mlabels text').forEach(x => { x.style.display = h.has(x.dataset.g) ? 'none' : ''; });
       $('mshown').textContent = t('mapShown', n); $('mleg').hidden = h.has('realms'); document.querySelector('.mtime').hidden = h.has('realms');
-      setQuery('/map', st);
+      setQuery('/map', { ...st, hide: st.hide || '-' });
     };
     bar.onclick = e => { const b = e.target.closest('[data-pill]'); if (!b) return; const h = hidden(); h.has(b.dataset.pill) ? h.delete(b.dataset.pill) : h.add(b.dataset.pill); st.hide = [...h].join(','); apply(); };
+    $('mpv').onchange = e => { st.pv = e.target.value; paintPithas(); setQuery('/map', { ...st, hide: st.hide || '-' }); };
     $('mall').onclick = () => { st.hide = ''; apply(); };
     $('mnone').onclick = () => { st.hide = PILLS.map(p => p[0]).join(','); apply(); };
     apply();
@@ -509,11 +524,13 @@ function viewMap(q) {
   return head + `<div class="pillbar" id="mpills" role="group" aria-label="${esc(t('mapShow'))}"><span class="pillhd">${esc(t('mapLayers'))}</span>${LAYERS.map(([k, l]) => pill(k, l)).join('')}
     <span class="pillhd">${esc(t('mapPlaces'))}</span>${PILLS.map(([k, l]) => pill(k, l, shown.filter(p => groupOf(p) === k).length)).join('')}
     <button type="button" class="quiet" id="mall">${esc(t('mapAllOn'))}</button><button type="button" class="quiet" id="mnone">${esc(t('mapNoPlaces'))}</button><span class="count" id="mshown"></span></div>
+    <div class="pvw" id="mpvw" hidden><label for="mpv">${esc(t('mapPithaScheme'))}</label><select id="mpv">${versions.map(v => `<option ${v === st.pv ? 'selected' : ''}>${esc(v)}</option>`).join('')}</select><small>${esc(t('mapPithaNote'))}</small></div>
     <div class="mtime"><label for="mrange">${esc(t('mapYear'))} <b id="myear">${y0}</b></label><input type="range" id="mrange" min="${yMin}" max="${yMax}" step="1" value="${y0}"><button type="button" id="mplay" class="btn">${esc(t('mapPlay'))}</button>
     <div class="mmarks">${marks.map(m => `<button type="button" class="quiet" data-myear="${m}">${m}</button>`).join('')}</div></div>
-    <figure class="mapfig"><div class="mzoom"><button type="button" id="mzin" aria-label="${esc(t('mapZoomIn'))}">+</button><button type="button" id="mzout" aria-label="${esc(t('mapZoomOut'))}">−</button><button type="button" id="mzreset" aria-label="${esc(t('mapZoomReset'))}">⤢</button></div><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t('map'))}"><g id="mbase"><path class="mdist" d="${districts}"/><path class="mnat" d="${neighbours}"/><path class="mnat" d="${india}"/><path class="mstate" d="${assam}"/></g><g id="mrealms"></g><g id="mrivers">${rivers}</g><g id="mdots">${dots}</g><g id="mlabels">${labels}</g></svg>
+    <figure class="mapfig"><div class="mzoom"><button type="button" id="mzin" aria-label="${esc(t('mapZoomIn'))}">+</button><button type="button" id="mzout" aria-label="${esc(t('mapZoomOut'))}">−</button><button type="button" id="mzreset" aria-label="${esc(t('mapZoomReset'))}">⤢</button></div><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t('map'))}"><g id="mbase"><path class="mdist" d="${districts}"/><path class="mnat" d="${neighbours}"/><path class="mnat" d="${india}"/><path class="mstate" d="${assam}"/></g><g id="mrealms"></g><g id="mpithas"></g><g id="mrivers">${rivers}</g><g id="mdots">${dots}</g><g id="mlabels">${labels}</g></svg>
     <figcaption>${esc(t('mapHint'))} ${esc(t('mapNote'))}${off.length ? ' ' + esc(t('mapOff', off.map(p => p.name).join(', '))) : ''} ${esc(t('mapSchem'))} <a href="data/maps/README.md">data/maps</a></figcaption></figure>
-    <ul class="mleg" id="mleg" aria-live="polite"></ul>`;
+    <ul class="mleg" id="mleg" aria-live="polite"></ul>
+    <ul class="mleg" id="mpleg" hidden></ul>`;
 }
 
 /* ---------- licence and credits ---------- */

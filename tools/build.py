@@ -214,7 +214,7 @@ def main():
             if i not in place_ids: problems.append(f"realm {r['id']}: unknown place {i}")
         realms.append({k: v for k, v in {"id": r["id"], "name": r["name"], "polity": r["group"], "era": r["period"], "label": r["date_label"], "start": num(r["start_year"]),
                        "end": num(r["end_year"]), "desc": r["summary"], "bounds": r["boundary"], "note": r["notes"], "conf": r["confidence"], "src": src(r["sources"]),
-                       "places": lst(r["places"]), "w": r["limit_west"], "e": r["limit_east"], "n": r["limit_north"], "s": r["limit_south"]}.items() if v not in ("", [], None)})
+                       "places": lst(r["places"]), "w": r["limit_west"], "e": r["limit_east"], "n": r["limit_north"], "s": r["limit_south"], "coll": r["collection"]}.items() if v not in ("", [], None)})
     site = {"eras": eras, "characters": chars, "scenes": scenes, "events": events, "places": places, "realms": realms, "src": list(src_index)}
     (ROOT / "data/site.js").write_text("window.SITE=" + json.dumps(site, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
 

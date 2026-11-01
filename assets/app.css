@@ -426,3 +426,10 @@ body.mappage{--paper:#fff;--leaf:#faf8f2;--leaf2:#efebe0;--line:#dcd7c9;--ink:#1
 .mzoom{position:absolute;top:10px;right:10px;z-index:2;display:flex;flex-direction:column;gap:4px}
 .mzoom button{width:34px;height:34px;font:inherit;font-size:1.2rem;line-height:1;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:3px;cursor:pointer}
 .mzoom button:hover{background:var(--leaf2)}
+
+/* pithas layer */
+.mpit{fill:var(--pc);fill-opacity:.2;stroke:var(--pc);stroke-width:1.6;stroke-dasharray:6 4;vector-effect:non-scaling-stroke}
+.mpt{font-size:15px;font-weight:700;fill:var(--pc);paint-order:stroke;stroke:#fff;stroke-width:3px;pointer-events:none}
+.mapfig.no-pithas #mpithas{display:none}
+.pvw{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin:10px 0 0;max-width:1000px}.pvw select{font:inherit;padding:3px 8px;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:3px}.pvw small{color:var(--muted)}
+#mpleg .sw{background:var(--pc);opacity:.7}

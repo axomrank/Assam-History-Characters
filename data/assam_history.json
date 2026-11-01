@@ -24601,6 +24601,335 @@
     "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
     "https://en.wikipedia.org/wiki/Ahom_kingdom"
    ]
+  },
+  {
+   "id": "pitha-kakati-ratna",
+   "name": "Ratnapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Ratnapitha in the Kakati (1967) scheme.",
+   "boundary": "West: Karatoya | East: Sankosh",
+   "notes": "Roughly north Bengal and the westernmost Goalpara region. South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "karatoya",
+    "sankosh"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-kakati-kama",
+   "name": "Kamapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Kamapitha in the Kakati (1967) scheme.",
+   "boundary": "West: Sankosh | East: Rupahi (Rupali)",
+   "notes": "The Rupahi is a town point; the river is not in the data. South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "sankosh",
+    "rupahi"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-kakati-suvarna",
+   "name": "Suvarnapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Suvarnapitha in the Kakati (1967) scheme.",
+   "boundary": "West: Rupahi (Rupali) | East: Bharali",
+   "notes": "Central Assam. South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "rupahi",
+    "bhareli"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-kakati-saumara",
+   "name": "Saumarapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Saumarapitha in the Kakati (1967) scheme.",
+   "boundary": "West: Bharali (Bhairavi) | East: Dikrai, taken here as the Dikrong (Dikkaravasini)",
+   "notes": "Kakati gives \"between the Bhairavi and the Dikarai\"; Bhairavi is the Bharali and Dikarai is read as the Dikrong, following the user's identification of Dikkaravasini; a Dikrai also flows in Sonitpur, so the east end is uncertain. South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "bhareli",
+    "dikrang"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-sircar1-kama",
+   "name": "Kamapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Kamapitha in the Sircar, version 1 scheme.",
+   "boundary": "West: Karatoya | East: Sankosh",
+   "notes": "Here the west pitha is Kama; Kakati gives that sector to Ratna. South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "karatoya",
+    "sankosh"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-sircar1-ratna",
+   "name": "Ratnapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Ratnapitha in the Sircar, version 1 scheme.",
+   "boundary": "West: Sankosh | East: Rupahi",
+   "notes": "Sircar's order has Ratna after Kama. South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "sankosh",
+    "rupahi"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-sircar1-suvarna",
+   "name": "Suvarnapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Suvarnapitha in the Sircar, version 1 scheme.",
+   "boundary": "West: Rupahi | East: Bharali",
+   "notes": "South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "rupahi",
+    "bhareli"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-sircar1-saumara",
+   "name": "Saumarapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Saumarapitha in the Sircar, version 1 scheme.",
+   "boundary": "West: Bharali | East: Dibang, near Sadiya",
+   "notes": "South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "bhareli",
+    "dibang"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-haragauri-ratna",
+   "name": "Ratnapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Ratnapitha in the Haragauri-samvada scheme.",
+   "boundary": "West: Karatoya | East: Sankosh",
+   "notes": "South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "karatoya",
+    "sankosh"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-haragauri-kama",
+   "name": "Kamapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Kamapitha in the Haragauri-samvada scheme.",
+   "boundary": "West: Sankosh | East: Kapili",
+   "notes": "Covers parts of Goalpara, Kamrup and Nagaon (Wikipedia). South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "sankosh",
+    "kopili"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-haragauri-suvarna",
+   "name": "Suvarnapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Suvarnapitha in the Haragauri-samvada scheme.",
+   "boundary": "West: Rupika | East: Bhairavi (Bharali)",
+   "notes": "Leaves a gap between the Kapili and the Rupika, as the source gives it. South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "rupahi",
+    "bhareli"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-haragauri-saumara",
+   "name": "Saumarapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Saumarapitha in the Haragauri-samvada scheme.",
+   "boundary": "West: Bhairavi (Bharali) | East: Dibang",
+   "notes": "South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "bhareli",
+    "dibang"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-sircar2-ratna",
+   "name": "Ratnapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Ratnapitha in the Sircar, version 2 scheme.",
+   "boundary": "West: Karatoya | East: Manas",
+   "confidence": "low",
+   "places": [
+    "karatoya",
+    "manas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-sircar2-kama",
+   "name": "Kamapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Kamapitha in the Sircar, version 2 scheme.",
+   "boundary": "West: Manas | East: Silghat (north bank)",
+   "notes": "Sircar adds a Bhadrapitha on the south bank, south of Kamapitha, and a Saumarpitha extending east with no endpoint; they are not drawn.",
+   "confidence": "low",
+   "places": [
+    "manas",
+    "silghat"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "pitha-buranji-kama",
+   "name": "Kamapitha",
+   "kingdom": "kamarupa-pithas",
+   "period": "kamarupa",
+   "date_label": "sacred scheme, not a dated frontier",
+   "summary": "Kamapitha in the Kamrupar Buranji scheme.",
+   "boundary": "West: Sankosh | East: Duimunisila",
+   "notes": "Duimunisila has no map point, so this pitha is listed but not drawn. The same source gives Ratnapitha from the Maurang kingdom to the Sankosh, Bhadrapitha from the Kallang to the Kailash and Saumarpith from Duimunisila to Dikkaravasini; those limits are not on the map. South edge drawn at 25.46 N (the Teesta/Karatoya junction), like the kingdoms; the sacred Kamarupa itself runs south to the Laksha confluence (see the Yogini Tantra row).",
+   "confidence": "low",
+   "places": [
+    "sankosh",
+    "duimunisila"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
   }
  ],
  "places": [
@@ -28010,6 +28339,73 @@
    "confidence": "low",
    "sources": [
     "https://censusindia.gov.in/nada/index.php/catalog/865/download/36328/DH_2011_1707_PART_B_DCHB_JAINTIA_HILLS.pdf"
+   ]
+  },
+  {
+   "id": "kamarupa-pithas",
+   "name": "The pithas of Kamarupa",
+   "kind": "Region",
+   "also_called": [
+    "Kamarupa pithas",
+    "Kamarupa-pitha",
+    "Ratnapitha, Kamapitha, Suvarnapitha, Saumarapitha"
+   ],
+   "present_name": "Brahmaputra valley and north Bengal, in four sectors",
+   "location": "From the Karatoya to Sadiya",
+   "summary": "The later tradition that divides Kamarupa into four sacred sectors (pithas) from west to east: Ratna, Kama, Suvarna (or Bhadra) and Saumara.",
+   "notes": "The schemes differ between sources: the names, their order and the rivers marking each pitha change (see the Pithas layer on the map and the realm rows named pitha-*). Only secondary literature gives the river boundaries (Kakati 1967, Sircar, the Haragauri-samvada, the Kamrupar Buranji). The Kalika Purana (10th-11th century) describes Kamarupa as one mahapitha and marks its east with Dikkaravasini and, in one passage, Lalitakanta near Guwahati, but no source read gives it a four-pitha river scheme; the Yogini Tantra (16th-17th century) is the text credited with the four pithas, though its Patala XI verses read (vv. 16 to 18) give only the four-sided limits of Kamarupa. The pithas do not appear in the inscriptions and may be a late medieval construction. Hierarchy of evidence: see research/places/pithas-2026-11-01.md.",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "rupahi",
+   "name": "Rupahi",
+   "kind": "Town",
+   "also_called": [
+    "Rupahi",
+    "Rupahi river",
+    "Rupika",
+    "Rupali",
+    "Itupahi"
+   ],
+   "present_name": "Rupahi",
+   "location": "Nagaon district, Assam",
+   "summary": "A place and river name in Nagaon district that marks the Kama/Ratna and Suvarna pitha boundary in several readings.",
+   "notes": "The river line is not in the project's river file, so the map uses the modern Rupahi town as a stand-in point; the ancient river identification (Rupika, Rupali, Rupahi) is not settled. Map point from OpenStreetMap.",
+   "confidence": "low",
+   "latitude": 26.4872,
+   "longitude": 92.7437,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamarupa_pithas",
+    "https://en.wikipedia.org/wiki/Kamapitha",
+    "https://en.wikipedia.org/wiki/Ratnapitha",
+    "https://en.wikipedia.org/wiki/Swarnapitha",
+    "https://en.wikipedia.org/wiki/Saumarapitha"
+   ]
+  },
+  {
+   "id": "silghat",
+   "name": "Silghat",
+   "kind": "Town",
+   "also_called": [
+    "Silghat",
+    "Silghat ghat"
+   ],
+   "present_name": "Silghat",
+   "location": "Nagaon district, Assam",
+   "summary": "A north-bank town on the Brahmaputra; the eastern end of Kamapitha in one reading of the Yogini Tantra (Manas to Silghat).",
+   "notes": "Map point from OpenStreetMap.",
+   "confidence": "medium",
+   "latitude": 26.6014,
+   "longitude": 92.9261,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kamapitha"
    ]
   }
  ]
