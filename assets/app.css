@@ -436,6 +436,9 @@ body.mappage{--paper:#fff;--leaf:#faf8f2;--leaf2:#efebe0;--line:#dcd7c9;--ink:#1
 
 /* remembered Kamarupa outline */
 .mghost{fill:none;stroke:#e11d48;stroke-width:1.4;stroke-dasharray:2 5;stroke-linecap:round;vector-effect:non-scaling-stroke}
+.mghost.g1{stroke:#9f1239;stroke-dasharray:8 5}
+#mleg .sw.g0,#mleg .sw.g1{background:transparent;border:2px dotted var(--mc);width:14px;height:14px}
+#mleg .sw.g1{border-style:dashed}
 .mapfig.no-kamarupa #mghost{display:none}
 #mleg.no-kam .gh{display:none}
 .pvw[hidden],#mpleg[hidden]{display:none}
