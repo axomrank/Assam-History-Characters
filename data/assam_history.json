@@ -23716,27 +23716,49 @@
  ],
  "realms": [
   {
-   "id": "kamarupa-traditional",
-   "name": "Kamarupa: the traditional bounds",
+   "id": "kamarupa-kalika",
+   "name": "Kamarupa in the Kalika Purana",
    "kingdom": "kamarupa",
    "period": "kamarupa",
-   "date_label": "traditional description (c. 350 to 1100)",
-   "start_year": 350,
+   "date_label": "text of about the 10th to 11th century",
+   "start_year": 950,
    "end_year": 1100,
-   "summary": "The bounds that later texts give for Kamarupa, from the Karatoya in the west to the far east, with the Brahmaputra's course near Mymensingh in the south and Kanchenjunga in the north.",
-   "boundary": "West: Karatoya river | East: Sadiya (the Kalika Purana also gives Lalitakanta near Guwahati; Dikkaravasini, linked to the Dikrong river, and Dikshu, linked to the Dibang) | South: the Brahmaputra's junction near the Dhaka and Mymensingh districts | North: Kanchenjunga",
-   "notes": "Textual, not period-specific: the sources are Xuanzang (7th c.), the Kalika Purana (10th c.) and the Yogini Tantra (16th c.). No inscription confirms these bounds, and Shin (2018) calls it futile to project any fixed boundary on Kamarupa, which never formed a single entity. South set at about 24.2 N, near the Brahmaputra junction by Dhaka and Mymensingh named in the record; a straight line, not a river. Land south of the Teesta/Karatoya line and east of it, in Bangladesh, is shaded. West limit follows the Teesta/Karatoya to its junction with the Brahmaputra (the Jamuna), then the Brahmaputra downstream.",
+   "summary": "A sacred description of Kamarupa as a triangular, hilly, river-filled land from the Karatoya to Dikkaravasini; it gives no north or south line.",
+   "boundary": "West: the Karatoya | East: Dikkaravasini, the Dikrong | Shape: triangular, 100 yojanas long and 30 broad, dark, filled with mountains and joined by a hundred rivers (Kalika Purana 53.77b-79a)",
+   "notes": "User identification, 2026-11-01. Dikkaravasini is the Dikrong, so the east edge is the Dikrong, not Sadiya. The text describes a sacred landscape (mahapitha), not a political frontier or a cadastral survey, and cannot be read back onto the Varman kingdom. The west edge follows the Teesta/Karatoya down to its junction with the Brahmaputra and then the Brahmaputra.",
    "confidence": "low",
    "places": [
     "karatoya",
-    "sadiya",
+    "teesta",
     "dikrang",
-    "dibang",
-    "mymensingh",
-    "kanchenjanga",
     "brahmaputra"
    ],
    "sources": [
+    "https://www.ebharatisampat.in/pdfs/ebharati-pdf-16877649972030-SaktaPithas-DCSarkar-1948%28MDD%29.pdf",
+    "https://en.wikipedia.org/wiki/Kamarupa"
+   ]
+  },
+  {
+   "id": "kamarupa-yogini",
+   "name": "Kamarupa in the Yogini Tantra",
+   "kingdom": "kamarupa",
+   "period": "kamarupa",
+   "date_label": "text of the late medieval period (about 16th to 17th century)",
+   "start_year": 1500,
+   "end_year": 1700,
+   "summary": "The four-sided description of Kamarupa in the Yogini Tantra (Patala XI, vv. 16 to 18): Kanjagiri in the north, the Karatoya in the west, Diksu in the east, the Laksha and Brahmaputra confluence in the south.",
+   "boundary": "North: Kanjagiri (Kanchenjunga, proposed) | West: the Karatoya | East: Diksu, the Dikhow | South: the confluence of the Laksha (Shitalakshya) with the Brahmaputra",
+   "notes": "User identification, 2026-11-01. Diksu is the Dikhow, Dikkaravasini the Dikrong and Laksha the Shitalakshya. The Yogini Tantra is later than the Kalika Purana and borrows from it, so it is not evidence for the Varman kingdom. Kanchenjunga is a far north-western anchor, not a line along the valley; the south edge is a straight line at 24.2 N standing for the old Mymensingh-Dhaka confluence zone, which cannot be plotted on today's rivers.",
+   "confidence": "low",
+   "places": [
+    "kanchenjanga",
+    "karatoya",
+    "dikhou",
+    "laksha",
+    "brahmaputra"
+   ],
+   "sources": [
+    "https://www.ebharatisampat.in/pdfs/ebharati-pdf-16877649972030-SaktaPithas-DCSarkar-1948%28MDD%29.pdf",
     "https://en.wikipedia.org/wiki/Kamarupa"
    ]
   },
@@ -24048,8 +24070,8 @@
    "start_year": 1639,
    "end_year": 1662,
    "summary": "After the Mughal-Ahom war, the Barnadi on the north bank and Asurar Ali on the south bank marked the limit; the Ahom king recognised Mughal supremacy in Kamrup and the Mughals held western Assam from Guwahati to the Manas.",
-   "boundary": "West: Sankosh river | East (south bank): the Kalang (Kolong), beyond which the Mughals gave up their claims (the causeway of Asurar Ali at Guwahati in another account) | North: the Brahmaputra",
-   "notes": "The two Wikipedia articles disagree on the southern mark (Asurar Ali vs Kalang). Mir Jumla's advance in 1662 was measured against this line. Bank split: the treaty gave the Mughals the north bank up to the Barnadi and the south bank up to the Kalang, mirroring the Ahom rows. South limit set at 25.46 N, the latitude of the Teesta/Karatoya junction with the Brahmaputra, as for the Koch rows; no source read names the Mughal south limit.",
+   "boundary": "West: Sankosh river | East (south bank): Asurar Ali, the causeway at Guwahati (Rajgarh Road) | North: the Brahmaputra",
+   "notes": "The two Wikipedia articles disagree on the southern mark (Asurar Ali vs Kalang). Mir Jumla's advance in 1662 was measured against this line. Bank split: the treaty gave the Mughals the north bank up to the Barnadi and the south bank up to the Kalang, mirroring the Ahom rows. South limit set at 25.46 N, the latitude of the Teesta/Karatoya junction with the Brahmaputra, as for the Koch rows; no source read names the Mughal south limit. User identification, 2026-11-01. South-bank limit at Asurar Ali; one Wikipedia article gives the Kalang instead.",
    "confidence": "medium",
    "places": [
     "barnadi",
@@ -24064,15 +24086,39 @@
    ]
   },
   {
-   "id": "ghilajharighat-1663",
-   "name": "The Treaty of Ghilajharighat boundary",
+   "id": "ghilajharighat-1663-north",
+   "name": "The Ahom kingdom after the Treaty of Ghilajharighat, 1663 to 1667",
    "kingdom": "ahom-kingdom",
    "period": "ahom",
    "date_label": "December 1662 to January 1663",
    "start_year": 1663,
    "end_year": 1667,
    "summary": "After Mir Jumla took Garhgaon, the Ahoms ceded Guwahati's side of the valley: on the north bank Guwahati to Samdhara on the Bharali, on the south bank Guwahati to the Kolong, and the Manas-to-Guwahati region was returned to the Mughals.",
-   "boundary": "North bank: Guwahati to Samdhara on the Bharali river | South bank: Guwahati to the Kolong river | Also: the region between the Manas and Guwahati returned to the Mughals",
+   "boundary": "East: Sadiya | West (north bank): the Bharali, Darrang west of it ceded | South: the Brahmaputra",
+   "notes": "The infobox places the signing at Panibat of Tipam on the Dihing; the article does not say where Ghilajharighat is. The Barnadi does not appear in the 1663 terms. Split by bank as the treaty terms are: Darrang west of the Bharali on the north bank, and the Dimarua-Beltola-Rani zone west of the Kalang on the south bank.",
+   "confidence": "medium",
+   "places": [
+    "bhareli",
+    "samdhara",
+    "kolong",
+    "manas",
+    "guwahati",
+    "ghilajharighat"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Ghilajharighat"
+   ]
+  },
+  {
+   "id": "ghilajharighat-1663-south",
+   "name": "The Ahom kingdom after the Treaty of Ghilajharighat, 1663 to 1667",
+   "kingdom": "ahom-kingdom",
+   "period": "ahom",
+   "date_label": "December 1662 to January 1663",
+   "start_year": 1663,
+   "end_year": 1667,
+   "summary": "After Mir Jumla took Garhgaon, the Ahoms ceded Guwahati's side of the valley: on the north bank Guwahati to Samdhara on the Bharali, on the south bank Guwahati to the Kolong, and the Manas-to-Guwahati region was returned to the Mughals.",
+   "boundary": "East: Sadiya | West (south bank): the Kalang (Kolong), the Dimarua-Beltola-Rani zone west of it ceded | North: the Brahmaputra",
    "notes": "The infobox places the signing at Panibat of Tipam on the Dihing; the article does not say where Ghilajharighat is. The Barnadi does not appear in the 1663 terms.",
    "confidence": "medium",
    "places": [
@@ -24249,7 +24295,7 @@
    "end_year": 1522,
    "summary": "Dimasa power lay from the Dikhow in the east to the Kolong in the west, including the Dhansiri valley and the North Cachar hills; one Dimasa tradition puts the eastern limit at the Mohong or Namdang. The Ahom Buranji instead describes the kingdom from the Kopili to the Dhansiri. Capital: Dimapur until 1536, then Maibong.",
    "boundary": "East: Dikhow river (Ahom account); the Mohong or Namdang (Dimasa tradition) | West: Kolong river, or the Kopili in the Ahom Buranji | Core: the Dhansiri valley and the North Cachar hills",
-   "notes": "Mostly popular and community sources; the Kolong-Kopili and Dhansiri differences are contested. From 1523 the Ahom conquest of the lower Dhansiri valley shrinks the east limit; see the next row.",
+   "notes": "Mostly popular and community sources; the Kolong-Kopili and Dhansiri differences are contested. From 1523 the Ahom conquest of the lower Dhansiri valley shrinks the east limit; see the next row. North limit the Brahmaputra: Gait places the Kachari realm on the south bank from the Dikhow towards the Kalang.",
    "confidence": "low",
    "places": [
     "dikhou",
@@ -24275,7 +24321,7 @@
    "end_year": 1536,
    "summary": "Suhungmung took the lower Dhansiri valley from the Kacharis, defeated them near Marangi in 1531, chased Khunkhara to Dimapur and installed Detsung, who was killed after revolting (about 1536); the Kacharis then moved their capital to Maibong.",
    "boundary": "East: the Dhansiri (the south Dhansiri), the Ahom limit from c. 1526 | West: the Kolong, or the Kopili in the Ahom Buranji | Core: the Dhansiri valley and the North Cachar hills",
-   "notes": "The Ahom row for the same years ends at the Dhansiri, so the two kingdoms meet there instead of overlapping. The Ahoms did not annex the Kachari kingdom itself. The date the lower Dhansiri was taken is not given in the source; 1523 is used to match the Ahom row.",
+   "notes": "The Ahom row for the same years ends at the Dhansiri, so the two kingdoms meet there instead of overlapping. The Ahoms did not annex the Kachari kingdom itself. The date the lower Dhansiri was taken is not given in the source; 1523 is used to match the Ahom row. North limit the Brahmaputra: Gait places the Kachari realm on the south bank from the Dikhow towards the Kalang.",
    "confidence": "low",
    "places": [
     "dhansiri",
@@ -24502,14 +24548,13 @@
    "start_year": 1639,
    "end_year": 1656,
    "summary": "By the treaty of February 1639 western Assam from Gauhati passed to the Mughals, who gave up claims east of the Barnadi in the north and beyond the Kalang in the south.",
-   "boundary": "East: Sadiya | West (south bank): the Kalang (Kolong), beyond which the Mughals gave up their claims | North: the Brahmaputra",
-   "notes": "The Ahom side of the line the Mughal row 1639 to 1662 draws from the other side. One article says Jayadhwaj Singha drove the Mughals from Gauhati and beyond the Manas in 1648; the article on the kingdom dates his occupation of Kamrup to 1657. Not resolved, so this period runs to 1656 and the 1657 row follows.",
+   "boundary": "East: Sadiya | West (south bank): Asurar Ali, the causeway at Guwahati (Rajgarh Road) | North: the Brahmaputra",
+   "notes": "The Ahom side of the line the Mughal row 1639 to 1662 draws from the other side. One article says Jayadhwaj Singha drove the Mughals from Gauhati and beyond the Manas in 1648; the article on the kingdom dates his occupation of Kamrup to 1657. Not resolved, so this period runs to 1656 and the 1657 row follows. User identification, 2026-11-01. South-bank limit at Asurar Ali; one Wikipedia article gives the Kalang instead.",
    "confidence": "medium",
    "places": [
     "sadiya",
-    "barnadi",
-    "kolong",
     "asurar-ali",
+    "brahmaputra",
     "guwahati"
    ],
    "sources": [
@@ -24735,11 +24780,13 @@
    "also_called": [
     "Dikhow",
     "Dikhou River",
-    "Dikhow River"
+    "Dikhow River",
+    "Dikshu (Diksu) of the Yogini Tantra"
    ],
    "present_name": "Dikhow River",
    "location": "Sivasagar district, Assam",
-   "summary": "The old frontier between the Ahoms and the Kacharis in the 13th century.",
+   "summary": "The old frontier between the Ahoms and the Kacharis in the 13th century; the Dikshu, the eastern river of the Yogini Tantra's Kamarupa.",
+   "notes": "User identification, 2026-11-01. Diksu is the Dikhow.",
    "confidence": "high",
    "sources": [
     "https://en.wikipedia.org/wiki/Dimasa_Kingdom"
@@ -26783,12 +26830,11 @@
    "kind": "River",
    "also_called": [
     "Dibang River",
-    "Dihang (Dibang)",
-    "Dikshu"
+    "Dihang (Dibang)"
    ],
    "present_name": "Dibang River",
    "location": "Arunachal Pradesh and Assam",
-   "summary": "An eastern river; the 'Dikshu' of the Kalika Purana is linked to it as the eastern limit of Kamarupa.",
+   "summary": "An eastern river of the Sadiya country; a scholar once proposed it for the Dikshu, but the Dikhow is the identification used here.",
    "notes": "Linking Dikshu to the Dibang rests on Sircar and Boruah.",
    "confidence": "medium",
    "sources": [
@@ -26806,8 +26852,8 @@
    ],
    "present_name": "Dikrong River",
    "location": "Arunachal Pradesh and Lakhimpur district, Assam",
-   "summary": "A north-bank river linked in tradition to the Dikkaravasini shrine on Kamarupa's eastern edge.",
-   "notes": "The link rests on Dutta 2008; it is not the same as the 'Dikrai'.",
+   "summary": "The river identified with Dikkaravasini, the eastern end of Kamarupa in the Kalika Purana, near the Sadiya side.",
+   "notes": "The link rests on Dutta 2008; it is not the same as the 'Dikrai'. User identification, 2026-11-01. Dikkaravasini is the Dikrong.",
    "confidence": "low",
    "sources": [
     "https://en.wikipedia.org/wiki/Kamarupa"
@@ -26889,8 +26935,10 @@
    "present_name": "Rajgarh Road, Guwahati",
    "location": "Guwahati, Assam",
    "summary": "A causeway (garh) at Guwahati; the south-bank mark of the 1639 Ahom-Mughal boundary.",
-   "notes": "'Believed to be' Rajgarh Road, Guwahati; the causeway survived into the late 1960s.",
-   "confidence": "low",
+   "notes": "'Believed to be' Rajgarh Road, Guwahati; the causeway survived into the late 1960s. User identification, 2026-11-01. Asurar Ali is the causeway (garh) on the south bank (dakhinkul) of the Brahmaputra at Guwahati, believed to be today's Rajgarh Road; the point is Rajgarh Road in Chandmari (OpenStreetMap).",
+   "confidence": "medium",
+   "latitude": 26.1702,
+   "longitude": 91.7706,
    "sources": [
     "https://en.wikipedia.org/wiki/Treaty_of_Asurar_Ali"
    ]
@@ -27841,6 +27889,26 @@
    "sources": [
     "User capitals list, 2026-10-31",
     "https://en.wikipedia.org/wiki/Ahom_kingdom"
+   ]
+  },
+  {
+   "id": "laksha",
+   "name": "Laksha (Lakhya)",
+   "kind": "River",
+   "also_called": [
+    "Lakshya",
+    "Lakhya",
+    "Shitalakshya",
+    "Laksha river"
+   ],
+   "present_name": "Shitalakshya River",
+   "location": "Narayanganj and Dhaka area, Bangladesh",
+   "summary": "The river whose confluence with the Brahmaputra is the southern limit of Kamarupa in the Yogini Tantra.",
+   "notes": "User identification, 2026-11-01. Laksha is the Shitalakshya. The Brahmaputra left its old Mymensingh channel (the Old Brahmaputra) for the Jamuna in the late 18th century, so the ancient confluence cannot be plotted on today's river; no map point is set.",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Shitalakshya_River",
+    "https://www.ebharatisampat.in/pdfs/ebharati-pdf-16877649972030-SaktaPithas-DCSarkar-1948%28MDD%29.pdf"
    ]
   }
  ]
