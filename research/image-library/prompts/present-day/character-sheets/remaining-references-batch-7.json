@@ -1,0 +1,33 @@
+{
+  "batch": "barman-war-provisional",
+  "records": [
+    {
+      "path": "images/scenes/present-day/barmans-in-cachar/barmans-in-cachar-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/barmans-in-cachar/",
+      "generated_file": "exec-37de1eee-3923-4b51-8612-210495c0ad6b.png",
+      "sha256": "f17c8b7a1c3a0c80635bae2be6970c24bc3950cf6826ccb143ae3a5dc408cf86",
+      "status": "provisional interpretation from partial garment/textile reference; requires direct community review"
+    },
+    {
+      "path": "images/scenes/present-day/barmans-in-cachar/barmans-in-cachar-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/barmans-in-cachar/",
+      "generated_file": "exec-cfb86f82-b9ac-4700-94cd-25e71e334190.png",
+      "sha256": "2c7b29c48c2ce94c1b61db00764a45d164832ff034f5868bf3acd087a50801da",
+      "status": "provisional interpretation from partial garment/textile reference; requires direct community review"
+    },
+    {
+      "path": "images/scenes/present-day/war/war-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/war/",
+      "generated_file": "exec-63476eee-abfc-4c99-ae62-046413b2589c.png",
+      "sha256": "98137df27973e52c4bdff4612384ba22b1b51ec5da1e71acff92459333dca725",
+      "status": "provisional interpretation from partial garment/textile reference; requires direct community review"
+    },
+    {
+      "path": "images/scenes/present-day/war/war-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/war/",
+      "generated_file": "exec-672fa14a-6621-4506-bf44-0f350b32f194.png",
+      "sha256": "151e59bcfcaffcd460c8c6d031ff4d51667db0f880de2d1c75167d07852d8bf3",
+      "status": "provisional interpretation from partial garment/textile reference; requires direct community review"
+    }
+  ]
+}

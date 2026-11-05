@@ -1,0 +1,72 @@
+{
+  "mode": "built-in image_gen",
+  "common": "Use case historical-scene. Create ONE cinematic PHOTOREALISTIC historical film still, wide landscape 16:9, sophisticated natural light, real skin pores and textile fibres, subtle film grain, vivid woven colour, foreground-midground-background depth. Early medieval Kamarupa in Brahmaputra valley. All staging, architecture and costume is artistic reconstruction, not exact documentary evidence. References: named king sheet for exact face and costume continuity ONLY (no sheet panels or duplicate king); PALA-01 scene for photographic realism and local architectural/textile world ONLY, do NOT repeat its assembly layout. Clothing boards for supporting people ONLY, never clone their faces, printed labels, studio backgrounds or poses. Men in coherent Tiwa black/orange/white woven clothing with modest feathered headdress, Motok pale yellow/green, or Moran green/white; women in separate coherent Karbi red-black stripes/silver pendant, Bodo orange striped wrap with red and green, Sonowal cream/maroon/yellow-green, Mising blue with white-red drape and patterned skirt, Matak red-black/white-green, Dimasa white/yellow-black/purple/beads, or Assamese ivory-red/gold. Choose appropriate distinct outfits, never combine all onto one person. Cloth ties, handwoven fabrics, barefoot or simple period sandals. No modern button rows, zips, pockets, heels, plastic, watches. Timber halls, stone/brick plinths, bamboo, palm leaves, oil lamps; no later Ahom/Mughal architecture, modern temple towers, concrete or electricity. No modern flags or maps. Copper-plate grants are small hand-held ring-bound rectangular copper plates with subtle incised lines, not paper, giant tablets or modern books; no legible fabricated writing. No text overlays, captions, labels, watermarks, collage, frames or letterbox bars. Never depict same named king twice. SCENE: ",
+  "scenes": [
+    {
+      "id": "PALA-02",
+      "slug": "ratnapala-fortifies-durjaya",
+      "king": "review/pala-next-six/ratna-pala.png",
+      "title": "Ratnapala Fortifies Durjaya",
+      "scene": "Ratnapala, EXACT reference mature clean-shaven face and cream-red wrap costume and small gold mukut, inspects the construction of Durjaya's earth rampart and thick timber palisade near the Brahmaputra. Dynamic ground-level oblique wide shot: two labourers in foreground lever an enormous timber post upright with ropes while others tamp earth with wooden tools; Ratnapala at left midground discusses the wall with an elderly master builder holding a measuring cord. Workers in plain versions of referenced woven dress; two women in Bodo orange/green and Sonowal cream/yellow bring water in earthen jars. Gate skeleton and long line of palisade recede diagonally toward river and wooded hills, no stone European fortress. Bright clearing monsoon sky, wet earth, physical labour, king observing thoughtfully, no throne."
+    },
+    {
+      "id": "PALA-03",
+      "slug": "ratnapala-grants-at-durjaya",
+      "king": "review/pala-next-six/ratna-pala.png",
+      "title": "Ratnapala’s Grants Issued at Durjaya",
+      "scene": "Intimate administrative act at Durjaya. Ratnapala EXACT reference face, cream-red clothing and small gold mukut sits at left in an open timber veranda, presenting a small ring-bound copper-plate land charter on a wooden tray to a middle-aged recipient in simple cream dhoti and shoulder cloth at right. A scribe and two local witnesses in pale-yellow/green and black-orange woven outfits sit nearby. Woman in Assamese ivory-red and woman in Matak red-black/white-green stand discreetly behind pillars. Compose close over the recipient's shoulder, king's face and copper plates in focus, river city palisade soft in distance. Quiet afternoon light reflected off copper, detailed plausible hands. Administrative gift, not mass election."
+    },
+    {
+      "id": "PALA-04",
+      "slug": "indrapala-gauhati-grant",
+      "king": "review/pala-next-six/indra-pala.png",
+      "title": "Indrapala’s Gauhati Grant",
+      "scene": "Indrapala EXACT reference moustached face, ochre upper garment, burgundy shawl, ivory lower wrap and small green-set gold mukut examines a newly completed copper-plate charter with his chief scribe. View from just above a low writing desk, plates prominent bottom foreground, king seated centrally but turned sideways to confer, engraver at right handling a small stylus beside a completed copper plate, two witnesses behind. Distinct from a grant handover: this is review and authorization before issue. Woman attendant in Mising blue upper garment and white red-black drape, another in Dimasa white/yellow-black and purple sidecloth. Timber room open to shaded leafy courtyard, cool morning light and warm clay lamp, no modern desk/book."
+    },
+    {
+      "id": "PALA-05",
+      "slug": "carving-madan-kamdev",
+      "title": "Carving the Temples of Madan Kamdev",
+      "scene": "NO KING. Close low oblique cinematic view of a skilled middle-aged stone sculptor carefully chiselling a lotus and animal relief on a sandstone block at Madan Kamdev. Hand-held iron chisel and small hammer, plausible hands and stone dust. Several masons behind him align ornate blocks on a modest stone temple plinth on a wooded hill, bamboo scaffolding and ropes, unfinished carved fragments nearby. Carved deity panel in background can show a serene non-explicit Uma-Maheshvara embrace, fully appropriate sacred sculpture, alongside Ganesha and floral relief. Focus on surviving-style plinth and stone carving, keep speculative upper sanctuary incomplete behind scaffolding, no extravagant invented towering skyline. Assistants of both sexes in coherent simple versions of user textile references, a Karbi striped wrap and Dimasa white/purple among them. Dappled morning light, tactile stone, natural work scene, no royal court."
+    },
+    {
+      "id": "PALA-06",
+      "slug": "prasthanakalasa-composes-charters",
+      "king": "review/pala-next-six/dharma-pala-v02-dhoti.png",
+      "title": "Prasthanakalasa Composes Dharmapala’s Charters",
+      "scene": "Court poet Prasthanakalasa is the foreground protagonist: fictional learned man about 58, slim, balding with gray hair tied at back, short gray beard, cream dhoti and plain ochre upper cloth, seated cross-legged on a reed mat composing Sanskrit verses on palm leaves with a stylus. Over the poet's left shoulder we see Dharmapala EXACT reference mature gray-templed moustached face, small gold mukut, cream upper wrap, crimson-gold shawl and saffron PLEATED DHOTI, seated nearby listening intently to a recited passage, not dictating to a modern book. A young engraver waits with a few small ring-bound copper plates on a low tray. Woman in Sonowal cream/maroon with yellow-green scarf carries a small oil lamp; a local officer in green-white woven dress waits quietly. Lamp-lit early evening timber study opening to blue twilight, intimate scholarly mood, face of poet and listening king visible, no readable fabricated text."
+    },
+    {
+      "id": "PALA-07",
+      "slug": "dharmapala-moves-kamarupanagara",
+      "king": "review/pala-next-six/dharma-pala-v02-dhoti.png",
+      "title": "Dharmapala Moves His Capital to Kamarupanagara",
+      "scene": "Dharmapala EXACT reference gray-templed moustached face, small gold mukut, cream upper garment, crimson-gold shawl and saffron PLEATED DHOTI stands on a river landing surveying the arrival of his court at the new capital. Broad diagonal composition shot from a low boat bow foreground: porters unload tied palm-leaf record bundles, wooden chests and rolled reed mats from wooden riverboats, a few ox carts wait on shore. King right midground, advisor points toward modest newly prepared timber administrative pavilions among trees. Court families and attendants in distinct user referenced clothing move purposefully, include Mising blue/white-red, Matak red-black/white-green, and Assamese ivory-red. Mist lifting off wide Brahmaputra, pale dawn light, movement and migration, no giant palaces, no precise invented city map, no unnecessary war scene."
+    },
+    {
+      "id": "PALA-08",
+      "slug": "ramapala-campaign-kamarupa",
+      "king": "review/pala-next-six/jaya-pala-v02-dhoti.png",
+      "title": "Ramapala of Bengal Conquers Kamarupa",
+      "scene": "Dramatic symbolic depiction of the Bengal Pala campaign during Jayapala's reign, not a claim Ramapala and Jayapala met personally. Jayapala EXACT reference moustached face, indigo tunic, ivory PLEATED DHOTI with red-gold border, ivory-red stole and small gold mukut stands at a timber gateway in foreground left three-quarter view, receiving grave news from a dusty messenger. Beyond the gate in distant midground a Bengal-led force advances across a river plain, small ranks of spearmen with cane shields and two elephants in plain woven caparisons, no fantasy armour. Jayapala's local guards in restrained green-white and black-red woven dress, spears held ready. Background rainy river landscape, heavy overcast afternoon, sober political defeat and anxiety, no gore, no burning civilians, no staged personal surrender, no modern banners. Cinematic 50mm focus on king and messenger with readable distant campaign silhouette."
+    },
+    {
+      "id": "PALA-09",
+      "slug": "timgyadeva-governs-kamarupa",
+      "title": "Timgyadeva Governs Kamarupa",
+      "scene": "Establish a NEW consistent fictional Timgyadeva identity: man 50, broad square face, medium brown complexion, thick downward-curving black moustache, short straight black hair with gray at temples, stocky build. Rust-red cloth-tied woven tunic with narrow black-gold geometric border, dark green PLEATED DHOTI, cream-orange shoulder cloth, modest low gold circlet with small green inset, gold earrings. Do NOT clone Brahmapala from style reference. Timgyadeva governs from a modest timber riverside administrative pavilion, leaning forward at a low table hearing two local elders' petition while an official records it on palm leaves. Local landholders stand by with tied rice sheaves and baskets representing administration, not all people prostrating. Woman in Bodo orange-green and woman in Karbi black-red stripes listen nearby, men in pale yellow-green and green-white woven clothing. Sideways medium-wide 40mm view framed through a doorway, rain falling outside with riverboats visible, reflected cool light and warm oil lamps, independent local authority conveyed subtly, no invented battle or modern map."
+    },
+    {
+      "id": "PALA-10",
+      "slug": "vaidyadeva-replaces-timgyadeva",
+      "title": "Vaidyadeva Replaces Timgyadeva",
+      "scene": "Political replacement represented as incoming Vaidyadeva taking charge at a fortified river landing; no invented execution or face-to-face duel. Establish NEW consistent fictional Vaidyadeva: man 43, long oval face, medium brown complexion, high cheekbones, neatly trimmed black beard and moustache, shoulder-length wavy hair, tall lean build. Deep teal cloth-tied overlapping tunic with gold lotus border, ivory PLEATED DHOTI with teal-gold edge, maroon ceremonial shoulder cloth, small gold lotus mukut with a dark red inset, two restrained gold necklaces. Must differ clearly from Timgyadeva and previous kings. Vaidyadeva steps from a wooden boat onto a brick landing, receiving a small sealed palm-leaf appointment packet from a cream-clad envoy of Kumarapala; local officials in yellow-green and green-white textile dress acknowledge arrival. A departing guard detachment in rust-red stands farther back, no Timgyadeva facial depiction required. One elephant and a few soldiers with cane shields remain behind on bank, families in referenced women's clothing watch from gateway. Strong diagonal waterfront framing, windy dawn light, tense formal transition, realistic early medieval materials."
+    },
+    {
+      "id": "PALA-11",
+      "slug": "vaidyadeva-kamauli-grant",
+      "title": "Vaidyadeva’s Kamauli Grant",
+      "scene": "Vaidyadeva issues his copper-plate land grant at his Kamarupa court; do NOT stage it in Uttar Pradesh merely because the plates were later found at Kamauli. SAME fictional Vaidyadeva as previous scene: 43, long oval face, medium brown skin, high cheekbones, neat black beard and moustache, shoulder-length wavy black hair, tall lean build, deep teal cloth-tied tunic with gold lotus border, ivory PLEATED DHOTI with teal-gold edge, maroon shoulder cloth, small gold lotus mukut with dark red inset, two gold necklaces. Seated at right in a quiet timber pavilion he authorizes a small ring-bound copper-plate grant with an elephant-emblem seal; an engraver kneeling at a low bench in foreground carefully finishes small incised lines on a plate, a recipient in cream cloth waits with joined hands, two local witnesses observe. Elephant seal is small and restrained, not giant floating emblem; copper plates physical and hand-sized, no readable text. Woman in Dimasa white/yellow-black/purple and woman in Assamese ivory-red attend quietly with a cloth-covered tray and water vessel. Low lateral 50mm composition emphasizing copper, engraver's hands and Vaidyadeva's face. Warm late afternoon shafts of light and deep timber shadows, intimate legal ceremony distinct from Ratnapala scene."
+    }
+  ]
+}

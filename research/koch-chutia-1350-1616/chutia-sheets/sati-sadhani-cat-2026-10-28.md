@@ -1,0 +1,7 @@
+# Sati Sadhoni: cat restored
+
+User requested adding the cat to the new sheet. Used built-in imagegen with the new turnaround as edit target and old pose-1.webp as ginger cat reference. Saved master: masters/sheets/sati-sadhani/turnaround-chutia-cat-2026-10-28.png. Published sheet and thumbnail replaced; pre-cat sheet retained in drafts/chutia/remake-2026-10-28/sati-sadhani/turnaround-before-cat.webp.
+
+## Final prompt
+
+Use case: precise-object-edit. Edit image 1, the new Sati Sadhoni eight-view character sheet. Add the ginger tabby cat from image 2 to the new sheet: in each of the four full-body panels in the TOP row, place one anatomically natural adult ginger tabby cat sitting on the grey floor beside the queen near her feet, unobtrusively in the available side space, showing corresponding front, side, rear and three-quarter views of the same cat. Cat has warm orange fur, subtle tabby stripes, pale muzzle and green-gold eyes matching image 2. Cat must remain fully inside its panel, naturally proportioned about knee-height seated, with realistic floor contact shadows. Preserve the queen EXACTLY: same face, body, hands, pose, red blouse, cream draped Chutia clothing, all woven borders, jewellery, hairstyle and bare feet. Preserve all eight panels, dimensions, grey backgrounds, all labels, title and footer. Bottom row close-up portraits remain completely unchanged; no cats in those close-ups. Do not copy any human, scenery, sword or other object from image 2. Only add the cat; no other changes. Output landscape 1536x1024.

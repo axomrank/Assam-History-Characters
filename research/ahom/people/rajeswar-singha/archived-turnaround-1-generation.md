@@ -1,0 +1,11 @@
+# rajeswar-singha
+
+Built-in image generator. Modern illustrated reconstruction using project scene /home/angsuman/extra_spac/Assam History/media/scenes/ahom/1681-1769-tungkhungia-restoration/11_Rajeswar_Singha_and_Kuranganayani_Marriage_Alliance.webp. Layout reference: media/characters/chakradhwaj-singha/turnaround-1.webp. Requested format 1536 × 1024, grey background, eight views.
+
+## Final prompt
+
+Use case: historical-scene. Create ONE photorealistic historical character reference sheet of RAJESWAR SINGHA (SUREMPHAA). EXACTLY 1536 x 1024 pixels, landscape 3:2.
+Image 1 is ONLY layout/style reference for grey studio background, eight-view arrangement and typography. Do NOT copy image 1's face, crown or costume. Image 2 is the PRIMARY character/costume reference. Use groom at LEFT CENTER facing bride, not other men. Adult around 40, broad face, full black moustache and short chin beard, black hair, tall ornate gold crown with red accents and small finials. Cream-gold brocade long-sleeved coat with rich gold and burgundy borders, cream trousers, gold/burgundy belt and royal sash, bare feet as scene. No wedding cloth or bride.
+One consistent Assamese Tai-Ahom ruler across all eight views: exact same facial features, age, build, hairstyle, headwear, costume, jewelry, colours. Relaxed standing pose, hands at sides, neutral dignified expression.
+EXACT layout matching series: TOP ROW four complete head-to-toe standing views, FRONT, LEFT PROFILE, BACK, THREE-QUARTER. BOTTOM ROW four large head-and-shoulder views, FACE CLOSE-UP, RIGHT PROFILE, LOW ANGLE (camera below chin looking UP), HIGH ANGLE (camera above head looking DOWN). True 90 degree profiles and true rear view. Entire headwear and feet within safe margins. Pale cool grey seamless studio backdrop throughout, soft even light, subtle shadows, realistic silk and skin. No scenes, thrones, other people, weapons, held objects or watermark.
+Exact dark serif title "RAJESWAR SINGHA", second line "CHARACTER REFERENCE", third line "SUREMPHAA". Size title to stay clear of heads. Eight view labels exactly as listed. Tiny bottom-right footer "ILLUSTRATED RECONSTRUCTION". Modern scene-based artistic reconstruction, no king number.

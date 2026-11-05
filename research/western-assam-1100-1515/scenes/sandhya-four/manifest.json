@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-27",
+  "tool": "built-in image_gen",
+  "catalogue_published": false,
+  "status": "four-generated-review-drafts",
+  "assets": [
+    {
+      "id": "KAMATA-06",
+      "version": "v01",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-06-sandhya-stops-tribute-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-792ac36b-1c68-4f14-bd28-a0f5c3468630.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "488d5376dd3bfe218f9be05b1e4d0959bad387ad3795a2632ecd251977b215c7",
+      "prompt": "KAMATA-06-v01.prompt.txt",
+      "references": [
+        "media/characters/sandhya/turnaround-1.webp",
+        "images/scenes/1950s/1950s-03-kitchen-interior.png",
+        "images/scenes/1950s/1950s-02-village-homestead.png"
+      ],
+      "review": "Visually inspected: six distinct figures, Sandhya face/costume recognizable, coherent civic interior with open yard, readable council interaction and writing activity. No modern objects or temple form noticed. Court attendance and detailed furnishing are interpretation."
+    },
+    {
+      "id": "KAMATA-07",
+      "version": "v01",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-07-yuzbak-empty-kamarupanagara-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-0e7a50ce-7990-4049-8cdc-63eaf873ffe5.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "7bc5e91e1c68a5a55f498f31584181b67434e3dca73320992ff5f63fb3fc660b",
+      "prompt": "KAMATA-07-v01.prompt.txt",
+      "references": [
+        "media/characters/ikhtiyaruddin-yuzbak/turnaround-1.webp",
+        "images/scenes/1950s/1950s-02-village-homestead.png"
+      ],
+      "review": "Visually inspected: recognizable blue-coated Yuzbak and four distinct followers, coherent horse and figure scale, empty timber/thatch street and modest plinth, no Sandhya or religious building. Town layout is invented; source remains an environment comparison."
+    },
+    {
+      "id": "KAMATA-08",
+      "version": "v01",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-08-sandhya-flooded-plain-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-1fdcfc7b-f4f6-43fe-b764-d069fd38faf2.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "c5c131457b1b0c2ffa8e4e6c81b801199ed817119c94d4c968fbdb8a2f744c51",
+      "prompt": "KAMATA-08-v01.prompt.txt",
+      "references": [
+        "media/characters/sandhya/turnaround-1.webp",
+        "images/scenes/1950s/1950s-06-paddy-ploughing.png",
+        "images/scenes/1950s/1950s-08-river-landing.png"
+      ],
+      "review": "Visually inspected: Sandhya recognizable at left, aides on firm raised ground, boat and flooded fields separated from distant stranded troops; coherent depth and no engineered dam or violence. One supporting aide wears a light upper garment carried from the comparative reference; this is a creative wardrobe choice, not medieval costume evidence. Exact landscape and attendance invented."
+    },
+    {
+      "id": "KAMATA-09",
+      "version": "v01",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-09-sandhya-kamatapur-building-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-0f53fa33-ab77-4931-82d1-fedfb953bf37.png",
+      "size": [
+        1672,
+        940
+      ],
+      "sha256": "5ef15c4bdc90813ec7b089dcea2474526dac1bd56eba78cc085b18bf8928f7aa",
+      "prompt": "KAMATA-09-v01.prompt.txt",
+      "references": [
+        "media/characters/sandhya/turnaround-1.webp",
+        "images/scenes/1950s/1950s-02-village-homestead.png"
+      ],
+      "review": "Visually inspected: recognizable Sandhya and supervisor, coherent moat/earthworks, basket labour, bamboo scaffolding and timber gateway, flat setting and modest dwellings. Top scaffolding continues beyond the frame. Construction method, gateway and overall plan are interpretive."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "batch": "kuki-rengma-singpho-khampti",
+  "records": [
+    {
+      "path": "images/scenes/present-day/kuki/kuki-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/kuki/",
+      "generated_file": "exec-3113b6e1-936a-4697-9e45-620fef93ee60.png",
+      "sha256": "8f794edd27928458a935a524652a79f972d7a0a34dbdf1887d5e00db28fed506",
+      "status": "generated interpretation; source coverage varies; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/kuki/kuki-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/kuki/",
+      "generated_file": "exec-107662ad-df42-49dd-8863-4e155930e22d.png",
+      "sha256": "f549ab1e925e91219d5373d8639df714f3c80c9fbc20b598ab7012230f640867",
+      "status": "generated interpretation; source coverage varies; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/naga-rengma/naga-rengma-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/naga-rengma/",
+      "generated_file": "exec-3bca1e20-84ed-441c-9368-dd0348cf1812.png",
+      "sha256": "68c5b945e76ad00ec0cb8ac2c22dfdddc471db6f9a3011eb41c5f3dbaa1b9005",
+      "status": "generated interpretation; source coverage varies; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/naga-rengma/naga-rengma-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/naga-rengma/",
+      "generated_file": "exec-a02ac6cd-d9b0-4ec8-98ae-c5e0ca81a02a.png",
+      "sha256": "bff03d5d10a792a4498b4bf99e44dac4801f5c277f02dcf54ffbb1094ca92e15",
+      "status": "generated interpretation; source coverage varies; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/singpho/singpho-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/singpho/",
+      "generated_file": "exec-07362e33-5d03-4d35-9cc5-800f9418e9c6.png",
+      "sha256": "dab925231ff754ac927bb951c700fb8ded9a9558ea9f12e7af6006cf8cccbd7b",
+      "status": "generated interpretation; source coverage varies; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/singpho/singpho-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/singpho/",
+      "generated_file": "exec-f6ee5e09-c69d-4627-b4f8-c1bbf217f92b.png",
+      "sha256": "5ade624b67b12b0283f0357b65a44a7e1b4b1756d12d7a1c1ce8fd4897b97964",
+      "status": "generated interpretation; source coverage varies; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/khampti/khampti-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/khampti/",
+      "generated_file": "exec-ab9877f2-6015-4968-88a8-01193d2c1888.png",
+      "sha256": "46a0dacf9a702088f771541ec855dda961c033b522797209aea05931a2820497",
+      "status": "generated interpretation; source coverage varies; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/khampti/khampti-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/khampti/",
+      "generated_file": "exec-80572fee-6c44-4fde-b68f-e025b2d2770a.png",
+      "sha256": "f977c09be26ebf1002fef017b6932a00df0789cf54e35851e39d2fea4ef565ca",
+      "status": "generated interpretation; source coverage varies; requires community review"
+    }
+  ]
+}

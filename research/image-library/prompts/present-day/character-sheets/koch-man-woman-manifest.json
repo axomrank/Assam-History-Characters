@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-27",
+  "method": "built-in imagegen",
+  "references": [
+    "/home/angsuman/Desktop/Assamese Tribes/koch-caste-vs-koch-tribe-vs-koch-rajbongshi-caste-why-we-v0-h9kgrw5xtjpd1.webp",
+    "/home/angsuman/Desktop/Assamese Tribes/images.jpeg"
+  ],
+  "notes": [
+    "User identifies these costumes as Koch; supplied labels are retained without asserting Scheduled Tribe status.",
+    "First photo is main upper costume and face reference. Second photo supplies comparative full-length lower wrap details; resulting lower hem and unseen back views are interpretations."
+  ],
+  "items": [
+    {
+      "id": "koch-man",
+      "prompt": "Create ONE photorealistic present-day traditional costume CHARACTER REFERENCE SHEET. Landscape 1536x1024, 3:2, warm ivory background, elegant black serif title matching our established sheets. Three full-body turnarounds FRONT, SIDE, BACK of the SAME adult, head-to-toe, neutral standing with arms relaxed slightly away from torso; fourth narrow column for face portrait and textile/jewellery details. Realistic anatomy, skin and woven textiles; soft even studio light. Small clear labels. No scenery, watermark, legal status claim or unrelated cultural motifs. Back construction is conservative interpretation; avoid invented ornate back patterns. Keep all full-body figures the same height. Bare feet. Title exactly \"KOCH — MAN\". Reference image 1: MAIN costume and adult man identity reference, specifically the man on the RIGHT. Preserve his white cloth headband with small upright tied end, short black hair, plain fitted white short-sleeved undershirt, white wrapped dhoti and white waist wrap; deep red/maroon woven sash across his LEFT shoulder diagonally to opposite hip, wide navy-white-red geometric diamond section at shoulder, small spaced woven motifs further down sash. Reference image 2: SUPPORTING lower-body wrap and drape only for portions cropped off in image 1; do NOT substitute its colourful caps for the white headband. Do not copy the woman. Show the round dark shield and long straight blade from image 1 ONLY as separate small prop insets if space permits, not held in the main turnaround views. Preserve the clean white ensemble and distinct red sash.",
+      "output": "images/scenes/present-day/koch/koch-man-sheet-1.png"
+    },
+    {
+      "id": "koch-woman",
+      "prompt": "Create ONE photorealistic present-day traditional costume CHARACTER REFERENCE SHEET. Landscape 1536x1024, 3:2, warm ivory background, elegant black serif title matching our established sheets. Three full-body turnarounds FRONT, SIDE, BACK of the SAME adult, head-to-toe, neutral standing with arms relaxed slightly away from torso; fourth narrow column for face portrait and textile/jewellery details. Realistic anatomy, skin and woven textiles; soft even studio light. Small clear labels. No scenery, watermark, legal status claim or unrelated cultural motifs. Back construction is conservative interpretation; avoid invented ornate back patterns. Keep all full-body figures the same height. Bare feet. Title exactly \"KOCH — WOMAN\". Reference image 1: MAIN reference for the adult woman on LEFT: preserve her face, tied dark hair, red woven upper garment with large red/navy/white geometric diamond chest panel, red patterned shoulder wrap with short fringe and small woven motifs, broad white multi-strand beaded waist belt with central vertical clasp, layered silver-coloured bead and coin necklaces, round earrings and wide silver wrist cuffs. Reference image 2: SUPPORTING full-length lower wrap construction only, use the woman second from left as closest outfit comparator: below-knee woven wrap skirt in red with horizontal fine yellow/cream/red bands and broad dark lower band, narrow coloured hem. Keep the first photo’s upper costume and accessories, not the multicolour checked shawl of the center-right woman. The first reference crops the skirt; use the second only to complete its below-knee silhouette and lower border conservatively. No additional ornaments, no crown, no male sword or shield.",
+      "output": "images/scenes/present-day/koch/koch-woman-sheet-1.png"
+    }
+  ]
+}

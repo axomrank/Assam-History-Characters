@@ -1,0 +1,363 @@
+{
+  "images": [
+    {
+      "community": "barmans-in-cachar",
+      "path": "images/references/present-day-attire/barmans-in-cachar/ref-519512accf.jpg",
+      "source_page": "https://www.sahapedia.org/dimasa-costumes",
+      "download_url": "https://www.sahapedia.org/sites/default/files/styles/galary_320_500/public/1.%20Rigu%20Dima.JPG?itok=AiD8N-Sy",
+      "description": "Gargee Bhattacharjee costume documentation, tagged Barman/Cachar; verify specific garment use before generation. Alt: ",
+      "width": 320,
+      "height": 500,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "barmans-in-cachar",
+      "path": "images/references/present-day-attire/barmans-in-cachar/ref-136d89031d.jpg",
+      "source_page": "https://www.sahapedia.org/dimasa-costumes",
+      "download_url": "https://www.sahapedia.org/sites/default/files/styles/galary_330_250/public/2.%20Rhijhamphai%20Gufu.JPG?itok=6ZLf3S0q",
+      "description": "Gargee Bhattacharjee costume documentation, tagged Barman/Cachar; verify specific garment use before generation. Alt: ",
+      "width": 330,
+      "height": 250,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "barmans-in-cachar",
+      "path": "images/references/present-day-attire/barmans-in-cachar/ref-77917c8b11.jpg",
+      "source_page": "https://www.sahapedia.org/dimasa-costumes",
+      "download_url": "https://www.sahapedia.org/sites/default/files/styles/imggallery/public/3.%20Rhijhamphai%20Beren.JPG?itok=1kTIYlRY",
+      "description": "Gargee Bhattacharjee costume documentation, tagged Barman/Cachar; verify specific garment use before generation. Alt: ",
+      "width": 150,
+      "height": 120,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "barmans-in-cachar",
+      "path": "images/references/present-day-attire/barmans-in-cachar/ref-ad579b266f.jpg",
+      "source_page": "https://www.sahapedia.org/dimasa-costumes",
+      "download_url": "https://www.sahapedia.org/sites/default/files/styles/imggallery/public/4.%20Rikhosha%20Ramai.JPG?itok=nuSlUnGP",
+      "description": "Gargee Bhattacharjee costume documentation, tagged Barman/Cachar; verify specific garment use before generation. Alt: ",
+      "width": 150,
+      "height": 120,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "barmans-in-cachar",
+      "path": "images/references/present-day-attire/barmans-in-cachar/ref-69fb9c6edd.jpg",
+      "source_page": "https://www.sahapedia.org/dimasa-costumes",
+      "download_url": "https://www.sahapedia.org/sites/default/files/styles/imggallery/public/5.%20Bathau%20Ramai.JPG?itok=7XprDQf4",
+      "description": "Gargee Bhattacharjee costume documentation, tagged Barman/Cachar; verify specific garment use before generation. Alt: ",
+      "width": 150,
+      "height": 120,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "khelma",
+      "path": "images/references/present-day-attire/khelma/ref-278030fb9e.jpg",
+      "source_page": "https://www.tezu.ernet.in/wmcfel/khelma.php",
+      "download_url": "https://www.tezu.ernet.in/wmcfel/images/khelma1.jpg",
+      "description": "University fieldwork page heading says Khelma traditional dress, but image alt says Biate traditional dress: identity conflict, review required. Alt: Biate traditional dress",
+      "width": 409,
+      "height": 621,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "khampti",
+      "path": "images/references/present-day-attire/khampti/ref-f238457b8e.jpg",
+      "source_page": "https://arunachallivingheritage.com/lifestyle-of-khampti",
+      "download_url": "https://arunachallivingheritage.com/uploads/images/1663066716Khampti_Attire-(5).jpg",
+      "description": "Khampti attire and textiles; Arunachal comparative reference. Alt: ",
+      "width": 1000,
+      "height": 563,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "rangkhol",
+      "path": "images/references/present-day-attire/rangkhol/ref-10270b8099.webp",
+      "source_page": "https://www.hrangkhol.in/en/traditional-attire-1",
+      "download_url": "https://www.hrangkhol.in/sites/www.hrangkhol.in/files/styles/gallery/public/uploads/gallery-Traditional%20Attire_01.jpg.webp?itok=WHK4EuQo",
+      "description": "Hrangkhawl community gallery; preserve the individual garment labels. Alt: ",
+      "width": 480,
+      "height": 270,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "rangkhol",
+      "path": "images/references/present-day-attire/rangkhol/ref-a08bac5aff.webp",
+      "source_page": "https://www.hrangkhol.in/en/traditional-attire-1",
+      "download_url": "https://www.hrangkhol.in/sites/www.hrangkhol.in/files/styles/gallery/public/uploads/gallery-Traditional%20Attire_02.jpg.webp?itok=wyWvyw5V",
+      "description": "Hrangkhawl community gallery; preserve the individual garment labels. Alt: ",
+      "width": 480,
+      "height": 270,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "rangkhol",
+      "path": "images/references/present-day-attire/rangkhol/ref-d0498293c7.webp",
+      "source_page": "https://www.hrangkhol.in/en/traditional-attire-1",
+      "download_url": "https://www.hrangkhol.in/sites/www.hrangkhol.in/files/styles/gallery/public/uploads/gallery-Traditional%20Attire_03.jpg.webp?itok=H5ZWC3ZR",
+      "description": "Hrangkhawl community gallery; preserve the individual garment labels. Alt: ",
+      "width": 480,
+      "height": 347,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "rangkhol",
+      "path": "images/references/present-day-attire/rangkhol/ref-60534b777e.webp",
+      "source_page": "https://www.hrangkhol.in/en/traditional-attire-1",
+      "download_url": "https://www.hrangkhol.in/sites/www.hrangkhol.in/files/styles/gallery/public/uploads/gallery-Traditional%20Attire_04.jpg.webp?itok=huV5TTat",
+      "description": "Hrangkhawl community gallery; preserve the individual garment labels. Alt: ",
+      "width": 480,
+      "height": 347,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "rangkhol",
+      "path": "images/references/present-day-attire/rangkhol/ref-bfa50ad75a.webp",
+      "source_page": "https://www.hrangkhol.in/en/traditional-attire-1",
+      "download_url": "https://www.hrangkhol.in/sites/www.hrangkhol.in/files/styles/gallery/public/uploads/gallery-Traditional%20Attire_05.jpg.webp?itok=fYflwCzC",
+      "description": "Hrangkhawl community gallery; preserve the individual garment labels. Alt: ",
+      "width": 480,
+      "height": 347,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "rangkhol",
+      "path": "images/references/present-day-attire/rangkhol/ref-1a134b64db.webp",
+      "source_page": "https://www.hrangkhol.in/en/traditional-attire-1",
+      "download_url": "https://www.hrangkhol.in/sites/www.hrangkhol.in/files/styles/gallery/public/uploads/gallery-Traditional%20Attire_06.jpg.webp?itok=DqkGcNDb",
+      "description": "Hrangkhawl community gallery; preserve the individual garment labels. Alt: ",
+      "width": 480,
+      "height": 347,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "singpho",
+      "path": "images/references/present-day-attire/singpho/ref-69d222a9b5.jpg",
+      "source_page": "https://arunachallivingheritage.com/singpho-textile",
+      "download_url": "https://arunachallivingheritage.com/uploads/images/1663842412Singpho_Textile_story-cover.jpg",
+      "description": "Costume and textile references; Arunachal locality, compare with Assam. Alt: ",
+      "width": 1325,
+      "height": 884,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "jaintia-pnar",
+      "path": "images/references/present-day-attire/jaintia-pnar/ref-a38f93bb2c.png",
+      "source_page": "https://www.muezart.com/blogs/muezart-musings/little-known-stories-of-khasi-and-jaintia-traditional-attires",
+      "download_url": "https://cdn.shopify.com/s/files/1/0093/1043/7454/files/Khyrwang_large.png?v=1593585688",
+      "description": "Local textile producer documentation; retain Jaintia garment labels, not a generic Khasi substitute. Alt: ",
+      "width": 480,
+      "height": 288,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "khampti",
+      "path": "images/references/present-day-attire/khampti/ref-66c9b84272.jpg",
+      "source_page": "https://arunachallivingheritage.com/lifestyle-of-khampti",
+      "download_url": "https://arunachallivingheritage.com/uploads/images/1663067832Khampti_Textile-(1).jpg",
+      "description": "Khampti attire and textiles; Arunachal comparative reference. Alt: ",
+      "width": 1000,
+      "height": 563,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "thado",
+      "path": "images/references/present-day-attire/thado/ref-4ffa58523a.jpg",
+      "source_page": "https://en.wikipedia.org/wiki/Thadou_people",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Thadou_dress.jpg/250px-Thadou_dress.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "description": "Wikipedia image candidate; check original caption and authorship. Alt: ",
+      "width": 250,
+      "height": 277,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "khampti",
+      "path": "images/references/present-day-attire/khampti/ref-a7fcd12a01.jpg",
+      "source_page": "https://arunachallivingheritage.com/lifestyle-of-khampti",
+      "download_url": "https://arunachallivingheritage.com/uploads/images/1663067870Khampti_Textile-(4).jpg",
+      "description": "Khampti attire and textiles; Arunachal comparative reference. Alt: ",
+      "width": 1000,
+      "height": 563,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "singpho",
+      "path": "images/references/present-day-attire/singpho/ref-90065add01.jpg",
+      "source_page": "https://arunachallivingheritage.com/singpho-textile",
+      "download_url": "https://arunachallivingheritage.com/uploads/images/1663686050Singpho_textile-2.jpg",
+      "description": "Costume and textile references; Arunachal locality, compare with Assam. Alt: ",
+      "width": 1000,
+      "height": 563,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "singpho",
+      "path": "images/references/present-day-attire/singpho/ref-ede7f95d8c.jpg",
+      "source_page": "https://arunachallivingheritage.com/singpho-textile",
+      "download_url": "https://arunachallivingheritage.com/uploads/images/1663686001Singpho_textile-1.jpg",
+      "description": "Costume and textile references; Arunachal locality, compare with Assam. Alt: ",
+      "width": 1000,
+      "height": 563,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "singpho",
+      "path": "images/references/present-day-attire/singpho/ref-7193fd7e4a.jpg",
+      "source_page": "https://arunachallivingheritage.com/singpho-textile",
+      "download_url": "https://arunachallivingheritage.com/uploads/images/1663686072Singpho_textile-3.jpg",
+      "description": "Costume and textile references; Arunachal locality, compare with Assam. Alt: ",
+      "width": 1000,
+      "height": 563,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "singpho",
+      "path": "images/references/present-day-attire/singpho/ref-00c4de9f71.jpg",
+      "source_page": "https://arunachallivingheritage.com/singpho-textile",
+      "download_url": "https://arunachallivingheritage.com/uploads/images/1663686098Singpho_textile-4.jpg",
+      "description": "Costume and textile references; Arunachal locality, compare with Assam. Alt: ",
+      "width": 1000,
+      "height": 563,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "singpho",
+      "path": "images/references/present-day-attire/singpho/ref-113cc0ef82.jpg",
+      "source_page": "https://arunachallivingheritage.com/singpho-textile",
+      "download_url": "https://arunachallivingheritage.com/uploads/images/1663686123Singpho_textile-5.jpg",
+      "description": "Costume and textile references; Arunachal locality, compare with Assam. Alt: ",
+      "width": 1000,
+      "height": 563,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "bhoi",
+      "path": "images/references/present-day-attire/bhoi/ref-6218c2ebbb.jpg",
+      "source_page": "https://x.com/deptoftextiles/status/1480176566101430274",
+      "download_url": "https://pbs.twimg.com/media/FIqkvSVVgAIxUCF.jpg",
+      "description": "Meghalaya Department of Textiles: Ri-Bhoi youths from Raid Nongtluh, Unden, male and female attire.",
+      "width": 1080,
+      "height": 1080,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "hmar",
+      "path": "images/references/present-day-attire/hmar/ref-0b05464420.jpg",
+      "source_page": "https://e-pao.net/epGallery.asp?id=9&src=Community_Org%2FHmarDress201903",
+      "download_url": "https://www.e-pao.org/galleries/images/Community/2019/Hmar_0319/Hmar_201903_9.jpg",
+      "description": "Hmar women; Lamdamba Oinam, 11 March 2019, Manipur comparative reference.",
+      "width": 850,
+      "height": 566,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "hmar",
+      "path": "images/references/present-day-attire/hmar/ref-fd7d9eea32.jpg",
+      "source_page": "https://e-pao.net/epGallery.asp?id=1&src=Community_Org%2FHmarDress201903",
+      "download_url": "https://www.e-pao.org/galleries/images/Community/2019/Hmar_0319/Hmar_201903_1.jpg",
+      "description": "Hmar women; Lamdamba Oinam, 11 March 2019; compare regional variation.",
+      "width": 850,
+      "height": 566,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "man-tai-speaking",
+      "path": "images/references/present-day-attire/man-tai-speaking/ref-537f0f3532.jpg",
+      "source_page": "https://www.taiphakeassam.com/about-namphake",
+      "download_url": "https://www.taiphakeassam.com/about/abt-namphake.jpg",
+      "description": "Tai Phake women, Namphake Assam; subgroup-specific, not universal Man Tai-speaking attire.",
+      "width": 1230,
+      "height": 714,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "lyngngam",
+      "path": "images/references/present-day-attire/lyngngam/ref-c6a5e27516.jpg",
+      "source_page": "https://4dancing.ru/blogs/211214/1985/",
+      "download_url": "https://4dancing.ru/files/u5304/5060254382_e818af6c4b_z.jpg",
+      "description": "Publisher-labelled Lingngam/Lyngngam dancers; secondary source, locality/identity review required.",
+      "width": 600,
+      "height": 404,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "vaiphei",
+      "path": "images/references/present-day-attire/vaiphei/ref-a9c10f0382.jpg",
+      "source_page": "https://x.com/being_chikim/status/1767555405557989481",
+      "download_url": "https://pbs.twimg.com/media/GIeeQ3fbsAAj2wK.jpg",
+      "description": "Community-labelled Vaiphei woman; social media attribution, verify before generation.",
+      "width": 799,
+      "height": 1200,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "vaiphei",
+      "path": "images/references/present-day-attire/vaiphei/ref-fcee6015cd.jpg",
+      "source_page": "https://x.com/being_chikim/status/1377128063490682890",
+      "download_url": "https://pbs.twimg.com/media/ExyKqLcU4AcMuCz.jpg",
+      "description": "Community-labelled Vaiphei group; modern male suit is not traditional male costume evidence.",
+      "width": 480,
+      "height": 640,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "pawi-lai",
+      "path": "images/references/present-day-attire/pawi-lai/ref-c443e77987.jpg",
+      "source_page": "https://www.indiatodayne.in/visualstories/webstories/mizoram-the-major-tribes-of-mizoram-107378-21-02-2024",
+      "download_url": "https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2024/02/mizo-pawi.jpg?size=%2A%3A900",
+      "description": "Publisher-labelled Pawi dance group; Mizoram comparative reference.",
+      "width": 1080,
+      "height": 720,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    },
+    {
+      "community": "lyngngam",
+      "path": "images/references/present-day-attire/lyngngam/ref-53d0e3c816.jpg",
+      "source_page": "https://4dancing.ru/blogs/211214/1985/",
+      "download_url": "https://4dancing.ru/files/u5304/53040900.jpg",
+      "description": "Publisher-labelled Lingngam/Lyngngam dance; secondary source, identity review required.",
+      "width": 600,
+      "height": 398,
+      "license": "Not established; local reference only",
+      "review_status": "source-labelled; visual review pending"
+    }
+  ],
+  "errors": [
+    {
+      "community": "mech",
+      "url": "https://www.back2roots.life/tribes-2/the-meches-tribe",
+      "error": "cannot identify image file <_io.BytesIO object at 0x7b3f48561260>"
+    }
+  ]
+}

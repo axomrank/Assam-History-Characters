@@ -1,0 +1,664 @@
+{
+  "date": "2026-10-27",
+  "tool": "built-in image_gen",
+  "cutoff_year": 1515,
+  "catalogue_published": false,
+  "status": "complete: 21 scenes generated and visually reviewed; 13 targeted repairs selected",
+  "assets": [
+    {
+      "id": "KAMATA-01",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-01-land-grant-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-c61dde0a-d2db-4ddd-81af-ce3ae1be22ed.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "344f5493b2f81183276e5ad0c7db314ed3e9405601253cc2a90c57e49c41dfd0",
+      "references": [
+        "media/characters/udayakarna/turnaround-1.webp",
+        "images/scenes/1950s/1950s-02-village-homestead.png",
+        "images/references/bhuyan/white-dhoti-left-shoulder-drape-user.jpg"
+      ],
+      "prompt": "KAMATA-01-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-04",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-04-iwaz-turned-back-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-45dec9fc-81c0-4d3c-b47f-66b92a08dd40.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "9837c91e3c3fcd54ff01acb84abdf82311eb7d621a73937e306af1b1ed22ab8f",
+      "references": [
+        "media/characters/ghiyasuddin-iwaz-khalji/turnaround-1.webp",
+        "images/scenes/1950s/1950s-06-paddy-ploughing.png"
+      ],
+      "prompt": "KAMATA-04-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-05",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-05-nasiruddin-crossing-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-1a493b70-bca7-47bc-b1b4-a0b33bb844a7.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "e2d3f490efc3785b395de2217a7399c32c07a28e568b0e0e75c5ea751c518b7a",
+      "references": [
+        "media/characters/nasiruddin-mahmud/turnaround-1.webp",
+        "images/scenes/1950s/1950s-08-river-landing.png"
+      ],
+      "prompt": "KAMATA-05-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-10",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-10-kachari-resistance-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-4cc136c5-8b5d-48ac-b5e7-8b53c768933f.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "8e146bbc371997e2aedcf44d81bed03cda41634bd4beb91d6660193334c7d202",
+      "references": [
+        "images/scenes/present-day/dimasa/dimasa-man-sheet-1.png",
+        "media/characters/ghiyasuddin-bahadur-shah/turnaround-1.webp",
+        "images/scenes/1950s/1950s-08-river-landing.png"
+      ],
+      "prompt": "KAMATA-10-v01.prompt.txt",
+      "review": "Visually inspected: composition, primary identity, figures and setting suitable as a local artistic reconstruction draft. Fine distant details remain interpretive.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-11",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-11-kingdom-divided-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-793f529c-b5f9-47c0-b94a-73be1a969243.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "c815fe05440915ea1b082c7a7980ccd4df8e88185c20375c7fa54c7ba6343245",
+      "references": [
+        "media/characters/durlabhnarayan/turnaround-1.webp",
+        "media/characters/dharmanarayan/turnaround-1.webp",
+        "images/scenes/1950s/1950s-02-village-homestead.png"
+      ],
+      "prompt": "KAMATA-11-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-12",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-12-chandivara-settlement-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-d5815177-0a4b-4a26-80d1-e8a6dabf099c.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "dbc51ee551e26a9a8842d07bd832f92be92524b87842c4355e2f0c3e95eb48b1",
+      "references": [
+        "media/characters/candivara/turnaround-1.webp",
+        "images/references/bhuyan/white-dhoti-left-shoulder-drape-user.jpg",
+        "images/references/15th-century/bhuyan-women-wrapped-clothing.jpg",
+        "images/scenes/1950s/1950s-02-village-homestead.png",
+        "images/scenes/1950s/1950s-08-river-landing.png"
+      ],
+      "prompt": "KAMATA-12-v01.prompt.txt",
+      "review": "Visually inspected: composition, primary identity, figures and setting suitable as a local artistic reconstruction draft. Fine distant details remain interpretive.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-13",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-13-hema-recital-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-11bad7a3-dafd-4ef4-82e0-74a1eed69a19.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "700eef99d63ae564eab3c5abcc1782f39d6d90c99d402a7f1a1f501265a4433f",
+      "references": [
+        "media/characters/durlabhnarayan/turnaround-1.webp",
+        "images/references/bhuyan/white-dhoti-left-shoulder-drape-user.jpg",
+        "images/scenes/1950s/1950s-03-kitchen-interior.png"
+      ],
+      "prompt": "KAMATA-13-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-14",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-14-kandali-writing-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-3822020f-dcd9-486a-a562-31bb2f923251.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "e75d41ea630bbf77d840d466dfbced80a8c31589b7a737151ddfb7a94929f6b1",
+      "references": [
+        "images/references/bhuyan/white-dhoti-left-shoulder-drape-user.jpg",
+        "images/scenes/1950s/1950s-02-village-homestead.png",
+        "images/scenes/1950s/1950s-03-kitchen-interior.png"
+      ],
+      "prompt": "KAMATA-14-v01.prompt.txt",
+      "review": "Visually inspected: composition, primary identity, figures and setting suitable as a local artistic reconstruction draft. Fine distant details remain interpretive.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-15",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-15-ilyas-guwahati-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-4ddb80d2-57e5-45e0-990b-d5998e16d5db.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "0a347e882711cdba8d1df0be3087ea16a6258437418ff0bfd5d751194742d449",
+      "references": [
+        "media/characters/shamsuddin-ilyas-shah/turnaround-1.webp",
+        "images/scenes/1950s/1950s-08-river-landing.png"
+      ],
+      "prompt": "KAMATA-15-v01.prompt.txt",
+      "review": "Visually inspected: composition, primary identity, figures and setting suitable as a local artistic reconstruction draft. Fine distant details remain interpretive.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-16",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-16-gachtal-confrontation-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-02e65689-9047-432e-b473-0d1620e0e1b6.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "7e7f548fce55b1181b1ab357956059162ba9265d898e545b84262736d431f509",
+      "references": [
+        "media/characters/sikandar-shah-bengal/turnaround-1.webp",
+        "media/characters/indranarayan/turnaround-1.webp",
+        "images/references/bhuyan/white-dhoti-left-shoulder-drape-user.jpg",
+        "images/scenes/1950s/1950s-08-river-landing.png"
+      ],
+      "prompt": "KAMATA-16-v01.prompt.txt",
+      "review": "Visually inspected: composition, primary identity, figures and setting suitable as a local artistic reconstruction draft. Fine distant details remain interpretive.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-17",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-17-arimatta-accession-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-9a3251b2-6edc-487f-8528-36001651771b.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "d2305d7c8afef4f5f2c783959243b4822a66ce74eb987e6c2f999437ab786a3b",
+      "references": [
+        "media/characters/arimatta/turnaround-1.webp",
+        "images/references/bhuyan/white-dhoti-left-shoulder-drape-user.jpg",
+        "images/scenes/1950s/1950s-02-village-homestead.png"
+      ],
+      "prompt": "KAMATA-17-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-18",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-18-niladhwaj-accession-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-7dca859e-75fe-4520-960e-151bc9aa4bd3.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "8012a6963e0a3b13de7963283ba25c043d8a5db8df0ad2cb72f8e868e09d0d2a",
+      "references": [
+        "media/characters/niladhwaj/turnaround-1.webp",
+        "images/scenes/1950s/1950s-02-village-homestead.png",
+        "images/references/bhuyan/white-dhoti-left-shoulder-drape-user.jpg"
+      ],
+      "prompt": "KAMATA-18-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-19",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-19-sankardev-boyhood-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-15ef81e7-ab46-40db-be69-af5b878c6ee8.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "90b28439e5259e46370239e3346322f85e3111db0793366ce32b9512d86504fa",
+      "references": [
+        "images/scenes/1950s/1950s-02-village-homestead.png",
+        "images/scenes/1950s/1950s-03-kitchen-interior.png",
+        "images/references/bhuyan/white-dhoti-left-shoulder-drape-user.jpg",
+        "images/references/15th-century/bhuyan-women-wrapped-clothing.jpg"
+      ],
+      "prompt": "KAMATA-19-v01.prompt.txt",
+      "review": "Visually inspected: composition, primary identity, figures and setting suitable as a local artistic reconstruction draft. Fine distant details remain interpretive.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-20",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-20-nilambar-capital-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-ffecfe7b-5b9c-4838-9ecf-c5e593917485.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "e71b28f468e0f80a5b1bd532e3bd7fe2e12a2d25549394b22740aac8322f3292",
+      "references": [
+        "media/characters/nilambar/turnaround-1.webp",
+        "images/scenes/1950s/1950s-02-village-homestead.png"
+      ],
+      "prompt": "KAMATA-20-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-21",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-21-muzaffar-mint-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-955f97db-bd0e-4566-92eb-44f034b6b1e8.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "1339d527e07afed284b1f9992617ea2cb0ae8727e6e39d9ef05bb9dc409b48b8",
+      "references": [
+        "media/characters/shamsuddin-muzaffar-shah/turnaround-1.webp",
+        "images/scenes/1950s/1950s-03-kitchen-interior.png"
+      ],
+      "prompt": "KAMATA-21-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-22",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-22-sachipatra-appeal-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-088fc09e-fec6-4d0d-82d0-fb39ccd77cc5.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "fb33809f0afe3a3eef9356237d9d3c4d2f2762a859601d77383589ac1eb06f7b",
+      "references": [
+        "media/characters/sachipatra/turnaround-1.webp",
+        "media/characters/alauddin-husain-shah/turnaround-1.webp"
+      ],
+      "prompt": "KAMATA-22-v01.prompt.txt",
+      "review": "Visually inspected: composition, primary identity, figures and setting suitable as a local artistic reconstruction draft. Fine distant details remain interpretive.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-23",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-23-kamatapur-siege-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-6896a73d-e9b6-45eb-b04c-2a1aff36f40f.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "2493b803b57cd453568c7715363df05838d95559921f45c852374177019ff2ec",
+      "references": [
+        "media/characters/nilambar/turnaround-1.webp",
+        "drafts/western-assam/kamata-scenes/KAMATA-20-nilambar-capital-v01.png"
+      ],
+      "prompt": "KAMATA-23-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-24",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-24-danyal-hajo-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-f247f087-8929-4a00-ac42-7e229d0f2450.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "10114b313e65a510040d2279a768093925e38bfa8188182684e93ac646483736",
+      "references": [
+        "media/characters/danyal/turnaround-1.webp",
+        "images/scenes/1950s/1950s-02-village-homestead.png",
+        "images/scenes/1950s/1950s-08-river-landing.png"
+      ],
+      "prompt": "KAMATA-24-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-25",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-25-bhuyan-garrison-attack-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-c008048c-e97f-4a88-8ae6-a30782f441e5.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "64008e243e2843afed221adc1fd3f6a88e824d6525724a441d154d927544c6a8",
+      "references": [
+        "media/characters/harup-narayan/turnaround-1.webp",
+        "images/references/bhuyan/white-dhoti-left-shoulder-drape-user.jpg",
+        "images/scenes/1950s/1950s-02-village-homestead.png"
+      ],
+      "prompt": "KAMATA-25-v01.prompt.txt",
+      "review": "Visually inspected: composition, primary identity, figures and setting suitable as a local artistic reconstruction draft. Fine distant details remain interpretive.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-26",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-26-bisu-campaign-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-4dd0c353-058b-441c-b2fd-0eb958833927.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "4d62ef08fd497d5af9ecbb22476c185303470d7d1fd702415d3d1a743ebac606",
+      "references": [
+        "media/characters/biswa-singha/turnaround-1.webp",
+        "images/scenes/present-day/koch/koch-man-sheet-1.png",
+        "images/scenes/present-day/mech/mech-man-sheet-1.png",
+        "images/references/bhuyan/white-dhoti-left-shoulder-drape-user.jpg",
+        "images/scenes/1950s/1950s-02-village-homestead.png"
+      ],
+      "prompt": "KAMATA-26-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-27",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-27-biswa-coronation-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-65e9efa3-239f-43a2-9fda-ffc0f4cb8293.png",
+      "version": "v01",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "c6ab7f807d86961b4d54bf03bb7fd323cb71757a843258f59534d177be2a4a04",
+      "references": [
+        "media/characters/biswa-singha/turnaround-1.webp",
+        "media/characters/sisu-koch/turnaround-1.webp",
+        "images/scenes/present-day/koch/koch-man-sheet-1.png",
+        "images/references/bhuyan/white-dhoti-left-shoulder-drape-user.jpg",
+        "images/scenes/1950s/1950s-02-village-homestead.png"
+      ],
+      "prompt": "KAMATA-27-v01.prompt.txt",
+      "review": "Superseded by visually inspected targeted v02 repair; original preserved.",
+      "status": "generated-local-draft",
+      "selected": false
+    },
+    {
+      "id": "KAMATA-01",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-01-land-grant-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-0e297789-72c9-405d-9125-174903457bea.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "ce14da1d843e32be56a882c9a3faec609a23060c0d9a3da473b98d3e857a4abf",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-01-land-grant-v01.png"
+      ],
+      "prompt": "KAMATA-01-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-04",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-04-iwaz-turned-back-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-f416ddd4-62df-486d-bf7f-c2758b155662.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "ff7e17ff919248962f5b06e3db61abcdb8297e70575f46bc4614009f89a62a57",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-04-iwaz-turned-back-v01.png"
+      ],
+      "prompt": "KAMATA-04-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-05",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-05-nasiruddin-crossing-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-86041f93-a461-42c8-8ba3-9bbaf1e8a9d4.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "c681b209192c05332eabaef9eea26bdda601472df2ae3fd64afca60ebbd811c4",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-05-nasiruddin-crossing-v01.png"
+      ],
+      "prompt": "KAMATA-05-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-11",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-11-kingdom-divided-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-660cf609-b188-4919-8817-a54f96f4b05a.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "af4631801c22cd5d3b511aadfeb0dd0dcc1e1d97c06170fffb38b309fc826f78",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-11-kingdom-divided-v01.png"
+      ],
+      "prompt": "KAMATA-11-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-13",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-13-hema-recital-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-05d25b68-fff6-4cfb-b6c7-5b12292c6bfe.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "37bfd74e0a374c600e7779df64330070f1a5f49938f71af0e4851becd3db3e36",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-13-hema-recital-v01.png"
+      ],
+      "prompt": "KAMATA-13-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-17",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-17-arimatta-accession-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-4aeb3e8e-858a-494c-b77a-bdade1457be4.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "4c94075a9d36b0482d60fc4c85ef827fbdb606993283e804de1b2ad0dbca2f3b",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-17-arimatta-accession-v01.png"
+      ],
+      "prompt": "KAMATA-17-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-18",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-18-niladhwaj-accession-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-7550411d-cf4b-4739-9df8-6bc3edebb9a5.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "71dec7b620dac63d9a59c7025a0ee3f2fd1eed7d99caad89b4853cf89a629053",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-18-niladhwaj-accession-v01.png"
+      ],
+      "prompt": "KAMATA-18-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-20",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-20-nilambar-capital-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-40151f37-a127-4ce4-a2d5-4ff73afeb4c5.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "d16d7df7484a7a65d6d980a150f724103083a5bf0e68b547830bc96032c66d17",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-20-nilambar-capital-v01.png"
+      ],
+      "prompt": "KAMATA-20-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-21",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-21-muzaffar-mint-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-71baadd4-1338-4054-9d8a-f4e8fcaeb916.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "6898b84c11fe47d0ba9944d5a19d1446b1613d9e7cd3dfa357c08033649e90c7",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-21-muzaffar-mint-v01.png"
+      ],
+      "prompt": "KAMATA-21-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-23",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-23-kamatapur-siege-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-24f22d68-69a0-4871-839a-c6c7b917f1c1.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "cfb5236801f6d695e150ed26e875897132b7be08d1dbc0c5a2d5fe68497bc03e",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-23-kamatapur-siege-v01.png"
+      ],
+      "prompt": "KAMATA-23-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-24",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-24-danyal-hajo-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-8fe229f1-b77a-455a-9d2b-746811211356.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "e37f6ad858fffb64642378a65af5dfd7a2891aa500907fe90c87296e759bdd7e",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-24-danyal-hajo-v01.png"
+      ],
+      "prompt": "KAMATA-24-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-26",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-26-bisu-campaign-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-1eace057-7f94-40ad-91ee-8a1a8f234d56.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "18454bba99dc88329456449f9e4bc4be95a34c86a083658e76b9eef70cb8be50",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-26-bisu-campaign-v01.png"
+      ],
+      "prompt": "KAMATA-26-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    },
+    {
+      "id": "KAMATA-27",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-27-biswa-coronation-v02.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-d2fda164-9265-4d09-b158-95b8d3d6d457.png",
+      "version": "v02",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "c5e867c7be507bbd307a0ed7415f35875ce420c4a522a569c8be4991741bf649",
+      "references": [
+        "drafts/western-assam/kamata-scenes/KAMATA-27-biswa-coronation-v01.png"
+      ],
+      "prompt": "KAMATA-27-v02.prompt.txt",
+      "review": "Visually inspected after correction: marked spectacles removed where requested, supporting faces differentiated, main named identity/costume and composition retained. Suitable as local artistic-reconstruction draft; not historical visual evidence.",
+      "status": "generated-local-draft",
+      "selected": true
+    }
+  ]
+}

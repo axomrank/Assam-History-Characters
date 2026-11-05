@@ -1,0 +1,530 @@
+[
+  {
+    "scene_id": "KOCH-01",
+    "title": "Biswa Singha Counts His People",
+    "status": "illustrated",
+    "character_references": [
+      {
+        "person_id": "biswa-singha",
+        "name": "Biswa Singha",
+        "character_sheets": [
+          {
+            "path": "media/characters/biswa-singha/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      },
+      {
+        "person_id": "sisu-koch",
+        "name": "Sisu (Sisya Singha)",
+        "character_sheets": [
+          {
+            "path": "media/characters/sisu-koch/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-02",
+    "title": "The Court Moves to Hingulabas",
+    "status": "illustrated",
+    "character_references": [
+      {
+        "person_id": "biswa-singha",
+        "name": "Biswa Singha",
+        "character_sheets": [
+          {
+            "path": "media/characters/biswa-singha/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-03",
+    "title": "Biswa Singha Revives Worship at Kamakhya",
+    "status": "illustrated",
+    "character_references": [
+      {
+        "person_id": "biswa-singha",
+        "name": "Biswa Singha",
+        "character_sheets": [
+          {
+            "path": "media/characters/biswa-singha/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-04",
+    "title": "Learned Brahmins Come to the Koch Court",
+    "status": "illustrated",
+    "character_references": [
+      {
+        "person_id": "biswa-singha",
+        "name": "Biswa Singha",
+        "character_sheets": [
+          {
+            "path": "media/characters/biswa-singha/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-05",
+    "title": "Biswa Singha Makes Peace with the Ahom Army",
+    "status": "illustrated",
+    "character_references": [
+      {
+        "person_id": "biswa-singha",
+        "name": "Biswa Singha",
+        "character_sheets": [
+          {
+            "path": "media/characters/biswa-singha/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      },
+      {
+        "person_id": "ton-kham-borgohain",
+        "name": "Ton Kham Borgohain",
+        "character_sheets": [
+          {
+            "path": "media/characters/ton-kham-borgohain/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-06",
+    "title": "The March to Singari Turns Back",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "biswa-singha",
+        "name": "Biswa Singha",
+        "character_sheets": [
+          {
+            "path": "media/characters/biswa-singha/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      },
+      {
+        "person_id": "suhungmung",
+        "name": "Suhungmung (Swarganarayan)",
+        "character_sheets": [
+          {
+            "path": "media/characters/suhungmung/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-07",
+    "title": "The Princes Return from Varanasi",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "nara-narayan",
+        "name": "Nara Narayan",
+        "character_sheets": [
+          {
+            "path": "media/characters/nara-narayan/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      },
+      {
+        "person_id": "chilarai",
+        "name": "Chilarai (Sukladhwaj)",
+        "character_sheets": [
+          {
+            "path": "media/characters/chilarai/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-08",
+    "title": "Building the Gohain Kamal Ali",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "gosain-kamal",
+        "name": "Gosain Kamal (Kamal Narayan)",
+        "character_sheets": [
+          {
+            "path": "media/characters/gosain-kamal/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      },
+      {
+        "person_id": "nara-narayan",
+        "name": "Nara Narayan",
+        "character_sheets": [
+          {
+            "path": "media/characters/nara-narayan/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-09",
+    "title": "Weaving the Vrindavani Vastra",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "sankardev",
+        "name": "Srimanta Sankardev",
+        "character_sheets": [
+          {
+            "path": "media/characters/sankardev/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      },
+      {
+        "person_id": "nara-narayan",
+        "name": "Nara Narayan",
+        "character_sheets": [
+          {
+            "path": "media/characters/nara-narayan/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-10",
+    "title": "The First Narayani Coins",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "nara-narayan",
+        "name": "Nara Narayan",
+        "character_sheets": [
+          {
+            "path": "media/characters/nara-narayan/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-11",
+    "title": "Sankardev Answers the Pundits",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "sankardev",
+        "name": "Srimanta Sankardev",
+        "character_sheets": [
+          {
+            "path": "media/characters/sankardev/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      },
+      {
+        "person_id": "nara-narayan",
+        "name": "Nara Narayan",
+        "character_sheets": [
+          {
+            "path": "media/characters/nara-narayan/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      },
+      {
+        "person_id": "chilarai",
+        "name": "Chilarai (Sukladhwaj)",
+        "character_sheets": [
+          {
+            "path": "media/characters/chilarai/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-12",
+    "title": "Chilarai Takes the Barak Valley",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "chilarai",
+        "name": "Chilarai (Sukladhwaj)",
+        "character_sheets": [
+          {
+            "path": "media/characters/chilarai/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-13",
+    "title": "Manipur’s King Pays Tribute",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "chilarai",
+        "name": "Chilarai (Sukladhwaj)",
+        "character_sheets": [
+          {
+            "path": "media/characters/chilarai/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-14",
+    "title": "The Battle at Langai",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "chilarai",
+        "name": "Chilarai (Sukladhwaj)",
+        "character_sheets": [
+          {
+            "path": "media/characters/chilarai/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-15",
+    "title": "The Jaintia Prince Submits",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "chilarai",
+        "name": "Chilarai (Sukladhwaj)",
+        "character_sheets": [
+          {
+            "path": "media/characters/chilarai/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-16",
+    "title": "Chilarai at Sylhet",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "chilarai",
+        "name": "Chilarai (Sukladhwaj)",
+        "character_sheets": [
+          {
+            "path": "media/characters/chilarai/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-17",
+    "title": "Meghamukdam’s Brick Dome at Kamakhya",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "chilarai",
+        "name": "Chilarai (Sukladhwaj)",
+        "character_sheets": [
+          {
+            "path": "media/characters/chilarai/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      },
+      {
+        "person_id": "nara-narayan",
+        "name": "Nara Narayan",
+        "character_sheets": [
+          {
+            "path": "media/characters/nara-narayan/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-18",
+    "title": "The Koch Fleet Routed",
+    "status": "planned",
+    "character_references": [],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-19",
+    "title": "Chilarai Captured in Bengal",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "chilarai",
+        "name": "Chilarai (Sukladhwaj)",
+        "character_sheets": [
+          {
+            "path": "media/characters/chilarai/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-20",
+    "title": "Sankardev’s Last Days at Bheladonga",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "sankardev",
+        "name": "Srimanta Sankardev",
+        "character_sheets": [
+          {
+            "path": "media/characters/sankardev/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-21",
+    "title": "Turned Back at the Dhansiri",
+    "status": "planned",
+    "character_references": [],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-22",
+    "title": "Chilarai Dies on the Ganges",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "chilarai",
+        "name": "Chilarai (Sukladhwaj)",
+        "character_sheets": [
+          {
+            "path": "media/characters/chilarai/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-23",
+    "title": "An Edict for the Old Faiths",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "nara-narayan",
+        "name": "Nara Narayan",
+        "character_sheets": [
+          {
+            "path": "media/characters/nara-narayan/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-24",
+    "title": "The Epics in Assamese",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "nara-narayan",
+        "name": "Nara Narayan",
+        "character_sheets": [
+          {
+            "path": "media/characters/nara-narayan/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  },
+  {
+    "scene_id": "KOCH-25",
+    "title": "The Kingdom Divided",
+    "status": "planned",
+    "character_references": [
+      {
+        "person_id": "nara-narayan",
+        "name": "Nara Narayan",
+        "character_sheets": [
+          {
+            "path": "media/characters/nara-narayan/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      },
+      {
+        "person_id": "raghudev",
+        "name": "Raghudev",
+        "character_sheets": [
+          {
+            "path": "media/characters/raghudev/turnaround-1.webp",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "rule": "Inspect and pass the existing character sheet of every named person depicted as an image reference; keep distinct face, age-appropriate appearance and costume. Do not use a different king as a substitute."
+  }
+]

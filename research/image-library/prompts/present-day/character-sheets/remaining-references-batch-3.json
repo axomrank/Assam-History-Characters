@@ -1,0 +1,61 @@
+{
+  "batch": "jaintia-pnar-bhoi-rangkhol-thado",
+  "records": [
+    {
+      "path": "images/scenes/present-day/jaintia-pnar/jaintia-pnar-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/jaintia-pnar/",
+      "generated_file": "exec-7c8d0e8f-669e-4f80-b31c-803bda98aa57.png",
+      "sha256": "5ea6efc92e16ec9764f0f657960e797413259bf6c0eb93f328b2f8572cc7bf0d",
+      "status": "generated interpretation; regional or subgroup context noted in source prompts; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/jaintia-pnar/jaintia-pnar-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/jaintia-pnar/",
+      "generated_file": "exec-9ddf3d98-0c63-4149-8c17-17e1f32174ac.png",
+      "sha256": "7310a3a3d67b17c8f7530bb371f031a871560e29366abc7a23506bb5601b10aa",
+      "status": "generated interpretation; regional or subgroup context noted in source prompts; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/bhoi/bhoi-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/bhoi/",
+      "generated_file": "exec-ee00befa-9d97-49f3-91cc-c5adae856b4d.png",
+      "sha256": "80458deaa916fe0f93e8a7e1c4b700f39fc8fe3adffc040e6c08e53cedf371d8",
+      "status": "generated interpretation; regional or subgroup context noted in source prompts; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/bhoi/bhoi-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/bhoi/",
+      "generated_file": "exec-e3112a24-7afb-4791-b5d6-dc4fd504a287.png",
+      "sha256": "df102f4d73ac1701859adfebc2316a955d32a862f1f37d77e71efd59e3887948",
+      "status": "generated interpretation; regional or subgroup context noted in source prompts; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/rangkhol/rangkhol-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/rangkhol/",
+      "generated_file": "exec-3f771f30-6dd4-4940-a625-42ad858844fd.png",
+      "sha256": "04cdb8c6b4b7f536480c22065056e3b0651fa1580dac8e65f6988944869a21cf",
+      "status": "generated interpretation; regional or subgroup context noted in source prompts; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/rangkhol/rangkhol-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/rangkhol/",
+      "generated_file": "exec-208dd545-a51c-4922-a66d-8aa4aba947cd.png",
+      "sha256": "4d7f1683da33fd3261b7d526f7f0a05e4921e73ce38123f1003bf72c6880af30",
+      "status": "generated interpretation; regional or subgroup context noted in source prompts; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/thado/thado-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/thado/",
+      "generated_file": "exec-e7d34938-3eb5-4aae-aba9-80de0e7183e0.png",
+      "sha256": "bf16ae3af678e8835ea86bf831243385513454001e888a6323a1224ad527aff5",
+      "status": "generated interpretation; regional or subgroup context noted in source prompts; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/thado/thado-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/thado/",
+      "generated_file": "exec-a07d2526-5e4e-4f37-87fc-1624a2496e43.png",
+      "sha256": "32d39af88b4635c8a5696a8157bdd2b868824dbb3aa597dc68e9c13578d47e92",
+      "status": "generated interpretation; regional or subgroup context noted in source prompts; requires review"
+    }
+  ]
+}

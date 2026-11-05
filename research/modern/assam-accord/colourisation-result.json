@@ -1,0 +1,9 @@
+{
+  "original": "images/references/modern/assam-accord/15.15-original.png",
+  "original_sha256": "867dcdf4e7cd930269a640feaefeaac01c0cf90c70b2bd70e1ea4d4c2ddb238d",
+  "colourised_source": "/home/angsuman/.codex/generated_images/01a1836e-8986-72d0-a7cb-b5239d3a1062/exec-71956c2e-2c5f-4917-8c6c-cc13973ce312.png",
+  "master": "masters/scenes/modern/MOD-06.png",
+  "published": "media/scenes/modern/1947-2011/MOD-06.webp",
+  "tool": "built-in image_gen",
+  "date": "2026-10-31"
+}

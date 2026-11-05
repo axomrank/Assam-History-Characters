@@ -1,0 +1,14 @@
+{
+  "id": "deuri-man",
+  "community_folder": "deori",
+  "reference": "/home/angsuman/Desktop/images (3).jpeg",
+  "reference_subject": "Right-hand adult man",
+  "output": "images/scenes/present-day/deori/deuri-man-sheet-1.png",
+  "method": "built-in imagegen",
+  "prompt": "Create ONE photorealistic present-day DEURI male traditional costume character reference sheet. Title exactly \"DEURI — MAN\". Landscape 1536x1024, warm ivory studio background, matching established reference sheets: three full-body views FRONT, SIDE, BACK of SAME adult man, head-to-toe with BARE FEET in every view, neutral upright stance with relaxed arms slightly clear of torso. Fourth narrow column: close-up face, woven textile border detail, headwrap detail. Use supplied photo as costume reference, specifically the adult man on the RIGHT. Preserve his youthful adult face and short dark hair, red and yellow tied cloth headwrap, pale golden-yellow sleeveless woven front-button waist-length traditional tunic with red geometric woven bands framing chest/front edges and hem, simple white cotton long-sleeve underlayer visible on arms, white cotton dhoti wrapped to ankles with subtle narrow red edging as visible in photo. The woven sleeveless garment is traditional costume and should remain. Remove all modern outerwear: no blue puffer jacket, no black zip jacket or turtleneck, no wristwatch, no shoes, no socks, no contemporary accessories. Do not mix the left or middle man’s green/yellow garment into the right man’s red/gold design. No other people, outdoor setting, logos or watermark. Preserve restrained reference motifs, realistic handwoven texture, natural anatomy, soft even studio light, crisp readable serif labels. Back garment construction inferred conservatively from front; no invented elaborate motifs. Do not add a sword, jewellery or scarf not worn by the right-hand man.",
+  "notes": [
+    "User requested removal of modern jackets and bare feet.",
+    "Retained traditional woven sleeveless garment and plain white underlayer; removed wristwatch.",
+    "Unseen back construction is generated interpretation."
+  ]
+}

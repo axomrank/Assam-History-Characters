@@ -1,0 +1,10 @@
+# udayaditya-singha
+
+Built-in image generator, modern illustrated reconstruction. Scene reference: /home/angsuman/extra_spac/Assam History/media/scenes/ahom/1603-1681-mughal-ahom-wars/07_Udayaditya_Singha_and_Lachit_War_Council_v02.webp. Layout reference: media/characters/chakradhwaj-singha/turnaround-1.webp. Requested format: 1536 × 1024, grey background, eight views.
+
+## Final prompt
+
+Use case: historical-scene. Generate ONE photorealistic CHARACTER REFERENCE SHEET of UDAYADITYA SINGHA (SUNYATPHAA). EXACTLY 1536 x 1024 pixels, landscape 3:2. Image 1 is only the established SERIES LAYOUT reference; do not copy its face, outfit or crown. Image 2 is the primary subject identity and costume reference. Use the CENTRAL SEATED man in cream silk in image 2 as the king, NOT the large standing man in red headwrap (Lachit). Adult about 40, black moustache and small chin beard, long black hair, cream and gold wrapped royal cap, cream cross-front robe with gold embroidered borders, mustard-gold waist sash, cream trousers and dark period shoes. Match seated central man's face.
+Same ONE Assamese Tai-Ahom person, exact same face, age, hair, headpiece, costume, jewelry and build in all eight views. Neutral expression, relaxed arms and hands, naturally standing, no held props or weapons.
+Match image 1 two-row eight-view layout: TOP ROW four equally scaled complete head-to-toe views with safe margins, FRONT, LEFT PROFILE, BACK, THREE-QUARTER. BOTTOM ROW four large head-and-shoulder portraits: FACE CLOSE-UP, RIGHT PROFILE, LOW ANGLE (camera below chin looking up), HIGH ANGLE (camera above head looking down). True 90 degree profiles and rear view. All crowns and plumes in frame. Grey seamless studio background throughout, soft even light, subtle floor shadows. Keep title clear of figures. No scene scenery, throne, other people or watermark.
+Exact serif title "UDAYADITYA SINGHA", subtitle "CHARACTER REFERENCE", small third line "SUNYATPHAA". Eight view labels as listed, tiny footer "ILLUSTRATED RECONSTRUCTION". Modern scene-based artistic reconstruction, no king number.

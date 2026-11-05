@@ -1,0 +1,105 @@
+{
+  "reason": "User requested community subfolders under images/scenes/present-day",
+  "moves": [
+    {
+      "from": "images/elements/characters/present-day/bodo-man-sheet-1.png",
+      "to": "images/scenes/present-day/bodo/bodo-man-sheet-1.png",
+      "sha256": "cd2975982a4f4ab107f625e826ddace54be633601c0beac842d2eaa0bfee5940"
+    },
+    {
+      "from": "images/elements/characters/present-day/bodo-woman-sheet-1.png",
+      "to": "images/scenes/present-day/bodo/bodo-woman-sheet-1.png",
+      "sha256": "3268b7ae0cd52fd5ff37eeb939eda5c193aabad81e0f6cfe2c08bed9dd65c00a"
+    },
+    {
+      "from": "images/elements/characters/present-day/deori-woman-sheet-1.png",
+      "to": "images/scenes/present-day/deori/deori-woman-sheet-1.png",
+      "sha256": "83f5bec4aab455d46b10f2a6e8bf2e8a3d848aa57a308c9a3028a9f1d8bfd77e"
+    },
+    {
+      "from": "images/elements/characters/present-day/dimasa-woman-sheet-1.png",
+      "to": "images/scenes/present-day/dimasa/dimasa-woman-sheet-1.png",
+      "sha256": "385ee60ce841a2804471f563a50e3d905145472c1a93967b58410c4c9b71f615"
+    },
+    {
+      "from": "images/elements/characters/present-day/karbi-man-sheet-1.png",
+      "to": "images/scenes/present-day/karbi/karbi-man-sheet-1.png",
+      "sha256": "6acd66df4fd60116e3c035fce8f977c9926e7b33103ea398cb0d7e3ccffc9870"
+    },
+    {
+      "from": "images/elements/characters/present-day/karbi-woman-sheet-1.png",
+      "to": "images/scenes/present-day/karbi/karbi-woman-sheet-1.png",
+      "sha256": "ccfe660d6f1dfe9c5e4e561878dec282e4755a6af86b1a945db81be1cda155aa"
+    },
+    {
+      "from": "images/elements/characters/present-day/koch-man-sheet-1.png",
+      "to": "images/scenes/present-day/koch/koch-man-sheet-1.png",
+      "sha256": "be8578e4b0b31afc64de85600c3c21ec2f7efb0a54e32235280c4fab24637052"
+    },
+    {
+      "from": "images/elements/characters/present-day/koch-woman-sheet-1.png",
+      "to": "images/scenes/present-day/koch/koch-woman-sheet-1.png",
+      "sha256": "08cb2e6a282828f8e2f51fca7633bab28e5c415b53dd623ed02cbc3f5d111c75"
+    },
+    {
+      "from": "images/elements/characters/present-day/matak-woman-sheet-1.png",
+      "to": "images/scenes/present-day/matak-motok/matak-woman-sheet-1.png",
+      "sha256": "71956a6be82e008526d2c749e0fe9a1a65fad8c27f92df917f3b3e87c74e5556"
+    },
+    {
+      "from": "images/elements/characters/present-day/mishing-woman-sheet-1.png",
+      "to": "images/scenes/present-day/mishing/mishing-woman-sheet-1.png",
+      "sha256": "a05883659ff534e65d0c3e66e2fa2896ff976821ea8c9d1b925878c04d483094"
+    },
+    {
+      "from": "images/elements/characters/present-day/moran-man-sheet-1.png",
+      "to": "images/scenes/present-day/moran/moran-man-sheet-1.png",
+      "sha256": "75cd4e60683935e5ee59e139be6e21cae624db7b2bcd3f4dc811fa005176cd91"
+    },
+    {
+      "from": "images/elements/characters/present-day/moran-woman-sheet-1.png",
+      "to": "images/scenes/present-day/moran/moran-woman-sheet-1.png",
+      "sha256": "449d462273a8b75fbaedbf38363a76f97b399f17061470ec59eb166e99a5bf11"
+    },
+    {
+      "from": "images/elements/characters/present-day/motok-man-sheet-1.png",
+      "to": "images/scenes/present-day/matak-motok/motok-man-sheet-1.png",
+      "sha256": "691902e5a58f0613dc947fc501931a12eb2efe67982a084cd3d75a0df7f038aa"
+    },
+    {
+      "from": "images/elements/characters/present-day/rabha-man-sheet-1.png",
+      "to": "images/scenes/present-day/rabha/rabha-man-sheet-1.png",
+      "sha256": "906808f3d552267aef05ec0398d0cd33b3658d5ae01f54b01f2b791a30a9d519"
+    },
+    {
+      "from": "images/elements/characters/present-day/rabha-woman-sheet-1.png",
+      "to": "images/scenes/present-day/rabha/rabha-woman-sheet-1.png",
+      "sha256": "c36a220eabdf973fc0c0090acd3545cf83f406ed0fcfaaead727417fc1973032"
+    },
+    {
+      "from": "images/elements/characters/present-day/singri-woman-sheet-1.png",
+      "to": "images/scenes/present-day/singri/singri-woman-sheet-1.png",
+      "sha256": "f7cefd55fdda06cb21384713d8257ec7e1f96ffa404c4a5026c580920a26c593"
+    },
+    {
+      "from": "images/elements/characters/present-day/sonowal-woman-cream-sheet-1.png",
+      "to": "images/scenes/present-day/sonowal/sonowal-woman-cream-sheet-1.png",
+      "sha256": "2efd6f3db4e5139dbd70be975404c8638223b68a6362982a4ed951975bfa5e8b"
+    },
+    {
+      "from": "images/elements/characters/present-day/sonowal-woman-green-sheet-1.png",
+      "to": "images/scenes/present-day/sonowal/sonowal-woman-green-sheet-1.png",
+      "sha256": "0fe90d88c419a5589f78c354d31e014f96cae1db378a9e6370fa378951323575"
+    },
+    {
+      "from": "images/elements/characters/present-day/tiwa-man-sheet-1.png",
+      "to": "images/scenes/present-day/tiwa/tiwa-man-sheet-1.png",
+      "sha256": "16058d6293413e29bef90c3c8eb28fcf29b970503ff6b443a39c4780061ae5b1"
+    },
+    {
+      "from": "images/elements/characters/present-day/tiwa-woman-sheet-1.png",
+      "to": "images/scenes/present-day/tiwa/tiwa-woman-sheet-1.png",
+      "sha256": "c1847a3169fd9e15b6f7fe43a227682136c1e4ffe8fd86ad6c2ea325913f8aa8"
+    }
+  ]
+}

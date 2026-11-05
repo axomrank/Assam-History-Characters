@@ -1,0 +1,10 @@
+# siva-singha
+
+Built-in image generator, modern illustrated reconstruction. Scene reference: /home/angsuman/extra_spac/Assam History/media/scenes/ahom/1681-1769-tungkhungia-restoration/01_Siva_Singha_Transfers_Authority_to_Queen_Phuleswari.webp. Layout reference: media/characters/chakradhwaj-singha/turnaround-1.webp. Requested format: 1536 × 1024, grey background, eight views.
+
+## Final prompt
+
+Use case: historical-scene. Generate ONE photorealistic CHARACTER REFERENCE SHEET of SIVA SINGHA (SUTANPHAA). EXACTLY 1536 x 1024 pixels, landscape 3:2. Image 1 is only the established SERIES LAYOUT reference; do not copy its face, outfit or crown. Image 2 is the primary subject identity and costume reference. Use SEATED ADULT MALE KING at center-right holding sceptre toward kneeling woman, NOT any women or attendants. Adult approximately 35–40, full black moustache, small chin beard, medium tan face, black hair. Cream/gold royal cap with central red jewel and gold band, cream silk long-sleeved royal tunic and loose cream lower garment, rich gold borders with maroon accents, layered necklaces, dark period shoes with red/gold trim. No sceptre in sheet.
+Same ONE Assamese Tai-Ahom person, exact same face, age, hair, headpiece, costume, jewelry and build in all eight views. Neutral expression, relaxed arms and hands, naturally standing, no held props or weapons.
+Match image 1 two-row eight-view layout: TOP ROW four equally scaled complete head-to-toe views with safe margins, FRONT, LEFT PROFILE, BACK, THREE-QUARTER. BOTTOM ROW four large head-and-shoulder portraits: FACE CLOSE-UP, RIGHT PROFILE, LOW ANGLE (camera below chin looking up), HIGH ANGLE (camera above head looking down). True 90 degree profiles and rear view. All crowns and plumes in frame. Grey seamless studio background throughout, soft even light, subtle floor shadows. Keep title clear of figures. No scene scenery, throne, other people or watermark.
+Exact serif title "SIVA SINGHA", subtitle "CHARACTER REFERENCE", small third line "SUTANPHAA". Eight view labels as listed, tiny footer "ILLUSTRATED RECONSTRUCTION". Modern scene-based artistic reconstruction, no king number.

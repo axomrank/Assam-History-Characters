@@ -1,0 +1,36 @@
+{
+  "mode": "built-in image_gen",
+  "common": "Use case historical-scene. Generate ONE photorealistic landscape royal character reference sheet for the named early medieval Kamarupa Pala king. Attached Brahmapala is continuity, layout, crown scale and photographic standard reference ONLY. Create a distinct individual face as specified, not a clone. Speculative artistic reconstruction. The visual sequence represents increasing Sanskritic/Hindu COURT STYLING, not racial change: retain believable natural brown complexion, no progressive skin lightening, no racial hierarchy. Small discreet red forehead tilak. Show beautiful real handwoven fabric, natural skin pores, barefoot, empty hands. Small gold mukut replaces all turbans; short natural hair visible above crown. NO European or tall conical crown. All clothing constructed with cloth ties and overlapping woven fabric, NO modern buttons, zips, pockets, modern shoes. Lower garment remains a continuous straight overlapping wrap, no crotch tuck, no divided legs or balloon dhoti. Grey seamless studio background, soft realistic light. EXACT reference layout and proportions: top 60% FOUR FULL BODY VIEWS left to right FRONT, LEFT PROFILE nose LEFT, BACK, THREE-QUARTER nose right. Bottom 35% FOUR large head-and-shoulders portraits FACE CLOSE-UP, RIGHT PROFILE nose RIGHT, LOW ANGLE camera looking UP at chin, HIGH ANGLE camera looking DOWN at face. Same identity and costume in all eight views, actual camera elevations, all feet and crown uncropped. Heading named king and CHARACTER REFERENCE. Small captions each view, footer ARTISTIC RECONSTRUCTION · REVIEW DRAFT. No other text. SUBJECT: ",
+  "characters": [
+    [
+      "ratna-pala",
+      "RATNA PALA",
+      "Man 48, broad oval face, strong rounded jaw, short wavy hair, clean shaven, sturdy athletic build. Closest visual continuity to Brahmapala. Pale ivory cloth-tied overlapping shirt, crimson straight calf-length wrap skirt with narrow cream-gold border, cream-red shoulder stole, one gold medallion necklace. Compact lotus gold mukut with small ruby. Local geometric weave dominant, subtle gold lotus edging."
+    ],
+    [
+      "indra-pala",
+      "INDRA PALA",
+      "Man 42, longer oval face, softly prominent cheekbones, straight brows, neat short moustache, lean medium build. Warm ochre cloth-tied tunic, ivory straight calf-length wrap skirt with burgundy-gold hem, burgundy shawl draped over left shoulder. Small gold mukut with green central gem. Two restrained gold neck ornaments, finer lotus-vine textile borders alongside local geometric weaving. Neatly combed wavy hair."
+    ],
+    [
+      "gopala-varman",
+      "GOPALA VARMAN",
+      "Man 37, wide forehead, softly square jaw, full cheeks, clean shaven, compact strong build. Deep emerald cloth-tied overlapping tunic, cream calf-length straight wrap skirt with gold woven border, ochre ceremonial upper cloth crossing one shoulder and falling behind. Small gold mukut with red central gem, gold earrings, short necklace and medium medallion chain, slim upper-arm band. More refined draping and lotus-vine borders balanced with Kamarupa geometric weave."
+    ],
+    [
+      "harsha-pala",
+      "HARSHA PALA",
+      "Man 51, rectangular face, strong cheekbones, slightly receding hairline, tidy moustache, broad shoulders. Rich burgundy silk-cotton cloth-tied tunic, pale gold straight calf-length wrap skirt with emerald and gold hem, cream-gold formal upper cloth draped asymmetrically. Low small gold mukut with lotus crest and green stone. Layered restrained gold necklaces, slim armlets and bracelets. Controlled courtly elegance, neatly groomed hair, lotus-vine and geometric motifs."
+    ],
+    [
+      "dharma-pala",
+      "DHARMA PALA",
+      "Man 57, long thoughtful face, high forehead, mature lines, swept-back black hair with gray temples, neat short moustache, tall lean build. Lustrous cream silk-cotton wrap-over upper garment tied at side, deep saffron-gold calf-length straight overlapping wrap skirt, rich crimson gold-bordered ceremonial upper cloth draped across one shoulder. Small finely chased gold mukut with central ruby, three modest graduated gold necklaces, gold armlets and earrings. Most elaborate Sanskritic ceremonial styling so far, lotus and scrolling vine borders integrated with local textile construction. Quiet scholarly authority."
+    ],
+    [
+      "jaya-pala",
+      "JAYA PALA",
+      "Man 46, broad angular face, deep-set thoughtful eyes, defined rounded jaw, short neatly curled hair, trimmed moustache, sturdy medium build. Rich deep indigo silk-cotton cloth-tied court tunic, warm ivory straight calf-length wrap skirt with elaborate narrow crimson-gold lotus-vine border, gold and crimson formal upper cloth draped ceremonially across left shoulder. Small gold mukut with slightly more articulated central lotus crest, red gem, still compact and open-topped. Layered gold necklaces, small armlets and bracelets. Culmination of more formal Sanskritic court costume while preserving Kamarupa woven identity. Fine grooming and dignified posture."
+    ]
+  ]
+}

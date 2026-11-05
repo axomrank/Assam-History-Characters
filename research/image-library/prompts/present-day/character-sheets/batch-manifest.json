@@ -1,0 +1,177 @@
+{
+  "batch": "user-supplied-present-day-costumes-2026-10-27",
+  "scope": "First make the supplied reference costumes; larger goal: all Assam officially listed Scheduled Tribes, separate adult man and woman sheets.",
+  "method": "Built-in imagegen, one sheet per distinct supplied photograph. Duplicate Mishing excluded. Both Sonowal variants retained.",
+  "caveats": [
+    "Photographs are user-labelled costume references, not proof of community identity or official status.",
+    "Matak/Motok, Moran and Singri labels are retained as supplied; no Scheduled Tribe status is asserted.",
+    "Unseen side/back garment construction is generated interpretation.",
+    "This batch does not complete missing male/female pairs or the full official roster."
+  ],
+  "official_roster_source": "https://tribal.gov.in/downloads/Statistics/NotifiedSTslistsason040823.pdf",
+  "prompt_template": "(label)=>`Create ONE polished photorealistic present-day traditional costume CHARACTER REFERENCE SHEET from the supplied costume photograph. Title exactly \"${label}\". Landscape 3:2 sheet on clean warm ivory background. Three evenly spaced full-body views of the SAME adult: FRONT, SIDE, BACK, all head-to-toe including bare feet or reference footwear, upright neutral stance arms relaxed slightly away to reveal clothes. Fourth narrow column: close-up face portrait and two textile/jewellery detail insets. Small clear labels. Match the reference face, hairstyle, garment layering, colours, exact border placement, woven motif vocabulary, jewellery and headdress carefully; no generic pan-tribal substitutions, no extra ornaments. Natural human proportions, realistic skin and woven fabrics, soft even studio illumination, sharp reference-book detail. Preserve costume rather than fashion redesign. If reference has hand-held props, show them separately in a small inset, keep main turnarounds unobstructed. Omit phones and wristwatches. Infer only the unseen back construction conservatively from visible garment wraps; do not invent elaborate decoration. No scenery, no watermark, no legal Scheduled Tribe status claim.`",
+  "items": [
+    {
+      "id": "matak-woman",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000052486 (2).jpeg",
+      "title": "MATAK — WOMAN",
+      "output": "images/scenes/present-day/matak-motok/matak-woman-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "deori-woman",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000052495 (1).jpeg",
+      "title": "DEORI — WOMAN",
+      "output": "images/scenes/present-day/deori/deori-woman-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "dimasa-woman",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000052940 (1).jpeg",
+      "title": "DIMASA — WOMAN",
+      "output": "images/scenes/present-day/dimasa/dimasa-woman-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "tiwa-woman",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000052487 (2).jpeg",
+      "title": "TIWA — WOMAN",
+      "output": "images/scenes/present-day/tiwa/tiwa-woman-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "mishing-woman",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000052939 (1).jpeg",
+      "title": "MISHING — WOMAN",
+      "output": "images/scenes/present-day/mishing/mishing-woman-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "moran-woman",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000052944 (1).jpeg",
+      "title": "MORAN — WOMAN",
+      "output": "images/scenes/present-day/moran/moran-woman-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "bodo-man",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000054867 (1).jpeg",
+      "title": "BODO — MAN",
+      "output": "images/scenes/present-day/bodo/bodo-man-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "moran-man",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000054868 (1).jpeg",
+      "title": "MORAN — MAN",
+      "output": "images/scenes/present-day/moran/moran-man-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "karbi-man",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000055203 (1).jpeg",
+      "title": "KARBI — MAN",
+      "output": "images/scenes/present-day/karbi/karbi-man-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "karbi-woman",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000052961.jpeg",
+      "title": "KARBI — WOMAN",
+      "output": "images/scenes/present-day/karbi/karbi-woman-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "singri-woman",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000052396 (2).jpeg",
+      "title": "SINGRI — WOMAN",
+      "output": "images/scenes/present-day/singri/singri-woman-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "sonowal-woman-green",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000052488 (2).jpeg",
+      "title": "SONOWAL — WOMAN · GREEN VARIANT",
+      "output": "images/scenes/present-day/sonowal/sonowal-woman-green-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "tiwa-man",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000055189 (1).jpeg",
+      "title": "TIWA — MAN",
+      "output": "images/scenes/present-day/tiwa/tiwa-man-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "sonowal-woman-cream",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000052489 (1).jpeg",
+      "title": "SONOWAL — WOMAN · CREAM VARIANT",
+      "output": "images/scenes/present-day/sonowal/sonowal-woman-cream-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "rabha-woman",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000052492 (2).jpeg",
+      "title": "RABHA — WOMAN",
+      "output": "images/scenes/present-day/rabha/rabha-woman-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "motok-man",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000054875 (1).jpeg",
+      "title": "MOTOK — MAN",
+      "output": "images/scenes/present-day/matak-motok/motok-man-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "rabha-man",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000054866 (1).jpeg",
+      "title": "RABHA — MAN",
+      "output": "images/scenes/present-day/rabha/rabha-man-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "bodo-woman",
+      "reference": "/home/angsuman/Desktop/Assamese Tribes/Photos-1-001/1000052395 (2).jpeg",
+      "title": "BODO — WOMAN",
+      "output": "images/scenes/present-day/bodo/bodo-woman-sheet-1.png",
+      "status": "generated",
+      "width": 1536,
+      "height": 1024
+    }
+  ]
+}

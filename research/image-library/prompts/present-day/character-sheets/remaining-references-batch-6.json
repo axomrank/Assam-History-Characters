@@ -1,0 +1,61 @@
+{
+  "batch": "mech-thengal-lyngngam-zeliang",
+  "records": [
+    {
+      "path": "images/scenes/present-day/mech/mech-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/mech/",
+      "generated_file": "exec-41beaf65-fe32-4141-aaea-d7b8008a34e1.png",
+      "sha256": "387fe5050823c281c047552e7e84570427ca490d86ef912d734826c1b80fe28a",
+      "status": "generated interpretation; subgroup/regional source limitations noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/mech/mech-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/mech/",
+      "generated_file": "exec-a4190d9e-98dd-44b3-916e-c8564a5c7a69.png",
+      "sha256": "cbb055e6b2f550b37c695bc0610861e07c90f1ee61a2b40cbdb24e3c13ecb3ac",
+      "status": "generated interpretation; subgroup/regional source limitations noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/thengal-kachari/thengal-kachari-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/thengal-kachari/",
+      "generated_file": "exec-e4bfa39f-f980-4109-8224-8180417dfa63.png",
+      "sha256": "349ae0e6a15bb8a6438dcaaf95e838124a2029dd0fd33790af7511326a41da92",
+      "status": "generated interpretation; subgroup/regional source limitations noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/thengal-kachari/thengal-kachari-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/thengal-kachari/",
+      "generated_file": "exec-d704f297-602e-4732-8552-cb6424cc883c.png",
+      "sha256": "243d39128671198de79eba2b5dc9b4c07be08069dff21ec550c128813bc48e05",
+      "status": "generated interpretation; subgroup/regional source limitations noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/lyngngam/lyngngam-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/lyngngam/",
+      "generated_file": "exec-591594c1-1cf8-4072-bf75-f1809305a014.png",
+      "sha256": "57de458ce813cbfac65e1a41433ec787839d3a1c80edbba90c290ec91a343e1b",
+      "status": "generated interpretation; subgroup/regional source limitations noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/lyngngam/lyngngam-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/lyngngam/",
+      "generated_file": "exec-09f90fab-effa-4213-850c-f58879241540.png",
+      "sha256": "9708b3a213aeb8c605c90a2deecf6c36f1c69aecbc4a4570e15fa8158d599eb3",
+      "status": "generated interpretation; subgroup/regional source limitations noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/naga-zeliang/naga-zeliang-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/naga/",
+      "generated_file": "exec-3a383ec7-68e2-44f8-8fc3-c96117ed3a48.png",
+      "sha256": "f331beee59d3f96ba963e010c8ee1262ea1c66e94120b633f8c5880710cff044",
+      "status": "generated interpretation; subgroup/regional source limitations noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/naga-zeliang/naga-zeliang-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/naga/",
+      "generated_file": "exec-241f5863-806f-4a6e-bc5e-0e79e157d61b.png",
+      "sha256": "1b45e4a77dd917e0d286304402a41241160ed2457da9c94e0bcaf20520d8a315",
+      "status": "generated interpretation; subgroup/regional source limitations noted in prompt; requires review"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "generated_date": "2026-10-26",
+  "catalogue_activated": false,
+  "records": [
+    {
+      "id": "timgyadeva",
+      "title": "TIMGYADEVA",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-b52176db-bc86-47cf-b202-d2c979a9f45d.png",
+      "selected_output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/timgyadeva-v01.png",
+      "status": "generated-review-draft",
+      "provisional_identity": false,
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "vaidyadeva",
+      "title": "VAIDYADEVA",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-e4057f21-06a9-4862-9764-7c73b60b8b14.png",
+      "selected_output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/vaidyadeva-v02.png",
+      "status": "generated-review-draft",
+      "provisional_identity": false,
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "vallabhadeva",
+      "title": "VALLABHADEVA",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-e85f992b-195e-4549-8839-a950e695be00.png",
+      "selected_output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/vallabhadeva-v01.png",
+      "status": "generated-review-draft",
+      "provisional_identity": false,
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "bhaskara-lunar",
+      "title": "BHASKARA — LATER LINEAGE",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-531abde2-1482-444c-a1b0-8014cce2ad8b.png",
+      "selected_output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/bhaskara-lunar-v01.png",
+      "status": "generated-review-draft",
+      "provisional_identity": false,
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "rayarideva",
+      "title": "RAYARIDEVA",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-68995b02-a63b-49ae-b475-8a3d6533f4a7.png",
+      "selected_output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/rayarideva-v01.png",
+      "status": "generated-review-draft",
+      "provisional_identity": false,
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "udayakarna",
+      "title": "UDAYAKARNA",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-dd60034d-5a2e-4964-b76a-bc951f106703.png",
+      "selected_output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/udayakarna-v01.png",
+      "status": "generated-review-draft",
+      "provisional_identity": false,
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "samudrapala",
+      "title": "SAMUDRAPALA",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-1328f085-ee11-49ee-aed9-61df6688736e.png",
+      "selected_output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/samudrapala-v01.png",
+      "status": "generated-review-draft",
+      "provisional_identity": false,
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "prithu",
+      "title": "PRITHU — PROVISIONAL",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-316a9a54-b2bb-465c-9fd0-abca165028bd.png",
+      "selected_output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/prithu-v01.png",
+      "status": "generated-review-draft",
+      "provisional_identity": true,
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "kesavadeva",
+      "title": "KESAVADEVA — SYLHET",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-6eae0bc4-c39f-4699-9e71-c8fe0e207645.png",
+      "selected_output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/kesavadeva-v01.png",
+      "status": "generated-review-draft",
+      "provisional_identity": false,
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "gokuladeva",
+      "title": "GOKULADEVA — PROVISIONAL",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-d05ded07-9b7c-413c-8f17-1a41a0958599.png",
+      "selected_output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/gokuladeva-v01.png",
+      "status": "generated-review-draft",
+      "provisional_identity": true,
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "narayana-sylhet",
+      "title": "NARAYANA — SYLHET",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-1909b685-d1fe-4d1c-b957-437538cbd023.png",
+      "selected_output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/narayana-sylhet-v01.png",
+      "status": "generated-review-draft",
+      "provisional_identity": false,
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "kharabana",
+      "title": "KHARABANA — PROVISIONAL",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-9139f329-1f06-4003-8559-16bd1dcfc394.png",
+      "selected_output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/kharabana-v01.png",
+      "status": "generated-review-draft",
+      "provisional_identity": true,
+      "tool": "built-in image_gen"
+    }
+  ],
+  "repairs": [
+    {
+      "id": "vaidyadeva",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-c139c13c-9c34-42f5-abcd-72198bbd75fb.png",
+      "output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/post-pala-12/vaidyadeva-v02.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied VAIDYADEVA eight-view character sheet. Remove ONLY the tiny red vertical forehead religious mark/tilak from every view in which it appears, replacing it with natural matching unmarked forehead skin. This mark is not part of the specified design. Keep EXACTLY the same man's facial identity, beard, hair, expression, body, age, crown, outfit, fabric, jewellery, all eight camera angles, labels, typography, grey background, sheet framing and resolution. Do not add any new marks, emblems, props or other changes. Preserve every other pixel as closely as possible.",
+      "reason": "Remove unwanted red forehead mark from initial Vaidyadeva output"
+    }
+  ]
+}

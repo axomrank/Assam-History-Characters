@@ -1,0 +1,12 @@
+{
+  "id": "dimasa-man",
+  "reference": "/home/angsuman/Desktop/images (1).jpeg",
+  "reference_subject": "Adult man on right",
+  "output": "images/scenes/present-day/dimasa/dimasa-man-sheet-1.png",
+  "method": "built-in imagegen",
+  "prompt": "Create ONE photorealistic present-day DIMASA MAN traditional costume character reference sheet, matching our established warm ivory landscape 1536x1024 sheets. Title exactly \"DIMASA — MAN\". Use the supplied photo as the costume and face reference, specifically the adult man on the RIGHT ONLY. Three evenly spaced full-body turnarounds FRONT, SIDE, BACK of the SAME adult man, head-to-toe BARE FEET, neutral upright standing posture arms relaxed slightly away from torso. Fourth narrow column with face closeup, woven textile detail, and separate shield/blade prop insets. Preserve his face and lean athletic build, short dark hair, yellow cloth turban with diagonal wrapping, bare arms and chest, red sleeveless/open chest woven shoulder cloth arrangement and wide yellow-orange patterned bands with narrow red borders crossing diagonally over chest exactly as visible; small pale bead necklace; vivid green knee-length wrapped lower garment with narrow patterned vertical edging and wrapped side tie/sash. Maintain actual reference layering rather than inventing a fitted shirt or jacket. Shield obscures waist: infer only simple conservative wrapping beneath. Round black shield with THREE pale circular bosses shown separately, alongside the slim blade visible by his hand, never blocking clothing in main views. Natural anatomy, realistic cotton weave, crisp detailed red/yellow geometric borders, soft even studio lighting. Small clear serif view labels. No woman, basket, house, landscape, shoes, watch, modern accessories, original photo caption, watermark, extra ornaments or legal-status claim. Unseen back construction should be restrained interpretation of the same cloth layers, not newly invented elaborate back ornamentation.",
+  "notes": [
+    "Barefoot; shield and blade shown separately to reveal costume.",
+    "Waist obscured in reference and back construction are generated interpretations."
+  ]
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "index": 3,
+    "id": "ghiyasuddin-iwaz-khalji",
+    "prompt": "Edit this character reference sheet. Essential correction: replace the man's facial identity substantially in EVERY view, including all full body panels and portrait panels. The current face is too similar to other rulers. New invented artistic identity: Broad rectangular face, very broad straight nose, thick black eyebrows, dark brown skin, short neat black beard without grey, age 43. This is a modern historical artistic reconstruction, not an authenticated likeness. Keep the same clothing, headgear, accessories, eight-view layout, background, title, labels and reconstruction/provisional footer. Preserve consistent new facial identity across all views. Keep anatomical realism, readable labels, full body head-to-toe. Do not merely recolor the existing beard: rebuild facial bone structure as specified.",
+    "design": "Broad rectangular face, very broad straight nose, thick black eyebrows, dark brown skin, short neat black beard without grey, age 43.",
+    "result": {
+      "id": "ghiyasuddin-iwaz-khalji",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-6a22719f-bda2-4a7b-9723-686925736af2.png",
+      "output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/bengal-delhi-13/ghiyasuddin-iwaz-khalji-v02.png"
+    }
+  },
+  {
+    "index": 5,
+    "id": "ikhtiyaruddin-yuzbak",
+    "prompt": "Edit this character reference sheet. Essential correction: replace the man's facial identity substantially in EVERY view, including all full body panels and portrait panels. The current face is too similar to other rulers. New invented artistic identity: Narrow triangular face, high prominent cheekbones, long thin straight nose, light brown skin, thin moustache and small short pointed black goatee, cheeks clean shaven, age 38. This is a modern historical artistic reconstruction, not an authenticated likeness. Keep the same clothing, headgear, accessories, eight-view layout, background, title, labels and reconstruction/provisional footer. Preserve consistent new facial identity across all views. Keep anatomical realism, readable labels, full body head-to-toe. Do not merely recolor the existing beard: rebuild facial bone structure as specified.",
+    "design": "Narrow triangular face, high prominent cheekbones, long thin straight nose, light brown skin, thin moustache and small short pointed black goatee, cheeks clean shaven, age 38.",
+    "result": {
+      "id": "ikhtiyaruddin-yuzbak",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-255eac7e-c366-4055-b4d4-de85f3ac8b23.png",
+      "output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/bengal-delhi-13/ikhtiyaruddin-yuzbak-v02.png"
+    }
+  },
+  {
+    "index": 6,
+    "id": "ghiyasuddin-bahadur-shah",
+    "prompt": "Edit this character reference sheet. Essential correction: replace the man's facial identity substantially in EVERY view, including all full body panels and portrait panels. The current face is too similar to other rulers. New invented artistic identity: Full round face, broad rounded nose, wide-set eyes, flatter eyebrows, full cheeks, SHORT close black beard without grey, age 36. This is a modern historical artistic reconstruction, not an authenticated likeness. Keep the same clothing, headgear, accessories, eight-view layout, background, title, labels and reconstruction/provisional footer. Preserve consistent new facial identity across all views. Keep anatomical realism, readable labels, full body head-to-toe. Do not merely recolor the existing beard: rebuild facial bone structure as specified.",
+    "design": "Full round face, broad rounded nose, wide-set eyes, flatter eyebrows, full cheeks, SHORT close black beard without grey, age 36.",
+    "result": {
+      "id": "ghiyasuddin-bahadur-shah",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-dfbee233-b76d-40a4-834f-268f02f25727.png",
+      "output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/bengal-delhi-13/ghiyasuddin-bahadur-shah-v02.png"
+    }
+  },
+  {
+    "index": 7,
+    "id": "shamsuddin-ilyas-shah",
+    "prompt": "Edit this character reference sheet. Essential correction: replace the man's facial identity substantially in EVERY view, including all full body panels and portrait panels. The current face is too similar to other rulers. New invented artistic identity: Long gaunt narrow face, pronounced hooked nose, small hooded eyes, narrow jaw, LONG pointed mostly silver grey beard, age 60. This is a modern historical artistic reconstruction, not an authenticated likeness. Keep the same clothing, headgear, accessories, eight-view layout, background, title, labels and reconstruction/provisional footer. Preserve consistent new facial identity across all views. Keep anatomical realism, readable labels, full body head-to-toe. Do not merely recolor the existing beard: rebuild facial bone structure as specified.",
+    "design": "Long gaunt narrow face, pronounced hooked nose, small hooded eyes, narrow jaw, LONG pointed mostly silver grey beard, age 60.",
+    "result": {
+      "id": "shamsuddin-ilyas-shah",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-13741744-da1b-4c76-b3b5-faf5c6791756.png",
+      "output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/bengal-delhi-13/shamsuddin-ilyas-shah-v02.png"
+    }
+  },
+  {
+    "index": 8,
+    "id": "sikandar-shah-bengal",
+    "prompt": "Edit this character reference sheet. Essential correction: replace the man's facial identity substantially in EVERY view, including all full body panels and portrait panels. The current face is too similar to other rulers. New invented artistic identity: Heavy square face with broad cheekbones, rounded chin, short broad nose, very thick SHORT blunt rounded black beard, deeper medium brown skin, age 48. This is a modern historical artistic reconstruction, not an authenticated likeness. Keep the same clothing, headgear, accessories, eight-view layout, background, title, labels and reconstruction/provisional footer. Preserve consistent new facial identity across all views. Keep anatomical realism, readable labels, full body head-to-toe. Do not merely recolor the existing beard: rebuild facial bone structure as specified.",
+    "design": "Heavy square face with broad cheekbones, rounded chin, short broad nose, very thick SHORT blunt rounded black beard, deeper medium brown skin, age 48.",
+    "result": {
+      "id": "sikandar-shah-bengal",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-a93273c9-bba9-43c1-99d4-47c5ef3069bd.png",
+      "output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/bengal-delhi-13/sikandar-shah-bengal-v02.png"
+    }
+  },
+  {
+    "index": 10,
+    "id": "alauddin-husain-shah",
+    "prompt": "Edit this character reference sheet. Essential correction: replace the man's facial identity substantially in EVERY view, including all full body panels and portrait panels. The current face is too similar to other rulers. New invented artistic identity: Broad mature round face, large hooded eyes, high forehead, CLEAN SHAVEN chin and cheeks, thick long downward black moustache, medium brown skin, age 55. This is a modern historical artistic reconstruction, not an authenticated likeness. Keep the same clothing, headgear, accessories, eight-view layout, background, title, labels and reconstruction/provisional footer. Preserve consistent new facial identity across all views. Keep anatomical realism, readable labels, full body head-to-toe. Do not merely recolor the existing beard: rebuild facial bone structure as specified.",
+    "design": "Broad mature round face, large hooded eyes, high forehead, CLEAN SHAVEN chin and cheeks, thick long downward black moustache, medium brown skin, age 55.",
+    "result": {
+      "id": "alauddin-husain-shah",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-b55861e0-e3e1-4224-ba23-3ea1b4cb4a43.png",
+      "output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/bengal-delhi-13/alauddin-husain-shah-v02.png"
+    }
+  },
+  {
+    "index": 11,
+    "id": "shah-ismail-ghazi",
+    "prompt": "Edit this character reference sheet. Essential correction: replace the man's facial identity substantially in EVERY view, including all full body panels and portrait panels. The current face is too similar to other rulers. New invented artistic identity: Very slender long face, high cheekbones, long narrow hooked nose, LONG sparse WHITE beard and grey moustache, age 62. This is a modern historical artistic reconstruction, not an authenticated likeness. Keep the same clothing, headgear, accessories, eight-view layout, background, title, labels and reconstruction/provisional footer. Preserve consistent new facial identity across all views. Keep anatomical realism, readable labels, full body head-to-toe. Do not merely recolor the existing beard: rebuild facial bone structure as specified.",
+    "design": "Very slender long face, high cheekbones, long narrow hooked nose, LONG sparse WHITE beard and grey moustache, age 62.",
+    "result": {
+      "id": "shah-ismail-ghazi",
+      "source": "/home/angsuman/.codex/generated_images/01a178e7-0af5-7370-9865-1133f85943cc/exec-289ba89e-2998-42be-b3f6-eb39937667b1.png",
+      "output": "/home/angsuman/extra_spac/Assam History/drafts/western-assam/bengal-delhi-13/shah-ismail-ghazi-v02.png"
+    }
+  }
+]

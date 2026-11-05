@@ -1,0 +1,11 @@
+# nandi-chutia: Chutia clothing remake
+
+2026-10-28. Built-in image_gen tool. User requested replacement of the existing Chutia kings' sheets and Sati Sadhoni using the local Chutia man and woman sheets, no neck gamusa for kings/chiefs, and a little royalty.
+
+The references are present-day generated clothing interpretations, not evidence of medieval costume. Faces and royal ornaments remain artistic interpretations. This direction supersedes the earlier tunic/vest/shoulder-cloth costume direction for these replaced sheets. Old published images are backed up under drafts/chutia/remake-2026-10-28/; earlier king PNG masters are retained.
+
+Clothing reference: images/scenes/present-day/chutiya/chutiya-man-sheet-1.png.
+
+## Final prompt
+
+Use case: identity-preserve. Create a photorealistic historical character turnaround sheet, landscape 1536x1024, neutral grey background, eight neatly aligned panels in two rows of four: top front full body, left profile full body, back full body, three-quarter full body; bottom front face close-up, right face profile, low angle face, looking-down face. Consistent one person and costume across all views, realistic skin and woven cloth. Image 1 is the character identity/layout target; image 2 is the Chutia man's clothing reference. Preserve the individual face and apparent age of image 1. Replace his old costume with the silhouette from image 2: cream short-sleeve tunic with red sleeve edging, white wrapped dhoti with narrow red border, deep red waist sash, white wrapped headcloth with upright folded end. Explicitly REMOVE the reference's neck gamusa: NO scarf, no neck cloth, no shoulder shawl, no long cloth down chest. Give restrained royalty: finer warm ivory silk weave, narrow gold woven trim alongside red edges, low delicate gold band around headcloth, gold ear studs and one modest gold pendant. Bare feet. No huge crown, fantasy armour, Mughal robes or European details. Dignified upright royal bearing. Historical artistic interpretation using present-day community clothing as the user-directed visual basis.  Subject Nandi (Nandisvara), preserve older broad face, grey moustache and weathered skin. Text only: title "NANDI (NANDISVARA)" and small panel labels; footer "ARTISTIC RECONSTRUCTION".

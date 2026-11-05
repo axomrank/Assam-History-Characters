@@ -1,0 +1,37 @@
+{
+  "batch": "hajong-garo",
+  "records": [
+    {
+      "title": "Hajong man",
+      "path": "images/scenes/present-day/hajong/hajong-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/hajong/",
+      "generation_source": "exec-d4e2ecf0-1626-4f98-b9e1-3ec388faa35f.png",
+      "sha256": "71956a6be82e008526d2c749e0fe9a1a65fad8c27f92df917f3b3e87c74e5556",
+      "status": "generated interpretation; reference-dependent, requires community review"
+    },
+    {
+      "title": "Hajong woman",
+      "path": "images/scenes/present-day/hajong/hajong-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/hajong/",
+      "generation_source": "exec-090e6245-fe5f-44a9-b4fa-d4d229aa66f4.png",
+      "sha256": "83f5bec4aab455d46b10f2a6e8bf2e8a3d848aa57a308c9a3028a9f1d8bfd77e",
+      "status": "generated interpretation; reference-dependent, requires community review"
+    },
+    {
+      "title": "Garo man",
+      "path": "images/scenes/present-day/garo/garo-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/garo/",
+      "generation_source": "exec-a8952524-516d-47b9-9178-d96ed7c6da9f.png",
+      "sha256": "75cd4e60683935e5ee59e139be6e21cae624db7b2bcd3f4dc811fa005176cd91",
+      "status": "generated interpretation; reference-dependent, requires community review"
+    },
+    {
+      "title": "Garo woman",
+      "path": "images/scenes/present-day/garo/garo-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/garo/",
+      "generation_source": "exec-600d8b24-3147-485e-950b-0e2ce4be45b6.png",
+      "sha256": "385ee60ce841a2804471f563a50e3d905145472c1a93967b58410c4c9b71f615",
+      "status": "generated interpretation; reference-dependent, requires community review"
+    }
+  ]
+}

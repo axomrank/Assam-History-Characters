@@ -1,0 +1,71 @@
+[
+  {
+    "id": "KOCH-06",
+    "title": "The March to Singari Turns Back",
+    "prompt": "Use case historical-scene. One clean photorealistic 1536x1024 landscape historical reconstruction, sixteenth-century Koch kingdom. Preserve the exact face, hair, physique and costume of each named person in the supplied canonical character sheet. Secondary people must have distinct faces and simple appropriate clothing, never duplicated royal faces. Natural soft daylight, realistic skin and hands, handwoven fabric, credible tools and human scale, restrained colours, no cinematic haze, fantasy, text, collage, modern objects or excessive crowd. Biswa Singha abandons the advance at Singari because supplies are running short, 1537. Image1 is Biswa canonical sheet: exact broad face, short full beard, ivory striped headband, ivory short-sleeve tunic and dhoti, maroon patterned shoulder sash and waist sash. In a temporary bamboo/cloth military camp by a lowland Assam track, Biswa stands at right thoughtfully listening to a lean older quartermaster at left who indicates two almost empty grain baskets and an open small sack on a reed mat. Three distinct supply bearers in plain beige tunics/dhotis behind them shoulder light loads and prepare to turn back down the track. Five people total. A modest temporary shelter, packed-earth route and flat green vegetation, distant low hills, no specific invented monument. Calm supply decision, not a battle or a famine spectacle; no Suhungmung audience, he is not present. Faces clear, focus on Biswa and empty baskets.",
+    "status": "illustrated",
+    "master": "masters/scenes/1515-1587-koch/KOCH-06.png",
+    "generator": "built-in imagegen",
+    "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-06.webp",
+    "review": "Biswa identity and costume retained; empty grain baskets and small retreat group clearly staged.",
+    "referenced_image_paths": [
+      "masters/sheets/biswa-singha/biswa-singha__turnaround.png"
+    ]
+  },
+  {
+    "id": "KOCH-07",
+    "title": "The Princes Return from Varanasi",
+    "prompt": "undefined",
+    "status": "illustrated",
+    "master": "masters/scenes/1515-1587-koch/KOCH-07.png",
+    "generator": "built-in imagegen",
+    "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-07.webp",
+    "review": "Both canonical faces retained, changed to user-requested gerua dhoti and shoulder cloth, crowns/armour/jewellery removed.",
+    "referenced_image_paths": [
+      "masters/sheets/nara-narayan/turnaround-statue-based-royal-final.png",
+      "masters/sheets/chilarai/turnaround-muscular-final.png"
+    ]
+  },
+  {
+    "id": "KOCH-08",
+    "title": "Building the Gohain Kamal Ali",
+    "prompt": "Use case historical-scene. One clean photorealistic 1536x1024 landscape historical reconstruction, sixteenth-century Koch kingdom. Preserve the exact face, hair, physique and costume of each named person in the supplied canonical character sheet. Secondary people must have distinct faces and simple appropriate clothing, never duplicated royal faces. Natural soft daylight, realistic skin and hands, handwoven fabric, credible tools and human scale, restrained colours, no cinematic haze, fantasy, text, collage, modern objects or excessive crowd. Building the Gohain Kamal Ali, a raised earthen military supply road across the western Assam lowlands. Image1 Gosain Kamal canonical sheet: preserve exact clean-shaven face, ivory gold-edged turban, olive brocade cross-fastened tunic, mustard sash, ivory dhoti, bare feet and restrained ornaments. Gosain Kamal stands at right three-quarter face visible supervising one foreman, who checks a wooden measuring rod along the road edge. Four distinct workers behind dig borrow earth with short wooden-handled iron spades, carry it in woven baskets and compact the raised road surface with a wooden rammer. SIX people total. A clearly elevated unpaved earth embankment runs diagonally into green flat land, modest drainage depressions beside it, foothills far back. Continuous believable earthwork, no cobbled imperial avenue, asphalt, bridge or giant palace. Bamboo marker pegs, basket loads and hand tools visibly practical. Natural daylight, clear action, spare composition. No Nara Narayan in this scene; road association and date are qualified in metadata.",
+    "status": "illustrated",
+    "master": "masters/scenes/1515-1587-koch/KOCH-08.png",
+    "generator": "built-in imagegen",
+    "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-08.webp",
+    "review": "Gosain Kamal identity retained; raised unpaved earth road, hand tools, baskets and compaction visible.",
+    "referenced_image_paths": [
+      "masters/sheets/gosain-kamal/turnaround-2026-10-28.png"
+    ]
+  },
+  {
+    "id": "KOCH-09",
+    "title": "Weaving the Vrindavani Vastra",
+    "prompt": "undefined",
+    "status": "illustrated",
+    "master": "masters/scenes/1515-1587-koch/KOCH-09.png",
+    "generator": "built-in imagegen",
+    "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-09.webp",
+    "review": "Real LACMA textile and real local tat xal photograph supplied directly with Sankardev sheet. Figured crimson strip, continuous warp, beater, treadles and supplementary cords visible. Loom mechanism remains reconstructed, not mechanically validated; subtle age progression only.",
+    "referenced_image_paths": [
+      "media/characters/sankardev/turnaround-1.webp",
+      "images/references/1950s/handloom-nen.jpg",
+      "images/references/koch/vrindavani-vastra-lacma-AC1995.94.1.webp"
+    ]
+  },
+  {
+    "id": "KOCH-10",
+    "title": "The First Narayani Coins",
+    "prompt": "Use case historical-scene. One clean photorealistic 1536x1024 landscape historical reconstruction, sixteenth-century Koch kingdom. Preserve the exact face, hair, physique and costume of each named person in the supplied canonical character sheet. Secondary people must have distinct faces and simple appropriate clothing, never duplicated royal faces. Natural soft daylight, realistic skin and hands, handwoven fabric, credible tools and human scale, restrained colours, no cinematic haze, fantasy, text, collage, modern objects or excessive crowd. The first Narayani silver coins, Saka1477 /1555, in a small Koch mint workshop. Image1 is Nara Narayan canonical sheet: preserve face, thick curved moustache, shoulder-length hair, golden tiered crown, ivory-gold patterned long tunic and dhoti, ochre sash and gold ornaments. Image2 is an actual numismatic reference plate: USE ONLY the FIRST TOP-LEFT COIN PAIR numbered 1 for letterforms and dotted border, NOT the later coin types on lower rows. Depict real silver hammered rupees approximately 3cm across, irregular edges and shallow struck calligraphic script, no portrait, no Latin lettering, no oversized medals. Nara stands at right examining ONE tiny silver coin held between thumb and index finger at chest height. At left a distinct seated mint worker positions a silver blank on a small lower iron die on a sturdy low block, another worker holds a small hand hammer at rest; no unsafe hands under a raised hammer, no mechanised press. Three people total. A low wooden tray with only a few tiny silver coins and blanks, compact balance scale, iron tongs, clay furnace far back with small glow. Simple timber/earth workshop, open doorway daylight. Frame medium-wide with clear king face, hands and working tools; do not render the reference plate itself as a paper poster or exact modern labels. Keep coins at believable size rather than pretending generated microscopic lettering is a verified inscription.",
+    "status": "illustrated",
+    "master": "masters/scenes/1515-1587-koch/KOCH-10.png",
+    "generator": "built-in imagegen",
+    "scene_image": "media/scenes/western-assam/1515-1587-koch/KOCH-10.webp",
+    "review": "Nara canonical royal face/dress, small silver calligraphic coins following ONS plate1 type, hand dies, balance and hammer. No exact generated inscription authenticity claimed.",
+    "referenced_image_paths": [
+      "masters/sheets/nara-narayan/turnaround-statue-based-royal-final.png",
+      "images/references/koch/ons-is010-plate12.png"
+    ]
+  }
+]

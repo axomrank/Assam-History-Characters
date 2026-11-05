@@ -1,0 +1,7 @@
+undefined
+
+Harsha Pala: warm ivory dhoti with narrow emerald and gold lotus border.
+Dharma Pala: saffron-gold dhoti with crimson and gold lotus border.
+Jaya Pala: ivory dhoti with narrow crimson and gold woven border.
+
+Generated with built-in image_gen; each king's original PNG is the corresponding edit reference. User requested dhotis for the last three kings, superseding the earlier straight-wrap costume direction.

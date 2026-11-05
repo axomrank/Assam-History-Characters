@@ -1,0 +1,12 @@
+{
+  "id": "sonowal-man",
+  "reference": "/home/angsuman/Desktop/images (5).jpeg",
+  "reference_subject": "Far-left adult man",
+  "output": "images/scenes/present-day/sonowal/sonowal-man-sheet-1.png",
+  "method": "built-in imagegen",
+  "prompt": "Create ONE photorealistic present-day traditional costume character reference sheet. Title exactly \"SONOWAL — MAN\". Landscape 1536x1024 on warm ivory studio background, matching established series. Three full-body turnarounds FRONT, SIDE, BACK of SAME adult man, head-to-toe BARE FEET visible, neutral upright stance arms relaxed slightly away from body rather than hands joined. Fourth narrow column for face portrait and textile/headwrap details. Supplied photo is costume reference: use the adult man at FAR LEFT as primary subject, face and outfit reference. Preserve his narrow face and short dark hair, yellow-green woven cloth headband with folded upright tied end, loose cream/off-white short-sleeved traditional shirt, long bright yellow scarf with green lengthwise stripes and woven green geometric patterned sections near hanging fringed ends, scarf simply around neck with both ends hanging in front; deep vivid green wrapped dhoti/lower cloth with narrow vertical lighter green stripe, reaching lower calves, simple traditional wrap folds. Do not substitute the center man's WHITE headwrap for primary subject's yellow-green headband. Other man can support understanding of shirt and scarf drape only. Remove any modern accessories and footwear; barefoot, no socks, no watches. No women, no namaste pose, no background people, architecture or photo setting. Natural adult proportions and realistic cotton weave; preserve source green/yellow/cream palette and understated weaving, no invented jewellery or elaborate extra motifs. Soft even studio light, crisp serif view labels and detail labels. Reference crops feet/lower hem, complete conservatively with simple green wrap and bare feet; unseen back garment construction is restrained interpretation. No watermark or legal-status claim.",
+  "notes": [
+    "Barefoot to match current series direction.",
+    "Cropped lower hem and unseen back construction completed conservatively."
+  ]
+}

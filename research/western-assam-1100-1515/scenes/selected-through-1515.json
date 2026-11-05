@@ -1,0 +1,330 @@
+{
+  "cutoff_year": 1515,
+  "count": 27,
+  "selected": [
+    {
+      "id": "KAMATA-01",
+      "title": "A Land Grant in a Splintered Kamarupa",
+      "date_label": "c. 1185",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-01-land-grant-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "ce14da1d843e32be56a882c9a3faec609a23060c0d9a3da473b98d3e857a4abf",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-02",
+      "title": "Ali Mech Guides Bakhtiyar Khalji's Horsemen",
+      "date_label": "March 1206",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-02-ali-mech-guides-horsemen-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "43eb768c29c380c32ba27d0b3ec34bba3be26f649d5005b94151c33104c78ff8",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-03",
+      "title": "The Broken Bridge on the Teesta",
+      "date_label": "1206",
+      "path": "masters/scenes/western-assam/1100-1515-kamata/KAMATA-03.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "de4d922575261fde16053d876b1850001d691491f0c4c2427e43e108e57a21c6",
+      "status": "existing published image"
+    },
+    {
+      "id": "KAMATA-04",
+      "title": "Iwaz Khalji Is Turned Back Near Nagaon",
+      "date_label": "1226\u20131228",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-04-iwaz-turned-back-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "ff7e17ff919248962f5b06e3db61abcdb8297e70575f46bc4614009f89a62a57",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-05",
+      "title": "Nasiruddin Mahmud Crosses into Kamrup",
+      "date_label": "1228",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-05-nasiruddin-crossing-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "c681b209192c05332eabaef9eea26bdda601472df2ae3fd64afca60ebbd811c4",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-06",
+      "title": "Sandhya Stops the Tribute",
+      "date_label": "c. 1229\u20131250",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-06-sandhya-stops-tribute-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "488d5376dd3bfe218f9be05b1e4d0959bad387ad3795a2632ecd251977b215c7",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-07",
+      "title": "Yuzbak Occupies an Empty Kamarupanagara",
+      "date_label": "Early spring 1257",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-07-yuzbak-empty-kamarupanagara-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "7bc5e91e1c68a5a55f498f31584181b67434e3dca73320992ff5f63fb3fc660b",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-08",
+      "title": "Sandhya Floods the Plain",
+      "date_label": "Spring and monsoon 1257",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-08-sandhya-flooded-plain-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "c5c131457b1b0c2ffa8e4e6c81b801199ed817119c94d4c968fbdb8a2f744c51",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-09",
+      "title": "Sandhya Becomes Kamateswara at Kamatapur",
+      "date_label": "c. 1257\u20131260",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-09-sandhya-kamatapur-building-v01.png",
+      "size": [
+        1672,
+        940
+      ],
+      "sha256": "5ef15c4bdc90813ec7b089dcea2474526dac1bd56eba78cc085b18bf8928f7aa",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-10",
+      "title": "The Kacharis Turn Back Bahadur Shah",
+      "date_label": "1321\u20131322",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-10-kachari-resistance-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "8e146bbc371997e2aedcf44d81bed03cda41634bd4beb91d6660193334c7d202",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-11",
+      "title": "Durlabhnarayan and Dharmanarayan Divide the Kingdom",
+      "date_label": "c. 1330",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-11-kingdom-divided-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "af4631801c22cd5d3b511aadfeb0dd0dcc1e1d97c06170fffb38b309fc826f78",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-12",
+      "title": "Chandivara's Fourteen Families Settle at Langamaguri",
+      "date_label": "c. 1330\u20131350",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-12-chandivara-settlement-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "dbc51ee551e26a9a8842d07bd832f92be92524b87842c4355e2f0c3e95eb48b1",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-13",
+      "title": "Hema Saraswati Recites the Prahlada Charita",
+      "date_label": "c. 1330\u20131350",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-13-hema-recital-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "37bfd74e0a374c600e7779df64330070f1a5f49938f71af0e4851becd3db3e36",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-14",
+      "title": "Madhav Kandali Writes the Saptakanda Ramayana",
+      "date_label": "c. 1330\u20131370",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-14-kandali-writing-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "e75d41ea630bbf77d840d466dfbced80a8c31589b7a737151ddfb7a94929f6b1",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-15",
+      "title": "Ilyas Shah Takes Guwahati",
+      "date_label": "1356\u20131357",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-15-ilyas-guwahati-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "0a347e882711cdba8d1df0be3087ea16a6258437418ff0bfd5d751194742d449",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-16",
+      "title": "Sikandar Shah Met at Gachtal",
+      "date_label": "1362",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-16-gachtal-confrontation-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "7e7f548fce55b1181b1ab357956059162ba9265d898e545b84262736d431f509",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-17",
+      "title": "Arimatta Seizes the Throne",
+      "date_label": "c. 1365",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-17-arimatta-accession-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "4c94075a9d36b0482d60fc4c85ef827fbdb606993283e804de1b2ad0dbca2f3b",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-18",
+      "title": "Kanta Nath Rises as Niladhwaj, First of the Khen Kings",
+      "date_label": "c. 1440",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-18-niladhwaj-accession-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "71dec7b620dac63d9a59c7025a0ee3f2fd1eed7d99caad89b4853cf89a629053",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-19",
+      "title": "A Bhuyan Boyhood at Alipukhuri",
+      "date_label": "c. 1449\u20131460",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-19-sankardev-boyhood-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "90b28439e5259e46370239e3346322f85e3111db0793366ce32b9512d86504fa",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-20",
+      "title": "Nilambar's Kamatapur",
+      "date_label": "c. 1480\u20131498",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-20-nilambar-capital-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "d16d7df7484a7a65d6d980a150f724103083a5bf0e68b547830bc96032c66d17",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-21",
+      "title": "Muzaffar Shah's Coins: Kamata Mardan",
+      "date_label": "1492\u20131493",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-21-muzaffar-mint-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "6898b84c11fe47d0ba9944d5a19d1446b1613d9e7cd3dfa357c08033649e90c7",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-22",
+      "title": "Sachipatra's Grievance",
+      "date_label": "c. 1498",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-22-sachipatra-appeal-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "fb33809f0afe3a3eef9356237d9d3c4d2f2762a859601d77383589ac1eb06f7b",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-23",
+      "title": "The Siege of Kamatapur",
+      "date_label": "1498",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-23-kamatapur-siege-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "cfb5236801f6d695e150ed26e875897132b7be08d1dbc0c5a2d5fe68497bc03e",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-24",
+      "title": "Danyal Governs from Hajo",
+      "date_label": "1502",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-24-danyal-hajo-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "e37f6ad858fffb64642378a65af5dfd7a2891aa500907fe90c87296e759bdd7e",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-25",
+      "title": "The Bhuyans Destroy Danyal's Garrison",
+      "date_label": "c. 1505\u20131510",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-25-bhuyan-garrison-attack-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "64008e243e2843afed221adc1fd3f6a88e824d6525724a441d154d927544c6a8",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-26",
+      "title": "Bisu Defeats the Bhuyan of Karnapur",
+      "date_label": "c. 1509\u20131515",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-26-bisu-campaign-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "18454bba99dc88329456449f9e4bc4be95a34c86a083658e76b9eef70cb8be50",
+      "status": "local review draft"
+    },
+    {
+      "id": "KAMATA-27",
+      "title": "Bisu Is Crowned Biswa Singha",
+      "date_label": "1515",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-27-biswa-coronation-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "c5e867c7be507bbd307a0ed7415f35875ce420c4a522a569c8be4991741bf649",
+      "status": "local review draft"
+    }
+  ]
+}

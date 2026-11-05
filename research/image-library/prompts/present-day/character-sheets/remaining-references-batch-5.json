@@ -1,0 +1,61 @@
+{
+  "batch": "vaiphei-pawi-lai-mara-tai-phake",
+  "records": [
+    {
+      "path": "images/scenes/present-day/vaiphei/vaiphei-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/vaiphei/",
+      "generated_file": "exec-b3a8b8bc-d08d-4591-87d4-56e94cb7220b.png",
+      "sha256": "457135a44c6f51e02f97e050e13fe0ef2f8ff04eba2c6bc023b8e7dc32af2454",
+      "status": "generated interpretation; subgroup/regional comparison; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/vaiphei/vaiphei-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/vaiphei/",
+      "generated_file": "exec-22962916-c795-4410-a8ee-81a42e6edac3.png",
+      "sha256": "db8f2a710647819e6f7592fe4b99e3fc2f32ea68221ff6f509a477a836dd29e1",
+      "status": "generated interpretation; subgroup/regional comparison; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/pawi-lai/pawi-lai-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/pawi-lai/",
+      "generated_file": "exec-f2edce5f-729f-4e86-aea2-1af8cade7f40.png",
+      "sha256": "ddb4560401b609031661ad55802a5d5eb9b8a70904963c55102390d7838963e9",
+      "status": "generated interpretation; subgroup/regional comparison; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/pawi-lai/pawi-lai-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/pawi-lai/",
+      "generated_file": "exec-4dd50abb-7113-4187-8dc6-cf99119e688b.png",
+      "sha256": "8aa9a42ec68e1b783f1aaf6d658ede36f8f9d46755308845c2cd1af0d9e7cada",
+      "status": "generated interpretation; subgroup/regional comparison; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/lakher-mara/lakher-mara-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/lakher-mara/",
+      "generated_file": "exec-6866b2dd-f50d-4f7c-8872-3187dbf1ce3c.png",
+      "sha256": "dc132c02490d6199359574c4656e493eaf0203003ea6fb984f9445d2ceae09f5",
+      "status": "generated interpretation; subgroup/regional comparison; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/lakher-mara/lakher-mara-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/lakher-mara/",
+      "generated_file": "exec-a1daf8e6-3c93-4fff-a538-88018f9d1129.png",
+      "sha256": "6ecc4b9b8afe1fcdaeb76020f2cc594370c45f948db9cd0433947023e0757c1d",
+      "status": "generated interpretation; subgroup/regional comparison; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/man-tai-speaking/man-tai-phake-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/man-tai-speaking/",
+      "generated_file": "exec-56b47a0a-f1bf-4b98-a037-acf7a58a2eea.png",
+      "sha256": "a9a4acdbe4295434c6f0e774c7ae060d76640366779189422bc7cb16deab7356",
+      "status": "generated interpretation; subgroup/regional comparison; requires community review"
+    },
+    {
+      "path": "images/scenes/present-day/man-tai-speaking/man-tai-phake-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/man-tai-speaking/",
+      "generated_file": "exec-223bd933-fd88-41eb-96ec-da8d4ceefb2f.png",
+      "sha256": "b25fc91a12de0c0c192701ea733037e00d254edcb92d3f7d8f4d83fc7c14bf31",
+      "status": "generated interpretation; subgroup/regional comparison; requires community review"
+    }
+  ]
+}

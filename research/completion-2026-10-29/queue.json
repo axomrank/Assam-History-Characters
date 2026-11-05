@@ -1,0 +1,571 @@
+[
+  {
+    "id": "damodardev",
+    "type": "person",
+    "name": "Damodardev",
+    "state": "complete",
+    "image": "media/characters/damodardev/turnaround-1.webp",
+    "master": "masters/sheets/damodardev/damodardev__turnaround.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "madhavdev",
+    "type": "person",
+    "name": "Madhavdev",
+    "state": "complete",
+    "image": "media/characters/madhavdev/turnaround-1.webp",
+    "master": "masters/sheets/madhavdev/madhavdev__turnaround.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "ananta-kandali",
+    "type": "person",
+    "name": "Ananta Kandali",
+    "state": "complete",
+    "image": "media/characters/ananta-kandali/turnaround-1.webp",
+    "master": "masters/sheets/ananta-kandali/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "hari-sankardev",
+    "type": "person",
+    "name": "Hari (Sankardev's son-in-law)",
+    "state": "complete",
+    "image": "media/characters/hari-sankardev/turnaround-1.webp",
+    "master": "masters/sheets/hari-sankardev/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "aniruddhadeva",
+    "type": "person",
+    "name": "Aniruddhadeva",
+    "state": "complete",
+    "image": "media/characters/aniruddhadeva/turnaround-1.webp",
+    "master": "masters/sheets/aniruddhadeva/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "bhattadev",
+    "type": "person",
+    "name": "Bhattadev",
+    "state": "complete",
+    "image": "media/characters/bhattadev/turnaround-1.webp",
+    "master": "masters/sheets/bhattadev/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "maniram-dewan",
+    "type": "person",
+    "name": "Maniram Dewan",
+    "state": "complete",
+    "image": "media/characters/maniram-dewan/turnaround-1.webp",
+    "master": "masters/sheets/maniram-dewan/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "piyali-phukan",
+    "type": "person",
+    "name": "Piyali Phukan",
+    "state": "complete",
+    "image": "media/characters/piyali-phukan/turnaround-1.webp",
+    "master": "masters/sheets/piyali-phukan/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "lakshminath-bezbaroa",
+    "type": "person",
+    "name": "Lakshminath Bezbaroa",
+    "state": "complete",
+    "image": "media/characters/lakshminath-bezbaroa/turnaround-1.webp",
+    "master": "masters/sheets/lakshminath-bezbaroa/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "bhogeswari-phukanani",
+    "type": "person",
+    "name": "Bhogeswari Phukanani",
+    "state": "complete",
+    "image": "media/characters/bhogeswari-phukanani/turnaround-1.webp",
+    "master": "masters/sheets/bhogeswari-phukanani/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "gopinath-bordoloi",
+    "type": "person",
+    "name": "Gopinath Bordoloi",
+    "state": "complete",
+    "image": "media/characters/gopinath-bordoloi/turnaround-1.webp",
+    "master": "masters/sheets/gopinath-bordoloi/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "chandraprabha-saikiani",
+    "type": "person",
+    "name": "Chandraprabha Saikiani",
+    "state": "complete",
+    "image": "media/characters/chandraprabha-saikiani/turnaround-1.webp",
+    "master": "masters/sheets/chandraprabha-saikiani/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "kushal-konwar",
+    "type": "person",
+    "name": "Kushal Konwar",
+    "state": "complete",
+    "image": "media/characters/kushal-konwar/turnaround-1.webp",
+    "master": "masters/sheets/kushal-konwar/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "kanaklata-barua",
+    "type": "person",
+    "name": "Kanaklata Barua",
+    "state": "complete",
+    "image": "media/characters/kanaklata-barua/turnaround-1.webp",
+    "master": "masters/sheets/kanaklata-barua/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "bhupen-hazarika",
+    "type": "person",
+    "name": "Bhupen Hazarika",
+    "state": "complete",
+    "image": "media/characters/bhupen-hazarika/turnaround-1.webp",
+    "master": "masters/sheets/bhupen-hazarika/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "bishnuram-medhi",
+    "type": "person",
+    "name": "Bishnuram Medhi",
+    "state": "complete",
+    "image": "media/characters/bishnuram-medhi/turnaround-1.webp",
+    "master": "masters/sheets/bishnuram-medhi/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "fakhruddin-ali-ahmed",
+    "type": "person",
+    "name": "Fakhruddin Ali Ahmed",
+    "state": "complete",
+    "image": "media/characters/fakhruddin-ali-ahmed/turnaround-1.webp",
+    "master": "masters/sheets/fakhruddin-ali-ahmed/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "bimala-prasad-chaliha",
+    "type": "person",
+    "name": "Bimala Prasad Chaliha",
+    "state": "complete",
+    "image": "media/characters/bimala-prasad-chaliha/turnaround-1.webp",
+    "master": "masters/sheets/bimala-prasad-chaliha/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "hiteswar-saikia",
+    "type": "person",
+    "name": "Hiteswar Saikia",
+    "state": "complete",
+    "image": "media/characters/hiteswar-saikia/turnaround-1.webp",
+    "master": "masters/sheets/hiteswar-saikia/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "prafulla-kumar-mahanta",
+    "type": "person",
+    "name": "Prafulla Kumar Mahanta",
+    "state": "complete",
+    "image": "media/characters/prafulla-kumar-mahanta/turnaround-1.webp",
+    "master": "masters/sheets/prafulla-kumar-mahanta/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "tarun-gogoi",
+    "type": "person",
+    "name": "Tarun Gogoi",
+    "state": "complete",
+    "image": "media/characters/tarun-gogoi/turnaround-1.webp",
+    "master": "masters/sheets/tarun-gogoi/turnaround-1.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "BHAKTI-01",
+    "type": "scene",
+    "name": "Sankardev Stages the Chihna Yatra",
+    "state": "complete",
+    "image": "media/scenes/bhakti/1468-1700/BHAKTI-01.webp",
+    "master": "masters/scenes/culture/BHAKTI-01.png",
+    "qa": "visually inspected, daylight textile procession revision 2026-10-31",
+    "revision": "daylight-v2"
+  },
+  {
+    "id": "DIMASA-01",
+    "type": "scene",
+    "name": "A Coin at Dimapur",
+    "state": "complete",
+    "image": "media/scenes/neighbours/1520-1835/DIMASA-01.webp",
+    "master": "masters/scenes/neighbours/DIMASA-01.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "BHAKTI-02",
+    "type": "scene",
+    "name": "Madhavdev Meets Sankardev",
+    "state": "complete",
+    "image": "media/scenes/bhakti/1468-1700/BHAKTI-02.webp",
+    "master": "masters/scenes/culture/BHAKTI-02.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "BHAKTI-03",
+    "type": "scene",
+    "name": "The Prayer House at Patbausi",
+    "state": "complete",
+    "image": "media/scenes/bhakti/1468-1700/BHAKTI-03.webp",
+    "master": "masters/scenes/culture/BHAKTI-03.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "DIMASA-02",
+    "type": "scene",
+    "name": "A New Capital at Maibong",
+    "state": "complete",
+    "image": "media/scenes/neighbours/1520-1835/DIMASA-02.webp",
+    "master": "masters/scenes/neighbours/DIMASA-02.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "DIMASA-03",
+    "type": "scene",
+    "name": "The Dimasa Kingdom Bows to the Koch",
+    "state": "complete",
+    "image": "media/scenes/neighbours/1520-1835/DIMASA-03.webp",
+    "master": "masters/scenes/neighbours/DIMASA-03.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "BHAKTI-04",
+    "type": "scene",
+    "name": "Madhavdev Leads the Order",
+    "state": "complete",
+    "image": "media/scenes/bhakti/1468-1700/BHAKTI-04.webp",
+    "master": "masters/scenes/culture/BHAKTI-04.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "DIMASA-04",
+    "type": "scene",
+    "name": "Yasho Narayan Defeats the Jaintias at Dimarua",
+    "state": "complete",
+    "image": "media/scenes/neighbours/1520-1835/DIMASA-04.webp",
+    "master": "masters/scenes/neighbours/DIMASA-04.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "BHAKTI-05",
+    "type": "scene",
+    "name": "Bhattadev Writes Assamese Prose",
+    "state": "complete",
+    "image": "media/scenes/bhakti/1468-1700/BHAKTI-05.webp",
+    "master": "masters/scenes/culture/BHAKTI-05.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "BHAKTI-06",
+    "type": "scene",
+    "name": "Aniruddhadeva Founds the Moamara Satra",
+    "state": "complete",
+    "image": "media/scenes/bhakti/1468-1700/BHAKTI-06.webp",
+    "master": "masters/scenes/culture/BHAKTI-06.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "DIMASA-05",
+    "type": "scene",
+    "name": "The Court Moves to Khaspur",
+    "state": "complete",
+    "image": "media/scenes/neighbours/1520-1835/DIMASA-05.webp",
+    "master": "masters/scenes/neighbours/DIMASA-05.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "MANIPUR-01",
+    "type": "scene",
+    "name": "The First Maha Ras Lila",
+    "state": "complete",
+    "image": "media/scenes/neighbours/1520-1835/MANIPUR-01.webp",
+    "master": "masters/scenes/neighbours/MANIPUR-01.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "MANIPUR-02",
+    "type": "scene",
+    "name": "Manipur under Burmese Occupation",
+    "state": "complete",
+    "image": "media/scenes/neighbours/1520-1835/MANIPUR-02.webp",
+    "master": "masters/scenes/neighbours/MANIPUR-02.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-01",
+    "type": "scene",
+    "name": "The Assam Tea Plant Shown to Robert Bruce",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-01.webp",
+    "master": "masters/scenes/colonial/COL-01.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "MANIPUR-03",
+    "type": "scene",
+    "name": "Gambhir Singha Retakes Manipur",
+    "state": "complete",
+    "image": "media/scenes/neighbours/1520-1835/MANIPUR-03.webp",
+    "master": "masters/scenes/neighbours/MANIPUR-03.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "DIMASA-06",
+    "type": "scene",
+    "name": "Govindachandra Restored by the British",
+    "state": "complete",
+    "image": "media/scenes/neighbours/1520-1835/DIMASA-06.webp",
+    "master": "masters/scenes/neighbours/DIMASA-06.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "DIMASA-07",
+    "type": "scene",
+    "name": "Cachar Annexed",
+    "state": "complete",
+    "image": "media/scenes/neighbours/1520-1835/DIMASA-07.webp",
+    "master": "masters/scenes/neighbours/DIMASA-07.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "JAINTIA-01",
+    "type": "scene",
+    "name": "The Jaintia Kingdom Annexed",
+    "state": "complete",
+    "image": "media/scenes/neighbours/1520-1835/JAINTIA-01.webp",
+    "master": "masters/scenes/neighbours/JAINTIA-01.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-02",
+    "type": "scene",
+    "name": "The Assam Company",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-02.webp",
+    "master": "masters/scenes/colonial/COL-02.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-03",
+    "type": "scene",
+    "name": "Orunodoi, the First Assamese Magazine",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-03.webp",
+    "master": "masters/scenes/colonial/COL-03.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-04",
+    "type": "scene",
+    "name": "Maniram Dewan and Piyali Baruah Hanged",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-04.webp",
+    "master": "masters/scenes/colonial/COL-04.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-05",
+    "type": "scene",
+    "name": "Phulaguri Dhewa",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-05.webp",
+    "master": "masters/scenes/colonial/COL-05.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-06",
+    "type": "scene",
+    "name": "Assamese Restored in Schools and Courts",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-06.webp",
+    "master": "masters/scenes/colonial/COL-06.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-07",
+    "type": "scene",
+    "name": "Assam Becomes a Province",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-07.webp",
+    "master": "masters/scenes/colonial/COL-07.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-08",
+    "type": "scene",
+    "name": "Jonaki",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-08.webp",
+    "master": "masters/scenes/colonial/COL-08.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-09",
+    "type": "scene",
+    "name": "Patharughat",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-09.webp",
+    "master": "masters/scenes/colonial/COL-09.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-10",
+    "type": "scene",
+    "name": "Eastern Bengal and Assam",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-10.webp",
+    "master": "masters/scenes/colonial/COL-10.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-11",
+    "type": "scene",
+    "name": "Gandhi in Assam",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-11.webp",
+    "master": "masters/scenes/colonial/COL-11.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-12",
+    "type": "scene",
+    "name": "The Assam Women\u2019s Association",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-12.webp",
+    "master": "masters/scenes/colonial/COL-12.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-13",
+    "type": "scene",
+    "name": "Joymoti, the First Assamese Film",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-13.webp",
+    "master": "masters/scenes/colonial/COL-13.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-14",
+    "type": "scene",
+    "name": "Kanaklata at Gohpur",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-14.webp",
+    "master": "masters/scenes/colonial/COL-14.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-15",
+    "type": "scene",
+    "name": "Bhogeswari Phukanani at Barhampur",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-15.webp",
+    "master": "masters/scenes/colonial/COL-15.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-16",
+    "type": "scene",
+    "name": "Kushal Konwar Hanged",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-16.webp",
+    "master": "masters/scenes/colonial/COL-16.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-17",
+    "type": "scene",
+    "name": "Bordoloi Refuses the Grouping",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-17.webp",
+    "master": "masters/scenes/colonial/COL-17.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "COL-18",
+    "type": "scene",
+    "name": "The Sylhet Referendum",
+    "state": "complete",
+    "image": "media/scenes/colonial/1823-1947/COL-18.webp",
+    "master": "masters/scenes/colonial/COL-18.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "MOD-01",
+    "type": "scene",
+    "name": "The Great Earthquake",
+    "state": "complete",
+    "image": "media/scenes/modern/1947-2011/MOD-01.webp",
+    "master": "masters/scenes/modern/MOD-01.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "MOD-02",
+    "type": "scene",
+    "name": "The Language Movement",
+    "state": "complete",
+    "image": "media/scenes/modern/1947-2011/MOD-02.webp",
+    "master": "masters/scenes/modern/MOD-02.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "MOD-03",
+    "type": "scene",
+    "name": "War Reaches Bomdila",
+    "state": "complete",
+    "image": "media/scenes/modern/1947-2011/MOD-03.webp",
+    "master": "masters/scenes/modern/MOD-03.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "MOD-04",
+    "type": "scene",
+    "name": "Fakhruddin Ali Ahmed Becomes President",
+    "state": "complete",
+    "image": "media/scenes/modern/1947-2011/MOD-04.webp",
+    "master": "masters/scenes/modern/MOD-04.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "MOD-05",
+    "type": "scene",
+    "name": "The Assam Movement",
+    "state": "complete",
+    "image": "media/scenes/modern/1947-2011/MOD-05.webp",
+    "master": "masters/scenes/modern/MOD-05.png",
+    "qa": "visually inspected"
+  },
+  {
+    "id": "MOD-06",
+    "type": "scene",
+    "name": "The Assam Accord",
+    "state": "complete",
+    "image": "media/scenes/modern/1947-2011/MOD-06.webp",
+    "master": "masters/scenes/modern/MOD-06.png",
+    "qa": "visually inspected colourisation of user-supplied photograph, 2026-10-31",
+    "revision": "user-photo-colourisation"
+  },
+  {
+    "id": "MOD-07",
+    "type": "scene",
+    "name": "Farewell to Bhupen Hazarika",
+    "state": "complete",
+    "image": "media/scenes/modern/1947-2011/MOD-07.webp",
+    "master": "masters/scenes/modern/MOD-07.png",
+    "qa": "visually inspected"
+  }
+]

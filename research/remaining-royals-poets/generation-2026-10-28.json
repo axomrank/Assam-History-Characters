@@ -1,0 +1,61 @@
+{
+  "method": "built-in imagegen",
+  "records": [
+    {
+      "id": "avantivarman",
+      "reference": "media/characters/bala-varman/turnaround-1.webp",
+      "status": "generated and visually inspected",
+      "source": "/home/angsuman/.codex/generated_images/01a180de-4d9d-7f33-8366-806db5bd49de/exec-3d1870d7-67b2-4259-b691-86cadfb89588.png",
+      "prompt": "Photorealistic 1536x1024 eight-view historical character sheet, grey studio background. Title \"AVANTIVARMAN\", footer ARTISTIC RECONSTRUCTION. Two rows four panels: front/left/back/three-quarter full bodies; front face/right profile/low angle/looking down portraits. Reference for Varman clothing and layout only, invent distinct face: man 45, angular long face, small moustache, lean build. Ivory wrapped dhoti, deep indigo silk single shoulder cloth with narrow gold borders, bare chest and right shoulder, gold waist belt, modest gold necklace earrings armlets and cuffs, hair tied in topknot, bare feet. No crown, no neck scarf, no weapons. Same face and clothing in all panels. Interpretive appearance, uncertain ruler identity, no authenticated portrait claim."
+    },
+    {
+      "id": "gosain-kamal",
+      "reference": "media/characters/nara-narayan/turnaround-1.webp",
+      "status": "generated and visually inspected",
+      "source": "/home/angsuman/.codex/generated_images/01a180de-4d9d-7f33-8366-806db5bd49de/exec-e3787295-bc0d-41ec-ad36-efaee5146ccc.png",
+      "prompt": "Photorealistic 1536x1024 eight-view sheet, grey background, title \"GOSAIN KAMAL\", footer ARTISTIC RECONSTRUCTION. Two rows four: front,left,back,three-quarter full bodies; front face,right profile,low angle,looking down portraits. Clothing reference only, invent distinct face: man 35, broad cheeks, clean shaven, athletic build. Koch prince and governor, refined muted green knee-length silk tunic with narrow gold borders, ivory wrapped dhoti, ochre waist sash, modest gold earrings pendant and cuffs. Replace tall crown with low ivory cloth turban and narrow gold band. No neck scarf, no shoulder shawl, no weapon. Bare feet. Consistent person and costume across views, interpretive historical appearance."
+    },
+    {
+      "id": "balinarayan",
+      "reference": "media/characters/nara-narayan/turnaround-1.webp",
+      "status": "generated and visually inspected",
+      "source": "/home/angsuman/.codex/generated_images/01a180de-4d9d-7f33-8366-806db5bd49de/exec-a6b62617-1e3d-4550-90e7-f6e8e8e126da.png",
+      "prompt": "Photorealistic 1536x1024 eight-view sheet grey background, title \"BALINARAYAN\", footer ARTISTIC RECONSTRUCTION. Two rows four: front,left,back,three-quarter full bodies; front face,right profile,low angle,looking down portraits. Reference is Koch clothing/layout only, invent distinct man 48, square jaw, thick moustache, strong build. Deep maroon silk knee-length royal tunic, narrow gold borders, cream dhoti, dark gold waist sash, ivory wrapped turban with engraved gold band, gold necklace earrings cuffs, sheathed sword at waist. No tall crown, no neck scarf or shoulder shawl. Bare feet. Consistent face/clothes, interpretive historical reconstruction."
+    },
+    {
+      "id": "hema-saraswati",
+      "reference": "media/characters/sankardev/turnaround-1.webp",
+      "status": "generated and visually inspected",
+      "source": "/home/angsuman/.codex/generated_images/01a180de-4d9d-7f33-8366-806db5bd49de/exec-c226b081-dc64-4757-9ed0-15ca0507f6ab.png",
+      "prompt": "Photorealistic historical eight-view character sheet 1536x1024 grey studio background. Title \"HEMA SARASWATI\", footer ARTISTIC RECONSTRUCTION. Two rows four panels: front,left profile,back,three-quarter full bodies; front face,right face profile,low angle face,looking-down face. Reference is clothing and layout ONLY, do not copy Sankardev's face. Invent DISTINCT Assamese poet: apparent age 55, round face, short grey beard, stocky. Natural black/grey hair tied back appropriate to age. Plain white cotton dhoti and separate white cloth over LEFT shoulder, right shoulder and arm bare, minimal thin ochre edging, bare feet. No shirts jackets trousers headwrap hats jewellery crowns weapons or religious forehead marks. Calm thoughtful bearing, relaxed empty hands, consistent face and costume across all views. Not an authenticated portrait; ages and appearance are interpretive."
+    },
+    {
+      "id": "harihara-vipra",
+      "reference": "media/characters/sankardev/turnaround-1.webp",
+      "status": "generated and visually inspected",
+      "source": "/home/angsuman/.codex/generated_images/01a180de-4d9d-7f33-8366-806db5bd49de/exec-4d83c144-ab15-42a0-aeda-6c3c0597e62a.png",
+      "prompt": "Photorealistic historical eight-view character sheet 1536x1024 grey studio background. Title \"HARIHARA VIPRA\", footer ARTISTIC RECONSTRUCTION. Two rows four panels: front,left profile,back,three-quarter full bodies; front face,right face profile,low angle face,looking-down face. Reference is clothing and layout ONLY, do not copy Sankardev's face. Invent DISTINCT Assamese poet: apparent age 40, long narrow face, black moustache, slender. Natural black/grey hair tied back appropriate to age. Plain white cotton dhoti and separate white cloth over LEFT shoulder, right shoulder and arm bare, minimal thin ochre edging, bare feet. No shirts jackets trousers headwrap hats jewellery crowns weapons or religious forehead marks. Calm thoughtful bearing, relaxed empty hands, consistent face and costume across all views. Not an authenticated portrait; ages and appearance are interpretive."
+    },
+    {
+      "id": "madhava-kandali",
+      "reference": "media/characters/sankardev/turnaround-1.webp",
+      "status": "generated and visually inspected",
+      "source": "/home/angsuman/.codex/generated_images/01a180de-4d9d-7f33-8366-806db5bd49de/exec-6b4aa7e7-be1d-4364-a0ed-29fed4ca1c66.png",
+      "prompt": "Photorealistic historical eight-view character sheet 1536x1024 grey studio background. Title \"MADHAVA KANDALI\", footer ARTISTIC RECONSTRUCTION. Two rows four panels: front,left profile,back,three-quarter full bodies; front face,right face profile,low angle face,looking-down face. Reference is clothing and layout ONLY, do not copy Sankardev's face. Invent DISTINCT Assamese poet: apparent age 50, broad forehead, full salt-and-pepper beard, medium build. Natural black/grey hair tied back appropriate to age. Plain white cotton dhoti and separate white cloth over LEFT shoulder, right shoulder and arm bare, minimal thin ochre edging, bare feet. No shirts jackets trousers headwrap hats jewellery crowns weapons or religious forehead marks. Calm thoughtful bearing, relaxed empty hands, consistent face and costume across all views. Not an authenticated portrait; ages and appearance are interpretive."
+    },
+    {
+      "id": "ananta-kandali",
+      "reference": "media/characters/sankardev/turnaround-1.webp",
+      "status": "pending: image generation usage limit",
+      "source": null,
+      "prompt": "Eight-view photorealistic grey-background sheet of ANANTA KANDALI, distinct man 38, oval face, clean-shaven, slim, plain white dhoti and left shoulder cloth with minimal ochre edging, bare right shoulder, bare feet, no shirt, jewellery or hat. Sankardev clothing reference only; invent distinct face. Title ANANTA KANDALI, footer ARTISTIC RECONSTRUCTION."
+    },
+    {
+      "id": "bhattadev",
+      "reference": "media/characters/sankardev/turnaround-1.webp",
+      "status": "pending: image generation usage limit",
+      "source": null,
+      "prompt": "Eight-view photorealistic grey-background sheet of BHATTADEV, distinct man 60, narrow elderly face, white short beard, lean, plain white dhoti and left shoulder cloth with minimal ochre edging, bare right shoulder, bare feet, no shirt, jewellery or hat. Sankardev clothing reference only; invent distinct face. Title BHATTADEV, footer ARTISTIC RECONSTRUCTION."
+    }
+  ]
+}

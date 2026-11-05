@@ -1,0 +1,37 @@
+[
+  {
+    "path": "images/references/chutia/bhismaknagar-asi.jpg",
+    "source": "https://asiguwahaticircle.gov.in/bhismaknagar.html",
+    "role": "Real official excavation photo, inspected",
+    "sha256": "acb1e070fa1e4d367d934ec4a4a837487a1422c23896a8c18341e7ef8a5f5d13",
+    "publication": "Private generation reference only; rights not independently cleared, no source photograph separately published"
+  },
+  {
+    "path": "images/references/chutia/bhismaknagar-brickfort-district.jpg",
+    "source": "https://roing.nic.in/tourist-place/bhismaknagar/",
+    "role": "Real official brick-foundation photo, used04",
+    "sha256": "31abf6c249b7c4f100642786dae0b1b9f7908b250746f2120047a2c33d85ed53",
+    "publication": "Private generation reference only; rights not independently cleared, no source photograph separately published"
+  },
+  {
+    "path": "images/references/chutia/salt-methods-IJTK.png",
+    "source": "https://or.niscpr.res.in/index.php/IJTK/article/download/3161/2524",
+    "role": "Rendered p122, real methods photographs, comparative used07",
+    "sha256": "1e59462dc0f718cb7ac058eb9e4295284e5f542a369b432752fbdf70a647c812",
+    "publication": "Private generation reference only; rights not independently cleared, no source photograph separately published"
+  },
+  {
+    "path": "images/scenes/18th-century/daily-life/life-craft-blacksmith.png",
+    "source": "Local generated18th-century library image",
+    "role": "Generated composition/tool comparison, not medieval evidence",
+    "sha256": "f1ab99b0d6e2bb0aab0fc0103c01acfd3013c547d013c886578112f382030e7e",
+    "publication": "Private generation reference only; rights not independently cleared, no source photograph separately published"
+  },
+  {
+    "path": "images/references/1950s/boat-majuli.jpg",
+    "source": "Local real comparative photograph, visible credit Anuradha Goyal",
+    "role": "Hull/poling comparison only, not authenticated medieval warship",
+    "sha256": "baf43ff3655d0708059ece95c1f7544febfbe23506d7d89c64b26fcc27de6d19",
+    "publication": "Private generation reference only; rights not independently cleared, no source photograph separately published"
+  }
+]

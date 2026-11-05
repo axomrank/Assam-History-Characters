@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-27",
+  "tool": "built-in image_gen",
+  "scene_id": "KAMATA-02",
+  "status": "generated-review-drafts",
+  "catalogue_published": false,
+  "assets": [
+    {
+      "id": "ali-mech-v01",
+      "path": "drafts/western-assam/ali-mech/ali-mech-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-e238c314-bb19-4484-97f3-c56471287f75.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "sha256": "dc20cf615a154d54797290a6388756de0b3c6a7916e3d3dd60be617f657566e0",
+      "prompt": "ali-mech-v01.prompt.txt",
+      "references": [
+        {
+          "path": "images/scenes/present-day/mech/mech-man-sheet-1.png",
+          "role": "modern clothing comparison; new mature face"
+        }
+      ],
+      "review": "Visually inspected: eight views, coherent face, full feet, reference costume retained. Age, likeness and medieval use of modern clothing are creative."
+    },
+    {
+      "id": "KAMATA-02-v01",
+      "path": "drafts/western-assam/kamata-scenes/KAMATA-02-ali-mech-guides-horsemen-v01.png",
+      "source": "/home/angsuman/.codex/generated_images/01a17d69-3d3b-7670-a08e-1d079df70506/exec-5b8311e8-7a35-4028-8114-5a34f237f705.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "43eb768c29c380c32ba27d0b3ec34bba3be26f649d5005b94151c33104c78ff8",
+      "prompt": "scene-v01.prompt.txt",
+      "references": [
+        {
+          "path": "drafts/western-assam/ali-mech/ali-mech-v01.png",
+          "role": "named Ali face and creative costume"
+        },
+        {
+          "path": "media/characters/bakhtiyar-khalji/turnaround-1.webp",
+          "role": "named Bakhtiyar face and creative costume"
+        },
+        {
+          "path": "images/scenes/1950s/1950s-02-village-homestead.png",
+          "role": "vegetation, light and ground/material comparison only"
+        }
+      ],
+      "review": "Visually inspected: named designs recognizable, full foreground figures, plausible horse/rider scale, receding column and clear guide gesture, coherent foothill setting, no unwanted building or lettering. Fine distant tack and anatomy remain subject to draft review. Route, attire and equipment are interpretive, not authenticated."
+    }
+  ]
+}

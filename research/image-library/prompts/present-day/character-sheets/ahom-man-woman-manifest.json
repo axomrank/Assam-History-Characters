@@ -1,0 +1,22 @@
+{
+  "method": "built-in imagegen",
+  "items": [
+    {
+      "id": "ahom-man",
+      "reference": "/home/angsuman/Desktop/15440e679148ef855e448cdfd8d1eb23.jpg",
+      "prompt": "Create ONE photorealistic present-day costume character reference sheet in the established series style. Landscape 1536x1024, warm ivory studio backdrop. Three evenly spaced full-body turnarounds FRONT SIDE BACK of SAME adult, head-to-toe with BARE FEET, upright neutral stance arms relaxed slightly away from clothing. Fourth narrow column: face portrait and costume/headwear textile details. Crisp serif title and small view labels. Natural human anatomy, realistic fabric texture, soft even studio light. No scenery, logo, watermark, source credits, modern accessories or legal-status claim. Preserve the exact supplied costume rather than generic regional substitution. Unseen back construction and cropped lower hem are conservative generated interpretations. Title exactly \"AHOM — MAN\". Supplied image is primary face and costume reference. Preserve young adult man's face, white cotton wrapped turban with folded tied cloth end projecting on his right (viewer left); deep dark indigo/navy long-sleeved waist-length traditional jacket with round neck and horizontal fabric frog closures down front, a narrow white standing collar underneath; matching very wide loose straight navy trousers falling to ankles; white cloth sash tied at waist with loose ends hanging at his right hip (viewer left). Keep dark traditional jacket: it is the requested costume, do not remove it as modern outerwear. Remove black shoes only, barefoot in every view. No swords, jewellery, extra embroidery, hats or alternate colours. Accurate simple tailored silhouette and broad trouser legs.",
+      "output": "images/scenes/present-day/ahom/ahom-man-sheet-1.png"
+    },
+    {
+      "id": "ahom-woman",
+      "reference": "/home/angsuman/Desktop/Referance/images.jpeg",
+      "prompt": "Create ONE photorealistic present-day costume character reference sheet in the established series style. Landscape 1536x1024, warm ivory studio backdrop. Three evenly spaced full-body turnarounds FRONT SIDE BACK of SAME adult, head-to-toe with BARE FEET, upright neutral stance arms relaxed slightly away from clothing. Fourth narrow column: face portrait and costume/headwear textile details. Crisp serif title and small view labels. Natural human anatomy, realistic fabric texture, soft even studio light. No scenery, logo, watermark, source credits, modern accessories or legal-status claim. Preserve the exact supplied costume rather than generic regional substitution. Unseen back construction and cropped lower hem are conservative generated interpretations. Title exactly \"AHOM — WOMAN\". Use supplied photograph as face and costume reference; treat it as the user-selected present-day outfit, do not copy its source captions. Preserve adult woman's face and updo, distinctive gold/tan ceremonial headpiece with pink-red patterned trim, horizontal brow band and TWO symmetrical upright round fan/scroll loops at sides; fitted golden ochre long-sleeved hip-length blouse/jacket with overlapping curved front panels and subtle small fastenings; ivory satin-like shoulder cloth over her right shoulder (viewer left), hanging as long narrow end in front with restrained gold horizontal stripes and dark short fringe; ivory diagonal chest drape across torso; maroon bead necklace with broad pendant, shorter gold necklace and stacked gold bangles. Lower wrap skirt: white/cream fabric with repeated red diamond floral woven motifs, dark plum/maroon horizontal waist/hip band and side hanging tassels matching reference. Photo crops lower skirt: extend same white/red motif fabric conservatively to ankles, show BARE FEET, no invented elaborate hem. Do not add a crown, change the paired-loop headpiece, introduce modern shoes or copy male indigo outfit. Preserve distinctive layering, jewellery and textile palette.",
+      "output": "images/scenes/present-day/ahom/ahom-woman-sheet-1.png"
+    }
+  ],
+  "notes": [
+    "User-supplied present-day costume references labelled Ahom; images are creative reference-based interpretations, not independently authenticated costume evidence.",
+    "Bare feet match established user direction.",
+    "Back construction and cropped lower skirt are inferred."
+  ]
+}

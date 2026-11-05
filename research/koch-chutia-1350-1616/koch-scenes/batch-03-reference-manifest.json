@@ -1,0 +1,43 @@
+[
+  {
+    "path": "images/references/koch/kamakhya-present-day-gov.jpg",
+    "source": "https://kamrupmetro.assam.gov.in/tourist-place-detail/218",
+    "image_url": "https://kamrupmetro.assam.gov.in/sites/default/files/styles/image_small_450x350_/public/2022-03/kamakhya.jpg",
+    "role": "Real photo inspected, shows complex including later hall; NOT chosen as primary 1565 dome reference",
+    "sha256": "394a956c40381f022f8c06efb253c65d7a80a3bf146f6c481226504d0674117f",
+    "publication": "Private local reference only; no source photo copied into published media"
+  },
+  {
+    "path": "images/references/koch/kamakhya-main-dome-incredibleindia.jpg",
+    "source": "https://www.incredibleindia.gov.in/en/assam/guwahati/kamakhya-temple",
+    "image_url": "https://s7ap1.scene7.com/is/image/incredibleindia/kamakhya-temple-guwahati-dispur-assam-3-musthead-hero?qlt=82&ts=1726741386676",
+    "role": "Real current temple dome photo used directly for KOCH-17 form only; modern features and later additions omitted",
+    "sha256": "75ad5592ee114c4791c738be13b979914a47d66f17149345ddde5ef7776072b3",
+    "publication": "Private local reference only; no source photo copied into published media"
+  },
+  {
+    "path": "images/references/1950s/boat-majuli.jpg",
+    "credit_visible": "Anuradha Goyal",
+    "role": "Real modern country-boat photograph, comparative hull/paddle reference for KOCH-18/21, not a verified sixteenth-century warship",
+    "sha256": "baf43ff3655d0708059ece95c1f7544febfbe23506d7d89c64b26fcc27de6d19",
+    "publication": "Private local reference only; no source photo copied into published media"
+  },
+  {
+    "path": "images/references/manipur-royal/khamenchatpa-ceremony-2022.jpg",
+    "role": "Real modern comparative Manipur dress, used only for cloth silhouette/borders; no claim of sixteenth-century court costume",
+    "sha256": "81e0e88eb69305eff288abbd24b3b8853a4097e22f412b6db5020316cc0b8b1a",
+    "publication": "Private local reference only; no source photo copied into published media"
+  },
+  {
+    "path": "images/references/present-day-attire/jaintia-pnar/ref-8f20e7ffda.jpg",
+    "role": "Real modern comparative Pnar costume photograph; no modern stage/clothing features copied as historic evidence",
+    "sha256": "b6ba07ae7e240f25c849b91f41242c124e31fd52d880bfdeefcdbf6079ed350c",
+    "publication": "Private local reference only; no source photo copied into published media"
+  },
+  {
+    "path": "images/elements/manuscripts/sanchi-pat-manuscript-bundle.png",
+    "role": "Generated local manuscript object; bark medium independently checked, object not evidence",
+    "sha256": "ae0ed8196cef4b170b15a01cc5630249891fd614afa025362d0d2f18e6c5c21a",
+    "publication": "Private local reference only; no source photo copied into published media"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "path": "images/references/koch/vrindavani-vastra-lacma-AC1995.94.1.webp",
+    "type": "real museum photograph",
+    "source": "https://collections.lacma.org/object/69745",
+    "image_url": "https://collections-images.lacma.org/images/69745/69745-1-primary.webp",
+    "credit": "Costume Council Fund, photo © Museum Associates/LACMA",
+    "usage": "private generation reference; not separately published",
+    "caveat": "Surviving c.1570 comparative textile, not proven original commission",
+    "sha256": "d18a64fa107bcde3eae6d5d2518a01ad6f5fda8803b6450806f0a5911ba43a95"
+  },
+  {
+    "path": "images/references/1950s/handloom-nen.jpg",
+    "type": "local real comparative loom photograph",
+    "usage": "frame and operating posture; modern clothing omitted",
+    "caveat": "Not direct evidence of a 16th-century lampas loom",
+    "sha256": "96287c056bb0089d87298a22aa15de65dfdac33072cd868b62d9ad7d527ec685"
+  },
+  {
+    "path": "images/references/koch/ons-is010-plate12.png",
+    "type": "rendered scholarly numismatic plate",
+    "source": "https://www.orientalnumismaticsociety.org/archive/IS_010.pdf",
+    "usage": "page12 top-left coin pair no1; not later numbered types",
+    "caveat": "letterform reference, generated scene does not verify microscopic inscription",
+    "sha256": "dadb057cd5be56a3d8ee083cb2ae38dfd98cf2ba007525f35c4918cf2a0020f0"
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "status": "planned, images not generated",
+  "date": "2026-10-28",
+  "sharedReference": "images/scenes/present-day/chutiya/chutiya-man-sheet-1.png",
+  "continuityReference": "media/characters/dhirnarayan/turnaround-1.webp",
+  "people": [
+    {
+      "id": "lakshminarayana-chutia",
+      "name": "Lakshminarayana",
+      "age": "45",
+      "appearance": "Broad forehead, squared cheeks, straight nose, short neatly clipped black moustache, clean chin, medium strong build, calm direct gaze.",
+      "costume": "Honey-gold muga-look short-sleeve hip-length Chutia sula, narrow red stepped geometric edging, ivory Churia dhoti with a single red border, deep vermilion Tongali waist sash.",
+      "head": "Ivory wrapped paguri following the local man's construction, medium-height folded end, narrow gold band with small rectangular central plaque.",
+      "jewellery": "Small round gold studs, one modest round pendant on a fine chain, one narrow engraved cuff.",
+      "prop": "Optional separate inset of a plain fired brick and copper-plate grant; neither held in the standard turnaround, no invented readable inscription.",
+      "evidence": "Local records connect him with a 1401 grant. Bhismaknagar associations and the inscribed-brick reading require care; the official gazetteer offers a devotional reading of the words. The builder appearance is a design cue, not a proven personality.",
+      "palette": [
+        "honey gold",
+        "ivory",
+        "vermilion"
+      ],
+      "identity": "warm gold, stepped red border, rectangular brow plaque"
+    },
+    {
+      "id": "durlabhnarayana-chutia",
+      "name": "Durlabhnarayana (Chutia)",
+      "age": "52",
+      "appearance": "Long substantial face, wide jaw, heavy eyelids, broad nose, thick short moustache greying at ends, heavier build, composed authoritative expression.",
+      "costume": "Muted madder-red short-sleeve Chutia sula with fine ivory-and-gold double-line edging, ivory dhoti with a narrow ochre border, ochre-gold waist sash.",
+      "head": "Ivory paguri with a broader low fold and a flat gold band, no upright metal crown.",
+      "jewellery": "One medium gold-bead necklace with a small central bead, small gold earrings and paired narrow gold wrist cuffs.",
+      "prop": "Optional separate copper-plate-grant inset, not a royal sceptre.",
+      "evidence": "Catalogue records a 1428 grant. Do not confuse with Durlabhnarayan of Kamata. Apparent age, build and costume are invented.",
+      "palette": [
+        "madder red",
+        "ivory",
+        "ochre gold"
+      ],
+      "identity": "red upper garment, ochre sash, long heavy face"
+    },
+    {
+      "id": "muktadharmanarayana",
+      "name": "Muktadharmanarayana",
+      "age": "25",
+      "appearance": "Youthful oval face, slightly pointed chin, straight thick eyebrows, clean-shaven, lean build and alert but composed gaze.",
+      "costume": "Luminous ivory pat-look short-sleeve Chutia sula with small red chevron edging, white dhoti with a hairline red edge, warm pale-gold sash with narrow red ends.",
+      "head": "Compact ivory paguri using the same reference fold at smaller scale, thin gold band without a large frontal plaque.",
+      "jewellery": "Tiny gold ear studs and one small pendant; plain wrist thread, no armlets or layered chains.",
+      "prop": "None in the eight views; optional plain brick inset only for a later construction scene.",
+      "evidence": "1442 shrine-wall record; readings include Mukta Dharmanarayana and yuva-Dharmanarayana/son-regent. The catalogue calls him king while the older brief calls him prince. Design as a young royal without claiming an exact accession stage or documented age.",
+      "palette": [
+        "ivory",
+        "white",
+        "pale gold",
+        "red"
+      ],
+      "identity": "young clean-shaven face, small headwrap, light gold sash"
+    },
+    {
+      "id": "pratyaksanarayana",
+      "name": "Pratyaksanarayana",
+      "age": "40",
+      "appearance": "Round face, rounded nose tip, deep-set eyes, short close beard and moustache, stocky compact build, still reserved expression.",
+      "costume": "Deep indigo short-sleeve Chutia sula, narrow ivory diamond border with one red line, off-white dhoti with restrained red edging, red waist sash.",
+      "head": "Ivory paguri with a low folded end and plain narrow gold band.",
+      "jewellery": "Small gold earrings, single plain gold neck ring or short bead strand, one narrow cuff; no elaborate pendant.",
+      "prop": "None.",
+      "evidence": "Undated postscripts and variant names complicate identification. Keep this catalogue identity visually distinct, but do not claim a separate authenticated portrait or secure reign dates.",
+      "palette": [
+        "indigo",
+        "off-white",
+        "red"
+      ],
+      "identity": "indigo upper garment, round bearded face, diamond border"
+    },
+    {
+      "id": "yasamanarayana",
+      "name": "Yasamanarayana",
+      "age": "58",
+      "appearance": "Narrow face, high cheekbones, receding hairline under wrap, fine grey moustache, clean chin, slim build and mild natural stoop, watchful expression.",
+      "costume": "Pale natural-gold silk short-sleeve Chutia sula, maroon-and-gold narrow repeated-line edging, soft ivory dhoti with maroon border, dark wine-red waist sash.",
+      "head": "Ivory paguri with a neat small upright fold, engraved gold band and tiny central round plaque.",
+      "jewellery": "Two restrained short gold/bead strands, small round gold earrings and a pair of modest engraved cuffs. No religious bead type or forehead mark assigned.",
+      "prop": "None; no prayer beads implying an undocumented religious identity.",
+      "evidence": "Late genealogical identification and possible overlap with Yasanarayana are uncertain. Distinct design is for the separate existing record, not evidence of two different individuals.",
+      "palette": [
+        "pale gold",
+        "ivory",
+        "wine red"
+      ],
+      "identity": "slim older grey-moustached face, pale gold and wine palette"
+    },
+    {
+      "id": "purandarnarayana",
+      "name": "Purandarnarayana",
+      "age": "45",
+      "appearance": "Broad strong jaw, thick brows, slightly hooked nose, clean-shaven, broad shoulders and powerful build, upright decisive bearing.",
+      "costume": "Deep wine-red short-sleeve Chutia sula with fine gold-and-ivory geometric hem edging, warm cream dhoti with double red lines, dark crimson waist sash with small gold clasp. No quilted vest.",
+      "head": "Ivory paguri, compact firm folds, engraved low gold band with a modest central disc.",
+      "jewellery": "Medium gold pendant, small gold earrings, paired gold cuffs and one narrow gold upper-arm band, visible but restrained.",
+      "prop": "A modest sheathed sword at waist, using current Dhirnarayan's project design for continuity; no sword in hand, no claim that he was a documented military ruler.",
+      "evidence": "Listed before Dhirnarayan in the project; few events are securely attached. Martial bearing and sword are creative cues only, not a sourced biography.",
+      "palette": [
+        "wine red",
+        "cream",
+        "crimson",
+        "gold"
+      ],
+      "identity": "broad clean-shaven jaw, richer dark red, waist sword"
+    },
+    {
+      "id": "kasitora",
+      "name": "Kasitora",
+      "age": "50",
+      "appearance": "Long weathered face, broad nose, uneven greying stubble, sun-lined cheeks, wiry strong build, direct practical expression; no invented battle scar.",
+      "costume": "Matte dark earth-brown cotton short-sleeve Chutia sula with plain muted-red edging, undyed off-white dhoti with narrow brown edge, russet waist sash. No padded vest or fantasy armour.",
+      "head": "Low compact cream headwrap, plain cloth tie, no gold brow band.",
+      "jewellery": "No royal jewellery; one plain brass wrist ring at most, simple utilitarian waist fastening.",
+      "prop": "Small plain sheathed sword with dark wooden hilt, restrained fittings.",
+      "evidence": "Catalogue describes a minister associated with the final conflict; confidence remains low. Practical soldier-minister styling is interpretation, not a recovered uniform.",
+      "palette": [
+        "earth brown",
+        "undyed ivory",
+        "russet"
+      ],
+      "identity": "matte cotton, low plain headwrap, no gold"
+    },
+    {
+      "id": "sadhaknarayan",
+      "name": "Sadhaknarayan",
+      "age": "22",
+      "appearance": "Slender long youthful face, soft jaw, wide-set eyes, smooth clean-shaven cheeks, narrow shoulders and graceful upright posture, composed rather than distressed.",
+      "costume": "Fine light-cream short-sleeve Chutia sula with a hairline muted-red woven edge, white dhoti with narrow red hem, soft brick-red sash with simple handwoven ends.",
+      "head": "Small ivory paguri with short folded end and a discreet gold fastening pin, no circlet.",
+      "jewellery": "One tiny gold pendant and small plain gold studs; no armlets or heavy cuffs.",
+      "prop": "None. Depict a prince in ordinary dignified court clothing, not a captive or impoverished exile.",
+      "evidence": "A prince associated with the fall of the kingdom; accounts differ over his fate. Age 22 is an adult design choice. Neither execution nor deportation is asserted in the costume.",
+      "palette": [
+        "light cream",
+        "white",
+        "brick red"
+      ],
+      "identity": "very light cream, plain brick sash, youthful long clean-shaven face"
+    }
+  ]
+}

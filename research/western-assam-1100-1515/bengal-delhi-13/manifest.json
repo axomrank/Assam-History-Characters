@@ -1,0 +1,227 @@
+[
+  {
+    "id": "ramapala",
+    "title": "RAMAPALA \u2014 BENGAL PALA",
+    "family": "pala",
+    "status": "draft",
+    "provisional_identity": false,
+    "selected": "drafts/western-assam/bengal-delhi-13/ramapala-v01.png",
+    "original": "drafts/western-assam/bengal-delhi-13/ramapala-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/media/characters/jaya-pala/turnaround-1.webp",
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/cma-pala-top-cover.jpg"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  },
+  {
+    "id": "kumarapala-bengal",
+    "title": "KUMARAPALA \u2014 BENGAL PALA",
+    "family": "pala",
+    "status": "draft",
+    "provisional_identity": false,
+    "selected": "drafts/western-assam/bengal-delhi-13/kumarapala-bengal-v01.png",
+    "original": "drafts/western-assam/bengal-delhi-13/kumarapala-bengal-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/media/characters/jaya-pala/turnaround-1.webp",
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/cma-pala-top-cover.jpg"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  },
+  {
+    "id": "bakhtiyar-khalji",
+    "title": "BAKHTIYAR KHALJI",
+    "family": "early",
+    "status": "draft",
+    "provisional_identity": false,
+    "selected": "drafts/western-assam/bengal-delhi-13/bakhtiyar-khalji-v01.png",
+    "original": "drafts/western-assam/bengal-delhi-13/bakhtiyar-khalji-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/met-451378-minai-bowl.jpg",
+      "/home/angsuman/extra_spac/Assam History/media/characters/ghiyasuddin-azam-shah/turnaround-1.webp"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  },
+  {
+    "id": "ghiyasuddin-iwaz-khalji",
+    "title": "GHIYASUDDIN IWAZ KHALJI",
+    "family": "early",
+    "status": "draft",
+    "provisional_identity": false,
+    "selected": "drafts/western-assam/bengal-delhi-13/ghiyasuddin-iwaz-khalji-v02.png",
+    "original": "drafts/western-assam/bengal-delhi-13/ghiyasuddin-iwaz-khalji-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/met-451378-minai-bowl.jpg",
+      "/home/angsuman/extra_spac/Assam History/media/characters/ghiyasuddin-azam-shah/turnaround-1.webp"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  },
+  {
+    "id": "nasiruddin-mahmud",
+    "title": "NASIRUDDIN MAHMUD \u2014 DELHI PRINCE",
+    "family": "early",
+    "status": "draft",
+    "provisional_identity": false,
+    "selected": "drafts/western-assam/bengal-delhi-13/nasiruddin-mahmud-v01.png",
+    "original": "drafts/western-assam/bengal-delhi-13/nasiruddin-mahmud-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/met-451378-minai-bowl.jpg",
+      "/home/angsuman/extra_spac/Assam History/media/characters/ghiyasuddin-azam-shah/turnaround-1.webp"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  },
+  {
+    "id": "ikhtiyaruddin-yuzbak",
+    "title": "IKHTIYARUDDIN YUZBAK",
+    "family": "early",
+    "status": "draft",
+    "provisional_identity": false,
+    "selected": "drafts/western-assam/bengal-delhi-13/ikhtiyaruddin-yuzbak-v02.png",
+    "original": "drafts/western-assam/bengal-delhi-13/ikhtiyaruddin-yuzbak-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/met-451378-minai-bowl.jpg",
+      "/home/angsuman/extra_spac/Assam History/media/characters/ghiyasuddin-azam-shah/turnaround-1.webp"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  },
+  {
+    "id": "ghiyasuddin-bahadur-shah",
+    "title": "GHIYASUDDIN BAHADUR SHAH I",
+    "family": "middle",
+    "status": "draft",
+    "provisional_identity": false,
+    "selected": "drafts/western-assam/bengal-delhi-13/ghiyasuddin-bahadur-shah-v02.png",
+    "original": "drafts/western-assam/bengal-delhi-13/ghiyasuddin-bahadur-shah-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/media/characters/ghiyasuddin-azam-shah/turnaround-1.webp",
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/bengal-sharafnama-1531.jpg"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  },
+  {
+    "id": "shamsuddin-ilyas-shah",
+    "title": "SHAMSUDDIN ILYAS SHAH",
+    "family": "middle",
+    "status": "draft",
+    "provisional_identity": false,
+    "selected": "drafts/western-assam/bengal-delhi-13/shamsuddin-ilyas-shah-v02.png",
+    "original": "drafts/western-assam/bengal-delhi-13/shamsuddin-ilyas-shah-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/media/characters/ghiyasuddin-azam-shah/turnaround-1.webp",
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/bengal-sharafnama-1531.jpg"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  },
+  {
+    "id": "sikandar-shah-bengal",
+    "title": "SIKANDAR SHAH \u2014 BENGAL",
+    "family": "middle",
+    "status": "draft",
+    "provisional_identity": false,
+    "selected": "drafts/western-assam/bengal-delhi-13/sikandar-shah-bengal-v02.png",
+    "original": "drafts/western-assam/bengal-delhi-13/sikandar-shah-bengal-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/media/characters/ghiyasuddin-azam-shah/turnaround-1.webp",
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/bengal-sharafnama-1531.jpg"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  },
+  {
+    "id": "shamsuddin-muzaffar-shah",
+    "title": "SHAMSUDDIN MUZAFFAR SHAH \u2014 BENGAL",
+    "family": "late",
+    "status": "draft",
+    "provisional_identity": false,
+    "selected": "drafts/western-assam/bengal-delhi-13/shamsuddin-muzaffar-shah-v01.png",
+    "original": "drafts/western-assam/bengal-delhi-13/shamsuddin-muzaffar-shah-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/bengal-sharafnama-1531.jpg",
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/nimatnama-c1500-lacma.jpg",
+      "/home/angsuman/extra_spac/Assam History/media/characters/ghiyasuddin-azam-shah/turnaround-1.webp"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  },
+  {
+    "id": "alauddin-husain-shah",
+    "title": "ALAUDDIN HUSAIN SHAH \u2014 BENGAL",
+    "family": "late",
+    "status": "draft",
+    "provisional_identity": false,
+    "selected": "drafts/western-assam/bengal-delhi-13/alauddin-husain-shah-v02.png",
+    "original": "drafts/western-assam/bengal-delhi-13/alauddin-husain-shah-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/bengal-sharafnama-1531.jpg",
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/nimatnama-c1500-lacma.jpg",
+      "/home/angsuman/extra_spac/Assam History/media/characters/ghiyasuddin-azam-shah/turnaround-1.webp"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  },
+  {
+    "id": "shah-ismail-ghazi",
+    "title": "SHAH ISMAIL GHAZI \u2014 PROVISIONAL",
+    "family": "late",
+    "status": "draft",
+    "provisional_identity": true,
+    "selected": "drafts/western-assam/bengal-delhi-13/shah-ismail-ghazi-v02.png",
+    "original": "drafts/western-assam/bengal-delhi-13/shah-ismail-ghazi-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/bengal-sharafnama-1531.jpg",
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/nimatnama-c1500-lacma.jpg",
+      "/home/angsuman/extra_spac/Assam History/media/characters/ghiyasuddin-azam-shah/turnaround-1.webp"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  },
+  {
+    "id": "danyal",
+    "title": "SHAHZADA DANYAL \u2014 BENGAL",
+    "family": "late",
+    "status": "draft",
+    "provisional_identity": false,
+    "selected": "drafts/western-assam/bengal-delhi-13/danyal-v01.png",
+    "original": "drafts/western-assam/bengal-delhi-13/danyal-v01.png",
+    "width": 1536,
+    "height": 1024,
+    "references": [
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/bengal-sharafnama-1531.jpg",
+      "/home/angsuman/extra_spac/Assam History/research/western-assam-1100-1515/bengal-delhi-13/references/nimatnama-c1500-lacma.jpg",
+      "/home/angsuman/extra_spac/Assam History/media/characters/ghiyasuddin-azam-shah/turnaround-1.webp"
+    ],
+    "generator": "built-in image_gen",
+    "interpretation": true
+  }
+]

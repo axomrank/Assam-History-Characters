@@ -1,0 +1,77 @@
+{
+  "mode": "built-in image_gen",
+  "status": "review drafts; not added to catalogue",
+  "common": "Create ONE landscape photorealistic historical royal character reference sheet, speculative artistic reconstruction of a Salastambha dynasty king of ancient Kamarupa. References 1 Tiwa, 2 Rabha, 3 Motok are clothing inspiration only; never copy their dhoti, modern shoes, plastic buttons, props or faces. Reference 4 is sheet layout and realism standard only, do NOT clone its face or costume. Distinct believable Northeast Indian human face specified below, natural brown skin with pores, real fabric fibres, dignified royal presence, modest gold earrings, neck ornament and bracelets, barefoot. NO cartoon, illustration finish, CGI, wax skin, fantasy armour or European crown. NO DHOTI: lower garment is a straight overlapping knee-length lungi with continuous skirt-like hem, no between-leg tuck, no divided trouser legs or balloon folds. Shirts cover both shoulders unless explicitly sleeveless, cloth ties and hidden overlap only, no plastic buttons, button rows, pockets or zips. EMPTY HANDS, no flute, basket, staff, weapon. Soft cool-grey studio background. EXACT sheet arrangement: top 60% FOUR FULL BODY VIEWS left to right FRONT, LEFT PROFILE (nose MUST point LEFT toward left edge of image, whole body side on), BACK, THREE-QUARTER (nose points right). Bottom 35% FOUR LARGE HEAD-AND-SHOULDERS studies FACE CLOSE-UP, RIGHT PROFILE (nose points RIGHT), LOW ANGLE (camera looking UP at chin), HIGH ANGLE (camera looking DOWN at face). Consistent identity and costume in all eight views. Clear small view captions, name heading top left with CHARACTER REFERENCE. Footer ARTISTIC RECONSTRUCTION · REVIEW DRAFT. Generous margins, full bodies head to toe, headgear uncropped. Do not repeat eight full-body turnarounds; bottom row is portraits. ",
+  "characters": [
+    [
+      "vijaya-vigrahastambha",
+      "VIJAYA / VIGRAHASTAMBHA",
+      "Man about 38, broad cheekbones, angular jaw, clean shaven, strong lean build. Vivid vermilion-orange short sleeve woven shirt, green vertical borders, emerald knee-length straight wrap lungi, red-gold woven headband with three short feathers."
+    ],
+    [
+      "palaka",
+      "PALAKA",
+      "Man about 52, broad round face, strong nose, short salt-and-pepper hair, stocky build, clean shaven. Tiwa-reference-inspired black sleeveless woven shirt with small red geometric motifs, cream narrow shoulder scarf, red sash, deep indigo knee-length straight wrap lungi, compact orange woven cap with restrained dark feather crest."
+    ],
+    [
+      "kumara",
+      "KUMARA",
+      "Man about 34, oval face, prominent cheekbones, short wavy black hair, clean shaven, athletic build. Cream short sleeve woven shirt, orange patterned neckcloth, emerald knee-length straight wrap lungi, cream-orange cloth headwrap."
+    ],
+    [
+      "vajradeva",
+      "VAJRADEVA",
+      "Man about 48, rectangular face, strong brow, broad shoulders, short moustache. Rabha-reference-inspired emerald shirt with restrained red and yellow woven geometric borders, red checked knee-length straight wrap lungi, red woven headwrap."
+    ],
+    [
+      "balavarman-ii",
+      "BALAVARMAN II",
+      "Man about 36, angular face, slightly aquiline nose, neat short moustache, athletic medium build. Crimson short sleeve woven shirt, gold-edged woven waist sash, dark green knee-length straight wrap lungi, burgundy-gold woven headband."
+    ],
+    [
+      "jivaraja",
+      "JIVARAJA",
+      "Provisional artistic concept, identity in catalogue needs further historical verification. Man about 55, rounded face, soft-lined eyes, broad sturdy body, clean shaven and short graying hair. Cream woven shirt with green geometric edging, rich green knee-length straight wrap lungi, cream and green tied headcloth."
+    ],
+    [
+      "digleswaravarman",
+      "DIGLESWARAVARMAN",
+      "Provisional artistic concept, identity in catalogue needs further historical verification. Man about 45, narrow long face, pronounced cheekbones, lean build, thin moustache. Dark green woven short sleeve shirt, bright rust-orange knee-length straight wrap lungi, red woven headcloth, narrow gold neck ring."
+    ],
+    [
+      "salambha",
+      "SALAMBHA",
+      "Man about 50, square broad face, deep-set eyes, powerful stocky build, clean shaven, cropped black hair. Tiwa-reference-inspired black woven sleeveless shirt, narrow orange scarf, red sash, vivid green knee-length straight wrap lungi, gold patterned headband with small dark feather cluster."
+    ],
+    [
+      "harshadeva-alias-harshavarman",
+      "HARSHADEVA / HARSHAVARMAN",
+      "Man about 49, oval-angular face, prominent nose, neatly groomed moustache, tall athletic build. Rich emerald short sleeve shirt with red and gold woven borders, burgundy knee-length straight wrap lungi, regal red-gold woven headband with restrained feather accents."
+    ],
+    [
+      "harjaravarman",
+      "HARJARAVARMAN",
+      "Man about 56, wide mature face, high cheekbones, short salt-and-pepper hair, clean shaven, substantial sturdy build. Cream short sleeve woven shirt with green patterned bands, deep red knee-length straight wrap lungi, red and gold woven headcloth."
+    ],
+    [
+      "vanamalavarmadeva",
+      "VANAMALAVARMADEVA",
+      "Man about 58, long oval face, strong cheekbones, short gray-black hair and neatly trimmed moustache, medium sturdy build. Motok-reference-inspired pale yellow overlapping woven shirt secured only with cloth ties, emerald knee-length straight wrap lungi with lime border, yellow-green folded headwrap, narrow pale yellow shoulder cloth."
+    ],
+    [
+      "jayamala-virabahu",
+      "JAYAMALA / VIRABAHU",
+      "Man about 42, broad forehead and rounded jaw, short black hair, clean shaven, medium athletic build. Ochre yellow woven shirt, emerald knee-length straight wrap lungi, narrow red woven scarf and yellow-red cloth headwrap."
+    ],
+    [
+      "balavarman-iii",
+      "BALAVARMAN III",
+      "Man about 37, square jaw, high cheekbones, short wavy black hair, clean shaven, tall medium build. Rabha-reference-inspired emerald woven tunic with cream sleeves, red patterned narrow stole, amber-red checked knee-length straight wrap lungi, red-gold woven headwrap."
+    ],
+    [
+      "tyagasimha",
+      "TYAGASIMHA",
+      "Man about 61, broad lined face, short graying hair, clean shaven, sturdy mature build. Deep crimson woven shirt, dark emerald knee-length straight wrap lungi, cream woven shoulder scarf with red edging, restrained crimson and cream headwrap."
+    ]
+  ]
+}

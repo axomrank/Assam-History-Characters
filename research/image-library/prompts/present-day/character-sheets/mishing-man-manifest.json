@@ -1,0 +1,20 @@
+{
+  "id": "mishing-man",
+  "references": [
+    {
+      "path": "/home/angsuman/Desktop/PIC-7-1.jpg",
+      "role": "Actual back garment and house motif"
+    },
+    {
+      "path": "/home/angsuman/Desktop/a5a5f058031dbf2ab722fb2cd4bcc805.jpg",
+      "role": "Front outfit, face and dhoti"
+    }
+  ],
+  "output": "images/scenes/present-day/mishing/mishing-man-sheet-1.png",
+  "method": "built-in imagegen",
+  "prompt": "Create ONE photorealistic present-day traditional costume character reference sheet. Title exactly \"MISHING — MAN\". Landscape 1536x1024 warm ivory studio background, matching the established series. Three evenly spaced full-body turnarounds FRONT, SIDE, BACK of SAME adult man with head-to-toe BARE FEET, neutral upright stance and arms relaxed slightly away from torso. Fourth narrow column: face portrait and close-up woven details. Reference image 2 is MAIN front outfit and face reference: adult man with short black hair; green woven loose sleeveless/short cap-shoulder traditional open-front tunic, modest narrow opening down front, yellow-orange-red woven horizontal bands across upper chest and near lower hem, subtle small scattered motifs; long red woven scarf draped around neck with two loose ends and fine white/black horizontal stripes near ends; white cotton dhoti wrapped below knee with narrow red vertical border and small black woven motifs. Remove black modern inner T-shirt COMPLETELY: no black fabric at neckline or sleeves; show natural bare chest through the same narrow opening, bare arms beneath traditional green shoulder panels. No replacement modern undershirt. Remove shoes and black socks completely, natural bare feet. Reference image 1 supplies the ACTUAL BACK of green traditional garment: preserve distinctive large woven stilt-house motif in centre back with white pitched roof, red/yellow/white geometric house on posts; horizontal red/yellow/black/white diamond border bands across shoulders and lower back, orange corner tassels at shoulder panels. Reconcile this actual back reference with the front garment from image 2; retain green base and consistent silhouette. Red scarf visible around back of neck, do not obscure house motif. Realistic handwoven cotton, clear intricate textile details, natural human proportions, soft even light, crisp serif labels FRONT SIDE BACK and detail labels. No landscape, other people, house background, props, jewellery, headdress, watch, modern accessories, watermark or legal status claim. Follow reference motifs rather than generic regional pattern substitutions.",
+  "notes": [
+    "Black inner T-shirt, shoes and socks removed per user request.",
+    "Barefoot in all turnaround views."
+  ]
+}

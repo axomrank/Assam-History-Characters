@@ -1,0 +1,21 @@
+{
+  "community": "Chutiya",
+  "records": [
+    {
+      "path": "images/scenes/present-day/chutiya/chutiya-man-sheet-1.png",
+      "source_reference": "/home/angsuman/Desktop/IMG-20261019-WA0000.jpg",
+      "generated_file": "exec-06138a12-2d88-48dd-899b-84804721112b.png",
+      "sha256": "1bd57c46aea0fe842569aeb3b524380e2a89951f8c9ffdb93de41a6de6f6bd4f",
+      "prompt_summary": "Adult Chutiya man, present-day costume sheet based closely on supplied reference. Landscape 3:2 warm ivory sheet, same man front/side/back full-body plus face and textile details. Match white wrapped headcloth, cream short-sleeved tunic with red sleeve edges, white-red patterned gamusa, red waist sash, white dhoti, bare feet. No embellishments or modern items. Infer unseen construction conservatively; no scenery, watermark or legal status claim.",
+      "status": "generated present-day costume interpretation from supplied photo; unseen garment details inferred conservatively"
+    },
+    {
+      "path": "images/scenes/present-day/chutiya/chutiya-woman-sheet-1.png",
+      "source_reference": "/home/angsuman/Desktop/IMG-20261019-WA0001.jpg",
+      "generated_file": "exec-753df116-b85a-4f05-a63d-fac0b0d192c3.png",
+      "sha256": "5c286304857ee932d32903cfc209ac0838580fe3e9422a4b48b6e5236c911c6c",
+      "prompt_summary": "Adult Chutiya woman, present-day costume sheet based closely on supplied reference. Landscape 3:2 warm ivory sheet, same woman front/side/back full-body plus face and textile/jewellery details. Match red blouse, cream-beige draped garment with red, white and muted plum woven borders, gold-toned bangles and necklace, red bindi, tied-back hair, bare feet. Preserve wrap and border placement; no extra ornaments or modern items. Infer unseen construction conservatively; no scenery, watermark or legal status claim.",
+      "status": "generated present-day costume interpretation from supplied photo; unseen garment details inferred conservatively"
+    }
+  ]
+}

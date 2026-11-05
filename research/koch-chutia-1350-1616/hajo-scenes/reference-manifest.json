@@ -1,0 +1,26 @@
+[
+  {
+    "path": "images/references/koch-hajo/hayagriva-madhava-asi.jpg",
+    "role": "temple",
+    "sha256": "53f429e2fcdbad2149855db69f82f8f6ede5023219b1e74f8fb51f84daf61e36",
+    "publication": "Private reference only; not copied into published media",
+    "source": "https://asiguwahaticircle.gov.in/hayagriva%20madhava%20temple.html",
+    "credit": "Archaeological Survey of India, Guwahati Circle website photograph; rights not independently cleared, private reference only."
+  },
+  {
+    "path": "images/references/koch-hajo/mughal-prince-c1600-lacma.webp",
+    "role": "mughal",
+    "sha256": "5d8db0e02864698aa20e89eee0e930d368e89dcdf0042dc13fe7b4c60193377b",
+    "publication": "Private reference only; not copied into published media",
+    "source": "https://collections.lacma.org/object/45171",
+    "credit": "From the Nasli and Alice Heeramaneck Collection, Museum Associates Purchase; photo © Museum Associates/LACMA",
+    "catalogue": "Prince With a Falcon, circa1600–1605; used only as comparative dress-cut evidence, not a commander portrait."
+  },
+  {
+    "path": "images/references/1950s/boat-majuli.jpg",
+    "role": "boat",
+    "sha256": "baf43ff3655d0708059ece95c1f7544febfbe23506d7d89c64b26fcc27de6d19",
+    "publication": "Private reference only; not copied into published media",
+    "source": "Local real comparative Majuli boat photo; visible credit Anuradha Goyal"
+  }
+]

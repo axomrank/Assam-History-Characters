@@ -1,0 +1,61 @@
+{
+  "batch": "hmar-khasi-mizo-chakma",
+  "records": [
+    {
+      "path": "images/scenes/present-day/hmar/hmar-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/hmar/",
+      "generated_file": "exec-1d8b0afb-596f-4732-bc5d-76e81f5fb788.png",
+      "sha256": "ffbbc51373237918c86a21b808baca5c289cc3c2f6605b0226df3889c23ff75d",
+      "status": "generated interpretation; source gaps and comparison limits noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/hmar/hmar-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/hmar/",
+      "generated_file": "exec-702429ec-42f0-4035-abc4-447d46a47e02.png",
+      "sha256": "1b8ace696422490eb758ee53d954bdc9803db817810b4e79fb42f88f39c58b97",
+      "status": "generated interpretation; source gaps and comparison limits noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/khasi/khasi-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/khasi/",
+      "generated_file": "exec-ba062fa8-cab4-4a56-8319-635284ee489e.png",
+      "sha256": "d5373a22e72b45f3174b3d230746b1e6d70c57ce837764554073f2a97948cbde",
+      "status": "generated interpretation; source gaps and comparison limits noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/khasi/khasi-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/khasi/",
+      "generated_file": "exec-39f3e687-9897-48d9-b755-6998b6a3c581.png",
+      "sha256": "0b84801c415d32072a2a269f940f90567a55eac3529afc076158dbd5716abd96",
+      "status": "generated interpretation; source gaps and comparison limits noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/mizo/mizo-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/mizo/",
+      "generated_file": "exec-07c7c4fd-53ce-403a-bcf2-83594ec484d9.png",
+      "sha256": "10831085431edee12688d527958c943c3d910a0b915ee91bde35a1be7fc75be7",
+      "status": "generated interpretation; source gaps and comparison limits noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/mizo/mizo-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/mizo/",
+      "generated_file": "exec-f095f09c-b00f-43fb-9152-1dc669984a8c.png",
+      "sha256": "4d6d378401d3eafdee4ee2eac20b50d4a424241def4aa57d08c160e71d273ac7",
+      "status": "generated interpretation; source gaps and comparison limits noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/chakma/chakma-man-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/chakma/",
+      "generated_file": "exec-c9fafbc2-af16-49fd-b058-6488a12a1e09.png",
+      "sha256": "8c17acb1e0ac98555bab29ff9d61667df43750219bf5bc29c453e7340c35760f",
+      "status": "generated interpretation; source gaps and comparison limits noted in prompt; requires review"
+    },
+    {
+      "path": "images/scenes/present-day/chakma/chakma-woman-sheet-1.png",
+      "source_reference": "images/references/present-day-attire/chakma/",
+      "generated_file": "exec-d03acc66-b71d-4b68-9ca6-18da1bcea006.png",
+      "sha256": "561c461a508b3d719edbd3b60a79ffb0d7d07f32a494762078fb07c1a607703f",
+      "status": "generated interpretation; source gaps and comparison limits noted in prompt; requires review"
+    }
+  ]
+}
