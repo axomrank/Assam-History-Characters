@@ -1,6 +1,6 @@
 # research/ — all research, sources, prompts and notes
 
-Local only (git-ignored). Images live elsewhere: `../masters/` (originals of published items), `../drafts/` (unapproved or older versions), `../images/` (library).
+Kept on the `archive` branch (git-ignored on `main`). Images live elsewhere: `../masters/` (originals of published items), `../drafts/` (unapproved or older versions), `../images/` (library).
 
 | Folder | Contents |
 |---|---|
@@ -16,3 +16,6 @@ Local only (git-ignored). Images live elsewhere: `../masters/` (originals of pub
 | `image-library/` | `prompts/<era>/`: prompts and notes for the scenes and objects in `../images/`; `images-guide.md` explains the images/ layout and naming |
 
 Where a finding is used in the site, it is in `data/assam_history.csv` (`sources`, `notes`, `confidence` columns). Notes that cite these files say "research/…".
+
+
+Every folder above is described in the table. To add research: make `research/<topic>/`, put a `storyline.md` or `notes.md` and `sources.md` in it, and add a row to the table here. Notes never go next to images.
