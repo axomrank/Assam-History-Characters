@@ -379,66 +379,6 @@ dialog#viewer.noimg .vfoot{max-height:45vh}
 .sheetmain.planned-sheet>div{background:var(--leaf);padding:16px 22px;border-radius:var(--r);border:1px solid var(--line);max-width:34ch}
 .tag.plan::before{border:1.5px dashed var(--muted);background:transparent}
 
-/* map */
-.mapfig{margin:20px 0 0;max-width:1000px}
-.mapfig svg{width:100%;height:auto;display:block;background:var(--leaf);border:1px solid var(--line)}
-.mapfig figcaption{color:var(--muted);font-size:.9rem;margin-top:8px}
-.mrv{fill:none;stroke:var(--river);stroke-width:1.2;opacity:.7}.mrv.big{stroke-width:2.4}
-.mdot{fill:var(--hengul);stroke:var(--leaf);stroke-width:1.5;cursor:pointer}
-.mdot:hover{fill:var(--haital)}
-.mlb{font-size:15px;fill:var(--ink);paint-order:stroke;stroke:var(--leaf);stroke-width:3px;pointer-events:none}
 #footLic{margin:.2em 0 0}
 
-/* kingdoms through time */
-.mtime{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin:14px 0 0;max-width:1000px}
-.mtime label{min-width:7.5em}.mtime b{font-size:1.2em}
-.mtime input[type=range]{flex:1 1 260px;accent-color:var(--hengul)}
-.mmarks{flex-basis:100%;display:flex;flex-wrap:wrap;gap:4px 8px}
-.mmarks button{font-size:.85rem;padding:2px 8px}
-.mbase{fill:var(--mc);stroke:none}
-.mreg{fill-opacity:.4}.mreg.open{fill-opacity:.17}
-.mlim{fill:none;vector-effect:non-scaling-stroke;stroke:var(--mc);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.mleg{list-style:none;margin:16px 0 0;padding:0;max-width:1000px;display:grid;gap:8px}
-.mleg li{display:flex;gap:10px;align-items:flex-start;font-size:.95rem}
-.mleg .sw{flex:none;width:14px;height:14px;margin-top:5px;background:var(--mc);border-radius:2px;display:inline-block}
-.mleg small{color:var(--muted)}.mleg li.none{color:var(--muted)}
-
-/* map toggle pills */
-.pillbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 0;max-width:1000px}
-.pillhd{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 2px 0 8px}.pillhd:first-child{margin-left:0}
-.pill{font:inherit;font-size:.9rem;padding:3px 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;text-decoration:line-through;text-decoration-thickness:1px}
-.pill small{opacity:.7}
-.pill[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink);text-decoration:none}
-.mapfig.no-rivers #mrivers,.mapfig.no-realms #mrealms,.mapfig.no-labels #mlabels{display:none}
-
-/* map page: white page, off-white map box, thin light boundary lines with no fill */
-body.mappage{--paper:#fff;--leaf:#faf8f2;--leaf2:#efebe0;--line:#dcd7c9;--ink:#1d1a14;--muted:#6b655a;--hengul:#b3261e;--river:#2f7fa3;--on-ink:#fff;--focus:#b3261e;color-scheme:light}
-.mapfig{position:relative}
-.mapfig svg{background:var(--leaf);border:1px solid var(--line);cursor:grab;touch-action:pan-y}
-.mapfig svg.panning{cursor:grabbing}
-#mbase path{fill:none;vector-effect:non-scaling-stroke;stroke-linejoin:round}
-.mdist{stroke:#ede9df;stroke-width:.5}
-.mstate{stroke:#e2ddd0;stroke-width:.6}
-.mnat{stroke:#d8d3c5;stroke-width:.6}
-.mrv{vector-effect:non-scaling-stroke;stroke-width:1.1;opacity:.75}.mrv.big{stroke-width:2}
-.mdot{stroke:#fff;stroke-width:1}
-.mlb{stroke:#fff}
-.mzoom{position:absolute;top:10px;right:10px;z-index:2;display:flex;flex-direction:column;gap:4px}
-.mzoom button{width:34px;height:34px;font:inherit;font-size:1.2rem;line-height:1;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:3px;cursor:pointer}
-.mzoom button:hover{background:var(--leaf2)}
-
-/* pithas layer */
-.mpit{fill:var(--pc);fill-opacity:.2;stroke:var(--pc);stroke-width:1.6;stroke-dasharray:6 4;vector-effect:non-scaling-stroke}
-.mpt{font-size:15px;font-weight:700;fill:var(--pc);paint-order:stroke;stroke:#fff;stroke-width:3px;pointer-events:none}
-.mapfig.no-pithas #mpithas{display:none}
-.pvw{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin:10px 0 0;max-width:1000px}.pvw select{font:inherit;padding:3px 8px;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:3px}.pvw small{color:var(--muted)}
-#mpleg .sw{background:var(--pc);opacity:.7}
-
-/* remembered Kamarupa outline */
-.mghost{fill:none;stroke:#e11d48;stroke-width:1.4;stroke-dasharray:2 5;stroke-linecap:round;vector-effect:non-scaling-stroke}
-.mghost.g1{stroke:#9f1239;stroke-dasharray:8 5}
-#mleg .sw.g0,#mleg .sw.g1{background:transparent;border:2px dotted var(--mc);width:14px;height:14px}
-#mleg .sw.g1{border-style:dashed}
-.mapfig.no-kamarupa #mghost{display:none}
-#mleg.no-kam .gh{display:none}
-.pvw[hidden],#mpleg[hidden]{display:none}
+.mapframe{display:block;width:100%;height:calc(100vh - 64px);min-height:520px;border:0;background:#fff}

@@ -1,8 +1,8 @@
 /* Offline support. The app shell and data are cached on install; images are cached as they are viewed.
    VERSION is rewritten by tools/build.py whenever the site files change. */
-const VERSION = '30b8813723';
+const VERSION = '8480ebbcab';
 const SHELL = `shell-${VERSION}`, IMAGES = 'images-v1', MAX_IMAGES = 400;
-const FILES = ['./', 'index.html', 'assets/app.css', 'assets/polygon-clipping.umd.min.js', 'assets/app.js', 'data/site.js', 'favicon.svg', 'manifest.webmanifest'];
+const FILES = ['./', 'index.html', 'assets/app.css', 'assets/app.js', 'data/site.js', 'favicon.svg', 'manifest.webmanifest'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(SHELL).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));

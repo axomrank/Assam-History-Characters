@@ -94,7 +94,7 @@ Local only (git-ignored; see `AGENTS.md` for the full map):
 masters/     lossless PNG originals of the published sheets and scenes (sheets/<id>/, scenes/<era>/)
 drafts/      anything held back from publishing
 research/    all research, sources, prompts and notes, by dynasty (varman, salastambha, pala, ahom, image-library)
-images/      generated scene/object library, 825 real photographs with licences, face crops
+map/         the Map tab: the Assam Through Time atlas (self-contained static app)
 reels/       the 49 Ahom reels (web/) and their editing projects (studio/)
 incoming/    drop folder for new images
 INDEX.csv    one row per image or document in the project

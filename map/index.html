@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assam Through Time</title>
+<meta name="description" content="Explore every year of Assam's history from 350 CE to today: how kingdoms rose, reached their height and gave way to the next.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="app/explore.css?v=modular-20261104-1">
+</head>
+<body>
+<header class="top">
+  <h1>Assam Through Time <span class="sub">350 CE – today</span></h1>
+  <button id="statehoodStart">Separation & statehood</button><button id="colonialStart">British expansion & states</button><button id="bengalStart">Bengal & Koch Hajo</button><button id="sankardevaStart">▶ Sankardeva’s path</button><a href="sankardeva.html">All pilgrimage locations ↗</a><button id="panelToggle">Details ↔</button><button id="timelineToggle">Timeline ↕</button><label class="toggle"><input type="checkbox" id="modernToggle" checked> Today's borders</label>
+</header>
+
+<main class="layout">
+  <section class="mapbox" aria-label="Map">
+    <svg id="map" role="group" aria-label="Map of Assam and its kingdoms in the selected year"></svg>
+    <div class="zoom">
+      <button id="zin" aria-label="Zoom in">+</button>
+      <button id="zout" aria-label="Zoom out">−</button>
+      <button id="zfit" aria-label="Show whole map">⤢</button>
+    </div>
+    <div id="tip" class="tip" role="status" aria-live="polite" hidden></div>
+    <div id="mapChange" class="map-change" hidden aria-live="polite"></div>
+    <button id="ratnaChip" class="ratna-chip" aria-label="Show Paundravardhana phase details"></button>
+    <button id="journeyChip" class="journey-chip" hidden>1215–1228 · Mong Mao → Patkai · reconstructed ↗</button>
+    <button id="sankardevaChip" class="journey-chip sankardeva-chip" hidden></button>
+    <div id="colonialLegend" class="colonial-legend" hidden><span id="legendBritish"><i class="legend-british"></i> Direct British administration</span><span id="legendProtected"><i class="legend-protected"></i> British protection / paramountcy</span><span id="legendIndia" hidden><i id="legendIndiaSwatch" class="legend-india"></i><span id="legendIndiaText">India · state / central administration</span></span><span id="legendUT" hidden><i class="legend-ut"></i> Indian Union Territory</span><span id="legendAccession" hidden><i class="legend-accession"></i> Accession to India · internal government retained</span><span id="legendIndianProtection" hidden><i class="legend-accession"></i> Indian protectorate · Sikkim</span><span><i class="legend-context"></i> Regional context; extent approximate</span></div>
+    <div class="yearbig" aria-hidden="true"><span id="yearBig"></span><small id="eraBig"></small></div>
+  </section>
+
+  <aside class="panel" id="panel" aria-live="polite"></aside>
+</main>
+
+<section class="time" aria-label="Timeline">
+  <div class="controls">
+    <button id="play" class="play" aria-label="Play">▶</button>
+    <button id="prev" title="Previous change on the map (Page Up)">◀ change</button>
+    <div class="yearctl">
+      <button id="yminus" aria-label="One year back">−</button>
+      <input id="yearIn" type="number" min="350" max="2026" aria-label="Year">
+      <button id="yplus" aria-label="One year forward">+</button>
+    </div>
+    <button id="next" title="Next change on the map (Page Down)">change ▶</button>
+    <select id="colourMode" aria-label="Map colours"><option value="states" selected>States & territories</option><option value="affiliation">Political affiliation</option></select>
+    <select id="speed" aria-label="Playback speed">
+      <option value="140">Slow</option>
+      <option value="45" selected>Normal</option>
+      <option value="12">Fast</option>
+    </select>
+  </div>
+  <div class="chart" id="chart">
+    <div class="eras" id="eras"></div>
+    <div class="rows" id="rows"></div>
+    <div class="cursor" id="cursor"><span id="cursorYear"></span></div>
+    <div class="axis" id="axis"></div>
+  </div>
+  <p class="hint">Bands track approximate mapped territory; thin traces and locality patches indicate uncertain centres, not measured possessions. Tap a river to see its name. Click or drag anywhere on the bands to travel in time.</p>
+</section>
+
+<script src="data/generated/atlas.js?v=modular-20261104-1"></script>
+<script src="app/sankardeva-journey.js?v=modular-20261104-1"></script>
+<script src="app/map-appearance.js?v=modular-20261104-1"></script>
+<script src="app/core/navigation.js?v=modular-20261104-1"></script>
+<script src="app/core/model.js?v=modular-20261104-1"></script>
+<script src="app/features/colonial/cards.js?v=modular-20261104-1"></script>
+<script src="app/features/growth/cards.js?v=modular-20261104-1"></script>
+<script src="app/features/kamarupa/cards.js?v=modular-20261104-1"></script>
+<script src="app/ui/panel.js?v=modular-20261104-1"></script>
+<script src="app/map/interaction.js?v=modular-20261104-1"></script>
+<script src="app/map/renderer.js?v=modular-20261104-1"></script>
+<script src="app/timeline/renderer.js?v=modular-20261104-1"></script>
+<script src="app/explore.js?v=modular-20261104-1"></script>
+</body>
+</html>

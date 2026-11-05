@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<title>Sankardeva · journeys through time</title>
+<link rel="stylesheet" href="app/sankardeva.css?v=modular-20261104-1">
+<header>
+<h1>Sankardeva · journeys, 1449–1568</h1>
+<a href="index.html#y=1449&k=bhuyan">← Historical atlas</a>
+<a href="data/features/sankardeva/sankardeva-routes.csv">Route CSV</a>
+</header>
+<nav>
+<button id="play">▶ Play</button>
+<input id="year" type="range" min="1449" max="1568" value="1449">
+<input id="number" type="number" min="1449" max="1568" value="1449">
+<select id="view">
+<option value="assam">Assam and Koch region</option>
+<option value="india">All pilgrimage locations</option>
+</select>
+<span>Routes reveal gradually by year; dashed connectors are schematic, not exact roads or river channels.</span>
+</nav>
+<main>
+<section>
+<svg id="map" viewBox="0 0 1000 620" role="group" aria-label="Sankardeva route map">
+</svg>
+<p class="note">Red: locality evidence and adopted migration sequence. Blue: pilgrimage reference sites. Pilgrimage routes use illustrative visit order and pacing; individual visit years are unknown. Click a pin for its qualification.</p>
+</section>
+<aside id="panel">
+</aside>
+</main>
+<script src="app/sankardeva-journey.js?v=modular-20261104-1">
+</script>
+<script src="app/core/datasets.js?v=modular-20261104-1">
+</script>
+<script src="app/sankardeva-page.js?v=modular-20261104-1">
+</script>
+</html>
